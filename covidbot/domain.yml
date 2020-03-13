@@ -1,0 +1,15 @@
+intents:
+  - greet
+  - bye
+  - ask_faq: {triggers: respond_ask_faq}
+
+actions:
+  - utter_greet
+  - utter_bye
+  - respond_ask_faq
+
+responses:
+  utter_greet:
+    - text: Hi
+  utter_bye:
+    - text: Bye!
