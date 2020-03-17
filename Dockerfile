@@ -1,4 +1,4 @@
-FROM python:3.8.2-slim-buster as base
+FROM python:3.7.7-slim-buster as base
 
 FROM base as builder
 
@@ -23,9 +23,9 @@ RUN \
 
 # install dependencies
 
-COPY pyproject.toml ./
+COPY pyproject.toml poetry.lock ./
 
-RUN poetry install --no-root -vvv
+RUN poetry install --no-dev --no-root -vvv
 
 FROM base as final
 
