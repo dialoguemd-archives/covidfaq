@@ -37,6 +37,6 @@ WORKDIR /app
 
 COPY --from=builder /usr/local/ /usr/local/
 COPY . .
-RUN rasa train -d data/domain.yml --out models -c policies.yml
+RUN rasa train -d domain.yml --out models -c config.yml
 
 ENTRYPOINT exec rasa run --enable-api --endpoints configs/endpoints.yml --connector rasa_stack.IOChannel --port ${PORT}
