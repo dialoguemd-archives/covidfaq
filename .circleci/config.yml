@@ -1,0 +1,125 @@
+version: 2.1
+
+orbs:
+  base: dialogue/base@1.7.1
+  docker: dialogue/docker@1.6.1
+  k8s: dialogue/k8s@3.0.2
+  release: dialogue/release@2.1.4
+
+workflows:
+  ci:
+    jobs:
+      - release/release:
+          name: release
+          context: org-global-v2
+      - docker/build_image:
+          name: build-image
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
+      - docker/push_tags:
+          name: push-image-tags
+          requires:
+            - build-image
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
+      - deploy:
+          name: deploy-dev-ca2
+          place: ca2
+          requires:
+            - push-image-tags
+          filters:
+           branches:
+             ignore: master
+          context: org-global-v2
+
+  release:
+    jobs:
+      - docker/build_image:
+          name: build-release-image
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
+          context: org-global-v2
+      - docker/push_tags:
+          name: push-release-image-tags
+          requires:
+            - build-release-image
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
+          context: org-global-v2
+      - deploy:
+          name: deploy-prod-ca-us
+          place: ca
+          region: us-east-1
+          requires:
+            - push-release-image-tags
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
+          context: org-global-v2
+
+jobs:
+  deploy:
+    parameters:
+      stage:
+        type: string
+        default: "${CIRCLE_BRANCH_STAGE}"
+      place:
+        type: string
+      cluster:
+        type: string
+        default: apps
+      region:
+        type: string
+        default: "${AWS_DEFAULT_REGION}"
+    executor: base/launchpad
+    steps:
+      - k8s/setup:
+          cluster: <<parameters.cluster>>
+          stage: <<parameters.stage>>
+          place: <<parameters.place>>
+          region: <<parameters.region>>
+      - run:
+          name: Deploy
+          command: |
+            set -x
+
+            log "install rasa-x helm repository"
+            helm repo add rasa-x https://rasahq.github.io/rasa-x-helm
+
+            log "refresh rasa-x helm repository"
+            helm repo update
+
+            log "found a secrets manifest at ${secrets_path}"
+            helm plugin install https://github.com/futuresimple/helm-secrets
+
+            _PARAM_STAGE="<<parameters.stage>>"
+            _PARAM_PLACE="<<parameters.place>>"
+            _APP_NAME="${CIRCLE_PROJECT_REPONAME}"
+            _NAMESPACE="${_APP_NAME}"
+
+            _VERSION="$CIRCLE_SHA1_SHORT"
+
+            if [ "$CIRCLE_GIT_TAG" ]; then
+              _VERSION="$CIRCLE_GIT_TAG"
+            fi
+
+            helm secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
+              --values deploy/app.yml \
+              --values deploy/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yml \
+              --values deploy/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
+              --namespace="${_NAMESPACE}" \
+              --install \
+              --wait \
+              --timeout 300

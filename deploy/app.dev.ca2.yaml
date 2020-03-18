@@ -1,5 +1,4 @@
 ingress:
-  enabled: true
   annotations:
     acme.cert-manager.io/http01-edit-in-place: "true"
     acme.cert-manager.io/http01-ingress-class: "true"
@@ -14,10 +13,10 @@ ingress:
     nginx.ingress.kubernetes.io/proxy-next-upstream-timeout: 30s
     nginx.ingress.kubernetes.io/proxy-next-upstream-tries: "3"
   hosts:
-    - host: rasa-x.dev.dialoguecorp.com
+    - host: covidfaq.dev.dialoguecorp.com
       paths:
       - /
   tls:
-   - secretName: rasa-x.dev.dialoguecorp.com-tls
+   - secretName: covidfaq.dev.dialoguecorp.com-tls
      hosts:
-       - rasa-x.dev.dialoguecorp.com
+       - covidfaq.dev.dialoguecorp.com
