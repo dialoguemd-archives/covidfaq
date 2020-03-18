@@ -116,8 +116,8 @@ jobs:
             fi
 
             helm secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
-              --values deploy/app.yml \
-              --values deploy/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yml \
+              --values deploy/app.yaml \
+              --values deploy/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
               --values deploy/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
               --namespace="${_NAMESPACE}" \
               --install \
