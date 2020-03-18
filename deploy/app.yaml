@@ -1,2 +1,35 @@
 ingress:
   enabled: true
+
+nodeSelector:
+  "dialoguecorp.com/covidbot": "true"
+
+tolerations:
+  - key: "dialoguecorp.com/covidbot"
+    operator: "Exists"
+
+rabbitmq:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+redis:
+  master:
+    nodeSelector:
+      "dialoguecorp.com/covidbot": "true"
+
+    tolerations:
+      - key: "dialoguecorp.com/covidbot"
+        operator: "Exists"
+
+postgresql:
+  master:
+    nodeSelector:
+      "dialoguecorp.com/covidbot": "true"
+
+    tolerations:
+      - key: "dialoguecorp.com/covidbot"
+        operator: "Exists"
