@@ -116,6 +116,8 @@ jobs:
             fi
 
             helm secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
+              --set rasa.name="${DOCKER_REGISTRY}/${_APP_NAME}" \
+              --set-string rasa.tag = "$_VERSION" \
               --values deploy/app.yaml \
               --values deploy/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
               --values deploy/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
