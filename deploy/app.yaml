@@ -9,6 +9,8 @@ app:
       operator: "Exists"
 
 rasa:
+  additionalChannelCredentials:
+    rest:
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
