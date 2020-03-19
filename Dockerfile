@@ -8,5 +8,6 @@ ENV \
 COPY data /app/data
 COPY domain.yml /app
 COPY config.yml /app
+COPY credentials.yml /app
 
 RUN rasa train -d domain.yml --out models -c config.yml --quiet
