@@ -1,6 +1,13 @@
 ingress:
   enabled: true
 
+app:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
 rasa:
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
