@@ -11,6 +11,7 @@ app:
 rasa:
   additionalChannelCredentials:
     rest:
+      potatoes: tomatoes
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
