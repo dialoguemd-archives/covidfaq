@@ -238,3 +238,92 @@
 - Est-ce que je peux ne plus recevoir de salaire
 - Mon salaire sera-t-il coupé
 - Est-ce que je serai au chômage
+
+## intent: ask_faq/ask_1personnes-a-risque
+- Est-ce que les visites dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial pour les aînés et les adultes vulnérables ainsi que dans les résidences privées pour aînés sont permises?
+- Je peux-tu aller voir mon père au foyer ?
+- Est-ce que je peux aller voir ma mère malade à l'hôpital
+- Puis-je accompagner ma femme à l'hopital si elle accouche?
+- Mon père de 80 ans veut aller voir sa femme au foyer? Est-ce correct ?
+- je peux-tu aller voir ma mère à sa résidence pour personne agées
+- Est-ce possible de faire des visites en CHSLD?
+- Est-ce que je peux aller visiter une amie à la maternité? 
+- Est-ce conseillé d'aller visiter les gens hospitalisés?
+- Est-ce que je peux aller voir mes grands-parents dans leur résidence de personnes âgées ?
+
+## intent: ask_faq/ask_2personnes-a-risque
+- Est-il possible d’aller livrer de la nourriture ou des biens essentiels à des personnes qui sont dans les hôpitaux, les CHSLD, les ressources intermédiaires, de type familial pour les aînés et les adultes vulnérables et les résidences privées pour aînés?
+- Je peux-tu aller porter de la nourriture à ma mère à sa résidence
+- Est-ce que je peux aller porter de la nourriture à ma mère à son foyer
+- Ma mère a besoin de linge propre à l'hôpital, est-ce que je peux lui en amener
+- Je peux-tu aller porter les médicaments de mon oncle qui vient d'entrer à l'hôpital
+- Est-ce possible d'apporter des effets personnelles à mon père en CHSLD?
+- À qui puis-je donner les effets de ma mère pour qu'elle les reçoivent?
+- Est-ce que c'est correct d'aller livrer de la nourriture à nos aînés ?
+- Est-ce que je peux donner à manger à ma grand-mère
+- Est-ce que je peux donner à manger à mon grand-père
+- Est-ce que je peux livrer de la nourriture à l'hôpital
+
+## intent: ask_faq/ask_3personnes-a-risque
+- Est-ce qu’une personne peut, par exemple, se rendre à l’hôpital pour visiter un proche qui est mourant?
+- Ma mère se meure, je peux aller la voir?
+- Mon père a pris du pire, je peux aller au foyer le voir ?
+- Ma soeur est en phase terminale, j'aimerais aller la voir. Est-ce possible ?
+- Ma mère de 90 ans veut aller voir sa dernière soeur mourante ?
+- Maman est très malade, on ne sait combien de temps elle va durer, je veux aller la voir 
+- Est-ce que les soins paliatifs sont accessible?
+- Puis-je aller voir ma grand-mère mourrante?
+- Est-ce que je peux aller visiter quelqu'un en phase terminale à l'hôpital ?
+- Est-il possible de visiter quelqu'un en train de mourir
+
+## intent: ask_faq/ask_4personnes-a-risque
+- Est-ce que les personnes de 70 ans et plus peuvent sortir à l’extérieur de leur domicile, notamment pour se rendre à leurs rendez-vous médicaux?
+- J'ai un rendez-vous chez le docteur, je peux y aller?
+- Ma femme a un rendez-vous chez le docteur, je peux aller avec elle?
+- Je dois voir le cardiologue ?
+- Je dois voir le docteur ?
+- Est-ce que je peux sortir dehors ?
+- Je peux-tu aller prendre une marche avec ma femme ?
+- Ai-je le droit d'aller prendre l'air?
+- Est-ce possible de sortir pour des loisirs si ma mère à plus de 70 ans?
+- Est-ce que je peux aller prendre une marche?
+- Est-ce que je peux aller à l'épicerie ?
+
+## intent: ask_faq/ask_5personnes-a-risque
+- Est-il possible d’aller porter de la nourriture ou des biens essentiels à des personnes âgées qui habitent encore dans leur maison?
+- Ma mère habite seul, est-ce que je peux faire son épicerie et aller lui porter ?
+- Je peux aller porter des plats que j'ai cuisinés pour mes parents ?
+- Si je tousse, est-ce que je peux aller porter des repas fait maison à ma voisine?
+- Si je reviens de voyage, est-ce conseillé d'aller faire l'épicerie pour mes parents et aller leur porter?
+- Puis-je aller faire l'épicerie pour ma voisine âgée?
+- Est-ce que c'est possible de faire les commissions de ma mère et d'aller les porter chez elle?
+- Est-ce que je peux faire la commande de ma grand-mère et la lui livrer?
+- Est-ce possible de faire le marché de ma grande tante et aller la porter chez elle?
+- Est-ce possible d'aller porter chez mes parents leur prescription de médicaments?
+
+## intent: ask_faq/ask_6personnes-a-risque
+- Les femmes enceintes sont-elles à risque?
+- Je suis enceinte, est-ce qu'il y a un danger?
+- Je suis enceinte de 3 mois, est-ce dangeureux pour le foetus
+- J'arrive de voyage, et je suis enceinte. Dois-aller passer le test même si je n'ai pas de symptome ?
+- Je veux aller passer le test car j'arrive de voyage pour le bureau et je tousse, ma blonde est enceinte, est-ce dangeureux ?
+- Je suis enceinte et une personne au bureau a dû être testée. J'ai été en contact avec elle avant qu'elle découvre. Suis-je à risque ?
+- Est-ce que c'est plus dangereux pour les femmes enceintes ?
+- Est-ce que j'ai plus de chances d'attraper le virus si je suis enceinte ?
+- Est-ce que le virus peut se transmettre au foetus?
+- Quels sont les précautions à prendre si je suis enceinte?
+- Est-ce que mon bébé à naître peur attrapper la COVID-19?
+
+## intent: ask_faq/ask_7personnes-a-risque
+- Les enfants sont-ils moins à risque?
+- Les enfants peuvent-ils l'attrapper ?
+- Mes enfants jouent souvent avec les enfants de la voisine pis elle arrive d'une croisière. Que dois-je faire ?
+- Je suis en quarantaine volontaire car j'ai voyagé durant la semaine de relâche avec eux, qu'est-ce qui se passe avec les enfants ?
+- Au début, on s'est organisé entre amis pour garder nos enfants à tour de rôle pour pouvoir travailler à la maison. Est-ce une bonne idée ?
+- Est-ce que les enfants sont immunisés ?
+- Est-ce vrai que les enfants ne peuvent pas l'attraper ?
+- Ma mère gardait les enfants avant les annonces et elle arrivait d'une croisière, est-ce que les enfants sont à risque ?
+- Est-ce que les directives d'isolement s'adressent aussi aux enfants ?
+- Que faire si je pense que mon enfant a attrappé le virus ?
+- Est-ce vrai que les enfants ont moins de chance de l'attraper ?
+

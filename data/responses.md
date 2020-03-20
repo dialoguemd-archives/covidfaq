@@ -66,3 +66,30 @@
 * ask_faq/ask_7emploi
   - Si une personne salariée ne fournit pas de prestation de travail (par exemple en télétravail), l’employeur n’a pas l'obligation de la rémunérer. Les employeurs sont toutefois invités à faire preuve de compréhension et de souplesse dans les circonstances actuelles. Pour en savoir plus, il est possible de consulter le site Web de la CNESST.
 
+## 1personnes-a-risque
+* ask_faq/ask_1personnes-a-risque
+  - À compter du 13 mars 2020, les visites non essentielles dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial et les résidences privées visées pour aînés seront interdites afin de protéger les personnes les plus vulnérables ainsi que les travailleuses et travailleurs du réseau de la santé et des services sociaux. Dans le cas des naissances, l’autre parent, la personne significative ou le proche aidant identifié à cette fin n’est pas considéré comme un visiteur et peut accompagner la personne qui accouche.
+
+## 2personnes-a-risque
+* ask_faq/ask_2personnes-a-risque
+  - Il est possible d’aller livrer de la nourriture ou des biens essentiels dans des hôpitaux ou des résidences pour personnes âgées en évitant tout contact avec les personnes qui y sont et en quittant immédiatement après avoir remis la nourriture ou les biens à un membre du personnel à l’accueil. En tout temps, il importe de conserver une distance entre les personnes, d’éviter les contacts directs et de respecter les règles d’hygiène habituelles lorsque vous toussez ou éternuez.
+
+## 3personnes-a-risque
+* ask_faq/ask_3personnes-a-risque
+  - Oui. Les établissements de santé tolèrent les visites en cas de situations exceptionnelles ou humanitaires. Le gouvernement du Québec interdit les visites non essentielles.
+
+## 4personnes-a-risque
+* ask_faq/ask_4personnes-a-risque
+  - Les personnes de 70 ans et plus sont invitées à tenter de rester à la maison, sauf en cas de nécessité ou d’exception, comme pour se présenter à un rendez-vous médical important. Ces personnes peuvent également sortir prendre une marche en respectant les consignes sanitaires recommandées.
+
+## 5personnes-a-risque
+* ask_faq/ask_5personnes-a-risque
+  - ll est possible d’aller livrer de l’épicerie à une personne âgée ou une personne en situation d’immunodéficience uniquement si vous ne présentez aucun symptôme et ne revenez pas de voyage depuis moins de 14 jours. En tout temps, il importe de conserver une distance entre les personnes, d’éviter les contacts directs et de respecter les règles d’hygiène habituelles lorsque vous toussez ou éternuez.
+
+## 6personnes-a-risque
+* ask_faq/ask_6personnes-a-risque
+  - Selon l’Organisation mondiale de la santé, les femmes enceintes ne sont pas plus à risque de complications liées à la COVID-19 que les adultes en général. Les scientifiques mentionnent qu’il n’y a aucun risque connu de malformation ou de transmission mère-fœtus. Pour les femmes enceintes, les règles de prévention d’usage s’appliquent.
+
+## 7personnes-a-risque
+* ask_faq/ask_7personnes-a-risque
+  - Oui, les enfants sont moins à risque. Cependant, ils peuvent tout de même transmettre le virus. Ainsi, les directives visant à contenir la propagation du virus s’appliquent aussi aux enfants.
