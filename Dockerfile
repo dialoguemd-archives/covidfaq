@@ -10,9 +10,7 @@ COPY domain.yml /app
 COPY config.yml /app
 COPY credentials.yml /app
 
-RUN python -m spacy download fr_core_news_md
-RUN python -m spacy link fr_core_news_md fr
+RUN sudo python -m spacy download fr_core_news_md
+RUN sudo python -m spacy link fr_core_news_md fr
 
 RUN rasa train -d domain.yml --out models -c config.yml --quiet
-
-# delete spacy files?
