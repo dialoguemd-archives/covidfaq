@@ -97,7 +97,7 @@ jobs:
 
             log "install helm3"
             curl --silent --show-error --fail --location --output helm.tar.gz \
-              https://storage.googleapis.com/kubernetes-helm/helm-v3.1.2-linux-amd64.tar.gz \
+              https://get.helm.sh/helm-v3.1.2-linux-amd64.tar.gz \
               && tar -zxvf helm.tar.gz \
               && mv linux-amd64/helm /usr/local/bin/helm
 
