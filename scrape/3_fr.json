@@ -1,96 +1,43 @@
 {
-    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/",
-    "Différentes réactions possibles en contexte de pandémie relié au coronavirus (COVID-19)": {
-        "plaintext": [
-            "L’actuelle pandémie du coronavirus (COVID-19) constitue une réalité particulière et inhabituelle. Celle-ci peut affecter les personnes sur le plan physique, mais également sur le plan psychologique. En effet, dans un tel contexte, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Cette page se veut un outil pour vous aider à minimiser les répercussions de telles réactions dans votre vie."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  L’actuelle pandémie du coronavirus (COVID-19) constitue une réalité particulière et inhabituelle. Celle-ci peut affecter les personnes sur le plan physique, mais également sur le plan psychologique. En effet, dans un tel contexte, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Cette page se veut un outil pour vous aider à minimiser les répercussions de telles réactions dans votre vie.\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Qu’est-ce que le stress?": {
-        "plaintext": [
-            "Le stress est une réponse physiologique normale à une situation anormale; il fait partie intégrante de notre existence. Il permet à notre organisme de s’adapter aux multiples événements positifs ou négatifs que nous vivons, comme une naissance, un mariage, la perte d’un emploi, etc. Le stress apparaît et disparaît de lui-même, selon que l’on est en présence ou non de facteurs de stress (par exemple, si vous êtes stressé au travail, mais que ce stress s’atténue le soir ou la fin de semaine, on peut penser que des facteurs de stress sont reliés à votre travail)."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le stress est une réponse physiologique normale à une situation anormale; il fait partie intégrante de notre existence. Il permet à notre organisme de s’adapter aux multiples événements positifs ou négatifs que nous vivons, comme une naissance, un mariage, la perte d’un emploi, etc. Le stress apparaît et disparaît de lui-même, selon que l’on est en présence ou non de facteurs de stress (par exemple, si vous êtes stressé au travail, mais que ce stress s’atténue le soir ou la fin de semaine, on peut penser que des facteurs de stress sont reliés à votre travail).\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Qu'est-ce que l’anxiété?": {
-        "plaintext": [
-            "Contrairement à la peur qui est une réponse à une menace définie et bien réelle, l’anxiété est une réponse à une menace vague ou inconnue. L’anxiété se manifeste lorsque nous croyons qu’un événement dangereux ou malheureux peut survenir et que nous l’anticipons. Chaque personne peut vivre de l’anxiété à des degrés et à une intensité qui lui sont propres. Sa perception de l’événement aura une grande influence sur l’intensité de l’anxiété vécue."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Contrairement à la peur qui est une réponse à une menace définie et bien réelle, l’anxiété est une réponse à une menace vague ou inconnue. L’anxiété se manifeste lorsque nous croyons qu’un événement dangereux ou malheureux peut survenir et que nous l’anticipons. Chaque personne peut vivre de l’anxiété à des degrés et à une intensité qui lui sont propres. Sa perception de l’événement aura une grande influence sur l’intensité de l’anxiété vécue.\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Qu'est-ce que la déprime?": {
-        "plaintext": [
-            "Selon le Multidictionnaire de la langue française, « la déprime est un état passager de lassitude, de découragement et de tristesse ». La déprime peut se manifester de différentes façons, tant sur les plans physique que psychologique, et son intensité varie d’une personne à l’autre."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Selon le\n  <em>\n   Multidictionnaire de la langue française\n  </em>\n  , « la déprime est un état passager de lassitude, de découragement et de tristesse ». La déprime peut se manifester de différentes façons, tant sur les plans physique que psychologique, et son intensité varie d’une personne à l’autre.\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Manifestations possibles reliées au stress, à l’anxiété et à la déprime": {
-        "plaintext": [
-            "Les réactions de stress, d’anxiété et de déprime peuvent se manifester de plusieurs manières chez une personne, et ce, sur divers plans (physique, psychologique, émotionnel, comportemental)."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les réactions de stress, d’anxiété et de déprime peuvent se manifester de plusieurs manières chez une personne, et ce, sur divers plans (physique, psychologique, émotionnel, comportemental).\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Sur le plan physique": {
-        "plaintext": [
-            "Sensation d’étouffer, cœur qui bat plus vite, étourdissements, nauséesDifficultés de sommeil importantesDiminution de l’appétit marquée, pouvant être associée avec une perte de poidsManque d’énergie et fatigue marquée, épuisement"
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Sensation d’étouffer, cœur qui bat plus vite, étourdissements, nausées\n  </li>\n  <li>\n   Difficultés de sommeil importantes\n  </li>\n  <li>\n   Diminution de l’appétit marquée, pouvant être associée avec une perte de poids\n  </li>\n  <li>\n   Manque d’énergie et fatigue marquée, épuisement\n  </li>\n </ul>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Sur les plans psychologique et émotionnel": {
-        "plaintext": [
-            "Inquiétudes et insécurité en lien avec le virusSentiment d’être dépassé par les événements, impuissanceAvoir un discours intérieur n’étant pas toujours le reflet de la réalitéVision négative des choses ou des événements quotidiensPrésence de sentiments de découragement, d’insécurité, de tristesse, de colèreEtc."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Inquiétudes et insécurité en lien avec le virus\n  </li>\n  <li>\n   Sentiment d’être dépassé par les événements, impuissance\n  </li>\n  <li>\n   Avoir un discours intérieur n’étant pas toujours le reflet de la réalité\n  </li>\n  <li>\n   Vision négative des choses ou des événements quotidiens\n  </li>\n  <li>\n   Présence de sentiments de découragement, d’insécurité, de tristesse, de colère\n  </li>\n  <li>\n   Etc.\n  </li>\n </ul>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Sur le plan comportemental": {
-        "plaintext": [
-            "Difficulté à assumer les tâches quotidiennesÉvitement de toute personne extérieure de la maison en raison d’une crainte de contagionSurveillance constante des symptômes reliés au virusPleurs intenses et fréquentsIrritabilité et agressivité marquées, conflits avec l’entourageManque de concentrationAbus d’alcool, de drogues ou de médicaments"
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Difficulté à assumer les tâches quotidiennes\n  </li>\n  <li>\n   Évitement de toute personne extérieure de la maison en raison d’une crainte de contagion\n  </li>\n  <li>\n   Surveillance constante des symptômes reliés au virus\n  </li>\n  <li>\n   Pleurs intenses et fréquents\n  </li>\n  <li>\n   Irritabilité et agressivité marquées, conflits avec l’entourage\n  </li>\n  <li>\n   Manque de concentration\n  </li>\n  <li>\n   Abus d’alcool, de drogues ou de médicaments\n  </li>\n </ul>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Quelques moyens d’améliorer la situation": {
-        "plaintext": [
-            "Toutes ces manifestations reliées au stress, à l’anxiété et à la déprime sont normales dans un contexte de pandémie. La plupart des gens possèdent les ressources et les facultés pour s’adapter à ce type de situation. Comptez d’abord à vos façons habituelles de vous adapter aux situations difficiles. Voici également d’autres moyens pour vous aider à minimiser les répercussions de ces réactions dans votre quotidien."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Toutes ces manifestations reliées au stress, à l’anxiété et à la déprime sont normales dans un contexte de pandémie. La plupart des gens possèdent les ressources et les facultés pour s’adapter à ce type de situation. Comptez d’abord à vos façons habituelles de vous adapter aux situations difficiles. Voici également d’autres moyens pour vous aider à minimiser les répercussions de ces réactions dans votre quotidien.\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "S’informer": {
-        "plaintext": [
-            "Un manque d’information ou des informations contradictoires peuvent augmenter ces réactions.",
-            "Informez-vous à des sources d’information fiables, en consultant notamment la page Coronavirus (COVID-19) de Québec.ca, le site officiel du gouvernement du Québec.Méfiez-vous des nouvelles sensationnalistes provenant de sources peu connues ou douteuses; prenez le temps de valider l’information auprès des sources officielles reconnues;Bien qu’il soit important de vous informer adéquatement, limitez le temps passé à chercher de l’information au sujet de la COVID-19 et de ses conséquences, car une surexposition peut contribuer à augmenter vos réactions de stress, d’anxiété ou de déprime."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Un manque d’information ou des informations contradictoires peuvent augmenter ces réactions.\n </p>\n <ul>\n  <li>\n   Informez-vous à des sources d’information fiables, en consultant notamment la page\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/\">\n    Coronavirus (COVID-19)\n   </a>\n   de Québec.ca, le site officiel du gouvernement du Québec.\n  </li>\n  <li>\n   Méfiez-vous des nouvelles sensationnalistes provenant de sources peu connues ou douteuses; prenez le temps de valider l’information auprès des sources officielles reconnues;\n  </li>\n  <li>\n   Bien qu’il soit important de vous informer adéquatement, limitez le temps passé à chercher de l’information au sujet de la COVID-19 et de ses conséquences, car une surexposition peut contribuer à augmenter vos réactions de stress, d’anxiété ou de déprime.\n  </li>\n </ul>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Prendre soin de soi": {
-        "plaintext": [
-            "Demeurez attentif à vos sentiments, émotions et réactions, et donnez-vous la permission de les exprimer à une personne de confiance ou de les exprimer par le moyen de l’écriture, de l’activité physique ou autre;Pratiquez une activité physique qui vous permet d’évacuer votre stress et d’éliminer vos tensions;Adoptez de saines habitudes de vie telles qu’une bonne alimentation et des heures de sommeil suffisantes;Limitez les facteurs qui vous causent du stress;Accordez-vous de petits plaisirs (par exemple, écouter de la musique, prendre un bain chaud, lire, etc.);Restez en contact avec les gens qui vous font du bien;Rappelez-vous les stratégies gagnantes que vous avez déjà utilisées par le passé pour traverser une période difficile;Misez sur vos forces personnelles;Posez vos limites (par exemple, refusez une tâche que vous ne voulez pas faire et qui n’est pas essentielle);Apprenez à déléguer et à accepter l’aide des autres (par exemple, demander aux enfants de faire la vaisselle)."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Demeurez attentif à vos sentiments, émotions et réactions, et donnez-vous la permission de les exprimer à une personne de confiance ou de les exprimer par le moyen de l’écriture, de l’activité physique ou autre;\n  </li>\n  <li>\n   Pratiquez une activité physique qui vous permet d’évacuer votre stress et d’éliminer vos tensions;\n  </li>\n  <li>\n   Adoptez de saines habitudes de vie telles qu’une bonne alimentation et des heures de sommeil suffisantes;\n  </li>\n  <li>\n   Limitez les facteurs qui vous causent du stress;\n  </li>\n  <li>\n   Accordez-vous de petits plaisirs (par exemple, écouter de la musique, prendre un bain chaud, lire, etc.);\n  </li>\n  <li>\n   Restez en contact avec les gens qui vous font du bien;\n  </li>\n  <li>\n   Rappelez-vous les stratégies gagnantes que vous avez déjà utilisées par le passé pour traverser une période difficile;\n  </li>\n  <li>\n   Misez sur vos forces personnelles;\n  </li>\n  <li>\n   Posez vos limites (par exemple, refusez une tâche que vous ne voulez pas faire et qui n’est pas essentielle);\n  </li>\n  <li>\n   Apprenez à déléguer et à accepter l’aide des autres (par exemple, demander aux enfants de faire la vaisselle).\n  </li>\n </ul>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Quand devient-il nécessaire de chercher de l’aide?": {
-        "plaintext": [
-            "De façon générale, il est possible de surmonter les réactions de stress, d’anxiété et de déprime. Par contre, il se peut qu’après un certain temps (semaines ou mois), les malaises persistent et s’aggravent. Les signes qui suivent peuvent être un indicateur que votre état s’aggrave.",
-            "La présence de plusieurs de ces signes peut démontrer que vos ressources personnelles ne vous permettent plus de gérer vos inquiétudes au quotidien. Il pourrait alors être bénéfique pour vous d’aller chercher de l’aide."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  De façon générale, il est possible de surmonter les réactions de stress, d’anxiété et de déprime. Par contre, il se peut qu’après un certain temps (semaines ou mois), les malaises persistent et s’aggravent. Les signes qui suivent peuvent être un indicateur que votre état s’aggrave.\n </p>\n <p>\n  La présence de plusieurs de ces signes peut démontrer que vos ressources personnelles ne vous permettent plus de gérer vos inquiétudes au quotidien. Il pourrait alors être bénéfique pour vous d’aller chercher de l’aide.\n </p>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    },
-    "Sur le plan psychologique et émotionnel": {
-        "plaintext": [
-            "Anxiété et peurs envahissantesSensation de panique lorsque vous entendez parler du virusPensées négatives envahissantesPerte de plaisir et manque d’intérêt envers les activités que vous avez l’habitude d’apprécier"
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Anxiété et peurs envahissantes\n  </li>\n  <li>\n   Sensation de panique lorsque vous entendez parler du virus\n  </li>\n  <li>\n   Pensées négatives envahissantes\n  </li>\n  <li>\n   Perte de plaisir et manque d’intérêt envers les activités que vous avez l’habitude d’apprécier\n  </li>\n </ul>\n</div>",
-        "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
-    }
+    "Différentes réactions possibles en contexte de pandémie relié au coronavirus (COVID-19)": [
+        "L’actuelle pandémie du coronavirus (COVID-19) constitue une réalité particulière et inhabituelle. Celle-ci peut affecter les personnes sur le plan physique, mais également sur le plan psychologique. En effet, dans un tel contexte, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Cette page se veut un outil pour vous aider à minimiser les répercussions de telles réactions dans votre vie."
+    ],
+    "Qu’est-ce que le stress?": [
+        "Le stress est une réponse physiologique normale à une situation anormale; il fait partie intégrante de notre existence. Il permet à notre organisme de s’adapter aux multiples événements positifs ou négatifs que nous vivons, comme une naissance, un mariage, la perte d’un emploi, etc. Le stress apparaît et disparaît de lui-même, selon que l’on est en présence ou non de facteurs de stress (par exemple, si vous êtes stressé au travail, mais que ce stress s’atténue le soir ou la fin de semaine, on peut penser que des facteurs de stress sont reliés à votre travail)."
+    ],
+    "Qu'est-ce que l’anxiété?": [
+        "Contrairement à la peur qui est une réponse à une menace définie et bien réelle, l’anxiété est une réponse à une menace vague ou inconnue. L’anxiété se manifeste lorsque nous croyons qu’un événement dangereux ou malheureux peut survenir et que nous l’anticipons. Chaque personne peut vivre de l’anxiété à des degrés et à une intensité qui lui sont propres. Sa perception de l’événement aura une grande influence sur l’intensité de l’anxiété vécue."
+    ],
+    "Qu'est-ce que la déprime?": [
+        "Selon le Multidictionnaire de la langue française, « la déprime est un état passager de lassitude, de découragement et de tristesse ». La déprime peut se manifester de différentes façons, tant sur les plans physique que psychologique, et son intensité varie d’une personne à l’autre."
+    ],
+    "Manifestations possibles reliées au stress, à l’anxiété et à la déprime": [
+        "Les réactions de stress, d’anxiété et de déprime peuvent se manifester de plusieurs manières chez une personne, et ce, sur divers plans (physique, psychologique, émotionnel, comportemental)."
+    ],
+    "Sur le plan physique": [
+        "Sensation d’étouffer, cœur qui bat plus vite, étourdissements, nauséesDifficultés de sommeil importantesDiminution de l’appétit marquée, pouvant être associée avec une perte de poidsManque d’énergie et fatigue marquée, épuisement"
+    ],
+    "Sur les plans psychologique et émotionnel": [
+        "Inquiétudes et insécurité en lien avec le virusSentiment d’être dépassé par les événements, impuissanceAvoir un discours intérieur n’étant pas toujours le reflet de la réalitéVision négative des choses ou des événements quotidiensPrésence de sentiments de découragement, d’insécurité, de tristesse, de colèreEtc."
+    ],
+    "Sur le plan comportemental": [
+        "Difficulté à assumer les tâches quotidiennesÉvitement de toute personne extérieure de la maison en raison d’une crainte de contagionSurveillance constante des symptômes reliés au virusPleurs intenses et fréquentsIrritabilité et agressivité marquées, conflits avec l’entourageManque de concentrationAbus d’alcool, de drogues ou de médicaments"
+    ],
+    "Quelques moyens d’améliorer la situation": [
+        "Toutes ces manifestations reliées au stress, à l’anxiété et à la déprime sont normales dans un contexte de pandémie. La plupart des gens possèdent les ressources et les facultés pour s’adapter à ce type de situation. Comptez d’abord à vos façons habituelles de vous adapter aux situations difficiles. Voici également d’autres moyens pour vous aider à minimiser les répercussions de ces réactions dans votre quotidien."
+    ],
+    "S’informer": [
+        "Un manque d’information ou des informations contradictoires peuvent augmenter ces réactions.",
+        "Informez-vous à des sources d’information fiables, en consultant notamment la page Coronavirus (COVID-19) de Québec.ca, le site officiel du gouvernement du Québec.Méfiez-vous des nouvelles sensationnalistes provenant de sources peu connues ou douteuses; prenez le temps de valider l’information auprès des sources officielles reconnues;Bien qu’il soit important de vous informer adéquatement, limitez le temps passé à chercher de l’information au sujet de la COVID-19 et de ses conséquences, car une surexposition peut contribuer à augmenter vos réactions de stress, d’anxiété ou de déprime."
+    ],
+    "Prendre soin de soi": [
+        "Demeurez attentif à vos sentiments, émotions et réactions, et donnez-vous la permission de les exprimer à une personne de confiance ou de les exprimer par le moyen de l’écriture, de l’activité physique ou autre;Pratiquez une activité physique qui vous permet d’évacuer votre stress et d’éliminer vos tensions;Adoptez de saines habitudes de vie telles qu’une bonne alimentation et des heures de sommeil suffisantes;Limitez les facteurs qui vous causent du stress;Accordez-vous de petits plaisirs (par exemple, écouter de la musique, prendre un bain chaud, lire, etc.);Restez en contact avec les gens qui vous font du bien;Rappelez-vous les stratégies gagnantes que vous avez déjà utilisées par le passé pour traverser une période difficile;Misez sur vos forces personnelles;Posez vos limites (par exemple, refusez une tâche que vous ne voulez pas faire et qui n’est pas essentielle);Apprenez à déléguer et à accepter l’aide des autres (par exemple, demander aux enfants de faire la vaisselle)."
+    ],
+    "Quand devient-il nécessaire de chercher de l’aide?": [
+        "De façon générale, il est possible de surmonter les réactions de stress, d’anxiété et de déprime. Par contre, il se peut qu’après un certain temps (semaines ou mois), les malaises persistent et s’aggravent. Les signes qui suivent peuvent être un indicateur que votre état s’aggrave.",
+        "La présence de plusieurs de ces signes peut démontrer que vos ressources personnelles ne vous permettent plus de gérer vos inquiétudes au quotidien. Il pourrait alors être bénéfique pour vous d’aller chercher de l’aide."
+    ],
+    "Sur le plan psychologique et émotionnel": [
+        "Anxiété et peurs envahissantesSensation de panique lorsque vous entendez parler du virusPensées négatives envahissantesPerte de plaisir et manque d’intérêt envers les activités que vous avez l’habitude d’apprécier"
+    ]
 }
