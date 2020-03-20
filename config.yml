@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: fr
+language: en # eventually switch to fr, but for now we have trouble installing spacy fr in the docker image
 pipeline:
   - name: SpacyNLP
   - name: SpacyTokenizer
