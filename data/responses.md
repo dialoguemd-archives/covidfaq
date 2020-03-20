@@ -93,3 +93,39 @@
 ## 7personnes-a-risque
 * ask_faq/ask_7personnes-a-risque
   - Oui, les enfants sont moins à risque. Cependant, ils peuvent tout de même transmettre le virus. Ainsi, les directives visant à contenir la propagation du virus s’appliquent aussi aux enfants.
+
+## 1symptomes-prevention
+* ask_faq/ask_1symptomes-prevention
+  - Les principaux symptômes de la COVID‑19 sont les suivants Fièvre, Toux, Difficultés respiratoires. Les symptômes peuvent être légers (similaires à un rhume) ou plus sévères (tels que ceux associés à la pneumonie et à l’insuffisance pulmonaire ou rénale).
+  
+## 2symptomes-prevention
+* ask_faq/ask_2symptomes-prevention
+  - Habituellement, la COVID‑19 infecte le nez, la gorge et les poumons. Elle se propage le plus souvent par un contact étroit avec une personne infectée lorsque cette personne tousse ou éternue;un contact des mains avec des surfaces infectées puis avec la bouche, le nez ou les yeux.
+
+## 3symptomes-prevention
+* ask_faq/ask_3symptomes-prevention
+  - En général, la COVID‑19 ne survit pas longtemps sur les objets 3 heures environ sur les objets avec de surfaces sèches;6 jours sur des objets avec des surfaces humides.
+
+## 4symptomes-prevention
+* ask_faq/ask_4symptomes-prevention
+  - Les masques ne constituent pas un outil de protection efficace pour la population générale au Québec. Leur utilisation est plutôt indiquée pour les patients chez qui une infection est suspectée ainsi que pour les professionnels de la santé qui les soignent.
+
+## 5symptomes-prevention
+* ask_faq/ask_5symptomes-prevention
+  - Il n'existe pas de traitement spécifique ni de vaccin pour la COVID-19 pour l’instant. La plupart des personnes atteintes du virus se rétablissent par elles‑mêmes en restant à la maison, sans avoir besoin d’aller à l’hôpital.
+
+## 6symptomes-prevention
+* ask_faq/ask_6symptomes-prevention
+  - Il n'existe pas de traitement spécifique ni de vaccin pour la COVID-19 pour l’instant. La plupart des personnes atteintes du virus se rétablissent par elles‑mêmes en restant à la maison, sans avoir besoin d’aller à l’hôpital. 
+
+## 7symptomes-prevention
+* ask_faq/ask_7symptomes-prevention
+  - Le confinement est l’une des mesures qui permettra de réduire la propagation de la COVID-19. Les personnes âgées de 70 ans et plus ainsi que celles souffrant de maladies chroniques sont invitées à rester à la maison, sauf en cas de nécessité ou d’exception, comme pour se présenter à un rendez-vous médical important. Les visites dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial ainsi que les résidences privées pour aînés sont interdites jusqu’à nouvel ordre. Pour les personnes en bonne santé, il est recommandé d’éviter le plus possible les rassemblements, notamment dans des lieux fermés, et de respecter les consignes sanitaires de base. 
+
+## 8symptomes-prevention
+* ask_faq/ask_8symptomes-prevention
+  - Pour le moment, la propagation de la COVID‑19 est sous contrôle au Québec, mais la situation doit être surveillée de près. Le gouvernement du Québec prend toutes les mesures nécessaires pour freiner le plus possible la contagion.
+
+## 9symptomes-prevention
+* ask_faq/ask_9symptomes-prevention
+  - Oui, les services de santé fournis par correspondance ou par voie de télécommunication seront désormais couverts par la RAMQ. Cette couverture inclut, par exemple, une consultation avec un médecin par téléphone.

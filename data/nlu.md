@@ -327,3 +327,108 @@
 - Que faire si je pense que mon enfant a attrappé le virus ?
 - Est-ce vrai que les enfants ont moins de chance de l'attraper ?
 
+## intent: ask_faq/ask_1symptomes-prevention
+- Quels sont les principaux symptômes associés à la COVID‑19?
+- Quels sont les symptômes associés à la COVID-19?
+- Quels sont les symptômes de la COVID-19?
+- Comment reconnaitre la COVID-19?
+- Est-ce que la fièvre est un symptôme de la COVID-19 ?
+- Est-ce que la toux est un symptôme de la COVID-19 ?
+- Est-ce que les difficultés respiratoires sont un symptôme de la COVID-19 ?
+- Est-ce que les symptômes du coronavirus s'apparentent à ceux de la grippe ?
+- Quelle sont les effets de la COVID-19 ?
+- Quelles sont les effets du coronavirus ?
+- Comment savoir que j'ai le covid
+
+## intent: ask_faq/ask_2symptomes-prevention
+- Comment se transmet la COVID‑19?
+- De quelle façon se transmet la COVID-19 ?
+- Comment je peux attraper la COVID-19 ?
+- Quelle est la manière d'attraper la COVID-19 ?
+- Par quel moyen puis-je développer la COVID-19 ?
+- Quels sont les facteurs de transmission de la COVID-19 ?
+- Quels sont les moyens d'être atteint de la COVID-19 ?
+- Comment se transmet le virus?
+- Quelles sont les parties du corps infecté par le virus?
+- Que quel façon transmet-on le virus?
+
+## intent: ask_faq/ask_3symptomes-prevention
+- Combien de temps la COVID‑19 survit-elle sur des objets?
+- Quel est le temps de survi du virus sur les surfaces ?
+- Est-ce que je peux attraper le virus en allant aux toilettes ?
+- Est-ce que le virus survit sur les objets ?
+- Peut-il y avoir la COVID-19 sur une poignée de porte ?
+- Est-ce que la COVID-19 peut être sur mes vêtements ?
+- Est-ce que la COVID-19 demeure longtemps sur les objets qui nous entourent ?
+- Est-ce que je peux attraper le virus en touchant à des objets ?
+- Combien de temps survis le virus ?
+- Est-ce que le virus meurt sur les objets
+- Est-ce que le virus survie dans l'air
+
+## intent: ask_faq/ask_4symptomes-prevention
+- Est-ce que le port d’un masque est efficace pour me protéger contre la COVID‑19?
+- Dois-je porter un masque pour me protéger ?
+- Est-ce nécessaire de porter un masque par prévention ?
+- Est-ce que le port du masque protège contre la COVID-19 ?
+- Le port d'un masque va-t-il m'empêcher d'avoir la COVID-19 ?
+- Est-ce que je devrais porter un masque par mesure de prévention ?
+- Les masques sont-ils efficaces pour ne pas attraper le coronavirus ?
+- Est-ce qu'il est préférable de porter un masque pour éviter d'avoir le virus ?
+- Est-ce que je dois porter un masque pour aller à l'épicerie ?
+- Est-ce que le masque peut m'empêcher t'attrapper le virus?
+- ESt-ce que le masque est efficace pour se protéger de la COVID-19
+
+## intent: ask_faq/ask_5symptomes-prevention
+- Existe-t-il un traitement contre la COVID‑19?
+- Comment soigner la COVID-19 ?
+- Est-ce qu'un vaccin sur la COVID-19 existe ?
+- Que peut-on faire pour nous soigner lorsque nous avons la COVID-19 ?
+- Quel est le traitement pour guérir de la COVID-19 ?
+- Quel est le médicament pour traiter la COVID-19 ?
+- Existe-t-il un médicament pour me soigner ?
+- Est-ce que je peux avoir une pilule pour soigner la COVID-19 ?
+- Quelle est la solution pour le traitement de la maladie ?
+- Est-ce que le médecin peut me soigner ?
+- Est-ce que la COVID-19 se soigne?
+
+## intent: ask_faq/ask_6symptomes-prevention
+- Existe-t-il un traitement contre la COVID‑19?
+
+## intent: ask_faq/ask_7symptomes-prevention
+- Est-il préférable pour une personne de s’isoler et de rester à la maison pour les semaines à venir même si elle ne revient pas de voyage?
+- Est-ce nécessaire de s'isoler lorsqu'on ne revient pas de voyage ? 
+- Est-ce que les 70 ans et plus doivent rester à la maison ? 
+- Est-ce possible de faire des visites en CHSLD ?
+- Comment réduire la propagration de la COVID-19 ?
+- Est-ce qu'une personne en santé doit s'isoler même si elle ne revient pas de voyage ?
+- Si je suis atteint d'une maladie chronique, est-ce obligatoire de m'isoler puisque je ne reviens pas de voyage ?
+- Si je ne reviens pas de voyage et que je suis en santé et que j'ai moins de 70 ans, est-ce que je peux continuer mes activités habituelles ?
+- Est-ce obligatoire de rester à la maison lorsqu'on ne revient pas de voyage ?
+- Pour quelle raison doit-on rester à la maison si on ne revient pas de voyage ?
+- Je ne reviens pas de voyage, est-ce que je dois m'isoler et rester à la maison ?
+
+## intent: ask_faq/ask_8symptomes-prevention
+- Dois-je m’inquiéter de la situation entourant la COVID‑19?
+- Est-ce que la situation concernant la COVID-19 est inquiétante?
+- Est-ce que la situation de la COVID-19 est sous contrôle? 
+- Est-ce que j'ai raison d'être angoissée face à la situation concernant la COVID-19 ?
+- Je suis inquiet, est-ce normal ?
+- Ai-je raison d'être inquiet ?
+- Est-ce que je devrais avoir peur de la situation concernant la COVID-19 ?
+- Est-ce que je dois être inquiet ?
+- Est-ce que le coronavirus est dangereux
+- Est-ce que je dois avoir peur du Coronavirus
+- Pourquoi les gens s'inquiète du coronavirus
+
+## intent: ask_faq/ask_9symptomes-prevention
+- Est-ce que les services de santé fournis par des moyens de télécommunication sont couverts par la RAMQ?
+- Est-ce que la RAMQ couvre les services de santé qui proviennent des services de télécommunication?
+- Si je rencontre mon médecin par téléphone, est-ce que ses services seront couverts par la RAMQ ?
+- Si je reçois une ordonnance par mon médecin, est-ce que je dois assumer ses honoraires ?
+- Est-ce que je dois payer pour recevoir des services de mon médecin via des services de télécommunication ?
+- Qui paiera les honoraires de mon médecin si je dois faire une consultation téléphonique ?
+- Est-ce que la RAMQ couvre les services de santé lors d'une téléconsultation ?
+- Qui assume les honoraires du médecin si je dois le consulter par un service de télécommunication ?
+- Qui paye pour les rendez-vous de santé à distance
+- Qui paye pour l'accès aux services de télémédecine
+- Est-ce que la télémédecine est couverte par la RAMQ
