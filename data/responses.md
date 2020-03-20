@@ -129,3 +129,19 @@
 ## 9symptomes-prevention
 * ask_faq/ask_9symptomes-prevention
   - Oui, les services de santé fournis par correspondance ou par voie de télécommunication seront désormais couverts par la RAMQ. Cette couverture inclut, par exemple, une consultation avec un médecin par téléphone.
+
+## 1lieux-publiques
+* ask_faq/ask_1lieux-publiques
+  - Le gouvernement du Québec demande aux propriétaires des restaurants de limiter les clients à 50 % de la capacité des salles, soit une table sur deux. Les restaurants de style buffet ainsi que les cabanes à sucre devront cependant fermer leurs portes temporairement.
+
+## 2lieux-publiques
+* ask_faq/ask_2lieux-publiques
+  - Non. Les épiceries et les pharmacies demeurent ouvertes.
+
+## 3lieux-publiques
+* ask_faq/ask_3lieux-publiques
+  - Chaque personne est invitée à limiter au maximum la durée de ses présences dans les lieux publics. Si une personne se rend dans un lieu public, elle est invitée à respecter les consignes sanitaires habituelles.
+
+## 4lieux-publiques
+* ask_faq/ask_4lieux-publiques
+  - Concernant les lieux de cultes, tous les rassemblements religieux de quelque confession que ce soit devront idéalement être suspendus, à moins d'être essentiels. Dans ce cas, la distanciation sociale devra être observée.

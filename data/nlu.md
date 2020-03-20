@@ -432,3 +432,55 @@
 - Qui paye pour les rendez-vous de santé à distance
 - Qui paye pour l'accès aux services de télémédecine
 - Est-ce que la télémédecine est couverte par la RAMQ
+
+## intent: ask_faq/ask_1lieux-publiques
+- Est-ce que les restaurants peuvent demeurer ouverts?
+- Quels sont les restrictions liées aux restaurants?
+- Est-ce que les buffets sont ouverts? 
+- Est-ce que des mesures ont été mises en place pour les restaurateurs?
+- Est-ce qu'on peut aller au restaurant ?
+- Mon restaurant préféré est fermé. Doit-il ouvrir ?
+- Est-ce que les restaurants restent ouverts
+- Quels sont les restaurants qui resteront ouverts
+- Est-ce que tous les restaurants vont fermer
+- Combien de restaurants vont fermer
+- Je veux aller au resto, est-ce que c'est possible
+
+## intent: ask_faq/ask_2lieux-publiques
+- Est-ce que les fermetures de lieux publics annoncées par le gouvernement du Québec concernent les épiceries et les pharmacies?
+- Est-ce que les pharmacies et les épiceries vont fermer?
+- Est-ce que les fermetures de commerces touchent les pharmacies et les épiceries?
+- Devont nous prévoir une fermeture des épiceries et des pharmacies? 
+- Est-ce que mon épicerie va fermer
+- Est-ce que ma pharmacie va fermer
+- Est-ce que la fermetures des lieux publics incluent les épiceries et les pharmacies
+- Est-ce que tous les lieux publics ferment
+- Quels sont les lieux publics qui demeureront ouverts
+- Est-ce que des commerces resteront ouverts
+- Quels sont les commerces qui resteront ouverts
+
+## intent: ask_faq/ask_3lieux-publiques
+- Est-il préférable d’éviter tous les lieux publics?
+- Devons-nous sortir de la maison? 
+- est-il sécuritaire de sortir de la maison? 
+- Que dois-je prendre des mesures particulières dans un lieu public? 
+- Est-ce que je dois rester chez moi
+- Dois-je rester dans ma maison
+- Est-ce que je peux sortir de la maison
+- Est-ce que je peux sortir de chez moi
+- Est-ce que tous les lieux publics sont dangereux
+- Suis-je en danger de sortir de chez moi
+- Est-ce que les lieux publics sont risqués
+
+## intent: ask_faq/ask_4lieux-publiques
+- Les lieux de culte (églises, mosquées, synagogues, etc.) devront-ils faire l’objet de fermetures?
+- Puis-je aller à la messe le dimanche? 
+- Est-que la mosquée est ouverte? 
+- Dois-je reporter mon baptême? 
+- Est-ce que les lieux de culte sont ouvert?
+- Est-ce que les services religieux essentiels peuvent avoir lieu? 
+- Est-ce que je peux me rendre à la synagogue? 
+- Est-ce que je peux aller à la messe
+- Est-ce que la messe sera annulée
+- Est-ce que je pourrai me rendre prier à l'Église
+- Est-ce que je pourrai me rendre prier à la mosquée
