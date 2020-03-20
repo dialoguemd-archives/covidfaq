@@ -95,6 +95,12 @@ jobs:
           command: |
             set -x
 
+            log "install helm3"
+            curl --silent --show-error --fail --location --output helm.tar.gz \
+              https://storage.googleapis.com/kubernetes-helm/helm-v3.1.2-linux-amd64.tar.gz \
+              && tar -zxvf helm.tar.gz \
+              && mv linux-amd64/helm /usr/local/bin/helm
+
             log "install rasa-x helm repository"
             helm repo add rasa-x https://rasahq.github.io/rasa-x-helm
 
@@ -125,4 +131,4 @@ jobs:
               --install \
               --version 1.2.1 \
               --wait \
-              --timeout 600
+              --timeout 600s

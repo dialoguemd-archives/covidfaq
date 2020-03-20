@@ -10,7 +10,7 @@ app:
 
 rasa:
   additionalChannelCredentials:
-    rest: null
+    rest:
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
