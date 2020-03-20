@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: fr
 pipeline:
   - name: "WhitespaceTokenizer"
   - name: "CountVectorsFeaturizer"
