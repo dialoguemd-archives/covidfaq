@@ -593,3 +593,58 @@
 - Si je suis obligé d'annuler mon voyage, est-ce qu'un dédommagement est prévu ?
 - Je veux me faire rembourser mes dépenses pour mon voyage annulé, est-ce que c'est possible
 - J'aimerais être remboursé pour mon voyage
+
+## intent: ask_faq/ask_1nourriture
+- Est-ce la COVID-19 peut entraîner une pénurie de nourriture?
+- Va-t-on manquer de provisions ?
+- J'ai peur de manquer de nourriture
+- Quelles sont les probabilités que nous manquions de nourriture
+- La nourriture pourrait-elle être en pénurie
+- Dois-je commencer à faire des provisions? 
+- est-ce qu'il y a des chances que la nourriture soit rationnaliser?
+- allons-nous devoir faire des réserves de nouriture en prévision d'une pénurie?
+- Est-ce possible que les épiceries ne soit plus approvisionnées?
+- Va-t-on manquer à manger
+- Dois-je faire des réserves
+
+## intent: ask_faq/ask_1transport
+- Est-ce que la population peut continuer à utiliser le transport en commun?
+- Est-il possible d'utiliser l'autobus
+- Puis-je utiliser l'autobus
+- Puis-je utiliser le métro
+- Est-il dangereux de prendre l'autobus
+- Devrais-je arrêter de prendre le transport en commun
+- Est-ce que je devrais stoper l'autobus
+- Est-ce qu'il faut arrêter de prendre le transport en commun
+- Est-ce que l'autobus est rendue dangeuse
+- Est-ce qu'il faut avoir peur des transports en commun
+- Est-ce que je devrais arrêter de prendre le métro
+- Le transport en commun est-il interdit
+- L'autobus fonctionne toujours?
+- Est-ce dangereux de prendre le transport en commun?
+
+## intent: ask_faq/ask_1etat-urgence
+- En quoi consiste l’état d’urgence sanitaire?
+- C'est quoi ça mange en hiver l'état d'urgence sanitaire
+- C'est quoi ça l'état d'urgence
+- Qu'est-ce que l'État d'urgence
+- Qu'est-ce que l'on veut dire par État d'urgence
+- État d'urgence quoi?
+- Que dois-je faire pour l'état d'urgence
+- Que dois-je faire pour l'État sanitaire
+- Est-ce que l'armée peut intervenir dans un état d'urgence
+- L'état d'urgence, c'est quoi?
+- Pourquoi on fait l'État d'urgence
+
+## intent: ask_faq/ask_2etat-urgence
+- Est-ce la première fois que le Québec déclare un état d’urgence sanitaire?
+- Est-ce qu'on a déjà déclaré l'État d'urgence
+- C'est notre premier état d'urgence
+- A-t-on déjà déclaré l'État d'urgence
+- Est-ce que ça arrive souvent que l'on déclare l'état d'urgence
+- Déclare-t-on souvent l'état d'urgence au Québec
+- Combien de fois a-t-on déclaré l'état d'urgence
+- Est-ce l'on déclare l'état d'urgence à chaque épidémie
+- Combien d'autres fois le Québec est entrain en état sanitaire
+- Ça arrive souvent l'état d'urgence
+- Combien de fois avant aujourd'hui le Québec est-il entré en état d'urgence

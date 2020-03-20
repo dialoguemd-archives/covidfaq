@@ -182,3 +182,18 @@
 * ask_faq/ask_9voyageurs-isoloment-volontaire
   - Pour l’instant, il n’y a pas de programme prévu pour le remboursement des programmes de voyage à l’étranger. Chacun doit voir avec son agence de voyages ou son assurance voyage.
 
+## 1nourriture
+* ask_faq/ask_1nourriture
+  - Non. Il n’y a pas lieu de craindre une pénurie de nourriture.
+
+## 1transport
+* ask_faq/ask_1transport
+  - Les services de transport en commun demeurent opérationnels et représentent un service essentiel pour permettre, notamment, au personnel du réseau de la santé et des services sociaux de se déplacer. Les sociétés de transport du Québec ont accentué la fréquence de l’entretien de leurs véhicules et installations. Les usagers sont tout de même invités à appliquer les consignes sanitaires habituelles. De plus, les usagers sont invités, dans la mesure du possible, à modifier leurs horaires habituels de façon à limiter les foules présentes dans le transport en commun aux heures de pointe.
+
+## 1etat-urgence
+* ask_faq/ask_1etat-urgence
+  - Un état d’urgence sanitaire peut être déclaré lorsqu’une menace à la santé de la population exige l’application immédiate de certaines mesures. Il permet au gouvernement du Québec et à la ministre de la Santé et des Service sociaux de disposer des pouvoirs nécessaires pour mettre en place l’ensemble des mesures visant à assurer la protection de la santé de la population. La ministre de la Santé et des Services sociaux pourraient, par exemple, procéder sans délai à l’achat d’équipements ou conclure les contrats nécessaires pour protéger la santé de la population.
+
+## 2etat-urgence
+* ask_faq/ask_2etat-urgence
+  - Oui. Cette mesure exceptionnelle démontre la volonté du gouvernement du Québec de se doter des moyens nécessaires pour protéger la population.
