@@ -36,38 +36,38 @@ workflows:
              ignore: master
           context: org-global-v2
 
-  release:
-    jobs:
-      - docker/build_image:
-          name: build-release-image
-          filters:
-            tags:
-              only: /^v.*/
-            branches:
-              ignore: /.*/
-          context: org-global-v2
-      - docker/push_tags:
-          name: push-release-image-tags
-          requires:
-            - build-release-image
-          filters:
-            tags:
-              only: /^v.*/
-            branches:
-              ignore: /.*/
-          context: org-global-v2
-      - deploy:
-          name: deploy-prod-ca-us
-          place: ca
-          region: us-east-1
-          requires:
-            - push-release-image-tags
-          filters:
-            tags:
-              only: /^v.*/
-            branches:
-              ignore: /.*/
-          context: org-global-v2
+  # release:
+  #   jobs:
+  #     - docker/build_image:
+  #         name: build-release-image
+  #         filters:
+  #           tags:
+  #             only: /^v.*/
+  #           branches:
+  #             ignore: /.*/
+  #         context: org-global-v2
+  #     - docker/push_tags:
+  #         name: push-release-image-tags
+  #         requires:
+  #           - build-release-image
+  #         filters:
+  #           tags:
+  #             only: /^v.*/
+  #           branches:
+  #             ignore: /.*/
+  #         context: org-global-v2
+  #     - deploy:
+  #         name: deploy-prod-ca-us
+  #         place: ca
+  #         region: us-east-1
+  #         requires:
+  #           - push-release-image-tags
+  #         filters:
+  #           tags:
+  #             only: /^v.*/
+  #           branches:
+  #             ignore: /.*/
+  #         context: org-global-v2
 
 jobs:
   deploy:
