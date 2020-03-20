@@ -99,7 +99,7 @@ jobs:
             curl --silent --show-error --fail --location --output helm.tar.gz \
               https://get.helm.sh/helm-v3.1.2-linux-amd64.tar.gz \
               && tar -zxvf helm.tar.gz \
-              && mv linux-amd64/helm /usr/local/bin/helm3
+              && sudo mv linux-amd64/helm /usr/local/bin/helm3
 
             log "check helm version"
             helm3 version
