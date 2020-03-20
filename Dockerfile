@@ -1,4 +1,4 @@
-FROM rasa/rasa:1.8.1-full
+FROM rasa/rasa:1.8.2-full
 
 ENV \
   PYTHONFAULTHANDLER=TRUE \

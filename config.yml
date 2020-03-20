@@ -2,6 +2,7 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: fr
 pipeline:
+  - name: "SpacyNLP"
   - name: "WhitespaceTokenizer"
   - name: "CountVectorsFeaturizer"
   - name: "DIETClassifier"
