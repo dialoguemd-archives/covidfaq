@@ -110,8 +110,11 @@ jobs:
             log "refresh rasa-x helm repository"
             helm3 repo update
 
-            log "found a secrets manifest at ${secrets_path}"
+            log "install plugins"
             helm3 plugin install https://github.com/futuresimple/helm-secrets
+            helm3 plugin install https://github.com/thomastaylor312/helm-namespace
+
+
 
             _PARAM_STAGE="<<parameters.stage>>"
             _PARAM_PLACE="<<parameters.place>>"
@@ -124,7 +127,7 @@ jobs:
               _VERSION="$CIRCLE_GIT_TAG"
             fi
 
-            helm3 secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
+            helm3 namespace secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
               --set rasa.name="${DOCKER_REGISTRY}/${_APP_NAME}" \
               --set-string rasa.tag="$_VERSION" \
               --values deploy/app.yaml \
