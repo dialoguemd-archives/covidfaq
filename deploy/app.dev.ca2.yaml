@@ -12,6 +12,7 @@ ingress:
     nginx.ingress.kubernetes.io/proxy-next-upstream: error timeout non_idempotent
     nginx.ingress.kubernetes.io/proxy-next-upstream-timeout: 30s
     nginx.ingress.kubernetes.io/proxy-next-upstream-tries: "3"
+    nginx.ingress.kubernetes.io/proxy-body-size: 250m
   hosts:
     - host: covidfaq.dev.dialoguecorp.com
       paths:

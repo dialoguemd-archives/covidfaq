@@ -6,7 +6,7 @@ authors = ["Dialogue <devs@dialogue.co>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-rasa = "^1.8"
+rasa = {extras = ["spacy"], version = "^1.8.2"}
 tensorflow-estimator = "2.1.0"
 
 [tool.poetry.dev-dependencies]
