@@ -101,6 +101,9 @@ jobs:
               && tar -zxvf helm.tar.gz \
               && mv linux-amd64/helm /usr/local/bin/helm
 
+            log "check helm version"
+            helm version
+
             log "install rasa-x helm repository"
             helm repo add rasa-x https://rasahq.github.io/rasa-x-helm
 
