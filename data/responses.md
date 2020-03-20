@@ -1,83 +1,199 @@
-## corona virus
-* ask_faq/ask_coronavirus
-  - Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.
+## 0ecole-garderie
+* ask_faq/ask_0ecole-garderie
+  - Non. Le gouvernement paiera la contribution parentale ainsi que la subvention aux services de garde, pour toute la période de deux semaines. Pour ce qui est d’un parent dont l’enfant fréquente un service de garde non subventionné, il n’y aura pas de frais de garde pendant cette période de deux semaines.
 
-## name
-* ask_faq/ask_name
-  - On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”. There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused be a novel (or new) coronavirus that has not previously been seen in humans. The name of this disease was selected following the World Health Organization (WHO) best practiceexternal icon for naming of new human infectious diseases.
+## 1ecole-garderie
+* ask_faq/ask_1ecole-garderie
+  - Oui. Des mesures seront annoncées ultérieurement.
 
-## what is it
-* ask_faq/ask_what
-  - COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
+## 2ecole-garderie
+* ask_faq/ask_2ecole-garderie
+  - Oui. Les employés seront payés comme à l’habitude.
 
-## symptoms
-* ask_faq/ask_symptoms
-  - The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.
+## 3ecole-garderie
+* ask_faq/ask_3ecole-garderie
+  - Dans le secteur public, les travailleurs continueront d’être payés et seront invités à faire du télétravail lorsque possible. Pour le secteur privé, les employeurs sont invités à faire preuve de flexibilité. Des mesures de dédommagement seront mises en place et annoncées ultérieurement.
 
-## spread
-* ask_faq/ask_spread
-  - People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick. WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings.
+## 4ecole-garderie
+* ask_faq/ask_4ecole-garderie
+  - Le gouvernement du Québec évalue la situation en temps réel afin d’agir de façon prioritaire pour préserver la santé des Québécoises et Québécois. Si une telle décision est prise, les personnes concernées en seront informées en temps et lieu.
 
-## protect
-* ask_faq/ask_protect
-  - Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions: Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. Why? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease. Avoid touching eyes, nose and mouth. Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick. Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately. Why? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. Why? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections. Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely). If possible, avoid traveling to places  – especially if you are an older person or have diabetes, heart or lung disease. Why? You have a higher chance of catching COVID-19 in one of these areas.
+## 5ecole-garderie
+* ask_faq/ask_5ecole-garderie
+  - Pour le moment, les journées ne seront pas reprises. Le gouvernement du Québec demande aux enseignants d’apporter les ajustements nécessaires dans leurs horaires scolaires. Des directives additionnelles seront émises en temps et lieu.
 
-## likely
-* ask_faq/ask_likely
-  - The risk depends on where you  are - and more specifically, whether there is a COVID-19 outbreak unfolding there. For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19. COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. It’s important to be aware of the situation where you are or intend to go. WHO publishes daily updates on the COVID-19 situation worldwide. You can see these at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/
+## 6ecole-garderie
+* ask_faq/ask_6ecole-garderie
+  - Tous les services offerts dans le réseau de l’enseignement seront fermés du lundi 16 mars au vendredi 27 mars. Cette fermeture concerne les écoles primaires et secondaires, les centres de formation, les écoles privées, les cégeps ainsi que les collèges et universités.
 
-## worry
-* ask_faq/ask_worry
-  - Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones. We can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings. Learn more about how to protect yourself at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
+## 7ecole-garderie
+* ask_faq/ask_7ecole-garderie
+  - Le Québec est en situation d’urgence. C’est pourquoi le gouvernement du Québec prend dès maintenant les mesures nécessaires pour réduire les risques de propagation. Il s’agit d’une une décision responsable, prise en fonction des recommandations des autorités de la Direction de la Santé publique, qui permettra de réduire au maximum les risques pour la population du Québec.
 
-## risk
-* ask_faq/ask_risk
-  - While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. 
+## 1service-de-garde-urgence
+* ask_faq/ask_1service-de-garde-urgence
+  - Il est possible de prendre connaissance des procédures dans la page Services de garde d’urgence.
 
-## antibio
-* ask_faq/ask_antibio
-  - No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. 
+## 2service-de-garde-urgence
+* ask_faq/ask_2service-de-garde-urgence
+  - Les heures d’ouverture actuellement prévues sont du lundi au vendredi, de 7 h à 18 h.
 
-## medecines
-* ask_faq/ask_medecines
-  - While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available.
+## 1emploi
+* ask_faq/ask_1emploi
+  - Consultez la liste des emplois et services essentiels.
 
-## vacine
-* ask_faq/ask_vaccine
-  - Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care. Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19. The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing. (See Basic protective measures against the new coronavirus).
+## 2emploi
+* ask_faq/ask_2emploi
+  - Les personnes qui reviennent de voyage ne doivent pas se rendre à leur lieu de travail. Les personnes qui ne reviennent pas de voyage et qui ne présentent aucun symptôme sont invités à se rendre à leur lieu de travail et à respecter les règles d’hygiène habituelles. Les personnes qui ne reviennent pas de voyage et qui présentent des symptômes similaires au rhume et à la grippe sont invités à faire preuve de bon sens et d’évaluer la pertinence de se rendre à leur travail en fonction de leur état.
 
-## sars
-* ask_faq/ask_sars
-  - No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003.
+## 3emploi
+* ask_faq/ask_3emploi
+  - Ces décisions sont prises en charge par les directions des ressources humaines des différents ministères, qui reçoivent l’information du Secrétariat du Conseil du trésor. Les besoins et la capacité d’offrir la possibilité de travailler à distance diffère en fonction des ministères et organismes.
 
-## mask
-* ask_faq/ask_mask
-  - Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so WHO urges people to use masks wisely. WHO advises rational use of medical masks to avoid unnecessary wastage of precious resources and mis-use of masks  (see Advice on the use of masks). The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing. See basic protective measures against the new coronavirus for more information.
+## 4emploi
+* ask_faq/ask_4emploi
+  - Oui, l'employeur doit prendre toutes les mesures nécessaires pour protéger la santé et assurer la sécurité et l’intégrité physique du travailleur comme le prévoit l'article 51 de la Loi sur la santé et la sécurité du travail (LSST).
 
-## use_mask
-* ask_faq/ask_use_mask
-  - Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough. Before touching the mask, clean hands with an alcohol-based hand rub or soap and water Take the mask and inspect it for tears or holes. Orient which side is the top side (where the metal strip is). Ensure the proper side of the mask faces outwards (the coloured side). Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose. Pull down the mask’s bottom so it covers your mouth and your chin. After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask. Discard the mask in a closed bin immediately after use. Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water.
+## 5emploi
+* ask_faq/ask_5emploi
+  - Oui. Vous avez le droit de vous absenter de votre travail, sans salaire, en raison d'une maladie ou d’un accident. Si vous avez 3 mois de service continu, vous avez la possibilité de bénéficier d’un maximum de 2 jours de congé payés, au cours d’une même année.
 
-## incubation
-* ask_faq/ask_incubation
-  - The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available.
+## 6emploi
+* ask_faq/ask_6emploi
+  - Dans le cas d’un refus de travail, un inspecteur de la CNESST déterminera dans les plus brefs délais s’il existe un danger ou non sur les lieux de travail en question.
 
-## animals
-* ask_faq/ask_animals
-  - Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed. To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products.
+## 7emploi
+* ask_faq/ask_7emploi
+  - Si une personne salariée ne fournit pas de prestation de travail (par exemple en télétravail), l’employeur n’a pas l'obligation de la rémunérer. Les employeurs sont toutefois invités à faire preuve de compréhension et de souplesse dans les circonstances actuelles. Pour en savoir plus, il est possible de consulter le site Web de la CNESST.
 
-## pet
-* ask_faq/ask_pet
-  - While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19. COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks. To protect yourself, clean your hands frequently and thoroughly. WHO continues to monitor the latest research on this and other COVID-19 topics and will update as new findings are available.
+## 1personnes-a-risque
+* ask_faq/ask_1personnes-a-risque
+  - À compter du 13 mars 2020, les visites non essentielles dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial et les résidences privées visées pour aînés seront interdites afin de protéger les personnes les plus vulnérables ainsi que les travailleuses et travailleurs du réseau de la santé et des services sociaux. Dans le cas des naissances, l’autre parent, la personne significative ou le proche aidant identifié à cette fin n’est pas considéré comme un visiteur et peut accompagner la personne qui accouche.
 
-## surface
-* ask_faq/ask_surface
-  - It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose.
+## 2personnes-a-risque
+* ask_faq/ask_2personnes-a-risque
+  - Il est possible d’aller livrer de la nourriture ou des biens essentiels dans des hôpitaux ou des résidences pour personnes âgées en évitant tout contact avec les personnes qui y sont et en quittant immédiatement après avoir remis la nourriture ou les biens à un membre du personnel à l’accueil. En tout temps, il importe de conserver une distance entre les personnes, d’éviter les contacts directs et de respecter les règles d’hygiène habituelles lorsque vous toussez ou éternuez.
 
-## package
-* ask_faq/ask_package
-  - Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. 
+## 3personnes-a-risque
+* ask_faq/ask_3personnes-a-risque
+  - Oui. Les établissements de santé tolèrent les visites en cas de situations exceptionnelles ou humanitaires. Le gouvernement du Québec interdit les visites non essentielles.
 
-## not
-* ask_faq/ask_not
-  - The following measures ARE NOT effective against COVID-2019 and can be harmful: Smoking, Wearing multiple masks, Taking antibiotics (See question 10 "Are there any medicines of therapies that can prevent or cure COVID-19?"). In any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider.
+## 4personnes-a-risque
+* ask_faq/ask_4personnes-a-risque
+  - Les personnes de 70 ans et plus sont invitées à tenter de rester à la maison, sauf en cas de nécessité ou d’exception, comme pour se présenter à un rendez-vous médical important. Ces personnes peuvent également sortir prendre une marche en respectant les consignes sanitaires recommandées.
+
+## 5personnes-a-risque
+* ask_faq/ask_5personnes-a-risque
+  - ll est possible d’aller livrer de l’épicerie à une personne âgée ou une personne en situation d’immunodéficience uniquement si vous ne présentez aucun symptôme et ne revenez pas de voyage depuis moins de 14 jours. En tout temps, il importe de conserver une distance entre les personnes, d’éviter les contacts directs et de respecter les règles d’hygiène habituelles lorsque vous toussez ou éternuez.
+
+## 6personnes-a-risque
+* ask_faq/ask_6personnes-a-risque
+  - Selon l’Organisation mondiale de la santé, les femmes enceintes ne sont pas plus à risque de complications liées à la COVID-19 que les adultes en général. Les scientifiques mentionnent qu’il n’y a aucun risque connu de malformation ou de transmission mère-fœtus. Pour les femmes enceintes, les règles de prévention d’usage s’appliquent.
+
+## 7personnes-a-risque
+* ask_faq/ask_7personnes-a-risque
+  - Oui, les enfants sont moins à risque. Cependant, ils peuvent tout de même transmettre le virus. Ainsi, les directives visant à contenir la propagation du virus s’appliquent aussi aux enfants.
+
+## 1symptomes-prevention
+* ask_faq/ask_1symptomes-prevention
+  - Les principaux symptômes de la COVID‑19 sont les suivants Fièvre, Toux, Difficultés respiratoires. Les symptômes peuvent être légers (similaires à un rhume) ou plus sévères (tels que ceux associés à la pneumonie et à l’insuffisance pulmonaire ou rénale).
+  
+## 2symptomes-prevention
+* ask_faq/ask_2symptomes-prevention
+  - Habituellement, la COVID‑19 infecte le nez, la gorge et les poumons. Elle se propage le plus souvent par un contact étroit avec une personne infectée lorsque cette personne tousse ou éternue;un contact des mains avec des surfaces infectées puis avec la bouche, le nez ou les yeux.
+
+## 3symptomes-prevention
+* ask_faq/ask_3symptomes-prevention
+  - En général, la COVID‑19 ne survit pas longtemps sur les objets 3 heures environ sur les objets avec de surfaces sèches;6 jours sur des objets avec des surfaces humides.
+
+## 4symptomes-prevention
+* ask_faq/ask_4symptomes-prevention
+  - Les masques ne constituent pas un outil de protection efficace pour la population générale au Québec. Leur utilisation est plutôt indiquée pour les patients chez qui une infection est suspectée ainsi que pour les professionnels de la santé qui les soignent.
+
+## 5symptomes-prevention
+* ask_faq/ask_5symptomes-prevention
+  - Il n'existe pas de traitement spécifique ni de vaccin pour la COVID-19 pour l’instant. La plupart des personnes atteintes du virus se rétablissent par elles‑mêmes en restant à la maison, sans avoir besoin d’aller à l’hôpital.
+
+## 6symptomes-prevention
+* ask_faq/ask_6symptomes-prevention
+  - Il n'existe pas de traitement spécifique ni de vaccin pour la COVID-19 pour l’instant. La plupart des personnes atteintes du virus se rétablissent par elles‑mêmes en restant à la maison, sans avoir besoin d’aller à l’hôpital. 
+
+## 7symptomes-prevention
+* ask_faq/ask_7symptomes-prevention
+  - Le confinement est l’une des mesures qui permettra de réduire la propagation de la COVID-19. Les personnes âgées de 70 ans et plus ainsi que celles souffrant de maladies chroniques sont invitées à rester à la maison, sauf en cas de nécessité ou d’exception, comme pour se présenter à un rendez-vous médical important. Les visites dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial ainsi que les résidences privées pour aînés sont interdites jusqu’à nouvel ordre. Pour les personnes en bonne santé, il est recommandé d’éviter le plus possible les rassemblements, notamment dans des lieux fermés, et de respecter les consignes sanitaires de base. 
+
+## 8symptomes-prevention
+* ask_faq/ask_8symptomes-prevention
+  - Pour le moment, la propagation de la COVID‑19 est sous contrôle au Québec, mais la situation doit être surveillée de près. Le gouvernement du Québec prend toutes les mesures nécessaires pour freiner le plus possible la contagion.
+
+## 9symptomes-prevention
+* ask_faq/ask_9symptomes-prevention
+  - Oui, les services de santé fournis par correspondance ou par voie de télécommunication seront désormais couverts par la RAMQ. Cette couverture inclut, par exemple, une consultation avec un médecin par téléphone.
+
+## 1lieux-publiques
+* ask_faq/ask_1lieux-publiques
+  - Le gouvernement du Québec demande aux propriétaires des restaurants de limiter les clients à 50 % de la capacité des salles, soit une table sur deux. Les restaurants de style buffet ainsi que les cabanes à sucre devront cependant fermer leurs portes temporairement.
+
+## 2lieux-publiques
+* ask_faq/ask_2lieux-publiques
+  - Non. Les épiceries et les pharmacies demeurent ouvertes.
+
+## 3lieux-publiques
+* ask_faq/ask_3lieux-publiques
+  - Chaque personne est invitée à limiter au maximum la durée de ses présences dans les lieux publics. Si une personne se rend dans un lieu public, elle est invitée à respecter les consignes sanitaires habituelles.
+
+## 4lieux-publiques
+* ask_faq/ask_4lieux-publiques
+  - Concernant les lieux de cultes, tous les rassemblements religieux de quelque confession que ce soit devront idéalement être suspendus, à moins d'être essentiels. Dans ce cas, la distanciation sociale devra être observée.
+
+## 1voyageurs-isoloment-volontaire
+* ask_faq/ask_1voyageurs-isoloment-volontaire
+  - Un isolement volontaire de 14 jours est recommandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.  Cet isolement est obligatoire pour tous les employés de la fonction publique et pour tout le personnel de la santé, de l’éducation et des services de garde, privés et publics, qui reviennent de l’étranger.  Les personnes qui sont en isolement volontaire doivent rester à la maison, surveiller leurs symptômes et appeler au 1 877 644-4545 si elles ont de la toux ou de la fièvre. Certaines pratiques sont également recommandées si elles habitent avec d’autres personnes qui n’ont pas voyagé. Pour plus de détails sur les consignes à suivre, se référer à la "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46341".
+
+## 2voyageurs-isoloment-volontaire
+* ask_faq/ask_2voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec invite les employeurs à faire preuve de compréhension et de souplesse envers un employé qui revient de voyage ou qui présente des symptômes.
+
+## 3voyageurs-isoloment-volontaire
+* ask_faq/ask_3voyageurs-isoloment-volontaire
+  - Les personnes qui sont en isolement volontaire doivent rester à la maison, surveiller leurs symptômes et appeler au 1 877 644-4545 si elles ont de la toux ou de la fièvre. Certaines pratiques sont également recommandées si elles habitent avec d’autres personnes qui n’ont pas voyagé. Pour plus de détails sur les consignes à suivre, se référer à la section Consignes sanitaires.
+
+## 4voyageurs-isoloment-volontaire
+* ask_faq/ask_4voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec suggère aux personnes qui sont à l’étranger de revenir au pays dans la mesure du possible. Le Gouvernement du Canada, dans sa section Conseil aux voyageurs et avertissements, recommande aux personnes qui sont à l’extérieur du pays de se renseigner sur les options commerciales qui s’offrent à elles pour revenir au Canada et de revenir plus tôt que prévu si ces options deviennent plus limitées.
+
+## 5voyageurs-isoloment-volontaire
+* ask_faq/ask_5voyageurs-isoloment-volontaire
+  - Pour obtenir cette information, il conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada.
+
+## 6voyageurs-isoloment-volontaire
+* ask_faq/ask_6voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec demande d’annuler les voyages qui ne sont pas essentiels. Si une personne part tout de même en voyage, il est d’abord conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada. Également, un isolement volontaire est demandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.
+
+## 7voyageurs-isoloment-volontaire
+* ask_faq/ask_7voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec demande d’annuler les voyages qui ne sont pas essentiels. Si une personne part tout de même en voyage, il est d’abord conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada. Également, un isolement volontaire est demandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.
+
+## 8voyageurs-isoloment-volontaire
+* ask_faq/ask_8voyageurs-isoloment-volontaire
+  - Les camionneurs et le personnel navigant sur les avions et sur les bateaux n’ont pas à se mettre en isolement, étant donné le rôle important qu’ils jouent dans le transport de marchandises de première nécessité, comme la nourriture.
+
+## 9voyageurs-isoloment-volontaire
+* ask_faq/ask_9voyageurs-isoloment-volontaire
+  - Pour l’instant, il n’y a pas de programme prévu pour le remboursement des programmes de voyage à l’étranger. Chacun doit voir avec son agence de voyages ou son assurance voyage.
+
+## 1nourriture
+* ask_faq/ask_1nourriture
+  - Non. Il n’y a pas lieu de craindre une pénurie de nourriture.
+
+## 1transport
+* ask_faq/ask_1transport
+  - Les services de transport en commun demeurent opérationnels et représentent un service essentiel pour permettre, notamment, au personnel du réseau de la santé et des services sociaux de se déplacer. Les sociétés de transport du Québec ont accentué la fréquence de l’entretien de leurs véhicules et installations. Les usagers sont tout de même invités à appliquer les consignes sanitaires habituelles. De plus, les usagers sont invités, dans la mesure du possible, à modifier leurs horaires habituels de façon à limiter les foules présentes dans le transport en commun aux heures de pointe.
+
+## 1etat-urgence
+* ask_faq/ask_1etat-urgence
+  - Un état d’urgence sanitaire peut être déclaré lorsqu’une menace à la santé de la population exige l’application immédiate de certaines mesures. Il permet au gouvernement du Québec et à la ministre de la Santé et des Service sociaux de disposer des pouvoirs nécessaires pour mettre en place l’ensemble des mesures visant à assurer la protection de la santé de la population. La ministre de la Santé et des Services sociaux pourraient, par exemple, procéder sans délai à l’achat d’équipements ou conclure les contrats nécessaires pour protéger la santé de la population.
+
+## 2etat-urgence
+* ask_faq/ask_2etat-urgence
+  - Oui. Cette mesure exceptionnelle démontre la volonté du gouvernement du Québec de se doter des moyens nécessaires pour protéger la population.
