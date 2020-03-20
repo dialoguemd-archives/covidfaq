@@ -145,3 +145,40 @@
 ## 4lieux-publiques
 * ask_faq/ask_4lieux-publiques
   - Concernant les lieux de cultes, tous les rassemblements religieux de quelque confession que ce soit devront idéalement être suspendus, à moins d'être essentiels. Dans ce cas, la distanciation sociale devra être observée.
+
+## 1voyageurs-isoloment-volontaire
+* ask_faq/ask_1voyageurs-isoloment-volontaire
+  - Un isolement volontaire de 14 jours est recommandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.  Cet isolement est obligatoire pour tous les employés de la fonction publique et pour tout le personnel de la santé, de l’éducation et des services de garde, privés et publics, qui reviennent de l’étranger.  Les personnes qui sont en isolement volontaire doivent rester à la maison, surveiller leurs symptômes et appeler au 1 877 644-4545 si elles ont de la toux ou de la fièvre. Certaines pratiques sont également recommandées si elles habitent avec d’autres personnes qui n’ont pas voyagé. Pour plus de détails sur les consignes à suivre, se référer à la "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46341".
+
+## 2voyageurs-isoloment-volontaire
+* ask_faq/ask_2voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec invite les employeurs à faire preuve de compréhension et de souplesse envers un employé qui revient de voyage ou qui présente des symptômes.
+
+## 3voyageurs-isoloment-volontaire
+* ask_faq/ask_3voyageurs-isoloment-volontaire
+  - Les personnes qui sont en isolement volontaire doivent rester à la maison, surveiller leurs symptômes et appeler au 1 877 644-4545 si elles ont de la toux ou de la fièvre. Certaines pratiques sont également recommandées si elles habitent avec d’autres personnes qui n’ont pas voyagé. Pour plus de détails sur les consignes à suivre, se référer à la section Consignes sanitaires.
+
+## 4voyageurs-isoloment-volontaire
+* ask_faq/ask_4voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec suggère aux personnes qui sont à l’étranger de revenir au pays dans la mesure du possible. Le Gouvernement du Canada, dans sa section Conseil aux voyageurs et avertissements, recommande aux personnes qui sont à l’extérieur du pays de se renseigner sur les options commerciales qui s’offrent à elles pour revenir au Canada et de revenir plus tôt que prévu si ces options deviennent plus limitées.
+
+## 5voyageurs-isoloment-volontaire
+* ask_faq/ask_5voyageurs-isoloment-volontaire
+  - Pour obtenir cette information, il conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada.
+
+## 6voyageurs-isoloment-volontaire
+* ask_faq/ask_6voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec demande d’annuler les voyages qui ne sont pas essentiels. Si une personne part tout de même en voyage, il est d’abord conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada. Également, un isolement volontaire est demandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.
+
+## 7voyageurs-isoloment-volontaire
+* ask_faq/ask_7voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec demande d’annuler les voyages qui ne sont pas essentiels. Si une personne part tout de même en voyage, il est d’abord conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada. Également, un isolement volontaire est demandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.
+
+## 8voyageurs-isoloment-volontaire
+* ask_faq/ask_8voyageurs-isoloment-volontaire
+  - Les camionneurs et le personnel navigant sur les avions et sur les bateaux n’ont pas à se mettre en isolement, étant donné le rôle important qu’ils jouent dans le transport de marchandises de première nécessité, comme la nourriture.
+
+## 9voyageurs-isoloment-volontaire
+* ask_faq/ask_9voyageurs-isoloment-volontaire
+  - Pour l’instant, il n’y a pas de programme prévu pour le remboursement des programmes de voyage à l’étranger. Chacun doit voir avec son agence de voyages ou son assurance voyage.
+

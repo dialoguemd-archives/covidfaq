@@ -484,3 +484,112 @@
 - Est-ce que la messe sera annulée
 - Est-ce que je pourrai me rendre prier à l'Église
 - Est-ce que je pourrai me rendre prier à la mosquée
+
+## intent: ask_faq/ask_1voyageurs-isoloment-volontaire
+- Je reviens de voyage, que dois-je faire?
+- J'arrive de voyage, qu'est-ce que je dois faire ?
+- J'arrive de voyage, que dois-je faire ?
+- Je viens de revenir au Québec, qu'est-ce que je dois faire ?
+- Je viens de revenir au Québec, que dois-je faire ?
+- Je suis de retour de voyage, que dois-je faire ?
+- Je suis de retour de voyage, qu'est-ce que je dois faire ?
+- Je fais quoi si je suis de retour de voyage ?
+- Que dois-je faire si je suis de retour de voyage ?
+- Qu'est-ce que je dois faire si je suis de retour de voyage ?
+- Je fais quoi si je reviens de voyage ?
+- Que dois-je faire si je reviens de retour de voyage ?
+- Qu'est-ce que je dois faire si je reviens de voyage ?
+
+## intent: ask_faq/ask_2voyageurs-isoloment-volontaire
+- Je travaille dans le secteur privé et je dois me placer en isolement volontaire. Est-ce que mon employeur peut me congédier?
+- Je travaille dans une entreprise privée et je dois rester à la maison, est-ce que mon employeur a le droit de me congédier ?
+- Je suis engagé par une entreprise privée et je dois demeurer en isolement, est-ce que mon employeur a le droit de me mettre à pied ?
+- Je travaille pour un employeur privé et je dois rester en isolement volontaire à la maison. Mon employeur peut-il me donner mon 4 % ?
+- Je dois rester en isolement volontaire et je travaille pour une entreprise privée. Est-ce que mon employeur peut me congédier ?
+- Je suis un travailleur du secteur privé.Est-ce que je peux perdre mon emploi parce que je suis en l'isolement volontaire?
+- Mon employeur est une entreprise privée. Est-ce que je peux être renvoyé parce que je dois rester en isolement volontaire?
+- Je travaille dans une entreprise privée et je présente des symptômes, puis-je être mis à peid parce que je suis en isolement volontaire?
+- Je travaille dans une compagnie privée et je reviens de voyage. Est-ce que mon patron peut me renvoyer?
+- Est-ce que des mesures de congédiments peuvent être prise à l'endroit un travailleur du secteur privée qui est en isolement volontaire?
+- Est-ce que les travailleurs du secteur privée peuvent se placer en isolement volontaire sans être congédié?
+
+## intent: ask_faq/ask_3voyageurs-isoloment-volontaire
+- Si je dois me placer en isolement volontaire, quelles sont les consignes à respecter?
+- Quelles sont les règles à respecter lorsqu'on se place en isolement volontaire ?
+- Si je dois me placer en isolement volontaire, quelles sont les règles à respecter?
+- Quelles sont les consignes à respecter lorsqu'on se place en isolement volontaire ?
+- Que dois-je faire si je dois me placer en isolement volontaire ?
+- Quelle  sont les règles à suivre pour l'isolement volontaire?
+- Quelle est à marche à suivre pour respecter les normes d'isolement volontaire?
+- Que dois-je faire en cas d'isolement volontaire?
+- Quelle est la procédure à respecter en situation d'isolement volontaire?
+- Si je dois me placer en isolement volontaire, que dois-je faire?
+- Quel sont les mesure à respecter pour l'isolement volontaire
+
+## intent: ask_faq/ask_4voyageurs-isoloment-volontaire
+- Si je suis à l’étranger, dois-je rentrer immédiatement au pays?
+- Si je suis en voyage actuellement, est-ce que je dois revenir tout de suite à la maison ?
+- Si je suis en voyage actuellement, est-ce que je dois rentrer immédiatement au pays ?
+- Si je suis à l'étranger, est-ce que je dois revenir à la maison immédiatement ?
+- Si je suis à l'extérieur du pays, est-ce que je dois revenir au pays immédiatement ?
+- Je suis actuellement à l'extérieur des frontières, est-ce que je dois revenir tout de suite au pays ?
+- Si je suis en voyage présentement, est-ce que je dois revenir à la maison immédiatement ?
+- Est-il urgent que je rentre de voyage
+- Quel est l'urgence de rentrer au pays
+- Est-ce que je dois rentrer au pays
+- Est-ce que les canadiens doivent revenir au Canada
+
+## intent: ask_faq/ask_5voyageurs-isoloment-volontaire
+- Quels sont les pays les plus à risque?
+- Quels sont les pays les plus touchés ?
+- Y a-t-il des pays plus à risque que d'autre ?
+- Est-ce que des pays sont considérés très à risque
+- Quels pays sont vraiment les plus risqués
+- Est-ce que certains pays sont plus risqués que d'autre
+- Est-ce que tous les pays sont à risque
+- Quels sont les pays les plus dangereux
+- Est-ce que les pays sont tous dangereux
+- Combien de pays sont à éviter
+- Est-ce que toutes la nations sont risqués
+
+## intent: ask_faq/ask_6voyageurs-isoloment-volontaire
+- J'ai des projets de voyage, devrais-je les annuler?
+- Je dois partir en voyage prochainement, est-ce que je dois annuler mon voyage ?
+- Mon voyage est déjà acheté, est-ce que je dois l'annuler ?
+- Mon voyage était déjà planifié, est-ce obligatoire de l'annuler ?
+- Je pars en voyage sous peu, dois-je annuler mon voyage ?
+- Je planifiais faire un voyage prochainement, devrais-je l'annuler ?
+- Je voulais voyager bientôt, dois-je annuler mon projet ?
+- Est-ce que j'annule mon voyage
+- Est-ce que je peux partir en voyage
+- Je ne veux pas annuler mes projets de voyage, est-ce que c'est correct
+- Est-ce que je peux conserver mes projets de voyage
+
+## intent: ask_faq/ask_7voyageurs-isoloment-volontaire
+- J'ai des projets de voyage, devrais-je les annuler?
+
+## intent: ask_faq/ask_8voyageurs-isoloment-volontaire
+- Qu’arrive-t-il avec les camionneurs en provenance de l’extérieur des frontières?
+- Est-ce que les camionneurs qui proviennent de l'extérieur du pays doivent se mettre en isolement à leur arrivée ?
+- Que doivent faire les camionneurs lorsqu'ils reviennent au pays ?
+- Lorsqu'un camionneur revient de l'extérieur des frontières, doit-il s'isoler de façon volontaire ?
+- Je suis camionneur et je reviens des États-Unis. Est-ce que je dois me placer en isolement volontaire ?
+- En tant que camionneur, est-ce que je dois me mettre en isolement volontaire ?
+- Qu'est-ce que je fais si je reviens de l'extérieur des frontières et que je suis camionneur ?
+- Si je suis camionneur qui revient de l'extérieur des frontières, est-ce que je dois me placer en quarantaine ? 
+- Que se passera-t-il avec les camionneurs qui reviennent de l'extérieur des frontières ?
+- Est-ce que les camionneurs pourront traverser les frontières
+- Dois-je m'isoler si je suis camionneur
+
+## intent: ask_faq/ask_9voyageurs-isoloment-volontaire
+- Est-ce que je pourrai me faire rembourser mes dépenses déjà encourues pour un voyage à l’étranger que je dois annuler?
+- Si j'annule mon voyage, est-ce que je vais être remboursé ?
+- Est-ce que je peux me faire rembourser le voyage que j'ai acheté puisque je dois l'annuler ?
+- Est-ce que je vais me faire rembourser mon voyage en cas d'annulation ?
+- Y a-t-il un programme prévu pour rembourser mes dépenses pour un voyage que je dois annuler ?
+- Si je décide d'annuler le voyage à l'étranger que j'avais prévu, est-ce que je recevrai un remboursement ?
+- Est-ce que j'ai droit à un dédommagement en cas d'annulation du voyage que j'avais prévu ?
+- Si je dois annuler mon voyage, est-ce qu'un remboursement est prévu ?
+- Si je suis obligé d'annuler mon voyage, est-ce qu'un dédommagement est prévu ?
+- Je veux me faire rembourser mes dépenses pour mon voyage annulé, est-ce que c'est possible
+- J'aimerais être remboursé pour mon voyage
