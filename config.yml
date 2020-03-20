@@ -2,10 +2,12 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: fr
 pipeline:
-  - name: "WhitespaceTokenizer"
-  - name: "CountVectorsFeaturizer"
-  - name: "DIETClassifier"
+  - name: "HFTransformersNLP"
+    model_name: "bert"
+    model_weights: "bert-base-multilingual-cased"
     epochs: 5
+  - name: "LanguageModelTokenizer"
+  - name: "LanguageModelFeaturizer"
   - name: "ResponseSelector"
 
 # Configuration for Rasa Core.
