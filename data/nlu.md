@@ -19,8 +19,6 @@
 - gotta go
 - farewell
 
- <!-- https://www.who.int/news-room/q-a-detail/q-a-coronaviruses -->
-
 ## intent: ask_faq/ask_0ecole-garderie
 - Est-ce que les parents qui ne peuvent plus utiliser les services de garde éducatifs à l’enfance doivent continuer à payer leurs frais de garde?
 - Dois-je continuer à payer ma garderie? 
