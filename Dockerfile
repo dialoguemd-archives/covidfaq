@@ -7,7 +7,7 @@ ENV \
 
 COPY data /app/data
 COPY domain.yml /app
-COPY config.yml /app
+COPY config.fr.yml /app
 COPY credentials.yml /app
 
 # RUN sudo python -m spacy download fr_core_news_md
