@@ -30,6 +30,18 @@
 - Qui assume les coûts de la garderie pour mon enfant ?
 - Est-ce que je dois payer pour un service que je ne peux pas utiliser ?
 - Est-ce à moi de payer pour la garderie de mon enfant comme elle est fermée ?
+- J'vais tu devoir continuer à payer pour la garderie
+- J'vais tu être obligé de payer pour les frais de garde
+- Qu'est-ce qui se passe avec les frais de garderies
+- C'est quoi que je dois faire pour payer les frais de garde
+- C'est tu important de payer l'argent pour la garderie
+- Pourquoi je dois encore payer pour les frais de garde
+- Je ne veux plus payer pour la garderie, est-ce que je peux
+- Est-ce que c'est moi ou le gouvernement qui va payer pour la garderie
+- Pour c'est pas le gouvernement qui paye pour les frais de garde si c'est lui qui nous fait arrêter
+- Je ne veux pas payer pour les frais de garde puisque ce n'est pas ma décision d'arrêter.
+- Ma garderie est fermée, est-ce que je peux pas la payer
+- stu à moi a payer la garderie parce que le gourvernement a décidé de la fermer
 
 ## intent: ask_faq/ask_1ecole-garderie
 - Les garderies non subventionnées seront-elles dédommagées?
@@ -134,6 +146,17 @@
 - Est-ce possible d'utiliser les services de garde d'urgence ?
 - Est-ce que les services de garde d'urgence peuvent être utilisés pour mes enfants ?
 - Qui va me dire comment faire pour inscrire mon enfant au service de garde d'urgence ?
+- Comment je fais pour inscrire mon enfant au service de garde d'urgence ?
+- C'est comment qu'on fait pour inscrire notre enfant au service de garde d'urgence ?
+- Comment ça marche pour inscrire notre enfant au service de garde d'urgence ?
+- Comme que je peux inscrire mon enfant au service de garde d'urgence ?
+- Inscrire mon enfant au service de garde d'urgence, c'est possible ?
+- Je peux-tu inscrire mon enfant au service de garde d'urgence ?
+- Inscrire au service de garde d'urgence un enfant 
+- Inscrire enfant service de garde d'urgence
+- C'est comment qu'on inscrit dans le service de garde d'urgence ?
+- Je fais quoi pour inscrire mon enfant au service de garde d'urgence ?
+
 
 ## intent: ask_faq/ask_2service-de-garde-urgence
 - Quelles seront les heures d’ouverture des services de garde d’urgence?
@@ -146,6 +169,20 @@
 - Est-ce qu'il existe des services de garde d'urgence si je dois travailler la fin de semaine ?
 - Est-ce qu'il y a des services de garde ouverts le soir pendant la crise ?
 - Est-ce qu'il y a des services de garde ouverts la nuit pendant la crise ?
+- C'est quand que les services de garde d'urgence sont ouverts ?
+- Quelles sont les heures du service de garde d'urgence ?
+- C'est ouvert de quelle heure à quelle heure les services de garde d'urgence ?
+- C'est quand que c'est ouvert les services de garde d'urgence ?
+- Ça ouvre à quelle heure ?
+- C'est ouvert de quelle heure à quelle heure ?
+- À quelle heure ça commence pis à quelle heure ça fini ?
+- C'est tu ouvert le soir ?
+- C'est tu ouvert la fin de semaine ?
+- Heures d'ouverture
+- Plages horaires
+- C'est ouvert en soirée ?
+- C'est ouvert la nuit ?
+- C'est ouvert quand les services de garde ?
 
 ## intent: ask_faq/ask_1emploi
 - Quels sont les emplois visés par les services essentiels?
@@ -158,6 +195,18 @@
 - Qui agit sur un emploi essentiel
 - Est-ce que mon emploi fait partie des services essentiels
 - Est-ce que peux suis reconnu comme un emploi obligatoire
+- C'est quoi les emplois qui sont essentiels ?
+- Mon emploi est-il essentiel ?
+- Est-ce que je dois continuer de travailler ?
+- J'ai tu un emploi essentiel ?
+- C'est qui qui a un emploi essentiel ?
+- Je dois-tu encore travailler ?
+- Je suis tu essentiel ?
+- Qui doit travailler pendant la crise ?
+- Je dois tu continuer à travailler pendant la crise ?
+- Ya tu des personnes qui doivent continuer de travailler malgré la crise ?
+- Qui c'est qui doit travailler pendant la crise ?
+- Faut tu que je continue à travailler ?
 
 ## intent: ask_faq/ask_2emploi
 - Est-il recommandé de ne pas rentrer au travail?
@@ -171,6 +220,14 @@
 - Est-ce que je dois rester à la maison 
 - Est-ce que c'est mieux de rester à la maison ?
 - Est-ce que je devrais éviter d'aller au travail
+- Je suis tu mieux de rester à maison ?
+- Je suis tu mieux de pas aller travailler ?
+- Faut tu que j'évite d'aller travailler ?
+- Faut tu que je reste chez moi ?
+- Est-ce que je peux quand même aller au travail ?
+- C'est tu mieux de rester chez nous ?
+- Est-ce qu'on est mieux de ne pas aller au travail ?
+- Ce serais-tu mieux que j'aille pas au travail ?
 
 ## intent: ask_faq/ask_3emploi
 - Une directive générale sera-t-elle émise concernant le télétravail pour les fonctionnaires?
@@ -185,6 +242,15 @@
 - Est-ce que tous les fonctionnaires peuvent travailler de la maison
 - Si je fonctionnaire, puis-je faire du télétravail.
 - Est-ce que seul les fonctionnaires peuvent faire du télétravail
+- Est-ce qu'il y a des règles pour le télétravail
+- Je peux-tu faire du télétravail
+- Ya tu des règles pour faire du télétravail
+- Les fonctionnaires doivent-ils faire du télétravail
+- C'est tu obligatoire de faire du télétravail si je suis fonctionnaire 
+- C'est qui qui peut faire du télétravail
+- Si je suis fonctionnaire je peux tu faire du télétravail
+- Tous les fonctionnaires doivent faire du télétravail
+- C'est tu possible que je fasse du télétravail si je suis fonctionnaire
 
 ## intent: ask_faq/ask_4emploi
 - Mon employeur doit-il prendre des mesures particulières pour protéger la santé des travailleurs ?
@@ -197,6 +263,15 @@
 - Que doit faire mon employeur pour s'assurer que nous sommes protéger
 - Mon patron es-tu obligé d'agir pour ma sécurité
 - Comment mon employeur doit faire pour protéger notre santé
+- Comment mon employeur va me protéger
+- Est-ce qui faut que ma job me protège
+- C'est quoi que mon employeur doit faire pour protéger ses employés
+- Mon employeur fait rien pour me protéger ya tu le droit
+- Si mon employeur fait rien pour me protéger je fais quoi
+- Mon employeur fait rien pantoute je peux tu arrêter de travailler
+- Est-ce qui faut que mon boss protège ma santé
+- Est-ce qui faut que mon boss prenne des mesures pour protéger la santé de ses employés
+- Comment mon boss peut protéger ma santé
 
 ## intent: ask_faq/ask_5emploi
 - Est-ce que j'ai droit à des congés de maladie?
@@ -210,6 +285,16 @@
 - Combien de congé maladie je vais recevoir
 - Combien de temps puis-je être en congé maladie
 - Est-ce que je dois prendre des congés maladie ou des vacances
+- Je peux tu prendre congé si je suis malade
+- J'ai tu le droit de prendre des congés de maladie
+- Qui a droit aux congés de maladie
+- Je peux tu avoir des congés de maladie
+- Si je suis malade je peux tu m'absenter
+- Est-ce qu'on peut avoir des congés de maladie
+- Faut que tu mon boss me laisse prendre des journées de maladie
+- Mon boss doit tu me donner des congés de maladie
+- J'ai le droit à combien de jours de congé
+- À combien de jours de maladie j'ai le droit
 
 ## intent: ask_faq/ask_6emploi
 - Un employé peut-il être congédié s’il refuse d’aller travailler dans un endroit à risque?
@@ -223,6 +308,14 @@
 - Suis-je à risque de perdre ma job si j'ai peur d'aller travailler
 - Pourrais-je perdre mon emploi si je ne veux pas travailler
 - Est-ce que mon patron peut décider de me congédier si je refuse de travailler
+- Je veux pas aller travailler c'est trop dangereux est-ce que je vais me faire mettre à porte
+- Mon boss peut tu me mettre à porte si je veux pas aller travailler à job parce que je trouve ça dangereux
+- J'ai pas le goût d'aller travailler à job c'est trop dangereux je vais tu me faire mettre à porte
+- J'ai un emploi à risque je peux tu refuser d'aller travailler sans me faire mettre à porte
+- Je peux tu me faire mettre à porte je veux pas aller travailler c'est trop risqué
+- C'est ben trop dangereux à job si j'y vais pas je vais tu me faire mettre à porte
+- Mon boss a tu le droit de me mettre à porte si je trouve que c'est trop dangereux pour y aller
+- Je veux même pas aller à job pis j'ai peur que mon boss me mette à porte ya tu le droit
 
 ## intent: ask_faq/ask_7emploi
 - Est-ce que mon employeur peut me mettre en arrêt de travail non-payé à cause du coronavirus?
@@ -236,6 +329,15 @@
 - Est-ce que je peux ne plus recevoir de salaire
 - Mon salaire sera-t-il coupé
 - Est-ce que je serai au chômage
+- Mon boss veut pu me payer parce que je peux pas travailler ya tu le droit
+- Est-ce que mon boss peut m'enlever mon salaire si je travaille pas
+- Je peux tu me faire mettre en arrêt de travail pas payé à cause du coronavirus
+- C'est tu normal que mon boss me paie pu
+- Est-ce qu'il faut que mon boss continue de me payer même si je travaille pas
+- Je vais tu avoir un salaire si mon boss me met en arrêt de travail
+- Est-ce que je vais avoir un salaire même si mon boss m'a arrêté
+- C'est tu correct que mon boss arrête de me payer parce que je suis en arrêt
+- C'est-ce normal de ne plus avoir de paie parce que je ne travaille pas à cause du coronavirus
 
 ## intent: ask_faq/ask_1personnes-a-risque
 - Est-ce que les visites dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial pour les aînés et les adultes vulnérables ainsi que dans les résidences privées pour aînés sont permises?
@@ -248,6 +350,17 @@
 - Est-ce que je peux aller visiter une amie à la maternité? 
 - Est-ce conseillé d'aller visiter les gens hospitalisés?
 - Est-ce que je peux aller voir mes grands-parents dans leur résidence de personnes âgées ?
+- Ma mère est dans une résidence je peux-tu aller la voir 
+- C'est tu possible que je continue d'aller rendre visite à mes parents dans leur résidence de personnes âgées
+- Ma mère a le coronavirus et est seule au CHSLD je peux tu aller m'en occuper
+- J'ai tu le droit d'aller rendre visite à un aîné
+- Est-ce qu'on peut recevoir de la visite quand on est en CHSLD
+- Je dois me faire opérer est-ce que quelqu'un peut m'accompagner
+- On a tu encore le droit d'aller visiter des gens à l'hôpital ou au CHSLD
+- Je peux-tu être accompagné quand je vais accoucher
+- Est-ce que ma famille pourra me visiter après mon accouchement
+- Je peux-tu avoir de la visite dans ma chambre après mon accouchement
+- Je peux tu aller voir mes parents dans leur résidence de vieux
 
 ## intent: ask_faq/ask_2personnes-a-risque
 - Est-il possible d’aller livrer de la nourriture ou des biens essentiels à des personnes qui sont dans les hôpitaux, les CHSLD, les ressources intermédiaires, de type familial pour les aînés et les adultes vulnérables et les résidences privées pour aînés?
@@ -261,6 +374,14 @@
 - Est-ce que je peux donner à manger à ma grand-mère
 - Est-ce que je peux donner à manger à mon grand-père
 - Est-ce que je peux livrer de la nourriture à l'hôpital
+- Je peux tu aller porter des choses au CHSLD à ma mère ou à mon père
+- Est-ce que les CHSLD veulent encore qu'on aille porter de la nourriture à nos parents
+- J'avais acheté des choses essentielles pour mes parents qui sont en résidence je peux-tu aller leur porter
+- Je fais quoi avec les choses que j'avais acheté pour mes parents
+- On a tu le droit d'aller porter de la nourriture ou des choses essentielles à des personnes hospitalisées
+- Ma soeur vient d'accoucher je peux tu aller lui porter quelque chose à manger
+- J'ai tu le droit d'aller porter des choses au CHSLD pour ma mère ou pour mon père
+- C'est tu correct d'apporter de la nourriture pour quelqu'un à l'hôpital
 
 ## intent: ask_faq/ask_3personnes-a-risque
 - Est-ce qu’une personne peut, par exemple, se rendre à l’hôpital pour visiter un proche qui est mourant?
@@ -273,6 +394,18 @@
 - Puis-je aller voir ma grand-mère mourrante?
 - Est-ce que je peux aller visiter quelqu'un en phase terminale à l'hôpital ?
 - Est-il possible de visiter quelqu'un en train de mourir
+- Ma mère a la COVID et va mourir je peux tu aller la voir
+- Est-ce que j'ai le droit d'aller voir mon père en phase terminale
+- Mon père a la COVID et va mourir je peux tu aller le voir
+- Est-ce que j'ai le droit d'aller voir ma mère en phase terminale
+- Mon père va mourir je peux-tu aller le voir
+- J'ai tu le droit d'aller dire au revoir à quelqu'un sur son lit de mort
+- Je connais quelqu'un qui va mourir je peux-tu aller le voir à l'hôpital
+- Mon père est à veille de mourir il vient de rentrer à l'hôpital j'ai tu le droit d'aller le voir
+- Ma mère est à veille de mourir elle vient de rentrer à l'hôpital j'ai tu le droit d'aller le voir
+- C'est tu correct d'aller à l'hôpital pour voir une personne mourrante
+- C'est tu possible que j'aille voir quelqu'un qui va mourir à l'hôpital 
+
 
 ## intent: ask_faq/ask_4personnes-a-risque
 - Est-ce que les personnes de 70 ans et plus peuvent sortir à l’extérieur de leur domicile, notamment pour se rendre à leurs rendez-vous médicaux?
@@ -286,6 +419,16 @@
 - Est-ce possible de sortir pour des loisirs si ma mère à plus de 70 ans?
 - Est-ce que je peux aller prendre une marche?
 - Est-ce que je peux aller à l'épicerie ?
+- J'ai plus de 70 ans est-ce que je peux quand même aller voir mon médecin pour un suivi
+- C'est tu correct d'aller prendre une marche dehors
+- J'ai tu le droit de m'asseoir sur mon balcon dehors
+- Je peux-tu aller voir des amis s'ils ne sont pas contaminés par le virus
+- On a tu encore le droit de sortir quand on a plus de 70 ans
+- J'ai tu le droit d'inviter mes enfants à venir souper 
+- Je peux tu encore aller au restaurant
+- Pourquoi qui faut que je reste chez nous
+- J'ai un rendez-vous urgent j'ai tu le droit d'y aller
+- Est-ce qu'on a encore le droit d'avoir une vie
 
 ## intent: ask_faq/ask_5personnes-a-risque
 - Est-il possible d’aller porter de la nourriture ou des biens essentiels à des personnes âgées qui habitent encore dans leur maison?
@@ -298,6 +441,14 @@
 - Est-ce que je peux faire la commande de ma grand-mère et la lui livrer?
 - Est-ce possible de faire le marché de ma grande tante et aller la porter chez elle?
 - Est-ce possible d'aller porter chez mes parents leur prescription de médicaments?
+- J'ai des choses à acheter pour mes parents ils ont encore leur maison c'est tu correct d'aller leur porter
+- C'est tu encore possible d'aller porter de la nourriture à mes parents ils ont leur maison
+- C'est tu grave d'aller porter de la nourriture à nos parents s'ils sont encore dans leur maison
+- Est-ce que j'ai encore le droit de faire l'épicerie et d'aller la porter à ma mère elle est encore dans sa maison
+- Est-ce que ma mère doit faire elle-même son épicerie ou je peux encore aller lui porter
+- J'ai pas le virus et je veux aller porter des biens essentiels à mes parents, ils ont encore leur maison est-ce correct
+- C'est tu correct de faire l'épicerie pour des personnes âgées qui habitent encore dans leur maison
+- Ma mère peut pas sortir est-ce que je peux aller lui faire son épicerie et lui livrer
 
 ## intent: ask_faq/ask_6personnes-a-risque
 - Les femmes enceintes sont-elles à risque?
@@ -311,6 +462,17 @@
 - Est-ce que le virus peut se transmettre au foetus?
 - Quels sont les précautions à prendre si je suis enceinte?
 - Est-ce que mon bébé à naître peur attrapper la COVID-19?
+- C'est tu dangereux pour les femmes enceintes ce virus-là
+- Mon bébé peut-il le pogner si j'ai pas encore accouché
+- Est-ce qu'il y a un danger pour les femmes enceintes
+- Le danger est-il plus grand pour les femmes enceintes
+- Je suis enceinte est-ce que le virus est plus dangereux pour moi
+- J'ai tu plus de chance de le pogner si je suis enceinte
+- Je suis enceinte et j'ai le virus. Mon bébé va-t-il l'avoir quand je vais accoucher
+- Est-ce qu'il y a des risques de malformations pour mon bébé si j'attrape le coronavirus
+- Mon bébé peut-il l'avoir pendant qu'il est dans mon ventre
+- Si je l'attrape pendant que je suis enceinte c'est tu dangereux
+- Mon bébé peut-il naître avec le coronavirus
 
 ## intent: ask_faq/ask_7personnes-a-risque
 - Les enfants sont-ils moins à risque?
@@ -324,6 +486,16 @@
 - Est-ce que les directives d'isolement s'adressent aussi aux enfants ?
 - Que faire si je pense que mon enfant a attrappé le virus ?
 - Est-ce vrai que les enfants ont moins de chance de l'attraper ?
+- C'est tu dangereux pour les enfants ?
+- C'est tu moins dangereux pour les enfants ?
+- Est-ce que mes enfants peuvent aller jouer dehors avec des amis ?
+- Est-ce que mes enfants peuvent aller jouer chez le voisin ?
+- Si mon enfant le pogne est-ce que c'est dangereux pour lui ?
+- Si je pogne le virus est-ce que mon enfant va l'avoir ?
+- Est-ce que le virus est dangereux pour mon enfant ?
+- Est-ce que mon enfant peut transmettre le virus ?
+- Mon enfant n'a pas de symptôme peut-il quand même avoir le virus ?
+- Est-ce que mon enfant va avoir le coronavirus si je l'ai ?
 
 ## intent: ask_faq/ask_1symptomes-prevention
 - Quels sont les principaux symptômes associés à la COVID‑19?
@@ -337,6 +509,19 @@
 - Quelle sont les effets de la COVID-19 ?
 - Quelles sont les effets du coronavirus ?
 - Comment savoir que j'ai le covid
+- On se sent comment quand on pogne la COVID-19 ?
+- Ya tu des signes quand on a le virus ?
+- Est-ce que je vais le savoir si j'attrape le virus ?
+- Comment je vais me sentir si j'ai le coronavirus ?
+- Est-ce que je vais bien aller si j'attrape la COVID-19 ?
+- C'est quoi les signes du coronavirus ?
+- Si je tousse j'ai tu le coronavirus ?
+- Si j'ai de la fièvre j'ai tu le coronavirus ?
+- Si j'ai de la misère à respirer j'ai tu le coronavirus ?
+- Si j'ai juste de légers symptômes ça peux-tu être le coronavirus quand même ?
+- J'ai comme une grippe c'est tu le coronavirus ?
+- Les symptômes c'est tu comme la grippe ?
+- Les symptômes c'est tu comme le rhume ?
 
 ## intent: ask_faq/ask_2symptomes-prevention
 - Comment se transmet la COVID‑19?
@@ -349,6 +534,7 @@
 - Comment se transmet le virus?
 - Quelles sont les parties du corps infecté par le virus?
 - Que quel façon transmet-on le virus?
+- Comment qu'on fait pour transmettre la COVID-19 ?
 
 ## intent: ask_faq/ask_3symptomes-prevention
 - Combien de temps la COVID‑19 survit-elle sur des objets?
