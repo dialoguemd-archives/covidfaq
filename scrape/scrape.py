@@ -80,7 +80,7 @@ def page_to_md(page_contents, page_url, response_filename, nlu_filename):
             f.write("\n")
 
         with open(nlu_filename, "a") as f:
-            f.write("## intent:" + intent)
+            f.write("## intent: " + intent)
             f.write("\n")
             for a in answer:
                 f.write("  - " + a)
