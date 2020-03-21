@@ -1,4 +1,10 @@
 {
+    "Au sujet des coronavirus": [
+        "En décembre 2019, l'Organisation mondiale de la Santé a été alertée de plusieurs cas de pneumonie à Wuhan, en Chine. Le virus ne correspondait à aucun autre virus connu. Le 7 janvier 2020, la Chine a confirmé avoir détecté la COVID‑19.",
+        "Pour en savoir plus, consultez la page sur la Situation du coronavirus (COVID-19) au Québec.",
+        "Au sujet des coronavirus",
+        "Le SARS‑CoV‑2 fait partie de la famille des coronavirus. Certains virus de cette famille causent des maladies chez les animaux et d’autres chez les humains. Dans de rares cas, les coronavirus infectant les animaux peuvent aussi infecter les personnes. Au Québec, aucune évidence ne suggère un risque d’infection des humains par les animaux ou par des produits animaux. Les coronavirus peuvent se transmettre par contact étroit de personne à personne. En plus du SARS‑CoV‑2, deux autres coronavirus se sont transmis des animaux aux humains, et ont causé des maladies graves chez l’humain, soit le SRAS‑CoV en 2003 et le CoV‑SRMO depuis 2012."
+    ],
     "Symptômes et traitement": [
         "Les principaux symptômes de la COVID‑19 sont les suivants :",
         "FièvreTouxDifficultés respiratoires",
@@ -22,6 +28,18 @@
     "Surveillance ciblée": [
         "Toutes les personnes ayant fréquenté les lieux au cours des périodes indiquées doivent surveiller leurs symptômes (fièvre, toux ou difficultés respiratoires), et ce, jusqu’à la date limite de surveillance indiquée dans les tableaux suivants :",
         "CroisièresLieux publics06 - Montréal14 - Lanaudière16 - Montérégie"
+    ],
+    "Croisières": [
+        "Des Québécois ayant été sur certaines croisières ont été en contact avec des personnes potentiellement contagieuses. Il est recommandé à ces croisiéristes d’être en isolement volontaire pour une période de 14 jours après leur date d’arrivée au Canada et de surveiller leurs symptômes (fièvre, toux ou difficultés respiratoires). Si vous éprouvez ces symptômes, communiquez avec la ligne 1 877 644-4545.",
+        "Ces croisières, ainsi que les dates de départ et d’arrivée, sont présentées dans le tableau des croisières et dates d’exposition au coronavirus (COVID-19).",
+        "Croisières et dates d’expositionCroisières et port d’attacheDates d’expositionDate limite de l’isolement volontaireCroisières MSC Meraviglia avec port d’attache à Miami8 au 15 mars29 mars 2020Croisières Celebrity Summit avec port d’attache à Puerto Rico7 au 14 mars28 mars 2020Croisières MSC Meraviglia avec port d’attache à Miami1er au 8 mars22 mars 2020Croisières Celebrity Summit avec port d’attache à Puerto Rico29 février au 7 mars21 mars 2020Croisière MSC Bellissima, itinéraire comprenant Dubaï, Abu Dhabi et Qatar7 mars21 mars 2020Croisière Norwegian Bliss avec port d’attache inconnu1er au 7 mars21 mars 2020Croisière Celebrity Silhouette avec port d’attache inconnu23 février au 6 mars20 mars 2020Croisières du Nile Egypt River2 février au 4 mars18 mars 2020"
+    ],
+    "Lieux publics": [
+        "Des personnes atteintes de COVID-19 et potentiellement contagieuses ont fréquenté des lieux publics.",
+        "Les tableaux suivants présentent ces lieux ainsi que les dates et heures de risque possible d’exposition à la COVID-19.",
+        "Toutes les personnes ayant fréquenté ces lieux au cours de ces périodes doivent surveiller leurs symptômes (fièvre, toux ou difficultés respiratoires), et ce, jusqu’à la date limite de surveillance indiquée dans les tableaux. Cette recommandation est donnée par mesure de prudence, puisque le risque de contracter la COVID-19 demeure très faible dans les lieux publics et les transports en commun.",
+        "Si vous éprouvez ces symptômes, communiquez avec la ligne 1 877 644-4545.",
+        "Nous vous rappelons tout de même l’importance d'éviter de toucher votre visage avec vos mains et de bien laver celles-ci (savon ou solution antiseptique) après avoir fréquenté les lieux publics et les transports en commun."
     ],
     "Prévention": [
         "Pour en savoir plus, consultez la section Consignes sanitaires pour tous."
