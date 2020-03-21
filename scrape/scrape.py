@@ -11,7 +11,7 @@ def remove_html_tags(data):
 
 def page_to_json(page_contents, fname):
     with open(fname, 'w') as fp:
-        json.dump(page_contents, fp)
+        json.dump(page_contents, fp, indent=4)
 
 
 def get_page_contents(URL):
