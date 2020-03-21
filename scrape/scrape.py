@@ -64,6 +64,29 @@ def get_english_page(URL, base_url='https://www.quebec.ca'):
     return en_URL
 
 
+def page_to_md(page_contents, page_url, response_filename, nlu_filename):
+    section_title = page_url.rsplit('/')[-2]
+
+    for idx, (question, answer) in enumerate(page_contents.items()):
+
+        intent = "web_content/" + str(idx) + section_title
+        with open(response_filename, "a") as f:
+            f.write("## " + str(idx) + section_title)
+            f.write("\n")
+            f.write("* " + intent)
+            f.write("\n")
+            f.write("  - " + " ".join(answer))
+            f.write("\n")
+            f.write("\n")
+
+        with open(nlu_filename, "a") as f:
+            f.write("## intent:" + intent)
+            f.write("\n")
+            for a in answer:
+                f.write("  - " + a)
+                f.write("\n")
+            f.write("\n")
+
 if __name__ == '__main__':
 
     french_URLS = [
@@ -74,6 +97,14 @@ if __name__ == '__main__':
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/',
     ]
 
+    # Note that content is being appended to the end of the .md files
+    # They need to be deleted if already present when generating them
+    responses_fr_fname = 'responses_fr.md'
+    nlu_fr_fname = 'nlu_fr.md'
+
+    responses_en_fname = 'responses_en.md'
+    nlu_en_fname = 'nlu_en.md'
+
     for count, fr_URL in enumerate(french_URLS):
         en_URL = get_english_page(fr_URL)
         page_contents_fr = get_page_contents(fr_URL)
@@ -81,3 +112,6 @@ if __name__ == '__main__':
 
         page_to_json(page_contents_fr, str(count) + '_fr.json')
         page_to_json(page_contents_en, str(count) + '_en.json')
+
+        page_to_md(page_contents_fr, fr_URL, responses_fr_fname, nlu_fr_fname)
+        page_to_md(page_contents_en, en_URL, responses_en_fname, nlu_en_fname)
