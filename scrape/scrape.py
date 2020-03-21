@@ -44,8 +44,6 @@ def get_page_contents(URL):
     # Look for subjects and split them by header
     subjects = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
     for sub in subjects:
-
-
         # Look for headers in each subject
         raw_title = None
         if sub.find('h2'):
