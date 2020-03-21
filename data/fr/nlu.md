@@ -20,257 +20,815 @@
 - farewell
 
 ## intent: ask_faq/ask_0ecole-garderie
-- Will parents who must take two weeks of leave because schools and childcare services are closed continue to be paid?
-- Will I be paid if I stay home with the kids and if I work for a private company ?
-- Is it true that if I stay home with the kids, I can be paid anyway ?
-- Can I be forced to work at home, if I stay  home with my children ?
-- Are the rules for working at home while staying with the kids the same for everybody ?
-- What are the possibilities to be paid anyway if I stay home with the children while they are out of school?
-- Is it only the people that work for the Goverment that will be paid anyway if they stay at home with the kids ?
-- I work for a shop can I be paid anymay if I stay home with the kids because their out of school?
-- Are there measures to help me financially if I can not go to work because the children are of scholl becaude of the coronavirus ?
-- What are the rules if I work in the private sector and have to work out of my home to stay with my childred that don't have school?
+- Est-ce que les parents qui ne peuvent plus utiliser les services de garde éducatifs à l’enfance doivent continuer à payer leurs frais de garde?
+- Dois-je continuer à payer ma garderie? 
+- Est-ce que le gouvernement paiera pour les garderies non subventionnées?
+- Qui doit payer mes frais de garderie si mon enfant ne peut plus y aller?
+- Est-ce que je dois payer les frais de garderie de mon enfant?
+- Est-ce obligatoire de payer les garderies pendant la période de deux semaines ?
+- Est-ce que des mesures sont prévues pour aider les parents à payer les garderies ?
+- Qui assume les coûts de la garderie pour mon enfant ?
+- Est-ce que je dois payer pour un service que je ne peux pas utiliser ?
+- Est-ce à moi de payer pour la garderie de mon enfant comme elle est fermée ?
+- J'vais tu devoir continuer à payer pour la garderie
+- J'vais tu être obligé de payer pour les frais de garde
+- Qu'est-ce qui se passe avec les frais de garderies
+- C'est quoi que je dois faire pour payer les frais de garde
+- C'est tu important de payer l'argent pour la garderie
+- Pourquoi je dois encore payer pour les frais de garde
+- Je ne veux plus payer pour la garderie, est-ce que je peux
+- Est-ce que c'est moi ou le gouvernement qui va payer pour la garderie
+- Pour c'est pas le gouvernement qui paye pour les frais de garde si c'est lui qui nous fait arrêter
+- Je ne veux pas payer pour les frais de garde puisque ce n'est pas ma décision d'arrêter.
+- Ma garderie est fermée, est-ce que je peux pas la payer
+- stu à moi a payer la garderie parce que le gourvernement a décidé de la fermer
 
 ## intent: ask_faq/ask_1ecole-garderie
-- Will non-subsidized daycare centres be compensated?
-- Will private daycare centres be compensated ?
-- Will there be compensation measures alsor for non-subsidized daycare centres ?
-- When will the compensation measures for non-subsidized daycare centres be announced?
-- When will the compensation measures for non-subsidized daycare centres be available?
-- Will non-subsidized Childcare centres be compensated?
-- Will private Childcare centres be compensated ?
-- When will private Childcare Centres be compensated
+- Les garderies non subventionnées seront-elles dédommagées?
+- Est-ce que les garderies privées seront dédommagées ?
+- Est-ce que les garderies privées recevront une subvention pour faire face à la crise ?
+- Est-ce que les garderies qui ne sont pas subventionnées par l'état recevront des compensations ?
+- Y a-t-il des compensations prévues pour les garderies non subventionnées ?
+- Est-ce qu'il est prévu de compenser les garderies non subventionnées ?
+- Est-ce qu'il y aura de l'aide pour les garderies non subventionnées ?
+- Est-ce qu'une aide financière sera apportée aux garderies non subventionnées ?
+- Le gouvernement annoncera-t-il des mesures pour dédommager les garderies non subventionnées ?
+- Est-ce que des mesures seront prises pour aider financièrement les garderies non subventionnées ?
+- Le gouvernement prévoit-il des mesures financières pour les garderies non subventionnées ?
 
 ## intent: ask_faq/ask_2ecole-garderie
-- Will personnel members at childcare centres and subsidized childcare facilities continue to be paid?
-- I am workind in a daycare, will I be paid ?
-- Will personnel members of childcare centres be paid
-- Will personnel members of private childcare centres be paid ?
-- Will personnel members subsidized childcare facilities will be paid ?
-- Will my childcare taker continue to be paid ?
-- Will personnel of Daycare Centre  be paid ?
-- Will personnel of subsidized DayCare Centre be paid
+- Est-ce que le personnel des CPE et garderies subventionnées continuera d’être payé?
+- Est-ce que les travailleurs des CPE et garderies subventionnées recevront un salaire ?
+- Les employés des CPE et des garderies subventionnées seront-ils dédommagés ?
+- Est-ce que les employés des CPE et des garderies subventionnées recevront leur paie ?
+- Est-il prévu des mesures compensatoires pour le personnel des CPE et des garderies subventionnées ?
+- Qu'est-ce qui est prévu financièrement pour venir en aide au personnel des CPE et garderies subventionnées ?
+- Le salaire sera-t-il toujours versé pour le personnel des CPE et des garderies subventionnées ?
+- Les employés des CPE et des garderies subventionnées recevront-ils une allocation ?
+- Est-ce que des mesures sont prévues pour venir en aide financièrement aux employés des CPE et garderies subventionnées ?
+- Qui paiera le salaire du personnel des CPE et des garderies subventionnées ?
+- Est-ce que le personnel des CPE et garderies subventionnées recevra sa paie ?
 
 ## intent: ask_faq/ask_3ecole-garderie
-- Will parents who must take two weeks of leave because schools and childcare services are closed continue to be paid?
-- Will I be paid if I stay home with the kids and if I work for a private company ?
-- Is it true that if I stay home with the kids, I can be paid anyway ?
-- Can I be forced to work at home, if I stay  home with my children ?
-- Are the rules for working at home while staying with the kids the same for everybody ?
-- What are the possibilities to be paid anyway if I stay home with the children while they are out of school?
-- Is it only the people that work for the Goverment that will be paid anyway if they stay at home with the kids ?
-- I work for a shop can I be paid anymay if I stay home with the kids because their out of school?
-- Are there measures to help me financially if I can not go to work because the children are of scholl becaude of the coronavirus ?
-- What are the rules if I work in the private sector and have to work out of my home to stay with my childred that don't have school?
+- Est-ce que les parents qui vont devoir prendre deux semaines de congé en raison de la fermeture des écoles et des services de garde vont continuer d’être payés?
+- Les parents qui doivent s'occuper de leurs enfants pendant les deux semaines de congé recevront-ils leur salaire ?
+- Les employés qui dovient prendre deux semaines de congé en raison de la fermeture des écoles et des services de garde seront-ils dédommagés ?
+- Est-ce que les parents qui sont en congé pendant deux semaines recevront leur paie ?
+- Est-il prévu des mesures compensatoires pour les parents qui doivent prendre congé pendant deux semaines en raison de la fermeture des écoles et des services de garde ?
+- Qu'est-ce qui est prévu financièrement pour venir en aide aux parents qui ne peuvent travailler pendant deux semaines pour prendre soin de leurs enfants ?
+- Les parents recevront-ils leur salaire malgré qu'ils doivent rester à la maison pour s'occuper de leurs enfants ?
+- Est-ce que des mesures sont prévues pour venir en aide financièrement aux parents qui doivent s'absenter de leur travail en raison de la fermeture des écoles et services de garde scolaire ?
+- Est-ce qu'un parent qui doit s'absenter pour prendre soin de ses enfants doit piger dans ses journées de vacances ?
+- Est-ce que les parents qui prennent congé doivent se faire couper leur paie ?
 
 ## intent: ask_faq/ask_4ecole-garderie
-- Could the two-week closing of schools and childcare services be prolonged?
-- When are we going to know if school are still closed after the two weeks ?
-- When are we going to know if Daycare centres are still closed after the two weeks ?
-- When are we going to know if Childcare centres are still closed after the two weeks ?
-- Can the schools still be closed after the two weeks ?
-- Can the Daycare centre still be closed after the two weeks ?
-- Can the Childcare centre still be closed after the two weeks ?
-- Can my child's school be closed after this two weeks period ?
-- Can my child's Daycare be closed after this two weeks period ?
-- Can my child's Carecentre be closed after this two weeks period ?
-- Will my child be able to go to school after the two  weeks period
-- Will my child be able to go to Daycare after the two weeks period
-- Will my child be able to go to the Childcare centre after the two weeks period
+- La période de deux semaines de fermeture des écoles et des services de garde pourrait-elle être prolongée?
+- Est-ce que les écoles et les services de garde pourraient fermer plus de deux semaines ?
+- Est-il prévu de retarder le retour à l'école et au service de garde ?
+- Est-ce que les enfants retourneront à l'école et au service de garde après la période de deux semaines ?
+- Quand les enfants pourront-ils retourner à l'école ?
+- Est-ce que les écoles et les services de garde seront fermés encore longtemps ?
+- Est-ce que l'année scolaire sera annulée ?
+- Quand saurons-nous si l'école pourra recommencer après la période de deux semaines ?
+- Est-ce certain que l'école et les services de garde ouvriront à nouveau après la période de deux semaines ?
+- Est-ce qu'on peut dire à nos enfants qu'ils retourneront à l'école après la période de deux semaines ?
+- Pouvez-vous nous assurer que les écoles et les services de garde seront ouverts après les deux semaines de distanciation sociale ?
 
 ## intent: ask_faq/ask_5ecole-garderie
-- Will lost days in schools, CEGEPs and universities be repeated?
-- Will I be able to catch up with my classes missed in University ?
-- Will I be able to catch up with my classes missed in College ?
-- Will I be able to catch up with my classes missed in school ?
-- Will I be able to graduate from High School ?
-- Will I be able to graduate from University?
-- Will I be able to graduate from College?
-- When will I know if I have to go school later in the year?
-- When will I know if I have to go College later in the year?
-- When will I know if I have to go University later in the year?
-- Will I have to go to school this summer ?
-- Will I have to go to College this summer ?
-- Will I have to go to University this summer ?
-- How this will affect my marks/grades?
+- Est-ce que les journées perdues (écoles, cégeps, universités) seront reprises?
+- Comment fonctionnera le reste des journées de l'année scolaire
+- Est-ce que je devrai reprendre les cours perdus
+- Est-ce que l'année scolaire est terminée
+- Est-ce que je perds toutes les journées d'école restante
+- Est-ce que les jours perdus devront être repris
+- Combien de jours d'école je devrai reprendre
+- Dois-je reprendre tous les jours d'écoles perdus
+- Qu'est-ce que le gouvernement va faire pour les journées d'écoles manquées
+- Est-il prévu de refaire des journées d'école supplémentaires
+- Est-ce que je dois reprendre toutes mes journées d'école
 
 ## intent: ask_faq/ask_6ecole-garderie
-- Which educational services are closing?
-- Are all the school closed ?
-- Are all college closed?
-- Are all cegep closed?
-- Are all universities closed?
-- Are all the elementary school closed ?
-- Are all Junior and Senior High School closed ?
-- Are all training centres closed ?
-- Are all private schools closed ?
-- When does the closing end?
-- When can I go back to University ?
-- When can I go back to College ?
-- When can I go back to school ?
-- When does school start ?
-- When does college start ?
-- When does university start ?
-- When does CEGEP start ? 
+- Quels sont les services d’enseignement visés par les fermetures?
+- Quelles écoles sont fermées
+- Qu'est-ce qui est fermé dans l'enseignement
+- Est-ce que l'école primaire est fermée
+- Est-ce que l'école secondaire est fermée
+- Est-ce que les CEGEP sont fermés
+- Est-ce que les universités sont fermées
+- Est-ce que toutes les écoles sont fermées
+- Est-ce que mon enfant peut aller en classe
+- Est-ce que mon garçon peut aller à l'école
+- Est-ce que tout est fermé à l'école
+- Est-ce que les établissements d'enseignements supérieurs sont fermés?
 
 ## intent: ask_faq/ask_7ecole-garderie
-- Why are schools and day care centres being closed now? Is it not premature to do so?
-- Isn't it too soon to close the schools?
-- I find that the decision to close school was
-- Shouldn't they have waited before closing schools
-- Why closing school so quickly? 
-- Why closing Daycare centres so quickly ?
-- It seems to me that schools and Daycare centres have been closed quickly. 
-- Closing school, what for ?
-- Closing Daycare centre, what for ?
-- I would have not closed the schools and Daycare Centre,  I would have kept them open
-- I do not like the fact that schools are closed.
-- It seems to me that schools and Childcare centres had been closed quickly. 
-- Closing Childcare centre, what for ?
-- I don't like that schools are closed. 
+- Pourquoi fermer les écoles et les garderies à ce moment-ci? N’est-ce pas prématuré?
+- N'est-il pas trop tôt pour fermer les écoles
+- Il me semble que les écoles ont fermées vite
+- Aurait-on dû attendre avant de fermer les écoles
+- Pourquoi fermer les écoles aussi rapidement
+- Pourquoi fermer les garderies aussi rapidement
+- Il semble que les écoles et les garderies ont fermées vite
+- Pourquoi fermer les écoles
+- Pourquoi fermer les garderies
+- Je n'aurais pas fermer les écoles et les garderies
+- Je n'aime pas que les écoles soient déjà fermées
 
 ## intent: ask_faq/ask_1service-de-garde-urgence
-- What procedures must be followed to register for emergency childcare services?
-- How can I enlist for emergency childcare services?
-- Where can I register my children/child to the emergency childcare services?
-- I can't take care of my kids at home. What can I do?
-- How do the emergency childcare services work?
-- Am I / Are my children elligible to the emergency childcare services?
+- Quelles sont les procédures pour s’inscrire aux services de garde d’urgence?
+- Quelle est la marche à suivre pour inscrire mon enfant dans un service de garde d'urgence ?
+- Quelle est la façon d'inscrire mes enfants au service de garde d'urgence ?
+- Comment inscrire nos enfants dans les services de garde d'urgence ?
+- Où sont les instructions pour s'inscrire aux services de garde d'urgence ?
+- Comment peut-on inscrire nos enfants dans les services de garde d'urgence ?
+- Est-ce que je peux utiliser les services de garde d'urgence ?
+- Comment faire pour inscrire mon enfant dans un service de garde d'urgence ?
+- Est-ce possible d'utiliser les services de garde d'urgence ?
+- Est-ce que les services de garde d'urgence peuvent être utilisés pour mes enfants ?
+- Qui va me dire comment faire pour inscrire mon enfant au service de garde d'urgence ?
+- Comment je fais pour inscrire mon enfant au service de garde d'urgence ?
+- C'est comment qu'on fait pour inscrire notre enfant au service de garde d'urgence ?
+- Comment ça marche pour inscrire notre enfant au service de garde d'urgence ?
+- Comme que je peux inscrire mon enfant au service de garde d'urgence ?
+- Inscrire mon enfant au service de garde d'urgence, c'est possible ?
+- Je peux-tu inscrire mon enfant au service de garde d'urgence ?
+- Inscrire au service de garde d'urgence un enfant 
+- Inscrire enfant service de garde d'urgence
+- C'est comment qu'on inscrit dans le service de garde d'urgence ?
+- Je fais quoi pour inscrire mon enfant au service de garde d'urgence ?
+
 
 ## intent: ask_faq/ask_2service-de-garde-urgence
-- What are the operating hours of emergency childcare services?
-- When are the emergency childcare services open?
-- At what time do the childcare services start?
-- At what time do the childcare services end?
-- How early are the childcare services open?
-- How late are the childcare services open?
-- Are there emergency childcare services on the week-end?
+- Quelles seront les heures d’ouverture des services de garde d’urgence?
+- Est-ce que les services de garde d'urgence sont ouverts la fin de semaine ?
+- Quelles sont les plages horaires pour les services de garde d'urgence ?
+- Est-ce que les services de garde d'urgence sont ouverts le soir ?
+- À quelle heure ferme le service de garde d'urgence ?
+- À quelle heure ouvre le service de garde d'urgence ?
+- Est-ce que les heures d'ouverture seront prolongées ?
+- Est-ce qu'il existe des services de garde d'urgence si je dois travailler la fin de semaine ?
+- Est-ce qu'il y a des services de garde ouverts le soir pendant la crise ?
+- Est-ce qu'il y a des services de garde ouverts la nuit pendant la crise ?
+- C'est quand que les services de garde d'urgence sont ouverts ?
+- Quelles sont les heures du service de garde d'urgence ?
+- C'est ouvert de quelle heure à quelle heure les services de garde d'urgence ?
+- C'est quand que c'est ouvert les services de garde d'urgence ?
+- Ça ouvre à quelle heure ?
+- C'est ouvert de quelle heure à quelle heure ?
+- À quelle heure ça commence pis à quelle heure ça fini ?
+- C'est tu ouvert le soir ?
+- C'est tu ouvert la fin de semaine ?
+- Heures d'ouverture
+- Plages horaires
+- C'est ouvert en soirée ?
+- C'est ouvert la nuit ?
+- C'est ouvert quand les services de garde ?
 
 ## intent: ask_faq/ask_1emploi
-- Which jobs do essential services include?
-- Is my job an essential service?
-- Am I elligible to the emergency childcare services?
-- How do I know if my job counts as an essential service?
+- Quels sont les emplois visés par les services essentiels?
+- Quels sont les emplois essentiels
+- Qui fait partie des personnes en services essentiels
+- Quels sont les emplois qui vont continuer malgré la crise
+- Est-ce que des personnes devront continuer à travailler même si plusieurs personnes ne pourront plus travailler
+- Quel travail est considéré essentiel
+- Qui va continuer de travailler
+- Qui agit sur un emploi essentiel
+- Est-ce que mon emploi fait partie des services essentiels
+- Est-ce que peux suis reconnu comme un emploi obligatoire
+- C'est quoi les emplois qui sont essentiels ?
+- Mon emploi est-il essentiel ?
+- Est-ce que je dois continuer de travailler ?
+- J'ai tu un emploi essentiel ?
+- C'est qui qui a un emploi essentiel ?
+- Je dois-tu encore travailler ?
+- Je suis tu essentiel ?
+- Qui doit travailler pendant la crise ?
+- Je dois tu continuer à travailler pendant la crise ?
+- Ya tu des personnes qui doivent continuer de travailler malgré la crise ?
+- Qui c'est qui doit travailler pendant la crise ?
+- Faut tu que je continue à travailler ?
 
 ## intent: ask_faq/ask_2emploi
-- Is it recommended not to go to work?
-- How do I decide if I should go to work or not?
-- When do I go back to work?
-- Should I go to work?
-- Is going to work safe?
-- One of my collegues is sick. Should I go to work?
-- Can I go to work even if I'm feeling a little sick?
+- Est-il recommandé de ne pas rentrer au travail?
+- Dois-je travailler
+- Dois-je continuer de travailler
+- Est-ce que c'est dangereux de rentrer travailler
+- Est-ce que je peux aller travailler
+- Devrais-je rester à la maison et ne pas travailler
+- Est-ce que je peux aller chercher du matériel au travail
+- J'ai peur et je ne veux pas travailler, est-ce que je peux
+- Est-ce que je dois rester à la maison 
+- Est-ce que c'est mieux de rester à la maison ?
+- Est-ce que je devrais éviter d'aller au travail
+- Je suis tu mieux de rester à maison ?
+- Je suis tu mieux de pas aller travailler ?
+- Faut tu que j'évite d'aller travailler ?
+- Faut tu que je reste chez moi ?
+- Est-ce que je peux quand même aller au travail ?
+- C'est tu mieux de rester chez nous ?
+- Est-ce qu'on est mieux de ne pas aller au travail ?
+- Ce serais-tu mieux que j'aille pas au travail ?
 
 ## intent: ask_faq/ask_3emploi
-- Will a general directive be issued for civil servants concerning teleworking?
-- Is teleworking obligatory?
-- When is teleworking an option?
-- Does my boss decide if teleworking is an option?
+- Une directive générale sera-t-elle émise concernant le télétravail pour les fonctionnaires?
+- Est-ce que je pourrai faire du télétravail
+- Puis-je travailler à partir de la maison
+- Est-ce que je peux travailler chez moi
+- Puis-je travailler à distance
+- Est-ce que le télétravail est permis
+- Qui peut faire du télétravail
+- Qui peut travailler de la maison
+- Est-ce que tous les fonctionnaires peuvent faire du télétravail
+- Est-ce que tous les fonctionnaires peuvent travailler de la maison
+- Si je fonctionnaire, puis-je faire du télétravail.
+- Est-ce que seul les fonctionnaires peuvent faire du télétravail
+- Est-ce qu'il y a des règles pour le télétravail
+- Je peux-tu faire du télétravail
+- Ya tu des règles pour faire du télétravail
+- Les fonctionnaires doivent-ils faire du télétravail
+- C'est tu obligatoire de faire du télétravail si je suis fonctionnaire 
+- C'est qui qui peut faire du télétravail
+- Si je suis fonctionnaire je peux tu faire du télétravail
+- Tous les fonctionnaires doivent faire du télétravail
+- C'est tu possible que je fasse du télétravail si je suis fonctionnaire
 
 ## intent: ask_faq/ask_4emploi
-- Does my employer need to take any extra steps to protect workers’ health?
+- Mon employeur doit-il prendre des mesures particulières pour protéger la santé des travailleurs ?
+- Est-ce que mon employeur va prendre des mesures pour nous protéger
+- Comment mon entreprise va-t-elle nous protéger
+- Est-ce que mon entreprise va mettre en place des façons de sécuriser notre travail
+- Est-il prévu de sécuriser les lieux du travail
+- Qu'est-ce que mon employeur doit prendre comme actions pour nous protéger
+- Est-ce que mon patron doit s'assurer de notre sécurité
+- Que doit faire mon employeur pour s'assurer que nous sommes protéger
+- Mon patron es-tu obligé d'agir pour ma sécurité
+- Comment mon employeur doit faire pour protéger notre santé
+- Comment mon employeur va me protéger
+- Est-ce qui faut que ma job me protège
+- C'est quoi que mon employeur doit faire pour protéger ses employés
+- Mon employeur fait rien pour me protéger ya tu le droit
+- Si mon employeur fait rien pour me protéger je fais quoi
+- Mon employeur fait rien pantoute je peux tu arrêter de travailler
+- Est-ce qui faut que mon boss protège ma santé
+- Est-ce qui faut que mon boss prenne des mesures pour protéger la santé de ses employés
+- Comment mon boss peut protéger ma santé
 
 ## intent: ask_faq/ask_5emploi
-- Am I entitled to sick leave?
+- Est-ce que j'ai droit à des congés de maladie?
+- Est-ce que je dois prendre des congés maladie
+- Est-ce que je dois mettre mon temps en maladie
+- Va-t-on avoir des congés maladie
+- Est-ce que le gouvernement donnera des congés maladie
+- Est-ce que je peux m'absenter du travail pour maladie
+- Si ne travaille pas, dois-je prendre des congés maladie
+- Est-ce qu'on va me donner des congés maladie
+- Combien de congé maladie je vais recevoir
+- Combien de temps puis-je être en congé maladie
+- Est-ce que je dois prendre des congés maladie ou des vacances
+- Je peux tu prendre congé si je suis malade
+- J'ai tu le droit de prendre des congés de maladie
+- Qui a droit aux congés de maladie
+- Je peux tu avoir des congés de maladie
+- Si je suis malade je peux tu m'absenter
+- Est-ce qu'on peut avoir des congés de maladie
+- Faut que tu mon boss me laisse prendre des journées de maladie
+- Mon boss doit tu me donner des congés de maladie
+- J'ai le droit à combien de jours de congé
+- À combien de jours de maladie j'ai le droit
 
 ## intent: ask_faq/ask_6emploi
-- Can an employee be dismissed for refusing to work in an at-risk location?
+- Un employé peut-il être congédié s’il refuse d’aller travailler dans un endroit à risque?
+- Est-ce que je peux refuser de travailler si mon lieu de travail est dangereux
+- Si je ne veux pas rentrer travailler pour ma sécurité, est-ce que je peux
+- Puis-je ne pas travailler puisque j'ai peur de travailler dans un endroit risqué
+- Est-ce que mon patron peut me renvoyer si je ne veux pas travailler dans un endroit risqué
+- Est-ce que je peux me faire congédier si je ne veux pas travailler
+- Mon employeur peut-il me congédier si je ne souhaite pas aller travailler dans un endroit à risque
+- Est-ce que je peux perdre mon emploi si je ne veux pas aller travailler
+- Suis-je à risque de perdre ma job si j'ai peur d'aller travailler
+- Pourrais-je perdre mon emploi si je ne veux pas travailler
+- Est-ce que mon patron peut décider de me congédier si je refuse de travailler
+- Je veux pas aller travailler c'est trop dangereux est-ce que je vais me faire mettre à porte
+- Mon boss peut tu me mettre à porte si je veux pas aller travailler à job parce que je trouve ça dangereux
+- J'ai pas le goût d'aller travailler à job c'est trop dangereux je vais tu me faire mettre à porte
+- J'ai un emploi à risque je peux tu refuser d'aller travailler sans me faire mettre à porte
+- Je peux tu me faire mettre à porte je veux pas aller travailler c'est trop risqué
+- C'est ben trop dangereux à job si j'y vais pas je vais tu me faire mettre à porte
+- Mon boss a tu le droit de me mettre à porte si je trouve que c'est trop dangereux pour y aller
+- Je veux même pas aller à job pis j'ai peur que mon boss me mette à porte ya tu le droit
 
 ## intent: ask_faq/ask_7emploi
-- Can my employer put me on unpaid leave because of the coronavirus?
-
-## intent: ask_faq/ask_8emploi
-- Can my employer put me on unpaid leave because of the coronavirus?
+- Est-ce que mon employeur peut me mettre en arrêt de travail non-payé à cause du coronavirus?
+- Est-ce que mon patron peut arrêter de me payer s'il me met en arrêt de travail
+- Est-ce que je peux me faire mettre à la porte à cause du Coronavirus
+- Est-ce que je peux me faire mettre à la porte
+- Est-il possible que je perdre mon emploi à cause du COVID
+- Est-ce que mon boss pourrait ne pas me payer si je suis en arrêt de travail
+- Est-ce que je peux arrêter d'être payé par mon employeur
+- Est-ce que mon patron peut décider de ne plus me payer
+- Est-ce que je peux ne plus recevoir de salaire
+- Mon salaire sera-t-il coupé
+- Est-ce que je serai au chômage
+- Mon boss veut pu me payer parce que je peux pas travailler ya tu le droit
+- Est-ce que mon boss peut m'enlever mon salaire si je travaille pas
+- Je peux tu me faire mettre en arrêt de travail pas payé à cause du coronavirus
+- C'est tu normal que mon boss me paie pu
+- Est-ce qu'il faut que mon boss continue de me payer même si je travaille pas
+- Je vais tu avoir un salaire si mon boss me met en arrêt de travail
+- Est-ce que je vais avoir un salaire même si mon boss m'a arrêté
+- C'est tu correct que mon boss arrête de me payer parce que je suis en arrêt
+- C'est-ce normal de ne plus avoir de paie parce que je ne travaille pas à cause du coronavirus
 
 ## intent: ask_faq/ask_1personnes-a-risque
-- Are visits permitted to hospitals, residential and long-term care centres, intermediate resources and family-type resources for the elderly and vulnerable adults and private seniors’ homes?
+- Est-ce que les visites dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial pour les aînés et les adultes vulnérables ainsi que dans les résidences privées pour aînés sont permises?
+- Je peux-tu aller voir mon père au foyer ?
+- Est-ce que je peux aller voir ma mère malade à l'hôpital
+- Puis-je accompagner ma femme à l'hopital si elle accouche?
+- Mon père de 80 ans veut aller voir sa femme au foyer? Est-ce correct ?
+- je peux-tu aller voir ma mère à sa résidence pour personne agées
+- Est-ce possible de faire des visites en CHSLD?
+- Est-ce que je peux aller visiter une amie à la maternité? 
+- Est-ce conseillé d'aller visiter les gens hospitalisés?
+- Est-ce que je peux aller voir mes grands-parents dans leur résidence de personnes âgées ?
+- Ma mère est dans une résidence je peux-tu aller la voir 
+- C'est tu possible que je continue d'aller rendre visite à mes parents dans leur résidence de personnes âgées
+- Ma mère a le coronavirus et est seule au CHSLD je peux tu aller m'en occuper
+- J'ai tu le droit d'aller rendre visite à un aîné
+- Est-ce qu'on peut recevoir de la visite quand on est en CHSLD
+- Je dois me faire opérer est-ce que quelqu'un peut m'accompagner
+- On a tu encore le droit d'aller visiter des gens à l'hôpital ou au CHSLD
+- Je peux-tu être accompagné quand je vais accoucher
+- Est-ce que ma famille pourra me visiter après mon accouchement
+- Je peux-tu avoir de la visite dans ma chambre après mon accouchement
+- Je peux tu aller voir mes parents dans leur résidence de vieux
 
 ## intent: ask_faq/ask_2personnes-a-risque
-- Is it possible to deliver food or essential items to people in hospitals, residential and long-term care centres, intermediate resources, family-type resources for the elderly and vulnerable adults, and private seniors’ homes?
+- Est-il possible d’aller livrer de la nourriture ou des biens essentiels à des personnes qui sont dans les hôpitaux, les CHSLD, les ressources intermédiaires, de type familial pour les aînés et les adultes vulnérables et les résidences privées pour aînés?
+- Je peux-tu aller porter de la nourriture à ma mère à sa résidence
+- Est-ce que je peux aller porter de la nourriture à ma mère à son foyer
+- Ma mère a besoin de linge propre à l'hôpital, est-ce que je peux lui en amener
+- Je peux-tu aller porter les médicaments de mon oncle qui vient d'entrer à l'hôpital
+- Est-ce possible d'apporter des effets personnelles à mon père en CHSLD?
+- À qui puis-je donner les effets de ma mère pour qu'elle les reçoivent?
+- Est-ce que c'est correct d'aller livrer de la nourriture à nos aînés ?
+- Est-ce que je peux donner à manger à ma grand-mère
+- Est-ce que je peux donner à manger à mon grand-père
+- Est-ce que je peux livrer de la nourriture à l'hôpital
+- Je peux tu aller porter des choses au CHSLD à ma mère ou à mon père
+- Est-ce que les CHSLD veulent encore qu'on aille porter de la nourriture à nos parents
+- J'avais acheté des choses essentielles pour mes parents qui sont en résidence je peux-tu aller leur porter
+- Je fais quoi avec les choses que j'avais acheté pour mes parents
+- On a tu le droit d'aller porter de la nourriture ou des choses essentielles à des personnes hospitalisées
+- Ma soeur vient d'accoucher je peux tu aller lui porter quelque chose à manger
+- J'ai tu le droit d'aller porter des choses au CHSLD pour ma mère ou pour mon père
+- C'est tu correct d'apporter de la nourriture pour quelqu'un à l'hôpital
 
 ## intent: ask_faq/ask_3personnes-a-risque
-- Can an individual go to a hospital to visit a loved one who is dying?
+- Est-ce qu’une personne peut, par exemple, se rendre à l’hôpital pour visiter un proche qui est mourant?
+- Ma mère se meure, je peux aller la voir?
+- Mon père a pris du pire, je peux aller au foyer le voir ?
+- Ma soeur est en phase terminale, j'aimerais aller la voir. Est-ce possible ?
+- Ma mère de 90 ans veut aller voir sa dernière soeur mourante ?
+- Maman est très malade, on ne sait combien de temps elle va durer, je veux aller la voir 
+- Est-ce que les soins paliatifs sont accessible?
+- Puis-je aller voir ma grand-mère mourrante?
+- Est-ce que je peux aller visiter quelqu'un en phase terminale à l'hôpital ?
+- Est-il possible de visiter quelqu'un en train de mourir
+- Ma mère a la COVID et va mourir je peux tu aller la voir
+- Est-ce que j'ai le droit d'aller voir mon père en phase terminale
+- Mon père a la COVID et va mourir je peux tu aller le voir
+- Est-ce que j'ai le droit d'aller voir ma mère en phase terminale
+- Mon père va mourir je peux-tu aller le voir
+- J'ai tu le droit d'aller dire au revoir à quelqu'un sur son lit de mort
+- Je connais quelqu'un qui va mourir je peux-tu aller le voir à l'hôpital
+- Mon père est à veille de mourir il vient de rentrer à l'hôpital j'ai tu le droit d'aller le voir
+- Ma mère est à veille de mourir elle vient de rentrer à l'hôpital j'ai tu le droit d'aller le voir
+- C'est tu correct d'aller à l'hôpital pour voir une personne mourrante
+- C'est tu possible que j'aille voir quelqu'un qui va mourir à l'hôpital 
+
 
 ## intent: ask_faq/ask_4personnes-a-risque
-- Can elderly people 70 years of age and over leave their homes for medical appointments?
+- Est-ce que les personnes de 70 ans et plus peuvent sortir à l’extérieur de leur domicile, notamment pour se rendre à leurs rendez-vous médicaux?
+- J'ai un rendez-vous chez le docteur, je peux y aller?
+- Ma femme a un rendez-vous chez le docteur, je peux aller avec elle?
+- Je dois voir le cardiologue ?
+- Je dois voir le docteur ?
+- Est-ce que je peux sortir dehors ?
+- Je peux-tu aller prendre une marche avec ma femme ?
+- Ai-je le droit d'aller prendre l'air?
+- Est-ce possible de sortir pour des loisirs si ma mère à plus de 70 ans?
+- Est-ce que je peux aller prendre une marche?
+- Est-ce que je peux aller à l'épicerie ?
+- J'ai plus de 70 ans est-ce que je peux quand même aller voir mon médecin pour un suivi
+- C'est tu correct d'aller prendre une marche dehors
+- J'ai tu le droit de m'asseoir sur mon balcon dehors
+- Je peux-tu aller voir des amis s'ils ne sont pas contaminés par le virus
+- On a tu encore le droit de sortir quand on a plus de 70 ans
+- J'ai tu le droit d'inviter mes enfants à venir souper 
+- Je peux tu encore aller au restaurant
+- Pourquoi qui faut que je reste chez nous
+- J'ai un rendez-vous urgent j'ai tu le droit d'y aller
+- Est-ce qu'on a encore le droit d'avoir une vie
 
 ## intent: ask_faq/ask_5personnes-a-risque
-- Is it possible to deliver food or essential items to elderly people living at home?
+- Est-il possible d’aller porter de la nourriture ou des biens essentiels à des personnes âgées qui habitent encore dans leur maison?
+- Ma mère habite seul, est-ce que je peux faire son épicerie et aller lui porter ?
+- Je peux aller porter des plats que j'ai cuisinés pour mes parents ?
+- Si je tousse, est-ce que je peux aller porter des repas fait maison à ma voisine?
+- Si je reviens de voyage, est-ce conseillé d'aller faire l'épicerie pour mes parents et aller leur porter?
+- Puis-je aller faire l'épicerie pour ma voisine âgée?
+- Est-ce que c'est possible de faire les commissions de ma mère et d'aller les porter chez elle?
+- Est-ce que je peux faire la commande de ma grand-mère et la lui livrer?
+- Est-ce possible de faire le marché de ma grande tante et aller la porter chez elle?
+- Est-ce possible d'aller porter chez mes parents leur prescription de médicaments?
+- J'ai des choses à acheter pour mes parents ils ont encore leur maison c'est tu correct d'aller leur porter
+- C'est tu encore possible d'aller porter de la nourriture à mes parents ils ont leur maison
+- C'est tu grave d'aller porter de la nourriture à nos parents s'ils sont encore dans leur maison
+- Est-ce que j'ai encore le droit de faire l'épicerie et d'aller la porter à ma mère elle est encore dans sa maison
+- Est-ce que ma mère doit faire elle-même son épicerie ou je peux encore aller lui porter
+- J'ai pas le virus et je veux aller porter des biens essentiels à mes parents, ils ont encore leur maison est-ce correct
+- C'est tu correct de faire l'épicerie pour des personnes âgées qui habitent encore dans leur maison
+- Ma mère peut pas sortir est-ce que je peux aller lui faire son épicerie et lui livrer
 
 ## intent: ask_faq/ask_6personnes-a-risque
-- Are pregnant women at risk?
+- Les femmes enceintes sont-elles à risque?
+- Je suis enceinte, est-ce qu'il y a un danger?
+- Je suis enceinte de 3 mois, est-ce dangeureux pour le foetus
+- J'arrive de voyage, et je suis enceinte. Dois-aller passer le test même si je n'ai pas de symptome ?
+- Je veux aller passer le test car j'arrive de voyage pour le bureau et je tousse, ma blonde est enceinte, est-ce dangeureux ?
+- Je suis enceinte et une personne au bureau a dû être testée. J'ai été en contact avec elle avant qu'elle découvre. Suis-je à risque ?
+- Est-ce que c'est plus dangereux pour les femmes enceintes ?
+- Est-ce que j'ai plus de chances d'attraper le virus si je suis enceinte ?
+- Est-ce que le virus peut se transmettre au foetus?
+- Quels sont les précautions à prendre si je suis enceinte?
+- Est-ce que mon bébé à naître peur attrapper la COVID-19?
+- C'est tu dangereux pour les femmes enceintes ce virus-là
+- Mon bébé peut-il le pogner si j'ai pas encore accouché
+- Est-ce qu'il y a un danger pour les femmes enceintes
+- Le danger est-il plus grand pour les femmes enceintes
+- Je suis enceinte est-ce que le virus est plus dangereux pour moi
+- J'ai tu plus de chance de le pogner si je suis enceinte
+- Je suis enceinte et j'ai le virus. Mon bébé va-t-il l'avoir quand je vais accoucher
+- Est-ce qu'il y a des risques de malformations pour mon bébé si j'attrape le coronavirus
+- Mon bébé peut-il l'avoir pendant qu'il est dans mon ventre
+- Si je l'attrape pendant que je suis enceinte c'est tu dangereux
+- Mon bébé peut-il naître avec le coronavirus
 
 ## intent: ask_faq/ask_7personnes-a-risque
-- Are children less at risk?
+- Les enfants sont-ils moins à risque?
+- Les enfants peuvent-ils l'attrapper ?
+- Mes enfants jouent souvent avec les enfants de la voisine pis elle arrive d'une croisière. Que dois-je faire ?
+- Je suis en quarantaine volontaire car j'ai voyagé durant la semaine de relâche avec eux, qu'est-ce qui se passe avec les enfants ?
+- Au début, on s'est organisé entre amis pour garder nos enfants à tour de rôle pour pouvoir travailler à la maison. Est-ce une bonne idée ?
+- Est-ce que les enfants sont immunisés ?
+- Est-ce vrai que les enfants ne peuvent pas l'attraper ?
+- Ma mère gardait les enfants avant les annonces et elle arrivait d'une croisière, est-ce que les enfants sont à risque ?
+- Est-ce que les directives d'isolement s'adressent aussi aux enfants ?
+- Que faire si je pense que mon enfant a attrappé le virus ?
+- Est-ce vrai que les enfants ont moins de chance de l'attraper ?
+- C'est tu dangereux pour les enfants ?
+- C'est tu moins dangereux pour les enfants ?
+- Est-ce que mes enfants peuvent aller jouer dehors avec des amis ?
+- Est-ce que mes enfants peuvent aller jouer chez le voisin ?
+- Si mon enfant le pogne est-ce que c'est dangereux pour lui ?
+- Si je pogne le virus est-ce que mon enfant va l'avoir ?
+- Est-ce que le virus est dangereux pour mon enfant ?
+- Est-ce que mon enfant peut transmettre le virus ?
+- Mon enfant n'a pas de symptôme peut-il quand même avoir le virus ?
+- Est-ce que mon enfant va avoir le coronavirus si je l'ai ?
 
 ## intent: ask_faq/ask_1symptomes-prevention
-- What are the main symptoms associated with COVID-19?
+- Quels sont les principaux symptômes associés à la COVID‑19?
+- Quels sont les symptômes associés à la COVID-19?
+- Quels sont les symptômes de la COVID-19?
+- Comment reconnaitre la COVID-19?
+- Est-ce que la fièvre est un symptôme de la COVID-19 ?
+- Est-ce que la toux est un symptôme de la COVID-19 ?
+- Est-ce que les difficultés respiratoires sont un symptôme de la COVID-19 ?
+- Est-ce que les symptômes du coronavirus s'apparentent à ceux de la grippe ?
+- Quelle sont les effets de la COVID-19 ?
+- Quelles sont les effets du coronavirus ?
+- Comment savoir que j'ai le covid
+- On se sent comment quand on pogne la COVID-19 ?
+- Ya tu des signes quand on a le virus ?
+- Est-ce que je vais le savoir si j'attrape le virus ?
+- Comment je vais me sentir si j'ai le coronavirus ?
+- Est-ce que je vais bien aller si j'attrape la COVID-19 ?
+- C'est quoi les signes du coronavirus ?
+- Si je tousse j'ai tu le coronavirus ?
+- Si j'ai de la fièvre j'ai tu le coronavirus ?
+- Si j'ai de la misère à respirer j'ai tu le coronavirus ?
+- Si j'ai juste de légers symptômes ça peux-tu être le coronavirus quand même ?
+- J'ai comme une grippe c'est tu le coronavirus ?
+- Les symptômes c'est tu comme la grippe ?
+- Les symptômes c'est tu comme le rhume ?
 
 ## intent: ask_faq/ask_2symptomes-prevention
-- How is covid-19 spread?
+- Comment se transmet la COVID‑19?
+- De quelle façon se transmet la COVID-19 ?
+- Comment je peux attraper la COVID-19 ?
+- Quelle est la manière d'attraper la COVID-19 ?
+- Par quel moyen puis-je développer la COVID-19 ?
+- Quels sont les facteurs de transmission de la COVID-19 ?
+- Quels sont les moyens d'être atteint de la COVID-19 ?
+- Comment se transmet le virus?
+- Quelles sont les parties du corps infecté par le virus?
+- Que quel façon transmet-on le virus?
+- Comment qu'on fait pour transmettre la COVID-19 ?
 
 ## intent: ask_faq/ask_3symptomes-prevention
-- How long can COVID-19 survive on objects?
+- Combien de temps la COVID‑19 survit-elle sur des objets?
+- Quel est le temps de survi du virus sur les surfaces ?
+- Est-ce que je peux attraper le virus en allant aux toilettes ?
+- Est-ce que le virus survit sur les objets ?
+- Peut-il y avoir la COVID-19 sur une poignée de porte ?
+- Est-ce que la COVID-19 peut être sur mes vêtements ?
+- Est-ce que la COVID-19 demeure longtemps sur les objets qui nous entourent ?
+- Est-ce que je peux attraper le virus en touchant à des objets ?
+- Combien de temps survis le virus ?
+- Est-ce que le virus meurt sur les objets
+- Est-ce que le virus survie dans l'air
 
 ## intent: ask_faq/ask_4symptomes-prevention
-- Is wearing a mask protect me effectively against COVID-19?
+- Est-ce que le port d’un masque est efficace pour me protéger contre la COVID‑19?
+- Dois-je porter un masque pour me protéger ?
+- Est-ce nécessaire de porter un masque par prévention ?
+- Est-ce que le port du masque protège contre la COVID-19 ?
+- Le port d'un masque va-t-il m'empêcher d'avoir la COVID-19 ?
+- Est-ce que je devrais porter un masque par mesure de prévention ?
+- Les masques sont-ils efficaces pour ne pas attraper le coronavirus ?
+- Est-ce qu'il est préférable de porter un masque pour éviter d'avoir le virus ?
+- Est-ce que je dois porter un masque pour aller à l'épicerie ?
+- Est-ce que le masque peut m'empêcher t'attrapper le virus?
+- ESt-ce que le masque est efficace pour se protéger de la COVID-19
 
 ## intent: ask_faq/ask_5symptomes-prevention
-- Is there any treatment for COVID-19?
+- Existe-t-il un traitement contre la COVID‑19?
+- Comment soigner la COVID-19 ?
+- Est-ce qu'un vaccin sur la COVID-19 existe ?
+- Que peut-on faire pour nous soigner lorsque nous avons la COVID-19 ?
+- Quel est le traitement pour guérir de la COVID-19 ?
+- Quel est le médicament pour traiter la COVID-19 ?
+- Existe-t-il un médicament pour me soigner ?
+- Est-ce que je peux avoir une pilule pour soigner la COVID-19 ?
+- Quelle est la solution pour le traitement de la maladie ?
+- Est-ce que le médecin peut me soigner ?
+- Est-ce que la COVID-19 se soigne?
 
 ## intent: ask_faq/ask_6symptomes-prevention
-- Is it preferable to self-isolate and stay home in the coming weeks even if individuals are not returning from a trip?
+- Existe-t-il un traitement contre la COVID‑19?
 
 ## intent: ask_faq/ask_7symptomes-prevention
-- Should I be worried about the COVID-19 situation?
+- Est-il préférable pour une personne de s’isoler et de rester à la maison pour les semaines à venir même si elle ne revient pas de voyage?
+- Est-ce nécessaire de s'isoler lorsqu'on ne revient pas de voyage ? 
+- Est-ce que les 70 ans et plus doivent rester à la maison ? 
+- Est-ce possible de faire des visites en CHSLD ?
+- Comment réduire la propagration de la COVID-19 ?
+- Est-ce qu'une personne en santé doit s'isoler même si elle ne revient pas de voyage ?
+- Si je suis atteint d'une maladie chronique, est-ce obligatoire de m'isoler puisque je ne reviens pas de voyage ?
+- Si je ne reviens pas de voyage et que je suis en santé et que j'ai moins de 70 ans, est-ce que je peux continuer mes activités habituelles ?
+- Est-ce obligatoire de rester à la maison lorsqu'on ne revient pas de voyage ?
+- Pour quelle raison doit-on rester à la maison si on ne revient pas de voyage ?
+- Je ne reviens pas de voyage, est-ce que je dois m'isoler et rester à la maison ?
 
 ## intent: ask_faq/ask_8symptomes-prevention
-- Does the RAMQ cover health services provided by means of telecommunications?
+- Dois-je m’inquiéter de la situation entourant la COVID‑19?
+- Est-ce que la situation concernant la COVID-19 est inquiétante?
+- Est-ce que la situation de la COVID-19 est sous contrôle? 
+- Est-ce que j'ai raison d'être angoissée face à la situation concernant la COVID-19 ?
+- Je suis inquiet, est-ce normal ?
+- Ai-je raison d'être inquiet ?
+- Est-ce que je devrais avoir peur de la situation concernant la COVID-19 ?
+- Est-ce que je dois être inquiet ?
+- Est-ce que le coronavirus est dangereux
+- Est-ce que je dois avoir peur du Coronavirus
+- Pourquoi les gens s'inquiète du coronavirus
+
+## intent: ask_faq/ask_9symptomes-prevention
+- Est-ce que les services de santé fournis par des moyens de télécommunication sont couverts par la RAMQ?
+- Est-ce que la RAMQ couvre les services de santé qui proviennent des services de télécommunication?
+- Si je rencontre mon médecin par téléphone, est-ce que ses services seront couverts par la RAMQ ?
+- Si je reçois une ordonnance par mon médecin, est-ce que je dois assumer ses honoraires ?
+- Est-ce que je dois payer pour recevoir des services de mon médecin via des services de télécommunication ?
+- Qui paiera les honoraires de mon médecin si je dois faire une consultation téléphonique ?
+- Est-ce que la RAMQ couvre les services de santé lors d'une téléconsultation ?
+- Qui assume les honoraires du médecin si je dois le consulter par un service de télécommunication ?
+- Qui paye pour les rendez-vous de santé à distance
+- Qui paye pour l'accès aux services de télémédecine
+- Est-ce que la télémédecine est couverte par la RAMQ
 
 ## intent: ask_faq/ask_1lieux-publiques
-- Can restaurants remain open?
+- Est-ce que les restaurants peuvent demeurer ouverts?
+- Quels sont les restrictions liées aux restaurants?
+- Est-ce que les buffets sont ouverts? 
+- Est-ce que des mesures ont été mises en place pour les restaurateurs?
+- Est-ce qu'on peut aller au restaurant ?
+- Mon restaurant préféré est fermé. Doit-il ouvrir ?
+- Est-ce que les restaurants restent ouverts
+- Quels sont les restaurants qui resteront ouverts
+- Est-ce que tous les restaurants vont fermer
+- Combien de restaurants vont fermer
+- Je veux aller au resto, est-ce que c'est possible
 
 ## intent: ask_faq/ask_2lieux-publiques
-- Do the closings of public spaces that the Québec government has announced concern grocery stores and drugstores?
+- Est-ce que les fermetures de lieux publics annoncées par le gouvernement du Québec concernent les épiceries et les pharmacies?
+- Est-ce que les pharmacies et les épiceries vont fermer?
+- Est-ce que les fermetures de commerces touchent les pharmacies et les épiceries?
+- Devont nous prévoir une fermeture des épiceries et des pharmacies? 
+- Est-ce que mon épicerie va fermer
+- Est-ce que ma pharmacie va fermer
+- Est-ce que la fermetures des lieux publics incluent les épiceries et les pharmacies
+- Est-ce que tous les lieux publics ferment
+- Quels sont les lieux publics qui demeureront ouverts
+- Est-ce que des commerces resteront ouverts
+- Quels sont les commerces qui resteront ouverts
 
 ## intent: ask_faq/ask_3lieux-publiques
-- Is it preferable to avoid all public spaces?
+- Est-il préférable d’éviter tous les lieux publics?
+- Devons-nous sortir de la maison? 
+- est-il sécuritaire de sortir de la maison? 
+- Que dois-je prendre des mesures particulières dans un lieu public? 
+- Est-ce que je dois rester chez moi
+- Dois-je rester dans ma maison
+- Est-ce que je peux sortir de la maison
+- Est-ce que je peux sortir de chez moi
+- Est-ce que tous les lieux publics sont dangereux
+- Suis-je en danger de sortir de chez moi
+- Est-ce que les lieux publics sont risqués
 
 ## intent: ask_faq/ask_4lieux-publiques
-- Do places of worship (churches, mosques, synagogues, etc.) need to close? 
+- Les lieux de culte (églises, mosquées, synagogues, etc.) devront-ils faire l’objet de fermetures?
+- Puis-je aller à la messe le dimanche? 
+- Est-que la mosquée est ouverte? 
+- Dois-je reporter mon baptême? 
+- Est-ce que les lieux de culte sont ouvert?
+- Est-ce que les services religieux essentiels peuvent avoir lieu? 
+- Est-ce que je peux me rendre à la synagogue? 
+- Est-ce que je peux aller à la messe
+- Est-ce que la messe sera annulée
+- Est-ce que je pourrai me rendre prier à l'Église
+- Est-ce que je pourrai me rendre prier à la mosquée
 
 ## intent: ask_faq/ask_1voyageurs-isoloment-volontaire
-- I am returning from a trip. What do I have to do?
+- Je reviens de voyage, que dois-je faire?
+- J'arrive de voyage, qu'est-ce que je dois faire ?
+- J'arrive de voyage, que dois-je faire ?
+- Je viens de revenir au Québec, qu'est-ce que je dois faire ?
+- Je viens de revenir au Québec, que dois-je faire ?
+- Je suis de retour de voyage, que dois-je faire ?
+- Je suis de retour de voyage, qu'est-ce que je dois faire ?
+- Je fais quoi si je suis de retour de voyage ?
+- Que dois-je faire si je suis de retour de voyage ?
+- Qu'est-ce que je dois faire si je suis de retour de voyage ?
+- Je fais quoi si je reviens de voyage ?
+- Que dois-je faire si je reviens de retour de voyage ?
+- Qu'est-ce que je dois faire si je reviens de voyage ?
 
 ## intent: ask_faq/ask_2voyageurs-isoloment-volontaire
-- I work in the private sector and I have to self-isolate. Can my employer fire me?
+- Je travaille dans le secteur privé et je dois me placer en isolement volontaire. Est-ce que mon employeur peut me congédier?
+- Je travaille dans une entreprise privée et je dois rester à la maison, est-ce que mon employeur a le droit de me congédier ?
+- Je suis engagé par une entreprise privée et je dois demeurer en isolement, est-ce que mon employeur a le droit de me mettre à pied ?
+- Je travaille pour un employeur privé et je dois rester en isolement volontaire à la maison. Mon employeur peut-il me donner mon 4 % ?
+- Je dois rester en isolement volontaire et je travaille pour une entreprise privée. Est-ce que mon employeur peut me congédier ?
+- Je suis un travailleur du secteur privé.Est-ce que je peux perdre mon emploi parce que je suis en l'isolement volontaire?
+- Mon employeur est une entreprise privée. Est-ce que je peux être renvoyé parce que je dois rester en isolement volontaire?
+- Je travaille dans une entreprise privée et je présente des symptômes, puis-je être mis à peid parce que je suis en isolement volontaire?
+- Je travaille dans une compagnie privée et je reviens de voyage. Est-ce que mon patron peut me renvoyer?
+- Est-ce que des mesures de congédiments peuvent être prise à l'endroit un travailleur du secteur privée qui est en isolement volontaire?
+- Est-ce que les travailleurs du secteur privée peuvent se placer en isolement volontaire sans être congédié?
 
 ## intent: ask_faq/ask_3voyageurs-isoloment-volontaire
-- If I must go into voluntary self-isolation, what instructions must I follow?
+- Si je dois me placer en isolement volontaire, quelles sont les consignes à respecter?
+- Quelles sont les règles à respecter lorsqu'on se place en isolement volontaire ?
+- Si je dois me placer en isolement volontaire, quelles sont les règles à respecter?
+- Quelles sont les consignes à respecter lorsqu'on se place en isolement volontaire ?
+- Que dois-je faire si je dois me placer en isolement volontaire ?
+- Quelle  sont les règles à suivre pour l'isolement volontaire?
+- Quelle est à marche à suivre pour respecter les normes d'isolement volontaire?
+- Que dois-je faire en cas d'isolement volontaire?
+- Quelle est la procédure à respecter en situation d'isolement volontaire?
+- Si je dois me placer en isolement volontaire, que dois-je faire?
+- Quel sont les mesure à respecter pour l'isolement volontaire
 
 ## intent: ask_faq/ask_4voyageurs-isoloment-volontaire
-- If I am abroad, do I have to immediately come home?
+- Si je suis à l’étranger, dois-je rentrer immédiatement au pays?
+- Si je suis en voyage actuellement, est-ce que je dois revenir tout de suite à la maison ?
+- Si je suis en voyage actuellement, est-ce que je dois rentrer immédiatement au pays ?
+- Si je suis à l'étranger, est-ce que je dois revenir à la maison immédiatement ?
+- Si je suis à l'extérieur du pays, est-ce que je dois revenir au pays immédiatement ?
+- Je suis actuellement à l'extérieur des frontières, est-ce que je dois revenir tout de suite au pays ?
+- Si je suis en voyage présentement, est-ce que je dois revenir à la maison immédiatement ?
+- Est-il urgent que je rentre de voyage
+- Quel est l'urgence de rentrer au pays
+- Est-ce que je dois rentrer au pays
+- Est-ce que les canadiens doivent revenir au Canada
 
 ## intent: ask_faq/ask_5voyageurs-isoloment-volontaire
-- Which countries are most at risk?
+- Quels sont les pays les plus à risque?
+- Quels sont les pays les plus touchés ?
+- Y a-t-il des pays plus à risque que d'autre ?
+- Est-ce que des pays sont considérés très à risque
+- Quels pays sont vraiment les plus risqués
+- Est-ce que certains pays sont plus risqués que d'autre
+- Est-ce que tous les pays sont à risque
+- Quels sont les pays les plus dangereux
+- Est-ce que les pays sont tous dangereux
+- Combien de pays sont à éviter
+- Est-ce que toutes la nations sont risqués
 
 ## intent: ask_faq/ask_6voyageurs-isoloment-volontaire
-- I have travel plans. Should I cancel them?
+- J'ai des projets de voyage, devrais-je les annuler?
+- Je dois partir en voyage prochainement, est-ce que je dois annuler mon voyage ?
+- Mon voyage est déjà acheté, est-ce que je dois l'annuler ?
+- Mon voyage était déjà planifié, est-ce obligatoire de l'annuler ?
+- Je pars en voyage sous peu, dois-je annuler mon voyage ?
+- Je planifiais faire un voyage prochainement, devrais-je l'annuler ?
+- Je voulais voyager bientôt, dois-je annuler mon projet ?
+- Est-ce que j'annule mon voyage
+- Est-ce que je peux partir en voyage
+- Je ne veux pas annuler mes projets de voyage, est-ce que c'est correct
+- Est-ce que je peux conserver mes projets de voyage
+
+## intent: ask_faq/ask_7voyageurs-isoloment-volontaire
+- J'ai des projets de voyage, devrais-je les annuler?
 
 ## intent: ask_faq/ask_8voyageurs-isoloment-volontaire
-- What happens to truck drivers from outside our borders?
+- Qu’arrive-t-il avec les camionneurs en provenance de l’extérieur des frontières?
+- Est-ce que les camionneurs qui proviennent de l'extérieur du pays doivent se mettre en isolement à leur arrivée ?
+- Que doivent faire les camionneurs lorsqu'ils reviennent au pays ?
+- Lorsqu'un camionneur revient de l'extérieur des frontières, doit-il s'isoler de façon volontaire ?
+- Je suis camionneur et je reviens des États-Unis. Est-ce que je dois me placer en isolement volontaire ?
+- En tant que camionneur, est-ce que je dois me mettre en isolement volontaire ?
+- Qu'est-ce que je fais si je reviens de l'extérieur des frontières et que je suis camionneur ?
+- Si je suis camionneur qui revient de l'extérieur des frontières, est-ce que je dois me placer en quarantaine ? 
+- Que se passera-t-il avec les camionneurs qui reviennent de l'extérieur des frontières ?
+- Est-ce que les camionneurs pourront traverser les frontières
+- Dois-je m'isoler si je suis camionneur
 
 ## intent: ask_faq/ask_9voyageurs-isoloment-volontaire
-- If I have to cancel a trip abroad, will I be reimbursed for what I have already paid?
+- Est-ce que je pourrai me faire rembourser mes dépenses déjà encourues pour un voyage à l’étranger que je dois annuler?
+- Si j'annule mon voyage, est-ce que je vais être remboursé ?
+- Est-ce que je peux me faire rembourser le voyage que j'ai acheté puisque je dois l'annuler ?
+- Est-ce que je vais me faire rembourser mon voyage en cas d'annulation ?
+- Y a-t-il un programme prévu pour rembourser mes dépenses pour un voyage que je dois annuler ?
+- Si je décide d'annuler le voyage à l'étranger que j'avais prévu, est-ce que je recevrai un remboursement ?
+- Est-ce que j'ai droit à un dédommagement en cas d'annulation du voyage que j'avais prévu ?
+- Si je dois annuler mon voyage, est-ce qu'un remboursement est prévu ?
+- Si je suis obligé d'annuler mon voyage, est-ce qu'un dédommagement est prévu ?
+- Je veux me faire rembourser mes dépenses pour mon voyage annulé, est-ce que c'est possible
+- J'aimerais être remboursé pour mon voyage
 
 ## intent: ask_faq/ask_1nourriture
-- Can COVID-19 cause a food shortage?
+- Est-ce la COVID-19 peut entraîner une pénurie de nourriture?
+- Va-t-on manquer de provisions ?
+- J'ai peur de manquer de nourriture
+- Quelles sont les probabilités que nous manquions de nourriture
+- La nourriture pourrait-elle être en pénurie
+- Dois-je commencer à faire des provisions? 
+- est-ce qu'il y a des chances que la nourriture soit rationnaliser?
+- allons-nous devoir faire des réserves de nouriture en prévision d'une pénurie?
+- Est-ce possible que les épiceries ne soit plus approvisionnées?
+- Va-t-on manquer à manger
+- Dois-je faire des réserves
 
 ## intent: ask_faq/ask_1transport
-- Can the public continue to use mass transit? 
+- Est-ce que la population peut continuer à utiliser le transport en commun?
+- Est-il possible d'utiliser l'autobus
+- Puis-je utiliser l'autobus
+- Puis-je utiliser le métro
+- Est-il dangereux de prendre l'autobus
+- Devrais-je arrêter de prendre le transport en commun
+- Est-ce que je devrais stoper l'autobus
+- Est-ce qu'il faut arrêter de prendre le transport en commun
+- Est-ce que l'autobus est rendue dangeuse
+- Est-ce qu'il faut avoir peur des transports en commun
+- Est-ce que je devrais arrêter de prendre le métro
+- Le transport en commun est-il interdit
+- L'autobus fonctionne toujours?
+- Est-ce dangereux de prendre le transport en commun?
 
 ## intent: ask_faq/ask_1etat-urgence
-- What is a health emergency?
+- En quoi consiste l’état d’urgence sanitaire?
+- C'est quoi ça mange en hiver l'état d'urgence sanitaire
+- C'est quoi ça l'état d'urgence
+- Qu'est-ce que l'État d'urgence
+- Qu'est-ce que l'on veut dire par État d'urgence
+- État d'urgence quoi?
+- Que dois-je faire pour l'état d'urgence
+- Que dois-je faire pour l'État sanitaire
+- Est-ce que l'armée peut intervenir dans un état d'urgence
+- L'état d'urgence, c'est quoi?
+- Pourquoi on fait l'État d'urgence
 
 ## intent: ask_faq/ask_2etat-urgence
-- Is this the first time that Québec has declared a health emergency?
+- Est-ce la première fois que le Québec déclare un état d’urgence sanitaire?
+- Est-ce qu'on a déjà déclaré l'État d'urgence
+- C'est notre premier état d'urgence
+- A-t-on déjà déclaré l'État d'urgence
+- Est-ce que ça arrive souvent que l'on déclare l'état d'urgence
+- Déclare-t-on souvent l'état d'urgence au Québec
+- Combien de fois a-t-on déclaré l'état d'urgence
+- Est-ce l'on déclare l'état d'urgence à chaque épidémie
+- Combien d'autres fois le Québec est entrain en état sanitaire
+- Ça arrive souvent l'état d'urgence
+- Combien de fois avant aujourd'hui le Québec est-il entré en état d'urgence

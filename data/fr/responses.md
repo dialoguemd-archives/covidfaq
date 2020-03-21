@@ -1,195 +1,199 @@
 ## 0ecole-garderie
 * ask_faq/ask_0ecole-garderie
-  - Workers in the public sector will continue to be paid and will be asked to engage in teleworking when possible. Employers in the private sector are encouraged to display flexibility. Compensation measures will be implemented and announced shortly.
+  - Non. Le gouvernement paiera la contribution parentale ainsi que la subvention aux services de garde, pour toute la période de deux semaines. Pour ce qui est d’un parent dont l’enfant fréquente un service de garde non subventionné, il n’y aura pas de frais de garde pendant cette période de deux semaines.
 
 ## 1ecole-garderie
 * ask_faq/ask_1ecole-garderie
-  - Yes. Measures will be announced shortly.
+  - Oui. Des mesures seront annoncées ultérieurement.
 
 ## 2ecole-garderie
 * ask_faq/ask_2ecole-garderie
-  - Yes. Employees will be paid as usual.
+  - Oui. Les employés seront payés comme à l’habitude.
 
 ## 3ecole-garderie
 * ask_faq/ask_3ecole-garderie
-  - Workers in the public sector will continue to be paid and will be asked to engage in teleworking when possible. Employers in the private sector are encouraged to display flexibility. Compensation measures will be implemented and announced shortly.
+  - Dans le secteur public, les travailleurs continueront d’être payés et seront invités à faire du télétravail lorsque possible. Pour le secteur privé, les employeurs sont invités à faire preuve de flexibilité. Des mesures de dédommagement seront mises en place et annoncées ultérieurement.
 
 ## 4ecole-garderie
 * ask_faq/ask_4ecole-garderie
-  - The Québec government is assessing the situation in real time to give priority to maintaining Quebecers’ health. If such a decision is made, the individuals concerned will be notified in due course.
+  - Le gouvernement du Québec évalue la situation en temps réel afin d’agir de façon prioritaire pour préserver la santé des Québécoises et Québécois. Si une telle décision est prise, les personnes concernées en seront informées en temps et lieu.
 
 ## 5ecole-garderie
 * ask_faq/ask_5ecole-garderie
-  - For the time being, lost days will not be repeated. The Québec government is asking teachers to make the necessary adjustments in their schedules. Additional directives will be issued in due course.
+  - Pour le moment, les journées ne seront pas reprises. Le gouvernement du Québec demande aux enseignants d’apporter les ajustements nécessaires dans leurs horaires scolaires. Des directives additionnelles seront émises en temps et lieu.
 
 ## 6ecole-garderie
 * ask_faq/ask_6ecole-garderie
-  - All services offered in the education network will be closed from Monday, March 16 to Friday, March 27. The closing concerns elementary and secondary schools, training centres, private schools, CEGEPs and colleges and universities.
+  - Tous les services offerts dans le réseau de l’enseignement seront fermés du lundi 16 mars au vendredi 27 mars. Cette fermeture concerne les écoles primaires et secondaires, les centres de formation, les écoles privées, les cégeps ainsi que les collèges et universités.
 
 ## 7ecole-garderie
 * ask_faq/ask_7ecole-garderie
-  - Québec is facing an emergency. For this reason, the Gouvernement du Québec is immediately adopting the necessary measures to reduce the risk of spreading. This is a responsible decision, based on the recommendations of the Direction de la Santé publique, which will reduce to a maximum risks for Québec's population.
+  - Le Québec est en situation d’urgence. C’est pourquoi le gouvernement du Québec prend dès maintenant les mesures nécessaires pour réduire les risques de propagation. Il s’agit d’une une décision responsable, prise en fonction des recommandations des autorités de la Direction de la Santé publique, qui permettra de réduire au maximum les risques pour la population du Québec.
 
 ## 1service-de-garde-urgence
 * ask_faq/ask_1service-de-garde-urgence
-  - The procedures are outlined in the Emergency Childcare Services section.
+  - Il est possible de prendre connaissance des procédures dans la page Services de garde d’urgence.
 
 ## 2service-de-garde-urgence
 * ask_faq/ask_2service-de-garde-urgence
-  - The operating hours now planned are from 7 a.m. to 6 p.m., Monday to Friday.
+  - Les heures d’ouverture actuellement prévues sont du lundi au vendredi, de 7 h à 18 h.
 
 ## 1emploi
 * ask_faq/ask_1emploi
-  - Consult the complete list of jobs and essential services.
+  - Consultez la liste des emplois et services essentiels.
 
 ## 2emploi
 * ask_faq/ask_2emploi
-  - Individuals who return from a trip must not go to work. Individuals who are not returning from a trip and who do not display any symptoms are invited to go to work and to abide by the usual rules of hygiene. Individuals who are not returning from a trip and who display cold- or flu-like symptoms are invited to display common sense and evaluate the relevance of going to work in light of their health status.
+  - Les personnes qui reviennent de voyage ne doivent pas se rendre à leur lieu de travail. Les personnes qui ne reviennent pas de voyage et qui ne présentent aucun symptôme sont invités à se rendre à leur lieu de travail et à respecter les règles d’hygiène habituelles. Les personnes qui ne reviennent pas de voyage et qui présentent des symptômes similaires au rhume et à la grippe sont invités à faire preuve de bon sens et d’évaluer la pertinence de se rendre à leur travail en fonction de leur état.
 
 ## 3emploi
 * ask_faq/ask_3emploi
-  - The directors of human resources in government departments, who are receiving information from the Secrétariat du Conseil du trésor, will oversee such decisions. Needs and the ability to offer teleworking differ depending on the government departments and bodies.
+  - Ces décisions sont prises en charge par les directions des ressources humaines des différents ministères, qui reçoivent l’information du Secrétariat du Conseil du trésor. Les besoins et la capacité d’offrir la possibilité de travailler à distance diffère en fonction des ministères et organismes.
 
 ## 4emploi
 * ask_faq/ask_4emploi
-  - Yes, employers must take all necessary steps to protect workers’ health and ensure their safety and physical well-being, as provided for in section 51 of the Act respecting occupational health and safety. Employers must implement measures to identify, monitor and eliminate biological risks. For example, they must apply the hygiene measures needed to limit the spread of a virus. They can also introduce work practices that promote social distancing in order to minimize risk. The practices may, for example, include avoiding non-essential face-to-face meetings; using technology for communications with and between workers; promoting telework. Employers can also introduce a workplace attendance policy for workers with signs and symptoms of infection during the pandemic. Workers must be informed of the correct steps to take if symptoms appear. Workers themselves must take appropriate steps to protect their health, safety and physical well-being, and ensure that they do not endanger the health, safety or physical well-being of other nearby workers, in accordance with section 49 of the Act respecting occupational health and safety."
+  - Oui, l'employeur doit prendre toutes les mesures nécessaires pour protéger la santé et assurer la sécurité et l’intégrité physique du travailleur comme le prévoit l'article 51 de la Loi sur la santé et la sécurité du travail (LSST).
 
 ## 5emploi
 * ask_faq/ask_5emploi
-  - Yes. You can be absent from work, without pay, because of sickness or an accident. If you have 3 months’ continuous service, you can benefit from up to 2 days of paid sick leave per year. You cannot be absent for more than 26 weeks in any 12-month period, starting from the date of the first absence. A worker’s regular position, and the related advantages, are protected by law while the worker is absent. Your employer must allow you to return to your regular position at the pay level you would have reached had you remained at work. More information is available on the CNESST website.
+  - Oui. Vous avez le droit de vous absenter de votre travail, sans salaire, en raison d'une maladie ou d’un accident. Si vous avez 3 mois de service continu, vous avez la possibilité de bénéficier d’un maximum de 2 jours de congé payés, au cours d’une même année.
 
 ## 6emploi
 * ask_faq/ask_6emploi
-  - In the case of a refusal to work, the CNESST inspector will quickly determine whether or not the workplace in question poses a threat.
+  - Dans le cas d’un refus de travail, un inspecteur de la CNESST déterminera dans les plus brefs délais s’il existe un danger ou non sur les lieux de travail en question.
 
 ## 7emploi
 * ask_faq/ask_7emploi
-  - If a salaried work does not perform work, for example through teleworking, the employer is not obliged to remunerate him. However, employers are asked to display understanding and flexibility in the current situation. To find out more, please consult the CNESST website.
-
-## 8emploi
-* ask_faq/ask_8emploi
-  - If a salaried work does not perform work, for example through teleworking, the employer is not obliged to remunerate him. However, employers are asked to display understanding and flexibility in the current situation. To find out more, please consult the CNESST website.
+  - Si une personne salariée ne fournit pas de prestation de travail (par exemple en télétravail), l’employeur n’a pas l'obligation de la rémunérer. Les employeurs sont toutefois invités à faire preuve de compréhension et de souplesse dans les circonstances actuelles. Pour en savoir plus, il est possible de consulter le site Web de la CNESST.
 
 ## 1personnes-a-risque
 * ask_faq/ask_1personnes-a-risque
-  - Starting March 13, 2020, non-essential visits to hospitals, residential and long-term care centres, intermediate resources, targeted family-type resources and private seniors’ homes will be prohibited to protect the most vulnerable individuals and workers in the health and social services network. In the case of births, the other parent, significant other or natural caregiver identified for this purpose is not deemed to be a visitor and can accompany the mother.
+  - À compter du 13 mars 2020, les visites non essentielles dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial et les résidences privées visées pour aînés seront interdites afin de protéger les personnes les plus vulnérables ainsi que les travailleuses et travailleurs du réseau de la santé et des services sociaux. Dans le cas des naissances, l’autre parent, la personne significative ou le proche aidant identifié à cette fin n’est pas considéré comme un visiteur et peut accompagner la personne qui accouche.
 
 ## 2personnes-a-risque
 * ask_faq/ask_2personnes-a-risque
-  - It is possible to deliver food or essential items to hospitals or seniors’ homes by avoiding all contact with the the people on site and immediately leaving after giving the food or items to a reception staff member. It is important at all times to maintain distance between individuals, avoid direct contacts and abide by the usual rules of hygiene when you cough or sneeze.
+  - Il est possible d’aller livrer de la nourriture ou des biens essentiels dans des hôpitaux ou des résidences pour personnes âgées en évitant tout contact avec les personnes qui y sont et en quittant immédiatement après avoir remis la nourriture ou les biens à un membre du personnel à l’accueil. En tout temps, il importe de conserver une distance entre les personnes, d’éviter les contacts directs et de respecter les règles d’hygiène habituelles lorsque vous toussez ou éternuez.
 
 ## 3personnes-a-risque
 * ask_faq/ask_3personnes-a-risque
-  - Yes. Health care establishments tolerate visits under exceptional or humanitarian circumstances. The Gouvernement du Québec is prohibiting non-essential visits.
+  - Oui. Les établissements de santé tolèrent les visites en cas de situations exceptionnelles ou humanitaires. Le gouvernement du Québec interdit les visites non essentielles.
 
 ## 4personnes-a-risque
 * ask_faq/ask_4personnes-a-risque
-  - People 70 years of age and over are invited to try to stay home, except in the case of necessity or exceptions, such as an important medical appointment.They can also go for a walk but must abide by the recommended health advice.
+  - Les personnes de 70 ans et plus sont invitées à tenter de rester à la maison, sauf en cas de nécessité ou d’exception, comme pour se présenter à un rendez-vous médical important. Ces personnes peuvent également sortir prendre une marche en respectant les consignes sanitaires recommandées.
 
 ## 5personnes-a-risque
 * ask_faq/ask_5personnes-a-risque
-  - It is possible to deliver groceries to elderly people or immunodeficient individuals solely if you do not display any symptoms and have not returned from a trip within less than 14 days. It is important at all times to maintain distance between individuals, avoid direct contacts and abide by the usual rules of hygiene when you cough or sneeze.
+  - ll est possible d’aller livrer de l’épicerie à une personne âgée ou une personne en situation d’immunodéficience uniquement si vous ne présentez aucun symptôme et ne revenez pas de voyage depuis moins de 14 jours. En tout temps, il importe de conserver une distance entre les personnes, d’éviter les contacts directs et de respecter les règles d’hygiène habituelles lorsque vous toussez ou éternuez.
 
 ## 6personnes-a-risque
 * ask_faq/ask_6personnes-a-risque
-  - According to the World Health Organization, pregnant women are at no greater risk than adults in general of complications related to COVID-19. Scientists note that there is no known risk of malformation or mother-to-foetus transmission. The usual preventive rules apply to pregnant women.
+  - Selon l’Organisation mondiale de la santé, les femmes enceintes ne sont pas plus à risque de complications liées à la COVID-19 que les adultes en général. Les scientifiques mentionnent qu’il n’y a aucun risque connu de malformation ou de transmission mère-fœtus. Pour les femmes enceintes, les règles de prévention d’usage s’appliquent.
 
 ## 7personnes-a-risque
 * ask_faq/ask_7personnes-a-risque
-  - Yes, children are less at risk. However, they can still transmit the virus. Consequently, directives aimed at containing the virus’ spread also apply to children.
+  - Oui, les enfants sont moins à risque. Cependant, ils peuvent tout de même transmettre le virus. Ainsi, les directives visant à contenir la propagation du virus s’appliquent aussi aux enfants.
 
 ## 1symptomes-prevention
 * ask_faq/ask_1symptomes-prevention
-  - The main symptoms of COVID-19 are as follows: Fever, Cough, Difficulty breathing. The symptoms can be mild (similar to a cold) or more severe (such as those associated with pneumonia and respiratory or kidney failure).
+  - Les principaux symptômes de la COVID‑19 sont les suivants Fièvre, Toux, Difficultés respiratoires. Les symptômes peuvent être légers (similaires à un rhume) ou plus sévères (tels que ceux associés à la pneumonie et à l’insuffisance pulmonaire ou rénale).
   
 ## 2symptomes-prevention
 * ask_faq/ask_2symptomes-prevention
-  - COVID-19 usually infects the nose, throat and lungs. In most cases, it is spread by: close contact with an infected person when the person coughs or sneezes; touching infected surfaces with your hands and then touching your mouth, nose or eyes.
+  - Habituellement, la COVID‑19 infecte le nez, la gorge et les poumons. Elle se propage le plus souvent par un contact étroit avec une personne infectée lorsque cette personne tousse ou éternue;un contact des mains avec des surfaces infectées puis avec la bouche, le nez ou les yeux.
 
 ## 3symptomes-prevention
 * ask_faq/ask_3symptomes-prevention
-  - In general, COVID-19 does not survive for long on objects: 3 hours on inert objects with dry surfaces; 6 days on inert objects with wet surfaces.
+  - En général, la COVID‑19 ne survit pas longtemps sur les objets 3 heures environ sur les objets avec de surfaces sèches;6 jours sur des objets avec des surfaces humides.
 
 ## 4symptomes-prevention
 * ask_faq/ask_4symptomes-prevention
-  - Masks are not an effective means of protection for the general public in Québec. Their use is indicated more for patients who are suspected of being infected and for the health professionals who are providing care for them.
+  - Les masques ne constituent pas un outil de protection efficace pour la population générale au Québec. Leur utilisation est plutôt indiquée pour les patients chez qui une infection est suspectée ainsi que pour les professionnels de la santé qui les soignent.
 
 ## 5symptomes-prevention
 * ask_faq/ask_5symptomes-prevention
-  - There is no specific treatment or vaccine for COVID-19 for the moment. Most people with the virus will recover on their own by remaining at home without needing to go to the hospital.
+  - Il n'existe pas de traitement spécifique ni de vaccin pour la COVID-19 pour l’instant. La plupart des personnes atteintes du virus se rétablissent par elles‑mêmes en restant à la maison, sans avoir besoin d’aller à l’hôpital.
 
 ## 6symptomes-prevention
 * ask_faq/ask_6symptomes-prevention
-  - Confinement is one of the measures that will reduce the spread of COVID-19. Elderly people 70 years of age and over and those suffering from chronic diseases are asked to stay home,except in the case of necessity or exceptional circumstances, for example for a medical appointment. Visits to hospitals, residential and long-term care centres, intermediate resources, family-type resources and private seniors' homes are prohibited until further notice. Healthy individuals are urged to avoid gatherings as much as possible, especially in enclosed spaces, and to follow basic health advice. 
+  - Il n'existe pas de traitement spécifique ni de vaccin pour la COVID-19 pour l’instant. La plupart des personnes atteintes du virus se rétablissent par elles‑mêmes en restant à la maison, sans avoir besoin d’aller à l’hôpital. 
 
 ## 7symptomes-prevention
 * ask_faq/ask_7symptomes-prevention
-  - For now, the spread of COVID-19 is under control in Québec, but the situation must be monitored closely. The Government is taking all the necessary measures to contain the contagion as much as possible.
+  - Le confinement est l’une des mesures qui permettra de réduire la propagation de la COVID-19. Les personnes âgées de 70 ans et plus ainsi que celles souffrant de maladies chroniques sont invitées à rester à la maison, sauf en cas de nécessité ou d’exception, comme pour se présenter à un rendez-vous médical important. Les visites dans les hôpitaux, les CHSLD, les ressources intermédiaires, les ressources de type familial ainsi que les résidences privées pour aînés sont interdites jusqu’à nouvel ordre. Pour les personnes en bonne santé, il est recommandé d’éviter le plus possible les rassemblements, notamment dans des lieux fermés, et de respecter les consignes sanitaires de base. 
 
 ## 8symptomes-prevention
 * ask_faq/ask_8symptomes-prevention
-  - Yes, the RAMQ will from now on cover health services provided by correspondence or by means of telecommunications. This coverage includes, for example, a telephone consultation with a physician.
+  - Pour le moment, la propagation de la COVID‑19 est sous contrôle au Québec, mais la situation doit être surveillée de près. Le gouvernement du Québec prend toutes les mesures nécessaires pour freiner le plus possible la contagion.
+
+## 9symptomes-prevention
+* ask_faq/ask_9symptomes-prevention
+  - Oui, les services de santé fournis par correspondance ou par voie de télécommunication seront désormais couverts par la RAMQ. Cette couverture inclut, par exemple, une consultation avec un médecin par téléphone.
 
 ## 1lieux-publiques
 * ask_faq/ask_1lieux-publiques
-  - The Gouvernement du Québec is asking restaurant owners to limit the number of customers to 50% of the rooms’ capacity, that is, one table in two. However, buffet-style restaurants and sugar shacks must close temporarily.
+  - Le gouvernement du Québec demande aux propriétaires des restaurants de limiter les clients à 50 % de la capacité des salles, soit une table sur deux. Les restaurants de style buffet ainsi que les cabanes à sucre devront cependant fermer leurs portes temporairement.
 
 ## 2lieux-publiques
 * ask_faq/ask_2lieux-publiques
-  - No. Grocery stores and drugstores are staying open.
+  - Non. Les épiceries et les pharmacies demeurent ouvertes.
 
 ## 3lieux-publiques
 * ask_faq/ask_3lieux-publiques
-  - Everyone is urged to limit to a maximum their presence in public spaces. If you visit a public space, abide by the usual rules of hygiene.
+  - Chaque personne est invitée à limiter au maximum la durée de ses présences dans les lieux publics. Si une personne se rend dans un lieu public, elle est invitée à respecter les consignes sanitaires habituelles.
 
 ## 4lieux-publiques
 * ask_faq/ask_4lieux-publiques
-  - For places of worship, religious gatherings of all faiths should be suspended, unless they are essential. If a gathering takes place, social distancing must be observed.
+  - Concernant les lieux de cultes, tous les rassemblements religieux de quelque confession que ce soit devront idéalement être suspendus, à moins d'être essentiels. Dans ce cas, la distanciation sociale devra être observée.
 
 ## 1voyageurs-isoloment-volontaire
 * ask_faq/ask_1voyageurs-isoloment-volontaire
-  - Voluntary self-isolation or 14 days is recommended for anyone returning from abroad on or after March 12, 2020. Self-isolation is mandatory for all public service employees and health care, education and daycare workers, both private and public, returning from abroad. Individuals in voluntary self-isolation must stay at home, monitor their symptoms and call 1-877-644-4545 if they have a cough or fever. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the Health Recommendations section.
+  - Un isolement volontaire de 14 jours est recommandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.  Cet isolement est obligatoire pour tous les employés de la fonction publique et pour tout le personnel de la santé, de l’éducation et des services de garde, privés et publics, qui reviennent de l’étranger.  Les personnes qui sont en isolement volontaire doivent rester à la maison, surveiller leurs symptômes et appeler au 1 877 644-4545 si elles ont de la toux ou de la fièvre. Certaines pratiques sont également recommandées si elles habitent avec d’autres personnes qui n’ont pas voyagé. Pour plus de détails sur les consignes à suivre, se référer à la "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46341".
 
 ## 2voyageurs-isoloment-volontaire
 * ask_faq/ask_2voyageurs-isoloment-volontaire
-  - The Gouvernement du Québec is asking employers to be understanding and flexible toward employees who are returning from travelling or who have symptoms.
+  - Le gouvernement du Québec invite les employeurs à faire preuve de compréhension et de souplesse envers un employé qui revient de voyage ou qui présente des symptômes.
 
 ## 3voyageurs-isoloment-volontaire
 * ask_faq/ask_3voyageurs-isoloment-volontaire
-  - Individuals in voluntary self-isolation must stay at home, monitor their symptoms and call 1-877-644-4545 if they have a cough or fever. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the Health Recommendations section.
+  - Les personnes qui sont en isolement volontaire doivent rester à la maison, surveiller leurs symptômes et appeler au 1 877 644-4545 si elles ont de la toux ou de la fièvre. Certaines pratiques sont également recommandées si elles habitent avec d’autres personnes qui n’ont pas voyagé. Pour plus de détails sur les consignes à suivre, se référer à la section Consignes sanitaires.
 
 ## 4voyageurs-isoloment-volontaire
 * ask_faq/ask_4voyageurs-isoloment-volontaire
-  - The Gouvernement du Québec suggests that individuals who are abroad come home if possible. The Government of Canada in its Travel Advice and Advisories section recommends that individuals who are abroad find out about the commercial options avilable to them to return to Canada and to return sooner than planned if such options become more limited.
+  - Le gouvernement du Québec suggère aux personnes qui sont à l’étranger de revenir au pays dans la mesure du possible. Le Gouvernement du Canada, dans sa section Conseil aux voyageurs et avertissements, recommande aux personnes qui sont à l’extérieur du pays de se renseigner sur les options commerciales qui s’offrent à elles pour revenir au Canada et de revenir plus tôt que prévu si ces options deviennent plus limitées.
 
 ## 5voyageurs-isoloment-volontaire
 * ask_faq/ask_5voyageurs-isoloment-volontaire
-  - For this information, you are advised to consult the Travel Advice and Advisories section.
+  - Pour obtenir cette information, il conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada.
 
 ## 6voyageurs-isoloment-volontaire
 * ask_faq/ask_6voyageurs-isoloment-volontaire
-  - The Gouvernement du Québec is asking Quebecers to cancel non-essential trips. If you decide to travel anyway, you are advised to consult the Travel Advice and Advisories  section on the Government of Canada site. You must also self-isolate for 14 days when you return.
+  - Le gouvernement du Québec demande d’annuler les voyages qui ne sont pas essentiels. Si une personne part tout de même en voyage, il est d’abord conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada. Également, un isolement volontaire est demandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.
+
+## 7voyageurs-isoloment-volontaire
+* ask_faq/ask_7voyageurs-isoloment-volontaire
+  - Le gouvernement du Québec demande d’annuler les voyages qui ne sont pas essentiels. Si une personne part tout de même en voyage, il est d’abord conseillé de consulter les Conseils aux voyageurs et avertissements du Gouvernement du Canada. Également, un isolement volontaire est demandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure.
 
 ## 8voyageurs-isoloment-volontaire
 * ask_faq/ask_8voyageurs-isoloment-volontaire
-  - Truck drivers and air crews and seagoing personnel do not have to self-isolate given the important role that they play in the transportation of critical goods such as food.
+  - Les camionneurs et le personnel navigant sur les avions et sur les bateaux n’ont pas à se mettre en isolement, étant donné le rôle important qu’ils jouent dans le transport de marchandises de première nécessité, comme la nourriture.
 
 ## 9voyageurs-isoloment-volontaire
 * ask_faq/ask_9voyageurs-isoloment-volontaire
-  - There is currently no program to refund the cost of trips abroad. Travellers should contact their travel agent or travel insurer.
+  - Pour l’instant, il n’y a pas de programme prévu pour le remboursement des programmes de voyage à l’étranger. Chacun doit voir avec son agence de voyages ou son assurance voyage.
 
 ## 1nourriture
 * ask_faq/ask_1nourriture
-  - No. There is no reason to fear a food shortage.
+  - Non. Il n’y a pas lieu de craindre une pénurie de nourriture.
 
 ## 1transport
 * ask_faq/ask_1transport
-  - Public transit services continue to operate and are an essential service to enable staff in the health and social services network to travel. Québec transit authorities have increased the frequency of maintenance of their vehicles and facilities. Users are still advised to follow the usual health advice. Moreover, they are asked, as far as possible, to modify their usual schedules to limit rush-hour crowds in mass transit systems.
+  - Les services de transport en commun demeurent opérationnels et représentent un service essentiel pour permettre, notamment, au personnel du réseau de la santé et des services sociaux de se déplacer. Les sociétés de transport du Québec ont accentué la fréquence de l’entretien de leurs véhicules et installations. Les usagers sont tout de même invités à appliquer les consignes sanitaires habituelles. De plus, les usagers sont invités, dans la mesure du possible, à modifier leurs horaires habituels de façon à limiter les foules présentes dans le transport en commun aux heures de pointe.
 
 ## 1etat-urgence
 * ask_faq/ask_1etat-urgence
-  - A health emergency can be declared when a threat to the health of the population demands the immediate application of certain measures. It empowers the Québec government and the Ministère de la Santé et des Services sociaux to implement an array of measures to protect the health of the population. The Ministère de la Santé et des Services sociaux could, for example, promptly purchase equipment or conclude the necessary contracts to protect the health of the population.
+  - Un état d’urgence sanitaire peut être déclaré lorsqu’une menace à la santé de la population exige l’application immédiate de certaines mesures. Il permet au gouvernement du Québec et à la ministre de la Santé et des Service sociaux de disposer des pouvoirs nécessaires pour mettre en place l’ensemble des mesures visant à assurer la protection de la santé de la population. La ministre de la Santé et des Services sociaux pourraient, par exemple, procéder sans délai à l’achat d’équipements ou conclure les contrats nécessaires pour protéger la santé de la population.
 
 ## 2etat-urgence
 * ask_faq/ask_2etat-urgence
-  - Yes. This exceptional measure demonstrates the Gouvernement du Québec’s determination to adopt the necessary measures to protect Quebecers.
+  - Oui. Cette mesure exceptionnelle démontre la volonté du gouvernement du Québec de se doter des moyens nécessaires pour protéger la population.
