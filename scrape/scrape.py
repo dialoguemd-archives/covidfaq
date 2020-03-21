@@ -30,10 +30,16 @@ def get_page_contents(URL):
 
     page_contents = {}
     for sub in subjects:
-        # Look for header
+        # Look for headers in each subject
+        raw_title = None
         if sub.find('h2'):
             raw_title = sub.find('h2').contents[0]
+        elif sub.find('h3'):
+            raw_title = sub.find('h3').contents[0]
+
+        if raw_title:
             title = ' '.join(raw_title.split())
+            # Extract the text from a header block
             if sub.find(class_='ce-bodytext'):
                 raw_sub_text = sub.find(class_='ce-bodytext').contents
                 subject_text = []
@@ -64,7 +70,8 @@ if __name__ == '__main__':
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/',
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/',
-        'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/'
+        'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/',
+        'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/',
     ]
 
     for count, fr_URL in enumerate(french_URLS):

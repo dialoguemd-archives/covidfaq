@@ -1,4 +1,10 @@
 {
+    "About coronaviruses": [
+        "In December 2019, the World Health Organization was alerted to several cases of pneumonia in Wuhan, China. The virus did not match any other known virus. On January 7, 2020, China confirmed COVID-19.",
+        "For more information, see the Situation of the coronavirus (COVID-19) in Québec page.",
+        "About coronaviruses",
+        "SARS‑CoV‑2 belongs to the coronavirus family. Some viruses in this family cause disease in animals, while others cause disease in humans. In rare cases, coronaviruses that infect animals can also infect people. In Québec, there is no evidence to suggest a risk of human infection caused by animals or animal products. Coronaviruses can be spread between people through close contact. In addition to SARS‑CoV‑2, two other coronaviruses are transmitted from animals to humans and have caused serious diseases in humans, namely, SARS‑CoV in 2003 and MERS‑CoV since 2012."
+    ],
     "Symptoms and treatment": [
         "The main symptoms are as follows:",
         "FeverCoughDifficulty breathing",
@@ -24,6 +30,14 @@
         "Quebecers who were on certain cruise ships were in contact with potentially contagious persons. It is recommended that these cruise passengers be in voluntary isolation for a period of 14 days after their date of arrival in Canada and monitor their symptoms (fever, cough or difficulty breathing). If you experience these symptoms, call 1-877-644-4545.",
         "These cruise ships and the departure and arrival dates are presented in the table of cruise ships and coronavirus (COVID-19) exposure dates.",
         "Cruise ships and exposure datesCruise ships and home portExposure datesVoluntary isolation deadlineNile Egypt River cruise shipFebruary 2 to March 4March 18, 2020Celebrity Silhouette cruise ship with home port unknownFebruary 23 to March 6March 20, 2020Norwegian Bliss cruise ship with home port unknownMarch 1 to 7March 21, 2020MSC Bellissima cruise ship, itinerary including Dubai, Abu Dhabi and QatarMarch 7March 21, 2020Celebrity Summit cruise ship with home port in Puerto RicoFebruary 29 to March 7March 21, 2020MSC Meraviglia cruise ship with home port in MiamiMarch 1 to 8March 22, 2020Celebrity Summit cruise ship with home port in Puerto RicoMarch 7 to 14March 28, 2020MSC Meraviglia cruise ship with home port in MiamiMarch 8 to 15March 29, 2020"
+    ],
+    "Public places": [
+        "Some persons infected by COVID-19 were recently out in public while potentially contagious.",
+        "The table below shows the locations, dates and times of the risk of exposure to coronavirus (COVID-19).",
+        "If you were in any of these locations at these times, be on the lookout for symptoms such as fever, coughing, or difficulty breathing.",
+        "If you experience any of these symptoms, call 1 877 644-4545.",
+        "The risk of contracting COVID-19 on public transit remains very low. However, as a precautionary measure, we are asking everyone who used public transit during these times to monitor their symptoms.",
+        "Please remember that it is important to avoid touching your face with your hands and to wash your hands (with soap or hand sanitizer) after spending time in public locations or using public transit."
     ],
     "Prevention": [
         "For more information, see the Health recommendations for everyone section."
