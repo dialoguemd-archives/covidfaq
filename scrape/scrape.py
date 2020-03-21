@@ -87,8 +87,27 @@ def page_to_md(page_contents, page_url, response_filename, nlu_filename):
                 f.write("\n")
             f.write("\n")
 
+def get_faq_contents(faq_URL):
+
+    page = requests.get(faq_URL)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    faq_contents = {}
+    all_panels = soup.find_all(class_='panel panel-default')
+
+    # a panel contains both the question and the answer
+    for panel in all_panels:
+        question = panel.find(class_='accordion-toggle')
+        answer = panel.find(class_='ce-bodytext')
+
+        if question and answer:
+            faq_contents[question.get_text()] = answer.get_text()
+
+    return faq_contents
+
 if __name__ == '__main__':
 
+    # faq page is different in structure so is parsed separately below.
     french_URLS = [
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/',
@@ -97,14 +116,17 @@ if __name__ == '__main__':
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/',
     ]
 
+    # This is to have the files compatible with the Raza framework
     # Note that content is being appended to the end of the .md files
     # They need to be deleted if already present when generating them
+    # To generate the md files, switch convert_to_md to True
+    convert_to_md = False
     responses_fr_fname = 'responses_fr.md'
     nlu_fr_fname = 'nlu_fr.md'
-
     responses_en_fname = 'responses_en.md'
     nlu_en_fname = 'nlu_en.md'
 
+    # Parse the "regular pages" structures
     for count, fr_URL in enumerate(french_URLS):
         en_URL = get_english_page(fr_URL)
         page_contents_fr = get_page_contents(fr_URL)
@@ -113,5 +135,16 @@ if __name__ == '__main__':
         page_to_json(page_contents_fr, str(count) + '_fr.json')
         page_to_json(page_contents_en, str(count) + '_en.json')
 
-        page_to_md(page_contents_fr, fr_URL, responses_fr_fname, nlu_fr_fname)
-        page_to_md(page_contents_en, en_URL, responses_en_fname, nlu_en_fname)
+
+        if convert_to_md:
+            page_to_md(page_contents_fr, fr_URL, responses_fr_fname, nlu_fr_fname)
+            page_to_md(page_contents_en, en_URL, responses_en_fname, nlu_en_fname)
+
+
+    # parse the faq
+    faq_URL_fr = 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/'
+    faq_URL_en = get_english_page(faq_URL_fr)
+    faq_contents_fr = get_faq_contents(faq_URL_fr)
+    faq_contents_en = get_faq_contents(faq_URL_en)
+    page_to_json(faq_contents_fr, 'faq_fr.json')
+    page_to_json(faq_contents_en, 'faq_en.json')
