@@ -12,4 +12,4 @@
 module load python/3.7
 module load cuda/10.0/cudnn/7.6
 
-python label.py --mq-folder ../scrape/ --uq-csv ../data/website_questions_21032020_13h00.csv
+python label.py --mq-folder ../scrape/ --uq-csv ../data/website_questions_21032020_13h00.csv  --output out.txt --use-content
