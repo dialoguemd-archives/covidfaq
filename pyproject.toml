@@ -8,11 +8,14 @@ authors = ["Dialogue <devs@dialogue.co>"]
 python = "^3.7"
 rasa = {extras = ["spacy"], version = "^1.8.2"}
 tensorflow-estimator = "2.1.0"
+sklearn = "^0.0"
+pandas = "^1.0.3"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
 isort = "^4.3.21"
 pylama = "^7.7.1"
+jupyterlab = "^2.0.1"
 
 [[tool.poetry.source]]
 name = "dialogue"
