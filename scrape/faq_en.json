@@ -1,5 +1,4 @@
 {
-    "document_URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
     "Will parents without access to educational childcare services during this period have to continue to pay their childcare fees?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
@@ -18,7 +17,7 @@
             "Yes. Measures will be announced shortly."
         ]
     },
-    "Will personnel working in childcare centres and subsidized childcare facilities continue to be paid?": {
+    "Will personnel members at childcare centres and subsidized childcare facilities continue to be paid?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
             "<div class=\"ce-bodytext\">\n <p>\n  Yes. Employees will be paid as usual.\n </p>\n <p>\n </p>\n</div>"
@@ -36,13 +35,13 @@
             "Workers in the public sector will continue to be paid and will be asked to engage in teleworking when possible. Employers in the private sector are encouraged to display flexibility. Compensation measures will be implemented and announced shortly."
         ]
     },
-    "Could the closing of schools and childcare services be prolonged?": {
+    "Could the two-week closing of schools and childcare services be prolonged?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec is assessing the situation in real time to ensure that Quebecers’ health remains the priority. If such a decision is made, the individuals concerned will be notified in due course.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  The Québec government is assessing the situation in real time to give priority to maintaining Quebecers’ health. If such a decision is made, the individuals concerned will be notified in due course.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "The Gouvernement du Québec is assessing the situation in real time to ensure that Quebecers’ health remains the priority. If such a decision is made, the individuals concerned will be notified in due course."
+            "The Québec government is assessing the situation in real time to give priority to maintaining Quebecers’ health. If such a decision is made, the individuals concerned will be notified in due course."
         ]
     },
     "Which educational services are closing?": {
@@ -54,13 +53,13 @@
             "Educational institutions (elementary and secondary schools, training centres, private schools) will be closed until May 1, inclusively.College and university students will be able to complete their term by means of online learning activities, starting on March 30."
         ]
     },
-    "Why are schools and daycare centres being closed now? Is it not premature to do so?": {
+    "Why are schools and day care centres being closed now? Is it not premature to do so?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  Québec is facing an emergency. For this reason, the Gouvernement du Québec is immediately adopting the necessary measures to reduce the risk of the coronavirus spreading within Québec’s population. This is a responsible decision based on the recommendations of the Direction générale de la santé publique to help minimize the risk of exposure to the virus.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  Québec is facing an emergency. For this reason, the Gouvernement du Québec is immediately adopting the necessary measures to reduce the risk of spreading. This is a responsible decision, based on the recommendations of the Direction de la Santé publique, which will reduce to a maximum risks for Québec's population.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "Québec is facing an emergency. For this reason, the Gouvernement du Québec is immediately adopting the necessary measures to reduce the risk of the coronavirus spreading within Québec’s population. This is a responsible decision based on the recommendations of the Direction générale de la santé publique to help minimize the risk of exposure to the virus."
+            "Québec is facing an emergency. For this reason, the Gouvernement du Québec is immediately adopting the necessary measures to reduce the risk of spreading. This is a responsible decision, based on the recommendations of the Direction de la Santé publique, which will reduce to a maximum risks for Québec's population."
         ]
     },
     "What procedures must be followed to register for emergency childcare services?": {
@@ -291,19 +290,19 @@
     "Can restaurants remain open?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec has asked the owners of restaurants to close their dining rooms. Takeout orders, deliveries and drive-through services continue to be permitted.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec is asking restaurant owners to limit the number of customers to 50% of the rooms’ capacity, that is, one table in two.\n </p>\n <p>\n  However, buffet-style restaurants and sugar shacks must close temporarily.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "The Gouvernement du Québec has asked the owners of restaurants to close their dining rooms. Takeout orders, deliveries and drive-through services continue to be permitted."
+            "The Gouvernement du Québec is asking restaurant owners to limit the number of customers to 50% of the rooms’ capacity, that is, one table in two.However, buffet-style restaurants and sugar shacks must close temporarily."
         ]
     },
     "Do the closings of public spaces that the Québec government has announced concern grocery stores and drugstores?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  No. Grocery stores and drugstores are staying open.\n </p>\n <p>\n  The\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47720\">\n   Restaurants, stores and public spaces section\n  </a>\n  lists the stores and public spaces that are closed.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  No. Grocery stores and drugstores are staying open.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "No. Grocery stores and drugstores are staying open.The Restaurants, stores and public spaces section lists the stores and public spaces that are closed."
+            "No. Grocery stores and drugstores are staying open."
         ]
     },
     "Is it preferable to avoid all public spaces?": {

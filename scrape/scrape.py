@@ -45,6 +45,7 @@ def get_page_contents(URL):
     subjects = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
     for sub in subjects:
 
+
         # Look for headers in each subject
         raw_title = None
         if sub.find('h2'):
@@ -72,26 +73,6 @@ def get_page_contents(URL):
                         'html': sub_html.prettify(),
                         'URL': URL,
                     }
-    # a panel usually contains the answer to a question
-    # a panel contains both the question and the answer
-    all_panels = soup.find_all(class_='panel panel-default')
-    if all_panels:
-        for panel in all_panels:
-            question = panel.find(class_='accordion-toggle')
-            answer = panel.find(class_='ce-bodytext')
-
-            if question and answer:
-                question_str = question.get_text()
-                answer_str = [answer.get_text()]
-                answer_html = [answer.prettify()]
-
-                page_contents[question_str] = {
-                    'URL': URL,
-                    'html': answer_html,
-                    'plaintext': answer_str,
-                }
-
-
 
     return page_contents
 

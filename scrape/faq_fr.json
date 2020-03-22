@@ -1,5 +1,4 @@
 {
-    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/",
     "Est-ce que les parents qui ne peuvent plus utiliser les services de garde éducatifs à l’enfance doivent continuer à payer leurs frais de garde?": {
         "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/",
         "html": [
@@ -18,7 +17,7 @@
             "Oui. Des mesures seront annoncées ultérieurement."
         ]
     },
-    "Est-ce que le personnel des CPE et des garderies subventionnées continuera d’être payé?": {
+    "Est-ce que le personnel des CPE et garderies subventionnées continuera d’être payé?": {
         "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/",
         "html": [
             "<div class=\"ce-bodytext\">\n <p>\n  Oui. Les employés seront payés comme à l’habitude.\n </p>\n</div>"
@@ -27,7 +26,7 @@
             "Oui. Les employés seront payés comme à l’habitude."
         ]
     },
-    "Est-ce que les parents qui devront prendre congé en raison de la fermeture des écoles et des services de garde vont continuer d’être payés?": {
+    "Est-ce que les parents qui vont devoir prendre congé en raison de la fermeture des écoles et des services de garde vont continuer d’être payés?": {
         "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/",
         "html": [
             "<div class=\"ce-bodytext\">\n <p>\n  Dans le secteur public, les travailleurs continueront d’être payés et seront invités à faire du télétravail lorsque possible.\n </p>\n <p>\n  Pour le secteur privé, les employeurs sont invités à faire preuve de flexibilité. Des mesures de dédommagement seront mises en place et annoncées ultérieurement.\n </p>\n</div>"
@@ -57,10 +56,10 @@
     "Pourquoi fermer les écoles et les garderies à ce moment-ci? N’est-ce pas prématuré?": {
         "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  Le Québec est en situation d’urgence. C’est pourquoi le gouvernement du Québec prend dès maintenant les mesures nécessaires pour réduire les risques de propagation. Il s’agit d’une décision responsable, prise en fonction des recommandations des autorités de la Direction de la santé publique, qui permettra de réduire au maximum les risques pour la population du Québec.\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  Le Québec est en situation d’urgence. C’est pourquoi le gouvernement du Québec prend dès maintenant les mesures nécessaires pour réduire les risques de propagation. Il s’agit d’une une décision responsable, prise en fonction des recommandations des autorités de la Direction de la Santé publique, qui permettra de réduire au maximum les risques pour la population du Québec.\n </p>\n</div>"
         ],
         "plaintext": [
-            "Le Québec est en situation d’urgence. C’est pourquoi le gouvernement du Québec prend dès maintenant les mesures nécessaires pour réduire les risques de propagation. Il s’agit d’une décision responsable, prise en fonction des recommandations des autorités de la Direction de la santé publique, qui permettra de réduire au maximum les risques pour la population du Québec."
+            "Le Québec est en situation d’urgence. C’est pourquoi le gouvernement du Québec prend dès maintenant les mesures nécessaires pour réduire les risques de propagation. Il s’agit d’une une décision responsable, prise en fonction des recommandations des autorités de la Direction de la Santé publique, qui permettra de réduire au maximum les risques pour la population du Québec."
         ]
     },
     "Quelles sont les procédures pour s’inscrire aux services de garde d’urgence?": {

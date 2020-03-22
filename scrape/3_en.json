@@ -1,40 +1,88 @@
 {
-    "A variety of reactions are possible in the context of a coronavirus (COVID-19) pandemic": [
-        "The current coronavirus (COVID-19) pandemic is a particular and rare situation. It can affect people physically, but also psychologically. In this type of context, many people will experience stress, anxiety and depression reactions. This page should be seen as a tool that can help you to minimize the repercussions of these kinds of reactions on your life."
-    ],
-    "What does stress mean?": [
-        "Stress is a normal physiological response to an abnormal situation. As such, it is part and parcel of our lives. It enables our body to adapt to the multiplicity of positive and negative events that we experience, like a birth, marriage, loss of employment, etc. Stress comes and goes on its own, depending of what factors are involved. For example, if you feel stressed on the job but less so at home in the evening or on the weekend, we could deduce that the stressors are work-related."
-    ],
-    "What does anxiety mean?": [
-        "Contrary to fear, which is a response to a well-defined and very real threat, anxiety is a response to a vague or unknown threat. Anxiety manifests itself when we believe that a dangerous or unfortunate event may take place and are expecting it. Everyone experiences anxiety at their own individual degree and intensity. How the anticipated event is perceived will greatly influence the intensity of the anxiety experience."
-    ],
-    "What does depression mean?": [
-        "The dictionary defines depression as a passing state of lassitude, discouragement and sadness. Depression can appear in a variety of physical and psychological ways. Its intensity varies from one person to the next."
-    ],
-    "Potential symptoms linked to stress, anxiety and depression": [
-        "Stress, anxiety and depression reactions can appear in a variety of physical, psychological, emotional and behavioural ways for any given individual."
-    ],
-    "Physical symptoms": [
-        "Feelings of suffocation, rapid heartbeat, dizziness, nauseaMajor sleep problemsPronounced reduced appetite, possibly associated with weight lossLow energy and pronounced fatigue or exhaustion"
-    ],
-    "Psychological and emotional symptoms": [
-        "Anxiety and overwhelming fearFeeling panicked when you hear talk of the virusNegative pervasive thoughtsLoss of pleasure and interest in activities that you usually enjoy"
-    ],
-    "Behavioural symptoms": [
-        "Difficulty in carrying out daily tasksAvoiding anyone from outside the home because of fear of contagionObsessively monitoring coronavirus symptomsIntense, frequent cryingPronounced irritability and aggression, conflict with other members of the householdInability to concentrateAlcohol, drug and medication abuse"
-    ],
-    "Ways to improve the situation": [
-        "All of these symptoms of stress, anxiety and depression are very normal in the context of a pandemic. Most people have the resources and mental strength to adapt to this type of situation. You should first rely on how you usually adapt to difficult situations. Here are a few other ways for you to minimize the repercussions of these reactions in your daily life."
-    ],
-    "Stay informed": [
-        "Insufficient and/or contradictory information may aggravate the reactions.",
-        "Use reliable sources of information, such as the Coronavirus (COVID-19) page of Québec.ca, the official website of the Gouvernement du Québec.Be wary of sensationalist news reports from little known or dubious sources. Take the time to confirm such information with officially recognized sources.While it is important to stay adequately informed, limit the time taken to seek information about COVID-19 and its consequences. Information overload can aggravate your reaction to stress, anxiety and depression."
-    ],
-    "Take care of yourself": [
-        "Be attentive to your feelings, emotions and reactions and allow yourself to voice them to someone you trust. Write them down or express them through physical or other types of activity.Make use of physical activity to let the stress out and eliminate tension.Practice healthy living habits like proper nutrition and sufficient sleep.Limit your access to stressors.Allow yourself life’s little pleasures such as listening to music, taking a warm bath, reading, etc.Remain in contact with people that do you good.Remind yourself of winning strategies you used in the past to get through difficult times.Count on your own strengths.Set limits for yourself, such as refusing a task that is non-essential or that you do not want to do.Learn to delegate and let others help you (this might be asking your children to do the dishes)."
-    ],
-    "When should I seek help?": [
-        "Generally speaking, overcoming reactions to stress, anxiety and depression is possible. Still, some unease may persist for some weeks or months, and even worsen. The following are signs that your state of health is deteriorating.",
-        "These signs may mean that your personal resources no longer suffice to manage your worries on a daily basis. Seeking help could be beneficial."
-    ]
+    "A variety of reactions are possible in the context of a coronavirus (COVID-19) pandemic": {
+        "plaintext": [
+            "The current coronavirus (COVID-19) pandemic is a particular and rare situation. It can affect people physically, but also psychologically. In this type of context, many people will experience stress, anxiety and depression reactions. This page should be seen as a tool that can help you to minimize the repercussions of these kinds of reactions on your life."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The current coronavirus (COVID-19) pandemic is a particular and rare situation. It can affect people physically, but also psychologically. In this type of context, many people will experience stress, anxiety and depression reactions. This page should be seen as a tool that can help you to minimize the repercussions of these kinds of reactions on your life.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "What does stress mean?": {
+        "plaintext": [
+            "Stress is a normal physiological response to an abnormal situation. As such, it is part and parcel of our lives. It enables our body to adapt to the multiplicity of positive and negative events that we experience, like a birth, marriage, loss of employment, etc. Stress comes and goes on its own, depending of what factors are involved. For example, if you feel stressed on the job but less so at home in the evening or on the weekend, we could deduce that the stressors are work-related."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Stress is a normal physiological response to an abnormal situation. As such, it is part and parcel of our lives. It enables our body to adapt to the multiplicity of positive and negative events that we experience, like a birth, marriage, loss of employment, etc. Stress comes and goes on its own, depending of what factors are involved. For example, if you feel stressed on the job but less so at home in the evening or on the weekend, we could deduce that the stressors are work-related.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "What does anxiety mean?": {
+        "plaintext": [
+            "Contrary to fear, which is a response to a well-defined and very real threat, anxiety is a response to a vague or unknown threat. Anxiety manifests itself when we believe that a dangerous or unfortunate event may take place and are expecting it. Everyone experiences anxiety at their own individual degree and intensity. How the anticipated event is perceived will greatly influence the intensity of the anxiety experience."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Contrary to fear, which is a response to a well-defined and very real threat, anxiety is a response to a vague or unknown threat. Anxiety manifests itself when we believe that a dangerous or unfortunate event may take place and are expecting it. Everyone experiences anxiety at their own individual degree and intensity. How the anticipated event is perceived will greatly influence the intensity of the anxiety experience.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "What does depression mean?": {
+        "plaintext": [
+            "The dictionary defines depression as a passing state of lassitude, discouragement and sadness. Depression can appear in a variety of physical and psychological ways. Its intensity varies from one person to the next."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The dictionary defines depression as a passing state of lassitude, discouragement and sadness. Depression can appear in a variety of physical and psychological ways. Its intensity varies from one person to the next.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Potential symptoms linked to stress, anxiety and depression": {
+        "plaintext": [
+            "Stress, anxiety and depression reactions can appear in a variety of physical, psychological, emotional and behavioural ways for any given individual."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Stress, anxiety and depression reactions can appear in a variety of physical, psychological, emotional and behavioural ways for any given individual.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Physical symptoms": {
+        "plaintext": [
+            "Feelings of suffocation, rapid heartbeat, dizziness, nauseaMajor sleep problemsPronounced reduced appetite, possibly associated with weight lossLow energy and pronounced fatigue or exhaustion"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Feelings of suffocation, rapid heartbeat, dizziness, nausea\n  </li>\n  <li>\n   Major sleep problems\n  </li>\n  <li>\n   Pronounced reduced appetite, possibly associated with weight loss\n  </li>\n  <li>\n   Low energy and pronounced fatigue or exhaustion\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Psychological and emotional symptoms": {
+        "plaintext": [
+            "Anxiety and overwhelming fearFeeling panicked when you hear talk of the virusNegative pervasive thoughtsLoss of pleasure and interest in activities that you usually enjoy"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Anxiety and overwhelming fear\n  </li>\n  <li>\n   Feeling panicked when you hear talk of the virus\n  </li>\n  <li>\n   Negative pervasive thoughts\n  </li>\n  <li>\n   Loss of pleasure and interest in activities that you usually enjoy\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Behavioural symptoms": {
+        "plaintext": [
+            "Difficulty in carrying out daily tasksAvoiding anyone from outside the home because of fear of contagionObsessively monitoring coronavirus symptomsIntense, frequent cryingPronounced irritability and aggression, conflict with other members of the householdInability to concentrateAlcohol, drug and medication abuse"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Difficulty in carrying out daily tasks\n  </li>\n  <li>\n   Avoiding anyone from outside the home because of fear of contagion\n  </li>\n  <li>\n   Obsessively monitoring coronavirus symptoms\n  </li>\n  <li>\n   Intense, frequent crying\n  </li>\n  <li>\n   Pronounced irritability and aggression, conflict with other members of the household\n  </li>\n  <li>\n   Inability to concentrate\n  </li>\n  <li>\n   Alcohol, drug and medication abuse\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Ways to improve the situation": {
+        "plaintext": [
+            "All of these symptoms of stress, anxiety and depression are very normal in the context of a pandemic. Most people have the resources and mental strength to adapt to this type of situation. You should first rely on how you usually adapt to difficult situations. Here are a few other ways for you to minimize the repercussions of these reactions in your daily life."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  All of these symptoms of stress, anxiety and depression are very normal in the context of a pandemic. Most people have the resources and mental strength to adapt to this type of situation. You should first rely on how you usually adapt to difficult situations. Here are a few other ways for you to minimize the repercussions of these reactions in your daily life.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Stay informed": {
+        "plaintext": [
+            "Insufficient and/or contradictory information may aggravate the reactions.",
+            "Use reliable sources of information, such as the Coronavirus (COVID-19) page of Québec.ca, the official website of the Gouvernement du Québec.Be wary of sensationalist news reports from little known or dubious sources. Take the time to confirm such information with officially recognized sources.While it is important to stay adequately informed, limit the time taken to seek information about COVID-19 and its consequences. Information overload can aggravate your reaction to stress, anxiety and depression."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Insufficient and/or contradictory information may aggravate the reactions.\n </p>\n <ul>\n  <li>\n   Use reliable sources of information, such as the\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n    Coronavirus (COVID-19)\n   </a>\n   page of Québec.ca, the official website of the Gouvernement du Québec.\n  </li>\n  <li>\n   Be wary of sensationalist news reports from little known or dubious sources. Take the time to confirm such information with officially recognized sources.\n  </li>\n  <li>\n   While it is important to stay adequately informed, limit the time taken to seek information about COVID-19 and its consequences. Information overload can aggravate your reaction to stress, anxiety and depression.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "Take care of yourself": {
+        "plaintext": [
+            "Be attentive to your feelings, emotions and reactions and allow yourself to voice them to someone you trust. Write them down or express them through physical or other types of activity.Make use of physical activity to let the stress out and eliminate tension.Practice healthy living habits like proper nutrition and sufficient sleep.Limit your access to stressors.Allow yourself life’s little pleasures such as listening to music, taking a warm bath, reading, etc.Remain in contact with people that do you good.Remind yourself of winning strategies you used in the past to get through difficult times.Count on your own strengths.Set limits for yourself, such as refusing a task that is non-essential or that you do not want to do.Learn to delegate and let others help you (this might be asking your children to do the dishes)."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Be attentive to your feelings, emotions and reactions and allow yourself to voice them to someone you trust. Write them down or express them through physical or other types of activity.\n  </li>\n  <li>\n   Make use of physical activity to let the stress out and eliminate tension.\n  </li>\n  <li>\n   Practice healthy living habits like proper nutrition and sufficient sleep.\n  </li>\n  <li>\n   Limit your access to stressors.\n  </li>\n  <li>\n   Allow yourself life’s little pleasures such as listening to music, taking a warm bath, reading, etc.\n  </li>\n  <li>\n   Remain in contact with people that do you good.\n  </li>\n  <li>\n   Remind yourself of winning strategies you used in the past to get through difficult times.\n  </li>\n  <li>\n   Count on your own strengths.\n  </li>\n  <li>\n   Set limits for yourself, such as refusing a task that is non-essential or that you do not want to do.\n  </li>\n  <li>\n   Learn to delegate and let others help you (this might be asking your children to do the dishes).\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    },
+    "When should I seek help?": {
+        "plaintext": [
+            "Generally speaking, overcoming reactions to stress, anxiety and depression is possible. Still, some unease may persist for some weeks or months, and even worsen. The following are signs that your state of health is deteriorating.",
+            "These signs may mean that your personal resources no longer suffice to manage your worries on a daily basis. Seeking help could be beneficial."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Generally speaking, overcoming reactions to stress, anxiety and depression is possible. Still, some unease may persist for some weeks or months, and even worsen. The following are signs that your state of health is deteriorating.\n </p>\n <p>\n  These signs may mean that your personal resources no longer suffice to manage your worries on a daily basis. Seeking help could be beneficial.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/"
+    }
 }
