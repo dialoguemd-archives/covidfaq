@@ -146,7 +146,16 @@ def get_mainpage_contents(mainpage_URL):
 
     warnings = soup.find_all(class_="alert alert-warning")
     if warnings:
-        page_contents['page alerts'] = [warning.get_text() for warning in warnings if warnings]
+        #  warnings_text = [warning.get_text() for warning in warnings if warnings]
+        warnings_text = warnings[0].get_text()
+        warnings_html = warnings[0].prettify()
+
+        page_contents['warnings'] = {
+            'plaintext': warnings_text,
+            'html': warnings_html,
+            'URL': mainpage_URL,
+        }
+        #  page_contents['page alerts'] = [warning.get_text() for warning in warnings if warnings]
 
     # Look for subjects and split them by subtopic
     topics = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
@@ -159,8 +168,12 @@ def get_mainpage_contents(mainpage_URL):
             raw_title = topic.find('h2').contents[0]
         if raw_title:
             title = ' '.join(raw_title.split())
-            link_names = [href.get_text() for href in topic.find_all('a')]
-            page_contents[title] = link_names
+            links_plaintext = [href.get_text() for href in topic.find_all('a')]
+            page_contents[title] = {
+                'plaintext': links_plaintext,
+                'html': topic.prettify(),
+                'URL': mainpage_URL,
+            }
 
     return page_contents
 
