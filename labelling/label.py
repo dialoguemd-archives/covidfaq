@@ -45,8 +45,10 @@ def encode(sentence, tokenizer, model):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--mq-folder', help='folder containing master question json files')
-    parser.add_argument('--uq-csv', help='csv file containing user questions')
+    parser.add_argument('--mq-folder', help='folder containing master question json files',
+                        required=True)
+    parser.add_argument('--uq-csv', help='csv file containing user questions',
+                        required=True)
     parser.add_argument('--use-content', help='use also the content of the master question'
                         'paragraph for similarity', action='store_true')
     args = parser.parse_args()
