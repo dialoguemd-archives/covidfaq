@@ -31,11 +31,20 @@ def get_page_contents(URL):
     #Extract top page warnings, if any
     warnings = soup.find_all(class_="frame frame-avisExclam frame-type-textmedia frame-layout-0")
     if warnings:
-        page_contents['page alerts'] = [warning.get_text() for warning in warnings if warnings]
+        #  warnings_text = [warning.get_text() for warning in warnings if warnings]
+        warnings_text = warnings[0].get_text()
+        warnings_html = warnings[0].prettify()
+
+        page_contents['warnings'] = {
+            'plaintext': warnings_text,
+            'html': warnings_html,
+            'URL': URL,
+        }
 
     # Look for subjects and split them by header
     subjects = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
     for sub in subjects:
+
 
         # Look for headers in each subject
         raw_title = None
@@ -48,13 +57,20 @@ def get_page_contents(URL):
             title = ' '.join(raw_title.split())
             # Extract the text from a header block
             if sub.find(class_='ce-bodytext'):
-                raw_sub_text = sub.find(class_='ce-bodytext').contents
-                subject_text = []
-                for text in raw_sub_text:
-                    subject_text.append(text.get_text())
+                sub_text = []
+                sub_html = sub.find(class_='ce-bodytext')
+                for text in sub_html.contents:
+                    sub_text.append(text.get_text())
 
                 if title not in ['Avis', 'Notice']: # This is on every page
-                    page_contents[title]=subject_text
+                    #  sub_contents['plaintext'] = sub_text
+                    #  sub_contents['html'] = sub_html.prettify()
+                    #  sub_contents['URL'] = URL
+                    page_contents[title]={
+                        'plaintext': sub_text,
+                        'html': sub_html.prettify(),
+                        'URL': URL,
+                    }
 
     return page_contents
 
@@ -108,7 +124,16 @@ def get_faq_contents(faq_URL):
         answer = panel.find(class_='ce-bodytext')
 
         if question and answer:
-            faq_contents[question.get_text()] = [answer.get_text()]
+            question_str = question.get_text()
+            answer_str = [answer.get_text()]
+            answer_html = [answer.prettify()]
+
+            faq_contents[question_str] = {
+                'URL': faq_URL,
+                'html': answer_html,
+                'plaintext': answer_str,
+            }
+
 
     return faq_contents
 
