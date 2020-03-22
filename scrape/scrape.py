@@ -112,6 +112,34 @@ def get_faq_contents(faq_URL):
 
     return faq_contents
 
+
+def get_mainpage_contents(mainpage_URL):
+
+    page = requests.get(mainpage_URL)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    page_contents = {}
+
+    warnings = soup.find_all(class_="alert alert-warning")
+    if warnings:
+        page_contents['page alerts'] = [warning.get_text() for warning in warnings if warnings]
+
+    # Look for subjects and split them by subtopic
+    topics = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
+
+    for topic in topics:
+
+        # Look for headers in each subject
+        raw_title = None
+        if topic.find('h2'):
+            raw_title = topic.find('h2').contents[0]
+        if raw_title:
+            title = ' '.join(raw_title.split())
+            link_names = [href.get_text() for href in topic.find_all('a')]
+            page_contents[title] = link_names
+
+    return page_contents
+
+
 if __name__ == '__main__':
 
     # faq page is different in structure so is parsed separately below.
@@ -133,7 +161,7 @@ if __name__ == '__main__':
     responses_en_fname = 'responses_en.md'
     nlu_en_fname = 'nlu_en.md'
 
-    # Parse the "regular pages" structures
+    # scrape the "regular pages" structures
     for count, fr_URL in enumerate(french_URLS):
         en_URL = get_english_page(fr_URL)
         page_contents_fr = get_page_contents(fr_URL)
@@ -148,10 +176,19 @@ if __name__ == '__main__':
             page_to_md(page_contents_en, en_URL, responses_en_fname, nlu_en_fname)
 
 
-    # parse the faq
+    # scrape the faq
     faq_URL_fr = 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/'
     faq_URL_en = get_english_page(faq_URL_fr)
     faq_contents_fr = get_faq_contents(faq_URL_fr)
     faq_contents_en = get_faq_contents(faq_URL_en)
     page_to_json(faq_contents_fr, 'faq_fr.json')
     page_to_json(faq_contents_en, 'faq_en.json')
+
+    # scrape the main page
+    mainpage_URL_fr = 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    mainpage_URL_en = get_english_page(mainpage_URL_fr)
+    mainpage_contents_fr = get_mainpage_contents(mainpage_URL_fr)
+    mainpage_contents_en = get_mainpage_contents(mainpage_URL_en)
+
+    page_to_json(mainpage_contents_fr, 'mainpage_fr.json')
+    page_to_json(mainpage_contents_en, 'mainpage_en.json')
