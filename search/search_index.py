@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm.auto import tqdm
 from copy import deepcopy
 import json
-from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
+from build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 import spacy
 from spacy_langdetect import LanguageDetector
 nlp = spacy.load('en')
@@ -16,7 +16,7 @@ nlp.add_pipe(LanguageDetector(), name='language_detector', last=True)
 ## Config variables
 ################################
 
-question_file = '../data/website_questions_21032020_13h00.csv'
+question_file = './query_result_2020-03-22T22_05_26.81834Z.csv'
 
 ################################
 
