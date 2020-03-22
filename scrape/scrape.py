@@ -26,7 +26,7 @@ def get_page_contents(URL):
 
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, 'html.parser')
-    page_contents = {}
+    page_contents = {'document_URL': URL}
 
     #Extract top page warnings, if any
     warnings = soup.find_all(class_="frame frame-avisExclam frame-type-textmedia frame-layout-0")
@@ -115,7 +115,7 @@ def get_faq_contents(faq_URL):
     page = requests.get(faq_URL)
     soup = BeautifulSoup(page.content, 'html.parser')
 
-    faq_contents = {}
+    faq_contents = {'document_URL': faq_URL}
     all_panels = soup.find_all(class_='panel panel-default')
 
     # a panel contains both the question and the answer
@@ -142,7 +142,7 @@ def get_mainpage_contents(mainpage_URL):
 
     page = requests.get(mainpage_URL)
     soup = BeautifulSoup(page.content, 'html.parser')
-    page_contents = {}
+    page_contents = {'document_URL': mainpage_URL}
 
     warnings = soup.find_all(class_="alert alert-warning")
     if warnings:
