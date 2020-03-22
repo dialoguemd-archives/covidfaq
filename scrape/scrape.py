@@ -26,10 +26,17 @@ def get_page_contents(URL):
 
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, 'html.parser')
-    subjects = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
-
     page_contents = {}
+
+    #Extract top page warnings, if any
+    warnings = soup.find_all(class_="frame frame-avisExclam frame-type-textmedia frame-layout-0")
+    if warnings:
+        page_contents['page alerts'] = [warning.get_text() for warning in warnings if warnings]
+
+    # Look for subjects and split them by header
+    subjects = soup.find_all(class_='frame frame-default frame-type-textmedia frame-layout-0')
     for sub in subjects:
+
         # Look for headers in each subject
         raw_title = None
         if sub.find('h2'):
