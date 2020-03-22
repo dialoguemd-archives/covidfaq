@@ -1,11 +1,12 @@
+import argparse
+import csv
+import glob
+import json
+import os
+
 import torch
 from transformers import *
-import glob
-import os
-import json
-import pprint
-import csv
-import argparse
+
 
 def get_master_questions(folder, use_content):
     master_questions = []
@@ -37,9 +38,10 @@ def get_user_questions(file_path):
 def encode(sentence, tokenizer, model):
     input_ids = torch.tensor([tokenizer.encode(sentence, add_special_tokens=True)])
     with torch.no_grad():
-        last_hidden_states = model(input_ids)[0]
-        return last_hidden_states[0][0] # just the CLS.
- 
+        last_hidden_states = model(input_ids)[0][0]
+        # return last_hidden_states[0]  # just the CLS.
+        return torch.mean(last_hidden_states, 0)  # mean
+
 
 def main():
     parser = argparse.ArgumentParser()
