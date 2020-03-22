@@ -10,10 +10,6 @@
 ##SBATCH --mail-user=$YOUR_EMAIL
 
 module load python/3.7
-module load cuda/10.0/cudnn/7.6 # cuda/10.0
+module load cuda/10.0/cudnn/7.6
 
-export MLFLOW_TRACKING_URI='mlruns'
-export ORION_DB_ADDRESS='orion_db.pkl'
-export ORION_DB_TYPE='pickleddb'
-
-python label.py --mq-folder ../../experiments/covidfaq/scrape/ --uq-csv ../../experiments/covidfaq/data/website_questions_21032020_13h00.csv
+python label.py --mq-folder ../scrape/ --uq-csv ../data/website_questions_21032020_13h00.csv
