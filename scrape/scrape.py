@@ -101,7 +101,7 @@ def get_faq_contents(faq_URL):
         answer = panel.find(class_='ce-bodytext')
 
         if question and answer:
-            faq_contents[question.get_text()] = answer.get_text()
+            faq_contents[question.get_text()] = [answer.get_text()]
 
     return faq_contents
 
