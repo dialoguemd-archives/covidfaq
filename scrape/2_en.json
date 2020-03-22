@@ -1,4 +1,7 @@
 {
+    "page alerts": [
+        "Some people infected by COVID-19 frequented public places while potentially contagious. In addition, Quebecers who have been on some cruise ships have been in contact with potentially contagious people. For more information, see the Targeted surveillance section."
+    ],
     "About coronaviruses": [
         "In December 2019, the World Health Organization was alerted to several cases of pneumonia in Wuhan, China. The virus did not match any other known virus. On January 7, 2020, China confirmed COVID-19.",
         "For more information, see the Situation of the coronavirus (COVID-19) in Québec page.",
@@ -69,5 +72,13 @@
         "2019 Novel Coronavirus infection (Wuhan, China): Outbreak update  Government of Canada",
         "Novel Coronavirus in China: recommendations for travellers  Government of Canada",
         "Novel Coronavirus infection: Frequently Asked Questions (FAQ)  Government of Canada"
+    ],
+    "Related": [
+        "Coronavirus disease (COVID-19) in Québec",
+        "Answers to questions about Coronavirus (COVID-19)",
+        "Washing hands",
+        "Preventing transmission of viruses and bacteria",
+        "Stress, Anxiety and Depression Associated With the Coronavirus COVID-19 Disease",
+        "How to recognize a reliable source of information on health"
     ]
 }

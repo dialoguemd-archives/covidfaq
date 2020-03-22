@@ -4,8 +4,8 @@
         "Chaque personne a un rôle à jouer afin de diminuer les risques de propagation des virus.",
         "Les masques ne constituent pas un outil de protection efficace pour la population générale. Leur utilisation est plutôt indiquée pour les patients chez qui une infection est suspectée ainsi que pour les professionnels de la santé qui les soignent. Vous pouvez visionner le message du Dr Horacio Arruda, directeur national de la Santé publique du Québec, à ce sujet .",
         "Si vous éprouvez de l’inquiétude ou de l’anxiété par rapport au coronavirus, vous pouvez composer, sans frais, le 1 877 644-4545. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page Stress, anxiété et déprime associés à la maladie à coronavirus COVID-19.",
-        "Évitez de vous déplacer d’une région à l’autre",
-        "Il est demandé à toute personne d'éviter de se déplacer d'une région à l'autre, sauf en cas de nécessité. Les déplacements inter-régionaux devraient se limiter à ceux liés à des raisons médicales et au travail, dans un contexte où le télétravail n'est pas possible."
+        "Évitez de vous déplacer d’une région à l’autre ou d'une ville à l'autre",
+        "Il est demandé à toute personne d'éviter de se déplacer d'une région à l'autre ou d’une ville à l’autre, sauf en cas de nécessité. Ces déplacements devraient se limiter à ceux liés à des raisons médicales et au travail, dans un contexte où le télétravail n'est pas possible."
     ],
     "Pour les citoyens de retour de voyage": [
         "Un isolement volontaire  de 14 jours est recommandé à toutes les personnes qui reviennent de l’étranger le 12 mars 2020 ou à une date ultérieure. Ces personnes doivent faire preuve de vigilance et surveiller leurs symptômes.",
@@ -23,6 +23,13 @@
         "Contactez le service Info-Social 811 si vous vivez :",
         "du stress, de l’anxiété;des réactions émotives qui perdurent (pleurs fréquents, irritabilité, etc.);un sentiment de panique;des idées qui tournent sans arrêt dans votre tête, cela vous envahit et vous fait peur;des répercussions sociales de la maladie.",
         "Des professionnels en intervention psychosociale vous offriront du soutien et vous partageront de l’information et des conseils selon vos besoins."
+    ],
+    "Rassemblements et événements": [
+        "Afin de protéger la population, les rassemblements intérieurs et extérieurs sont désormais interdits par le gouvernement du Québec.",
+        "Cette interdiction s’applique à tous les rassemblements intérieurs et extérieurs, à l’exception de rassemblements :",
+        "requis dans un milieu de travail qui n’est pas visé par une suspension du gouvernement du Québec, à condition que les employés maintiennent, dans la mesure du possible, une distance minimale de deux mètres entre eux;dans un lieu public visant à obtenir un service ou un bien (commerces, services gouvernementaux, etc.) qui n’est pas visé par une suspension du gouvernement du Québec, à condition que les clients maintiennent, dans la mesure du possible, une distance minimale de deux mètres entre eux;dans un moyen de transport, à condition que les usagers maintiennent, dans la mesure du possible, une distance minimale de deux mètres entre eux;réunissant des occupants dans une résidence privée ou dans ce qui en tient lieu, et toute autre personne leur offrant un service ou dont le soutien est requis. Les personnes offrant un service ou apportant un soutien doivent maintenir, dans la mesure du possible, une distance minimale de deux mètres avec les occupants.",
+        "Les rassemblements extérieurs sont permis lorsqu’il s’agit des occupants d’une même résidence ou de ce qui en tient lieu, ou lorsqu’une personne reçoit d’une autre personne un service ou son soutien. Ils sont également permis entre d’autres personnes lorsqu’une distance minimale de deux mètres est maintenue entre l’ensemble des personnes, à moins qu’elles soient des occupants d’une même résidence privée ou de ce qui en tient lieu ou qu’une personne reçoit d’une autre personne un service ou son soutien.",
+        "Pour plus d’information, il est possible de se référer au Décret numéro 222-2020 du 20 mars 2020 (PDF 25 Ko)."
     ],
     "Restaurants, commerces et endroits publics": [
         "Le gouvernement du Québec ordonne la fermeture des commerces et endroits publics suivants :",
@@ -42,7 +49,7 @@
         "Il est demandé aux personnes âgées d’éviter de se rassembler dans les centres commerciaux ou dans les restaurants.",
         "Les personnes âgées peuvent cependant sortir prendre une marche ou aller se procurer de la nourriture et des médicaments en respectant les consignes sanitaires recommandées. Lorsque disponible, les services de livraison à domicile sont à privilégier.",
         "Familles et amis sont invités à appeler les personnes âgées afin de prendre de leurs nouvelles et leur demander de se protéger.",
-        "Afin de rassurer nos personnes ainées et de leur rappeler l’importance de respecter les consignes émises en matière de santé publique, le gouvernement du Québec a mis en place un système d'appels automatisés mettant en vedette des personnalités connues, telles que Message de Bernard Derome , Message de Dominique Michel , Message de Shea Weber  (anglais seulement) et Message de Mutsumi Takahashi  (anglais seulement). Ces appels automatisés sont destinés à la population âgée de 70 ans et plus."
+        "Afin de rassurer nos personnes ainées et de leur rappeler l’importance de respecter les consignes émises en matière de santé publique, le gouvernement du Québec a mis en place un système d'appels automatisés mettant en vedette des personnalités connues, telles que Message de Bernard Derome , Message de Dominique Michel , Message de Shea Weber  (anglais seulement) et Message de Mutsumi Takahashi  (anglais seulement)."
     ],
     "Communautés autochtones": [
         "Coronavirus (COVID-19) – Informations pour les communautés autochtones"
