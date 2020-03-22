@@ -40,7 +40,7 @@ def fill_index(es, files, docindex, secindex):
     c_d = 0
     c_s = 0
     for i in tqdm(files):
-        with open(i, 'r', encoding='utf-8') as f:
+        with open(i, 'r', encoding='latin1') as f:
             t = json.load(f)
             t_ = {j: {k: t[j][k] for k in t[j] if k in ['plaintext']} for j in t if j != doc_url_key}
             doc = {
