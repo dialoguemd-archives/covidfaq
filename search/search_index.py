@@ -5,13 +5,23 @@
 from elasticsearch import Elasticsearch
 import pandas as pd
 from tqdm.auto import tqdm
+from copy import deepcopy
+import json
+from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 import spacy
 from spacy_langdetect import LanguageDetector
 nlp = spacy.load('en')
 nlp.add_pipe(LanguageDetector(), name='language_detector', last=True)
 
+## Config variables
+################################
+
+question_file = '../data/website_questions_21032020_13h00.csv'
+
+################################
+
 def detect_language(text):
-    return nlp(text)._.language
+    return nlp(text)._.language['language']
 
 def search_document_index(es, index, query, topk):
     res = es.search({'query': {
@@ -23,7 +33,7 @@ def search_document_index(es, index, query, topk):
     }, index=index)
     return res
 
-def search_section_index(es, index, query, topk, title_boost = 2):
+def search_section_index(es, index, query, topk, title_boost = 1):
     res = es.search({'query': {
         'multi_match': {
             "query": query,
@@ -34,12 +44,33 @@ def search_section_index(es, index, query, topk, title_boost = 2):
     }, index=index)
     return res
 
-if __name__ == "__main__":
+def query_question(es, q):
+    lan = detect_language(q)
 
-    en_doc_index = 'en-covid-document-index'
-    en_sec_index = 'en-covid-section-index'
-    fr_doc_index = 'fr-covid-document-index'
-    fr_sec_index = 'fr-covid-section-index'
+    topk_doc = 1
+    topk_sec = 1
+
+    def helper(docindex, secindex):
+        res_doc = search_document_index(es, docindex, q, topk_doc)['hits']['hits']
+        if len(res_doc):
+            res_doc_txt = json.dumps(res_doc[0]['_source'])
+        else:
+            res_doc_txt = 'None'
+        res_sec = search_section_index(es, secindex, q, topk_sec)['hits']['hits']
+        if len(res_sec):
+            res_sec_txt = json.dumps(res_sec[0]['_source'])
+        else:
+            res_sec_txt = 'None'
+        return res_doc_txt, res_sec_txt
+
+    if lan == 'en':
+        return helper(en_doc_index, en_sec_index)
+    elif lan == 'fr':
+        return helper(fr_doc_index, fr_sec_index)
+    else:
+        return ('None', 'None')
+
+if __name__ == "__main__":
 
     ## Connect to the elastic cluster
 
@@ -47,30 +78,29 @@ if __name__ == "__main__":
     if not es.ping():
         raise ValueError("Connection failed, please start server at localhost:9200 (default)")
 
-    covid_questions = pd.read_csv('../data/website_questions_21032020_13h00.csv')['question'].tolist()
+    covid_questions = pd.read_csv(question_file)['question'].tolist()
 
-    topk_doc = 1
-    topk_sec = 1
+    all_results = []
 
     for q in tqdm(covid_questions):
         if not isinstance(q, str):
             continue
 
-        print('Question: ', q, '\n')
+        record = {}
 
-        # search top K sections
-        if detect_language(q) == 'en':
-            print(
-                search_document_index(es, en_doc_index, q, topk_doc),
-            )
-            print(
-                search_section_index(es, en_sec_index, q, topk_sec),
-            )
-        else:
-            print(
-                search_document_index(es, fr_doc_index, q, topk_doc),
-            )
-            print(
-                search_section_index(es, fr_sec_index, q, topk_sec),
-            )
-        print('-' *  50)
+        print('$$ Question: ', q, '\n')
+
+        res_doc, res_sec = query_question(es, q)
+
+        print('=== Document search result: ', res_doc)
+        print()
+        print('=== Section search result: ', res_sec)
+        print('-' * 50)
+
+        record['question'] = q
+        record['document_result_json'] = res_doc
+        record['section_result_json'] = res_sec
+
+        all_results.append(deepcopy(record))
+
+    pd.DataFrame(all_results, columns=['question', 'section_result_json', 'document_result_json']).to_csv('all_results.csv')
