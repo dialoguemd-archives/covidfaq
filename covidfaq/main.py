@@ -3,7 +3,7 @@ from dialogue.tracing.fastapi import TraceMiddleware
 from fastapi import FastAPI
 from structlog import get_logger
 
-from . import config, routers, segment
+from . import config, routers
 
 app = FastAPI()
 app.add_middleware(LogMiddleware)

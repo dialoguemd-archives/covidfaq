@@ -32,6 +32,8 @@ EXPOSE 80
 WORKDIR /app
 
 COPY --from=builder /usr/local /usr/local
+RUN python -m spacy download en_core_web_md && \
+    python -m spacy link en_core_web_md en
 COPY . .
 
 ENTRYPOINT exec hypercorn covidfaq.main:app --bind 0.0.0.0:${PORT}
