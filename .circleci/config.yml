@@ -114,8 +114,6 @@ jobs:
             helm3 plugin install https://github.com/futuresimple/helm-secrets
             helm3 plugin install https://github.com/thomastaylor312/helm-namespace
 
-
-
             _PARAM_STAGE="<<parameters.stage>>"
             _PARAM_PLACE="<<parameters.place>>"
             _APP_NAME="${CIRCLE_PROJECT_REPONAME}"
@@ -130,9 +128,9 @@ jobs:
             helm3 namespace secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
               --set rasa.name="${DOCKER_REGISTRY}/${_APP_NAME}" \
               --set-string rasa.tag="$_VERSION" \
-              --values deploy/app.yaml \
-              --values deploy/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
-              --values deploy/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
+              --values deploy/rasax/app.yaml \
+              --values deploy/rasax/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
+              --values deploy/rasax/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
               --namespace="${_NAMESPACE}" \
               --install \
               --version 1.2.1 \

@@ -1,0 +1,10 @@
+clusterName: covidfaq
+
+nodeSelector:
+  "dialoguecorp.com/covidbot": "true"
+tolerations:
+  - key: "dialoguecorp.com/covidbot"
+    operator: "Exists"
+
+ingress:
+  enabled: true
