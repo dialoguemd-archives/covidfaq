@@ -12,29 +12,29 @@ workflows:
       - release/release:
           name: release
           context: org-global-v2
-      - docker/build_image:
-          name: build-image
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      - docker/push_tags:
-          name: push-image-tags
-          requires:
-            - build-image
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      - deploy-rasax:
-          name: deploy-rasax-dev-ca2
-          place: ca2
-          requires:
-            - push-image-tags
-          filters:
-           branches:
-             ignore: master
-          context: org-global-v2
+      # - docker/build_image:
+      #     name: build-image
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
+      # - docker/push_tags:
+      #     name: push-image-tags
+      #     requires:
+      #       - build-image
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
+      # - deploy-rasax:
+      #     name: deploy-rasax-dev-ca2
+      #     place: ca2
+      #     requires:
+      #       - push-image-tags
+      #     filters:
+      #      branches:
+      #        ignore: master
+      #     context: org-global-v2
       - deploy-es:
           name: deploy-es-dev-ca2
           place: ca2
