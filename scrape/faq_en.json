@@ -291,19 +291,19 @@
     "Can restaurants remain open?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec is asking restaurant owners to limit the number of customers to 50% of the rooms’ capacity, that is, one table in two.\n </p>\n <p>\n  However, buffet-style restaurants and sugar shacks must close temporarily.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec has asked the owners of restaurants to close their dining rooms. Takeout orders, deliveries and drive-through services continue to be permitted.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "The Gouvernement du Québec is asking restaurant owners to limit the number of customers to 50% of the rooms’ capacity, that is, one table in two.However, buffet-style restaurants and sugar shacks must close temporarily."
+            "The Gouvernement du Québec has asked the owners of restaurants to close their dining rooms. Takeout orders, deliveries and drive-through services continue to be permitted."
         ]
     },
     "Do the closings of public spaces that the Québec government has announced concern grocery stores and drugstores?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  No. Grocery stores and drugstores are staying open.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  No. Grocery stores and drugstores are staying open.\n </p>\n <p>\n  The\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47720\">\n   Restaurants, stores and public spaces section\n  </a>\n  lists the stores and public spaces that are closed.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "No. Grocery stores and drugstores are staying open."
+            "No. Grocery stores and drugstores are staying open.The Restaurants, stores and public spaces section lists the stores and public spaces that are closed."
         ]
     },
     "Is it preferable to avoid all public spaces?": {
