@@ -1,4 +1,4 @@
-engine: 0.0.0-pr111+20e6a3a
+engine: ~1
 name: covidfaq
 
 healthcheck:
