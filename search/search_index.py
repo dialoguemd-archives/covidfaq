@@ -6,6 +6,7 @@ from copy import deepcopy
 
 import pandas as pd
 import spacy
+
 ## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
@@ -78,8 +79,7 @@ def query_question(es, q):
 
 if __name__ == "__main__":
 
-    ## Connect to the elastic cluster
-
+    # TODO: connect to ES on deployed cluster
     es = Elasticsearch([{"host": "localhost", "port": 9200}])
     if not es.ping():
         raise ValueError(

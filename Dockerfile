@@ -6,6 +6,8 @@ ENV \
   PYTHONWARNINGS=ignore
 
 COPY data /app/data
+COPY scrape /app/scrape
+COPY search /app/search
 COPY domain.yml /app
 COPY config.fr.yml /app
 COPY credentials.yml /app
@@ -13,4 +15,6 @@ COPY credentials.yml /app
 # RUN sudo python -m spacy download fr_core_news_md
 # RUN sudo python -m spacy link fr_core_news_md fr
 
-RUN rasa train --data data/fr/ -d domain.yml --out models/fr -c config.fr.yml --quiet
+# RUN rasa train --data data/fr/ -d domain.yml --out models/fr -c config.fr.yml --quiet
+
+RUN python search/search_index.py
