@@ -3,6 +3,7 @@ version: 2.1
 orbs:
   base: dialogue/base@1.7.1
   docker: dialogue/docker@1.6.1
+  app: dialogue/helm-app@1.0.2
   k8s: dialogue/k8s@3.0.2
   python: dialogue/python@2.7.0
   release: dialogue/release@2.1.4
@@ -18,6 +19,12 @@ workflows:
     jobs:
       - release/release:
           name: release
+          context: org-global-v2
+      - app/build:
+          name: build-api
+          filters:
+            branches:
+              ignore: master
           context: org-global-v2
       # - docker/build_image:
       #     name: build-image
@@ -56,7 +63,17 @@ workflows:
            branches:
              ignore: master
           context: org-global-v2
-
+      - app/deploy:
+          name: deploy-api-dev-ca2
+          stage: dev
+          place: ca2
+          requires:
+            - build-api
+            - build-es-index
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
   # release:
   #   jobs:
   #     - docker/build_image:
@@ -110,11 +127,11 @@ jobs:
       - run:
           name: Run scrape.py
           command: |
-            poetry run python scrape/scrape.py
+            poetry run python -m covidfaq.scrape.scrape
       - run:
           name: Run build_index.py
           command: |
-            poetry run python search/build_index.py
+            poetry run python -m covidfaq.search.build_index
 
   deploy-rasax:
     parameters:

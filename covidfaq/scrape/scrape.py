@@ -228,10 +228,10 @@ if __name__ == "__main__":
     # They need to be deleted if already present when generating them
     # To generate the md files, switch convert_to_md to True
     convert_to_md = False
-    responses_fr_fname = "scrape/responses_fr.md"
-    nlu_fr_fname = "scrape/nlu_fr.md"
-    responses_en_fname = "scrape/responses_en.md"
-    nlu_en_fname = "scrape/nlu_en.md"
+    responses_fr_fname = "covidfaq/scrape/responses_fr.md"
+    nlu_fr_fname = "covidfaq/scrape/nlu_fr.md"
+    responses_en_fname = "covidfaq/scrape/responses_en.md"
+    nlu_en_fname = "covidfaq/scrape/nlu_en.md"
 
     # scrape the "regular pages" structures
     for count, fr_URL in enumerate(french_URLS):
@@ -240,8 +240,8 @@ if __name__ == "__main__":
         page_contents_fr = get_page_contents(fr_URL)
         page_contents_en = get_page_contents(en_URL)
 
-        page_to_json(page_contents_fr, "scrape/" + str(count) + "_fr.json")
-        page_to_json(page_contents_en, "scrape/" + str(count) + "_en.json")
+        page_to_json(page_contents_fr, "covidfaq/scrape/" + str(count) + "_fr.json")
+        page_to_json(page_contents_en, "covidfaq/scrape/" + str(count) + "_en.json")
 
         if convert_to_md:
             page_to_md(page_contents_fr, fr_URL, responses_fr_fname, nlu_fr_fname)
@@ -252,8 +252,8 @@ if __name__ == "__main__":
     faq_URL_en = get_english_page(faq_URL_fr)
     faq_contents_fr = get_faq_contents(faq_URL_fr)
     faq_contents_en = get_faq_contents(faq_URL_en)
-    page_to_json(faq_contents_fr, "scrape/faq_fr.json")
-    page_to_json(faq_contents_en, "scrape/faq_en.json")
+    page_to_json(faq_contents_fr, "covidfaq/scrape/faq_fr.json")
+    page_to_json(faq_contents_en, "covidfaq/scrape/faq_en.json")
 
     # scrape the main page
     mainpage_URL_fr = (
@@ -263,5 +263,5 @@ if __name__ == "__main__":
     mainpage_contents_fr = get_mainpage_contents(mainpage_URL_fr)
     mainpage_contents_en = get_mainpage_contents(mainpage_URL_en)
 
-    page_to_json(mainpage_contents_fr, "scrape/mainpage_fr.json")
-    page_to_json(mainpage_contents_en, "scrape/mainpage_en.json")
+    page_to_json(mainpage_contents_fr, "covidfaq/scrape/mainpage_fr.json")
+    page_to_json(mainpage_contents_en, "covidfaq/scrape/mainpage_en.json")

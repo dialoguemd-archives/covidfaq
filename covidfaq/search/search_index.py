@@ -13,7 +13,7 @@ from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
-from build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
+from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 
 log = structlog.get_logger(__name__)
 
@@ -53,8 +53,9 @@ def search_section_index(es, index, query, topk, title_boost=1):
     return res
 
 
-def query_question(es, q):
-    lan = detect_language(q)
+def query_question(es, q, lan=None):
+    if not lan:
+        lan = detect_language(q)
 
     topk_doc = 1
     topk_sec = 1
@@ -85,7 +86,11 @@ def query_question(es, q):
 if __name__ == "__main__":
 
     # TODO: connect to ES on deployed cluster
-    es = Elasticsearch([{"host": "localhost", "port": 9200}])
+    es = Elasticsearch(
+        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
+        use_ssl=True,
+        verify_certs=True,
+    )
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"
