@@ -32,7 +32,7 @@ def get_page_contents(URL):
     warnings = soup.find_all(class_="frame frame-avisExclam frame-type-textmedia frame-layout-0")
     if warnings:
         #  warnings_text = [warning.get_text() for warning in warnings if warnings]
-        warnings_text = warnings[0].get_text()
+        warnings_text = [warnings[0].get_text()]
         warnings_html = warnings[0].prettify()
 
         page_contents['warnings'] = {
@@ -169,7 +169,7 @@ def get_mainpage_contents(mainpage_URL):
     warnings = soup.find_all(class_="alert alert-warning")
     if warnings:
         #  warnings_text = [warning.get_text() for warning in warnings if warnings]
-        warnings_text = warnings[0].get_text()
+        warnings_text = [warnings[0].get_text()]
         warnings_html = warnings[0].prettify()
 
         page_contents['warnings'] = {
