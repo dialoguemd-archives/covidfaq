@@ -27,7 +27,7 @@ workflows:
               ignore: master
           context: org-global-v2
       - deploy-rasax:
-          name: deploy-dev-ca2
+          name: deploy-rasax-dev-ca2
           place: ca2
           requires:
             - push-image-tags
@@ -36,7 +36,7 @@ workflows:
              ignore: master
           context: org-global-v2
       - deploy-es:
-          name: deploy-dev-ca2
+          name: deploy-es-dev-ca2
           place: ca2
           filters:
            branches:
@@ -158,10 +158,10 @@ jobs:
           command: |
             set -x
 
-            log "install rasa-x helm repository"
+            log "install elastic helm repository"
             helm3 repo add elastic https://helm.elastic.co
 
-            log "refresh rasa-x helm repository"
+            log "refresh elastic helm repository"
             helm3 repo update
 
             _PARAM_STAGE="<<parameters.stage>>"
@@ -180,7 +180,7 @@ jobs:
               --values deploy/es/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
               --namespace="${_NAMESPACE}" \
               --install \
-              --version 1.2.1 \
+              --version 7.6.1 \
               --wait \
               --timeout 600s
 
