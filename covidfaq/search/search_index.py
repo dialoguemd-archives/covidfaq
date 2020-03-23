@@ -86,7 +86,11 @@ def query_question(es, q, lan=None):
 if __name__ == "__main__":
 
     # TODO: connect to ES on deployed cluster
-    es = Elasticsearch([{"host": "localhost", "port": 9200}])
+    es = Elasticsearch(
+        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
+        use_ssl=True,
+        verify_certs=True,
+    )
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"
