@@ -38,8 +38,6 @@ workflows:
       - deploy-es:
           name: deploy-dev-ca2
           place: ca2
-          requires:
-            - push-image-tags
           filters:
            branches:
              ignore: master
