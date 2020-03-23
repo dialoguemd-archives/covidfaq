@@ -100,12 +100,9 @@ if __name__ == "__main__":
 
         record = {}
 
-        log.info("Question", question=q)
-
         res_doc, res_sec = query_question(es, q)
 
-        log.info("Document search result", res_doc=res_doc)
-        log.info("Section search result", res_sec=res_sec)
+        log.info("question_parsed", question=q, res_doc=res_doc, res_sec=res_sec)
 
         record["question"] = q
         record["document_result_json"] = res_doc
