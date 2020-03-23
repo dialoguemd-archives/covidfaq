@@ -12,25 +12,32 @@ workflows:
       - release/release:
           name: release
           context: org-global-v2
-      - docker/build_image:
-          name: build-image
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      - docker/push_tags:
-          name: push-image-tags
-          requires:
-            - build-image
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      - deploy:
-          name: deploy-dev-ca2
+      # - docker/build_image:
+      #     name: build-image
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
+      # - docker/push_tags:
+      #     name: push-image-tags
+      #     requires:
+      #       - build-image
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
+      # - deploy-rasax:
+      #     name: deploy-rasax-dev-ca2
+      #     place: ca2
+      #     requires:
+      #       - push-image-tags
+      #     filters:
+      #      branches:
+      #        ignore: master
+      #     context: org-global-v2
+      - deploy-es:
+          name: deploy-es-dev-ca2
           place: ca2
-          requires:
-            - push-image-tags
           filters:
            branches:
              ignore: master
@@ -56,8 +63,8 @@ workflows:
   #           branches:
   #             ignore: /.*/
   #         context: org-global-v2
-  #     - deploy:
-  #         name: deploy-prod-ca-us
+  #     - deploy-rasax:
+  #         name: deploy-rasax-prod-ca-us
   #         place: ca
   #         region: us-east-1
   #         requires:
@@ -68,9 +75,19 @@ workflows:
   #           branches:
   #             ignore: /.*/
   #         context: org-global-v2
+  #     - deploy-es:
+  #         name: deploy-es-prod-ca-us
+  #         place: ca
+  #         region: us-east-1
+  #         filters:
+  #           tags:
+  #             only: /^v.*/
+  #           branches:
+  #             ignore: /.*/
+  #         context: org-global-v2
 
 jobs:
-  deploy:
+  deploy-rasax:
     parameters:
       stage:
         type: string
@@ -90,31 +107,17 @@ jobs:
           stage: <<parameters.stage>>
           place: <<parameters.place>>
           region: <<parameters.region>>
+      - install-helm-dependencies
       - run:
           name: Deploy
           command: |
             set -x
-
-            log "install helm3"
-            curl --silent --show-error --fail --location --output helm.tar.gz \
-              https://get.helm.sh/helm-v3.1.2-linux-amd64.tar.gz \
-              && tar -zxvf helm.tar.gz \
-              && sudo mv linux-amd64/helm /usr/local/bin/helm3
-
-            log "check helm version"
-            helm3 version
 
             log "install rasa-x helm repository"
             helm3 repo add rasa-x https://rasahq.github.io/rasa-x-helm
 
             log "refresh rasa-x helm repository"
             helm3 repo update
-
-            log "install plugins"
-            helm3 plugin install https://github.com/futuresimple/helm-secrets
-            helm3 plugin install https://github.com/thomastaylor312/helm-namespace
-
-
 
             _PARAM_STAGE="<<parameters.stage>>"
             _PARAM_PLACE="<<parameters.place>>"
@@ -130,11 +133,84 @@ jobs:
             helm3 namespace secrets upgrade "${_APP_NAME}" rasa-x/rasa-x \
               --set rasa.name="${DOCKER_REGISTRY}/${_APP_NAME}" \
               --set-string rasa.tag="$_VERSION" \
-              --values deploy/app.yaml \
-              --values deploy/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
-              --values deploy/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
+              --values deploy/rasax/app.yaml \
+              --values deploy/rasax/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
+              --values deploy/rasax/secrets."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
               --namespace="${_NAMESPACE}" \
               --install \
               --version 1.2.1 \
               --wait \
               --timeout 600s
+
+  deploy-es:
+    parameters:
+      stage:
+        type: string
+        default: "${CIRCLE_BRANCH_STAGE}"
+      place:
+        type: string
+      cluster:
+        type: string
+        default: apps
+      region:
+        type: string
+        default: "${AWS_DEFAULT_REGION}"
+    executor: base/launchpad
+    steps:
+      - k8s/setup:
+          cluster: <<parameters.cluster>>
+          stage: <<parameters.stage>>
+          place: <<parameters.place>>
+          region: <<parameters.region>>
+      - install-helm-dependencies
+      - run:
+          name: Deploy
+          command: |
+            set -x
+
+            log "install elastic helm repository"
+            helm3 repo add elastic https://helm.elastic.co
+
+            log "refresh elastic helm repository"
+            helm3 repo update
+
+            _PARAM_STAGE="<<parameters.stage>>"
+            _PARAM_PLACE="<<parameters.place>>"
+            _APP_NAME="es-${CIRCLE_PROJECT_REPONAME}"
+            _NAMESPACE="${_APP_NAME}"
+
+            _VERSION="$CIRCLE_SHA1_SHORT"
+
+            if [ "$CIRCLE_GIT_TAG" ]; then
+              _VERSION="$CIRCLE_GIT_TAG"
+            fi
+
+            helm3 namespace secrets upgrade "${_APP_NAME}" elastic/elasticsearch \
+              --values deploy/es/app.yaml \
+              --values deploy/es/app."${_PARAM_STAGE,,}"."${_PARAM_PLACE}".yaml \
+              --namespace="${_NAMESPACE}" \
+              --install \
+              --version 7.6.1 \
+              --wait \
+              --timeout 600s
+
+commands:
+  install-helm-dependencies:
+    steps:
+      - run:
+          name:  Install helm 3
+          command: |
+            log "install helm 3"
+            curl --silent --show-error --fail --location --output helm.tar.gz \
+              https://get.helm.sh/helm-v3.1.2-linux-amd64.tar.gz \
+              && tar -zxvf helm.tar.gz \
+              && sudo mv linux-amd64/helm /usr/local/bin/helm3
+
+            log "check helm version"
+            helm3 version
+      - run:
+          name:  Install helm plugins
+          command: |
+            log "install plugins"
+            helm3 plugin install https://github.com/futuresimple/helm-secrets
+            helm3 plugin install https://github.com/thomastaylor312/helm-namespace
