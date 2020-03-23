@@ -6,7 +6,6 @@ from os import listdir
 from os.path import isfile, join
 
 import structlog
-
 ## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from tqdm.auto import tqdm

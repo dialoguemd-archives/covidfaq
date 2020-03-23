@@ -17,4 +17,5 @@ COPY credentials.yml /app
 
 # RUN rasa train --data data/fr/ -d domain.yml --out models/fr -c config.fr.yml --quiet
 
+RUN python scrape/scrape.py
 RUN python search/search_index.py

@@ -4,11 +4,9 @@
 import json
 from copy import deepcopy
 
-import structlog
-
 import pandas as pd
 import spacy
-
+import structlog
 ## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
