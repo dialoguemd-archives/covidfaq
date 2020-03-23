@@ -64,11 +64,21 @@ workflows:
   #             ignore: /.*/
   #         context: org-global-v2
   #     - deploy-rasax:
-  #         name: deploy-prod-ca-us
+  #         name: deploy-rasax-prod-ca-us
   #         place: ca
   #         region: us-east-1
   #         requires:
   #           - push-release-image-tags
+  #         filters:
+  #           tags:
+  #             only: /^v.*/
+  #           branches:
+  #             ignore: /.*/
+  #         context: org-global-v2
+  #     - deploy-es:
+  #         name: deploy-es-prod-ca-us
+  #         place: ca
+  #         region: us-east-1
   #         filters:
   #           tags:
   #             only: /^v.*/
