@@ -112,7 +112,7 @@ jobs:
           command: |
             poetry run python scrape/scrape.py
       - run:
-          name: Run build index
+          name: Run build_index.py
           command: |
             poetry run python search/build_index.py
 
