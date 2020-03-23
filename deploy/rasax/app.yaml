@@ -2,6 +2,13 @@ ingress:
   enabled: true
 
 app:
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 250m
+    limits:
+      memory: 256Mi
+      cpu: 250m
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
@@ -9,6 +16,23 @@ app:
       operator: "Exists"
 
 rasa:
+  versions:
+    rasaProduction:
+      resources:
+        requests:
+          memory: 2048Mi
+          cpu: 2000m
+        limits:
+          memory: 2048Mi
+          cpu: 2000m
+    rasaWorker:
+      resources:
+        requests:
+          memory: 4096Mi
+          cpu: 2000m
+        limits:
+          memory: 4096Mi
+          cpu: 2000m
   additionalChannelCredentials:
     rest:
   nodeSelector:
@@ -18,6 +42,13 @@ rasa:
       operator: "Exists"
 
 rasax:
+  resources:
+    requests:
+      memory: 1024Mi
+      cpu: 1000m
+    limits:
+      memory: 1024Mi
+      cpu: 1000m
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
@@ -25,6 +56,13 @@ rasax:
       operator: "Exists"
 
 nginx:
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 200m
+    limits:
+      memory: 256Mi
+      cpu: 200m
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
@@ -32,6 +70,12 @@ nginx:
       operator: "Exists"
 
 duckling:
+  requests:
+    memory: 256Mi
+    cpu: 500m
+  limits:
+    memory: 256Mi
+    cpu: 500m
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
@@ -39,6 +83,12 @@ duckling:
       operator: "Exists"
 
 eventService:
+  requests:
+    memory: 1024Mi
+    cpu: 1000m
+  limits:
+    memory: 1024Mi
+    cpu: 1000m
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
@@ -46,6 +96,13 @@ eventService:
       operator: "Exists"
 
 rabbitmq:
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 200m
+    limits:
+      memory: 256Mi
+      cpu: 200m
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
@@ -54,6 +111,13 @@ rabbitmq:
 
 redis:
   master:
+    resources:
+      requests:
+        memory: 256Mi
+        cpu: 200m
+      limits:
+        memory: 256Mi
+        cpu: 200m
     nodeSelector:
       "dialoguecorp.com/covidbot": "true"
     tolerations:
@@ -61,6 +125,13 @@ redis:
         operator: "Exists"
 
 postgresql:
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 1000m
+    limits:
+      memory: 256Mi
+      cpu: 1000m
   master:
     nodeSelector:
       "dialoguecorp.com/covidbot": "true"
