@@ -6,8 +6,12 @@ authors = ["Dialogue <devs@dialogue.co>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-rasa = {extras = ["spacy"], version = "^1.8.2"}
-tensorflow-estimator = "2.1.0"
+elasticsearch = "^7.6.0"
+spacy_langdetect = "^0.1.2"
+structlog = "^20.1.0"
+beautifulsoup4 = "^4.8.2"
+requests = "^2.23.0"
+tqdm = "^4.43.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"

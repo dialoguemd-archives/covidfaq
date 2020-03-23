@@ -1,2 +1,4 @@
 **/models/
 **/results/
+**/__pycache__/
+**/search/all_results.csv
