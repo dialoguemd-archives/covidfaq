@@ -53,8 +53,9 @@ def search_section_index(es, index, query, topk, title_boost=1):
     return res
 
 
-def query_question(es, q):
-    lan = detect_language(q)
+def query_question(es, q, lan=None):
+    if not lan:
+        lan = detect_language(q)
 
     topk_doc = 1
     topk_sec = 1

@@ -2,7 +2,7 @@ from datetime import date, datetime
 from typing import List
 
 # import requests_async as requests
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 from requests import HTTPError
 from structlog import get_logger
@@ -22,7 +22,7 @@ class Answers(BaseModel):
 
 
 @router.get("/answers/", response_model=Answers)
-def answers(question: str):
+def answers(question: str, request: Request):
     conf = config.get()
     log.info("answers", question=question)
 
@@ -32,11 +32,10 @@ def answers(question: str):
         verify_certs=True,
     )
 
-    ans = query_question(es, question)
+    language = request.headers.get('Accept-Language')
+
+    ans = query_question(es, question, language)
 
     answer = Answers.parse_obj(ans)
-
-    # fastapi how to parse header
-    # Accept-Language
 
     return answer
