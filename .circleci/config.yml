@@ -127,11 +127,11 @@ jobs:
       - run:
           name: Run scrape.py
           command: |
-            poetry run python scrape/scrape.py
+            poetry run python covidfaq/scrape/scrape.py
       - run:
           name: Run build_index.py
           command: |
-            poetry run python search/build_index.py
+            poetry run python covidfaq/search/build_index.py
 
   deploy-rasax:
     parameters:
