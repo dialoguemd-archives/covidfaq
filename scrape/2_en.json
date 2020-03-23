@@ -1,7 +1,9 @@
 {
     "document_URL": "https://www.quebec.ca/en/health/health-issues/a-z/general-information-about-coronavirus/",
     "warnings": {
-        "plaintext": "Some people infected by COVID-19 frequented public places while potentially contagious. In addition, Quebecers who have been on some cruise ships have been in contact with potentially contagious people. For more information, see the Targeted surveillance section.",
+        "plaintext": [
+            "Some people infected by COVID-19 frequented public places while potentially contagious. In addition, Quebecers who have been on some cruise ships have been in contact with potentially contagious people. For more information, see the Targeted surveillance section."
+        ],
         "html": "<div class=\"frame frame-avisExclam frame-type-textmedia frame-layout-0\" id=\"c46511\">\n <a id=\"c46537\">\n </a>\n <div class=\"ce-textpic ce-left ce-above\">\n  <div class=\"ce-bodytext\">\n   <p>\n    Some people infected by COVID-19 frequented public places while potentially contagious. In addition, Quebecers who have been on some cruise ships have been in contact with potentially contagious people. For more information, see the\n    <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c47145\">\n     Targeted surveillance\n    </a>\n    section.\n   </p>\n  </div>\n </div>\n</div>\n",
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/general-information-about-coronavirus/"
     },
