@@ -52,6 +52,8 @@ def get_page_contents(URL):
             raw_title = sub.find('h2').contents[0]
         elif sub.find('h3'):
             raw_title = sub.find('h3').contents[0]
+        elif sub.find('h4'):
+            raw_title = sub.find('h4').contents[0]
 
         if raw_title:
             title = ' '.join(raw_title.split())
@@ -71,6 +73,26 @@ def get_page_contents(URL):
                         'html': sub_html.prettify(),
                         'URL': URL,
                     }
+    # a panel usually contains the answer to a question
+    # a panel contains both the question and the answer
+    all_panels = soup.find_all(class_='panel panel-default')
+    if all_panels:
+        for panel in all_panels:
+            question = panel.find(class_='accordion-toggle')
+            answer = panel.find(class_='ce-bodytext')
+
+            if question and answer:
+                question_str = question.get_text()
+                answer_str = [answer.get_text()]
+                answer_html = [answer.prettify()]
+
+                page_contents[question_str] = {
+                    'URL': URL,
+                    'html': answer_html,
+                    'plaintext': answer_str,
+                }
+
+
 
     return page_contents
 
@@ -187,6 +209,12 @@ if __name__ == '__main__':
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/',
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/',
         'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/',
+        'https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/',
+        'https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/',
+        'https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/',
+        'https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/',
+        'https://www.quebec.ca/gouv/covid19-fonction-publique/',
+
     ]
 
     # This is to have the files compatible with the Raza framework
@@ -201,6 +229,7 @@ if __name__ == '__main__':
 
     # scrape the "regular pages" structures
     for count, fr_URL in enumerate(french_URLS):
+        print(count)
         en_URL = get_english_page(fr_URL)
         page_contents_fr = get_page_contents(fr_URL)
         page_contents_en = get_page_contents(en_URL)

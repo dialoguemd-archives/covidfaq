@@ -1,0 +1,62 @@
+{
+    "document_URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/",
+    "Outline of the program": {
+        "plaintext": [
+            "Outline of the program",
+            "This program offers financial assistance to meet the needs of workers who, because they are in isolation to counter the propagation of the COVID-19 virus, cannot earn all of their work income and are not eligible for another financial assistance program. "
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h2>\n  Outline of the program\n </h2>\n <p>\n  This program offers financial assistance to meet the needs of workers who, because they are in isolation to counter the propagation of the COVID-19 virus, cannot earn all of their work income and are not eligible for another financial assistance program.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/"
+    },
+    "Eligibility": {
+        "plaintext": [
+            "This program is for workers who reside in Québec and are in isolation for one of the following reasons:",
+            "they have contracted the virus or present symptomsthey have been contact with an infected personthey have returned from abroad",
+            "In addition, workers who are in isolation or likely to be under the above criteria are eligible for the PATT COVID-19 if",
+            "you are not receiving compensation from your employeryou do not have private insuranceyou are not covered by another government program, such as employment insurance  from the federal government",
+            "The program only applies to adult workers aged 18 or over.",
+            "The order to self-isolate must have been given by the Government of Canada, the Gouvernement du Québec or another responsible authority."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  This program is for workers who reside in Québec and are in isolation for one of the following reasons:\n </p>\n <ul>\n  <li>\n   they have contracted the virus or present symptoms\n  </li>\n  <li>\n   they have been contact with an infected person\n  </li>\n  <li>\n   they have returned from abroad\n  </li>\n </ul>\n <p>\n  In addition, workers who are in isolation or likely to be under the above criteria are eligible for the PATT COVID-19 if\n </p>\n <ul>\n  <li>\n   you are not receiving compensation from your employer\n  </li>\n  <li>\n   you do not have private insurance\n  </li>\n  <li>\n   you are not covered by another government program, such as\n   <a href=\"https://www.canada.ca/en/services/benefits/ei.html\" target=\"_blank\">\n    employment insurance\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   from the federal government\n  </li>\n </ul>\n <p>\n  The program only applies to adult workers aged 18 or over.\n </p>\n <p>\n  The order to self-isolate must have been given by the Government of Canada, the Gouvernement du Québec or another responsible authority.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/"
+    },
+    "Financial assistance": {
+        "plaintext": [
+            "The lump-sum amount granted to an eligible person is $573 per week, for a period of 14 days of isolation. If justified by your state of health, the coverage period for an eligible person could be extended to a maximum of 28 days. ",
+            "End of financial assistance",
+            "You are no longer entitled to financial assistance: ",
+            "when the financial assistance has been paid in fullif you have not respected your obligations."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The lump-sum amount granted to an eligible person is $573 per week, for a period of 14 days of isolation. If justified by your state of health, the coverage period for an eligible person could be extended to a maximum of 28 days.\n </p>\n <h3>\n  End of financial assistance\n </h3>\n <p>\n  You are no longer entitled to financial assistance:\n </p>\n <ul>\n  <li>\n   when the financial assistance has been paid in full\n  </li>\n  <li>\n   if you have not respected your\n   <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/right-and-obligations/\">\n    obligations\n   </a>\n   .\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/"
+    },
+    "Applying": {
+        "plaintext": [
+            "Start by filling out the registration form . Once your registration is completed, you will be sent an email containing a link to the application form. If there is more than one adult in your family, each adult must submit his or her own application.",
+            "Steps for filing an application ",
+            "Start by completing the online registration form so that we can validate your identity.Once your identification is validated, you will receive an email containing a link to the application form for financial assistance. \tThe email will be sent to you as quickly as possible.Check your spam folder if it does not arrive in your inbox.Once you have filed your application, it will be studied as quickly as possible.If your application for financial assistance is accepted, the first payment will be made by bank transfer. \t ",
+            "Due to the language choice of your browser settings, the language of the form can be different from your usual preference. In this case, please change the language preference on the right side of the menu above. ",
+            "Applying",
+            "Don’t have an email address or Internet access? You can also apply by telephone, by speaking with a Red Cross agent at 1-800-863-6582 (starting at 8:20 a.m., 7 days a week).",
+            "You must consent to information about you being exchanged between ministries and agencies of the Government for verification and compliance purposes. Note that excess assistance paid may be claimed back, and that charges could apply. "
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Start by filling out the\n  <a href=\"https://inscription.croixrouge.ca/#/0ABFBD4F-AF68-EA11-A812-000D3AF422F3\" target=\"_blank\">\n   registration form\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  . Once your registration is completed, you will be sent an email containing a link to the application form. If there is more than one adult in your family, each adult must submit his or her own application.\n </p>\n <p>\n  Steps for filing an application\n </p>\n <ol>\n  <li>\n   Start by completing the online registration form so that we can validate your identity.\n  </li>\n  <li>\n   Once your identification is validated, you will receive an email containing a link to the application form for financial assistance.\n   <ul>\n    <li>\n     The email will be sent to you as quickly as possible.\n    </li>\n    <li>\n     Check your spam folder if it does not arrive in your inbox.\n    </li>\n   </ul>\n  </li>\n  <li>\n   Once you have filed your application, it will be studied as quickly as possible.\n  </li>\n  <li>\n   If your application for financial assistance is accepted, the first payment will be made by bank transfer.\n   <br/>\n  </li>\n </ol>\n <p>\n  Due to the language choice of your browser settings, the language of the form can be different from your usual preference. In this case, please change the language preference on the right side of the menu above.\n </p>\n <p>\n  <a class=\"zoneClick\" href=\"https://inscription.croixrouge.ca/#/0ABFBD4F-AF68-EA11-A812-000D3AF422F3\" target=\"_blank\">\n   Applying\n  </a>\n </p>\n <p>\n  Don’t have an email address or Internet access? You can also apply by telephone, by speaking with a Red Cross agent at\n  <a href=\"tel:+1-800-863-6582\">\n   1-800-863-6582\n  </a>\n  (starting at 8:20 a.m., 7\n  <span class=\"nbsp\">\n  </span>\n  days a week).\n </p>\n <p>\n  You must consent to information about you being exchanged between ministries and agencies of the Government for verification and compliance purposes. Note that excess assistance paid may be claimed back, and that charges could apply.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/"
+    },
+    "See also": {
+        "plaintext": [
+            "See also",
+            "Questions and answersRights and obligationsFiling a complaint   \t "
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h2>\n  See also\n </h2>\n <ul>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/questions-answers-temporary-aid-workers-program/\">\n    Questions and answers\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/right-and-obligations/\">\n    Rights and obligations\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/how-to-reach-us/complaints/\">\n    Filing a complaint\n   </a>\n   <br/>\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/"
+    },
+    "Questions about financial assistance": {
+        "plaintext": [
+            "Questions about financial assistance",
+            "Hours: 8 a.m. to 8 p.m., 7 days a week1-877-644-4545 (toll free)"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h2>\n  Questions about financial assistance\n </h2>\n <ul>\n  <li>\n   Hours: 8 a.m. to 8 p.m., 7 days a week\n  </li>\n  <li>\n   1-877-644-4545 (toll free)\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/"
+    }
+}
