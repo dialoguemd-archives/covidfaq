@@ -1,6 +1,13 @@
 engine: 0.0.0-pr111+20e6a3a
 name: covidfaq
 
+healthcheck:
+  liveness:
+    initialDelaySeconds: 20
+  readiness:
+    initialDelaySeconds: 15
+
+
 public:
   ingress: true
 
