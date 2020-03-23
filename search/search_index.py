@@ -23,7 +23,7 @@ nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
 ## Config variables
 ################################
 
-question_file = "search/query_result_2020-03-22T22_05_26.81834Z.csv"
+question_file = "data/website_questions_22032020_13h00.csv"
 
 ################################
 
