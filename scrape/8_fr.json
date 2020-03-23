@@ -1,0 +1,38 @@
+{
+    "document_URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
+    "Inscription": {
+        "plaintext": [
+            "Pour inscrire votre enfant à un service de garde d’urgence, vous devez suivre l’une des démarches suivantes selon le milieu qu’il fréquente. Veuillez bien évaluer la nécessité d’utiliser ce service de garde d’urgence avant de faire une demande."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Pour inscrire votre enfant à un service de garde d’urgence, vous devez suivre l’une des démarches suivantes selon le milieu qu’il fréquente. Veuillez bien évaluer la nécessité d’utiliser ce service de garde d’urgence avant de faire une demande.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/"
+    },
+    "Milieu de la petite enfance": {
+        "plaintext": [
+            "Milieu de la petite enfance",
+            "Les enfants qui n’occupent pas de place dans un service de garde reconnu pourront obtenir une place dans un service de garde pour la période visée par l’état d’urgence sanitaire. Vous pouvez consulter le localisateur de services de garde  pour trouver les coordonnées des services disponibles dans votre localité. Certains parents ont eu des difficultés techniques avec le localisateur de services de garde. Le problème se pose avec le navigateur Explorer seulement, il faut donc en utiliser un autre. Bien que d’autres cartes existent sur le Web, il importe de rappeler que seul le localisateur est une source fonctionnelle et fiable.",
+            "Les enfants qui fréquentent déjà un service de garde peuvent continuer de l’utiliser selon l’horaire et les conditions habituels.",
+            "Pour inscrire votre enfant, remplir le formulaire Fiche d’inscription de l’enfant (DOCX 80 Ko).",
+            "Pour obtenir plus de renseignements sur les services offerts à la petite enfance, visitez le site Web du ministère de la Famille ."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  Milieu de la petite enfance\n </h3>\n <p>\n  Les enfants qui n’occupent pas de place dans un service de garde reconnu pourront obtenir une place dans un service de garde pour la période visée par l’état d’urgence sanitaire. Vous pouvez consulter le\n  <a href=\"https://www.mfa.gouv.qc.ca/fr/services-de-garde/parents/localisateur/Pages/index.aspx\" target=\"_blank\">\n   localisateur de services de garde\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  pour trouver les coordonnées des services disponibles dans votre localité. Certains parents ont eu des difficultés techniques avec le localisateur de services de garde. Le problème se pose avec le navigateur Explorer seulement, il faut donc en utiliser un autre. Bien que d’autres cartes existent sur le Web, il importe de rappeler que seul le localisateur est une source fonctionnelle et fiable.\n </p>\n <p>\n  Les enfants qui fréquentent déjà un service de garde peuvent continuer de l’utiliser selon l’horaire et les conditions habituels.\n </p>\n <p>\n  Pour inscrire votre enfant, remplir le\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/famille/publications-adm/formulaire/Formulaire-inscription.docx?1584308235\">\n   formulaire Fiche d’inscription de l’enfant\n   <span class=\"infoFichier\">\n    (DOCX 80 Ko)\n   </span>\n  </a>\n  .\n </p>\n <p>\n  Pour obtenir plus de renseignements sur les services offerts à la petite enfance, visitez le\n  <a href=\"https://www.mfa.gouv.qc.ca/fr/services-de-garde/coronavirus-fermeture-sdg/Pages/index.aspx\" target=\"_blank\">\n   site Web du ministère de la Famille\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/"
+    },
+    "Milieu scolaire": {
+        "plaintext": [
+            "Milieu scolaire",
+            "Si votre enfant fréquente la maternelle ou le primaire (4 à 13 ans), notez que des services de garde d’urgence seront ouverts dans certaines écoles.  ",
+            "Information et inscription aux services de garde d’urgence en milieu scolaire.  ",
+            "Consultez la liste des établissements scolaires ouverts (PDF 513 Ko) ou la carte des services de garde d’urgence en milieu scolaire , pour faciliter la sélection de votre service de garde d’urgence."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  Milieu scolaire\n </h3>\n <p>\n  Si votre enfant fréquente la maternelle ou le primaire (4 à 13 ans), notez que des services de garde d’urgence seront ouverts dans certaines écoles.\n </p>\n <p>\n  Information et inscription aux\n  <a href=\"/famille-et-soutien-aux-personnes/services-de-garde-durgence/services-garde-urgence-milieu-scolaire/\">\n   services de garde d’urgence en milieu scolaire\n  </a>\n  .\n </p>\n <p>\n  Consultez la\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/education/Liste_ServGardUrgence.pdf?1584713618\">\n   liste des établissements scolaires ouverts\n   <span class=\"infoFichier\">\n    (PDF 513 Ko)\n   </span>\n  </a>\n  ou la\n  <a href=\"https://infogeo.education.gouv.qc.ca/public/services_garde_temporaires/\" target=\"_blank\">\n   carte des services de garde d’urgence en milieu scolaire\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , pour faciliter la sélection de votre service de garde d’urgence.\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/"
+    },
+    "À consulter aussi": {
+        "plaintext": [
+            "Services de garde d’urgence en milieu scolaire"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/famille-et-soutien-aux-personnes/services-de-garde-durgence/services-garde-urgence-milieu-scolaire/\">\n    Services de garde d’urgence en milieu scolaire\n   </a>\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/"
+    }
+}
