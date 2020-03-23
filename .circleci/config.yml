@@ -4,7 +4,14 @@ orbs:
   base: dialogue/base@1.7.1
   docker: dialogue/docker@1.6.1
   k8s: dialogue/k8s@3.0.2
+  python: dialogue/python@2.7.0
   release: dialogue/release@2.1.4
+
+aliases:
+  - &executor
+    executor:
+      name: python/python
+      version: "3.8"
 
 workflows:
   ci:
@@ -38,6 +45,13 @@ workflows:
       - deploy-es:
           name: deploy-es-dev-ca2
           place: ca2
+          filters:
+           branches:
+             ignore: master
+          context: org-global-v2
+      - build-es-index:
+          requires:
+            - deploy-es-dev-ca2
           filters:
            branches:
              ignore: master
@@ -87,6 +101,21 @@ workflows:
   #         context: org-global-v2
 
 jobs:
+  build-es-index:
+    <<: *executor
+    steps:
+      - base/setup
+      - python/setup
+      - python/install_deps
+      - run:
+          name: Run scrape.py
+          command: |
+            poetry run python scrape/scrape.py
+      - run:
+          name: Run build_index.py
+          command: |
+            poetry run python search/build_index.py
+
   deploy-rasax:
     parameters:
       stage:
