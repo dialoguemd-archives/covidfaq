@@ -149,7 +149,12 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
 version = "7.6.0"
 
 [package.dependencies]
-six = "*"
+urllib3 = ">=1.21.1"
+
+[package.extras]
+develop = ["requests (>=2.0.0,<3.0.0)", "nose", "coverage", "mock", "pyyaml", "nosexcover", "sphinx (<1.7)", "sphinx-rtd-theme", "black", "jinja2"]
+docs = ["sphinx (<1.7)", "sphinx-rtd-theme"]
+requests = ["requests (>=2.4.0,<3.0.0)"]
 
 [[package]]
 category = "main"
@@ -170,26 +175,24 @@ doc = ["mkdocs", "mkdocs-material", "markdown-include"]
 test = ["pytest (>=4.0.0)", "pytest-cov", "mypy", "black", "isort", "requests", "email-validator", "sqlalchemy", "peewee", "databases", "orjson", "async-exit-stack", "async-generator", "python-multipart", "aiofiles", "ujson", "flask"]
 
 [[package]]
-category = "dev"
-description = "passive checker of Python programs"
-name = "pyflakes"
+category = "main"
+description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
+name = "h11"
 optional = false
 python-versions = "*"
 version = "0.9.0"
 
 [[package]]
-category = "dev"
-description = "pylama -- Code audit tool for python"
-name = "pylama"
+category = "main"
+description = "HTTP/2 State-Machine based protocol implementation"
+name = "h2"
 optional = false
 python-versions = "*"
-version = "7.7.1"
+version = "3.2.0"
 
 [package.dependencies]
-mccabe = ">=0.5.2"
-pycodestyle = ">=2.3.1"
-pydocstyle = ">=2.0.0"
-pyflakes = ">=1.5.0"
+hpack = ">=3.0,<4"
+hyperframe = ">=5.2.0,<6"
 
 [[package]]
 category = "main"
