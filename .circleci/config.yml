@@ -26,16 +26,6 @@ workflows:
             branches:
               ignore: master
           context: org-global-v2
-      - app/deploy:
-          name: deploy-api-dev-ca2
-          stage: dev
-          place: ca2
-          requires:
-            - build
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
       # - docker/build_image:
       #     name: build-image
       #     filters:
@@ -73,7 +63,17 @@ workflows:
            branches:
              ignore: master
           context: org-global-v2
-
+      - app/deploy:
+          name: deploy-api-dev-ca2
+          stage: dev
+          place: ca2
+          requires:
+            - build-api
+            - build-es-index
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
   # release:
   #   jobs:
   #     - docker/build_image:
