@@ -1,0 +1,16 @@
+engine: ~1
+name: covidfaq
+public:
+  ingress: true
+addons:
+  monitoring: true
+environments:
+  dev-ca2:
+    environment:
+      elastic_search_host: es-covidfaq.dev.dialoguecorp.com
+  prod-ca:
+    environment:
+      elastic_search_host: es-covidfaq.dialoguecorp.com
+scale:
+  vertical: small
+  horizontal: 2-4

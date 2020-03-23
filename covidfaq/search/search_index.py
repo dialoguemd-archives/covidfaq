@@ -13,7 +13,7 @@ from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
-from build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
+from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 
 log = structlog.get_logger(__name__)
 
