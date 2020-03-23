@@ -6,6 +6,7 @@ from os import listdir
 from os.path import isfile, join
 
 import structlog
+
 ## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from tqdm.auto import tqdm
@@ -94,7 +95,9 @@ def fill_index(es, files, docindex, secindex):
 if __name__ == "__main__":
     ## Connect to the elastic cluster
 
-    es = Elasticsearch([{"host": "localhost", "port": 9200}])
+    es = Elasticsearch(
+        [{"host": "https://es-covidfaq.dev.dialoguecorp.com", "port": 443}]
+    )
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"

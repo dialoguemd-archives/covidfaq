@@ -7,6 +7,7 @@ from copy import deepcopy
 import pandas as pd
 import spacy
 import structlog
+
 ## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
@@ -70,6 +71,8 @@ def query_question(es, q):
         else:
             res_sec_txt = "None"
         return res_doc_txt, res_sec_txt
+
+    # TODO: decode in unicode
 
     if lan == "en":
         return helper(en_doc_index, en_sec_index)
