@@ -23,7 +23,7 @@ environments:
       elastic_search_host: es-covidfaq.dialoguecorp.com
 
 scale:
-  vertical: small
+  vertical: large
   horizontal: 2-4
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
