@@ -1,4 +1,6 @@
 clusterName: covidfaq
+replicas: 2
+minimumMasterNodes: 1
 
 nodeSelector:
   "dialoguecorp.com/covidbot": "true"
