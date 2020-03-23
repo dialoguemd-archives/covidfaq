@@ -25,6 +25,7 @@ environments:
 scale:
   vertical: large
   horizontal: 2-4
+  memThreshold: false
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
 nodeSelector:
