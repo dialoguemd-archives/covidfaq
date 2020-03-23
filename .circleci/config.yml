@@ -3,6 +3,7 @@ version: 2.1
 orbs:
   base: dialogue/base@1.7.1
   docker: dialogue/docker@1.6.1
+  app: dialogue/helm-app@1.0.2
   k8s: dialogue/k8s@3.0.2
   release: dialogue/release@2.1.4
 
@@ -11,6 +12,22 @@ workflows:
     jobs:
       - release/release:
           name: release
+          context: org-global-v2
+      - app/build:
+          name: build-api
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
+      - app/deploy:
+          name: deploy-api-dev-ca2
+          stage: dev
+          place: ca2
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: master
           context: org-global-v2
       # - docker/build_image:
       #     name: build-image

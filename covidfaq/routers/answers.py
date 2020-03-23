@@ -1,7 +1,6 @@
 from datetime import date, datetime
 from typing import List
 
-# import requests_async as requests
 from fastapi import APIRouter, HTTPException, Request, Body
 from pydantic import BaseModel
 from requests import HTTPError
@@ -43,7 +42,7 @@ def answers(request: Request, data=Body(dict())):
     question = data['question']
     print(question)
     print(request)
-    
+
     log.info("answers", question=question)
 
     language = request.headers.get('Accept-Language')

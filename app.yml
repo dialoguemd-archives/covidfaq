@@ -1,9 +1,12 @@
-engine: ~1
+engine: 0.0.0-pr111+20e6a3a
 name: covidfaq
+
 public:
   ingress: true
+
 addons:
   monitoring: true
+
 environments:
   dev-ca2:
     environment:
@@ -11,6 +14,11 @@ environments:
   prod-ca:
     environment:
       elastic_search_host: es-covidfaq.dialoguecorp.com
+
 scale:
   vertical: small
   horizontal: 2-4
+tolerations:
+  "dialoguecorp.com/covidbot": "Exists"
+nodeSelector:
+  "dialoguecorp.com/covidbot": "true"
