@@ -93,10 +93,11 @@ def fill_index(es, files, docindex, secindex):
 
 
 if __name__ == "__main__":
-    ## Connect to the elastic cluster
 
     es = Elasticsearch(
-        [{"host": "https://es-covidfaq.dev.dialoguecorp.com", "port": 443}]
+        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
+        use_ssl=True,
+        verify_certs=True,
     )
     if not es.ping():
         raise ValueError(
