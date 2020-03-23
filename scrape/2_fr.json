@@ -1,7 +1,9 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
     "warnings": {
-        "plaintext": "Des personnes atteintes de COVID-19 ont fréquenté des lieux publics alors qu’elles étaient potentiellement contagieuses. De plus, des Québécois ayant été sur certaines croisières ont été en contact avec des personnes potentiellement contagieuses. Pour en savoir plus, consultez la section Surveillance ciblée.",
+        "plaintext": [
+            "Des personnes atteintes de COVID-19 ont fréquenté des lieux publics alors qu’elles étaient potentiellement contagieuses. De plus, des Québécois ayant été sur certaines croisières ont été en contact avec des personnes potentiellement contagieuses. Pour en savoir plus, consultez la section Surveillance ciblée."
+        ],
         "html": "<div class=\"frame frame-avisExclam frame-type-textmedia frame-layout-0\" id=\"c46511\">\n <div class=\"ce-textpic ce-left ce-above\">\n  <div class=\"ce-bodytext\">\n   <p>\n    Des personnes atteintes de COVID-19 ont fréquenté des\n    <strong>\n     lieux publics\n    </strong>\n    alors qu’elles étaient potentiellement contagieuses. De plus, des Québécois ayant été sur certaines\n    <strong>\n     croisières\n    </strong>\n    ont été en contact avec des personnes potentiellement contagieuses. Pour en savoir plus, consultez la section\n    <a href=\"/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/#c47144\">\n     Surveillance ciblée\n    </a>\n    .\n   </p>\n  </div>\n </div>\n</div>\n",
         "URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/"
     },
