@@ -4,6 +4,8 @@
 import json
 from copy import deepcopy
 
+import structlog
+
 import pandas as pd
 import spacy
 
@@ -13,6 +15,8 @@ from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
 from build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
+
+log = structlog.get_logger(__name__)
 
 nlp = spacy.load("en")
 nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
@@ -96,14 +100,12 @@ if __name__ == "__main__":
 
         record = {}
 
-        print("$$ Question: ", q, "\n")
+        log.info("Question", question=q)
 
         res_doc, res_sec = query_question(es, q)
 
-        print("=== Document search result: ", res_doc)
-        print()
-        print("=== Section search result: ", res_sec)
-        print("-" * 50)
+        log.info("Document search result", res_doc=res_doc)
+        log.info("Section search result", res_sec=res_sec)
 
         record["question"] = q
         record["document_result_json"] = res_doc

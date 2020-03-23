@@ -5,9 +5,14 @@ import json
 from os import listdir
 from os.path import isfile, join
 
+import structlog
+
 ## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from tqdm.auto import tqdm
+
+log = structlog.get_logger(__name__)
+
 
 ## Config variables
 ################################
@@ -67,22 +72,23 @@ def fill_index(es, files, docindex, secindex):
                 tmp = es.index(secindex, rec, id=i + "_section_" + str(c))
                 c_s += tmp["_shards"]["successful"]
                 c += 1
-    print(
-        "{} and {}: inserted/Updated {} documents and {} sections".format(
-            docindex, secindex, c_d, c_s
-        )
+    log.info(
+        "Inserted/Updated documents and sections",
+        docindex=docindex,
+        secindex=secindex,
+        c_d=c_d,
+        c_s=c_s,
     )
 
     es.indices.refresh(index=docindex)
     es.indices.refresh(index=secindex)
 
-    print(
-        "{} and {}: total {} documents and {} sections".format(
-            docindex,
-            secindex,
-            es.cat.count(docindex, params={"format": "json"})[0]["count"],
-            es.cat.count(secindex, params={"format": "json"})[0]["count"],
-        )
+    log.info(
+        "Total documents and sections",
+        docindex=docindex,
+        secindex=secindex,
+        c_d=es.cat.count(docindex, params={"format": "json"})[0]["count"],
+        c_s=es.cat.count(secindex, params={"format": "json"})[0]["count"],
     )
 
 
