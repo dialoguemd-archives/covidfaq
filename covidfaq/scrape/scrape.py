@@ -294,11 +294,11 @@ def rule_nesting(soup, info, url, rule):
             raw_title = ""
         else:
             raw_title = title.get_text().strip()
-        if exclude["title"] and re.match(exclude["title"], raw_title):
+        if exclude["title"] and re.search(exclude["title"], raw_title):
             continue
 
         raw_body = body.get_text().strip()
-        if exclude["body"] and re.match(exclude["body"], raw_body):
+        if exclude["body"] and re.search(exclude["body"], raw_body):
             continue
 
         entry = {
@@ -408,21 +408,21 @@ def command_scrape():
             results += extract_sections(url, info, sitecfg)
 
     if format == "old":
-        out = out or "scrape_results"
+        outdir = out or "scrape_results"
         files = defaultdict(dict)
         for entry in results:
             d = files[entry["urlkey"]]
             d["document_URL"] = entry["url"]
             del entry["urlkey"]
             d[entry["title"]] = entry
-        os.makedirs(out, exist_ok=True)
+        os.makedirs(outdir, exist_ok=True)
         for filename, data in files.items():
-            filename = os.path.join(out, filename + ".json")
+            filename = os.path.join(outdir, filename + ".json")
             page_to_json(data, filename)
 
     elif format == "new":
-        out = out or "scrape_results.json"
-        page_to_json(results, out)
+        outfile = out or "scrape_results.json"
+        page_to_json(results, outfile)
 
     else:
         print(f"Unknown format: {format}")
