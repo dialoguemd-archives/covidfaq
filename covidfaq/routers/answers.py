@@ -56,7 +56,9 @@ def answers(request: Request, question: str):
 
     elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
 
-    return {"answers": elastic_results_formatted.sec_text}
+    section_answers = SecResults.parse_obj(elastic_results_formatted.sec_results[0])
+
+    return {"answers": section_answers.sec_text}
 
 
 def format_language(language):
