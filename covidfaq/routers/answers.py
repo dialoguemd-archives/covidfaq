@@ -17,11 +17,19 @@ class Answers(BaseModel):
     answers: Optional[List[str]]
 
 
-class ElasticResults(BaseModel):
+class DocResults(BaseModel):
     doc_text: Optional[List[str]]
     doc_url: Optional[str]
+
+
+class SecResults(BaseModel):
     sec_text: Optional[List[str]]
     sec_url: Optional[str]
+
+
+class ElasticResults(BaseModel):
+    doc_results: Optional[List[DocResults]]
+    sec_results: Optional[List[SecResults]]
 
 
 @router.get("/answers/", response_model=Answers)
@@ -32,10 +40,12 @@ def answers(request: Request, question: str):
 
     if language:
         formatted_language = format_language(language)
-        elastic_results = query_question(es, question, formatted_language)
+        elastic_results = query_question(
+            es, question, topk_sec=1, topk_doc=1, lan=formatted_language
+        )
 
     else:
-        elastic_results = query_question(es, question)
+        elastic_results = query_question(es, question, topk_sec=1, topk_doc=1)
 
     log.info(
         "elastic_results",
@@ -65,3 +75,12 @@ def get_es_client():
         use_ssl=True,
         verify_certs=True,
     )
+
+
+@lru_cache()
+def load_re_rank_model_en():
+    return
+
+
+def re_rank(model, question, sections_list):
+    return
