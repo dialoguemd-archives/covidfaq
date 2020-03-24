@@ -32,7 +32,7 @@ class ElasticResults(BaseModel):
     sec_results: Optional[List[SecResults]]
 
 
-@router.get("/answers/", response_model=Answers)
+@router.get("/answers", response_model=Answers)
 def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
