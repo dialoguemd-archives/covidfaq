@@ -1,17 +1,102 @@
 {
-    "document_URL": "https://www.quebec.ca/nous-joindre/nous-joindre/?s=38&cHash=57d52f485a47856dbbe4ee739b527189",
-    "Pour les citoyennes et citoyens": {
+    "document_URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/",
+    "Information for businesses and essential services": {
         "plaintext": [
-            "Pour les citoyennes et citoyens"
+            "If your business conducts an activity that is not listed above, but you consider it essential, you can verify the designation as an essential business.",
+            "If you have any questions, fill out this online form and an information officer of the Gouvernement du Québec will contact you shortly.",
+            "Complete the form Information for businesses and essential services"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <h3 class=\"ligneSousTitre\">\n  Pour les citoyennes et citoyens\n </h3>\n</div>",
-        "URL": "https://www.quebec.ca/nous-joindre/nous-joindre/?s=38&cHash=57d52f485a47856dbbe4ee739b527189"
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  If your business conducts an activity that is not listed above, but you consider it essential, you can verify the designation as an essential business.\n </p>\n <p>\n  If you have any questions, fill out this online form and an information officer of the Gouvernement du Québec will contact you shortly.\n </p>\n <p>\n  <a class=\"zoneClick\" href=\"https://www.sondage.mtess.gouv.qc.ca/index.php/916397?newtest=Y&amp;lang=en\" target=\"_blank\">\n   Complete the form Information for businesses and essential services\n  </a>\n </p>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
     },
-    "Pour les entreprises (Entreprises Québec)": {
+    "Priority health care services": {
         "plaintext": [
-            "Pour les entreprises (Entreprises Québec)"
+            "Priority health care services, including:",
+            "",
+            "all professions in the health and social services network;emergency pre-hospitalization services (ambulance attendants and dispatchers);private professional resource offices (health network);drugstores;dentists (emergency consultations);optometry (emergency services);intermediate resources and private seniors’ homes;homecare services for seniors, people with disabilities and vulnerable individuals;specialized shelter services (conjugal violence, homelessness, drug addiction, and so on);community based family organisations;811 and 911 call centre staff;Héma-Québec;Transplant Québec;the Red Cross;the Institut national de santé publique du Québec (INSPQ);the Régie de l’assurance maladie du Québec (RAMQ);the production, procurement and distribution of medications, vaccines and pharmaceutical goods and medical equipment, including laboratories and research centres;veterinaries;animal shelters."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <h3 class=\"ligneSousTitre\">\n  Pour les entreprises (Entreprises Québec)\n </h3>\n</div>",
-        "URL": "https://www.quebec.ca/nous-joindre/nous-joindre/?s=38&cHash=57d52f485a47856dbbe4ee739b527189"
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Priority health care services, including:\n </p>\n <p>\n </p>\n <ul>\n  <li>\n   all professions in the health and social services network;\n  </li>\n  <li>\n   emergency pre-hospitalization services (ambulance attendants and dispatchers);\n  </li>\n  <li>\n   private professional resource offices (health network);\n  </li>\n  <li>\n   drugstores;\n  </li>\n  <li>\n   dentists (emergency consultations);\n  </li>\n  <li>\n   optometry (emergency services);\n  </li>\n  <li>\n   intermediate resources and private seniors’ homes;\n  </li>\n  <li>\n   homecare services for seniors, people with disabilities and vulnerable individuals;\n  </li>\n  <li>\n   specialized shelter services (conjugal violence, homelessness, drug addiction, and so on);\n  </li>\n  <li>\n   community based family organisations;\n  </li>\n  <li>\n   811 and 911 call centre staff;\n  </li>\n  <li>\n   Héma-Québec;\n  </li>\n  <li>\n   Transplant Québec;\n  </li>\n  <li>\n   the Red Cross;\n  </li>\n  <li>\n   the Institut national de santé publique du Québec (INSPQ);\n  </li>\n  <li>\n   the Régie de l’assurance maladie du Québec (RAMQ);\n  </li>\n  <li>\n   the production, procurement and distribution of medications, vaccines and pharmaceutical goods and medical equipment, including laboratories and research centres;\n  </li>\n  <li>\n   veterinaries;\n  </li>\n  <li>\n   animal shelters.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Public security services": {
+        "plaintext": [
+            "Public security services, including:",
+            "police services, including municipal and Sûreté du Québec emergency call dispatching;fire departments;correctional services;special constables;security agencies;the Ministère de la Sécurité publique (civil protection and coroners);forest firefighters and all professionals who support civil protection operations;communications services;enterprises associated with environmental emergencies."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Public security services, including:\n </p>\n <ul>\n  <li>\n   police services, including municipal and Sûreté du Québec emergency call dispatching;\n  </li>\n  <li>\n   fire departments;\n  </li>\n  <li>\n   correctional services;\n  </li>\n  <li>\n   special constables;\n  </li>\n  <li>\n   security agencies;\n  </li>\n  <li>\n   the Ministère de la Sécurité publique (civil protection and coroners);\n  </li>\n  <li>\n   forest firefighters and all professionals who support civil protection operations;\n  </li>\n  <li>\n   communications services;\n  </li>\n  <li>\n   enterprises associated with environmental emergencies.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Priority government services": {
+        "plaintext": [
+            "Priority government services:",
+            "Gouvernement du Québec departments and bodies;childcare workers and emergency childcare service support staff;online higher education;suppliers of goods and services for disadvantage people;food inspection and safety;garbage collection and residual materials management;government air services;suicide prevention centres;assistance services for the victims of conjugal violence;staff that the municipalities deem essential (administration, public works, and so on);food banks;",
+            "courts of law and administrative tribunals in cases that they deem urgent;legal services."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Priority government services:\n </p>\n <ul>\n  <li>\n   <p>\n    Gouvernement du Québec departments and bodies;\n   </p>\n  </li>\n  <li>\n   <p>\n    childcare workers and emergency childcare service support staff;\n   </p>\n  </li>\n  <li>\n   <p>\n    online higher education;\n   </p>\n  </li>\n  <li>\n   suppliers of goods and services for disadvantage people;\n  </li>\n  <li>\n   food inspection and safety;\n  </li>\n  <li>\n   garbage collection and residual materials management;\n  </li>\n  <li>\n   government air services;\n  </li>\n  <li>\n   suicide prevention centres;\n  </li>\n  <li>\n   assistance services for the victims of conjugal violence;\n  </li>\n  <li>\n   staff that the municipalities deem essential (administration, public works, and so on);\n  </li>\n  <li>\n   <p>\n    food banks;\n   </p>\n  </li>\n </ul>\n <ul>\n  <li>\n   courts of law and administrative tribunals in cases that they deem urgent;\n  </li>\n  <li>\n   legal services.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Maintenance and operation of strategic infrastructure": {
+        "plaintext": [
+            "Maintenance and operation of strategic infrastructure, including:",
+            "the production, procurement, transmission and distribution of energy (hydroelectricity, fossil energies, wind power, wood pellets);the maintenance in good operating condition of essential public infrastructure such as bridges, municipal buildings, and so on;construction, maintenance and the maintenance of essential activities related to public and private infrastructure that may pose a threat to public health and safety (private dams, the management of hazardous and radioactive materials, and so on);health services and supply chain, for example, a water treatment plant;computer resources (security, maintenance, urgent needs related to the situation);data centres."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Maintenance and operation of strategic infrastructure, including:\n </p>\n <ul>\n  <li>\n   the production, procurement, transmission and distribution of energy (hydroelectricity, fossil energies, wind power, wood pellets);\n  </li>\n  <li>\n   the maintenance in good operating condition of essential public infrastructure such as bridges, municipal buildings, and so on;\n  </li>\n  <li>\n   construction, maintenance and the maintenance of essential activities related to public and private infrastructure that may pose a threat to public health and safety (private dams, the management of hazardous and radioactive materials, and so on);\n  </li>\n  <li>\n   health services and supply chain, for example, a water treatment plant;\n  </li>\n  <li>\n   computer resources (security, maintenance, urgent needs related to the situation);\n  </li>\n  <li>\n   data centres.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Priority manufacturing activities": {
+        "plaintext": [
+            "Priority manufacturing activities, including:",
+            "food production, such as farming enterprises, food processing, beverages, slaughterhouses, market garden production;the production of inputs necessary for priority sectors;the pulp and paper sector;the manufacture of medical instruments;the manufacture of chemical products;the manufacture of health products;the manufacture of microelectronics components;industrial complexes, especially the aluminum sector, and mining complexes must reduce to a minimum their activities;manufacture and maintenance for the defence sector."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Priority manufacturing activities, including:\n </p>\n <ul>\n  <li>\n   food production, such as farming enterprises, food processing, beverages, slaughterhouses, market garden production;\n  </li>\n  <li>\n   the production of inputs necessary for priority sectors;\n  </li>\n  <li>\n   <p>\n    the pulp and paper sector;\n   </p>\n  </li>\n  <li>\n   the manufacture of medical instruments;\n  </li>\n  <li>\n   the manufacture of chemical products;\n  </li>\n  <li>\n   the manufacture of health products;\n  </li>\n  <li>\n   the manufacture of microelectronics components;\n  </li>\n  <li>\n   industrial complexes, especially the aluminum sector, and mining complexes must reduce to a minimum their activities;\n  </li>\n  <li>\n   manufacture and maintenance for the defence sector.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Priority stores": {
+        "plaintext": [
+            "Priority stores, including:",
+            "grocery stores and other food stores;drugstores;convenience stores;megastores outside shopping centres that offer grocery, drugstore or hardware services;products for farms such as mechanical equipment, fertilizer and so on;the Société des alcools du Québec (SAQ) and the Société québécoise du cannabis (SQDC);funeral homes, crematoria and cemeteries;restaurants (takeout counters or delivery only);hotels;drycleaners and laundromats;medical and orthopaedic supply stores;pet food and supplies stores;movers;work equipment (safety and protection)."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Priority stores, including:\n </p>\n <ul>\n  <li>\n   grocery stores and other food stores;\n  </li>\n  <li>\n   drugstores;\n  </li>\n  <li>\n   convenience stores;\n  </li>\n  <li>\n   megastores outside shopping centres that offer grocery, drugstore or hardware services;\n  </li>\n  <li>\n   products for farms such as mechanical equipment, fertilizer and so on;\n  </li>\n  <li>\n   the Société des alcools du Québec (SAQ) and the Société québécoise du cannabis (SQDC);\n  </li>\n  <li>\n   funeral homes, crematoria and cemeteries;\n  </li>\n  <li>\n   restaurants (takeout counters or delivery only);\n  </li>\n  <li>\n   hotels;\n  </li>\n  <li>\n   drycleaners and laundromats;\n  </li>\n  <li>\n   medical and orthopaedic supply stores;\n  </li>\n  <li>\n   pet food and supplies stores;\n  </li>\n  <li>\n   movers;\n  </li>\n  <li>\n   work equipment (safety and protection).\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Media and telecommunications": {
+        "plaintext": [
+            "Media and telecommunications:",
+            "telecommunications (network and equipment);cable operators;printers (solely for printing newspapers);national media;local media."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Media and telecommunications:\n </p>\n <ul>\n  <li>\n   telecommunications (network and equipment);\n  </li>\n  <li>\n   cable operators;\n  </li>\n  <li>\n   printers (solely for printing newspapers);\n  </li>\n  <li>\n   national media;\n  </li>\n  <li>\n   local media.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Banking and financial services": {
+        "plaintext": [
+            "Banking and financial services, including:",
+            "financial services (financial institutions, ATMs and other payment methods);insurance services (telephone service);payroll services;accounting services;services related to financial markets;services related to financial markets and stock markets."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Banking and financial services, including:\n </p>\n <ul>\n  <li>\n   financial services (financial institutions, ATMs and other payment methods);\n  </li>\n  <li>\n   insurance services (telephone service);\n  </li>\n  <li>\n   payroll services;\n  </li>\n  <li>\n   accounting services;\n  </li>\n  <li>\n   services related to financial markets;\n  </li>\n  <li>\n   <p>\n    services related to financial markets and stock markets.\n   </p>\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Construction sector": {
+        "plaintext": [
+            "Construction sector:",
+            "construction firms for emergency dispatching or security purposes;electricians, plumbers and other trades for emergency services;rental equipment."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Construction sector:\n </p>\n <ul>\n  <li>\n   construction firms for emergency dispatching or security purposes;\n  </li>\n  <li>\n   electricians, plumbers and other trades for emergency services;\n  </li>\n  <li>\n   rental equipment.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Building maintenance services": {
+        "plaintext": [
+            "Building maintenance services, including:",
+            "janitorial work;building-maintenance firms (elevators, ventilation, alarms, and so on)."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Building maintenance services, including:\n </p>\n <ul>\n  <li>\n   janitorial work;\n  </li>\n  <li>\n   building-maintenance firms (elevators, ventilation, alarms, and so on).\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
+    },
+    "Priority transportation and logistics services": {
+        "plaintext": [
+            "Priority transportation and logistics services:",
+            "mass transit and passenger transportation;ports and airports;locomotive and aircraft maintenance services and essential aeronautical services (air transport);procurement and distribution of foodstuffs, grocery stores and convenience stores;transportation, warehousing and distribution of essential goods;snow removal and maintenance of functional road links;service stations and mechanical repair of motor vehicles, trucks and specialized equipment for industries deemed essential, and roadside assitance;taxis, paratransit;postal services, message handling and parcel delivery."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Priority transportation and logistics services:\n </p>\n <ul>\n  <li>\n   mass transit and passenger transportation;\n  </li>\n  <li>\n   ports and airports;\n  </li>\n  <li>\n   locomotive and aircraft maintenance services and essential aeronautical services (air transport);\n  </li>\n  <li>\n   procurement and distribution of foodstuffs, grocery stores and convenience stores;\n  </li>\n  <li>\n   transportation, warehousing and distribution of essential goods;\n  </li>\n  <li>\n   snow removal and maintenance of functional road links;\n  </li>\n  <li>\n   service stations and mechanical repair of motor vehicles, trucks and specialized equipment for industries deemed essential, and roadside assitance;\n  </li>\n  <li>\n   taxis, paratransit;\n  </li>\n  <li>\n   postal services, message handling and parcel delivery.\n  </li>\n </ul>\n</div>",
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/"
     }
 }

@@ -84,10 +84,10 @@
     "Which jobs do essential services include?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  Consult the\n  <a href=\"/en/family-and-support-for-individuals/emergency-daycare-services/list-jobs-and-essential-services/\">\n   complete list of jobs and essential services\n  </a>\n  .\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  Consult the\n  <a href=\"/en/family-and-support-for-individuals/emergency-daycare-services/\">\n   complete list of workers who are entitled to emergency childcare services\n  </a>\n  .\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "Consult the complete list of jobs and essential services."
+            "Consult the complete list of workers who are entitled to emergency childcare services."
         ]
     },
     "Is it recommended not to go to work?": {
@@ -156,19 +156,28 @@
     "Are visits permitted to hospitals, residential and long-term care centres, intermediate resources and family-type resources for the elderly and vulnerable adults and private seniors’ homes?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  Starting March 13, 2020, non-essential visits to hospitals, residential and long-term care centres, intermediate resources, targeted family-type resources and private seniors’ homes will be prohibited to protect the most vulnerable individuals and workers in the health and social services network. In the case of births, the other parent, significant other or natural caregiver identified for this purpose is not deemed to be a visitor and can accompany the mother.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  Starting March 13, 2020, non-essential visits to hospitals, residential and long-term care centres, intermediate resources, targeted family-type resources and private seniors’ homes will be prohibited to protect the most vulnerable individuals and workers in the health and social services network. In the case of births, the other parent, significant other or natural caregiver identified for this purpose is not deemed to be a visitor and can accompany the mother.\n </p>\n <p>\n  In cases where the end of life is imminent, the constant presence of one or two people who are of significant importance to the person is not deemed to be a visit.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "Starting March 13, 2020, non-essential visits to hospitals, residential and long-term care centres, intermediate resources, targeted family-type resources and private seniors’ homes will be prohibited to protect the most vulnerable individuals and workers in the health and social services network. In the case of births, the other parent, significant other or natural caregiver identified for this purpose is not deemed to be a visitor and can accompany the mother."
+            "Starting March 13, 2020, non-essential visits to hospitals, residential and long-term care centres, intermediate resources, targeted family-type resources and private seniors’ homes will be prohibited to protect the most vulnerable individuals and workers in the health and social services network. In the case of births, the other parent, significant other or natural caregiver identified for this purpose is not deemed to be a visitor and can accompany the mother.In cases where the end of life is imminent, the constant presence of one or two people who are of significant importance to the person is not deemed to be a visit."
         ]
     },
-    "Is it possible to deliver food or essential items to people in hospitals, residential and long-term care centres, intermediate resources, family-type resources for the elderly and vulnerable adults, and private seniors’ homes?": {
+    "Is is possible to deliver food to people in hospitals, residential and long-term care centres, intermediate family-type resources for seniors and vulnerable adults and private seniors’ homes?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  It is possible to deliver food or essential items to hospitals or seniors’ homes by avoiding all contact with the the people on site and immediately leaving after giving the food or items to a reception staff member.\n </p>\n <p>\n  It is important at all times to maintain distance between individuals, avoid direct contacts and abide by the usual rules of hygiene when you cough or sneeze.\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  It is possible to deliver food to seniors’ homes. Avoid all contact with the residents and leave immediately after giving the food to a staff member at the reception desk.\n </p>\n <p>\n  At all times, it is important to keep distance between people, avoid direct contacts and follow the usual hygiene rules when you cough or sneeze.\n </p>\n <p>\n  To limit the possibility of introducing the coronavirus into hospitals, residential and long-term care centre and family-type intermediate resources for seniors and vulnerable adults, the delivery of food from outside (delivery by a restaurant, food brought by family members) is prohibited.\n </p>\n</div>"
         ],
         "plaintext": [
-            "It is possible to deliver food or essential items to hospitals or seniors’ homes by avoiding all contact with the the people on site and immediately leaving after giving the food or items to a reception staff member.It is important at all times to maintain distance between individuals, avoid direct contacts and abide by the usual rules of hygiene when you cough or sneeze."
+            "It is possible to deliver food to seniors’ homes. Avoid all contact with the residents and leave immediately after giving the food to a staff member at the reception desk.At all times, it is important to keep distance between people, avoid direct contacts and follow the usual hygiene rules when you cough or sneeze.To limit the possibility of introducing the coronavirus into hospitals, residential and long-term care centre and family-type intermediate resources for seniors and vulnerable adults, the delivery of food from outside (delivery by a restaurant, food brought by family members) is prohibited."
+        ]
+    },
+    "Is is it possible to deliver essential items to people in hospitals, residential and long-term care centres, intermediate family-type resources for seniors and vulnerable adults and private seniors’ homes?": {
+        "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
+        "html": [
+            "<div class=\"ce-bodytext\">\n <p>\n  If the users require certain items that the hospitals, residential and long-term care centres, and family-type intermediate resources for seniors and vulnerable adults do not offer, it is possible to deliver them. A security mechanism for their delivery must be established to avoid any contact with the residents. Leave immediately after giving the food or items to a staff member at the reception desk.\n </p>\n <p>\n  At all times, it is important to keep distance between people, avoid direct contacts and follow the usual hygiene rules when you cough or sneeze.\n </p>\n <p>\n </p>\n</div>"
+        ],
+        "plaintext": [
+            "If the users require certain items that the hospitals, residential and long-term care centres, and family-type intermediate resources for seniors and vulnerable adults do not offer, it is possible to deliver them. A security mechanism for their delivery must be established to avoid any contact with the residents. Leave immediately after giving the food or items to a staff member at the reception desk.At all times, it is important to keep distance between people, avoid direct contacts and follow the usual hygiene rules when you cough or sneeze."
         ]
     },
     "Can an individual go to a hospital to visit a loved one who is dying?": {
@@ -180,13 +189,13 @@
             "Yes. Health care establishments tolerate visits under exceptional or humanitarian circumstances.The Gouvernement du Québec is prohibiting non-essential visits."
         ]
     },
-    "Can elderly people 70 years of age and over leave their homes for medical appointments?": {
+    "Can the residents of residential and long-term care centres, family-type intermediate resources for seniors and vulnerable adults and in private seniors' homes leave the facilities for medical appointments?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  People 70 years of age and over are invited to try to stay home, except in the case of necessity or exceptions, such as an important medical appointment.\n </p>\n <p>\n  They can also go for a walk but must abide by the recommended health advice.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  These people are asked to stay in their living environment, except where necessary or under exceptional circumstances, such as an essential medical appointment. They must be supervised.\n </p>\n <p>\n  When they return to their living environment, all preventive and infection control measures must be applied in an exemplary manner, for example, frequent handwashing with warm running water and soap for at least 20 seconds or an alcohol-based disinfectant, and covering the mouth and nose with the arm to reduce the spread of germs when coughing or sneezing. When using a disposable paper tissue, discard it promptly and then wash your hands, avoid direct contact such as handshakes when greeting others and instead use alternative practices.\n </p>\n <p>\n  These exceptional measures seek to contain COVID-19’s spread.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "People 70 years of age and over are invited to try to stay home, except in the case of necessity or exceptions, such as an important medical appointment.They can also go for a walk but must abide by the recommended health advice."
+            "These people are asked to stay in their living environment, except where necessary or under exceptional circumstances, such as an essential medical appointment. They must be supervised.When they return to their living environment, all preventive and infection control measures must be applied in an exemplary manner, for example, frequent handwashing with warm running water and soap for at least 20 seconds or an alcohol-based disinfectant, and covering the mouth and nose with the arm to reduce the spread of germs when coughing or sneezing. When using a disposable paper tissue, discard it promptly and then wash your hands, avoid direct contact such as handshakes when greeting others and instead use alternative practices.These exceptional measures seek to contain COVID-19’s spread."
         ]
     },
     "Is it possible to deliver food or essential items to elderly people living at home?": {
@@ -300,10 +309,10 @@
     "Do the closings of public spaces that the Québec government has announced concern grocery stores and drugstores?": {
         "URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/",
         "html": [
-            "<div class=\"ce-bodytext\">\n <p>\n  No. Grocery stores and drugstores are staying open.\n </p>\n <p>\n  The\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47720\">\n   Restaurants, stores and public spaces section\n  </a>\n  lists the stores and public spaces that are closed.\n </p>\n <p>\n </p>\n</div>"
+            "<div class=\"ce-bodytext\">\n <p>\n  No. Grocery stores and drugstores are staying open.\n </p>\n <p>\n  You can consult the list of stores and services that can remain open in the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/\">\n   List of essential services and commercial activities\n  </a>\n  section.\n </p>\n <p>\n  It should be noted that all businesses can always engage in teleworking and e-commerce.\n </p>\n <p>\n </p>\n</div>"
         ],
         "plaintext": [
-            "No. Grocery stores and drugstores are staying open.The Restaurants, stores and public spaces section lists the stores and public spaces that are closed."
+            "No. Grocery stores and drugstores are staying open.You can consult the list of stores and services that can remain open in the List of essential services and commercial activities section.It should be noted that all businesses can always engage in teleworking and e-commerce."
         ]
     },
     "Is it preferable to avoid all public spaces?": {
