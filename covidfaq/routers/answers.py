@@ -1,7 +1,7 @@
 from typing import List, Optional
 
 from elasticsearch import Elasticsearch
-from fastapi import APIRouter, Body, Request
+from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
 
