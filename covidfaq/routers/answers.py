@@ -1,3 +1,4 @@
+from functools import lru_cache
 from typing import List, Optional
 
 from elasticsearch import Elasticsearch
@@ -23,17 +24,11 @@ class ElasticResults(BaseModel):
     sec_url: Optional[str]
 
 
-conf = config.get()
-
-es = Elasticsearch(
-    [{"host": conf.elastic_search_host, "port": 443}], use_ssl=True, verify_certs=True,
-)
-
-
 @router.get("/answers/", response_model=Answers)
 def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
+    es = get_es_client()
 
     if language:
         formatted_language = format_language(language)
@@ -59,3 +54,14 @@ def format_language(language):
         return "en"
     elif "fr" in language.lower():
         return "fr"
+
+
+@lru_cache()
+def get_es_client():
+    conf = config.get()
+
+    return Elasticsearch(
+        [{"host": conf.elastic_search_host, "port": 443}],
+        use_ssl=True,
+        verify_certs=True,
+    )
