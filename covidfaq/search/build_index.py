@@ -17,7 +17,7 @@ log = structlog.get_logger(__name__)
 ## Config variables
 ################################
 
-scrape_path = "scrape/"
+scrape_path = "covidfaq/scrape/"
 assert scrape_path[-1] == "/"
 
 doc_url_key = "document_URL"

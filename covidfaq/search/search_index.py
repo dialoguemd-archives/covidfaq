@@ -13,7 +13,7 @@ from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
-from build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
+from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 
 log = structlog.get_logger(__name__)
 
@@ -23,7 +23,7 @@ nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
 ## Config variables
 ################################
 
-question_file = "data/website_questions_22032020_13h00.csv"
+question_file = "covidfaq/data/website_questions_2020-03-22_13h00.csv"
 
 ################################
 
@@ -53,39 +53,61 @@ def search_section_index(es, index, query, topk, title_boost=1):
     return res
 
 
-def query_question(es, q):
-    lan = detect_language(q)
+def query_question(es, q, lan=None):
+    if not lan:
+        lan = detect_language(q)
 
     topk_doc = 1
     topk_sec = 1
 
+    res_doc = None
+    res_sec = None
+
     def helper(docindex, secindex):
+        res_doc_txt = None
+        res_sec_txt = None
         res_doc = search_document_index(es, docindex, q, topk_doc)["hits"]["hits"]
         if len(res_doc):
-            res_doc_txt = json.dumps(res_doc[0]["_source"])
-        else:
-            res_doc_txt = "None"
+            res_doc_txt = res_doc[0]["_source"]
         res_sec = search_section_index(es, secindex, q, topk_sec)["hits"]["hits"]
         if len(res_sec):
-            res_sec_txt = json.dumps(res_sec[0]["_source"])
-        else:
-            res_sec_txt = "None"
+            res_sec_txt = res_sec[0]["_source"]
         return res_doc_txt, res_sec_txt
+
+    def formatter(res_doc_txt, res_sec_txt):
+        formatted_data = {}
+
+        if res_sec_txt:
+            formatted_data["sec_text"] = res_sec_txt.get("content")
+            formatted_data["sec_url"] = res_sec_txt.get("url")
+        if res_doc_txt:
+            doc_text = []
+            for topic in json.loads(res_doc_txt.get("content")).keys():
+                doc_text.extend(
+                    json.loads(res_doc_txt.get("content")).get(topic).get("plaintext")
+                )
+            formatted_data["doc_url"] = res_doc_txt.get("url")
+            formatted_data["doc_text"] = res_doc_txt.get("doc_text")
+
+        return formatted_data
 
     # TODO: decode in unicode
 
     if lan == "en":
-        return helper(en_doc_index, en_sec_index)
-    elif lan == "fr":
-        return helper(fr_doc_index, fr_sec_index)
+        res_doc_txt, res_sec_txt = helper(en_doc_index, en_sec_index)
+        return formatter(res_doc_txt, res_sec_txt)
     else:
-        return ("None", "None")
+        res_doc_txt, res_sec_txt = helper(fr_doc_index, fr_sec_index)
+        return formatter(res_doc_txt, res_sec_txt)
 
 
 if __name__ == "__main__":
 
-    # TODO: connect to ES on deployed cluster
-    es = Elasticsearch([{"host": "localhost", "port": 9200}])
+    es = Elasticsearch(
+        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
+        use_ssl=True,
+        verify_certs=True,
+    )
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"
@@ -101,16 +123,9 @@ if __name__ == "__main__":
 
         record = {}
 
-        res_doc, res_sec = query_question(es, q)
+        answer = query_question(es, q)
+
+        res_doc = answer.get("doc_url")
+        res_sec = answer.get("sec_url")
 
         log.info("question_parsed", question=q, res_doc=res_doc, res_sec=res_sec)
-
-        record["question"] = q
-        record["document_result_json"] = res_doc
-        record["section_result_json"] = res_sec
-
-        all_results.append(deepcopy(record))
-
-    pd.DataFrame(
-        all_results, columns=["question", "section_result_json", "document_result_json"]
-    ).to_csv("search/all_results.csv")
