@@ -1,7 +1,7 @@
 from typing import List, Optional
 
 from elasticsearch import Elasticsearch
-from fastapi import APIRouter, Body, Request
+from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
 
@@ -31,9 +31,7 @@ es = Elasticsearch(
 
 
 @router.get("/answers/", response_model=Answers)
-def answers(request: Request, data=Body(dict())):
-
-    question = data["question"]
+def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
 
