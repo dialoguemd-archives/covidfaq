@@ -1,15 +1,11 @@
-from datetime import date, datetime
 from typing import List, Optional
 
-from fastapi import APIRouter, HTTPException, Request, Body
+from elasticsearch import Elasticsearch
+from fastapi import APIRouter, Body, Request
 from pydantic import BaseModel
-from requests import HTTPError
 from structlog import get_logger
 
 from .. import config
-
-from elasticsearch import Elasticsearch
-
 from ..search.search_index import query_question
 
 router = APIRouter()

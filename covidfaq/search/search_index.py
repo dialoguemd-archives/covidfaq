@@ -2,13 +2,10 @@
 # coding: utf-8
 
 import json
-from copy import deepcopy
 
 import pandas as pd
 import spacy
 import structlog
-
-## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
@@ -59,9 +56,6 @@ def query_question(es, q, lan=None):
 
     topk_doc = 1
     topk_sec = 1
-
-    res_doc = None
-    res_sec = None
 
     def helper(docindex, secindex):
         res_doc_txt = None
