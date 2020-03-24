@@ -3,4 +3,4 @@
 **/__pycache__/
 **/search/all_results.csv
 **/*.egg-info
-**/covidfaq/scrape/*.json
+# **/covidfaq/scrape/*.json commented out since some files added manually
