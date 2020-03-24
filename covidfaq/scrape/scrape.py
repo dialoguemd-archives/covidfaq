@@ -399,11 +399,18 @@ def command_scrape():
         if site and site != sitename:
             continue
         for i, url in enumerate(sitecfg["urls"]):
+            if isinstance(url, dict):
+                urlinfo = dict(url["info"])
+                url = url["url"]
+            else:
+                urlinfo = {}
+            urlinfo.setdefault("urlkey", str(i))
+            urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
             info = {
                 **sitecfg["info"],
+                **urlinfo,
                 "time": now,
                 "url": url,
-                "urlkey": f"{sitename}-{i}",
             }
             results += extract_sections(url, info, sitecfg)
 
