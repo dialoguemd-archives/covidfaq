@@ -23,7 +23,7 @@ nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
 ## Config variables
 ################################
 
-question_file = "covidfaq/data/website_questions_2020-03-22_13h00.csv"
+question_file = "covidfaq/data/train_set_covid.csv"
 
 ################################
 
