@@ -1,5 +1,6 @@
 **/models/
 **/results/
+.idea
 **/__pycache__/
 **/search/all_results.csv
 **/*.egg-info
