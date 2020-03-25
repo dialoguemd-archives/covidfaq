@@ -222,6 +222,8 @@ if __name__ == "__main__":
         "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
+        "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
+        "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
     ]
 
     # This is to have the files compatible with the Raza framework
