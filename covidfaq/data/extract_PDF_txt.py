@@ -39,8 +39,8 @@ def txt_to_page(txt_filename):
 
 filename_en = "./19-210-30A_Guide-auto-soins_anglais.txt"
 page_contents_en = txt_to_page(filename_en)
-page_to_json(page_contents_en, "PDF_faq_en.json")
+page_to_json(page_contents_en, "../scrape/PDF_faq_en.json")
 
 filename_fr = "./19-210-30FA_Guide-autosoins_francais.txt"
 page_contents_fr = txt_to_page(filename_fr)
-page_to_json(page_contents_fr, "PDF_faq_fr.json")
+page_to_json(page_contents_fr, "../scrape/PDF_faq_fr.json")
