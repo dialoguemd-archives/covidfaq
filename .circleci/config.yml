@@ -183,7 +183,7 @@ jobs:
       - run:
           name: Run scrape.py
           command: |
-            poetry run python -m covidfaq.scrape.scrape
+            poetry run python -m covidfaq.scrape.scrape scrape --sites covidfaq/scrape/sites.yaml
       - run:
           name: Run build_index.py
           command: |

@@ -415,7 +415,7 @@ def command_scrape():
             results += extract_sections(url, info, sitecfg)
 
     if format == "old":
-        outdir = out or "scrape_results"
+        outdir = out or "covidfaq/scrape"
         files = defaultdict(dict)
         for entry in results:
             d = files[entry["urlkey"]]
