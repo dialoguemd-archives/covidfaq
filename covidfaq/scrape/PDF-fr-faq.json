@@ -12,7 +12,7 @@
             "Conservez-le précieusement !",
             "Ce guide est également disponible en anglais au : Québec.ca/coronavirus."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Comment rester informé ?": {
@@ -21,7 +21,7 @@
             "Soyez attentif aux avis et consignes du gouvernement dans les médias (télévision, journaux, radio, Internet).",
             "Le coronavirus se transmet très facilement !"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Définition": {
@@ -29,7 +29,7 @@
             "La COVID-19 est une infection causée par un coronavirus, un virus très contagieux qui affecte les voies respiratoires. Il se transmet de personne à personne.",
             "On parle de pandémie lorsqu’un nouveau virus s’étend à travers le monde entier. Comme les personnes ne sont pas protégées contre ce nouveau virus, on compte un plus grand nombre de malades dans la population."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Transmission du virus": {
@@ -51,7 +51,7 @@
             "• donner des soins à une personne infectée ;",
             "• fréquenter les endroits publics et lieux de rassemblement."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Personnes à risque": {
@@ -66,7 +66,7 @@
             "–– les personnes atteintes d’un cancer et celles qui sont immunodéﬁcientes ;",
             "–– les personnes atteintes de diabète."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Symptômes": {
@@ -81,7 +81,7 @@
             "Fatigue extrême",
             "* Selon les données disponibles au moment de la rédaction de ce document."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Quoi faire en présence de symptômes ?": {
@@ -93,7 +93,7 @@
             "Contactez la ligne info coronavirus 1 877 644-4545 pour informer de la présence de vos symptômes et suivez les indications que l’on vous donne ;",
             "En cas de difficultés respiratoires importantes, contactez le 911."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Moyens de prévention et de protection contre la maladie à coronavirus (COVID-19)": {
@@ -110,7 +110,7 @@
             "Le port du masque antiprojections (voir page 17) est recommandé si vous présentez de la toux ou des éternuements et que vous êtes en présence d’autres personnes.",
             "Le masque évite de contaminer les autres personnes."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je bois souvent": {
@@ -125,7 +125,7 @@
             "• Urines peu fréquentes ou foncées ;",
             "• Sensation d’étourdissements, d’être mêlé (confusion) et maux de tête."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je protège mon entourage": {
@@ -141,7 +141,7 @@
             "fermée. Gardez les mouchoirs utilisés hors de la portée des enfants ;",
             "N’accueillez pas de visiteur à la maison."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je nettoie mon environnement": {
@@ -155,7 +155,7 @@
             "Donc,10 ml d’eau de javel dans 90 ml d’eau.",
             "Si vous êtes malade, votre literie, vos serviettes, vos vêtements et votre vaisselle peuvent être lavés avec ceux des autres personnes de la maisonnée avec les détergents habituels."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je prévois de l’aide": {
@@ -163,14 +163,14 @@
             "Plusieurs personnes ont les ressources nécessaires pour faire face à la situation actuelle. Si vous éprouvez de l’inquiétude, n’hésitez pas à demander ou à accepter de l’aide. Il est important d’en discuter avec vos proches.",
             "Pour obtenir de l’aide à domicile, vous pouvez aussi appeler au 211 ou demander le service de soins et services à domicile auprès de votre CLSC."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je m’informe": {
         "plaintext": [
             "Pour des informations à jour, écoutez la radio ou la télévision, lisez les journaux ou consultez souvent le site Internet gouvernemental Québec.ca/coronavirus."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je donne à mes enfants les conseils de base": {
@@ -182,7 +182,7 @@
             "Rappelez-leur souvent de se tenir à l’écart des autres personnes qui sont malades.",
             "Gardez à la vue ou à la portée de la main la ﬁche Outil d’aide à la décision (voir page 21). Cette ﬁche vous permet de vous guider en présence de symptômes selon la situation."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Organisation au travail": {
@@ -194,21 +194,21 @@
             "évitez de serrer des mains, de donner l’accolade ou de faire la bise ;",
             "restez à la maison si vous êtes malade ou si vous présentez un ou des symptômes. Informez-vous des directives de votre employeur concernant le retour au travail."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je fais bon usage des médicaments": {
         "plaintext": [
             "En l’absence de complications, le traitement de la maladie à coronavirus (COVID-19) ne nécessite pas de médicaments particuliers."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Médicaments en vente libre": {
         "plaintext": [
             "Des médicaments en vente libre peuvent être utilisés pour soulager les symptômes de la maladie à coronavirus (COVID-19). Avant d’en faire usage, lisez attentivement les étiquettes et respectez les doses recommandées. Il est fortement recommandé de demander conseil à votre pharmacien avant d’utiliser des médicaments en vente libre en présence de symptômes."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Précaution anti-inflammatoires": {
@@ -218,7 +218,7 @@
             "Évitez de prendre en même temps des produits qui contiennent les mêmes ingrédients comme du TylenolMD et du Tylenol sinusMD.",
             "Si vous souffrez de certains problèmes de santé, consultez votre pharmacien ou Info-Santé 811 avant de prendre des médicaments en vente libre."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Comment soulager vos symptômes ?": {
@@ -235,7 +235,7 @@
             "Gargarisez-vous avec un verre d’eau salée : 2,5 ml (1/2 c. à thé) de sel dans 250 ml (1 tasse) d’eau tiède (n’avalez pas la solution).",
             "Les bonbons durs ou les pastilles, de préférence sans sucre, peuvent également soulager votre mal de gorge."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Soins aux enfants malades": {
@@ -269,7 +269,7 @@
             "Ne donnez pas d’ibuprofène (AdvilMD, MotrinMD ou autres) à votre enfant s’il a moins de 6 mois.",
             "Ne donnez pas d’acide acétylsalicylique (AspirinMD ou autres) à un enfant ou à un jeune de moins de 18 ans."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Soins aux personnes âgées": {
@@ -300,14 +300,14 @@
             "On trouve les protéines dans la viande, les poissons, les légumineuses, les œufs, les produits laitiers et les noix.",
             "Il est important de prendre des collations contenant des protéines entre les repas et avant le coucher."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Risque de perte d’autonomie": {
         "plaintext": [
             "Une immobilité complète au lit ou au fauteuil a des conséquences importantes sur la perte d’autonomie et l’apparition de complications. 24 heures suffisent pour une condition d’immobilité. Lever la personne dès que son état le permet, la faire bouger le plus possible, et lui laisser faire ses activités de soins (hygiène, habillement, etc.) et ses activités quotidiennes selon ses capacités. Cela diminue de façon importante le risque de complications."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Lavage des mains": {
@@ -323,7 +323,7 @@
             "FERMER",
             "avec le papier"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Je me lave les mains souvent": {
@@ -344,7 +344,7 @@
             "Prenez un peu de produit antiseptique (gel, mousse, liquide).",
             "Frottez le bout de vos doigts, l’intérieur et l’extérieur de vos mains, vos pouces et la région entre vos doigts. Continuez de frotter jusqu’à ce que vos mains soient sèches sans utiliser de papier essuie-mains."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Hygiène respiratoire": {
@@ -358,7 +358,7 @@
             "LAVEZ-VOUS LES MAINS SOUVENT",
             "En l’absence d’eau et de savon, utilisez un produit antiseptique."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Usage du masque antiprojections": {
@@ -372,7 +372,7 @@
             "Changez votre masque lorsqu’il est mouillé.",
             "En tout temps, je garde mes mains à l’écart de mes yeux, de mon nez et de ma bouche."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     }
 }

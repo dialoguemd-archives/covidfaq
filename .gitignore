@@ -5,5 +5,5 @@
 **/*.egg-info
 **/covidfaq/scrape/*.json
 !**/covidfaq/scrape/MSSS*
-!**/covidfaq/scrape/dialogue
+!**/covidfaq/scrape/dialogue*
 !**/covidfaq/scrape/PDF*

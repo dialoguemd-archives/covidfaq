@@ -27,7 +27,7 @@ def excel_to_page(excel_filename):
         for question in questions:
             page_contents[question] = {
                 "plaintext": [answer],
-                "URL": "MSSS_" + str(page_number),
+                "url": "MSSS_" + str(page_number),
                 "html": "no html",
             }
 
@@ -36,8 +36,8 @@ def excel_to_page(excel_filename):
 
 filename_en = "./MSSS-Covid19-QnA-en_2020-03-20.xlsx"
 page_contents_en = excel_to_page(filename_en)
-page_to_json(page_contents_en, "MSSS_faq_en.json")
+page_to_json(page_contents_en, "MSSS-en-faq.json")
 
 filename_fr = "./MSSS-Covid19-QnA-fr_2020-03-20.xlsx"
 page_contents_fr = excel_to_page(filename_fr)
-page_to_json(page_contents_fr, "MSSS_faq_fr.json")
+page_to_json(page_contents_fr, "MSSS-fr-faq.json")
