@@ -8,7 +8,8 @@ cron:
 
 command:
   - "python"
-  - "scripts/scraper.py"
+  - "-m"
+  - "scripts.scraper"
 
 environments:
   dev-ca2:
