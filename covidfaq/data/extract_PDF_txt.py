@@ -1,7 +1,5 @@
 import json
 
-import pandas as pd
-
 
 def page_to_json(page_contents, fname):
     with open(fname, "w", encoding="utf-8") as fp:
@@ -11,7 +9,7 @@ def page_to_json(page_contents, fname):
 def txt_to_page(txt_filename):
     with open(txt_filename) as data:
         raw_text = data.read()
-        lines = raw_text.split('\n')
+        lines = raw_text.split("\n")
 
     page_contents = {"document_URL": "PDF"}
 
@@ -22,15 +20,15 @@ def txt_to_page(txt_filename):
         if not question:
             question = line
 
-        elif line != '':
+        elif line != "":
             answer.append(line)
 
-        elif line == '':
+        elif line == "":
             assert type(answer) == list
             page_contents[question] = {
-                'plaintext': answer,
-                'URL': 'PDF',
-                'html': 'no html',
+                "plaintext": answer,
+                "URL": "PDF",
+                "html": "no html",
             }
             question = []
             answer = []
