@@ -13,9 +13,9 @@ quebec-fr: &qfr
     - "https://www.quebec.ca/gouv/covid19-fonction-publique/"
     - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/"
       info:
-        urlkey: faq	
-    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"	
-      info:	
+        urlkey: faq
+    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"
+      info:
         urlkey: mainpage
 
   info:
