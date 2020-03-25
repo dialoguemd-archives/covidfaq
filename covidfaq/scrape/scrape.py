@@ -333,8 +333,6 @@ def rule_sibling(soup, info, url, rule):
                 break
             body.append(candidate)
 
-        parent = soup.new_tag("div", children=body)
-
         entry = {
             "title": raw_title,
             "plaintext": [
