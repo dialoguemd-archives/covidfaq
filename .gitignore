@@ -4,3 +4,5 @@
 **/search/all_results.csv
 **/*.egg-info
 **/covidfaq/scrape/*.json
+!**/covidfaq/scrape/MSSS*
+!**/covidfaq/scrape/dialogue
