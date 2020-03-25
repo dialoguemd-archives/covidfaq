@@ -379,7 +379,7 @@ def command_scrape():
 
     # File containing the sites to scrape and the scraping rules
     # [aliases: -s]
-    sites: Argument & ConfigFile
+    sites: Argument & ConfigFile = default({})
 
     # Output file or directory to save the results
     # [aliases: -o]
