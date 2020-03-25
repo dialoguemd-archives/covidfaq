@@ -11,7 +11,7 @@ import coleo
 import requests
 import structlog
 from bs4 import BeautifulSoup
-from coleo import Argument, ConfigFile, default
+from coleo import Argument, ConfigFile, auto_cli, default
 
 log = structlog.get_logger(__name__)
 
@@ -436,12 +436,6 @@ def run():
     else:
         print(f"Unknown format: {format}")
         sys.exit(1)
-
-
-# def run():
-#     auto_cli(
-#         {name[8:]: fn for name, fn in globals().items() if name.startswith("command_")}
-#     )
 
 
 if __name__ == "__main__":
