@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 from os import listdir
 from os.path import isfile, join
 
@@ -70,7 +71,7 @@ def fill_index(es, files, docindex, secindex):
                     "section": sec,
                     "content": json_file[sec]["plaintext"],
                     "file_name": file_,
-                    "url": json_file[sec]["URL"],
+                    "url": json_file[sec]["url"],
                 }
                 tmp = es.index(secindex, rec, id=file_ + "_section_" + str(c))
                 c_s += tmp["_shards"]["successful"]
@@ -123,8 +124,8 @@ if __name__ == "__main__":
     jsonfiles = [
         f for f in listdir(scrape_path) if isfile(join(scrape_path, f)) if ".json" in f
     ]
-    enfiles = [scrape_path + f for f in jsonfiles if "_en.json" in f]
-    frfiles = [scrape_path + f for f in jsonfiles if "_fr.json" in f]
+    enfiles = [scrape_path + f for f in jsonfiles if re.search(r"-en-.*\.json$", f)]
+    frfiles = [scrape_path + f for f in jsonfiles if re.search(r"-fr-.*\.json$", f)]
 
     fill_index(es, enfiles, en_doc_index, en_sec_index)
     fill_index(es, frfiles, fr_doc_index, fr_sec_index)

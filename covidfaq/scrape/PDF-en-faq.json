@@ -5,7 +5,7 @@
             "Coronavirus updates are available at Québec.ca/coronavirus.",
             "Pay attention to the notices and follow the instructions from government as relayed by the media (television, newspapers, radio, Internet)."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "The COVID-19 pandemic Definition": {
@@ -13,7 +13,7 @@
             "COVID-19 is a disease caused by a coronavirus, a highly contagious virus that affects the respiratory tract. It is transmitted from one person to another.",
             "A pandemic occurs when a new virus spreads throughout the world. Since humans are not protected against the new virus, a greater number of people become sick."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Transmission of the virus": {
@@ -30,7 +30,7 @@
             "• Someone provides care to an infected person",
             "• People gather in public places and meetings"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "CORONAVIRUS Persons at risk": {
@@ -38,7 +38,7 @@
             "80% of infected individuals recover without any special treatment.",
             "Some categories of people are at risk of dying from severe respiratory complications of a coronavirus infection, such as pneumonia or acute respiratory syndrome."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "The following categories of people infected by the coronavirus (COVID-19) are at risk of dying:": {
@@ -50,7 +50,7 @@
             "–– Cancer and immune deficiency",
             "–– Diabetes"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Symptoms": {
@@ -63,7 +63,7 @@
             "Pneumonia",
             "Extreme fatigue"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "What should I do when I have COVID-19 symptoms?": {
@@ -75,7 +75,7 @@
             "Call the 1-877-644-4545 coronavirus hotline to report your symptoms and follow the instructions you are given",
             "If you have major difficulty breathing, call 911"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "How to prevent and protect against a coronavirus (COVID-19) infection": {
@@ -86,21 +86,21 @@
             "Do not hug, shake hands or kiss.",
             "If a close friend or family member shows COVID-19 symptoms, avoid contact with their personal objects such as glassware, dishes, etc. Ask the person to use hygienic practices when coughing or sneezing and immediately wash their hands. As much as possible, remain at a safe distance from others."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Wash your hands OFTEN": {
         "plaintext": [
             "Frequent hand washing is the best way to protect yourself and others from coronavirus (COVID-19). Teach your children and close friends and family the right way to wash their hands (see page 16)."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Wear a protective mask": {
         "plaintext": [
             "Wearing a protective mask is recommended if you are coughing or sneezing around other people (see page 17). The mask will help to prevent contaminating them."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "WHEN should I wash my hands?": {
@@ -115,14 +115,14 @@
             "• After using the toilet",
             "• Before and after going to a public place"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "WHAT DO I USE to wash my hands?": {
         "plaintext": [
             "It is recommended to wash hands with lukewarm water and soap or with a 60%70% alcohol-based gel, foam or liquid sanitizer."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Rest": {
@@ -130,7 +130,7 @@
             "If you have coronavirus symptoms (see page 5), feel weak and fatigued, rest will help you fight the disease. Limit your contact with others until you have no more symptoms. You can go back to your normal activities when your state of health allows you to.",
             "Stay at home if you have one or more symptoms."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Drink frequently": {
@@ -145,7 +145,7 @@
             "• Infrequent and/or dark urine",
             "• Dizziness, confusion and headaches"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Protect your entourage": {
@@ -160,7 +160,7 @@
             "Throw away facial tissues into a garbage bag in a trash can with a lid. Keep used tissues away from children",
             "Do not allow visitors in the house"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Keep your environment clean": {
@@ -174,14 +174,14 @@
             "For example, this means 10 ml of bleach to 90 ml of water.",
             "If you are sick, your sheets, towels, cloths and dishware can be washed with those of others in the home using normal detergents."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Seek help": {
         "plaintext": [
             "While many of us have the necessary resources to deal with a COVID-19 situation, others may not. If you are concerned, do not hesitate to ask for or accept help. Talk about it with your close family members.  You can also dial 211 for help or ask your local CLSC to connect you with their home care and services resource."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Basic information for your kids": {
@@ -192,7 +192,7 @@
             "• How to sneeze and cough into their elbow and onto their upper arm (see page 17)",
             "Remind them often to keep at a distance from sick people."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Stay informed": {
@@ -200,7 +200,7 @@
             "Listen to the radio, watch TV, read the newspaper and/or go to the following government website often: Québec.ca/ coronavirus.",
             "Keep the Decision Fact Sheet close at hand (see page 21). It contains advice on what to do in different symptom situations."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Organize your work": {
@@ -211,7 +211,7 @@
             "Do not shake hands, hug or kiss hello",
             "Stay home if you are sick or have symptoms. Get informed about your employer’s return to work directives"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Medication for relieving symptoms": {
@@ -219,14 +219,14 @@
             "Use medication intelligently",
             "If you have no complications, coronavirus (COVID-19) treatment does not require special medication."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "anti-inflammatories": {
         "plaintext": [
             "NSAID anti-inflammatories used to alleviate fever that contain ibuprofen, such as Advil® and Motrin® may aggravate coronavirus disease (COVID-19), but this information comes from clinical observations and has not been confirmed. If you are already taking anti-inflammatories and test positive for coronavirus, speak with your pharmacist, doctor or specialized nurse practitioner."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Over-the-counter medication": {
@@ -236,7 +236,7 @@
             "Do not take medications with the same ingredients at the same time, such as Tylenol® and Tylenol sinus®.",
             "If you have other health problems, ask your pharmacist for advice or call Info-Santé 811 before taking over-the-counter medication."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Relieving symptoms": {
@@ -250,14 +250,14 @@
             "OR",
             "• 1.1 °C higher than normal"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Sore throat": {
         "plaintext": [
             "Gargle with a glass of salt water: 2.5 ml (1/2 tsp.) of salt in 250 ml (1 cup) of lukewarm water (do not swallow) Hard candy and/or lozenges, preferably sugar-free, may also relieve a sore throat"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Caring for sick children": {
@@ -287,7 +287,7 @@
             "Do not give ibuprofen (Advil®, Motrin®, etc.) to children under the age of six months",
             "Do not give acetylsalicylic acid (Aspirin®, etc.) to children or teenagers under the age of 18"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Eldercare": {
@@ -314,7 +314,7 @@
             "Proteins are found in meat, fish, legumes, eggs, milk products and nuts.",
             "Seniors need to have protein-rich snacks in between meals and at bedtime."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Loss of autonomy": {
@@ -323,14 +323,14 @@
             "As soon as possible, get the person up and moving, dress on his or her own, and perform personal hygiene and other daily activities in accordance with capacity.",
             "This will considerably reduce the risk of complications."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Seniors Dehydration": {
         "plaintext": [
             "Seniors are at greater risk of dehydration especially because the thirst sensation becomes less acute as we age. Seniors do not always think of drinking because they do not feel thirsty."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Wash hands": {
@@ -346,7 +346,7 @@
             "Before putting in or taking out your contact lenses",
             "After moving garbage"
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "How to wash hands": {
@@ -356,7 +356,7 @@
             "Sanitizers must be stored out of reach of young children. They can only be used occasionally and with supervision.",
             "Take a little gel, foam or liquid sanitizer with your fingertips and rub both sides of your hands, fingers and in between your fingers. Continue to rub until your hands are dry without having used paper towels."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Respiratory hygiene": {
@@ -367,7 +367,7 @@
             "IF NO TISSUE IS AVAILABLE, cough or sneeze into your elbow or on your upper arm.",
             "WASH your hands often. If soap and water are unavailable, use a hand sanitizer."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Anti-spray masks": {
@@ -386,7 +386,7 @@
             "Change your mask when it becomes damp.",
             "Never touch your eyes, nose and mouth with your hands."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Adults at risk of severe respiratory symptoms": {
@@ -395,14 +395,14 @@
             "• I have a fever higher than 38 °C/100.4 °F.",
             "• I am in an at-risk category for severe respiratory complications (senior or person with chronic cardiac and/or pulmonary problems, immune deficiency or diabetes)."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     },
     "Keep informed.": {
         "plaintext": [
             "The Québec.ca/coronavirus website has up-to-date news."
         ],
-        "URL": "PDF",
+        "url": "PDF",
         "html": "no html"
     }
 }

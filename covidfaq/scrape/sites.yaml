@@ -1,0 +1,243 @@
+
+quebec-fr: &qfr
+  urls:
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/"
+    - "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/"
+    - "https://www.quebec.ca/gouv/covid19-fonction-publique/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/"
+    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/"
+      info:
+        urlkey: faq
+    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"
+      info:
+        urlkey: mainpage
+
+  info:
+    source: quebec
+    language: fr
+
+  selectors:
+
+    - method: nesting
+      parent: ".frame, .frame-default, .frame-type-textmedia, .frame-layout-0"
+      title: "h2, h3, h4"
+      body: ".ce-bodytext"
+      exclude:
+        title: "^(Avis|Notice)$"
+        body: null
+        selector: null
+      info:
+        type: "section"
+
+    - method: nesting
+      parent: ".frame-avisExclam"
+      title: null
+      body: ".ce-bodytext"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        title: "Page Alerts"
+        type: "alert"
+
+    - method: nesting
+      parent: ".panel, .panel-default"
+      title: ".accordion-toggle"
+      body: ".ce-bodytext"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+quebec-en:
+  <<: *qfr
+
+  translate: "ul.listePiv a[lang=\"en\"]"
+
+  info:
+    source: quebec
+    language: en
+
+canada-en:
+  urls:
+    - "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html"
+    - "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms.html"
+
+  info:
+    source: canada
+    language: en
+
+  selectors:
+
+    - method: sibling
+      title: "main .section h2, main .section h3"
+      stop:
+        - h2
+        - h3
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "section"
+
+who-en:
+  urls:
+    - "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses"
+
+  info:
+    source: who
+    language: en
+
+  selectors:
+
+    - method: nesting
+      parent: ".sf-accordion__panel"
+      title: ".sf-accordion__trigger-panel"
+      body: ".sf-accordion__content"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+vd.ch-fr:
+  urls:
+    - "https://www.vd.ch/toutes-les-actualites/hotline-et-informations-sur-le-coronavirus/coronavirus-covid-19-reponses-du-medecin-cantonal-aux-questions-frequentes/"
+
+  info:
+    source: vd.ch
+    language: fr
+
+  selectors:
+
+    - method: nesting
+      parent: ".csc-default.mb-5"
+      title: "h2"
+      body: null
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "section"
+
+montreal.consulfrance-fr:
+  urls:
+    - "https://montreal.consulfrance.org/CORONAVIRUS-QUESTIONS-FREQUENTES"
+
+  info:
+    source: montreal.consulfrance
+    language: fr
+
+  selectors:
+
+    - method: nesting
+      parent: ".cs_blocs"
+      title: "h4"
+      body: "div"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+ca.ambafrance.org-fr:
+  urls:
+    - "https://ca.ambafrance.org/FAQ-Coronavirus-COVID-19-questions-frequentes"
+
+  info:
+    source: ca.ambafrance
+    language: fr
+
+  selectors:
+
+    - method: sibling
+      title: "h3.spip"
+      stop:
+        - h2
+        - h3
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+who-fr:
+  urls:
+    - "https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"
+
+  info:
+    source: who
+    language: fr
+
+  selectors:
+
+    - method: sibling
+      title: "div div h2"
+      stop:
+        - h2
+        - h3
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+gouv.nc-fr:
+  urls:
+    - "https://gouv.nc/info-coronavirus-covid-19/questions-frequentes-sur-le-coronavirus-covid-19"
+
+  info:
+    source: gouv.nc
+    language: fr
+
+  selectors:
+
+    - method: nesting
+      parent: ".col-sm-12"
+      title: "p"
+      body: "p + p"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+cdc-en:
+  urls:
+    - "https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+
+  info:
+    source: cdc
+    language: en
+
+  selectors:
+
+    - method: nesting
+      parent: ".card,.bar .card"
+      title: "div"
+      body: "div + div"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"

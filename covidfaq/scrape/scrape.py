@@ -1,9 +1,16 @@
 import json
+import os
 import re
+import sys
+from collections import defaultdict
+from datetime import datetime
+from urllib.parse import urljoin
 
+import bs4
 import requests
 import structlog
 from bs4 import BeautifulSoup
+from coleo import Argument, ConfigFile, auto_cli, default
 
 log = structlog.get_logger(__name__)
 
@@ -207,7 +214,8 @@ def get_mainpage_contents(mainpage_URL):
     return page_contents
 
 
-if __name__ == "__main__":
+def command_legacy():
+    """First version of the scraper, works unchanged."""
 
     # faq page is different in structure so is parsed separately below.
     french_URLS = [
@@ -268,3 +276,167 @@ if __name__ == "__main__":
 
     page_to_json(mainpage_contents_fr, "covidfaq/scrape/mainpage_fr.json")
     page_to_json(mainpage_contents_en, "covidfaq/scrape/mainpage_en.json")
+
+
+def rule_nesting(soup, info, url, rule):
+    exclude = rule["exclude"]
+    subjects = soup.select(rule["parent"])
+    results = []
+    for sub in subjects:
+        title = sub.select_one(rule["title"]) if rule["title"] else True
+        body = sub.select_one(rule["body"]) if rule["body"] else sub
+        if not title or not body:
+            continue
+
+        # Exclusions
+        if exclude["selector"] and sub.select_one(exclude["selector"]):
+            continue
+
+        if title is True:
+            raw_title = ""
+        else:
+            raw_title = title.get_text().strip()
+        if exclude["title"] and re.search(exclude["title"], raw_title):
+            continue
+
+        raw_body = body.get_text().strip()
+        if exclude["body"] and re.search(exclude["body"], raw_body):
+            continue
+
+        entry = {
+            "title": raw_title,
+            "plaintext": [
+                elem.get_text() if isinstance(elem, bs4.Tag) else str(elem)
+                for elem in body
+            ],
+            "html": body.prettify(),
+            "url": url,
+        }
+        entry.update(info)
+        entry.update(rule["info"])
+        results.append(entry)
+
+    return results
+
+
+def rule_sibling(soup, info, url, rule):
+    subjects = soup.select(rule["title"])
+    results = []
+
+    for title in subjects:
+        raw_title = title.get_text().strip()
+        body = []
+        candidate = title
+        while True:
+            candidate = candidate.next_sibling
+            if candidate is None or candidate.name in rule["stop"]:
+                break
+            body.append(candidate)
+
+        entry = {
+            "title": raw_title,
+            "plaintext": [
+                elem.get_text() if isinstance(elem, bs4.Tag) else str(elem)
+                for elem in body
+            ],
+            "html": "".join(
+                elem.prettify() if isinstance(elem, bs4.Tag) else str(elem)
+                for elem in body
+            ),
+            "url": url,
+        }
+        entry.update(info)
+        entry.update(rule["info"])
+        results.append(entry)
+
+    return results
+
+
+def extract_sections(url, info, cfg, translated=False):
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, "html.parser")
+
+    if not translated and "translate" in cfg:
+        new_url = soup.select_one(cfg["translate"])
+        if not new_url:
+            return []
+        new_url = urljoin(url, new_url["href"])
+        return extract_sections(new_url, info, cfg, True)
+
+    log.info("scraping", urlkey=info["urlkey"], url=url)
+
+    results = []
+
+    for rule in cfg["selectors"]:
+        method = globals()[f"rule_{rule['method']}"]
+        results.extend(method(soup, info, url, rule))
+
+    return results
+
+
+def command_scrape():
+    """Scrape websites for information."""
+
+    # File containing the sites to scrape and the scraping rules
+    # [aliases: -s]
+    sites: Argument & ConfigFile = default({})
+
+    # Output file or directory to save the results
+    # [aliases: -o]
+    out: Argument = default(None)
+
+    # Format to output the results in
+    # [aliases: -f]
+    format: Argument = default("old")
+
+    # Site to generate for
+    site: Argument = default(None)
+
+    now = str(datetime.now())
+
+    results = []
+    for sitename, sitecfg in sites.read().items():
+        if site and site != sitename:
+            continue
+        for i, url in enumerate(sitecfg["urls"]):
+            if isinstance(url, dict):
+                urlinfo = dict(url["info"])
+                url = url["url"]
+            else:
+                urlinfo = {}
+            urlinfo.setdefault("urlkey", str(i))
+            urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
+            info = {
+                **sitecfg["info"],
+                **urlinfo,
+                "time": now,
+                "url": url,
+            }
+            results += extract_sections(url, info, sitecfg)
+
+    if format == "old":
+        outdir = out or "covidfaq/scrape"
+        files = defaultdict(dict)
+        for entry in results:
+            d = files[entry["urlkey"]]
+            d["document_URL"] = entry["url"]
+            del entry["urlkey"]
+            d[entry["title"]] = entry
+        os.makedirs(outdir, exist_ok=True)
+        for filename, data in files.items():
+            filename = os.path.join(outdir, filename + ".json")
+            page_to_json(data, filename)
+
+    elif format == "new":
+        outfile = out or "scrape_results.json"
+        page_to_json(results, outfile)
+
+    else:
+        print(f"Unknown format: {format}")
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    auto_cli(
+        {name[8:]: fn for name, fn in globals().items() if name.startswith("command_")}
+    )

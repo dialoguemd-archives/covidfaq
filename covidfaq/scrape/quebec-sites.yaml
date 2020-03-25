@@ -1,0 +1,71 @@
+
+quebec-fr: &qfr
+  urls:
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/"
+    - "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/"
+    - "https://www.quebec.ca/gouv/covid19-fonction-publique/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/"
+    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/"
+      info:
+        urlkey: faq
+    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"
+      info:
+        urlkey: mainpage
+
+  info:
+    source: quebec
+    language: fr
+
+  selectors:
+
+    - method: nesting
+      parent: ".frame, .frame-default, .frame-type-textmedia, .frame-layout-0"
+      title: "h2, h3, h4"
+      body: ".ce-bodytext"
+      exclude:
+        title: "^(Avis|Notice)$"
+        body: null
+        selector: null
+      info:
+        type: "section"
+
+    - method: nesting
+      parent: ".frame-avisExclam"
+      title: null
+      body: ".ce-bodytext"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        title: "Page Alerts"
+        type: "alert"
+
+    - method: nesting
+      parent: ".panel, .panel-default"
+      title: ".accordion-toggle"
+      body: ".ce-bodytext"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+quebec-en:
+  <<: *qfr
+
+  translate: "ul.listePiv a[lang=\"en\"]"
+
+  info:
+    source: quebec
+    language: en
