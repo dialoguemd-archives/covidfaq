@@ -7,10 +7,11 @@ from datetime import datetime
 from urllib.parse import urljoin
 
 import bs4
+import coleo
 import requests
 import structlog
 from bs4 import BeautifulSoup
-from coleo import Argument, ConfigFile, auto_cli, default
+from coleo import Argument, ConfigFile, default
 
 log = structlog.get_logger(__name__)
 
@@ -217,7 +218,6 @@ def get_mainpage_contents(mainpage_URL):
 def command_legacy():
     """First version of the scraper, works unchanged."""
 
-
     # faq page is different in structure so is parsed separately below.
     french_URLS = [
         "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
@@ -375,7 +375,8 @@ def extract_sections(url, info, cfg, translated=False):
     return results
 
 
-def command_scrape():
+@coleo.tooled
+def run():
     """Scrape websites for information."""
 
     # File containing the sites to scrape and the scraping rules
@@ -437,7 +438,11 @@ def command_scrape():
         sys.exit(1)
 
 
+# def run():
+#     auto_cli(
+#         {name[8:]: fn for name, fn in globals().items() if name.startswith("command_")}
+#     )
+
+
 if __name__ == "__main__":
-    auto_cli(
-        {name[8:]: fn for name, fn in globals().items() if name.startswith("command_")}
-    )
+    run()
