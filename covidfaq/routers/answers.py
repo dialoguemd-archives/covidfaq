@@ -14,7 +14,7 @@ log = get_logger()
 
 
 class Answers(BaseModel):
-    answers: Optional[List[str]]
+    answers: List[str]
 
 
 class DocResults(BaseModel):
@@ -54,11 +54,16 @@ def answers(request: Request, question: str):
         language=language,
     )
 
-    elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
+    answers = []
 
-    section_answers = SecResults.parse_obj(elastic_results_formatted.sec_results[0])
+    if elastic_results:
+        elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
+        if elastic_results_formatted.sec_results:
+            answers = SecResults.parse_obj(
+                elastic_results_formatted.sec_results[0]
+            ).sec_text
 
-    return {"answers": section_answers.sec_text}
+    return {"answers": answers}
 
 
 def format_language(language):
