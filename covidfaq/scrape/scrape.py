@@ -207,8 +207,7 @@ def get_mainpage_contents(mainpage_URL):
     return page_contents
 
 
-if __name__ == "__main__":
-
+def run():
     # faq page is different in structure so is parsed separately below.
     french_URLS = [
         "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
@@ -268,3 +267,7 @@ if __name__ == "__main__":
 
     page_to_json(mainpage_contents_fr, "covidfaq/scrape/mainpage_fr.json")
     page_to_json(mainpage_contents_en, "covidfaq/scrape/mainpage_en.json")
+
+
+if __name__ == "__main__":
+    run()
