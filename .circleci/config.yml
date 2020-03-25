@@ -77,6 +77,7 @@ workflows:
           wait: false
           requires:
             - pylama
+            - deploy-es-dev-ca2
             - build-api
           filters:
             branches:
@@ -88,6 +89,7 @@ workflows:
           place: ca2
           requires:
             - pylama
+            - deploy-es-dev-ca2
             - build-api
           filters:
             branches:
@@ -122,6 +124,7 @@ workflows:
           wait: false
           requires:
             - build-api
+            - deploy-es-prod-ca
           filters:
             tags:
               only: /^v.*/
@@ -135,6 +138,7 @@ workflows:
           region: us-east-1
           requires:
             - build-api
+            - deploy-es-prod-ca
           filters:
             tags:
               only: /^v.*/
