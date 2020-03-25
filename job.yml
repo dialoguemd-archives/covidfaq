@@ -1,0 +1,25 @@
+name: covidfaq
+engine: ~0.6
+type: cron
+
+cron:
+  schedule: "0 */4 * * *"
+  concurrencyPolicy: Forbid
+
+command:
+  - "python"
+  - "-m"
+  - "scripts.scraper"
+
+environments:
+  dev-ca2:
+    environment:
+      elastic_search_host: "es-covidfaq.dev.dialoguecorp.com"
+  prod-ca:
+    environment:
+      elastic_search_host: "es-covidfaq.dialoguecorp.com"
+
+tolerations:
+  "dialoguecorp.com/covidbot": "Exists"
+nodeSelector:
+  "dialoguecorp.com/covidbot": "true"

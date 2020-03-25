@@ -7,6 +7,7 @@ from datetime import datetime
 from urllib.parse import urljoin
 
 import bs4
+import coleo
 import requests
 import structlog
 from bs4 import BeautifulSoup
@@ -374,7 +375,8 @@ def extract_sections(url, info, cfg, translated=False):
     return results
 
 
-def command_scrape():
+@coleo.tooled
+def run():
     """Scrape websites for information."""
 
     # File containing the sites to scrape and the scraping rules
@@ -437,6 +439,4 @@ def command_scrape():
 
 
 if __name__ == "__main__":
-    auto_cli(
-        {name[8:]: fn for name, fn in globals().items() if name.startswith("command_")}
-    )
+    auto_cli({"scrape": run})

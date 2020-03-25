@@ -1,9 +1,10 @@
 version: 2.1
 
 orbs:
-  base: dialogue/base@1.7.1
+  base: dialogue/base@1.8.0
   docker: dialogue/docker@1.6.1
   app: dialogue/helm-app@1.0.2
+  job: dialogue/helm-job@1.2.1
   k8s: dialogue/k8s@3.0.2
   python: dialogue/python@2.7.0
   release: dialogue/release@2.1.4
@@ -69,12 +70,18 @@ workflows:
            branches:
              ignore: master
           context: org-global-v2
-      - build-es-index:
+      - job/deploy:
+          name: deploy-scraper-dev-ca2
+          stage: dev
+          place: ca2
+          wait: false
           requires:
+            - pylama
             - deploy-es-dev-ca2
+            - build-api
           filters:
-           branches:
-             ignore: master
+            branches:
+              ignore: master
           context: org-global-v2
       - app/deploy:
           name: deploy-api-dev-ca2
@@ -82,8 +89,8 @@ workflows:
           place: ca2
           requires:
             - pylama
+            - deploy-es-dev-ca2
             - build-api
-            - build-es-index
           filters:
             branches:
               ignore: master
@@ -109,8 +116,14 @@ workflows:
             branches:
               ignore: /.*/
           context: org-global-v2
-      - build-es-index:
+      - job/deploy:
+          name: deploy-scraper-prod-ca
+          stage: prod
+          place: ca
+          region: us-east-1
+          wait: false
           requires:
+            - build-api
             - deploy-es-prod-ca
           filters:
             tags:
@@ -125,7 +138,7 @@ workflows:
           region: us-east-1
           requires:
             - build-api
-            - build-es-index
+            - deploy-es-prod-ca
           filters:
             tags:
               only: /^v.*/
@@ -174,21 +187,6 @@ workflows:
   #         context: org-global-v2
 
 jobs:
-  build-es-index:
-    <<: *executor
-    steps:
-      - base/setup
-      - python/setup
-      - python/install_deps
-      - run:
-          name: Run scrape.py
-          command: |
-            poetry run python -m covidfaq.scrape.scrape scrape --sites covidfaq/scrape/quebec-sites.yaml
-      - run:
-          name: Run build_index.py
-          command: |
-            poetry run python -m covidfaq.search.build_index
-
   deploy-rasax:
     parameters:
       stage:

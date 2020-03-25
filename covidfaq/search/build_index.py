@@ -106,7 +106,7 @@ def get_es_hostname():
     )
 
 
-if __name__ == "__main__":
+def run():
 
     es = Elasticsearch(
         [{"host": get_es_hostname(), "port": 443}], use_ssl=True, verify_certs=True,
@@ -129,3 +129,7 @@ if __name__ == "__main__":
 
     fill_index(es, enfiles, en_doc_index, en_sec_index)
     fill_index(es, frfiles, fr_doc_index, fr_sec_index)
+
+
+if __name__ == "__main__":
+    run()
