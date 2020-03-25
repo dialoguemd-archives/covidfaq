@@ -54,11 +54,10 @@ def answers(request: Request, question: str):
         language=language,
     )
 
-    elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
-
     answers = []
 
-    if elastic_results_formatted:
+    if elastic_results:
+        elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
         if elastic_results_formatted.sec_results:
             answers = SecResults.parse_obj(
                 elastic_results_formatted.sec_results[0]

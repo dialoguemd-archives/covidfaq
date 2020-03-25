@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import json
+import os
 from os import listdir
 from os.path import isfile, join
 
@@ -94,12 +95,20 @@ def fill_index(es, files, docindex, secindex):
     )
 
 
+def get_es_hostname():
+    ci_git_tag = os.environ.get("CIRCLE_GIT_TAG")
+
+    return (
+        "es-covidfaq.dialoguecorp.com"
+        if ci_git_tag
+        else "es-covidfaq.dev.dialoguecorp.com"
+    )
+
+
 if __name__ == "__main__":
 
     es = Elasticsearch(
-        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
-        use_ssl=True,
-        verify_certs=True,
+        [{"host": get_es_hostname(), "port": 443}], use_ssl=True, verify_certs=True,
     )
     if not es.ping():
         raise ValueError(

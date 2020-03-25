@@ -3,4 +3,6 @@
 **/__pycache__/
 **/search/all_results.csv
 **/*.egg-info
-# **/covidfaq/scrape/*.json commented out since some files added manually
+**/covidfaq/scrape/*.json
+!**/covidfaq/scrape/MSSS*
+!**/covidfaq/scrape/dialogue
