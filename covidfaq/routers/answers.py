@@ -1,15 +1,12 @@
-from datetime import date, datetime
+from functools import lru_cache
 from typing import List, Optional
 
-from fastapi import APIRouter, HTTPException, Request, Body
+from elasticsearch import Elasticsearch
+from fastapi import APIRouter, Request
 from pydantic import BaseModel
-from requests import HTTPError
 from structlog import get_logger
 
 from .. import config
-
-from elasticsearch import Elasticsearch
-
 from ..search.search_index import query_question
 
 router = APIRouter()
@@ -17,36 +14,38 @@ log = get_logger()
 
 
 class Answers(BaseModel):
-    answers: Optional[List[str]]
+    answers: List[str]
 
 
-class ElasticResults(BaseModel):
+class DocResults(BaseModel):
     doc_text: Optional[List[str]]
     doc_url: Optional[str]
+
+
+class SecResults(BaseModel):
     sec_text: Optional[List[str]]
     sec_url: Optional[str]
 
 
-conf = config.get()
-
-es = Elasticsearch(
-    [{"host": conf.elastic_search_host, "port": 443}], use_ssl=True, verify_certs=True,
-)
+class ElasticResults(BaseModel):
+    doc_results: Optional[List[DocResults]]
+    sec_results: Optional[List[SecResults]]
 
 
-@router.get("/answers/", response_model=Answers)
-def answers(request: Request, data=Body(dict())):
-
-    question = data["question"]
+@router.get("/answers", response_model=Answers)
+def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
+    es = get_es_client()
 
     if language:
         formatted_language = format_language(language)
-        elastic_results = query_question(es, question, formatted_language)
+        elastic_results = query_question(
+            es, question, topk_sec=1, topk_doc=1, lan=formatted_language
+        )
 
     else:
-        elastic_results = query_question(es, question)
+        elastic_results = query_question(es, question, topk_sec=1, topk_doc=1)
 
     log.info(
         "elastic_results",
@@ -55,9 +54,16 @@ def answers(request: Request, data=Body(dict())):
         language=language,
     )
 
-    elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
+    answers = []
 
-    return {"answers": elastic_results_formatted.sec_text}
+    if elastic_results:
+        elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
+        if elastic_results_formatted.sec_results:
+            answers = SecResults.parse_obj(
+                elastic_results_formatted.sec_results[0]
+            ).sec_text
+
+    return {"answers": answers}
 
 
 def format_language(language):
@@ -65,3 +71,23 @@ def format_language(language):
         return "en"
     elif "fr" in language.lower():
         return "fr"
+
+
+@lru_cache()
+def get_es_client():
+    conf = config.get()
+
+    return Elasticsearch(
+        [{"host": conf.elastic_search_host, "port": 443}],
+        use_ssl=True,
+        verify_certs=True,
+    )
+
+
+@lru_cache()
+def load_re_rank_model_en():
+    return
+
+
+def re_rank(model, question, sections_list):
+    return

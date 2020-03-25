@@ -1,6 +1,6 @@
 from functools import lru_cache
 
-from pydantic import BaseSettings, SecretStr
+from pydantic import BaseSettings
 
 
 class Config(BaseSettings):

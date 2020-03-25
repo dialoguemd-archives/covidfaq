@@ -2,12 +2,12 @@
 # coding: utf-8
 
 import json
+import os
+import re
 from os import listdir
 from os.path import isfile, join
 
 import structlog
-
-## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from tqdm.auto import tqdm
 
@@ -48,28 +48,32 @@ def fill_index(es, files, docindex, secindex):
 
     c_d = 0
     c_s = 0
-    for i in tqdm(files):
-        with open(i, "r", encoding="latin1") as f:
-            t = json.load(f)
-            t_ = {
-                j: {k: t[j][k] for k in t[j] if k in ["plaintext"]}
-                for j in t
+    for file_ in tqdm(files):
+        with open(file_, "r", encoding="utf-8") as f:
+            json_file = json.load(f)
+            content = {
+                j: {k: json_file[j][k] for k in json_file[j] if k in ["plaintext"]}
+                for j in json_file
                 if j != doc_url_key
             }
-            doc = {"content": json.dumps(t_), "file_name": i, "url": t[doc_url_key]}
-            tmp = es.index(docindex, doc, id=i)
+            doc = {
+                "content": json.dumps(content),
+                "file_name": file_,
+                "url": json_file[doc_url_key],
+            }
+            tmp = es.index(docindex, doc, id=file_)
             c_d += tmp["_shards"]["successful"]
             c = 1
-            for sec in t:
+            for sec in json_file:
                 if sec == doc_url_key:
                     continue
                 rec = {
                     "section": sec,
-                    "content": t[sec]["plaintext"],
-                    "file_name": i,
-                    "url": t[sec]["URL"],
+                    "content": json_file[sec]["plaintext"],
+                    "file_name": file_,
+                    "url": json_file[sec]["url"],
                 }
-                tmp = es.index(secindex, rec, id=i + "_section_" + str(c))
+                tmp = es.index(secindex, rec, id=file_ + "_section_" + str(c))
                 c_s += tmp["_shards"]["successful"]
                 c += 1
     log.info(
@@ -92,12 +96,20 @@ def fill_index(es, files, docindex, secindex):
     )
 
 
-if __name__ == "__main__":
+def get_es_hostname():
+    ci_git_tag = os.environ.get("CIRCLE_GIT_TAG")
+
+    return (
+        "es-covidfaq.dialoguecorp.com"
+        if ci_git_tag
+        else "es-covidfaq.dev.dialoguecorp.com"
+    )
+
+
+def run():
 
     es = Elasticsearch(
-        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
-        use_ssl=True,
-        verify_certs=True,
+        [{"host": get_es_hostname(), "port": 443}], use_ssl=True, verify_certs=True,
     )
     if not es.ping():
         raise ValueError(
@@ -110,13 +122,14 @@ if __name__ == "__main__":
 
     ## Load files
     jsonfiles = [
-        f
-        for f in listdir(scrape_path)
-        if isfile(join(scrape_path, f))
-        if ".json" in f and "faq" not in f and "mainpage" not in f
+        f for f in listdir(scrape_path) if isfile(join(scrape_path, f)) if ".json" in f
     ]
-    enfiles = [scrape_path + f for f in jsonfiles if "_en.json" in f]
-    frfiles = [scrape_path + f for f in jsonfiles if "_fr.json" in f]
+    enfiles = [scrape_path + f for f in jsonfiles if re.search(r"-en-.*\.json$", f)]
+    frfiles = [scrape_path + f for f in jsonfiles if re.search(r"-fr-.*\.json$", f)]
 
     fill_index(es, enfiles, en_doc_index, en_sec_index)
     fill_index(es, frfiles, fr_doc_index, fr_sec_index)
+
+
+if __name__ == "__main__":
+    run()

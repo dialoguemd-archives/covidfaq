@@ -2,13 +2,10 @@
 # coding: utf-8
 
 import json
-from copy import deepcopy
 
 import pandas as pd
 import spacy
 import structlog
-
-## Before running the script, install and start elastic search server on localhost port 9200 (by default)
 from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
@@ -23,7 +20,7 @@ nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
 ## Config variables
 ################################
 
-question_file = "covidfaq/data/website_questions_2020-03-22_13h00.csv"
+question_file = "covidfaq/data/train_set_covid.csv"
 
 ################################
 
@@ -37,14 +34,11 @@ def search_document_index(es, index, query, topk):
     return res
 
 
-def search_section_index(es, index, query, topk, title_boost=1):
+def search_section_index(es, index, query, topk):
     res = es.search(
         {
             "query": {
-                "multi_match": {
-                    "query": query,
-                    "fields": ["section^{}".format(title_boost), "content"],
-                }
+                "multi_match": {"query": query, "fields": ["section", "content"],}
             },
             "size": topk,
         },
@@ -53,41 +47,46 @@ def search_section_index(es, index, query, topk, title_boost=1):
     return res
 
 
-def query_question(es, q, lan=None):
+def query_question(es, q, topk_sec=1, topk_doc=1, lan=None):
     if not lan:
         lan = detect_language(q)
-
-    topk_doc = 1
-    topk_sec = 1
-
-    res_doc = None
-    res_sec = None
 
     def helper(docindex, secindex):
         res_doc_txt = None
         res_sec_txt = None
         res_doc = search_document_index(es, docindex, q, topk_doc)["hits"]["hits"]
         if len(res_doc):
-            res_doc_txt = res_doc[0]["_source"]
+            res_doc_txt = [doc["_source"] for doc in res_doc]
         res_sec = search_section_index(es, secindex, q, topk_sec)["hits"]["hits"]
         if len(res_sec):
-            res_sec_txt = res_sec[0]["_source"]
+            res_sec_txt = [sec["_source"] for sec in res_sec]
         return res_doc_txt, res_sec_txt
 
     def formatter(res_doc_txt, res_sec_txt):
         formatted_data = {}
 
         if res_sec_txt:
-            formatted_data["sec_text"] = res_sec_txt.get("content")
-            formatted_data["sec_url"] = res_sec_txt.get("url")
+            res_sec_list = []
+            for sec in res_sec_txt:
+                formatted_sec = {}
+                formatted_sec["sec_text"] = sec.get("content")
+                formatted_sec["sec_url"] = sec.get("url")
+                res_sec_list.append(formatted_sec)
+            formatted_data["sec_results"] = res_sec_list
         if res_doc_txt:
-            doc_text = []
-            for topic in json.loads(res_doc_txt.get("content")).keys():
-                doc_text.extend(
-                    json.loads(res_doc_txt.get("content")).get(topic).get("plaintext")
-                )
-            formatted_data["doc_url"] = res_doc_txt.get("url")
-            formatted_data["doc_text"] = res_doc_txt.get("doc_text")
+            res_doc_list = []
+            for doc in res_doc_txt:
+                doc_text = []
+                formatted_doc = {}
+                for topic in json.loads(doc.get("content")).keys():
+                    doc_text.extend(
+                        json.loads(doc.get("content")).get(topic).get("plaintext")
+                    )
+                formatted_doc["doc_url"] = doc.get("url")
+                formatted_doc["doc_text"] = doc_text
+                res_doc_list.append(formatted_doc)
+
+            formatted_data["doc_results"] = res_doc_list
 
         return formatted_data
 
