@@ -26,9 +26,9 @@ def excel_to_page(excel_filename):
 
         for question in questions:
             page_contents[question] = {
-                'plaintext': [answer],
-                'URL': 'MSSS_' + str(page_number),
-                'html': 'no html',
+                "plaintext": [answer],
+                "URL": "MSSS_" + str(page_number),
+                "html": "no html",
             }
 
     return page_contents
