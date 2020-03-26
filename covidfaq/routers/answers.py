@@ -60,10 +60,14 @@ def answers(request: Request, question: str):
     if elastic_results:
         elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
         if elastic_results_formatted.sec_results:
-            sections = SecResults.parse_obj(elastic_results_formatted.sec_results)
+
+            list_of_sec_results = elastic_results_formatted.sec_results
 
             # rerank
-            sections_texts = [section.get("sec_text") for section in sections]
+            sections_texts = [
+                ", ".join(section.sec_text) for section in list_of_sec_results
+            ]
+
             reranked_sections = re_rank(question, sections_texts)
             answers = [reranked_sections[0]]
 
