@@ -7,6 +7,7 @@ from pydantic import BaseModel
 from structlog import get_logger
 
 from .. import config
+from ..rerank.predict import re_rank
 from ..search.search_index import query_question
 
 router = APIRouter()
@@ -41,11 +42,11 @@ def answers(request: Request, question: str):
     if language:
         formatted_language = format_language(language)
         elastic_results = query_question(
-            es, question, topk_sec=1, topk_doc=1, lan=formatted_language
+            es, question, topk_sec=5, topk_doc=5, lan=formatted_language
         )
 
     else:
-        elastic_results = query_question(es, question, topk_sec=1, topk_doc=1)
+        elastic_results = query_question(es, question, topk_sec=5, topk_doc=5)
 
     log.info(
         "elastic_results",
@@ -59,9 +60,12 @@ def answers(request: Request, question: str):
     if elastic_results:
         elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
         if elastic_results_formatted.sec_results:
-            answers = SecResults.parse_obj(
-                elastic_results_formatted.sec_results[0]
-            ).sec_text
+            sections = SecResults.parse_obj(elastic_results_formatted.sec_results)
+
+            # rerank
+            sections_texts = [section.get("sec_text") for section in sections]
+            reranked_sections = re_rank(question, sections_texts)
+            answers = reranked_sections[0]
 
     return {"answers": answers}
 

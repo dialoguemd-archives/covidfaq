@@ -38,4 +38,4 @@ def re_rank(question, sections, topk=1):
     # question = "When will we be able to go for team beers?"
     # sections = [s1, s2, s3]
 
-    return ranked_sections
+    return ranked_sections[topk]
