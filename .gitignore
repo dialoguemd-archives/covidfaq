@@ -8,3 +8,5 @@
 !**/covidfaq/scrape/MSSS*
 !**/covidfaq/scrape/dialogue*
 !**/covidfaq/scrape/PDF*
+**/rerank/model.zip
+**/rerank/*.ckpt

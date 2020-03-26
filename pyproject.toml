@@ -20,6 +20,7 @@ coleo = "^0.1.0"
 pyyaml = "^5.3.1"
 transformers = "^2.6.0"
 pytorch-lightning = "^0.7.1"
+boto3 = "^1.12.29"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"

@@ -65,7 +65,7 @@ def answers(request: Request, question: str):
             # rerank
             sections_texts = [section.get("sec_text") for section in sections]
             reranked_sections = re_rank(question, sections_texts)
-            answers = reranked_sections[0]
+            answers = [reranked_sections[0]]
 
     return {"answers": answers}
 

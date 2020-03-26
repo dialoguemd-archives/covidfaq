@@ -19,7 +19,6 @@ model_str = "bert-base-uncased"
 tokenizer = BertTokenizer.from_pretrained(model_str)
 bert_question = BertModel.from_pretrained(model_str)
 bert_paragraph = BertModel.from_pretrained(model_str)
-
 ## Hyperparams that wont likely change in the future
 num_dat_global = 100
 batch_size_global = 4
@@ -506,6 +505,7 @@ class RetriverTrainer(pl.LightningModule):
 
 
 if __name__ == "__main__":
+
     encoder_question = BertEncoder(bert_question, max_question_len_global)
     encoder_paragarph = BertEncoder(bert_paragraph, max_paragraph_len_global)
     ret = Retriver(encoder_question, encoder_paragarph, tokenizer)
