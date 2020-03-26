@@ -82,12 +82,3 @@ def get_es_client():
         use_ssl=True,
         verify_certs=True,
     )
-
-
-@lru_cache()
-def load_re_rank_model_en():
-    return
-
-
-def re_rank(model, question, sections_list):
-    return

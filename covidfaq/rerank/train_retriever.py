@@ -5,14 +5,13 @@ from copy import deepcopy
 from typing import List
 
 import numpy as np
-from sklearn.metrics import accuracy_score
-from tqdm.auto import tqdm
-
 import pytorch_lightning as pl
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from sklearn.metrics import accuracy_score
 from torch.utils.data import DataLoader, TensorDataset
+from tqdm.auto import tqdm
 from transformers import BertModel, BertTokenizer
 
 ## Berts

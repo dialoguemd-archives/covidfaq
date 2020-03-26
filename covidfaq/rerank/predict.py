@@ -1,9 +1,13 @@
+from functools import lru_cache
+
 import torch
-from train_retriever import BertEncoder, Retriver, RetriverTrainer
 from transformers import BertModel, BertTokenizer
 
-if __name__ == "__main__":
+from train_retriever import BertEncoder, Retriver, RetriverTrainer
 
+
+@lru_cache()
+def load_model():
     ## Berts
     model_str = "bert-base-uncased"
     tokenizer = BertTokenizer.from_pretrained(model_str)
@@ -16,12 +20,22 @@ if __name__ == "__main__":
     encoder_paragarph = BertEncoder(bert_paragraph, max_paragraph_len_global)
     ret = Retriver(encoder_question, encoder_paragarph, tokenizer)
 
-    ret_trainee = RetriverTrainer(ret)
+    model = RetriverTrainer(ret)
     tmp = torch.load("__temp_weight_ddp_end.ckpt")
+    model.load_state_dict(tmp["state_dict"])
 
-    s1 = "dialogue rules!"
-    s2 = "covid sucks!"
-    s3 = "We <3 chatbots"
-    q = "When will we be able to go for team beers?"
-    ret_trainee.load_state_dict(tmp["state_dict"])
-    predictions = ret_trainee.retriever.predict(q, [s1, s2, s3])
+    return model
+
+
+def re_rank(question, sections, topk=1):
+
+    model = load_model()
+    ranked_sections = model.retriever.predict(question, sections)
+
+    # s1 = "dialogue rules!"
+    # s2 = "covid sucks!"
+    # s3 = "We <3 chatbots"
+    # question = "When will we be able to go for team beers?"
+    # sections = [s1, s2, s3]
+
+    return ranked_sections

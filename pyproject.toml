@@ -18,6 +18,8 @@ spacy = "^2.2.4"
 structlog = "^20.1.0"
 coleo = "^0.1.0"
 pyyaml = "^5.3.1"
+transformers = "^2.6.0"
+pytorch-lightning = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
