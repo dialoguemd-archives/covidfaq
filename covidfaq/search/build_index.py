@@ -97,13 +97,7 @@ def fill_index(es, files, docindex, secindex):
 
 
 def get_es_hostname():
-    ci_git_tag = os.environ.get("CIRCLE_GIT_TAG")
-
-    return (
-        "es-covidfaq.dialoguecorp.com"
-        if ci_git_tag
-        else "es-covidfaq.dev.dialoguecorp.com"
-    )
+    return os.environ.get("elastic_search_host", "es-covidfaq.dev.dialoguecorp.com")
 
 
 def run():
