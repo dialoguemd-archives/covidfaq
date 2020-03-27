@@ -10,9 +10,9 @@ from transformers import BertModel, BertTokenizer
 def load_model():
     ## Berts
     model_str = "bert-base-uncased"
-    tokenizer = BertTokenizer.from_pretrained(model_str)
-    bert_question = BertModel.from_pretrained(model_str)
-    bert_paragraph = BertModel.from_pretrained(model_str)
+    tokenizer = BertTokenizer.from_pretrained('bert.tokenizer')
+    bert_question = BertModel() #.from_pretrained(model_str)
+    bert_paragraph = BertModel() #.from_pretrained(model_str)
     max_question_len_global = 30
     max_paragraph_len_global = 512
 
