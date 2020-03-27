@@ -1,0 +1,13 @@
+
+We are running this application on MILA cluster. We have just modified the code to run on a web application for a POC. Therefore we have hardcoded a few things. 
+
+1. Set up https://github.com/google-research/language/tree/master/language/question_answering/bert_joint
+2. Copy app.py and templates in the parent language folder
+3. Update IP address in app.py
+4. Update all other parameters like model folder, output folder, path to vocab.txt, config.json, predict.json
+
+
+The application has three options:
+1. URL: We scrape the contents of the website and the model predicts the long and short answers based on the webpage
+2. Text : You can provide any text as input. Expected format is "xPx your text here xxPx" for every paragraph in the text. We are using xPx as the starting delimiter for a paragraph and xxPx as the ending delimiter.
+3. Default : This reads input from four documents: doc1.txt, doc2.txt, doc3.txt, doc4.txt. All the documents should have text in the format described above. We have some sample docs in those files. The model predicts which document has the answer long with the right answer.

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>QA bot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+<script>
+      function showSource(){
+        var x = document.getElementById("mySelect").value;
+        var text = document.getElementById("text").value;
+        if (x=='link'){
+          alert("The data will be read from the link with url: "+text)
+        }else if(x=='text'){
+          alert("The provided text will be used as a source")
+        }else{
+          alert("Default selected")
+        }
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+        
+        var x = document.getElementById("mySelect").value;
+        var text = document.getElementById("text").value;
+        socket.emit( 'my event', {
+            question : 'source',
+            source_type : x,
+            source : text
+          } ) 
+        document.getElementById("header").style.display="None"
+        document.getElementById("ChatForm").style.display="block"
+      }
+</script> 
+ </head>
+  <body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Answer-bot</h1>      
+    </div>     
+               
+  <div class="jumbotron text-center" id="header">
+    <h1>Provide articles!</h1>
+    <p> Url: Enter a link, Text: Enter a text block, Default: Read from the test file</p> 
+      <div class="form-inline">
+        <div class="form-group">
+          <select class="center-block" id="mySelect">
+            <option value="link">Url</option>
+            <option value="text">Text</option>
+            <option>Default</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="text" placeholder="">
+        </div>
+        <button class="btn btn-default" onclick="showSource()">Go!</button>
+      </div>  
+
+
+    </div>
+
+  <div class="message_holder"></div>
+      
+    <form action="" method="POST" id="ChatForm" style="display:none">
+      <input type="text" class="username" placeholder="User Name"/>
+      <input type="text" class="question" placeholder="Question"/>
+      <input type="submit" placeholder="Submit"/>
+    </form>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript">
+      var oldQuestion = ''
+      var socket = io.connect('http://' + document.domain + ':' + location.port);
+      socket.on( 'connect', function() {
+        socket.emit( 'my event', {
+          question: 'User connected'
+        } )
+var form = $( 'form' ).on( 'submit', function( e ) {
+          e.preventDefault()
+          let user_name = $( 'input.username' ).val()
+          let user_input = $( 'input.question' ).val()
+          socket.emit( 'my event', {
+            user_name : user_name,
+            question : user_input,
+            question_old : oldQuestion
+          } )
+          $( 'input.question' ).val( '' ).focus()
+        } )
+      } )
+      socket.on( 'my response', function( msg ) {
+        console.log( msg )
+        if( typeof msg.user_name !== 'undefined' ) {
+          $( 'header' ).remove()
+          $( 'div.message_holder' ).append( '<div><b style="color: #000">'+msg.user_name+": "+'</b> '+msg.question+'</div>' )
+          $( 'div.message_holder' ).append( '<div><b style="color: #000">'+"Bot: "+'</b> '+msg.answer+'</div>' )
+          oldQuestion = msg.question +' '+ msg.answer + '. '
+        }
+      })
+    </script>
+
+  </body>
+  </html>
