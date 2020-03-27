@@ -29,7 +29,10 @@ workflows:
           context: org-global-v2
       - python/test:
           name: test
+          before_tests_steps:
+            - run: poetry run python -m spacy download en_core_web_md && python run -m spacy link en_core_web_md en
           context: org-global-v2
+          
       - release/release:
           name: release
           requires:
