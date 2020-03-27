@@ -103,7 +103,7 @@ def get_es_hostname():
 def run():
 
     es = Elasticsearch(
-        [{"host": get_es_hostname(), "port": 443}], use_ssl=True, verify_certs=True,
+        [{"host": get_es_hostname(), "port": 443}], use_ssl=True, verify_certs=True
     )
     if not es.ping():
         raise ValueError(

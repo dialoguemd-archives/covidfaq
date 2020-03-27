@@ -4,6 +4,8 @@ import os
 from copy import deepcopy
 from typing import List
 
+from tqdm.auto import tqdm
+
 import numpy as np
 import pytorch_lightning as pl
 import torch
@@ -11,7 +13,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.metrics import accuracy_score
 from torch.utils.data import DataLoader, TensorDataset
-from tqdm.auto import tqdm
 from transformers import BertModel, BertTokenizer
 
 ## Berts
@@ -33,14 +34,7 @@ assert data_folder_name[-1] == "/"
 
 
 def remove_html_toks(s):
-    html_toks = [
-        "<P>",
-        "</P>",
-        "<H1>",
-        "</H1>",
-        "</H2>",
-        "</H2>",
-    ]
+    html_toks = ["<P>", "</P>", "<H1>", "</H1>", "</H2>", "</H2>"]
     for i in html_toks:
         s = s.replace(i, "")
     return s

@@ -2,15 +2,8 @@ from functools import lru_cache
 
 # import boto3
 import torch
+from covidfaq.rerank.train_retriever import BertEncoder, Retriver, RetriverTrainer
 from transformers import BertModel, BertTokenizer
-
-from covidfaq.rerank.train_retriever import (
-    BertEncoder,
-    Retriver,
-    RetriverTrainer,
-)
-
-# from zipfile import ZipFile
 
 
 @lru_cache()
@@ -28,16 +21,6 @@ def load_model():
     ret = Retriver(encoder_question, encoder_paragarph, tokenizer)
 
     model = RetriverTrainer(ret)
-
-    # s3 = boto3.client("s3")
-    # s3.download_file(
-    #     "coviddata.dialoguecorp.com",
-    #     "mirko/bert_rerank_model__for_testing.zip",
-    #     "covidfaq/rerank/model.zip",
-    # )
-
-    # with ZipFile("covidfaq/rerank/model.zip", "r") as zip:
-    #     zip.extractall()
 
     model_ckpt = torch.load(
         "covidfaq/rerank/__temp_weight_ddp_end.ckpt", map_location=torch.device("cpu")

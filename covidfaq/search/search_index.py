@@ -3,12 +3,13 @@
 
 import json
 
-import pandas as pd
-import spacy
 import structlog
 from elasticsearch import Elasticsearch
-from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
+
+import pandas as pd
+import spacy
+from spacy_langdetect import LanguageDetector
 
 from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 
@@ -38,7 +39,7 @@ def search_section_index(es, index, query, topk):
     res = es.search(
         {
             "query": {
-                "multi_match": {"query": query, "fields": ["section", "content"],}
+                "multi_match": {"query": query, "fields": ["section", "content"]}
             },
             "size": topk,
         },

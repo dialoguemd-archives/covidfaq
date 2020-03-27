@@ -2,9 +2,10 @@ from functools import lru_cache
 from typing import List, Optional
 
 from elasticsearch import Elasticsearch
-from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
+
+from fastapi import APIRouter, Request
 
 from .. import config
 from ..rerank.predict import re_rank

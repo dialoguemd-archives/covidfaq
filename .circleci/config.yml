@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   base: dialogue/base@1.8.0
-  docker: dialogue/docker@1.6.1
+  docker: dialogue/docker@dev:e666c13
   app: dialogue/helm-app@1.0.2
   job: dialogue/helm-job@1.2.1
   k8s: dialogue/k8s@3.0.2
@@ -18,34 +18,34 @@ aliases:
 workflows:
   ci:
     jobs:
-      - python/pylama:
-          name: pylama
-          context: org-global-v2
-      - python/black:
-          name: black
-          context: org-global-v2
-      - python/isort:
-          name: isort
-          context: org-global-v2
-      - release/release:
-          name: release
-          requires:
-            - pylama
-            - black
-            - isort
-          context: org-global-v2
-      - app/build:
-          name: build-api
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      # - docker/build_image:
-      #     name: build-image
+      # - python/pylama:
+      #     name: pylama
+      #     context: org-global-v2
+      # - python/black:
+      #     name: black
+      #     context: org-global-v2
+      # - python/isort:
+      #     name: isort
+      #     context: org-global-v2
+      # - release/release:
+      #     name: release
+      #     requires:
+      #       - pylama
+      #       - black
+      #       - isort
+      #     context: org-global-v2
+      # - app/build:
+      #     name: build-api
       #     filters:
       #       branches:
       #         ignore: master
       #     context: org-global-v2
+      - docker/build_image:
+          name: build-image
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
       # - docker/push_tags:
       #     name: push-image-tags
       #     requires:
@@ -63,38 +63,38 @@ workflows:
       #      branches:
       #        ignore: master
       #     context: org-global-v2
-      - deploy-es:
-          name: deploy-es-dev-ca2
-          place: ca2
-          filters:
-           branches:
-             ignore: master
-          context: org-global-v2
-      - job/deploy:
-          name: deploy-scraper-dev-ca2
-          stage: dev
-          place: ca2
-          wait: false
-          requires:
-            - pylama
-            - deploy-es-dev-ca2
-            - build-api
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      - app/deploy:
-          name: deploy-api-dev-ca2
-          stage: dev
-          place: ca2
-          requires:
-            - pylama
-            - deploy-es-dev-ca2
-            - build-api
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
+      # - deploy-es:
+      #     name: deploy-es-dev-ca2
+      #     place: ca2
+      #     filters:
+      #      branches:
+      #        ignore: master
+      #     context: org-global-v2
+      # - job/deploy:
+      #     name: deploy-scraper-dev-ca2
+      #     stage: dev
+      #     place: ca2
+      #     wait: false
+      #     requires:
+      #       - pylama
+      #       - deploy-es-dev-ca2
+      #       - build-api
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
+      # - app/deploy:
+      #     name: deploy-api-dev-ca2
+      #     stage: dev
+      #     place: ca2
+      #     requires:
+      #       - pylama
+      #       - deploy-es-dev-ca2
+      #       - build-api
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
   release:
     jobs:
       - app/build:

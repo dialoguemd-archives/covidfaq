@@ -8,6 +8,7 @@ RUN apt-get update \
 # permit installing private packages
 
 ARG GEMFURY_TOKEN
+
 ENV PIP_EXTRA_INDEX_URL https://pypi.fury.io/${GEMFURY_TOKEN}/dialogue/
 
 # install poetry
@@ -25,7 +26,8 @@ RUN poetry install -vvv --no-dev
 
 FROM base as final
 
-# permit http service
+ARG AWS_ACCESS_KEY_ID
+ARG AWS_SECRET_ACCESS_KEY
 
 ENV PORT 80
 EXPOSE 80
@@ -34,6 +36,9 @@ WORKDIR /app
 COPY --from=builder /usr/local /usr/local
 RUN python -m spacy download en_core_web_md && \
     python -m spacy link en_core_web_md en
+
 COPY . .
+
+RUN python scripts/fetch_model.py
 
 ENTRYPOINT exec hypercorn covidfaq.main:app --bind 0.0.0.0:${PORT}

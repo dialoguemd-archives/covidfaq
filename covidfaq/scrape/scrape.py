@@ -6,10 +6,11 @@ from collections import defaultdict
 from datetime import datetime
 from urllib.parse import urljoin
 
-import bs4
-import coleo
 import requests
 import structlog
+
+import bs4
+import coleo
 from bs4 import BeautifulSoup
 from coleo import Argument, ConfigFile, auto_cli, default
 
@@ -408,12 +409,7 @@ def run():
                 urlinfo = {}
             urlinfo.setdefault("urlkey", str(i))
             urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
-            info = {
-                **sitecfg["info"],
-                **urlinfo,
-                "time": now,
-                "url": url,
-            }
+            info = {**sitecfg["info"], **urlinfo, "time": now, "url": url}
             results += extract_sections(url, info, sitecfg)
 
     if format == "old":

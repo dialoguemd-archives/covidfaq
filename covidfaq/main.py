@@ -1,6 +1,7 @@
+from structlog import get_logger
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from structlog import get_logger
 
 from . import config, routers
 
@@ -9,7 +10,7 @@ app.include_router(routers.health.router)
 app.include_router(routers.answers.router)
 
 app.add_middleware(
-    CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"],
+    CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"]
 )
 
 

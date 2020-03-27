@@ -1,5 +1,4 @@
 import coleo
-
 from covidfaq.scrape import scrape
 from covidfaq.search import build_index
 
