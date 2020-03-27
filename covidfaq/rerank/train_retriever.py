@@ -15,9 +15,9 @@ from tqdm.auto import tqdm
 from transformers import BertModel, BertTokenizer
 
 ## Berts
-tokenizer = BertTokenizer.from_pretrained("bert.tokenizer")
-bert_question = BertModel.from_pretrained("cached_model")
-bert_paragraph = BertModel.from_pretrained("cached_model")
+tokenizer = BertTokenizer.from_pretrained("covidfaq/rerank/cached_tokenizer/")
+bert_question = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
+bert_paragraph = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
 ## Hyperparams that wont likely change in the future
 num_dat_global = 100
 batch_size_global = 4
