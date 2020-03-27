@@ -23,7 +23,7 @@ def load_model():
     model = RetriverTrainer(ret)
 
     model_ckpt = torch.load(
-        "covidfaq/rerank/__temp_weight_ddp_end.ckpt", map_location=torch.device("cpu")
+        "covidfaq/rerank/model.ckpt", map_location=torch.device("cpu")
     )
     model.load_state_dict(model_ckpt["state_dict"])
 

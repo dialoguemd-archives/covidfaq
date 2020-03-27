@@ -26,9 +26,6 @@ RUN poetry install -vvv --no-dev
 
 FROM base as final
 
-ARG AWS_ACCESS_KEY_ID
-ARG AWS_SECRET_ACCESS_KEY
-
 ENV PORT 80
 EXPOSE 80
 WORKDIR /app
@@ -38,7 +35,5 @@ RUN python -m spacy download en_core_web_md && \
     python -m spacy link en_core_web_md en
 
 COPY . .
-
-RUN python scripts/fetch_model.py
 
 ENTRYPOINT exec hypercorn covidfaq.main:app --bind 0.0.0.0:${PORT}
