@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   base: dialogue/base@1.8.0
-  docker: dialogue/docker@dev:e666c13
+  docker: dialogue/docker@dev:f758310
   app: dialogue/helm-app@1.0.2
   job: dialogue/helm-job@1.2.1
   k8s: dialogue/k8s@3.0.2
