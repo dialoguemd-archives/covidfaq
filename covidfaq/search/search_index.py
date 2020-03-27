@@ -3,13 +3,12 @@
 
 import json
 
-import structlog
-from elasticsearch import Elasticsearch
-from tqdm.auto import tqdm
-
 import pandas as pd
 import spacy
+import structlog
+from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
+from tqdm.auto import tqdm
 
 from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
 

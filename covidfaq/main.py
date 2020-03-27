@@ -1,7 +1,6 @@
-from structlog import get_logger
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from structlog import get_logger
 
 from . import config, routers
 

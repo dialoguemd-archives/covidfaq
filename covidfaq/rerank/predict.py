@@ -2,8 +2,9 @@ from functools import lru_cache
 
 # import boto3
 import torch
-from covidfaq.rerank.train_retriever import BertEncoder, Retriver, RetriverTrainer
 from transformers import BertModel, BertTokenizer
+
+from covidfaq.rerank.train_retriever import BertEncoder, Retriver, RetriverTrainer
 
 
 @lru_cache()

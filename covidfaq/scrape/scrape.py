@@ -6,11 +6,10 @@ from collections import defaultdict
 from datetime import datetime
 from urllib.parse import urljoin
 
-import requests
-import structlog
-
 import bs4
 import coleo
+import requests
+import structlog
 from bs4 import BeautifulSoup
 from coleo import Argument, ConfigFile, auto_cli, default
 

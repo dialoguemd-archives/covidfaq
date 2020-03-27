@@ -4,8 +4,6 @@ import os
 from copy import deepcopy
 from typing import List
 
-from tqdm.auto import tqdm
-
 import numpy as np
 import pytorch_lightning as pl
 import torch
@@ -13,13 +11,13 @@ import torch.nn as nn
 import torch.nn.functional as F
 from sklearn.metrics import accuracy_score
 from torch.utils.data import DataLoader, TensorDataset
+from tqdm.auto import tqdm
 from transformers import BertModel, BertTokenizer
 
 ## Berts
-model_str = "bert-base-uncased"
-tokenizer = BertTokenizer.from_pretrained(model_str)
-bert_question = BertModel.from_pretrained(model_str)
-bert_paragraph = BertModel.from_pretrained(model_str)
+tokenizer = BertTokenizer.from_pretrained("bert.tokenizer")
+bert_question = BertModel.from_pretrained("cached_model")
+bert_paragraph = BertModel.from_pretrained("cached_model")
 ## Hyperparams that wont likely change in the future
 num_dat_global = 100
 batch_size_global = 4
