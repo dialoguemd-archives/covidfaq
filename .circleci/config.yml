@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   base: dialogue/base@1.8.0
-  docker: dialogue/docker@1.6.1
+  docker: dialogue/docker@dev:43b8a45
   app: dialogue/helm-app@1.0.2
   job: dialogue/helm-job@1.2.1
   k8s: dialogue/k8s@3.0.2
@@ -18,24 +18,26 @@ aliases:
 workflows:
   ci:
     jobs:
-      - python/pylama:
-          name: pylama
-          context: org-global-v2
-      - python/black:
-          name: black
-          context: org-global-v2
-      - python/isort:
-          name: isort
-          context: org-global-v2
-      - release/release:
-          name: release
-          requires:
-            - pylama
-            - black
-            - isort
-          context: org-global-v2
-      - app/build:
+      # - python/pylama:
+      #     name: pylama
+      #     context: org-global-v2
+      # - python/black:
+      #     name: black
+      #     context: org-global-v2
+      # - python/isort:
+      #     name: isort
+      #     context: org-global-v2
+      # - release/release:
+      #     name: release
+      #     requires:
+      #       - pylama
+      #       - black
+      #       - isort
+      #     context: org-global-v2
+      - docker/build_image:
           name: build-api
+          before_build_steps:
+            - git-lfs
           filters:
             branches:
               ignore: master
@@ -63,38 +65,38 @@ workflows:
       #      branches:
       #        ignore: master
       #     context: org-global-v2
-      - deploy-es:
-          name: deploy-es-dev-ca2
-          place: ca2
-          filters:
-           branches:
-             ignore: master
-          context: org-global-v2
-      - job/deploy:
-          name: deploy-scraper-dev-ca2
-          stage: dev
-          place: ca2
-          wait: false
-          requires:
-            - pylama
-            - deploy-es-dev-ca2
-            - build-api
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
-      - app/deploy:
-          name: deploy-api-dev-ca2
-          stage: dev
-          place: ca2
-          requires:
-            - pylama
-            - deploy-es-dev-ca2
-            - build-api
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
+      # - deploy-es:
+      #     name: deploy-es-dev-ca2
+      #     place: ca2
+      #     filters:
+      #      branches:
+      #        ignore: master
+      #     context: org-global-v2
+      # - job/deploy:
+      #     name: deploy-scraper-dev-ca2
+      #     stage: dev
+      #     place: ca2
+      #     wait: false
+      #     requires:
+      #       - pylama
+      #       - deploy-es-dev-ca2
+      #       - build-api
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
+      # - app/deploy:
+      #     name: deploy-api-dev-ca2
+      #     stage: dev
+      #     place: ca2
+      #     requires:
+      #       - pylama
+      #       - deploy-es-dev-ca2
+      #       - build-api
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
   release:
     jobs:
       - app/build:
@@ -314,3 +316,17 @@ commands:
             log "install plugins"
             helm3 plugin install https://github.com/futuresimple/helm-secrets
             helm3 plugin install https://github.com/thomastaylor312/helm-namespace
+
+  git-lfs:
+    steps:
+      - run:
+          name: Install Git LFS
+          command: |
+            curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash
+            apt-get update
+            apt-get install -y git-lfs openssh-client
+            git lfs install
+            # mkdir -p ~/.ssh
+            # ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+            # ssh git@github.com git-lfs-authenticate "${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}" download
+            git lfs pull
