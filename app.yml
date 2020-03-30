@@ -25,6 +25,7 @@ nodeSelector:
 dependencies:
   elasticsearch:
     version: 7.6.1
+    repo: "@elastic"
     settings:
       clusterName: faq
       replicas: 2
