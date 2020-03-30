@@ -106,9 +106,7 @@ def get_es_port():
 
 def run():
 
-    es = Elasticsearch(
-        [{"host": get_es_hostname(), "port": get_es_port}]
-    )
+    es = Elasticsearch([{"host": get_es_hostname(), "port": get_es_port}])
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"
