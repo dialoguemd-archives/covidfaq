@@ -74,6 +74,14 @@ def answers(request: Request, question: str):
             reranked_sections = re_rank(
                 tokenizer, bert_question, bert_paragraph, question, sections_texts
             )
+
+            log.info(
+                "reranked_sections",
+                reranked_sections=reranked_sections,
+                question=question,
+                language=language,
+            )
+
             answers = [reranked_sections[0]]
 
     return {"answers": answers}
