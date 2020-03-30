@@ -99,13 +99,17 @@ def fill_index(es, files, docindex, secindex):
 def get_es_hostname():
     return os.environ.get("elastic_search_host", "faq-master.covidfaq")
 
+
 def get_es_port():
     return os.environ.get("elastic_search_port", 9200)
+
 
 def run():
 
     es = Elasticsearch(
-        [{"host": get_es_hostname(), "port": get_es_port}], use_ssl=True, verify_certs=True
+        [{"host": get_es_hostname(), "port": get_es_port}],
+        use_ssl=True,
+        verify_certs=True,
     )
     if not es.ping():
         raise ValueError(
