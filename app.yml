@@ -23,7 +23,7 @@ environments:
       elastic_search_host: es-covidfaq.dialoguecorp.com
 
 scale:
-  vertical: large
+  vertical: x-large.mem
   horizontal: 2-4
   memThreshold: false
 tolerations:

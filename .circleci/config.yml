@@ -78,6 +78,8 @@ workflows:
     jobs:
       - app/build:
           name: build-api
+          before_build_steps:
+            - utils/git_lfs
           filters:
             tags:
               only: /^v.*/
