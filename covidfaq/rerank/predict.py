@@ -2,18 +2,17 @@ from functools import lru_cache
 
 # import boto3
 import torch
-from transformers import BertModel, BertTokenizer
 
 from covidfaq.rerank.train_retriever import BertEncoder, Retriver, RetriverTrainer
 
 
 @lru_cache()
-def load_model():
+def load_model(tokenizer, bert_question, bert_paragraph):
     ## Berts
-    model_str = "bert-base-uncased"
-    tokenizer = BertTokenizer.from_pretrained(model_str)
-    bert_question = BertModel.from_pretrained(model_str)
-    bert_paragraph = BertModel.from_pretrained(model_str)
+
+    # tokenizer = BertTokenizer.from_pretrained(model_str)
+    # bert_question = BertModel.from_pretrained(model_str)
+    # bert_paragraph = BertModel.from_pretrained(model_str)
     max_question_len_global = 30
     max_paragraph_len_global = 512
 
@@ -31,9 +30,9 @@ def load_model():
     return model
 
 
-def re_rank(question, sections, topk=1):
+def re_rank(tokenizer, bert_question, bert_paragraph, question, sections, topk=1):
 
-    model = load_model()
+    model = load_model(tokenizer, bert_question, bert_paragraph)
     ranked_sections = model.retriever.predict(question, sections)
 
     # s1 = "dialogue rules!"

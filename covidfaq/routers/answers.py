@@ -1,14 +1,12 @@
-from functools import lru_cache
 from typing import List, Optional
 
-from elasticsearch import Elasticsearch
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
 
-from .. import config
 from ..rerank.predict import re_rank
 from ..search.search_index import query_question
+from ..utils import BertModels, ElasticSearchClient
 
 router = APIRouter()
 log = get_logger()
@@ -37,7 +35,12 @@ class ElasticResults(BaseModel):
 def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
-    es = get_es_client()
+    es = ElasticSearchClient().es_client
+    tokenizer, bert_question, bert_paragraph = (
+        BertModels().tokenizer,
+        BertModels().bert_question,
+        BertModels().bert_paragraph,
+    )
 
     if language:
         formatted_language = format_language(language)
@@ -68,7 +71,9 @@ def answers(request: Request, question: str):
                 ", ".join(section.sec_text) for section in list_of_sec_results
             ]
 
-            reranked_sections = re_rank(question, sections_texts)
+            reranked_sections = re_rank(
+                tokenizer, bert_question, bert_paragraph, question, sections_texts
+            )
             answers = [reranked_sections[0]]
 
     return {"answers": answers}
@@ -79,14 +84,3 @@ def format_language(language):
         return "en"
     elif "fr" in language.lower():
         return "fr"
-
-
-@lru_cache()
-def get_es_client():
-    conf = config.get()
-
-    return Elasticsearch(
-        [{"host": conf.elastic_search_host, "port": 443}],
-        use_ssl=True,
-        verify_certs=True,
-    )

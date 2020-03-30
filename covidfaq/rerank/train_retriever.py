@@ -14,10 +14,6 @@ from torch.utils.data import DataLoader, TensorDataset
 from tqdm.auto import tqdm
 from transformers import BertModel, BertTokenizer
 
-## Berts
-tokenizer = BertTokenizer.from_pretrained("covidfaq/rerank/cached_tokenizer/")
-bert_question = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
-bert_paragraph = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
 ## Hyperparams that wont likely change in the future
 num_dat_global = 100
 batch_size_global = 4
@@ -39,6 +35,7 @@ def remove_html_toks(s):
 
 
 def process_natq_clean(
+    tokenizer,
     folder_name=data_folder_name,
     input_file=natq_json_file,
     output_train_file=train_set_file_name,
@@ -167,6 +164,7 @@ def process_natq_clean(
 
 
 def generate_natq_clean_dataloaders(
+    tokenizer,
     folder_path=data_folder_name,
     input_train_file=train_set_file_name,
     input_dev_file=dev_set_file_name,
@@ -179,7 +177,7 @@ def generate_natq_clean_dataloaders(
         not os.path.exists(folder_path + input_dev_file)
     ):
         process_natq_clean(
-            folder_path, input_json_file, input_train_file, input_dev_file
+            tokenizer, folder_path, input_json_file, input_train_file, input_dev_file
         )
 
     train_set = torch.load(folder_path + input_train_file)
@@ -191,6 +189,7 @@ def generate_natq_clean_dataloaders(
 
 
 def generate_fake_dataloaders(
+    tokenizer,
     num_dat=num_dat_global,
     batch_size=batch_size_global,
     max_question_len=max_question_len_global,
@@ -240,8 +239,6 @@ def generate_fake_dataloaders(
         DataLoader(dataset_dev, batch_size=batch_size),
     )
 
-
-train_dataloader, dev_dataloader = generate_fake_dataloaders()
 
 ## nn.Module classes
 
@@ -481,10 +478,10 @@ class RetriverTrainer(pl.LightningModule):
         return torch.optim.AdamW([p for p in self.parameters() if p.requires_grad])
 
     def train_dataloader(self):
-        return train_dataloader
+        return get_dataloaders(tokenizer)[0]
 
     def val_dataloader(self):
-        return dev_dataloader
+        return get_dataloaders(tokenizer)[1]
 
     def on_post_performance_check(self):
         print(
@@ -496,7 +493,18 @@ class RetriverTrainer(pl.LightningModule):
         )
 
 
+def get_dataloaders(tokenizer):
+    train_dataloader, dev_dataloader = generate_fake_dataloaders(tokenizer)
+
+    return train_dataloader, dev_dataloader
+
+
 if __name__ == "__main__":
+
+    ## Berts
+    tokenizer = BertTokenizer.from_pretrained("covidfaq/rerank/cached_tokenizer/")
+    bert_question = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
+    bert_paragraph = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
 
     encoder_question = BertEncoder(bert_question, max_question_len_global)
     encoder_paragarph = BertEncoder(bert_paragraph, max_paragraph_len_global)
