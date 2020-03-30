@@ -408,12 +408,7 @@ def run():
                 urlinfo = {}
             urlinfo.setdefault("urlkey", str(i))
             urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
-            info = {
-                **sitecfg["info"],
-                **urlinfo,
-                "time": now,
-                "url": url,
-            }
+            info = {**sitecfg["info"], **urlinfo, "time": now, "url": url}
             results += extract_sections(url, info, sitecfg)
 
     if format == "old":
