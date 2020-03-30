@@ -42,7 +42,7 @@ class BertModels:
         return getattr(self.instance, name)
 
 
-@lru_cache
+@lru_cache()
 def get_es_client():
     conf = config.get()
 
@@ -53,7 +53,7 @@ def get_es_client():
     )
 
 
-@lru_cache
+@lru_cache()
 def load_bert_models():
     tokenizer = BertTokenizer.from_pretrained("covidfaq/rerank/cached_tokenizer/")
     bert_question = BertModel.from_pretrained("covidfaq/rerank/cached_bert/")
