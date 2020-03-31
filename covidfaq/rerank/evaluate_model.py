@@ -6,12 +6,14 @@ import random
 from covidfaq.rerank.predict import load_model
 
 
-def make_qa_pairs(faq_path, n_wrong_answers=2):
+def make_qa_pairs(faq_path, n_wrong_answers=2, seed=42):
     with open(faq_path, 'r') as fh:
         faq  = json.load(fh)
 
+    random.seed(seed)
     all_questions = []
     all_answers = []
+
     for k,v in faq.items():
        if k != 'document_URL':
            all_questions.append(k)
@@ -40,16 +42,22 @@ if __name__ == '__main__':
     bert_question = BertModel.from_pretrained(model_name)
     bert_paragraph = BertModel.from_pretrained(model_name)
     tokenizer = BertTokenizer.from_pretrained(model_name)
-
     model = load_model(tokenizer, bert_question, bert_paragraph)
-    qa_pairs = make_qa_pairs(faq_path, n_wrong_answers=n_wrong_answers)
-    correct = 0
-    for question, answers in tqdm(qa_pairs):
 
-        out = model.retriever.predict(question, answers)
+    accs = []
+    # Run the test on 10 separate splits of the FAQ and average the results
+    for seed in range(10):
+        qa_pairs = make_qa_pairs(faq_path, n_wrong_answers=n_wrong_answers, seed=seed)
+        correct = 0
+        for question, answers in tqdm(qa_pairs):
 
-        if out[2][0] == 0: # answers[0] is always the correct answer
-            correct += 1
+            out = model.retriever.predict(question, answers)
 
-    print("Accuracy: %", correct / len(qa_pairs) * 100)
-    print("Guessing %: ", 1/(n_wrong_answers+1)*100)
+            if out[2][0] == 0: # answers[0] is always the correct answer
+                correct += 1
+
+        acc = correct / len(qa_pairs) * 100
+        accs.append(acc)
+        print("single run accuracy: %", acc)
+
+    print("Average model accuracy: ", sum(accs) / len(accs))
