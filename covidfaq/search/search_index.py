@@ -38,7 +38,7 @@ def search_section_index(es, index, query, topk):
     res = es.search(
         {
             "query": {
-                "multi_match": {"query": query, "fields": ["section", "content"],}
+                "multi_match": {"query": query, "fields": ["section", "content"]}
             },
             "size": topk,
         },

@@ -9,3 +9,4 @@
 !**/covidfaq/scrape/dialogue*
 !**/covidfaq/scrape/PDF*
 .coverage
+**/rerank/model.zip
