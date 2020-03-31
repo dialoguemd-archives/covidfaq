@@ -7,8 +7,11 @@ from covidfaq.rerank.train_retriever import BertEncoder, Retriver, RetriverTrain
 
 
 @lru_cache()
-def load_model(tokenizer, bert_question, bert_paragraph):
+def load_model(tokenizer, bert_question, bert_paragraph, model_path=None):
     ## Berts
+
+    if not model_path:
+        model_path = "covidfaq/rerank/model.ckpt"
 
     # tokenizer = BertTokenizer.from_pretrained(model_str)
     # bert_question = BertModel.from_pretrained(model_str)
@@ -23,7 +26,7 @@ def load_model(tokenizer, bert_question, bert_paragraph):
     model = RetriverTrainer(ret)
 
     model_ckpt = torch.load(
-        "covidfaq/rerank/model.ckpt", map_location=torch.device("cpu")
+        model_path, map_location=torch.device("cpu")
     )
     model.load_state_dict(model_ckpt["state_dict"])
 
