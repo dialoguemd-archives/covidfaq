@@ -25,9 +25,7 @@ def load_model(tokenizer, bert_question, bert_paragraph, model_path=None):
 
     model = RetriverTrainer(ret)
 
-    model_ckpt = torch.load(
-        model_path, map_location=torch.device("cpu")
-    )
+    model_ckpt = torch.load(model_path, map_location=torch.device("cpu"))
     model.load_state_dict(model_ckpt["state_dict"])
 
     return model

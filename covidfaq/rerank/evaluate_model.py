@@ -1,21 +1,22 @@
-from transformers import BertTokenizer, BertModel
 import json
-from tqdm import tqdm
 import random
+
+from tqdm import tqdm
+from transformers import BertModel, BertTokenizer
 
 from covidfaq.rerank.predict import load_model
 
 
 def make_qa_pairs(faq_path, n_wrong_answers=2):
-    with open(faq_path, 'r') as fh:
-        faq  = json.load(fh)
+    with open(faq_path, "r") as fh:
+        faq = json.load(fh)
 
     all_questions = []
     all_answers = []
-    for k,v in faq.items():
-       if k != 'document_URL':
-           all_questions.append(k)
-           all_answers.append("".join(faq[k]['plaintext']))
+    for k, v in faq.items():
+        if k != "document_URL":
+            all_questions.append(k)
+            all_answers.append("".join(faq[k]["plaintext"]))
 
     qa_pairs = []
     for idx, question in enumerate(all_questions):
@@ -31,11 +32,12 @@ def make_qa_pairs(faq_path, n_wrong_answers=2):
 
     return qa_pairs
 
-if __name__ == '__main__':
 
-    model_name = 'bert-base-uncased'
-    faq_path = 'covidfaq/scrape/quebec-en-faq.json'
-    n_wrong_answers = 2 # number of wrong answers added to the correct answer
+if __name__ == "__main__":
+
+    model_name = "bert-base-uncased"
+    faq_path = "covidfaq/scrape/quebec-en-faq.json"
+    n_wrong_answers = 2  # number of wrong answers added to the correct answer
 
     bert_question = BertModel.from_pretrained(model_name)
     bert_paragraph = BertModel.from_pretrained(model_name)
@@ -48,8 +50,8 @@ if __name__ == '__main__':
 
         out = model.retriever.predict(question, answers)
 
-        if out[2][0] == 0: # answers[0] is always the correct answer
+        if out[2][0] == 0:  # answers[0] is always the correct answer
             correct += 1
 
     print("Accuracy: %", correct / len(qa_pairs) * 100)
-    print("Guessing %: ", 1/(n_wrong_answers+1)*100)
+    print("Guessing %: ", 1 / (n_wrong_answers + 1) * 100)
