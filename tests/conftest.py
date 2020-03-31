@@ -40,3 +40,8 @@ def elastic_results():
             },
         ],
     }
+
+
+@fixture
+def ranked_results():
+    return [["sec string 3", "sec string 4"], ["sec string 1", "sec string 2"]]

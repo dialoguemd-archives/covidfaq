@@ -46,6 +46,8 @@ class BertModels:
 def get_es_client():
     conf = config.get()
 
+    assert 1 == 2
+
     return Elasticsearch(
         [{"host": conf.elastic_search_host, "port": conf.elastic_search_port}],
     )
