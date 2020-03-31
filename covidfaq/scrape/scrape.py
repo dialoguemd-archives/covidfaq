@@ -59,35 +59,9 @@ def get_page_contents(URL):
     subjects = soup.find_all(
         class_="frame frame-default frame-type-textmedia frame-layout-0"
     )
-    for sub in subjects:
 
-        # Look for headers in each subject
-        raw_title = None
-        if sub.find("h2"):
-            raw_title = sub.find("h2").contents[0]
-        elif sub.find("h3"):
-            raw_title = sub.find("h3").contents[0]
-        elif sub.find("h4"):
-            raw_title = sub.find("h4").contents[0]
+    page_contents = handle_subjects(URL, page_contents, subjects)
 
-        if raw_title:
-            title = " ".join(raw_title.split())
-            # Extract the text from a header block
-            if sub.find(class_="ce-bodytext"):
-                sub_text = []
-                sub_html = sub.find(class_="ce-bodytext")
-                for text in sub_html.contents:
-                    sub_text.append(text.get_text())
-
-                if title not in ["Avis", "Notice"]:  # This is on every page
-                    #  sub_contents['plaintext'] = sub_text
-                    #  sub_contents['html'] = sub_html.prettify()
-                    #  sub_contents['URL'] = URL
-                    page_contents[title] = {
-                        "plaintext": sub_text,
-                        "html": sub_html.prettify(),
-                        "URL": URL,
-                    }
     # a panel usually contains the answer to a question
     # a panel contains both the question and the answer
     all_panels = soup.find_all(class_="panel panel-default")
@@ -106,6 +80,37 @@ def get_page_contents(URL):
                     "html": answer_html,
                     "plaintext": answer_str,
                 }
+
+    return page_contents
+
+
+def handle_subjects(URL, page_contents, subjects):
+    for sub in subjects:
+        # Look for headers in each subject
+        raw_title = None
+        if sub.find("h2"):
+            raw_title = sub.find("h2").contents[0]
+        elif sub.find("h3"):
+            raw_title = sub.find("h3").contents[0]
+        elif sub.find("h4"):
+            raw_title = sub.find("h4").contents[0]
+        if raw_title:
+            title = " ".join(raw_title.split())
+            # Extract the text from a header block
+            if sub.find(class_="ce-bodytext"):
+                sub_text = []
+                sub_html = sub.find(class_="ce-bodytext")
+                for text in sub_html.contents:
+                    sub_text.append(text.get_text())
+                if title not in ["Avis", "Notice"]:  # This is on every page
+                    #  sub_contents['plaintext'] = sub_text
+                    #  sub_contents['html'] = sub_html.prettify()
+                    #  sub_contents['URL'] = URL
+                    page_contents[title] = {
+                        "plaintext": sub_text,
+                        "html": sub_html.prettify(),
+                        "URL": URL,
+                    }
 
     return page_contents
 

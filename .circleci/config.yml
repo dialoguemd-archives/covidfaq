@@ -25,12 +25,23 @@ workflows:
       - python/isort:
           name: isort
           context: org-global-v2
+      - python/test:
+          name: test
+          before_tests_steps:
+            - run: 
+                name: Download spacy model
+                command: |
+                    poetry run python -m spacy download en_core_web_md
+                    poetry run python -m spacy link en_core_web_md en
+          context: org-global-v2
+          
       - release/release:
           name: release
           requires:
             - pylama
             - black
             - isort
+            - test
           context: org-global-v2
       - app/build:
           name: build
@@ -46,6 +57,7 @@ workflows:
           place: ca2
           requires:
             - pylama
+            - test
             - build
           filters:
             branches:

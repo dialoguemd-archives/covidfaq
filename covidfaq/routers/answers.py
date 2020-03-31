@@ -82,7 +82,7 @@ def answers(request: Request, question: str):
                 language=language,
             )
 
-            answers = [reranked_sections[0]]
+            answers = reranked_sections[0]
 
     return {"answers": answers}
 
