@@ -1,9 +1,9 @@
-import re
 import json
 import random
+import re
 
 from tqdm import tqdm
-from transformers import BertTokenizer, BertModel
+from transformers import BertModel, BertTokenizer
 
 from covidfaq.rerank.predict import load_model
 
