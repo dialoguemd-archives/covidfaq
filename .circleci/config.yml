@@ -29,10 +29,6 @@ workflows:
           name: test
           before_tests_steps:
             - run:
-                name: Clean docker system
-                command: |
-                  docker system prune --force
-            - run:
                 name: Download spacy model
                 command: |
                     poetry run python -m spacy download en_core_web_md
@@ -50,6 +46,10 @@ workflows:
       - app/build:
           name: build
           before_build_steps:
+            - run:
+                name: Clean docker system
+                command: |
+                  docker system prune --force
             - utils/git_lfs
           filters:
             branches:
