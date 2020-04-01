@@ -16,24 +16,24 @@ def remove_html_tags(data):
 def make_qa_pairs_natq(natq_path, n_samples=100):
     with open(natq_path) as json_file:
         contents = json_file.readlines()
-        natq =  [json.loads(cont) for cont in contents]
+        natq = [json.loads(cont) for cont in contents]
 
     qa_pairs = []
     for ii in range(n_samples):
-        question = remove_html_tags(natq[ii]['question'])
-        correct_answer = remove_html_tags(natq[ii]['right_paragraphs'][0])
+        question = remove_html_tags(natq[ii]["question"])
+        correct_answer = remove_html_tags(natq[ii]["right_paragraphs"][0])
         try:
             wrong_answers = [
-                remove_html_tags(natq[ii]['wrong_paragraphs'][0]),
-                remove_html_tags(natq[ii]['wrong_paragraphs'][1])
+                remove_html_tags(natq[ii]["wrong_paragraphs"][0]),
+                remove_html_tags(natq[ii]["wrong_paragraphs"][1]),
             ]
         except IndexError:
             # For some reason it can happen that there are not enough
             # wrong paragraphs, so we assume it's insanely unlikely the
             # right paragraph from the previous case would be right again.
             wrong_answers = [
-                remove_html_tags(natq[ii]['wrong_paragraphs'][0]),
-                remove_html_tags(natq[ii-1]['right_paragraphs'][0])
+                remove_html_tags(natq[ii]["wrong_paragraphs"][0]),
+                remove_html_tags(natq[ii - 1]["right_paragraphs"][0]),
             ]
 
         candidate_answers = []
@@ -44,18 +44,19 @@ def make_qa_pairs_natq(natq_path, n_samples=100):
 
     return qa_pairs
 
+
 def make_qa_pairs_faq(faq_path, n_wrong_answers=2, seed=42):
-    with open(faq_path, 'r') as fh:
-        faq  = json.load(fh)
+    with open(faq_path, "r") as fh:
+        faq = json.load(fh)
 
     random.seed(seed)
     all_questions = []
     all_answers = []
 
-    for k,v in faq.items():
-       if k != 'document_URL':
-           all_questions.append(k)
-           all_answers.append("".join(faq[k]['plaintext']))
+    for k, v in faq.items():
+        if k != "document_URL":
+            all_questions.append(k)
+            all_answers.append("".join(faq[k]["plaintext"]))
 
     qa_pairs = []
     for idx, question in enumerate(all_questions):
@@ -71,12 +72,13 @@ def make_qa_pairs_faq(faq_path, n_wrong_answers=2, seed=42):
 
     return qa_pairs
 
-if __name__ == '__main__':
 
-    model_name = 'bert-base-uncased'
-    faq_path = 'covidfaq/scrape/quebec-en-faq.json'
-    natq_path = 'covidfaq/data/natq_clean.json'
-    n_wrong_answers = 2 # number of wrong answers added to the correct answer
+if __name__ == "__main__":
+
+    model_name = "bert-base-uncased"
+    faq_path = "covidfaq/scrape/quebec-en-faq.json"
+    natq_path = "covidfaq/data/natq_clean.json"
+    n_wrong_answers = 2  # number of wrong answers added to the correct answer
 
     bert_question = BertModel.from_pretrained(model_name)
     bert_paragraph = BertModel.from_pretrained(model_name)
@@ -90,7 +92,7 @@ if __name__ == '__main__':
 
         out = model.retriever.predict(question, answers)
 
-        if out[2][0] == 0: # answers[0] is always the correct answer
+        if out[2][0] == 0:  # answers[0] is always the correct answer
             correct += 1
 
     acc = correct / len(qa_pairs) * 100
@@ -99,13 +101,15 @@ if __name__ == '__main__':
     # Run the test on 10 separate splits of the FAQ and average the results
     accs = []
     for seed in range(10):
-        qa_pairs = make_qa_pairs_faq(faq_path, n_wrong_answers=n_wrong_answers, seed=seed)
+        qa_pairs = make_qa_pairs_faq(
+            faq_path, n_wrong_answers=n_wrong_answers, seed=seed
+        )
         correct = 0
         for question, answers in tqdm(qa_pairs):
 
             out = model.retriever.predict(question, answers)
 
-            if out[2][0] == 0: # answers[0] is always the correct answer
+            if out[2][0] == 0:  # answers[0] is always the correct answer
                 correct += 1
 
         acc = correct / len(qa_pairs) * 100
