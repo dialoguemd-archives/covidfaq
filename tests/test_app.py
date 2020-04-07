@@ -38,7 +38,7 @@ def test_answers(elastic_results, ranked_scores):
                 "covidfaq.routers.answers.query_question", return_value=elastic_results,
             ):
                 with patch(
-                    "covidfaq.routers.answers.dbert_rerank", return_value=ranked_scores
+                    "covidfaq.routers.answers.get_scores", return_value=ranked_scores
                 ):
                     response = client.get(
                         "/answers",
@@ -57,7 +57,7 @@ def test_answers_no_language(elastic_results, ranked_scores):
                 "covidfaq.routers.answers.query_question", return_value=elastic_results,
             ):
                 with patch(
-                    "covidfaq.routers.answers.dbert_rerank", return_value=ranked_scores
+                    "covidfaq.routers.answers.get_scores", return_value=ranked_scores
                 ):
                     response = client.get(
                         "/answers", params={"question": "Dois-je aller travailler?"},

@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from structlog import get_logger
 
 from ..search.search_index import query_question
-from ..utils import BertModel, ElasticSearchClient
+from ..utils import BertModel, ElasticSearchClient, get_scores
 
 router = APIRouter()
 log = get_logger()
@@ -67,7 +67,7 @@ def answers(request: Request, question: str):
                 ", ".join(section.sec_text) for section in list_of_sec_results
             ]
 
-            scores = dbert_rerank(question, sections_texts)
+            scores = get_scores(dbert_rerank, question, sections_texts)
 
             max_index = np.argmax(scores)
 

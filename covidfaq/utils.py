@@ -121,3 +121,7 @@ def load_model(sigmoid_dir, transformer_dir="transformer", max_len=256):
     model.get_layer("sigmoid").set_weights(sigmoid)
 
     return model
+
+
+def get_scores(dbert_rerank, question, sections_texts):
+    return dbert_rerank(question, sections_texts)
