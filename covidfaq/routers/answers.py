@@ -1,12 +1,12 @@
 from typing import List, Optional
 
+import numpy as np
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
 
-from ..rerank.predict import re_rank
 from ..search.search_index import query_question
-from ..utils import BertModels, ElasticSearchClient
+from ..utils import BertModel, ElasticSearchClient
 
 router = APIRouter()
 log = get_logger()
@@ -36,11 +36,7 @@ def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
     es = ElasticSearchClient().es_client
-    tokenizer, bert_question, bert_paragraph = (
-        BertModels().tokenizer,
-        BertModels().bert_question,
-        BertModels().bert_paragraph,
-    )
+    dbert_rerank = BertModel().dbert_rerank
 
     if language:
         formatted_language = format_language(language)
@@ -71,18 +67,20 @@ def answers(request: Request, question: str):
                 ", ".join(section.sec_text) for section in list_of_sec_results
             ]
 
-            reranked_sections = re_rank(
-                tokenizer, bert_question, bert_paragraph, question, sections_texts
-            )
+            scores = dbert_rerank(question, sections_texts)
+
+            max_index = np.argmax(scores)
+
+            answers = [sections_texts[max_index]]
 
             log.info(
-                "reranked_sections",
-                reranked_sections=reranked_sections,
+                "rerank_scores",
+                scores=scores,
                 question=question,
-                language=language,
+                sections_texts=sections_texts,
+                max_index=max_index,
+                answers=answers,
             )
-
-            answers = reranked_sections[0]
 
     return {"answers": answers}
 

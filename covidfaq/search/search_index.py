@@ -47,7 +47,7 @@ def search_section_index(es, index, query, topk):
     return res
 
 
-def helper(topk_doc, topk_sec, docindex, secindex):
+def helper(es, q, topk_doc, topk_sec, docindex, secindex):
     res_doc_txt = None
     res_sec_txt = None
     res_doc = search_document_index(es, docindex, q, topk_doc)["hits"]["hits"]
@@ -91,12 +91,12 @@ def query_question(es, q, topk_sec=1, topk_doc=1, lan=None):
 
     if lan == "en":
         res_doc_txt, res_sec_txt = helper(
-            topk_doc, topk_sec, en_doc_index, en_sec_index
+            es, q, topk_doc, topk_sec, en_doc_index, en_sec_index
         )
         return formatter(res_doc_txt, res_sec_txt)
     else:
         res_doc_txt, res_sec_txt = helper(
-            topk_doc, topk_sec, fr_doc_index, fr_sec_index
+            es, q, topk_doc, topk_sec, fr_doc_index, fr_sec_index
         )
         return formatter(res_doc_txt, res_sec_txt)
 
