@@ -1,4 +1,4 @@
-FROM python:3.8.2-slim-buster as base
+FROM python:3.7.6-slim-buster as base
 
 FROM base as builder
 
@@ -8,6 +8,7 @@ RUN apt-get update \
 # permit installing private packages
 
 ARG GEMFURY_TOKEN
+
 ENV PIP_EXTRA_INDEX_URL https://pypi.fury.io/${GEMFURY_TOKEN}/dialogue/
 
 # install poetry
@@ -25,8 +26,6 @@ RUN poetry install -vvv --no-dev
 
 FROM base as final
 
-# permit http service
-
 ENV PORT 80
 EXPOSE 80
 WORKDIR /app
@@ -34,6 +33,9 @@ WORKDIR /app
 COPY --from=builder /usr/local /usr/local
 RUN python -m spacy download en_core_web_md && \
     python -m spacy link en_core_web_md en
+
+COPY covidfaq/rerank covidfaq/rerank
+
 COPY . .
 
 ENTRYPOINT exec hypercorn covidfaq.main:app --bind 0.0.0.0:${PORT}

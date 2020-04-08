@@ -4,7 +4,8 @@ from pydantic import BaseSettings
 
 
 class Config(BaseSettings):
-    elastic_search_host: str = "es-covidfaq.dev.dialoguecorp.com"
+    elastic_search_host: str = "faq-master"
+    elastic_search_port: int = 9200
 
     class Config:
         env_prefix = ""

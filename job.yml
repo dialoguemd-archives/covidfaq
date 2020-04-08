@@ -3,7 +3,7 @@ engine: ~0.6
 type: cron
 
 cron:
-  schedule: "0 */4 * * *"
+  schedule: "*/30 * * * *"
   concurrencyPolicy: Forbid
 
 command:
@@ -11,13 +11,9 @@ command:
   - "-m"
   - "scripts.scraper"
 
-environments:
-  dev-ca2:
-    environment:
-      elastic_search_host: "es-covidfaq.dev.dialoguecorp.com"
-  prod-ca:
-    environment:
-      elastic_search_host: "es-covidfaq.dialoguecorp.com"
+environment:
+  elastic_search_host: faq-master.covidfaq
+  elastic_search_port: 9200
 
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
