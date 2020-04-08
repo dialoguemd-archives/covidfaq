@@ -11,15 +11,15 @@ from covidfaq.routers.answers import SecResults, ElasticResults
 question_file = "covidfaq/data/train_set_covid.csv"
 #  question_file = "covidfaq/data/simple_2020-03-27T19_12_30.866993Z.csv"
 clustered_file = False
-sample = False
+sample = True
 ################################
 
 
 
 if __name__ == "__main__":
 
-    topk_sec = 5
-    topk_doc = 5
+    topk_sec = 10
+    topk_doc = 10
 
     es = Elasticsearch(
         [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
@@ -40,7 +40,7 @@ if __name__ == "__main__":
             covid_questions = covid_questions.drop(columns=['Unnamed: 0'])
         else:
             # sample for debugging
-            covid_questions = covid_questions.iloc[0:100]
+            covid_questions = covid_questions.iloc[0:20]
 
     else:
         if clustered_file:
@@ -67,7 +67,6 @@ if __name__ == "__main__":
             elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
             if elastic_results_formatted.sec_results:
 
-
                # List of all top answers, note that it can be less than topk_sec, but no more than topk_sec
                top_answers = [SecResults.parse_obj(elastic_results_formatted.sec_results[ii]).sec_text for ii in range(len(elastic_results_formatted.sec_results))]
 
@@ -83,6 +82,6 @@ if __name__ == "__main__":
             covid_questions.to_csv('clusters_topk_responses_ES.csv', index=False)
     else:
         if sample:
-            covid_questions.to_csv('sample_questions_topk_responses_ES.csv', index=False)
+            covid_questions.to_csv('sample_questions_top10_responses_ES.csv', index=False)
         else:
             covid_questions.to_csv('all_questions_topk_responses_ES.csv', index=False)
