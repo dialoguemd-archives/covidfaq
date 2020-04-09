@@ -3,15 +3,20 @@ import pickle
 from functools import lru_cache
 
 import numpy as np
+import spacy
 import tensorflow as tf
 import tensorflow.keras.layers as L
 from elasticsearch import Elasticsearch
+from spacy_langdetect import LanguageDetector
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from tokenizers import BertWordPieceTokenizer
-from transformers import TFAutoModel
+from transformers import TFAutoModel, TFElectraModel
 
 from . import config
+
+nlp = spacy.load("en")
+nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
 
 
 class ElasticSearchClient:
@@ -31,21 +36,26 @@ class ElasticSearchClient:
         return getattr(self.instance, name)
 
 
-class BertModel:
-    class __BertModel:
+class BertModels:
+    class __BertModels:
         def __init__(self):
-            self.dbert_rerank = load_bert_model()
+            self.dbert_rerank_en, self.dbert_rerank_fr = load_bert_models()
 
     instance = None
 
     def __init__(self):
-        if not BertModel.instance:
-            BertModel.instance = BertModel.__BertModel()
+        if not BertModels.instance:
+            BertModels.instance = BertModels.__BertModels()
         else:
-            BertModel.instance.dbert_rerank = load_bert_model()
+            BertModels.instance.dbert_rerank_en = load_bert_models()[0]
+            BertModels.instance.dbert_rerank_fr = load_bert_models()[1]
 
     def __getattr__(self, name):
         return getattr(self.instance, name)
+
+
+def detect_language(text):
+    return nlp(text)._.language["language"]
 
 
 @lru_cache()
@@ -58,19 +68,32 @@ def get_es_client():
 
 
 @lru_cache()
-def load_bert_model():
-    dbert = load_model(
-        sigmoid_dir="covidfaq/rerank/model_dir/",
-        transformer_dir="covidfaq/rerank/model_dir/transformer/",
+def load_bert_models():
+    dbert_en = load_model(
+        sigmoid_dir="covidfaq/rerank/model_dir_en/",
+        transformer_dir="covidfaq/rerank/model_dir_en/transformer/",
         max_len=None,
     )
 
-    dbert_tokenizer = BertWordPieceTokenizer(
-        "covidfaq/rerank/model_dir/vocab.txt", lowercase=True
+    dbert_fr = load_model(
+        sigmoid_dir="covidfaq/rerank/model_dir_fr/",
+        transformer_dir="covidfaq/rerank/model_dir_fr/transformer/",
+        max_len=None,
     )
-    dbert_rerank = build_reranker(dbert_tokenizer, dbert)
 
-    return dbert_rerank
+    dbert_tokenizer_en = BertWordPieceTokenizer(
+        "covidfaq/rerank/model_dir_en/vocab.txt", lowercase=True
+    )
+
+    dbert_tokenizer_fr = BertWordPieceTokenizer(
+        "covidfaq/rerank/model_dir_fr/vocab.txt", lowercase=True
+    )
+
+    dbert_rerank_en = build_reranker(dbert_tokenizer_en, dbert_en)
+
+    dbert_rerank_fr = build_reranker(dbert_tokenizer_fr, dbert_fr)
+
+    return dbert_rerank_en, dbert_rerank_fr
 
 
 def build_reranker(tokenizer, model):
@@ -107,14 +130,18 @@ def build_model(transformer, max_len=256):
     return model
 
 
-@lru_cache()
-def load_model(sigmoid_dir, transformer_dir="transformer", max_len=256):
+def load_model(
+    sigmoid_dir, transformer_dir="transformer", architecture="distilbert", max_len=256
+):
     """
     Special function to load a keras model that uses a transformer layer
     """
     sigmoid_path = os.path.join(sigmoid_dir, "sigmoid.pickle")
 
-    transformer = TFAutoModel.from_pretrained(transformer_dir)
+    if architecture == "electra":
+        transformer = TFElectraModel.from_pretrained(transformer_dir)
+    else:
+        transformer = TFAutoModel.from_pretrained(transformer_dir)
     model = build_model(transformer, max_len=max_len)
 
     sigmoid = pickle.load(open(sigmoid_path, "rb"))

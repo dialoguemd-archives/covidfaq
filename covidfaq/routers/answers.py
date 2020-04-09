@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from structlog import get_logger
 
 from ..search.search_index import query_question
-from ..utils import BertModel, ElasticSearchClient, get_scores
+from ..utils import BertModels, ElasticSearchClient, detect_language, get_scores
 
 router = APIRouter()
 log = get_logger()
@@ -36,16 +36,14 @@ def answers(request: Request, question: str):
 
     language = request.headers.get("Accept-Language")
     es = ElasticSearchClient().es_client
-    dbert_rerank = BertModel().dbert_rerank
+    dbert_rerank_en = BertModels().dbert_rerank_en
+    dbert_rerank_fr = BertModels().dbert_rerank_fr
 
-    if language:
-        formatted_language = format_language(language)
-        elastic_results = query_question(
-            es, question, topk_sec=5, topk_doc=5, lan=formatted_language
-        )
+    formatted_language = format_language(language, question)
 
-    else:
-        elastic_results = query_question(es, question, topk_sec=5, topk_doc=5)
+    elastic_results = query_question(
+        es, question, topk_sec=5, topk_doc=5, lan=formatted_language
+    )
 
     log.info(
         "elastic_results",
@@ -67,7 +65,11 @@ def answers(request: Request, question: str):
                 ", ".join(section.sec_text) for section in list_of_sec_results
             ]
 
-            scores = get_scores(dbert_rerank, question, sections_texts)
+            if formatted_language == "en":
+                scores = get_scores(dbert_rerank_en, question, sections_texts)
+
+            else:
+                scores = get_scores(dbert_rerank_fr, question, sections_texts)
 
             max_index = np.argmax(scores)
 
@@ -85,8 +87,11 @@ def answers(request: Request, question: str):
     return {"answers": answers}
 
 
-def format_language(language):
-    if "en" in language.lower():
+def format_language(language, question):
+
+    if language and "en" in language.lower():
         return "en"
-    elif "fr" in language.lower():
+    elif language and "fr" in language.lower():
         return "fr"
+    else:
+        return detect_language(question)
