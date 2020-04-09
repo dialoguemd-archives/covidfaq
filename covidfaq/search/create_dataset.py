@@ -8,10 +8,12 @@ from covidfaq.routers.answers import SecResults, ElasticResults
 ## Config variables
 ################################
 
-question_file = "covidfaq/data/covidquestions_07apr.csv"
+question_file = "/home/jerpint/covidfaq/covidfaq/data/covidquestions_07apr.csv"
 #  question_file = "covidfaq/data/simple_2020-03-27T19_12_30.866993Z.csv"
+#  question_file = "./simpleLsa_15n0.7dt_2020-03-27T19_12_30.866993Z.csv"
 clustered_file = False
-sample = False
+sample = True
+use_local_es = True
 ################################
 
 
@@ -21,11 +23,17 @@ if __name__ == "__main__":
     topk_sec = 10
     topk_doc = 10
 
-    es = Elasticsearch(
-        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
-        use_ssl=True,
-        verify_certs=True,
-    )
+    if use_local_es:
+        es = Elasticsearch(
+            [{"host": "localhost", "port": 9200}],
+        )
+
+    else:
+        es = Elasticsearch(
+            [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
+            use_ssl=True,
+            verify_certs=True,
+        )
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"

@@ -98,6 +98,7 @@ def fill_index(es, files, docindex, secindex):
 
 def get_es_hostname():
     return os.environ.get("elastic_search_host", "faq-master.covidfaq")
+    #  return os.environ.get("elastic_search_host", "localhost")
 
 
 def get_es_port():
