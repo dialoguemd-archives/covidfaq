@@ -18,7 +18,7 @@ def lang_other():
 
 @fixture
 def question_fr():
-    return "Dois-je aller travailler?"
+    return "Est-ce que je dois aller travailler meme si j'ai le rhume?"
 
 
 @fixture
