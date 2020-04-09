@@ -104,7 +104,7 @@ def build_reranker(tokenizer, model):
 
         encs = tokenizer.encode_batch(pairs)
         input_ids = np.array([enc.ids for enc in encs])
-        scores = model.predict(input_ids).squeeze()
+        scores = model.predict(input_ids[:512]).squeeze()
 
         return scores
 
