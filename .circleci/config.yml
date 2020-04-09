@@ -67,6 +67,8 @@ workflows:
           name: deploy-scraper-dev-ca2
           stage: dev
           place: ca2
+          k8s_wait_timeout: 1500
+          cci_wait_timeout: 25m
           wait: false
           requires:
             - deploy-dev-ca2
@@ -105,6 +107,8 @@ workflows:
           stage: prod
           place: ca
           region: us-east-1
+          k8s_wait_timeout: 1500
+          cci_wait_timeout: 25m
           wait: false
           requires:
             - deploy-prod-ca

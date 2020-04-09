@@ -17,6 +17,16 @@ def lang_other():
 
 
 @fixture
+def question_fr():
+    return "Est-ce que je dois aller travailler meme si j'ai le rhume?"
+
+
+@fixture
+def question_en():
+    return "Should I go to work?"
+
+
+@fixture
 def elastic_results():
     return {
         "doc_results": [
