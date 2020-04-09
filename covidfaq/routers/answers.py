@@ -65,6 +65,13 @@ def answers(request: Request, question: str):
                 ", ".join(section.sec_text) for section in list_of_sec_results
             ]
 
+            log.info(
+                "reranking",
+                formatted_language=formatted_language,
+                question=question,
+                sections_texts=sections_texts,
+            )
+
             if formatted_language == "en":
                 scores = get_scores(dbert_rerank_en, question, sections_texts)
 
