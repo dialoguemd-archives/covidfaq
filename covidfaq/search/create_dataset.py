@@ -8,10 +8,10 @@ from covidfaq.routers.answers import SecResults, ElasticResults
 ## Config variables
 ################################
 
-question_file = "covidfaq/data/train_set_covid.csv"
+question_file = "covidfaq/data/covidquestions_07apr.csv"
 #  question_file = "covidfaq/data/simple_2020-03-27T19_12_30.866993Z.csv"
 clustered_file = False
-sample = True
+sample = False
 ################################
 
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
             covid_questions = covid_questions.drop(columns=['Unnamed: 0'])
         else:
             # sample for debugging
-            covid_questions = covid_questions.iloc[0:20]
+            covid_questions = covid_questions.iloc[0:100]
 
     else:
         if clustered_file:
@@ -84,4 +84,4 @@ if __name__ == "__main__":
         if sample:
             covid_questions.to_csv('sample_questions_top10_responses_ES.csv', index=False)
         else:
-            covid_questions.to_csv('all_questions_topk_responses_ES.csv', index=False)
+            covid_questions.to_csv('all_questions_top10_responses_ES.csv', index=False)
