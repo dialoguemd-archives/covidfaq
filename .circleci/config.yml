@@ -55,7 +55,7 @@ workflows:
           name: deploy-dev-ca2
           stage: dev
           place: ca2
-          deploy_timeout: 450
+          deploy_timeout: 600
           requires:
             - pylama
             - test
@@ -93,7 +93,7 @@ workflows:
           stage: prod
           place: ca
           region: us-east-1
-          deploy_timeout: 450
+          deploy_timeout: 600
           requires:
             - build
           filters:
