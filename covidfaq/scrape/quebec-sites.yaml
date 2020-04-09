@@ -1,4 +1,3 @@
-
 quebec-fr: &qfr
   urls:
     - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/"
@@ -17,9 +16,6 @@ quebec-fr: &qfr
     - "https://www.quebec.ca/gouv/covid19-fonction-publique/"
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programme-actions-concertees-pour-le-maintien-en-emploi-pacme-covid-19/"
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programmes-gouvernementaux-soutien-entreprises-covid19/"
-    - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/"
-      info:
-        urlkey: faq
     - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"
       info:
         urlkey: mainpage
@@ -72,3 +68,43 @@ quebec-en:
   info:
     source: quebec
     language: en
+
+
+quebec-fr-faq: &qfrfaq
+  urls:
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/revenus-programmes-aide-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-reponses-education-famille-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-reponses-employeurs-travailleurs-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-rassemblements-activites-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-reponses-municipalites-covid-19/"
+
+  info:
+    source: quebec-faq
+    language: fr
+    type: faq
+
+  selectors:
+    - method: nesting
+      parent: ".panel, .panel-default"
+      title: ".accordion-toggle"
+      body: ".ce-bodytext"
+      exclude:
+        title: null
+        body: null
+        selector: null
+      info:
+        type: "faq"
+
+
+quebec-en-faq:
+  <<: *qfrfaq
+
+  translate: "ul.listePiv a[lang=\"en\"]"
+
+  info:
+    source: quebec-faq
+    language: en
+    type: faq
