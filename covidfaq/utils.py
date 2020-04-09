@@ -13,7 +13,7 @@ from tensorflow.keras.optimizers import Adam
 from tokenizers import BertWordPieceTokenizer
 from transformers import TFAutoModel, TFElectraModel
 
-from . import config
+from covidfaq import config
 
 nlp = spacy.load("en")
 nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)
@@ -104,7 +104,7 @@ def build_reranker(tokenizer, model):
 
         encs = tokenizer.encode_batch(pairs)
         input_ids = np.array([enc.ids for enc in encs])
-        scores = model.predict(input_ids[:, 512]).squeeze()
+        scores = model.predict(input_ids[:, :512]).squeeze()
 
         return scores
 
