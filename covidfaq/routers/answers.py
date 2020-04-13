@@ -32,7 +32,7 @@ class ElasticResults(BaseModel):
 
 
 @router.get("/answers", response_model=Answers)
-def answers(request: Request, question: str):
+def answers(request: Request, question: str, topk_es: int = None):
 
     language = request.headers.get("Accept-Language")
     es = ElasticSearchClient().es_client
@@ -41,8 +41,11 @@ def answers(request: Request, question: str):
 
     formatted_language = format_language(language, question)
 
+    if not topk_es:
+        topk_es = 5
+
     elastic_results = query_question(
-        es, question, topk_sec=5, topk_doc=5, lan=formatted_language
+        es, question, topk_sec=topk_es, topk_doc=topk_es, lan=formatted_language
     )
 
     log.info(
