@@ -11,8 +11,8 @@ from covidfaq.routers.answers import SecResults, ElasticResults
 #  question_file = "./covidquestions_07apr.csv"
 question_file = "./simpleLsa_15n0.7dt_2020-03-27T19_12_30.866993Z.csv"
 clustered_file = True  # Specify if the file contains clusters
-sample = True  # Take only a subset of the questions (for debugging)
-use_es = True  # Use ES to generate candidate answers
+sample = False  # Take only a subset of the questions (for debugging)
+use_es = False  # Use ES to generate candidate answers
 use_local_es = False  #  Only use this if you know how to set it up
 topk = topk_sec = 10  # Top responses to fetch for ES
 topk_doc = 10
