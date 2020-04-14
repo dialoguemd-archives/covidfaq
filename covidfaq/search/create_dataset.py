@@ -9,13 +9,15 @@ from covidfaq.routers.answers import SecResults, ElasticResults
 ################################
 
 #  question_file = "./covidquestions_07apr.csv"
-question_file = "./simpleLsa_15n0.7dt_2020-03-27T19_12_30.866993Z.csv"
+#  question_file = "./simpleLsa_15n0.7dt_2020-03-27T19_12_30.866993Z.csv"
+question_file = "./simpleLsa_15n0.8dt_2020-03-27T19_12_30.866993Z_fr.csv"
 clustered_file = True  # Specify if the file contains clusters
 sample = False  # Take only a subset of the questions (for debugging)
 use_es = False  # Use ES to generate candidate answers
 use_local_es = False  #  Only use this if you know how to set it up
 topk = topk_sec = 10  # Top responses to fetch for ES
 topk_doc = 10
+question_lang = 'fr'
 
 ################################
 
@@ -44,6 +46,11 @@ if __name__ == "__main__":
             covid_questions = covid_questions.sort_values(by=['cluster']).reset_index(drop=True)
             covid_questions = covid_questions.drop(columns=['Unnamed: 0'])
             covid_questions = covid_questions.dropna(axis=0, subset=['cluster'])
+
+            # Sort each cluster alphabetically
+            for cluster in covid_questions['cluster']:
+                indices = covid_questions.index[covid_questions['cluster'] == cluster]
+                covid_questions[indices[0]:indices[-1]+1] = covid_questions[indices[0]:indices[-1]+1].sort_values(by='question_processed').values
 
             covid_questions = covid_questions[['timestamp_est', 'anonymous_id', 'question', 'question_processed', 'cluster']]
         else:
@@ -108,8 +115,8 @@ if __name__ == "__main__":
 
     else:
 
-        covid_questions.to_csv('all_questions_clusters_sorted.csv', index=False)
+        covid_questions.to_csv('questions_' + question_lang + '.csv', index=False)
 
         # Drop duplicates, keep only the processed question and cluster
         covid_questions_sub = covid_questions.drop_duplicates(subset='question_processed')[['question_processed', 'cluster']]
-        covid_questions_sub.to_csv('question_and_clusters_only.csv', index=False)
+        covid_questions_sub.to_csv('lowercase_unique_' + question_lang + '.csv', index=False)
