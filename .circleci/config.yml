@@ -28,13 +28,13 @@ workflows:
       - python/test:
           name: test
           before_tests_steps:
-            - run: 
+            - run:
                 name: Download spacy model
                 command: |
                     poetry run python -m spacy download en_core_web_md
                     poetry run python -m spacy link en_core_web_md en
           context: org-global-v2
-          
+
       - release/release:
           name: release
           requires:
@@ -92,7 +92,6 @@ workflows:
           name: deploy-prod-ca
           stage: prod
           place: ca
-          region: us-east-1
           deploy_timeout: 600
           requires:
             - build
@@ -106,7 +105,6 @@ workflows:
           name: deploy-scraper-prod-ca
           stage: prod
           place: ca
-          region: us-east-1
           wait: false
           requires:
             - deploy-prod-ca
