@@ -21,6 +21,11 @@ def remove_html_tags(data):
     return p.sub("", data)
 
 
+def soup_to_html(filename, soup):
+    with open(filename, "w", encoding='utf-8') as f:
+        f.write(str(soup))
+
+
 def page_to_json(page_contents, fname):
     with open(fname, "w", encoding="utf-8") as fp:
         json.dump(page_contents, fp, indent=4, ensure_ascii=False)
@@ -365,7 +370,7 @@ def extract_sections(url, info, cfg, translated=False):
     if not translated and "translate" in cfg:
         new_url = soup.select_one(cfg["translate"])
         if not new_url:
-            return []
+            return [], []
         new_url = urljoin(url, new_url["href"])
         return extract_sections(new_url, info, cfg, True)
 
@@ -377,7 +382,8 @@ def extract_sections(url, info, cfg, translated=False):
         method = globals()[f"rule_{rule['method']}"]
         results.extend(method(soup, info, url, rule))
 
-    return results
+    return results, soup
+
 
 
 @coleo.tooled
@@ -402,6 +408,7 @@ def run():
     now = str(datetime.now())
 
     results = []
+    soups = []
     for sitename, sitecfg in sites.read().items():
         if site and site != sitename:
             continue
@@ -414,7 +421,9 @@ def run():
             urlinfo.setdefault("urlkey", str(i))
             urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
             info = {**sitecfg["info"], **urlinfo, "time": now, "url": url}
-            results += extract_sections(url, info, sitecfg)
+            result, soup = extract_sections(url, info, sitecfg)
+            results += result
+            soups.append(soup)
 
     if format == "old":
         outdir = out or "covidfaq/scrape"
@@ -425,9 +434,12 @@ def run():
             del entry["urlkey"]
             d[entry["title"]] = entry
         os.makedirs(outdir, exist_ok=True)
-        for filename, data in files.items():
-            filename = os.path.join(outdir, filename + ".json")
-            page_to_json(data, filename)
+        for (filename, data), soup in zip(files.items(), soups):
+            filename_json = os.path.join(outdir, filename + ".json")
+            page_to_json(data, filename_json)
+            filename_html = os.path.join(outdir, filename + ".html")
+            soup_to_html(filename_html, soup)
+
 
     elif format == "new":
         outfile = out or "scrape_results.json"
