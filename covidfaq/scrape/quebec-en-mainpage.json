@@ -3,13 +3,13 @@
     "Situation in Québec": {
         "title": "Situation in Québec",
         "plaintext": [
-            "Situation in QuébecApril 8th, 2020, 13:00"
+            "Situation in QuébecApril 14th, 2020, 13:15"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <div class=\"zoneMinMarginPadding\">\n  <h2>\n   Situation in Québec\n  </h2>\n  <p class=\"petitTexte\">\n   April 8th, 2020, 13:00\n  </p>\n  <hr/>\n </div>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <div class=\"zoneMinMarginPadding\">\n  <h2>\n   Situation in Québec\n  </h2>\n  <p class=\"petitTexte\">\n   April 14th, 2020, 13:15\n  </p>\n  <hr/>\n </div>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "About COVID-19": {
@@ -21,19 +21,19 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Instructions and directives": {
         "title": "Instructions and directives",
         "plaintext": [
-            "Health recommendations for everyoneReturning from a tripTravelling from one region to anotherGatherings and eventsVisits to hospitals, residential and long-term care centres and other establishments for seniors and vulnerable individuals"
+            "Health recommendations for everyoneInstructions for travellersSelf-isolating instructionsTravelling from one region to anotherGatheringsNewFestivals and cultural and sporting eventsInstructions for vulnerable individuals and their relatives"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47703\">\n    Health recommendations for everyone\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47683\">\n    Returning from a trip\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c48769\">\n    Travelling from one region to another\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c48262\">\n    Gatherings and events\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47721\">\n    Visits to hospitals, residential and long-term care centres and other establishments for seniors and vulnerable individuals\n   </a>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n    Health recommendations for everyone\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-for-travellers-covid19/\">\n    Instructions for travellers\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53639\">\n    Self-isolating instructions\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/travelling-region-to-another-covid19/\">\n    Travelling from one region to another\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/gatherings-events-covid19/\">\n    Gatherings\n   </a>\n  </li>\n  <li>\n   <span class=\"nouveau\">\n    New\n   </span>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/festivals-cultural-sporting-events-covid19/\">\n    Festivals and cultural and sporting events\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-vulnerable-individuals-covid19/\">\n    Instructions for vulnerable individuals and their relatives\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Schools and daycare centres": {
@@ -41,35 +41,35 @@
         "plaintext": [
             "School and childcare service closingsEmergency daycare services for childrenOpen School (educationnal ressources) Repayment of a student loan"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/#c47910\">\n    School and childcare service closings\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/emergency-daycare-services/\">\n    Emergency daycare services for children\n   </a>\n  </li>\n  <li>\n   <a href=\"http://ecoleouverte.ca/en\" target=\"_blank\">\n    Open School (educationnal ressources)\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/education/student-financial-assistance/repayment/\">\n    Repayment of a student loan\n   </a>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/closing-schools-childcare-services-covid19/\">\n    School and childcare service closings\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/emergency-daycare-services/\">\n    Emergency daycare services for children\n   </a>\n  </li>\n  <li>\n   <a href=\"http://ecoleouverte.ca/en\" target=\"_blank\">\n    Open School (educationnal ressources)\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/education/student-financial-assistance/repayment/\">\n    Repayment of a student loan\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Support for individuals": {
         "title": "Support for individuals",
         "plaintext": [
-            "Stress, anxiety and depression associated with the COVID-19Informations for seniorsInformation for pregnant women – coronavirus (COVID-19)Information for parents of children age 0 to 17 – coronavirus (COVID-19)Information for indigenous communities"
+            "Stress, anxiety and depression associated with the COVID-19SeniorsPregnant womenParents of children age 0 to 17 – coronavirus (COVID-19)Indigenous communities"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/\">\n    Stress, anxiety and depression associated with the COVID-19\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c48097\">\n    Informations for seniors\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-pregnant-women-coronavirus-covid-19/\">\n    Information for pregnant women – coronavirus (COVID-19)\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/\">\n    Information for parents of children age 0\n   </a>\n   <span class=\"nbsp\">\n   </span>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/\">\n    to\n   </a>\n   <span class=\"nbsp\">\n   </span>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/\">\n    17 – coronavirus (COVID-19)\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/indigenous-communities/\">\n    Information for indigenous communities\n   </a>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/\">\n    Stress, anxiety and depression associated with the COVID-19\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-vulnerable-individuals-covid19/#c52762\">\n    Seniors\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-pregnant-women-coronavirus-covid-19/\">\n    Pregnant women\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/\">\n    Parents of children age 0 to 17 – coronavirus (COVID-19)\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/indigenous-communities/\">\n    Indigenous communities\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Businesses and workers": {
         "title": "Businesses and workers",
         "plaintext": [
-            "Priority services and activitiesTemporary changes to store admission hours and days  Home support workersRecommandations for food establishmentsPublic service employees  (French only)Work schedules and absencesNew Promote buying locally with LePanierBleu.ca "
+            "Priority services and activitiesTemporary changes to store admission hours and days  Home support workersRecommandations for food establishmentsPublic service employees  (French only)Work schedules and absencesPromote buying locally with LePanierBleu.ca "
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/\">\n    Priority services and activities\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.economie.gouv.qc.ca/ministere/english/covid-19-temporary-changes-to-the-hours-and-days-of-admission-to-commercial-establishments/\" target=\"_blank\">\n    Temporary changes to store admission hours and days\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/assistance-and-support/service-employment-paycheque-an-arrangement-for-the-delivery-of-home-care-support-services/\">\n    Home support workers\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c49312\">\n    Recommandations for food establishments\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.quebec.ca/gouvernement/covid19-fonction-publique/\" lang=\"fr\" target=\"_blank\">\n    Public service employees\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (French only)\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/#c47914\">\n    Work schedules and absences\n   </a>\n  </li>\n  <li>\n   <span class=\"nouveau\">\n    New\n   </span>\n   Promote buying locally with\n   <a href=\"https://lepanierbleu.ca/\" target=\"_blank\">\n    <span lang=\"fr\">\n     LePanierBleu.ca\n    </span>\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/\">\n    Priority services and activities\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.economie.gouv.qc.ca/ministere/english/covid-19-temporary-changes-to-the-hours-and-days-of-admission-to-commercial-establishments/\" target=\"_blank\">\n    Temporary changes to store admission hours and days\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/assistance-and-support/service-employment-paycheque-an-arrangement-for-the-delivery-of-home-care-support-services/\">\n    Home support workers\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/#c53180\">\n    Recommandations for food establishments\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.quebec.ca/gouvernement/covid19-fonction-publique/\" lang=\"fr\" target=\"_blank\">\n    Public service employees\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (French only)\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/#c53179\">\n    Work schedules and absences\n   </a>\n  </li>\n  <li>\n   Promote buying locally with\n   <a href=\"https://lepanierbleu.ca/\" target=\"_blank\">\n    <span lang=\"fr\">\n     LePanierBleu.ca\n    </span>\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Assistance programs": {
@@ -81,7 +81,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "How to offer your help": {
@@ -93,7 +93,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Frequently asked questions": {
@@ -105,7 +105,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Comments": {
@@ -118,7 +118,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "You have questions or require additional information?": {
@@ -131,7 +131,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     }
 }

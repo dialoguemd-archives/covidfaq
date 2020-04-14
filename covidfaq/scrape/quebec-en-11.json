@@ -1,5 +1,18 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
+    "Giving birth": {
+        "title": "Giving birth",
+        "plaintext": [
+            "At present, pregnant women can be accompanied by a loved one when giving birth in Québec hospitals. However, hospitals may adopt certain specific measures, as is the case at the Montreal Jewish General Hospital. To obtain additional information in this regard, pregnant women can contact their hospital.",
+            ""
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  At present, pregnant women can be accompanied by a loved one when giving birth in Québec hospitals. However, hospitals may adopt certain specific measures, as is the case at the Montreal Jewish General Hospital. To obtain additional information in this regard, pregnant women can contact their hospital.\n </p>\n <p>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-14 17:02:02.375887",
+        "type": "section"
+    },
     "Recommendations": {
         "title": "Recommendations",
         "plaintext": [
@@ -7,11 +20,11 @@
             "Call 1 877 644-4545 if you have symptoms of coronavirus disease (COVID‑19) and if any of the following situations apply:",
             "you travelled in another country in the last 14 days;you had contact with a person who has COVID‑19."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/#c47703\">\n   Preventive measures\n  </a>\n  that apply to the general public also apply to pregnant women.\n </p>\n <p>\n  <strong>\n   Call\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644-4545\n   </a>\n  </strong>\n  if you have\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n   symptoms of coronavirus disease (COVID‑19)\n  </a>\n  and if any of the following situations apply:\n </p>\n <ul>\n  <li>\n   you travelled in another country in the last 14 days;\n  </li>\n  <li>\n   you had contact with a person who has COVID‑19.\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   Preventive measures\n  </a>\n  that apply to the general public also apply to pregnant women.\n </p>\n <p>\n  <strong>\n   Call\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644-4545\n   </a>\n  </strong>\n  if you have\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n   symptoms of coronavirus disease (COVID‑19)\n  </a>\n  and if any of the following situations apply:\n </p>\n <ul>\n  <li>\n   you travelled in another country in the last 14 days;\n  </li>\n  <li>\n   you had contact with a person who has COVID‑19.\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "For a Safe Maternity Experience Program": {
@@ -23,7 +36,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Related": {
@@ -39,7 +52,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Comments": {
@@ -52,7 +65,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "You have questions or require additional information?": {
@@ -65,7 +78,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     }
 }

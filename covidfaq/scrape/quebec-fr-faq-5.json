@@ -1,0 +1,413 @@
+{
+    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+    "Est-ce que les restaurants peuvent demeurer ouverts?": {
+        "title": "Est-ce que les restaurants peuvent demeurer ouverts?",
+        "plaintext": [
+            "Le gouvernement du Québec a demandé aux propriétaires des restaurants de fermer leurs salles à manger. Les commandes pour emporter, les livraisons et les services à l’auto demeurent permis."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le gouvernement du Québec a demandé aux propriétaires des restaurants de fermer leurs salles à manger. Les commandes pour emporter, les livraisons et les services à l’auto demeurent permis.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que les fermetures de lieux publics annoncées par le gouvernement du Québec concernent les épiceries et les pharmacies?": {
+        "title": "Est-ce que les fermetures de lieux publics annoncées par le gouvernement du Québec concernent les épiceries et les pharmacies?",
+        "plaintext": [
+            "Non. Les épiceries demeurent ouvertes du lundi au samedi inclusivement et les pharmacies demeurent ouvertes selon leurs horaires habituels.",
+            "Des informations sur l’approvisionnement en médicaments et l’accès aux services pharmaceutiques sont disponibles dans un document informatif  à cet effet.",
+            "Il est possible de consulter la liste des activités et services qui peuvent demeurer ouverts dans la page Réduction au minimum des services et activités non prioritaires.",
+            "À noter que le télétravail et le commerce en ligne sont permis en tout temps pour toutes les entreprises."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Non. Les épiceries demeurent ouvertes du lundi au samedi inclusivement et les pharmacies demeurent ouvertes selon leurs horaires habituels.\n </p>\n <p>\n  Des informations sur l’approvisionnement en médicaments et l’accès aux services pharmaceutiques sont disponibles dans un\n  <a href=\"https://publications.msss.gouv.qc.ca/msss/document-002481/\" target=\"_blank\">\n   document informatif\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  à cet effet.\n </p>\n <p>\n  Il est possible de consulter la liste des activités et services qui peuvent demeurer ouverts dans la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/\">\n   Réduction au minimum des services et activités non prioritaires\n  </a>\n  .\n </p>\n <p>\n  À noter que le télétravail et le commerce en ligne sont permis en tout temps pour toutes les entreprises.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-il préférable d’éviter tous les lieux publics?": {
+        "title": "Est-il préférable d’éviter tous les lieux publics?",
+        "plaintext": [
+            "Afin de protéger la population, le gouvernement du Québec interdit les rassemblements intérieurs et extérieurs. Quelques exceptions, présentées dans la page Rassemblements et événements, sont toutefois prévues.",
+            "Si une personne doit se rendre dans un rassemblement qui fait partie des exceptions autorisées par le gouvernement du Québec, elle est invitée à limiter au maximum la durée de ses présences et à garder, dans la mesure du possible, une distance de deux mètres avec les autres personnes présentes."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Afin de protéger la population, le gouvernement du Québec interdit les rassemblements intérieurs et extérieurs. Quelques exceptions, présentées dans la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/rassemblements-evenements-covid19/\">\n   Rassemblements et événements\n  </a>\n  , sont toutefois prévues.\n </p>\n <p>\n  Si une personne doit se rendre dans un rassemblement qui fait partie des exceptions autorisées par le gouvernement du Québec, elle est invitée à limiter au maximum la durée de ses présences et à garder, dans la mesure du possible, une distance de deux mètres avec les autres personnes présentes.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Les lieux de culte (églises, mosquées, synagogues, etc.) devront-ils faire l’objet de fermetures?": {
+        "title": "Les lieux de culte (églises, mosquées, synagogues, etc.) devront-ils faire l’objet de fermetures?",
+        "plaintext": [
+            "Concernant les lieux de cultes, tous les rassemblements religieux de quelque confession que ce soit devront idéalement être suspendus, à moins d'être essentiels. Dans ce cas, la distanciation physique devra être observée."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Concernant les\n  <strong>\n   lieux de cultes\n  </strong>\n  , tous les rassemblements religieux de quelque confession que ce soit devront idéalement être suspendus, à moins d'être essentiels. Dans ce cas, la distanciation physique devra être observée.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que les établissements d'hébergement touristique sont ouverts?": {
+        "title": "Est-ce que les établissements d'hébergement touristique sont ouverts?",
+        "plaintext": [
+            "Le gouvernement du Québec a annoncé la fermeture des établissements d'hébergement touristique jusqu'à nouvel ordre.",
+            "Cependant, deux types d'hébergement font exception, soit certains terrains de camping faisant l'accueil de voyageurs n'ayant pas d'autre option de logement et disposant d’installations sanitaires suffisantes, ainsi que les hôtels. Les autres types d'hébergement touristique, tel que les chalets, les résidences secondaires en location, les « Bed & Breakfast » et les auberges doivent être fermés."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le gouvernement du Québec a annoncé la fermeture des établissements d'hébergement touristique jusqu'à nouvel ordre.\n </p>\n <p>\n  Cependant, deux types d'hébergement font exception, soit certains terrains de camping faisant l'accueil de voyageurs n'ayant pas d'autre option de logement et disposant d’installations sanitaires suffisantes, ainsi que les hôtels. Les autres types d'hébergement touristique, tel que les chalets, les résidences secondaires en location, les « Bed &amp; Breakfast » et les auberges doivent être fermés.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "La fin des baux approche et les propriétaires veulent tout de même faire visiter les logements. Doit-on limiter les visites?": {
+        "title": "La fin des baux approche et les propriétaires veulent tout de même faire visiter les logements. Doit-on limiter les visites?",
+        "plaintext": [
+            "Dans le contexte actuel, les autorités de santé publique recommandent la suspension des visites aux logements pour le moment.",
+            "Si, malgré cela, il y a une visite, il y a des mesures de précaution à prendre.",
+            "En premier lieu, il est important de reporter toutes les visites des logements dont les locataires sont atteints de la COVID‑19 ou s’ils sont en isolement en raison de symptômes grippaux ou d’un retour de voyage.",
+            "Voici les mesures à prendre avant la visite :",
+            "partager toute information pertinente sur les logements afin de s’assurer de l’intérêt des visiteurs;vérifier que les visiteurs n’ont pas voyagé dans les 14 derniers jours et qu’ils ne ressentent aucun symptôme grippal;demander aux visiteurs qu’ils se lavent les mains avant d’entrer dans les logements;",
+            "Voici les mesures à prendre pendant la visite :",
+            "limiter le nombre de personnes, préférablement à un seul visiteur à la fois;restreindre la durée de la visite à l’essentiel;demander à toutes les personnes présentes de se tenir à une distance d’au moins un à deux mètres;demander aux visiteurs de ne rien toucher dans les logements;",
+            "Après chaque visite, il est important de désinfecter les poignées de toutes les portes des logements."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Dans le contexte actuel, les autorités de santé publique recommandent la suspension des visites aux logements pour le moment.\n </p>\n <p>\n  Si, malgré cela, il y a une visite, il y a des mesures de précaution à prendre.\n </p>\n <p>\n  En premier lieu, il est important de reporter toutes les visites des logements dont les locataires sont atteints de la COVID‑19 ou s’ils sont en isolement en raison de symptômes grippaux ou d’un retour de voyage.\n </p>\n <p>\n  Voici les mesures à prendre avant la visite :\n </p>\n <ul>\n  <li>\n   partager toute information pertinente sur les logements afin de s’assurer de l’intérêt des visiteurs;\n  </li>\n  <li>\n   vérifier que les visiteurs n’ont pas voyagé dans les 14 derniers jours et qu’ils ne ressentent aucun symptôme grippal;\n  </li>\n  <li>\n   demander aux visiteurs qu’ils se lavent les mains avant d’entrer dans les logements;\n  </li>\n </ul>\n <p>\n  Voici les mesures à prendre pendant la visite :\n </p>\n <ul>\n  <li>\n   limiter le nombre de personnes, préférablement à un seul visiteur à la fois;\n  </li>\n  <li>\n   restreindre la durée de la visite à l’essentiel;\n  </li>\n  <li>\n   demander à toutes les personnes présentes de se tenir à une distance d’au moins un à deux mètres;\n  </li>\n  <li>\n   demander aux visiteurs de ne rien toucher dans les logements;\n  </li>\n </ul>\n <p>\n  Après chaque visite, il est important de désinfecter les poignées de toutes les portes des logements.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "En ce qui concerne la fermeture des lieux publics où se tiennent des activités de loisirs et de sports, qu’en est-il?": {
+        "title": "En ce qui concerne la fermeture des lieux publics où se tiennent des activités de loisirs et de sports, qu’en est-il?",
+        "plaintext": [
+            "Dans la foulée de l’évolution épidémiologique de la COVID-19, il a été annoncé par le premier ministre du Québec, M. François Legault, que tous les lieux publics de loisirs et de sports doivent fermer. Voici donc des précisions liées à la fermeture de ces lieux. À noter que cette liste est non exhaustive et pourra évoluer.",
+            "Exemples de lieux visés : ",
+            "Stations de skiCentres de conditionnement physique et d’entraînement intérieurs (ex. : entraînement en salle, yoga, cardiovélo, tennis, soccer, etc.)GymnasesCentres d’escalade intérieursCentres de plein air avec bâtiments de servicesInstallations récréatives intérieuresCentres d’amusementCentres aquatiques intérieursCentres de glissade"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Dans la foulée de l’évolution épidémiologique de la COVID-19, il a été annoncé par le premier ministre du Québec, M. François Legault, que tous les lieux publics de loisirs et de sports doivent fermer. Voici donc des précisions liées à la fermeture de ces lieux. À noter que cette liste est non exhaustive et pourra évoluer.\n </p>\n <p>\n  Exemples de lieux visés :\n </p>\n <ul>\n  <li>\n   Stations de ski\n  </li>\n  <li>\n   Centres de conditionnement physique et d’entraînement intérieurs (ex.\n   <span class=\"nbsp\">\n   </span>\n   : entraînement en salle, yoga, cardiovélo, tennis, soccer, etc.)\n  </li>\n  <li>\n   Gymnases\n  </li>\n  <li>\n   Centres d’escalade intérieurs\n  </li>\n  <li>\n   Centres de plein air avec bâtiments de services\n  </li>\n  <li>\n   Installations récréatives intérieures\n  </li>\n  <li>\n   Centres d’amusement\n  </li>\n  <li>\n   Centres aquatiques intérieurs\n  </li>\n  <li>\n   Centres de glissade\n  </li>\n </ul>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Comme consommateur, puis-je faire quelque chose pour soutenir les entreprises du secteur bioalimentaire?": {
+        "title": "Comme consommateur, puis-je faire quelque chose pour soutenir les entreprises du secteur bioalimentaire?",
+        "plaintext": [
+            "Les consommateurs québécois sont invités à favoriser l’achat local. Ce faisant, ils soutiennent les producteurs, transformateurs et commerces locaux et contribuent à la vitalité économique et au maintien des activités.",
+            "Vous pouvez consulter le site Le Panier bleu .",
+            "Ensemble, les entreprises et les consommateurs favorisent, par leurs choix, la diversité de l’offre alimentaire au Québec.",
+            ""
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les consommateurs québécois sont invités à favoriser l’achat local. Ce faisant, ils soutiennent les producteurs, transformateurs et commerces locaux et contribuent à la vitalité économique et au maintien des activités.\n </p>\n <p>\n  Vous pouvez consulter le site\n  <a href=\"https://lepanierbleu.ca/\" target=\"_blank\">\n   Le Panier bleu\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n <p>\n  Ensemble, les entreprises et les consommateurs favorisent, par leurs choix, la diversité de l’offre alimentaire au Québec.\n </p>\n <p>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Que puis-je faire pour contribuer à l’autonomie alimentaire du Québec?": {
+        "title": "Que puis-je faire pour contribuer à l’autonomie alimentaire du Québec?",
+        "plaintext": [
+            "Privilégiez les produits du Québec au moment de vos achats. Diverses inscriptions facilitent le repérage de ces produits en magasin. Vous pouvez notamment vous renseigner sur le site Aliments du Québec .Faites vos achats dans des commerces locaux consacrés à l’alimentation. Le Panier bleu  est une nouvelle plateforme de référence qui facilite le repérage des commerces locaux.Cultivez votre intérêt pour les produits d’ici en essayant de nouvelles recettes à base de produits locaux. Voici quelques exemples dans le blogue Recettes 100% Québec  du site Aliments du Québec.Éviter le gaspillage alimentaire à la maison. Voyez quelques manières et astuces ici dans la section Gaspillage alimentaire : comment l'éviter? Offrez de votre temps à une organisation communautaire comme Je bénévole.ca , aux entreprises agroalimentaires (Centre d'emploi agricole ) ou aux établissements de la restauration et du commerce du détail (À table! Emplois ). Vous pouvez y travailler, mais également offrir du temps à titre bénévole si vous le désirez. Renseignez-vous auprès des organismes et des entreprises de votre communauté.Faites-vous plaisir ou comblez les personnes qui vous sont chères. Nombreuses sont les entreprises qui offrent des services de livraison ou des services au comptoir en cette période de confinement. Renseignez-vous auprès de votre cabane à sucre, de votre restaurant, de votre boulangerie, de votre chocolaterie ou de tout autre commerce que vous aimez. Plusieurs ont lancé de belles initiatives en ce moment.Vous pourriez être tenté de développer votre propre autonomie en vous consacrant à un jardin ou à un élevage personnel. Vous pouvez également vous renseigner au sujet des jardins communautaires. Pour débuter, consulter le Guide de l'agriculture urbaine .Si l’idée d’un élevage de poules en ville , ou de toute autre espèce animale, vous apparaît agréable, n’agissez jamais sans évaluer tous les aspects. Les poules, comme tout autre animal d’élevage, requièrent des soins soutenus pour assurer leur santé et leur bien-être. Bien que ce type d’élevage soit parfois permis par les municipalités, il est nécessaire de bien vous renseigner sur les règlements en vigueur, les besoins particuliers des animaux et la disponibilité des soins vétérinaires dans la région. Pour amorcer votre réflexion, vous pouvez consulter le Guide de l’agriculture urbaine ."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Privilégiez les produits du Québec au moment de vos achats. Diverses inscriptions facilitent le repérage de ces produits en magasin. Vous pouvez notamment vous renseigner sur le site\n   <a href=\"https://www.alimentsduquebec.com/fr/produits-dici\" target=\"_blank\">\n    Aliments du Québec\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   .\n  </li>\n  <li>\n   Faites vos achats dans des commerces locaux consacrés à l’alimentation.\n   <a href=\"https://lepanierbleu.ca/\" target=\"_blank\">\n    Le Panier bleu\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   est une nouvelle plateforme de référence qui facilite le repérage des commerces locaux.\n  </li>\n  <li>\n   Cultivez votre intérêt pour les produits d’ici en essayant de nouvelles recettes à base de produits locaux. Voici quelques exemples dans le blogue\n   <a href=\"https://www.alimentsduquebec.com/fr/blogue/recette-100-quebec\" target=\"_blank\">\n    Recettes 100% Québec\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   du site Aliments du Québec.\n  </li>\n  <li>\n   Éviter le gaspillage alimentaire à la maison. Voyez quelques manières et astuces ici dans la section\n   <a href=\"https://www.mapaq.gouv.qc.ca/fr/Consommation/guideconsommateur/gaspillage/Pages/gaspillagealimentaire.aspx\" target=\"_blank\">\n    Gaspillage alimentaire : comment l'éviter?\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   Offrez de votre temps à une organisation communautaire comme\n   <a href=\"https://www.jebenevole.ca/\" target=\"_blank\">\n    Je bénévole.ca\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   , aux entreprises agroalimentaires (\n   <a href=\"https://www.emploiagricole.com/liste-des-emplois/\" target=\"_blank\">\n    Centre d'emploi agricole\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   ) ou aux établissements de la restauration et du commerce du détail (\n   <a href=\"https://atableemplois.ca/\" target=\"_blank\">\n    À table! Emplois\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   ). Vous pouvez y travailler, mais également offrir du temps à titre bénévole si vous le désirez. Renseignez-vous auprès des organismes et des entreprises de votre communauté.\n  </li>\n  <li>\n   Faites-vous plaisir ou comblez les personnes qui vous sont chères. Nombreuses sont les entreprises qui offrent des services de livraison ou des services au comptoir en cette période de confinement. Renseignez-vous auprès de votre cabane à sucre, de votre restaurant, de votre boulangerie, de votre chocolaterie ou de tout autre commerce que vous aimez. Plusieurs ont lancé de belles initiatives en ce moment.\n  </li>\n  <li>\n   Vous pourriez être tenté de développer votre propre autonomie en vous consacrant à un jardin ou à un élevage personnel. Vous pouvez également vous renseigner au sujet des jardins communautaires. Pour débuter, consulter le\n   <a href=\"https://www.mapaq.gouv.qc.ca/fr/Productions/agricultureurbaine/trucsconseils/Pages/trucsconseils.aspx\" target=\"_blank\">\n    Guide de l'agriculture urbaine\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   .\n  </li>\n  <li>\n   Si l’idée d’un élevage de\n   <a href=\"https://www.mapaq.gouv.qc.ca/fr/Productions/agricultureurbaine/trucsconseils/Pages/elevagedepouleenville.aspx\" target=\"_blank\">\n    poules en ville\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   , ou de toute autre espèce animale, vous apparaît agréable, n’agissez jamais sans évaluer tous les aspects. Les poules, comme tout autre animal d’élevage, requièrent des soins soutenus pour assurer leur santé et leur bien-être. Bien que ce type d’élevage soit parfois permis par les municipalités, il est nécessaire de bien vous renseigner sur les règlements en vigueur, les besoins particuliers des animaux et la disponibilité des soins vétérinaires dans la région. Pour amorcer votre réflexion, vous pouvez consulter le\n   <a href=\"https://www.mapaq.gouv.qc.ca/fr/Productions/agricultureurbaine/trucsconseils/Pages/trucsconseils.aspx\" target=\"_blank\">\n    Guide de l’agriculture urbaine\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   .\n  </li>\n </ul>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce qu’une augmentation des prix des denrées alimentaires est à prévoir?": {
+        "title": "Est-ce qu’une augmentation des prix des denrées alimentaires est à prévoir?",
+        "plaintext": [
+            "Le secteur bioalimentaire fait face à de grands défis en ce moment. Le gouvernement parle à l'ensemble des acteurs de la chaîne alimentaire tous les jours.",
+            "Dans les circonstances exceptionnelles actuelles, il est envisageable que le prix des produits alimentaires fluctue. ",
+            "Nous tenons à rappeler qu'il n'y a aucune pénurie d’aliments ou de produits sanitaires en vue."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le secteur bioalimentaire fait face à de grands défis en ce moment. Le gouvernement parle à l'ensemble des acteurs de la chaîne alimentaire tous les jours.\n </p>\n <p>\n  Dans les circonstances exceptionnelles actuelles, il est envisageable que le prix des produits alimentaires fluctue.\n </p>\n <p>\n  Nous tenons à rappeler qu'il n'y a aucune pénurie d’aliments ou de produits sanitaires en vue.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Comment puis-je limiter la propagation de la maladie lorsque j’effectue mes achats d’aliments en magasin?": {
+        "title": "Comment puis-je limiter la propagation de la maladie lorsque j’effectue mes achats d’aliments en magasin?",
+        "plaintext": [
+            "Les consignes à respecter, lorsque les consommateurs se présentent dans des commerces de détail, sont disponibles dans le site du ​Conseil canadien du commerce de détail ."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les consignes à respecter, lorsque les consommateurs se présentent dans des commerces de détail, sont disponibles dans le site du ​\n  <a href=\"https://www.commercedetail.org/clientbrillant/\" target=\"_blank\">\n   Conseil canadien du commerce de détail\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que je peux continuer à consommer des aliments en provenance de l'étranger?": {
+        "title": "Est-ce que je peux continuer à consommer des aliments en provenance de l'étranger?",
+        "plaintext": [
+            "Les aliments importés ne comportent pas plus de risque de transmission du virus.",
+            "La transmission du virus par l’ingestion d’aliments est écartée. De plus, le coronavirus ne peut pas se multiplier dans les aliments.",
+            "Il est possible de contracter la COVID-19 en touchant une surface ou un objet où se trouve le virus, puis en portant la main à sa bouche, à son nez ou à ses yeux, mais ce n’est pas le principal mode de transmission. ",
+            "ll est donc important de toujours observer les règles d’hygiène de base : bien se laver les mains avant de manger et de cuisiner, bien laver les aliments avant de les consommer, tousser ou éternuer dans le pli du coude."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les aliments importés ne comportent pas plus de risque de transmission du virus.\n </p>\n <p>\n  La transmission du virus par l’ingestion d’aliments est écartée. De plus, le coronavirus ne peut pas se multiplier dans les aliments.\n </p>\n <p>\n  Il est possible de contracter la COVID-19 en touchant une surface ou un objet où se trouve le virus, puis en portant la main à sa bouche, à son nez ou à ses yeux, mais ce n’est pas le principal mode de transmission.\n </p>\n <p>\n  ll est donc important de toujours observer les règles d’hygiène de base : bien se laver les mains avant de manger et de cuisiner, bien laver les aliments avant de les consommer, tousser ou éternuer dans le pli du coude.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que je dois laver tous les articles emballés achetés à l’épicerie?": {
+        "title": "Est-ce que je dois laver tous les articles emballés achetés à l’épicerie?",
+        "plaintext": [
+            "Bien qu’il soit possible de contracter la COVID-19 en touchant une surface ou un objet où se trouve le virus, puis en portant la main à sa bouche, à son nez ou à ses yeux, ce n’est pas le principal mode de transmission. ",
+            "Plusieurs virus de la famille des coronavirus peuvent survivre sur des surfaces de deux heures à neuf jours, selon la nature de la surface et les conditions environnementales (température, humidité, etc.). Cependant, il n’est pas nécessaire de nettoyer tous ses achats. La clé demeure de se laver les mains fréquemment, dès le retour à la maison et après avoir rangé les articles et les aliments. Comme c’est toujours le cas, il faut se laver les mains avant de cuisiner et avant de manger.",
+            "Afin de limiter la contamination des surfaces, plusieurs mesures d’hygiène renforcées sont mises en œuvre par les exploitants de commerce de détail. Les consommateurs doivent aussi respecter l’étiquette respiratoire durant leurs déplacements dans les lieux publics comme les épiceries et les supermarchés."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Bien qu’il soit possible de contracter la COVID-19 en touchant une surface ou un objet où se trouve le virus, puis en portant la main à sa bouche, à son nez ou à ses yeux, ce n’est pas le principal mode de transmission.\n </p>\n <p>\n  Plusieurs virus de la famille des coronavirus peuvent survivre sur des surfaces de deux heures à neuf jours, selon la nature de la surface et les conditions environnementales (température, humidité, etc.). Cependant, il n’est pas nécessaire de nettoyer tous ses achats. La clé demeure de se laver les mains fréquemment, dès le retour à la maison et après avoir rangé les articles et les aliments. Comme c’est toujours le cas, il faut se laver les mains avant de cuisiner et avant de manger.\n </p>\n <p>\n  Afin de limiter la contamination des surfaces, plusieurs mesures d’hygiène renforcées sont mises en œuvre par les exploitants de commerce de détail. Les consommateurs doivent aussi respecter l’étiquette respiratoire durant leurs déplacements dans les lieux publics comme les épiceries et les supermarchés.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-il risqué d’acheter des fruits et légumes qui ne sont pas emballés?": {
+        "title": "Est-il risqué d’acheter des fruits et légumes qui ne sont pas emballés?",
+        "plaintext": [
+            "Non, mais les fruits et les légumes frais devraient toujours être lavés avant d’être consommés, comme c’est le cas habituellement. Un lavage à l’eau en frottant les surfaces suffit. Nul besoin d’ajouter un détergent. ​",
+            "En réalité, l’emballage des fruits et des légumes augmenterait les manipulations par les exploitants, ce qui n’est pas souhaité. Les consommateurs doivent aussi respecter l’étiquette respiratoire autour des aliments non emballés comme les fruits et les légumes."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Non, mais les fruits et les légumes frais devraient toujours être lavés avant d’être consommés, comme c’est le cas habituellement. Un lavage à l’eau en frottant les surfaces suffit. Nul besoin d’ajouter un détergent. ​\n </p>\n <p>\n  En réalité, l’emballage des fruits et des légumes augmenterait les manipulations par les exploitants, ce qui n’est pas souhaité. Les consommateurs doivent aussi respecter l’étiquette respiratoire autour des aliments non emballés comme les fruits et les légumes.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Y a-t-il des précautions particulières à prendre avant de consommer un repas à emporter ou livré?": {
+        "title": "Y a-t-il des précautions particulières à prendre avant de consommer un repas à emporter ou livré?",
+        "plaintext": [
+            "Jusqu’à présent, il n’existe aucune preuve que la COVID-19 puisse être transmise par les aliments.",
+            "Le coronavirus se transmet par l’entremise des gouttelettes respiratoires ou par le truchement des surfaces ou des ustensiles qui peuvent être contaminés par des gouttelettes. Il est possible de contracter la COVID-19 en touchant une surface ou un objet où se trouve le virus, puis en portant la main à sa bouche, à son nez ou à ses yeux, mais ce n’est pas le principal mode de transmission.",
+            "Il est important de respecter les bonnes pratiques d'hygiène et de salubrité alimentaires et d'effectuer une cuisson sécuritaire des aliments. Ils réduisent de façon générale le risque de transmission de toute contamination ou de toute maladie d’origine alimentaire."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Jusqu’à présent, il n’existe aucune preuve que la COVID-19 puisse être transmise par les aliments.\n </p>\n <p>\n  Le coronavirus se transmet par l’entremise des gouttelettes respiratoires ou par le truchement des surfaces ou des ustensiles qui peuvent être contaminés par des gouttelettes. Il est possible de contracter la COVID-19 en touchant une surface ou un objet où se trouve le virus, puis en portant la main à sa bouche, à son nez ou à ses yeux, mais ce n’est pas le principal mode de transmission.\n </p>\n <p>\n  Il est important de respecter les bonnes pratiques d'hygiène et de salubrité alimentaires et d'effectuer une cuisson sécuritaire des aliments. Ils réduisent de façon générale le risque de transmission de toute contamination ou de toute maladie d’origine alimentaire.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-il recommandé de fabriquer à la maison un nettoyant ménager à base d'eau de Javel?": {
+        "title": "Est-il recommandé de fabriquer à la maison un nettoyant ménager à base d'eau de Javel?",
+        "plaintext": [
+            "Pour le nettoyage des surfaces à la maison, une solution de 0,1 % d’hypochlorite de sodium est recommandée. Cela correspond à 4 cuillères à thé (20 millilitres) d’une solution d’eau de Javel domestique dans 1 litre d’eau. Il faut renouveler la solution diluée chaque jour. Il ne faut pas mélanger l’eau de Javel à d’autres nettoyants.",
+            "Une solution de 0,1 % d’hypochlorite est suffisante pour éliminer un virus tel que le coronavirus, moins résistant que d’autres microorganismes pathogènes.",
+            "Cela correspond à la littérature scientifique existant actuellement en lien avec les coronavirus et est en conformité avec les recommandations du CDC (Centers for Disease Control and Prevention) .",
+            "Dans le contexte actuel et selon les données scientifiques disponibles, la mesure de dilution proposée habituellement  (1 : 200) devrait être modifiée à une mesure de 1 : 50 (qui équivaut à une solution de 0,1% d’hypochlorite de sodium),par mesure de précaution. Lorsqu’une solution de 0,1 % d’hypochlorite de sodium est utilisée sur les surfaces alimentaires, celles-ci doivent ensuite être rincées pour limiter les risques de nature chimique.",
+            "Nous suivons l’évolution des données scientifiques sur le sujet.​"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Pour le nettoyage des surfaces à la maison, une solution de 0,1 % d’hypochlorite de sodium est recommandée. Cela correspond à 4 cuillères à thé (20 millilitres) d’une solution d’eau de Javel domestique dans 1 litre d’eau. Il faut renouveler la solution diluée chaque jour. Il ne faut pas mélanger l’eau de Javel à d’autres nettoyants.\n </p>\n <p>\n  Une solution de 0,1 % d’hypochlorite est suffisante pour éliminer un virus tel que le coronavirus, moins résistant que d’autres microorganismes pathogènes.\n </p>\n <p>\n  Cela correspond à la littérature scientifique existant actuellement en lien avec les coronavirus et est en conformité avec les recommandations du\n  <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fprepare%2Fprevention.html\" target=\"_blank\">\n   CDC (Centers for Disease Control and Prevention)\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n <p>\n  Dans le contexte actuel et selon les données scientifiques disponibles, la mesure de dilution proposée habituellement  (1 : 200) devrait être modifiée à une mesure de 1 : 50 (qui équivaut à une solution de 0,1% d’hypochlorite de sodium),par mesure de précaution. Lorsqu’une solution de 0,1 % d’hypochlorite de sodium est utilisée sur les surfaces alimentaires, celles-ci doivent ensuite être rincées pour limiter les risques de nature chimique.\n </p>\n <p>\n  Nous suivons l’évolution des données scientifiques sur le sujet.​\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que je peux apporter mes sacs réutilisables à l'épicerie?": {
+        "title": "Est-ce que je peux apporter mes sacs réutilisables à l'épicerie?",
+        "plaintext": [
+            "Vous pouvez apporter vos sacs réutilisables chez les détaillants, mais vous devrez emballer vos achats.",
+            "Pour limiter les manipulations et la propagation du virus, l’Institut national de santé publique du Québec (INSPQ) recommande de ne pas offrir le service d’emballage en général.",
+            "Une entreprise peut toutefois choisir d’offrir le service d’emballage uniquement au moyen des sacs ou des boîtes qu’elle possède. Elle limite de cette façon le contact des travailleurs avec des objets potentiellement contaminés. Tout en permettant d’augmenter la cadence du service à la clientèle, il est possible de réduire ainsi la présence de personnes autour des caisses."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Vous pouvez apporter vos sacs réutilisables chez les détaillants, mais vous devrez emballer vos achats.\n </p>\n <p>\n  Pour limiter les manipulations et la propagation du virus, l’Institut national de santé publique du Québec (INSPQ) recommande de ne pas offrir le service d’emballage en général.\n </p>\n <p>\n  Une entreprise peut toutefois choisir d’offrir le service d’emballage uniquement au moyen des sacs ou des boîtes qu’elle possède. Elle limite de cette façon le contact des travailleurs avec des objets potentiellement contaminés. Tout en permettant d’augmenter la cadence du service à la clientèle, il est possible de réduire ainsi la présence de personnes autour des caisses.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Les toilettes des restaurants offrant des mets prêts-à-emporter doivent-elles être accessibles aux clients?": {
+        "title": "Les toilettes des restaurants offrant des mets prêts-à-emporter doivent-elles être accessibles aux clients?",
+        "plaintext": [
+            "Le restaurateur offrant des aliments ou des repas prêts à emporter peut choisir ou non de rendre les toilettes de son établissement accessibles au public.",
+            "L’exploitant qui le fait devrait alors prévoir une procédure de nettoyage renforcée pour les surfaces les plus exposées au public. Il n’est pas recommandé de permettre aux clients d’avoir accès aux toilettes réservées au personnel."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le restaurateur offrant des aliments ou des repas prêts à emporter peut choisir ou non de rendre les toilettes de son établissement accessibles au public.\n </p>\n <p>\n  L’exploitant qui le fait devrait alors prévoir une procédure de nettoyage renforcée pour les surfaces les plus exposées au public. Il n’est pas recommandé de permettre aux clients d’avoir accès aux toilettes réservées au personnel.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Les aliments peuvent-ils être contaminés par la COVID-19?": {
+        "title": "Les aliments peuvent-ils être contaminés par la COVID-19?",
+        "plaintext": [
+            "Il n’existe actuellement aucune preuve suggérant que la nourriture est une source ou une voie probable de transmission de la COVID-19. Le lavage usuel des fruits et légumes et l’application des bonnes pratiques de préparation d’aliments sont toujours recommandés."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Il n’existe actuellement aucune preuve suggérant que la nourriture est une source ou une voie probable de transmission de la COVID-19. Le lavage usuel des fruits et légumes et l’application des bonnes pratiques de préparation d’aliments sont toujours recommandés.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce la COVID-19 peut entraîner une pénurie de nourriture?": {
+        "title": "Est-ce la COVID-19 peut entraîner une pénurie de nourriture?",
+        "plaintext": [
+            "Non. Il n’y a pas lieu de craindre une pénurie de nourriture."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Non. Il n’y a pas lieu de craindre une pénurie de nourriture.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que la COVID-19 peut survivre à la congélation d’un plat ou à sa cuisson au micro-ondes ou au four?": {
+        "title": "Est-ce que la COVID-19 peut survivre à la congélation d’un plat ou à sa cuisson au micro-ondes ou au four?",
+        "plaintext": [
+            "La congélation n’est pas une bonne façon de neutraliser le virus. En effet, le virus pourrait possiblement survivre au froid sur une surface sèche.",
+            "Par contre, une chaleur élevée, comme lors de la cuisson au micro-ondes à puissance maximale ou au four, permet de le détruire.",
+            "Le virus ne se transmet pas par ce que l’on avale, mais bien par des gouttelettes infectées que nous respirons ou qui entrent en contact avec la muqueuse de nos yeux."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  La congélation n’est pas une bonne façon de neutraliser le virus. En effet, le virus pourrait possiblement survivre au froid sur une surface sèche.\n </p>\n <p>\n  Par contre, une chaleur élevée, comme lors de la cuisson au micro-ondes à puissance maximale ou au four, permet de le détruire.\n </p>\n <p>\n  Le virus ne se transmet pas par ce que l’on avale, mais bien par des gouttelettes infectées que nous respirons ou qui entrent en contact avec la muqueuse de nos yeux.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Il y a des files d’attente à l’épicerie, à la pharmacie ou dans les cliniques désignées d’évaluation. N’est-ce pas dangereux pour la transmission du virus?": {
+        "title": "Il y a des files d’attente à l’épicerie, à la pharmacie ou dans les cliniques désignées d’évaluation. N’est-ce pas dangereux pour la transmission du virus?",
+        "plaintext": [
+            "Les personnes présentant des symptômes doivent rester à la maison. Il est important de garder une distance de deux mètres (plus de 6 pieds) avec la personne devant vous dans la file. Plusieurs commerces ont placé des indications au sol afin que la distanciation physique minimale soit respectée."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les personnes présentant des symptômes doivent rester à la maison. Il est important de garder une distance de deux mètres (plus de 6 pieds) avec la personne devant vous dans la file. Plusieurs commerces ont placé des indications au sol afin que la distanciation physique minimale soit respectée.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Je suis responsable d’animaux mais mon entreprise étant fermée, quels soins dois-je m’assurer de leur fournir?": {
+        "title": "Je suis responsable d’animaux mais mon entreprise étant fermée, quels soins dois-je m’assurer de leur fournir?",
+        "plaintext": [
+            "L’ordonnance de fermeture des commerces et des services non prioritaires prescrite par le gouvernement, qui prenait effet à compter du mercredi 25 mars à 0 h 01, concerne l’ensemble des commerces et des services non prioritaires comme les services de pension, les activités d’éducation (ex. : maternelles de chiots et cours pour animaux), les services de toilettage et les autres activités connexes (ex. : centre d’agilité). Vous pouvez consulter la page ​Réduction au minimum des services et activités non prioritaires .​ ",
+            "Les animaux sont des êtres sensibles qui ont des besoins essentiels. Le propriétaire ou le gardien des animaux doit assurer leur sécurité et leur bien-être , en leur fournissant les soins requis (ex. : alimentation et hébergement), malgré la fermeture de son commerce.  ",
+            "Pour la sécurité du personnel et des animaux, les entreprises visées doivent réévaluer leurs pratiques en prenant en considération les installations dont elles disposent, l’espèce animale hébergée, le nombre de pensionnaires et le nombre minimal de personnes nécessaires pour fournir les soins de base aux animaux. Les mesures d’hygiène recommandées par le ministère de la Santé et des Services sociaux doivent être mises en œuvre pour assurer la sécurité des personnes.",
+            "À l’heure actuelle, l’abandon ou l’euthanasie d’animaux ne sont pas justifiés ni soutenus par aucune évidence scientifique. Nous comptons sur les entreprises et les partenaires ayant des animaux à leur charge pour assurer la continuité des services essentiels au bien-être des animaux. Les propriétaires et les gardiens d’animaux sont également invités à prévoir un plan d’urgence pour que leurs animaux obtiennent les soins nécessaires advenant le cas où ils seraient dans l’incapacité de s’en occuper. Ils doivent également prévoir le matériel nécessaire à la santé des animaux (ex. : l’équivalent d’au moins deux semaines de nourriture et les médicaments requis, le cas échéant)."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  L’ordonnance de fermeture des commerces et des services non prioritaires prescrite par le gouvernement, qui prenait effet à compter du mercredi 25 mars à 0 h 01, concerne l’ensemble des commerces et des services non prioritaires comme les services de pension, les activités d’éducation (ex. : maternelles de chiots et cours pour animaux), les services de toilettage et les autres activités connexes (ex. : centre d’agilité). Vous pouvez consulter la page ​\n  <a href=\"https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/\" target=\"_blank\">\n   Réduction au minimum des services et activités non prioritaires\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .​\n </p>\n <p>\n  Les animaux sont des êtres sensibles qui ont des besoins essentiels. Le propriétaire ou le gardien des animaux doit assurer\n  <a href=\"https://www.mapaq.gouv.qc.ca/fr/Productions/santeanimale/securitebea/Pages/Securitebienetre.aspx\" target=\"_blank\">\n   leur sécurité et leur bien-être\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , en leur fournissant les soins requis (ex. : alimentation et hébergement), malgré la fermeture de son commerce.\n </p>\n <p>\n  Pour la sécurité du personnel et des animaux, les entreprises visées doivent réévaluer leurs pratiques en prenant en considération les installations dont elles disposent, l’espèce animale hébergée, le nombre de pensionnaires et le nombre minimal de personnes nécessaires pour fournir les soins de base aux animaux. Les mesures d’hygiène recommandées par le ministère de la Santé et des Services sociaux doivent être mises en œuvre pour assurer la sécurité des personnes.\n </p>\n <p>\n  À l’heure actuelle, l’abandon ou l’euthanasie d’animaux ne sont pas justifiés ni soutenus par aucune évidence scientifique. Nous comptons sur les entreprises et les partenaires ayant des animaux à leur charge pour assurer la continuité des services essentiels au bien-être des animaux. Les propriétaires et les gardiens d’animaux sont également invités à prévoir un plan d’urgence pour que leurs animaux obtiennent les soins nécessaires advenant le cas où ils seraient dans l’incapacité de s’en occuper. Ils doivent également prévoir le matériel nécessaire à la santé des animaux (ex. : l’équivalent d’au moins deux semaines de nourriture et les médicaments requis, le cas échéant).\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce normal que la pension où sont logés mes animaux ait changé ses services dans le contexte actuel?": {
+        "title": "Est-ce normal que la pension où sont logés mes animaux ait changé ses services dans le contexte actuel?",
+        "plaintext": [
+            "Oui. Les pensions pour animaux (ex. : chien, chat, cheval) ne sont pas considérées comme des services prioritaires. En raison des mesures instaurées par le gouvernement du Québec, le propriétaire d’un animal logé dans une pension n’est pas autorisé à se rendre à la pension pour voir ou pour récupérer son animal. Cette situation restera la même tant que les mesures d’urgence seront en vigueur.",
+            "Les animaux sont des êtres sensibles qui ont des besoins essentiels. Le propriétaire de la pension et ses employés sont responsables de leur fournir les soins de base comme l'alimentation, l’hébergement (ex. : propreté des lieux, litière) et les soins médicaux d’urgence, dans le respect des mesures d’hygiènes recommandées par le MSSS comme la distanciation sociale. Le propriétaire de la pension doit prendre les mesures appropriées pour s’assurer que le personnel est suffisant pour prodiguer les soins.",
+            "Les animaux doivent aussi être en mesure de faire de l’exercice. Dans le contexte de la pandémie, bien qu’une période d’exercice ou de mise en liberté quotidienne soit recommandée, cette période doit être évaluée et établie en fonction des besoins particuliers des animaux hébergés et des ressources présentes.",
+            "La collaboration des citoyens et des entreprises est nécessaire pour assurer le bien-être des animaux tout en favorisant la santé publique. "
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Oui. Les pensions pour animaux (ex. : chien, chat, cheval) ne sont pas considérées comme des services prioritaires. En raison des mesures instaurées par le gouvernement du Québec, le propriétaire d’un animal logé dans une pension n’est pas autorisé à se rendre à la pension pour voir ou pour récupérer son animal. Cette situation restera la même tant que les mesures d’urgence seront en vigueur.\n </p>\n <p>\n  Les animaux sont des êtres sensibles qui ont des besoins essentiels. Le propriétaire de la pension et ses employés sont responsables de leur fournir les soins de base comme l'alimentation, l’hébergement (ex. : propreté des lieux, litière) et les soins médicaux d’urgence, dans le respect des mesures d’hygiènes recommandées par le MSSS comme la distanciation sociale. Le propriétaire de la pension doit prendre les mesures appropriées pour s’assurer que le personnel est suffisant pour prodiguer les soins.\n </p>\n <p>\n  Les animaux doivent aussi être en mesure de faire de l’exercice. Dans le contexte de la pandémie, bien qu’une période d’exercice ou de mise en liberté quotidienne soit recommandée, cette période doit être évaluée et établie en fonction des besoins particuliers des animaux hébergés et des ressources présentes.\n </p>\n <p>\n  La collaboration des citoyens et des entreprises est nécessaire pour assurer le bien-être des animaux tout en favorisant la santé publique.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Je suis le propriétaire d’une pension pour animaux. Puis-je prendre en charge de nouveaux pensionnaires présentement?": {
+        "title": "Je suis le propriétaire d’une pension pour animaux. Puis-je prendre en charge de nouveaux pensionnaires présentement?",
+        "plaintext": [
+            "Non. Les pensions ne peuvent pas prendre en charge de nouveaux animaux avant la fin de l’ordonnance prescrite par le gouvernement."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Non. Les pensions ne peuvent pas prendre en charge de nouveaux animaux avant la fin de l’ordonnance prescrite par le gouvernement.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-il possible de récupérer mon animal qui se trouve actuellement dans une pension pour animaux?": {
+        "title": "Est-il possible de récupérer mon animal qui se trouve actuellement dans une pension pour animaux?",
+        "plaintext": [
+            "Non. Aucun propriétaire ne peut récupérer son animal avant la levée des mesures d’urgence décrétées par le gouvernement."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Non. Aucun propriétaire ne peut récupérer son animal avant la levée des mesures d’urgence décrétées par le gouvernement.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Puis-je récupérer mon cheval dans une pension pour le transporter dans un nouveau lieu de garde?​": {
+        "title": "Puis-je récupérer mon cheval dans une pension pour le transporter dans un nouveau lieu de garde?​",
+        "plaintext": [
+            "Non. Étant donné l’application des mesures d’urgence, seuls les déplacements d’animaux liés à des cas d’extrême nécessité sont autorisés. Par exemple, il peut s'agit d'un déplacement vers un centre vétérinaire pour y recevoir des soins ou encore la prise en charge d’un animal par un refuge lorsque le propriétaire ou le gardien n’est plus en mesure de fournir les soins nécessaires aux animaux.",
+            "La personne qui effectue le déplacement de l’animal doit posséder une preuve attestant la nécessité du déplacement, comme un document remis par un médecin vétérinaire indiquant le transfert d’un animal vers un centre spécialisé ou encore une confirmation d'un refuge de la prise en charge de l’animal."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Non. Étant donné l’application des mesures d’urgence, seuls les déplacements d’animaux liés à des cas d’extrême nécessité sont autorisés. Par exemple, il peut s'agit d'un déplacement vers un centre vétérinaire pour y recevoir des soins ou encore la prise en charge d’un animal par un refuge lorsque le propriétaire ou le gardien n’est plus en mesure de fournir les soins nécessaires aux animaux.\n </p>\n <p>\n  La personne qui effectue le déplacement de l’animal doit posséder une preuve attestant la nécessité du déplacement, comme un document remis par un médecin vétérinaire indiquant le transfert d’un animal vers un centre spécialisé ou encore une confirmation d'un refuge de la prise en charge de l’animal.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Est-ce que les refuges p​our animaux sont ouverts actuellement?": {
+        "title": "Est-ce que les refuges p​our animaux sont ouverts actuellement?",
+        "plaintext": [
+            "Les refuges pour animaux comme les fourrières, les services animaliers ou les lieux tenus par des personnes ou des organismes voués à la protection des animaux sont considérés comme des services essentiels. Les déplacements d’animaux vers un refuge sont autorisés, puisqu’il s’agit d’un service prioritaire.​",
+            "Dans l’intérêt de la santé publique à court et à long terme, ces lieux peuvent limiter ou modifier les services offerts durant la pandémie de la COVID-19.",
+            "Il est important de limiter les abandons d'animaux lorsque les propriétaires sont en mesure de fournir les soins de base à leurs animaux, jusqu’à la levée des mesures d’urgence.",
+            ""
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les refuges pour animaux comme les fourrières, les services animaliers ou les lieux tenus par des personnes ou des organismes voués à la protection des animaux sont considérés comme des services essentiels. Les déplacements d’animaux vers un refuge sont autorisés, puisqu’il s’agit d’un service prioritaire.​\n </p>\n <p>\n  Dans l’intérêt de la santé publique à court et à long terme, ces lieux peuvent limiter ou modifier les services offerts durant la pandémie de la COVID-19.\n </p>\n <p>\n  Il est important de limiter les abandons d'animaux lorsque les propriétaires sont en mesure de fournir les soins de base à leurs animaux, jusqu’à la levée des mesures d’urgence.\n </p>\n <p>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Existe-t-il de l’aide financière pour appuyer les entreprises qui doivent fournir des soins aux animaux de compagnie ou de loisir qu’ils possèdent ou gardent?": {
+        "title": "Existe-t-il de l’aide financière pour appuyer les entreprises qui doivent fournir des soins aux animaux de compagnie ou de loisir qu’ils possèdent ou gardent?",
+        "plaintext": [
+            "Malgré la fermeture des entreprises et commerces non prioritaires, le gouvernement a mis en œuvre diverses mesures de nature économique . Certaines de ces mesures pourraient s’appliquer selon les activités visées. "
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Malgré la fermeture des entreprises et commerces non prioritaires, le gouvernement a mis en œuvre diverses\n  <a href=\"https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c47761\" target=\"_blank\">\n   mesures de nature économique\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  . Certaines de ces mesures pourraient s’appliquer selon les activités visées.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    },
+    "Que peut faire un propriétaire d'animal qui n'est plus en mesure de lui fournir les soins requis à cause d'une perte d'emploi ou de la fermeture de son entreprise?": {
+        "title": "Que peut faire un propriétaire d'animal qui n'est plus en mesure de lui fournir les soins requis à cause d'une perte d'emploi ou de la fermeture de son entreprise?",
+        "plaintext": [
+            "La crise sanitaire actuelle pourrait avoir des répercussions sur les animaux de compagnie ou de loisir. Malgré le contexte d’urgence sanitaire, il est primordial que les animaux de compagnie ou de loisir continuent de recevoir les soins de base auxquels ils ont droit (ex. : alimentation suffisante et convenable, logement adéquat).",
+            "Si le propriétaire d’un animal n’est plus en mesure de lui fournir ces soins ou s’il est dans l’incapacité de payer les soins fournis par le gardien de son animal (ex. : cheval en pension), il doit agir et effectuer des choix responsables afin de limiter les effets négatifs pour son animal.",
+            "Les refuges pour animaux (ex. : service animalier, SPA ou SPCA) sont considérés comme des services prioritaires. Ils peuvent être joints par les propriétaires qui doivent se départir de leur animal.",
+            "Les refuges doivent eux aussi fournir les soins requis aux animaux dont ils ont la garde et leur capacité de prise en charge pourrait être réduite en raison de la crise actuelle. La collaboration de tous est nécessaire afin de limiter les euthanasies d’animaux lorsque des solutions de rechange sont possibles.",
+            "Dans le cas particulier des animaux logés en pension, le propriétaire de la pension pourrait recourir aux services d’un conseiller juridique. Il pourra évaluer les différentes solutions applicables et le mode d’intervention à privilégier si un propriétaire refuse de prendre ses responsabilités pour assurer les soins de son animal."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  La crise sanitaire actuelle pourrait avoir des répercussions sur les animaux de compagnie ou de loisir. Malgré le contexte d’urgence sanitaire, il est primordial que les animaux de compagnie ou de loisir continuent de recevoir les soins de base auxquels ils ont droit (ex. : alimentation suffisante et convenable, logement adéquat).\n </p>\n <p>\n  Si le propriétaire d’un animal n’est plus en mesure de lui fournir ces soins ou s’il est dans l’incapacité de payer les soins fournis par le gardien de son animal (ex. : cheval en pension), il doit agir et effectuer des choix responsables afin de limiter les effets négatifs pour son animal.\n </p>\n <p>\n  Les refuges pour animaux (ex. : service animalier, SPA ou SPCA) sont considérés comme des services prioritaires. Ils peuvent être joints par les propriétaires qui doivent se départir de leur animal.\n </p>\n <p>\n  Les refuges doivent eux aussi fournir les soins requis aux animaux dont ils ont la garde et leur capacité de prise en charge pourrait être réduite en raison de la crise actuelle. La collaboration de tous est nécessaire afin de limiter les euthanasies d’animaux lorsque des solutions de rechange sont possibles.\n </p>\n <p>\n  Dans le cas particulier des animaux logés en pension, le propriétaire de la pension pourrait recourir aux services d’un conseiller juridique. Il pourra évaluer les différentes solutions applicables et le mode d’intervention à privilégier si un propriétaire refuse de prendre ses responsabilités pour assurer les soins de son animal.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-sur-les-commerces-les-lieux-publics-et-les-services-dans-le-contexte-de-la-covid-19/",
+        "source": "quebec-faq",
+        "language": "fr",
+        "type": "faq",
+        "time": "2020-04-14 17:02:02.375887"
+    }
+}

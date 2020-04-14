@@ -6,27 +6,27 @@
             "The government is ensuring that the communities receive and share the information that is being transmitted to the population:",
             "A crisis unit has been set up to support the intervention of Indigenous authorities, which includes the participation of the governments of Québec and Canada as well as a number of Indigenous organizations.A specific channel of communication has been opened with the Inuit, who are experiencing particular issues, owing to their geographical situation.",
             "Also, information is being shared on a daily basis through several platforms and in several formats (press releases, press scrums and computer graphics) in order to keep Indigenous communities well informed.",
-            "We encourage citizens in Indigenous communities to consult the website www.quebec.ca/coronavirus daily, and to communicate with local health authorities if needed."
+            "We encourage citizens in Indigenous communities to consult the website daily, and to communicate with local health authorities if needed."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  The government is ensuring that the communities receive and share the information that is being transmitted to the population:\n </p>\n <ul>\n  <li>\n   A crisis unit has been set up to support the intervention of Indigenous authorities, which includes the participation of the governments of Québec and Canada as well as a number of Indigenous organizations.\n  </li>\n  <li>\n   A specific channel of communication has been opened with the Inuit, who are experiencing particular issues, owing to their geographical situation.\n  </li>\n </ul>\n <p>\n  Also, information is being shared on a daily basis through several platforms and in several formats (press releases, press scrums and computer graphics) in order to keep Indigenous communities well informed.\n </p>\n <p>\n  We encourage citizens in Indigenous communities to consult the website\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n   www.quebec.ca/coronavirus\n  </a>\n  daily, and to communicate with local health authorities if needed.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The government is ensuring that the communities receive and share the information that is being transmitted to the population:\n </p>\n <ul>\n  <li>\n   A crisis unit has been set up to support the intervention of Indigenous authorities, which includes the participation of the governments of Québec and Canada as well as a number of Indigenous organizations.\n  </li>\n  <li>\n   A specific channel of communication has been opened with the Inuit, who are experiencing particular issues, owing to their geographical situation.\n  </li>\n </ul>\n <p>\n  Also, information is being shared on a daily basis through several platforms and in several formats (press releases, press scrums and computer graphics) in order to keep Indigenous communities well informed.\n </p>\n <p>\n  We encourage citizens in Indigenous communities to\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n   consult the website daily\n  </a>\n  , and to communicate with local health authorities if needed.\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "What about Indigenous people living outside their communities?": {
         "title": "What about Indigenous people living outside their communities?",
         "plaintext": [
-            "Like the rest of Québec’s population, Indigenous people living in urban areas are encouraged to follow the measures recommended by the Gouvernement du Québec on the website: https://www.quebec.ca/coronavirus/consignes.",
+            "Like the rest of Québec’s population, Indigenous people living in urban areas are encouraged to follow the health recommendations for everyone​​​​​​​.",
             "Furthermore, each of the Indigenous authorities is in contact with its members living in urban areas in order to answer their questions and to inform them about local decisions relating to the spreading of the virus. In case of doubt, we recommend that you contact your Council.",
             "Contact your local native friendship centre using the contact information in the Native Friendship Centres section or by visiting their Facebook page."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Like the rest of Québec’s population, Indigenous people living in urban areas are encouraged to follow the measures recommended by the Gouvernement du Québec on the website:\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/\">\n   https://www.quebec.ca/coronavirus/consignes\n  </a>\n  .\n </p>\n <p>\n  Furthermore, each of the Indigenous authorities is in contact with its members living in urban areas in order to answer their questions and to inform them about local decisions relating to the spreading of the virus. In case of doubt, we recommend that you contact your Council.\n </p>\n <p>\n  Contact your local native friendship centre using the contact information in the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/instructions-directives/indigenous-communities/#c48570\">\n   Native Friendship Centres\n  </a>\n  section or by visiting their Facebook page.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Like the rest of Québec’s population, Indigenous people living in urban areas are encouraged to follow the\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   health recommendations for everyone\n  </a>\n  ​​​​​​​.\n </p>\n <p>\n  Furthermore, each of the Indigenous authorities is in contact with its members living in urban areas in order to answer their questions and to inform them about local decisions relating to the spreading of the virus. In case of doubt, we recommend that you contact your Council.\n </p>\n <p>\n  Contact your local native friendship centre using the contact information in the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/indigenous-communities/#c48570\">\n   Native Friendship Centres\n  </a>\n  section or by visiting their Facebook page.\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Is testing available in the communities?": {
@@ -39,7 +39,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "What resources are available for First Nations and Inuit?": {
@@ -55,7 +55,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Native Friendship Centres": {
@@ -68,7 +68,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "What resources are available for First Nations and Inuit in Montréal?": {
@@ -82,7 +82,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Information note for the Aboriginal communities": {
@@ -96,7 +96,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Comments": {
@@ -109,7 +109,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "You have questions or require additional information?": {
@@ -122,7 +122,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/communautes-autochtones/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     }
 }

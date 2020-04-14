@@ -1,45 +1,29 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
-    "Au sujet des coronavirus": {
-        "title": "Au sujet des coronavirus",
-        "plaintext": [
-            "En décembre 2019, l'Organisation mondiale de la Santé a été alertée de plusieurs cas de pneumonie à Wuhan, en Chine. Le virus responsable de la maladie ne correspondait à aucun autre virus connu. Le 7 janvier 2020, la Chine a confirmé avoir détecté un nouveau virus de la famille des coronavirus responsable de cette nouvelle maladie nommée la COVID‑19.",
-            "Pour en savoir plus, consultez la page sur la Situation du coronavirus (COVID‑19) au Québec.",
-            "Au sujet des coronavirus",
-            "Certains virus de la famille des coronavirus causent des maladies chez les animaux et d’autres, chez les humains. Les coronavirus qui causent des maladies chez les humains peuvent se transmettre par contact étroit de personne à personne. Dans de rares cas, les coronavirus infectant les animaux peuvent aussi infecter les personnes. Comme le SARS‑CoV‑2, responsable de la COVID‑19, deux autres coronavirus ont une origine animale et causent ou ont causé des maladies graves chez l’humain, soit le SRAS‑CoV, en 2003, et le CoV‑SRMO, depuis 2012.",
-            "Au Québec, aucune évidence ne suggère un risque que des personnes puissent contracter la COVID‑19 par les animaux ou par des produits animaux."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  En décembre 2019, l'Organisation mondiale de la Santé a été alertée de plusieurs cas de pneumonie à Wuhan, en Chine. Le virus responsable de la maladie ne correspondait à aucun autre virus connu. Le 7 janvier 2020, la Chine a confirmé avoir détecté un nouveau virus de la famille des coronavirus responsable de cette nouvelle maladie nommée la COVID‑19.\n </p>\n <p>\n  Pour en savoir plus, consultez la page sur la\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/\">\n   Situation du coronavirus (COVID‑19) au Québec\n  </a>\n  .\n </p>\n <h3>\n  Au sujet des coronavirus\n </h3>\n <p>\n  Certains virus de la famille des coronavirus causent des maladies chez les animaux et d’autres, chez les humains. Les coronavirus qui causent des maladies chez les humains peuvent se transmettre par contact étroit de personne à personne. Dans de rares cas, les coronavirus infectant les animaux peuvent aussi infecter les personnes. Comme le SARS‑CoV‑2, responsable de la COVID‑19, deux autres coronavirus ont une origine animale et causent ou ont causé des maladies graves chez l’humain, soit le SRAS‑CoV, en 2003, et le CoV‑SRMO, depuis 2012.\n </p>\n <p>\n  Au Québec, aucune évidence ne suggère un risque que des personnes puissent contracter la COVID‑19 par les animaux ou par des produits animaux.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
-        "source": "quebec",
-        "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
-        "type": "section"
-    },
     "Symptômes et traitement": {
         "title": "Symptômes et traitement",
         "plaintext": [
             "Les principaux symptômes de la COVID‑19 sont les suivants :",
-            "fièvre, \tchez l’enfant : 38 °C (100,4 °F) et plus (température rectale),chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),ou 1,1 °C de plus que la valeur habituelle d’une personne.toux;difficultés respiratoires.",
+            "fièvre, \tchez l’enfant : 38 °C (100,4 °F) et plus (température rectale),chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),ou 1,1 °C de plus que la valeur habituelle d’une personne.apparition ou aggravation d’une toux;difficultés respiratoires.",
             "ou",
             "perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût.",
             "Les symptômes peuvent être légers et s’apparenter à ceux du rhume. Ils peuvent aussi être plus sévères, comme ceux associés à la pneumonie et à l’insuffisance pulmonaire.",
-            "Les personnes les plus à risque de complications sont :",
-            "les personnes ayant un système immunitaire affaibli;les personnes atteintes de maladies chroniques telles que les maladies cardiaques, pulmonaires et rénales;les personnes âgées de 70 ans et plus.",
+            "Les personnes les plus à risque de décéder à la suite des complications sont :",
+            "les personnes ayant un système immunitaire affaibli;les personnes atteintes de maladies chroniques telles que le diabète, les maladies cardiaques, pulmonaires et rénales;les personnes âgées de 70 ans et plus.",
             "Dans de rares cas, la maladie peut mener à un décès. Le risque de décès est plus élevé chez les personnes âgées.",
             "Développement de symptômes",
-            "Les résidents du Québec qui développent des symptômes (fièvre, toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne 1 877 644-4545. Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées.",
+            "Les résidents du Québec qui développent des symptômes (fièvre, apparition ou aggravation d’une toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne 1 877 644-4545. Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées. Le résident peut également faire l’évaluation de ses symptômes grâce à l’outil d’auto-évaluation des symptômes COVID-19  disponible sur le site Web du Gouvernement du Canada.",
             "Stress, anxiété et déprime",
             "Dans un contexte de pandémie, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page Stress, anxiété et déprime associés à la maladie à coronavirus COVID‑19.",
             "Traitement",
             "Aucun traitement spécifique ni vaccin n’existe pour la COVID‑19. Des traitements de support peuvent toutefois être offerts.",
             "La plupart des personnes atteintes de la COVID‑19 se rétablissent par elles-mêmes."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les principaux symptômes de la COVID‑19 sont les suivants :\n </p>\n <ul>\n  <li>\n   fièvre,\n   <ul>\n    <li>\n     chez l’enfant : 38 °C (100,4 °F) et plus (température rectale),\n    </li>\n    <li>\n     chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),\n    </li>\n    <li>\n     chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),\n    </li>\n    <li>\n     ou 1,1 °C de plus que la valeur habituelle d’une personne.\n    </li>\n   </ul>\n  </li>\n  <li>\n   toux;\n  </li>\n  <li>\n   difficultés respiratoires.\n  </li>\n </ul>\n <p>\n  ou\n </p>\n <ul>\n  <li>\n   perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût.\n  </li>\n </ul>\n <p>\n  Les symptômes peuvent être légers et s’apparenter à ceux du rhume. Ils peuvent aussi être plus sévères, comme ceux associés à la pneumonie et à l’insuffisance pulmonaire.\n </p>\n <p>\n  Les personnes les plus à risque de complications sont :\n </p>\n <ul>\n  <li>\n   les personnes ayant un système immunitaire affaibli;\n  </li>\n  <li>\n   les personnes atteintes de maladies chroniques telles que les maladies cardiaques, pulmonaires et rénales;\n  </li>\n  <li>\n   les personnes âgées de 70 ans et plus.\n  </li>\n </ul>\n <p>\n  Dans de rares cas, la maladie peut mener à un décès. Le risque de décès est plus élevé chez les personnes âgées.\n </p>\n <h3>\n  Développement de symptômes\n </h3>\n <p>\n  Les résidents du Québec qui développent des symptômes (\n  <a href=\"/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/#c46469\">\n   fièvre\n  </a>\n  , toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  . Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées.\n </p>\n <h3>\n  Stress, anxiété et déprime\n </h3>\n <p>\n  Dans un contexte de pandémie, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/\">\n   Stress, anxiété et déprime associés à la maladie à coronavirus COVID‑19\n  </a>\n  .\n </p>\n <h3>\n  Traitement\n </h3>\n <p>\n  Aucun traitement spécifique ni vaccin n’existe pour la COVID‑19. Des traitements de support peuvent toutefois être offerts.\n </p>\n <p>\n  La plupart des personnes atteintes de la COVID‑19 se rétablissent par elles-mêmes.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les principaux symptômes de la COVID‑19 sont les suivants :\n </p>\n <ul>\n  <li>\n   fièvre,\n   <ul>\n    <li>\n     chez l’enfant : 38 °C (100,4 °F) et plus (température rectale),\n    </li>\n    <li>\n     chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),\n    </li>\n    <li>\n     chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),\n    </li>\n    <li>\n     ou 1,1 °C de plus que la valeur habituelle d’une personne.\n    </li>\n   </ul>\n  </li>\n  <li>\n   apparition ou aggravation d’une toux;\n  </li>\n  <li>\n   difficultés respiratoires.\n  </li>\n </ul>\n <p>\n  ou\n </p>\n <ul>\n  <li>\n   perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût.\n  </li>\n </ul>\n <p>\n  Les symptômes peuvent être légers et s’apparenter à ceux du rhume. Ils peuvent aussi être plus sévères, comme ceux associés à la pneumonie et à l’insuffisance pulmonaire.\n </p>\n <p>\n  Les personnes les plus à risque de décéder à la suite des complications sont :\n </p>\n <ul>\n  <li>\n   les personnes ayant un système immunitaire affaibli;\n  </li>\n  <li>\n   les personnes atteintes de maladies chroniques telles que le diabète, les maladies cardiaques, pulmonaires et rénales;\n  </li>\n  <li>\n   les personnes âgées de 70 ans et plus.\n  </li>\n </ul>\n <p>\n  Dans de rares cas, la maladie peut mener à un décès. Le risque de décès est plus élevé chez les personnes âgées.\n </p>\n <h3>\n  Développement de symptômes\n </h3>\n <p>\n  Les résidents du Québec qui développent des symptômes (\n  <a href=\"/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/#c46469\">\n   fièvre\n  </a>\n  , apparition ou aggravation d’une toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  . Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées. Le résident peut également faire l’évaluation de ses symptômes grâce à l’\n  <a href=\"https://ca.thrive.health/covid19/fr\" target=\"_blank\">\n   outil d’auto-évaluation des symptômes COVID-19\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  disponible sur le site Web du Gouvernement du Canada.\n </p>\n <h3>\n  Stress, anxiété et déprime\n </h3>\n <p>\n  Dans un contexte de pandémie, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/\">\n   Stress, anxiété et déprime associés à la maladie à coronavirus COVID‑19\n  </a>\n  .\n </p>\n <h3>\n  Traitement\n </h3>\n <p>\n  Aucun traitement spécifique ni vaccin n’existe pour la COVID‑19. Des traitements de support peuvent toutefois être offerts.\n </p>\n <p>\n  La plupart des personnes atteintes de la COVID‑19 se rétablissent par elles-mêmes.\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Mode de transmission": {
@@ -47,115 +31,57 @@
         "plaintext": [
             "Les connaissances actuelles ne permettent pas de préciser avec exactitude le mode de transmission de la COVID‑19. Il est toutefois considéré que la personne atteinte de la COVID‑19 peut être contagieuse la journée précédant l’apparition de ses symptômes. Des recherches sont encore en cours. Les informations présentées dans les deux paragraphes suivants concernent les coronavirus humains.",
             "Les coronavirus infectent habituellement le nez, la gorge et les poumons. Ils se propagent le plus souvent par les gouttelettes d’une personne infectée, lorsque cette personne tousse ou éternue, par exemple. Ils peuvent aussi se propager par des mains infectées. Ainsi, se toucher la bouche, le nez ou les yeux après avoir eu un contact avec une personne ou une surface infectée est une manière de contracter un coronavirus.",
-            "En général, les coronavirus ne survivent pas longtemps sur les objets. Ils vont survivre environ 3 heures sur les objets inertes à surfaces sèches et environ 6 jours sur les objets inertes à surfaces humides."
+            "En général, les coronavirus ne survivent pas longtemps sur les objets. Ils vont survivre environ 3 heures sur les objets inertes à surfaces sèches et environ 6 jours sur les objets inertes à surfaces humides.",
+            "Au Québec, aucune évidence ne suggère un risque que des personnes puissent contracter la COVID‑19 par les animaux ou par des produits animaux."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les connaissances actuelles ne permettent pas de préciser avec exactitude le mode de transmission de la COVID‑19. Il est toutefois considéré que la personne atteinte de la COVID‑19 peut être contagieuse la journée précédant l’apparition de ses symptômes. Des recherches sont encore en cours. Les informations présentées dans les deux paragraphes suivants concernent les coronavirus humains.\n </p>\n <p>\n  Les coronavirus infectent habituellement le nez, la gorge et les poumons. Ils se propagent le plus souvent par les gouttelettes d’une personne infectée, lorsque cette personne tousse ou éternue, par exemple. Ils peuvent aussi se propager par des mains infectées. Ainsi, se toucher la bouche, le nez ou les yeux après avoir eu un contact avec une personne ou une surface infectée est une manière de contracter un coronavirus.\n </p>\n <p>\n  En général, les coronavirus ne survivent pas longtemps sur les objets. Ils vont survivre\n  <strong>\n   environ 3 heures\n  </strong>\n  sur les objets inertes à surfaces sèches et\n  <strong>\n   environ 6 jours\n  </strong>\n  sur les objets inertes à surfaces humides.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les connaissances actuelles ne permettent pas de préciser avec exactitude le mode de transmission de la COVID‑19. Il est toutefois considéré que la personne atteinte de la COVID‑19 peut être contagieuse la journée précédant l’apparition de ses symptômes. Des recherches sont encore en cours. Les informations présentées dans les deux paragraphes suivants concernent les coronavirus humains.\n </p>\n <p>\n  Les coronavirus infectent habituellement le nez, la gorge et les poumons. Ils se propagent le plus souvent par les gouttelettes d’une personne infectée, lorsque cette personne tousse ou éternue, par exemple. Ils peuvent aussi se propager par des mains infectées. Ainsi, se toucher la bouche, le nez ou les yeux après avoir eu un contact avec une personne ou une surface infectée est une manière de contracter un coronavirus.\n </p>\n <p>\n  En général, les coronavirus ne survivent pas longtemps sur les objets. Ils vont survivre\n  <strong>\n   environ 3 heures\n  </strong>\n  sur les objets inertes à surfaces sèches et\n  <strong>\n   environ 6 jours\n  </strong>\n  sur les objets inertes à surfaces humides.\n </p>\n <p>\n  Au Québec, aucune évidence ne suggère un risque que des personnes puissent contracter la COVID‑19 par les animaux ou par des produits animaux.\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
-    "Croisières": {
-        "title": "Croisières",
+    "Consignes sanitaires pour tous": {
+        "title": "Consignes sanitaires pour tous",
         "plaintext": [
-            "Des Québécois ayant été sur certaines croisières ont été en contact avec des personnes potentiellement contagieuses. En raison du risque de transmission dans le contexte d’une croisière, il est demandé à ces croisiéristes d’être obligatoirement en isolement pour une période de 14 jours après leur date d’arrivée au Canada et de surveiller leurs symptômes (fièvre, toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût). Si vous éprouvez ces symptômes, communiquez avec la ligne 1 877 644‑4545.",
-            "Cet isolement vise autant les voyageurs malades ou qui ressentent des symptômes que ceux qui n’en ont pas et qui sont en parfaite santé. En aucun temps, ces personnes ne doivent sortir à l’extérieur, et ce, même pour prendre une marche."
+            "Toute personne ayant fréquenté tout lieu public doit surveiller ses symptômes et respecter les consignes sanitaires suivantes :",
+            "Lavez-vous les mains souvent à l'eau tiède courante et au savon pendant au moins 20 secondes.Utilisez un désinfectant à base d'alcool si vous n'avez pas accès à de l'eau et à du savon.Observez les règles d'hygiène lorsque vous toussez ou éternuez : \tCouvrez-vous la bouche et le nez avec votre bras afin de réduire la propagation des germes.Si vous utilisez un mouchoir en papier, jetez-le dès que possible et lavez-vous les mains par la suite.Si vous êtes malade, évitez le contact avec les personnes plus vulnérables, dont les personnes âgées, les personnes ayant un système immunitaire affaibli et les personnes ayant une maladie chronique. Évitez le contact direct pour les salutations, comme les poignées de main, et privilégier l’usage de pratiques alternatives.Si vous devez sortir, maintenez autant que possible une distance d’au moins 2 mètres (environ 6 pieds) avec les autres personnes qui ne vivent pas sous votre toit.",
+            "Chaque personne a un rôle à jouer afin de diminuer les risques de propagation des virus. Consultez la page Prévenir la transmission des virus et des bactéries.",
+            "Les masques ne constituent pas un outil de protection efficace pour la population générale. Leur utilisation est plutôt indiquée pour les patients chez qui une infection est suspectée ainsi que pour les professionnels de la santé qui les soignent. Vous pouvez visionner le message du Dr Horacio Arruda, directeur national de la Santé publique du Québec, à ce sujet .",
+            "Si vous éprouvez de l’inquiétude ou de l’anxiété par rapport au coronavirus, vous pouvez composer, sans frais, le 1 877 644-4545. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page Stress, anxiété et déprime associés à la maladie à coronavirus COVID-19."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Des Québécois ayant été sur certaines croisières ont été en contact avec des personnes potentiellement contagieuses. En raison du risque de transmission dans le contexte d’une croisière, il est demandé à ces croisiéristes d’être obligatoirement en isolement pour une période de 14 jours après leur date d’arrivée au Canada et de surveiller leurs symptômes (fièvre, toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût). Si vous éprouvez ces\n  <a href=\"/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/#c46469\">\n   symptômes\n  </a>\n  , communiquez avec la ligne\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644‑4545\n  </a>\n  .\n </p>\n <p>\n  Cet isolement vise autant les voyageurs malades ou qui ressentent des symptômes que ceux qui n’en ont pas et qui sont en parfaite santé. En aucun temps, ces personnes ne doivent sortir à l’extérieur, et ce, même pour prendre une marche.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Toute personne ayant fréquenté tout lieu public doit surveiller ses symptômes et respecter les consignes sanitaires suivantes :\n </p>\n <ul>\n  <li>\n   <a href=\"/sante/conseils-et-prevention/prevention-des-accidents-des-lesions-et-des-maladies/lavage-des-mains/\">\n    Lavez-vous les mains\n   </a>\n   souvent à l'eau tiède courante et au savon pendant au moins 20 secondes.\n  </li>\n  <li>\n   Utilisez un désinfectant à base d'alcool si vous n'avez pas accès à de l'eau et à du savon.\n  </li>\n  <li>\n   Observez les règles d'hygiène lorsque vous toussez ou éternuez :\n   <ul>\n    <li>\n     Couvrez-vous la bouche et le nez avec votre bras afin de réduire la propagation des germes.\n    </li>\n    <li>\n     Si vous utilisez un mouchoir en papier, jetez-le dès que possible et lavez-vous les mains par la suite.\n    </li>\n   </ul>\n  </li>\n  <li>\n   Si vous êtes malade, évitez le contact avec les personnes plus vulnérables, dont les personnes âgées, les personnes ayant un système immunitaire affaibli et les personnes ayant une maladie chronique.\n  </li>\n  <li>\n   Évitez le contact direct pour les salutations, comme les poignées de main, et privilégier l’usage de pratiques alternatives.\n  </li>\n  <li>\n   Si vous devez sortir, maintenez autant que possible une distance d’au moins 2 mètres (environ 6 pieds) avec les autres personnes qui ne vivent pas sous votre toit.\n  </li>\n </ul>\n <p>\n  Chaque personne a un rôle à jouer afin de diminuer les risques de propagation des virus. Consultez la page\n  <a href=\"/sante/conseils-et-prevention/prevention-des-accidents-des-lesions-et-des-maladies/prevenir-la-transmission-de-virus-et-de-bacteries/\">\n   Prévenir la transmission des virus et des bactéries\n  </a>\n  .\n </p>\n <p>\n  Les masques ne constituent pas un outil de protection efficace pour la population générale. Leur utilisation est plutôt indiquée pour les patients chez qui une infection est suspectée ainsi que pour les professionnels de la santé qui les soignent. Vous pouvez\n  <a href=\"https://www.youtube.com/watch?v=cBeBM-4toJE&amp;feature=youtu.be\" target=\"_blank\">\n   visionner le message du Dr Horacio Arruda, directeur national de la Santé publique du Québec, à ce sujet\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n <p>\n  Si vous éprouvez de l’inquiétude ou de l’anxiété par rapport au coronavirus, vous pouvez composer, sans frais, le\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  . Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/\">\n   Stress, anxiété et déprime associés à la maladie à coronavirus COVID-19\n  </a>\n  .\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
-    "Lieux publics": {
-        "title": "Lieux publics",
+    "Consignes d’isolement": {
+        "title": "Consignes d’isolement",
         "plaintext": [
-            "La liste des lieux publics n’est plus rendue disponible. Il est toutefois recommandé que toute personne ayant fréquenté tout lieu public surveille ses symptômes et respecte les consignes sanitaires."
+            "Consignes à suivre pour la personne de retour d'un pays étranger - Coronavirus (COVID-19) (PDF 404 Ko)",
+            "Consignes à suivre pour la personne malade en attente d'un test ou du résultat d'un test pour la COVID-19 (PDF 375 Ko)",
+            "Consignes à suivre pour la personne atteinte de la COVID-19 en isolement à la maison (PDF 374 Ko)",
+            "Consignes à suivre pour la personne identifiée comme contact d'un cas de la COVID-19 (PDF 374 Ko)"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  La liste des lieux publics n’est plus rendue disponible. Il est toutefois recommandé que toute personne ayant fréquenté tout lieu public surveille ses symptômes et respecte les\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/#c47702\">\n   consignes sanitaires\n  </a>\n  .\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-19W_consignes-retour-pays-etranger.pdf?1586885718\" target=\"_blank\">\n   Consignes à suivre pour la personne de retour d'un pays étranger - Coronavirus (COVID-19)\n   <span class=\"infoFichier\">\n    (PDF 404 Ko)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-20W_consignes-malade-attente-test.pdf?1586885717\" target=\"_blank\">\n   Consignes à suivre pour la personne malade en attente d'un test ou du résultat d'un test pour la COVID-19\n   <span class=\"infoFichier\">\n    (PDF 375 Ko)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-17W_consignes-personne-atteinte-isolement-maison.pdf?1586885717\" target=\"_blank\">\n   Consignes à suivre pour la personne atteinte de la COVID-19 en isolement à la maison\n   <span class=\"infoFichier\">\n    (PDF 374 Ko)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-18W_consignes-personne-identifiee-contact.pdf?1586885716\" target=\"_blank\">\n   Consignes à suivre pour la personne identifiée comme contact d'un cas de la COVID-19\n   <span class=\"infoFichier\">\n    (PDF 374 Ko)\n   </span>\n  </a>\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
-        "type": "section"
-    },
-    "Prévention": {
-        "title": "Prévention",
-        "plaintext": [
-            "Pour en savoir plus, consultez la section Consignes sanitaires pour tous."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Pour en savoir plus, consultez la section\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/#c47702\">\n   Consignes sanitaires pour tous\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
-        "source": "quebec",
-        "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
-        "type": "section"
-    },
-    "Informations aux voyageurs": {
-        "title": "Informations aux voyageurs",
-        "plaintext": [
-            "Niveau de risque",
-            "Un avertissement officiel global aux voyageurs est en vigueur : Évitez les voyages non essentiels à l'extérieur du Canada jusqu'à nouvel ordre.De plus, il est recommandé aux voyageurs d'éviter tout voyage en croisière  en raison de l'épidémie de COVID‑19 en cours.Une évaluation du risque concernant la COVID‑19 sera effectuée au fur et à mesure que de nouveaux renseignements seront disponibles.",
-            "Recommandations",
-            "Il est recommandé aux voyageurs de consulter les avis actifs de santé aux voyageurs pour la COVID‑19, émis par le gouvernement du Canada. Ceux-ci sont disponibles sur la page Maladie à coronavirus (COVID‑19) : Conseils aux voyageurs . Ils indiquent un niveau de précautions à prendre en fonction de la destination du voyage. Ces avis précisent également les recommandations émises pour les voyageurs qui reviennent au Canada."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <h3>\n  Niveau de risque\n </h3>\n <div class=\"alert alert-warning\">\n  <p>\n   Un avertissement officiel global aux voyageurs est en vigueur :\n   <strong>\n    Évitez les voyages non essentiels à l'extérieur du Canada\n   </strong>\n   jusqu'à nouvel ordre.\n  </p>\n  <p>\n   De plus, il est recommandé aux voyageurs d'\n   <strong>\n    <a href=\"https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus/derniers-conseils-sante-voyageurs.html#crois\" target=\"_blank\">\n     éviter tout voyage en croisière\n     <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n    </a>\n   </strong>\n   en raison de l'épidémie de COVID‑19 en cours.\n  </p>\n  <p>\n   Une évaluation du risque concernant la COVID‑19 sera effectuée au fur et à mesure que de nouveaux renseignements seront disponibles.\n  </p>\n </div>\n <h3>\n  Recommandations\n </h3>\n <p>\n  Il est recommandé aux voyageurs de consulter les avis actifs de santé aux voyageurs pour la COVID‑19, émis par le gouvernement du Canada. Ceux-ci sont disponibles sur la page\n  <a href=\"https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus/derniers-conseils-sante-voyageurs.html\" target=\"_blank\">\n   Maladie à coronavirus (COVID‑19) : Conseils aux voyageurs\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  . Ils indiquent un niveau de précautions à prendre en fonction de la destination du voyage. Ces avis précisent également les recommandations émises pour les voyageurs qui reviennent au Canada.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
-        "source": "quebec",
-        "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
-        "type": "section"
-    },
-    "Mesures aux frontières": {
-        "title": "Mesures aux frontières",
-        "plaintext": [
-            "Les personnes qui reviennent d’un séjour à l’extérieur du pays ont l’obligation de s’isoler pour une période de 14 jours. Cet isolement vise autant les voyageurs malades ou qui ressentent des symptômes que ceux qui n’en ont pas et qui sont en parfaite santé. En aucun temps, ces personnes ne doivent sortir à l’extérieur, et ce, même pour prendre une marche.",
-            "Afin de rappeler cette obligation à ceux et celles qui reviennent au pays, des points de contrôle policiers seront réalisés à proximité de la frontière américaine."
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les personnes qui reviennent d’un séjour à l’extérieur du pays ont l’obligation de s’isoler pour une période de 14 jours. Cet isolement vise autant les voyageurs malades ou qui ressentent des symptômes que ceux qui n’en ont pas et qui sont en parfaite santé. En aucun temps, ces personnes ne doivent sortir à l’extérieur, et ce, même pour prendre une marche.\n </p>\n <p>\n  Afin de rappeler cette obligation à ceux et celles qui reviennent au pays, des points de contrôle policiers seront réalisés à proximité de la frontière américaine.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
-        "source": "quebec",
-        "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
-        "type": "section"
-    },
-    "Liens utiles": {
-        "title": "Liens utiles",
-        "plaintext": [
-            "Ligne d’information du gouvernement du Canada destinée à la population sur la COVID‑19 : 1 833 784‑4397",
-            "Ligne d’information du gouvernement du Québec destinée à la population sur la COVID‑19 : 1 877 644-4545",
-            "Publications sur la COVID-19  Ministère de la Santé et des Services sociaux",
-            "Nouveau coronavirus de 2019 : Mise à jour en matière d’éclosions de la maladie  Gouvernement du Canada",
-            "Nouveau coronavirus en Chine : recommandations pour les voyageurs  Gouvernement du Canada",
-            "Infection au nouveau coronavirus : Foire aux questions  Gouvernement du Canada"
-        ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Ligne d’information du gouvernement du Canada destinée à la population sur la COVID‑19 :\n  <a href=\"tel:+1-833-784-4397\">\n   1 833 784‑4397\n  </a>\n </p>\n <p>\n  Ligne d’information du gouvernement du Québec destinée à la population sur la COVID‑19 :\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n </p>\n <p>\n  <a href=\"https://publications.msss.gouv.qc.ca/msss/sujets/covid-19\" target=\"_blank\">\n   Publications sur la COVID-19\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  <br/>\n  Ministère de la Santé et des Services sociaux\n </p>\n <p>\n  <a href=\"https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus.html\" target=\"_blank\">\n   Nouveau coronavirus de 2019 : Mise à jour en matière d’éclosions de la maladie\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  <br/>\n  Gouvernement du Canada\n </p>\n <p>\n  <a href=\"https://voyage.gc.ca/voyager/avertissements/pneumonie-china\" target=\"_blank\">\n   Nouveau coronavirus en Chine : recommandations pour les voyageurs\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  <br/>\n  Gouvernement du Canada\n </p>\n <p>\n  <a href=\"https://www.canada.ca/fr/sante-publique/services/maladies/2019-nouveau-coronavirus/foire-aux-questions.html\" target=\"_blank\">\n   Infection au nouveau coronavirus : Foire aux questions\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  <br/>\n  Gouvernement du Canada\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
-        "source": "quebec",
-        "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "À consulter aussi": {
         "title": "À consulter aussi",
         "plaintext": [
-            "La maladie à coronavirus (COVID-19) au Québec",
-            "Réponses aux questions sur le coronavirus (COVID-19)",
-            "Lavage des mains",
-            "Prévenir la transmission des virus et des bactéries",
-            "Stress, anxiété et déprime associés à la maladie à coronavirus COVID-19",
-            "Comment reconnaître une bonne source d'information en matière de santé",
-            "Guide autosoins - COVID-19 - Édition révisée 30 mars 2020 ",
-            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
-            "Informations pour les parents d’enfants de 0 à 17 ans – coronavirus (COVID-19)"
+            "La maladie à coronavirus (COVID-19) au QuébecRéponses aux questions sur le coronavirus (COVID-19)Comment reconnaître une bonne source d'information en matière de santéGuide autosoins - COVID-19 - Édition révisée 30 mars 2020 "
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/\">\n   La maladie à coronavirus (COVID-19) au Québec\n  </a>\n </p>\n <p>\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/\">\n   Réponses aux questions sur le coronavirus (COVID-19)\n  </a>\n </p>\n <p>\n  <a href=\"/sante/conseils-et-prevention/prevention-des-accidents-des-lesions-et-des-maladies/lavage-des-mains/\">\n   Lavage des mains\n  </a>\n </p>\n <p>\n  <a href=\"/sante/conseils-et-prevention/prevention-des-accidents-des-lesions-et-des-maladies/prevenir-la-transmission-de-virus-et-de-bacteries/\">\n   Prévenir la transmission des virus et des bactéries\n  </a>\n </p>\n <p>\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/\">\n   Stress, anxiété et déprime associés à la maladie à coronavirus COVID-19\n  </a>\n </p>\n <p>\n  <a href=\"/sante/conseils-et-prevention/prevention-des-accidents-des-lesions-et-des-maladies/comment-reconnaitre-une-bonne-source-d-information-en-matiere-de-sante/\">\n   Comment reconnaître une bonne source d'information en matière de santé\n  </a>\n </p>\n <p>\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/guide-autosoins-covid-19/\" target=\"_blank\">\n   Guide autosoins - COVID-19 - Édition révisée 30 mars 2020\n  </a>\n </p>\n <p>\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/\">\n   Informations pour les femmes enceintes – coronavirus (COVID-19)\n  </a>\n </p>\n <p>\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/\">\n   Informations pour les parents d’enfants de 0 à 17 ans – coronavirus (COVID-19)\n  </a>\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/\">\n    La maladie à coronavirus (COVID-19) au Québec\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/\">\n    Réponses aux questions sur le coronavirus (COVID-19)\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/conseils-et-prevention/prevention-des-accidents-des-lesions-et-des-maladies/comment-reconnaitre-une-bonne-source-d-information-en-matiere-de-sante/\">\n    Comment reconnaître une bonne source d'information en matière de santé\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/guide-autosoins-covid-19/\" target=\"_blank\">\n    Guide autosoins - COVID-19 - Édition révisée 30 mars 2020\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Évaluation de page": {
@@ -168,7 +94,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
@@ -181,7 +107,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-09 09:18:15.928092",
+        "time": "2020-04-14 17:02:02.375887",
         "type": "section"
     }
 }
