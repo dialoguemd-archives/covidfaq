@@ -1,3 +1,5 @@
+import argparse
+
 import pandas as pd
 from tqdm.auto import tqdm
 from elasticsearch import Elasticsearch
@@ -7,31 +9,30 @@ from covidfaq.routers.answers import SecResults, ElasticResults
 
 ## Config variables
 ################################
-
-#  question_file = "./covidquestions_07apr.csv"
-#  question_file = "./simpleLsa_15n0.7dt_2020-03-27T19_12_30.866993Z.csv"
-question_file = "./simpleLsa_15n0.8dt_2020-03-27T19_12_30.866993Z_fr.csv"
-clustered_file = True  # Specify if the file contains clusters
+clustered_file = True  # Specify if the file contains clusters questions belong to
 sample = False  # Take only a subset of the questions (for debugging)
 use_es = False  # Use ES to generate candidate answers
 use_local_es = False  #  Only use this if you know how to set it up
-topk = topk_sec = 10  # Top responses to fetch for ES
-topk_doc = 10
-question_lang = 'fr'
-
+topk = topk_sec = topk_doc = 10  # Top responses to fetch for ES
 ################################
 
 
 
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", help="input csv file(in natq format)", required=True)
+    parser.add_argument("--lang", help="language of the file", required=True)
+    args = parser.parse_args()
+    question_file = args.input
+    question_lang = args.lang
+
     # Read file
     covid_questions = pd.read_csv(question_file)
-
     # Remove punctuation and lowercase all the questions, keep original question
     covid_questions["question_processed"] = covid_questions['question'].str.replace('[^\w\s]','').str.lower()
 
-    if sample:  # Generate only a subset (useful for debugging)
+    if sample:  # Generate only a subset (only useful for debugging)
         if clustered_file:
             # Get 10 samples per cluster for representative cluster
             samples_per_cluster = 10
@@ -73,13 +74,9 @@ if __name__ == "__main__":
                 "Connection failed, please start server at localhost:9200 (default)"
             )
 
-
         # Initialize fields for the different topk candidate ES answers:
         for ii in range(topk_sec):
             covid_questions['ans_' + str(ii)] = ''
-
-
-    if use_es:
 
         # Go through all questions, generate ES responses
         all_qa_pairs = []
@@ -102,21 +99,15 @@ if __name__ == "__main__":
                 for idx, ans in enumerate(top_answers):
                     covid_questions.at[row_idx, 'ans_' + str(idx)] = ans[0]
 
+        # Save ES results with the questions
         if clustered_file:
-            if sample:
-                covid_questions.to_csv('sample_clusters_' + str(top_k) + '_responses_ES.csv', index=False)
-            else:
-                covid_questions.to_csv('clusters_' + str(topk) + '_responses_ES.csv', index=False)
+            covid_questions.to_csv('clusters_' + str(topk) + '_responses_ES.csv', index=False)
         else:
-            if sample:
-                covid_questions.to_csv('sample_questions_' + str(topk) + '_responses_ES.csv', index=False)
-            else:
-                covid_questions.to_csv('all_questions_' + str(topk) + '_responses_ES.csv', index=False)
+            covid_questions.to_csv('all_questions_' + str(topk) + '_responses_ES.csv', index=False)
 
     else:
-
         covid_questions.to_csv('questions_' + question_lang + '.csv', index=False)
 
         # Drop duplicates, keep only the processed question and cluster
         covid_questions_sub = covid_questions.drop_duplicates(subset='question_processed')[['question_processed', 'cluster']]
-        covid_questions_sub.to_csv('lowercase_unique_' + question_lang + '.csv', index=False)
+        covid_questions_sub.to_csv('lowercase_unique_questions_' + question_lang + '.csv', index=False)
