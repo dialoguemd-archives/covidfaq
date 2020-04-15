@@ -422,8 +422,9 @@ def run():
             urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
             info = {**sitecfg["info"], **urlinfo, "time": now, "url": url}
             result, soup = extract_sections(url, info, sitecfg)
-            results += result
-            soups.append(soup)
+            if result:
+                results += result
+                soups.append(soup)
 
     if format == "old":
         outdir = out or "covidfaq/scrape"
