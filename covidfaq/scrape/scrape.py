@@ -1,4 +1,7 @@
 import json
+import yaml
+import argparse
+from yaml import load
 import os
 import re
 import sys
@@ -7,11 +10,9 @@ from datetime import datetime
 from urllib.parse import urljoin
 
 import bs4
-import coleo
 import requests
 import structlog
 from bs4 import BeautifulSoup
-from coleo import Argument, ConfigFile, auto_cli, default
 
 log = structlog.get_logger(__name__)
 
@@ -386,30 +387,14 @@ def extract_sections(url, info, cfg, translated=False):
 
 
 
-@coleo.tooled
-def run():
+def run(sites, outdir, formatting='old', site=None):
     """Scrape websites for information."""
-
-    # File containing the sites to scrape and the scraping rules
-    # [aliases: -s]
-    sites: Argument & ConfigFile = default({})
-
-    # Output file or directory to save the results
-    # [aliases: -o]
-    out: Argument = default(None)
-
-    # Format to output the results in
-    # [aliases: -f]
-    format: Argument = default("old")
-
-    # Site to generate for
-    site: Argument = default(None)
 
     now = str(datetime.now())
 
     results = []
     soups = []
-    for sitename, sitecfg in sites.read().items():
+    for sitename, sitecfg in sites.items():
         if site and site != sitename:
             continue
         for i, url in enumerate(sitecfg["urls"]):
@@ -426,9 +411,9 @@ def run():
                 results += result
                 soups.append(soup)
 
-    if format == "old":
-        outdir = out or "covidfaq/scrape"
+    if formatting == "old":
         files = defaultdict(dict)
+        # change key names
         for entry in results:
             d = files[entry["urlkey"]]
             d["document_URL"] = entry["url"]
@@ -442,7 +427,7 @@ def run():
             soup_to_html(filename_html, soup)
 
 
-    elif format == "new":
+    elif formatting == "new":
         outfile = out or "scrape_results.json"
         page_to_json(results, outfile)
 
@@ -452,4 +437,12 @@ def run():
 
 
 if __name__ == "__main__":
-    auto_cli({"scrape": run})
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--sites", help="list of sites to scrape", required=True)
+    parser.add_argument("--outdir", help="where to save scrapes", default='covidfaq/scrape')
+    args = parser.parse_args()
+    with open(args.sites, 'r') as stream:
+        sites = load(stream, Loader=yaml.FullLoader)
+
+    run(sites, args.outdir)
