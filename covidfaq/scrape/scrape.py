@@ -1,7 +1,5 @@
-import json
-import yaml
 import argparse
-from yaml import load
+import json
 import os
 import re
 import sys
@@ -12,7 +10,9 @@ from urllib.parse import urljoin
 import bs4
 import requests
 import structlog
+import yaml
 from bs4 import BeautifulSoup
+from yaml import load
 
 log = structlog.get_logger(__name__)
 
