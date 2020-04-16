@@ -218,10 +218,6 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
             filename_html = os.path.join(outdir, filename + ".html")
             soup_to_html(filename_html, soup)
 
-    elif formatting == "new":
-        outfile = out or "scrape_results.json"
-        page_to_json(results, outfile)
-
     else:
         print(f"Unknown format: {format}")
         sys.exit(1)
