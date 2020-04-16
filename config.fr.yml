@@ -1,3 +1,7 @@
+policies:
+  - name: "MemoizationPolicy"
+    max_history: 1
+
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: en # eventually switch to fr, but for now we have trouble installing spacy fr in the docker image
