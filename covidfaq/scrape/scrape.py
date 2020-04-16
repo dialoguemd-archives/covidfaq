@@ -84,11 +84,11 @@ def rule_nesting(soup, info, url, rule):
                 nest_level = int(title.name[1]) - 1
                 if nest_level >= prev_nest_level:
                     nested_titles[nest_level] = raw_title
-                    prev_nest_level = nest_level
                 else:
                     nested_titles[nest_level] = raw_title
                     for n in range(nest_level+1, len(nested_titles)):
                         nested_titles[n] = ''
+                prev_nest_level = nest_level
 
         if exclude["title"] and re.search(exclude["title"], raw_title):
             continue
