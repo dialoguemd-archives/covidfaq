@@ -28,7 +28,7 @@ quebec-fr: &qfr
 
     - method: nesting
       parent: ".frame, .frame-default, .frame-type-textmedia, .frame-layout-0"
-      title: "h2, h3, h4"
+      title: "h1, h2, h3, h4"
       body: ".ce-bodytext"
       exclude:
         title: "^(Avis|Notice)$"
