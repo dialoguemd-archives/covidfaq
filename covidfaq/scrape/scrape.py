@@ -23,13 +23,14 @@ def remove_html_tags(data):
 
 
 def soup_to_html(filename, soup):
-    with open(filename, "w", encoding='utf-8') as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.write(str(soup))
 
 
 def page_to_json(page_contents, fname):
     with open(fname, "w", encoding="utf-8") as fp:
         json.dump(page_contents, fp, indent=4, ensure_ascii=False)
+
 
 def page_to_md(page_contents, page_url, response_filename, nlu_filename):
     section_title = page_url.rsplit("/")[-2]
@@ -60,12 +61,12 @@ def rule_nesting(soup, info, url, rule):
     results = []
 
     # Keep track of header levels (h1 - h4)
-    nested_titles = ['', '', '', '']
+    nested_titles = ["", "", "", ""]
     prev_nest_level = 0
     # Get the main header of the page if it exists
-    main_title = soup.select('.d-block')
+    main_title = soup.select(".d-block")
     if main_title:
-        if main_title[0].name == 'h1':
+        if main_title[0].name == "h1":
             nested_titles[0] = main_title[0].get_text()
 
     subjects = soup.select(rule["parent"])
@@ -80,14 +81,14 @@ def rule_nesting(soup, info, url, rule):
         else:
             raw_title = title.get_text().strip()
 
-            if title.name in 'h1, h2, h3, h4':
+            if title.name in "h1, h2, h3, h4":
                 nest_level = int(title.name[1]) - 1
                 if nest_level >= prev_nest_level:
                     nested_titles[nest_level] = raw_title
                 else:
                     nested_titles[nest_level] = raw_title
-                    for n in range(nest_level+1, len(nested_titles)):
-                        nested_titles[n] = ''
+                    for n in range(nest_level + 1, len(nested_titles)):
+                        nested_titles[n] = ""
                 prev_nest_level = nest_level
 
         if exclude["title"] and re.search(exclude["title"], raw_title):
@@ -99,7 +100,6 @@ def rule_nesting(soup, info, url, rule):
         # Exclusions
         if exclude["selector"] and sub.select_one(exclude["selector"]):
             continue
-
 
         raw_body = body.get_text().strip()
         if exclude["body"] and re.search(exclude["body"], raw_body):
@@ -177,11 +177,10 @@ def extract_sections(url, info, cfg, translated=False):
     return results, soup
 
 
-
-def run(yaml_filename, outdir='covidfaq/scrape', formatting='old', site=None):
+def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
     """Scrape websites for information."""
 
-    with open(yaml_filename, 'r') as stream:
+    with open(yaml_filename, "r") as stream:
         sites = load(stream, Loader=yaml.FullLoader)
     now = str(datetime.now())
 
@@ -219,7 +218,6 @@ def run(yaml_filename, outdir='covidfaq/scrape', formatting='old', site=None):
             filename_html = os.path.join(outdir, filename + ".html")
             soup_to_html(filename_html, soup)
 
-
     elif formatting == "new":
         outfile = out or "scrape_results.json"
         page_to_json(results, outfile)
@@ -233,7 +231,9 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--sites", help="list of sites to scrape", required=True)
-    parser.add_argument("--outdir", help="where to save scrapes", default='covidfaq/scrape')
+    parser.add_argument(
+        "--outdir", help="where to save scrapes", default="covidfaq/scrape"
+    )
     args = parser.parse_args()
 
     run(args.sites, args.outdir)
