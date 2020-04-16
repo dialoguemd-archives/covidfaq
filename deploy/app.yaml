@@ -1,0 +1,69 @@
+ingress:
+  enabled: true
+
+app:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+rasa:
+  additionalChannelCredentials:
+    rest:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+rasax:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+nginx:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+duckling:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+eventService:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+rabbitmq:
+  nodeSelector:
+    "dialoguecorp.com/covidbot": "true"
+  tolerations:
+    - key: "dialoguecorp.com/covidbot"
+      operator: "Exists"
+
+redis:
+  master:
+    nodeSelector:
+      "dialoguecorp.com/covidbot": "true"
+    tolerations:
+      - key: "dialoguecorp.com/covidbot"
+        operator: "Exists"
+
+postgresql:
+  master:
+    nodeSelector:
+      "dialoguecorp.com/covidbot": "true"
+    tolerations:
+      - key: "dialoguecorp.com/covidbot"
+        operator: "Exists"
