@@ -270,21 +270,92 @@
 
 ## intent: ask_faq/ask_en_2_q4
 - Est-ce que les parents qui ne peuvent plus utiliser les services de garde éducatifs à l’enfance doivent continuer à payer leurs frais de garde?
+- Dois-je continuer à payer ma garderie? 
+- Est-ce que le gouvernement paiera pour les garderies non subventionnées?
+- Qui doit payer mes frais de garderie si mon enfant ne peut plus y aller?
+- Est-ce que je dois payer les frais de garderie de mon enfant?
+- Est-ce obligatoire de payer les garderies pendant la période de deux semaines ?
+- Est-ce que des mesures sont prévues pour aider les parents à payer les garderies ?
+- Qui assume les coûts de la garderie pour mon enfant ?
+- Est-ce que je dois payer pour un service que je ne peux pas utiliser ?
+- Est-ce à moi de payer pour la garderie de mon enfant comme elle est fermée ?
+- J'vais tu devoir continuer à payer pour la garderie
+- J'vais tu être obligé de payer pour les frais de garde
+- Qu'est-ce qui se passe avec les frais de garderies
+- C'est quoi que je dois faire pour payer les frais de garde
+- C'est tu important de payer l'argent pour la garderie
+- Pourquoi je dois encore payer pour les frais de garde
+- Je ne veux plus payer pour la garderie, est-ce que je peux
+- Est-ce que c'est moi ou le gouvernement qui va payer pour la garderie
+- Pour c'est pas le gouvernement qui paye pour les frais de garde si c'est lui qui nous fait arrêter
+- Je ne veux pas payer pour les frais de garde puisque ce n'est pas ma décision d'arrêter.
+- Ma garderie est fermée, est-ce que je peux pas la payer
+- stu à moi a payer la garderie parce que le gourvernement a décidé de la fermer
 
 ## intent: ask_faq/ask_en_2_q5
 - Les garderies non subventionnées seront-elles dédommagées?
+- Est-ce que les garderies privées seront dédommagées ?
+- Est-ce que les garderies privées recevront une subvention pour faire face à la crise ?
+- Est-ce que les garderies qui ne sont pas subventionnées par l'état recevront des compensations ?
+- Y a-t-il des compensations prévues pour les garderies non subventionnées ?
+- Est-ce qu'il est prévu de compenser les garderies non subventionnées ?
+- Est-ce qu'il y aura de l'aide pour les garderies non subventionnées ?
+- Est-ce qu'une aide financière sera apportée aux garderies non subventionnées ?
+- Le gouvernement annoncera-t-il des mesures pour dédommager les garderies non subventionnées ?
+- Est-ce que des mesures seront prises pour aider financièrement les garderies non subventionnées ?
+- Le gouvernement prévoit-il des mesures financières pour les garderies non subventionnées ?
 
 ## intent: ask_faq/ask_en_2_q6
 - Est-ce que le personnel des CPE et des garderies subventionnées continuera d’être payé?
+- Est-ce que les travailleurs des CPE et garderies subventionnées recevront un salaire ?
+- Les employés des CPE et des garderies subventionnées seront-ils dédommagés ?
+- Est-ce que les employés des CPE et des garderies subventionnées recevront leur paie ?
+- Est-il prévu des mesures compensatoires pour le personnel des CPE et des garderies subventionnées ?
+- Qu'est-ce qui est prévu financièrement pour venir en aide au personnel des CPE et garderies subventionnées ?
+- Le salaire sera-t-il toujours versé pour le personnel des CPE et des garderies subventionnées ?
+- Les employés des CPE et des garderies subventionnées recevront-ils une allocation ?
+- Est-ce que des mesures sont prévues pour venir en aide financièrement aux employés des CPE et garderies subventionnées ?
+- Qui paiera le salaire du personnel des CPE et des garderies subventionnées ?
+- Est-ce que le personnel des CPE et garderies subventionnées recevra sa paie ?
 
 ## intent: ask_faq/ask_en_2_q7
 - Est-ce que les parents qui devront prendre congé en raison de la fermeture des écoles et des services de garde vont continuer d’être payés?
+- Les parents qui doivent s'occuper de leurs enfants pendant les deux semaines de congé recevront-ils leur salaire ?
+- Les employés qui dovient prendre deux semaines de congé en raison de la fermeture des écoles et des services de garde seront-ils dédommagés ?
+- Est-ce que les parents qui sont en congé pendant deux semaines recevront leur paie ?
+- Est-il prévu des mesures compensatoires pour les parents qui doivent prendre congé pendant deux semaines en raison de la fermeture des écoles et des services de garde ?
+- Qu'est-ce qui est prévu financièrement pour venir en aide aux parents qui ne peuvent travailler pendant deux semaines pour prendre soin de leurs enfants ?
+- Les parents recevront-ils leur salaire malgré qu'ils doivent rester à la maison pour s'occuper de leurs enfants ?
+- Est-ce que des mesures sont prévues pour venir en aide financièrement aux parents qui doivent s'absenter de leur travail en raison de la fermeture des écoles et services de garde scolaire ?
+- Est-ce qu'un parent qui doit s'absenter pour prendre soin de ses enfants doit piger dans ses journées de vacances ?
+- Est-ce que les parents qui prennent congé doivent se faire couper leur paie ?
 
 ## intent: ask_faq/ask_en_2_q8
 - Cette période de fermeture des écoles et des services de garde pourrait-elle être prolongée?
+- Est-ce que les écoles et les services de garde pourraient fermer plus de deux semaines ?
+- Est-il prévu de retarder le retour à l'école et au service de garde ?
+- Est-ce que les enfants retourneront à l'école et au service de garde après la période de deux semaines ?
+- Quand les enfants pourront-ils retourner à l'école ?
+- Est-ce que les écoles et les services de garde seront fermés encore longtemps ?
+- Est-ce que l'année scolaire sera annulée ?
+- Quand saurons-nous si l'école pourra recommencer après la période de deux semaines ?
+- Est-ce certain que l'école et les services de garde ouvriront à nouveau après la période de deux semaines ?
+- Est-ce qu'on peut dire à nos enfants qu'ils retourneront à l'école après la période de deux semaines ?
+- Pouvez-vous nous assurer que les écoles et les services de garde seront ouverts après les deux semaines de distanciation sociale ?
 
 ## intent: ask_faq/ask_en_2_q9
 - Quels sont les services d’enseignement visés par les fermetures?
+- Quelles écoles sont fermées
+- Qu'est-ce qui est fermé dans l'enseignement
+- Est-ce que l'école primaire est fermée
+- Est-ce que l'école secondaire est fermée
+- Est-ce que les CEGEP sont fermés
+- Est-ce que les universités sont fermées
+- Est-ce que toutes les écoles sont fermées
+- Est-ce que mon enfant peut aller en classe
+- Est-ce que mon garçon peut aller à l'école
+- Est-ce que tout est fermé à l'école
+- Est-ce que les établissements d'enseignements supérieurs sont fermés?
 
 ## intent: ask_faq/ask_en_2_q10
 - Pourquoi fermer les écoles et les garderies à ce moment-ci? N’est-ce pas prématuré?
@@ -297,6 +368,26 @@
 
 ## intent: ask_faq/ask_en_2_q13
 - Quelles sont les procédures pour s’inscrire aux services de garde d’urgence?
+- Quelle est la marche à suivre pour inscrire mon enfant dans un service de garde d'urgence ?
+- Quelle est la façon d'inscrire mes enfants au service de garde d'urgence ?
+- Comment inscrire nos enfants dans les services de garde d'urgence ?
+- Où sont les instructions pour s'inscrire aux services de garde d'urgence ?
+- Comment peut-on inscrire nos enfants dans les services de garde d'urgence ?
+- Est-ce que je peux utiliser les services de garde d'urgence ?
+- Comment faire pour inscrire mon enfant dans un service de garde d'urgence ?
+- Est-ce possible d'utiliser les services de garde d'urgence ?
+- Est-ce que les services de garde d'urgence peuvent être utilisés pour mes enfants ?
+- Qui va me dire comment faire pour inscrire mon enfant au service de garde d'urgence ?
+- Comment je fais pour inscrire mon enfant au service de garde d'urgence ?
+- C'est comment qu'on fait pour inscrire notre enfant au service de garde d'urgence ?
+- Comment ça marche pour inscrire notre enfant au service de garde d'urgence ?
+- Comme que je peux inscrire mon enfant au service de garde d'urgence ?
+- Inscrire mon enfant au service de garde d'urgence, c'est possible ?
+- Je peux-tu inscrire mon enfant au service de garde d'urgence ?
+- Inscrire au service de garde d'urgence un enfant 
+- Inscrire enfant service de garde d'urgence
+- C'est comment qu'on inscrit dans le service de garde d'urgence ?
+- Je fais quoi pour inscrire mon enfant au service de garde d'urgence ?
 
 ## intent: ask_faq/ask_en_2_q14
 - Quelles seront les heures d’ouverture des services de garde d’urgence?
