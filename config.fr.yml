@@ -18,10 +18,10 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 50
+    epochs: 5
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    # epochs: 10
+    epochs: 5
     # hidden_layers_sizes: {text: [], label: []}
     # number_of_transformer_layers: 2
     # transformer_size: 256
