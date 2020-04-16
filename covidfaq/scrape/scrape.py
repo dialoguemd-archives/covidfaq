@@ -178,7 +178,7 @@ def extract_sections(url, info, cfg, translated=False):
 
 
 
-def run(yaml_filename, outdir, formatting='old', site=None):
+def run(yaml_filename, outdir='covidfaq/scrape', formatting='old', site=None):
     """Scrape websites for information."""
 
     with open(yaml_filename, 'r') as stream:
