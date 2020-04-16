@@ -1,16 +1,22 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
     "Symptômes et traitement": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "Symptômes et traitement",
+            "",
+            ""
+        ],
         "title": "Symptômes et traitement",
         "plaintext": [
             "Les principaux symptômes de la COVID‑19 sont les suivants :",
-            "fièvre, \tchez l’enfant : 38 °C (100,4 °F) et plus (température rectale),chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),ou 1,1 °C de plus que la valeur habituelle d’une personne.apparition ou aggravation d’une toux;difficultés respiratoires.",
+            "fièvre : \tchez l’enfant : 38 °C (100,4 °F) et plus (température rectale),chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),ou 1,1 °C de plus que la valeur habituelle d’une personne;apparition ou aggravation d’une toux;difficultés respiratoires;",
             "ou",
             "perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût.",
             "Les symptômes peuvent être légers et s’apparenter à ceux du rhume. Ils peuvent aussi être plus sévères, comme ceux associés à la pneumonie et à l’insuffisance pulmonaire.",
             "Les personnes les plus à risque de décéder à la suite des complications sont :",
             "les personnes ayant un système immunitaire affaibli;les personnes atteintes de maladies chroniques telles que le diabète, les maladies cardiaques, pulmonaires et rénales;les personnes âgées de 70 ans et plus.",
-            "Dans de rares cas, la maladie peut mener à un décès. Le risque de décès est plus élevé chez les personnes âgées.",
+            "C’est toutefois pour les personnes âgées de 70 ans ou plus que le risque de décès est le plus élevé.",
             "Développement de symptômes",
             "Les résidents du Québec qui développent des symptômes (fièvre, apparition ou aggravation d’une toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne 1 877 644-4545. Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées. Le résident peut également faire l’évaluation de ses symptômes grâce à l’outil d’auto-évaluation des symptômes COVID-19  disponible sur le site Web du Gouvernement du Canada.",
             "Stress, anxiété et déprime",
@@ -19,14 +25,20 @@
             "Aucun traitement spécifique ni vaccin n’existe pour la COVID‑19. Des traitements de support peuvent toutefois être offerts.",
             "La plupart des personnes atteintes de la COVID‑19 se rétablissent par elles-mêmes."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les principaux symptômes de la COVID‑19 sont les suivants :\n </p>\n <ul>\n  <li>\n   fièvre,\n   <ul>\n    <li>\n     chez l’enfant : 38 °C (100,4 °F) et plus (température rectale),\n    </li>\n    <li>\n     chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),\n    </li>\n    <li>\n     chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),\n    </li>\n    <li>\n     ou 1,1 °C de plus que la valeur habituelle d’une personne.\n    </li>\n   </ul>\n  </li>\n  <li>\n   apparition ou aggravation d’une toux;\n  </li>\n  <li>\n   difficultés respiratoires.\n  </li>\n </ul>\n <p>\n  ou\n </p>\n <ul>\n  <li>\n   perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût.\n  </li>\n </ul>\n <p>\n  Les symptômes peuvent être légers et s’apparenter à ceux du rhume. Ils peuvent aussi être plus sévères, comme ceux associés à la pneumonie et à l’insuffisance pulmonaire.\n </p>\n <p>\n  Les personnes les plus à risque de décéder à la suite des complications sont :\n </p>\n <ul>\n  <li>\n   les personnes ayant un système immunitaire affaibli;\n  </li>\n  <li>\n   les personnes atteintes de maladies chroniques telles que le diabète, les maladies cardiaques, pulmonaires et rénales;\n  </li>\n  <li>\n   les personnes âgées de 70 ans et plus.\n  </li>\n </ul>\n <p>\n  Dans de rares cas, la maladie peut mener à un décès. Le risque de décès est plus élevé chez les personnes âgées.\n </p>\n <h3>\n  Développement de symptômes\n </h3>\n <p>\n  Les résidents du Québec qui développent des symptômes (\n  <a href=\"/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/#c46469\">\n   fièvre\n  </a>\n  , apparition ou aggravation d’une toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  . Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées. Le résident peut également faire l’évaluation de ses symptômes grâce à l’\n  <a href=\"https://ca.thrive.health/covid19/fr\" target=\"_blank\">\n   outil d’auto-évaluation des symptômes COVID-19\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  disponible sur le site Web du Gouvernement du Canada.\n </p>\n <h3>\n  Stress, anxiété et déprime\n </h3>\n <p>\n  Dans un contexte de pandémie, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/\">\n   Stress, anxiété et déprime associés à la maladie à coronavirus COVID‑19\n  </a>\n  .\n </p>\n <h3>\n  Traitement\n </h3>\n <p>\n  Aucun traitement spécifique ni vaccin n’existe pour la COVID‑19. Des traitements de support peuvent toutefois être offerts.\n </p>\n <p>\n  La plupart des personnes atteintes de la COVID‑19 se rétablissent par elles-mêmes.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les principaux symptômes de la COVID‑19 sont les suivants :\n </p>\n <ul>\n  <li>\n   fièvre :\n   <ul>\n    <li>\n     chez l’enfant : 38 °C (100,4 °F) et plus (température rectale),\n    </li>\n    <li>\n     chez l’adulte : 38 °C (100,4 °F) et plus (température buccale),\n    </li>\n    <li>\n     chez la personne aînée : 37,8 °C (100 °F) et plus (température buccale),\n    </li>\n    <li>\n     ou 1,1 °C de plus que la valeur habituelle d’une personne;\n    </li>\n   </ul>\n  </li>\n  <li>\n   apparition ou aggravation d’une toux;\n  </li>\n  <li>\n   difficultés respiratoires;\n  </li>\n </ul>\n <p>\n  ou\n </p>\n <ul>\n  <li>\n   perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût.\n  </li>\n </ul>\n <p>\n  Les symptômes peuvent être légers et s’apparenter à ceux du rhume. Ils peuvent aussi être plus sévères, comme ceux associés à la pneumonie et à l’insuffisance pulmonaire.\n </p>\n <p>\n  Les personnes les plus à risque de décéder à la suite des complications sont :\n </p>\n <ul>\n  <li>\n   les personnes ayant un système immunitaire affaibli;\n  </li>\n  <li>\n   les personnes atteintes de maladies chroniques telles que le diabète, les maladies cardiaques, pulmonaires et rénales;\n  </li>\n  <li>\n   les personnes âgées de 70 ans et plus.\n  </li>\n </ul>\n <p>\n  C’est toutefois pour les personnes âgées de 70 ans ou plus que le risque de décès est le plus élevé.\n </p>\n <h3>\n  Développement de symptômes\n </h3>\n <p>\n  Les résidents du Québec qui développent des symptômes (\n  <a href=\"/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/#c46469\">\n   fièvre\n  </a>\n  , apparition ou aggravation d’une toux, difficultés respiratoires ou perte soudaine de l’odorat sans congestion nasale, avec ou sans perte de goût), doivent communiquer avec la ligne\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  . Au besoin, l’intervenant leur indiquera dans quel établissement se rendre pour vérifier leur état de santé. Si une consultation est requise, il est important que le résident informe le milieu de soins de son histoire de voyage avant de se présenter afin que les mesures de prévention requises soient appliquées. Le résident peut également faire l’évaluation de ses symptômes grâce à l’\n  <a href=\"https://ca.thrive.health/covid19/fr\" target=\"_blank\">\n   outil d’auto-évaluation des symptômes COVID-19\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  disponible sur le site Web du Gouvernement du Canada.\n </p>\n <h3>\n  Stress, anxiété et déprime\n </h3>\n <p>\n  Dans un contexte de pandémie, de nombreuses personnes vivront des réactions de stress, d’anxiété et de déprime. Pour vous aider à minimiser les répercussions de telles réactions dans votre vie, consultez la page\n  <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/stress-anxiete-et-deprime-associes-a-la-maladie-a-coronavirus-covid-19/\">\n   Stress, anxiété et déprime associés à la maladie à coronavirus COVID‑19\n  </a>\n  .\n </p>\n <h3>\n  Traitement\n </h3>\n <p>\n  Aucun traitement spécifique ni vaccin n’existe pour la COVID‑19. Des traitements de support peuvent toutefois être offerts.\n </p>\n <p>\n  La plupart des personnes atteintes de la COVID‑19 se rétablissent par elles-mêmes.\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Mode de transmission": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "Mode de transmission",
+            "",
+            ""
+        ],
         "title": "Mode de transmission",
         "plaintext": [
             "Les connaissances actuelles ne permettent pas de préciser avec exactitude le mode de transmission de la COVID‑19. Il est toutefois considéré que la personne atteinte de la COVID‑19 peut être contagieuse la journée précédant l’apparition de ses symptômes. Des recherches sont encore en cours. Les informations présentées dans les deux paragraphes suivants concernent les coronavirus humains.",
@@ -38,10 +50,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Consignes sanitaires pour tous": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "Consignes sanitaires pour tous",
+            "",
+            ""
+        ],
         "title": "Consignes sanitaires pour tous",
         "plaintext": [
             "Toute personne ayant fréquenté tout lieu public doit surveiller ses symptômes et respecter les consignes sanitaires suivantes :",
@@ -54,10 +72,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Consignes d’isolement": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "Consignes d’isolement",
+            "",
+            ""
+        ],
         "title": "Consignes d’isolement",
         "plaintext": [
             "Consignes à suivre pour la personne de retour d'un pays étranger - Coronavirus (COVID-19) (PDF 404 Ko)",
@@ -69,10 +93,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "À consulter aussi": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "À consulter aussi",
+            "",
+            ""
+        ],
         "title": "À consulter aussi",
         "plaintext": [
             "La maladie à coronavirus (COVID-19) au QuébecRéponses aux questions sur le coronavirus (COVID-19)Comment reconnaître une bonne source d'information en matière de santéGuide autosoins - COVID-19 - Édition révisée 30 mars 2020 "
@@ -81,10 +111,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Évaluation de page": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "Évaluation de page",
+            "",
+            ""
+        ],
         "title": "Évaluation de page",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -94,10 +130,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
+        "nested_title": [
+            "Informations générales sur la maladie à coronavirus (COVID-19)",
+            "Évaluation de page",
+            "Des questions ou besoin de renseignements?",
+            ""
+        ],
         "title": "Des questions ou besoin de renseignements?",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -107,7 +149,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

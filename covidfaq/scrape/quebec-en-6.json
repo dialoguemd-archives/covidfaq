@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/",
     "End of the Temporary Aid for Workers Program (PATT)": {
+        "nested_title": [
+            "Temporary Aid for Workers Program",
+            "End of the Temporary Aid for Workers Program (PATT)",
+            "",
+            ""
+        ],
         "title": "End of the Temporary Aid for Workers Program (PATT)",
         "plaintext": [
             "The Temporary Aid for Workers Program (PATT) was launched on March 16, 2020 to offer financial assistance to meet the needs of workers who, because they were in isolation to control the spread of the COVID-19 virus, could not earn all of their work income and were not eligible for another financial assistance program.",
@@ -21,27 +27,39 @@
             "The governments of Québec and Canada have introduced various programs to help people during the COVID-19 pandemic.",
             "An online questionnaire is available to help you find the assistance program that applies in your situation."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  The Temporary Aid for Workers Program (PATT) was launched on March 16, 2020 to offer financial assistance to meet the needs of workers who, because they were in isolation to control the spread of the COVID-19 virus, could not earn all of their work income and were not eligible for another financial assistance program.\n </p>\n <p>\n  On April 6, 2020, the Government of Canada launched the\n  <a href=\"https://www.canada.ca/fr/services/prestations/ae/pcusc-application.html\" target=\"_blank\">\n   Canada Emergency Response Benefit (CERB)\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , which covers the same needs as the PATT.\n </p>\n <h2>\n  End of the Temporary Aid for Workers Program (PATT)\n </h2>\n <p>\n  To prevent program duplication, and given that the Canada Emergency Response Benefit (CERB) is available to the majority of workers eligible for the PATT, the program will end at 4:00 p.m. on April 10, 2020.\n </p>\n <p>\n  As of that date, it will no longer be possible to register for the program. Depending on your situation, you can submit an application under one of the other\n  <a href=\"/en/government-assistance-programs-covid19/\">\n   government assistance programs\n  </a>\n  offered.\n </p>\n <h2>\n  If you registered before 4:00 p.m. on April 10, 2020\n </h2>\n <p>\n  If you registered before 4:00 p.m. on April 10, we will process your file as normal. You will or will have received an email containing a link to the financial assistance application form. You must return the form no later than 4:30 p.m. on April 20.\n </p>\n <h2>\n  If you submitted an application for financial assistance before 4:00 p.m. on April 10, 2020\n </h2>\n <p>\n  If you submitted your application for financial assistance before 4:00 p.m. on April 10, 2020, it will be processed as normal and you will be notified of the decision as soon as possible.\n </p>\n <h3>\n  If you received the benefit\n </h3>\n <p>\n  If you have already received the benefit, the payment covered a maximum period of 14 days. At the end of the coverage period, you can apply to one of the other\n  <a href=\"/en/government-assistance-programs-covid19/\">\n   government assistance programs\n  </a>\n  offered.\n </p>\n <h2>\n  If you applied for an administrative reconsideration\n </h2>\n <p>\n  Your application for an administrative reconsideration will be studied and you will be notified of the decision as soon as possible.\n </p>\n <p>\n  If your PATT application was refused and you wish to apply for an administrative reconsideration, refer to the steps in the administrative reconsideration process.\n </p>\n <h2>\n  Finding assistance programs\n </h2>\n <p>\n  The governments of Québec and Canada have introduced various programs to help people during the COVID-19 pandemic.\n </p>\n <p>\n  An\n  <a href=\"/en/government-assistance-programs-covid19/\">\n   online questionnaire\n  </a>\n  is available to help you find the assistance program that applies in your situation.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The Temporary Aid for Workers Program (PATT) was launched on March 16, 2020 to offer financial assistance to meet the needs of workers who, because they were in isolation to control the spread of the COVID-19 virus, could not earn all of their work income and were not eligible for another financial assistance program.\n </p>\n <p>\n  On April 6, 2020, the Government of Canada launched the\n  <a href=\"https://www.canada.ca/fr/services/prestations/ae/pcusc-application.html\" target=\"_blank\">\n   Canada Emergency Response Benefit (CERB)\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , which covers the same needs as the PATT.\n </p>\n <h2>\n  End of the Temporary Aid for Workers Program (PATT)\n </h2>\n <p>\n  To prevent program duplication, and given that the Canada Emergency Response Benefit (CERB) is available to the majority of workers eligible for the PATT, the program will end at 4:00 p.m. on April 10, 2020.\n </p>\n <p>\n  As of that date, it will no longer be possible to register for the program. Depending on your situation, you can submit an application under one of the other\n  <a href=\"/en/government-assistance-programs-covid19/\">\n   government assistance programs\n  </a>\n  offered.\n </p>\n <h2>\n  If you registered before 4:00 p.m. on April 10, 2020\n </h2>\n <p>\n  If you registered before 4:00 p.m. on April 10, we will process your file as normal. You will or will have received an email containing a link to the financial assistance application form. You must return the form no later than 4:30 p.m. on April 20.\n </p>\n <h2>\n  If you submitted an application for financial assistance before 4:00 p.m. on April 10, 2020\n </h2>\n <p>\n  If you submitted your application for financial assistance before 4:00 p.m. on April 10, 2020, it will be processed as normal and you will be notified of the decision as soon as possible.\n </p>\n <h3>\n  If you received the benefit\n </h3>\n <p>\n  If you have already received the benefit, the payment covered a maximum period of 14 days. At the end of the coverage period, you can apply to one of the other\n  <a href=\"/en/government-assistance-programs-covid19/\">\n   government assistance programs\n  </a>\n  offered.\n </p>\n <h2>\n  If you applied for an administrative reconsideration\n </h2>\n <p>\n  Your application for an administrative reconsideration will be studied and you will be notified of the decision as soon as possible.\n </p>\n <p>\n  If your PATT application was refused and you wish to apply for an administrative reconsideration, refer to the steps in the\n  <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/right-and-obligations/#c48934\">\n   administrative reconsideration process\n  </a>\n  .\n </p>\n <h2>\n  Finding assistance programs\n </h2>\n <p>\n  The governments of Québec and Canada have introduced various programs to help people during the COVID-19 pandemic.\n </p>\n <p>\n  An\n  <a href=\"/en/government-assistance-programs-covid19/\">\n   online questionnaire\n  </a>\n  is available to help you find the assistance program that applies in your situation.\n </p>\n</div>",
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "See also": {
+        "nested_title": [
+            "Temporary Aid for Workers Program",
+            "See also",
+            "",
+            ""
+        ],
         "title": "See also",
         "plaintext": [
             "See also",
-            "Questions and answersFiling a complaint   \t "
+            "Questions and answersRights and obligationsFiling a complaint   \t "
         ],
-        "html": "<div class=\"ce-bodytext\">\n <h2>\n  See also\n </h2>\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/questions-answers-income-assistance-programs-covid-19/#c52440\">\n    Questions and answers\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/how-to-reach-us/complaints/\">\n    Filing a complaint\n   </a>\n   <br/>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <h2>\n  See also\n </h2>\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/questions-answers-income-assistance-programs-covid-19/#c52440\">\n    Questions and answers\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/right-and-obligations/\">\n    Rights and obligations\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/how-to-reach-us/complaints/\">\n    Filing a complaint\n   </a>\n   <br/>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Questions about financial assistance": {
+        "nested_title": [
+            "Temporary Aid for Workers Program",
+            "Questions about financial assistance",
+            "",
+            ""
+        ],
         "title": "Questions about financial assistance",
         "plaintext": [
             "Questions about financial assistance",
@@ -51,10 +69,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Comments": {
+        "nested_title": [
+            "Temporary Aid for Workers Program",
+            "Comments",
+            "",
+            ""
+        ],
         "title": "Comments",
         "plaintext": [
             "You have questions or require additional information?",
@@ -64,10 +88,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "You have questions or require additional information?": {
+        "nested_title": [
+            "Temporary Aid for Workers Program",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
         "title": "You have questions or require additional information?",
         "plaintext": [
             "You have questions or require additional information?",
@@ -77,7 +107,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-financiere/programme-aide-temporaire-aux-travailleurs/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

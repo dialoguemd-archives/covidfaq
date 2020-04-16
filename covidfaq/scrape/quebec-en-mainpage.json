@@ -1,30 +1,48 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
     "Situation in Québec": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Situation in Québec",
+            "",
+            ""
+        ],
         "title": "Situation in Québec",
         "plaintext": [
-            "Situation in QuébecApril 14th, 2020, 13:15"
+            "Situation in QuébecApril 15th, 2020, 13:15"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <div class=\"zoneMinMarginPadding\">\n  <h2>\n   Situation in Québec\n  </h2>\n  <p class=\"petitTexte\">\n   April 14th, 2020, 13:15\n  </p>\n  <hr/>\n </div>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <div class=\"zoneMinMarginPadding\">\n  <h2>\n   Situation in Québec\n  </h2>\n  <p class=\"petitTexte\">\n   April 15th, 2020, 13:15\n  </p>\n  <hr/>\n </div>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "About COVID-19": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "About COVID-19",
+            "",
+            ""
+        ],
         "title": "About COVID-19",
         "plaintext": [
-            "Situation in QuébecSymptoms and treatmentGeneral information on COVID-19Day-to-day evolution  (French only)Measures taken by the GovernmentSelf-Care Guide - COVID-19 - Revised edition March 30, 2020"
+            "Situation in QuébecSymptoms and treatmentGeneral information on COVID-19Day-to-day evolution  (French only)Measures adopted by Orders in Council and Ministerial OrdersSelf-Care Guide - COVID-19 - Revised edition March 30, 2020"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/\">\n    Situation in Québec\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    Symptoms and treatment\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/\">\n    General information on COVID-19\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.inspq.qc.ca/covid-19/donnees\" target=\"_blank\">\n    Day-to-day evolution\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (French only)\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/#c47908\">\n    Measures taken by the Government\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n    Self-Care Guide - COVID-19 - Revised edition March 30, 2020\n   </a>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/\">\n    Situation in Québec\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    Symptoms and treatment\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/\">\n    General information on COVID-19\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.inspq.qc.ca/covid-19/donnees\" target=\"_blank\">\n    Day-to-day evolution\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (French only)\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/#c47908\">\n    Measures adopted by Orders in Council and Ministerial Orders\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n    Self-Care Guide - COVID-19 - Revised edition March 30, 2020\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Instructions and directives": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Instructions and directives",
+            "",
+            ""
+        ],
         "title": "Instructions and directives",
         "plaintext": [
             "Health recommendations for everyoneInstructions for travellersSelf-isolating instructionsTravelling from one region to anotherGatheringsNewFestivals and cultural and sporting eventsInstructions for vulnerable individuals and their relatives"
@@ -33,10 +51,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Schools and daycare centres": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Schools and daycare centres",
+            "",
+            ""
+        ],
         "title": "Schools and daycare centres",
         "plaintext": [
             "School and childcare service closingsEmergency daycare services for childrenOpen School (educationnal ressources) Repayment of a student loan"
@@ -45,10 +69,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Support for individuals": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Support for individuals",
+            "",
+            ""
+        ],
         "title": "Support for individuals",
         "plaintext": [
             "Stress, anxiety and depression associated with the COVID-19SeniorsPregnant womenParents of children age 0 to 17 – coronavirus (COVID-19)Indigenous communities"
@@ -57,10 +87,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Businesses and workers": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Businesses and workers",
+            "",
+            ""
+        ],
         "title": "Businesses and workers",
         "plaintext": [
             "Priority services and activitiesTemporary changes to store admission hours and days  Home support workersRecommandations for food establishmentsPublic service employees  (French only)Work schedules and absencesPromote buying locally with LePanierBleu.ca "
@@ -69,22 +105,34 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Assistance programs": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Assistance programs",
+            "",
+            ""
+        ],
         "title": "Assistance programs",
         "plaintext": [
-            "Government Assistance Programs for Workers (online tool)Temporary Aid for Workers Program (TAWP COVID-19)Emergency support for small and medium-sized businesses  (French only)Concerted temporary action program for businesses (PACTE) Flexibility measures respecting existing loans and loan guarantees Assisting the tourism industryIncentive program to retain essential workers (IPREW) "
+            "Government Assistance Programs for Workers (online tool)Government financial support programs for businesses (online tool)Temporary Aid for Workers Program (TAWP COVID-19)Emergency support for small and medium-sized businesses  (French only)Concerted temporary action program for businesses (PACTE) Flexibility measures respecting existing loans and loan guarantees Assisting the tourism industryIncentive program to retain essential workers (IPREW) "
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/government-assistance-programs-covid19/\">\n    Government Assistance Programs for Workers\n   </a>\n   (online tool)\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/\">\n    Temporary Aid for Workers Program (TAWP COVID-19)\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.quebec.ca/entreprises-et-travailleurs-autonomes/aide-urgence-pme-covid-19/\" target=\"_blank\">\n    Emergency support for small and medium-sized businesses\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (French only)\n  </li>\n  <li>\n   <a href=\"https://www.investquebec.com/quebec/en/financial-products/all-our-solutions/Concerted-temporary-action-program-for-businesses.html\" target=\"_blank\">\n    Concerted temporary action program for businesses (PACTE)\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.investquebec.com/quebec/en/financial-products/all-our-solutions/Concerted-temporary-action-program-for-businesses.html\" target=\"_blank\">\n    Flexibility measures respecting existing loans and loan guarantees\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/tourism-and-recreation/assisting-tourism-industry-covid-19/\">\n    Assisting the tourism industry\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.revenuquebec.ca/en/press-room/news/details/167331/2020-04-03/\" target=\"_blank\">\n    Incentive program to retain essential workers (IPREW)\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <a href=\"/en/government-assistance-programs-covid19/\">\n    Government Assistance Programs for Workers\n   </a>\n   (online tool)\n  </li>\n  <li>\n   <a href=\"/en/businesses-and-self-employed-workers/government-financial-support-programs-businesses-covid19/\">\n    Government financial support programs for businesses\n   </a>\n   (online tool)\n  </li>\n  <li>\n   <a href=\"/en/family-and-support-for-individuals/financial-assistance/temporary-aid-for-workers-program/\">\n    Temporary Aid for Workers Program (TAWP COVID-19)\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.quebec.ca/entreprises-et-travailleurs-autonomes/aide-urgence-pme-covid-19/\" target=\"_blank\">\n    Emergency support for small and medium-sized businesses\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (French only)\n  </li>\n  <li>\n   <a href=\"https://www.investquebec.com/quebec/en/financial-products/all-our-solutions/Concerted-temporary-action-program-for-businesses.html\" target=\"_blank\">\n    Concerted temporary action program for businesses (PACTE)\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.investquebec.com/quebec/en/financial-products/all-our-solutions/Concerted-temporary-action-program-for-businesses.html\" target=\"_blank\">\n    Flexibility measures respecting existing loans and loan guarantees\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/en/tourism-and-recreation/assisting-tourism-industry-covid-19/\">\n    Assisting the tourism industry\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.revenuquebec.ca/en/press-room/news/details/167331/2020-04-03/\" target=\"_blank\">\n    Incentive program to retain essential workers (IPREW)\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "How to offer your help": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "How to offer your help",
+            "",
+            ""
+        ],
         "title": "How to offer your help",
         "plaintext": [
             "Support the health network  (French only)Participate in this clinical study for individuals who tested positive for COVID-19  Give blood  Become a volunteer  (French only)"
@@ -93,10 +141,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Frequently asked questions": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Frequently asked questions",
+            "",
+            ""
+        ],
         "title": "Frequently asked questions",
         "plaintext": [
             "Answers to your questions"
@@ -105,10 +159,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Comments": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Comments",
+            "",
+            ""
+        ],
         "title": "Comments",
         "plaintext": [
             "You have questions or require additional information?",
@@ -118,10 +178,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "You have questions or require additional information?": {
+        "nested_title": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
         "title": "You have questions or require additional information?",
         "plaintext": [
             "You have questions or require additional information?",
@@ -131,7 +197,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

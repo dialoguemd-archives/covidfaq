@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
     "Giving birth": {
+        "nested_title": [
+            "Information for pregnant women – coronavirus (COVID-19)",
+            "Giving birth",
+            "",
+            ""
+        ],
         "title": "Giving birth",
         "plaintext": [
             "At present, pregnant women can be accompanied by a loved one when giving birth in Québec hospitals. However, hospitals may adopt certain specific measures, as is the case at the Montreal Jewish General Hospital. To obtain additional information in this regard, pregnant women can contact their hospital.",
@@ -10,10 +16,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Recommendations": {
+        "nested_title": [
+            "Information for pregnant women – coronavirus (COVID-19)",
+            "Recommendations",
+            "",
+            ""
+        ],
         "title": "Recommendations",
         "plaintext": [
             "Preventive measures that apply to the general public also apply to pregnant women.",
@@ -24,10 +36,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "For a Safe Maternity Experience Program": {
+        "nested_title": [
+            "Information for pregnant women – coronavirus (COVID-19)",
+            "For a Safe Maternity Experience Program",
+            "",
+            ""
+        ],
         "title": "For a Safe Maternity Experience Program",
         "plaintext": [
             "In Québec, pregnant or breastfeeding workers may be eligible for preventive re-assignment under the For a Safe Maternity Experience  Program (in French only). Specific recommendations have been issued for pregnant women who work in health care settings, including medical clinics. Not all pregnant workers require a preventive re-assignment."
@@ -36,10 +54,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Related": {
+        "nested_title": [
+            "Information for pregnant women – coronavirus (COVID-19)",
+            "Related",
+            "",
+            ""
+        ],
         "title": "Related",
         "plaintext": [
             "Coronavirus disease (COVID-19) in Québec",
@@ -52,10 +76,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Comments": {
+        "nested_title": [
+            "Information for pregnant women – coronavirus (COVID-19)",
+            "Comments",
+            "",
+            ""
+        ],
         "title": "Comments",
         "plaintext": [
             "You have questions or require additional information?",
@@ -65,10 +95,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "You have questions or require additional information?": {
+        "nested_title": [
+            "Information for pregnant women – coronavirus (COVID-19)",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
         "title": "You have questions or require additional information?",
         "plaintext": [
             "You have questions or require additional information?",
@@ -78,7 +114,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

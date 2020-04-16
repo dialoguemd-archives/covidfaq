@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
     "Suspension of student debt repayment": {
+        "nested_title": [
+            "Repayment of a student loan",
+            "Suspension of student debt repayment",
+            "",
+            ""
+        ],
         "title": "Suspension of student debt repayment",
         "plaintext": [
             "",
@@ -12,10 +18,16 @@
         "url": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Comments": {
+        "nested_title": [
+            "Repayment of a student loan",
+            "Comments",
+            "",
+            ""
+        ],
         "title": "Comments",
         "plaintext": [
             "You have questions or require additional information?",
@@ -25,10 +37,16 @@
         "url": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "You have questions or require additional information?": {
+        "nested_title": [
+            "Repayment of a student loan",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
         "title": "You have questions or require additional information?",
         "plaintext": [
             "You have questions or require additional information?",
@@ -38,7 +56,7 @@
         "url": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

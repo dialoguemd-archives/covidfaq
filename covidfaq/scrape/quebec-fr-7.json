@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
     "Report du remboursement de la dette d’études": {
+        "nested_title": [
+            "Remboursement d'un prêt étudiant",
+            "Report du remboursement de la dette d’études",
+            "",
+            ""
+        ],
         "title": "Report du remboursement de la dette d’études",
         "plaintext": [
             "",
@@ -12,10 +18,16 @@
         "url": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Évaluation de page": {
+        "nested_title": [
+            "Remboursement d'un prêt étudiant",
+            "Évaluation de page",
+            "",
+            ""
+        ],
         "title": "Évaluation de page",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -25,10 +37,16 @@
         "url": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
+        "nested_title": [
+            "Remboursement d'un prêt étudiant",
+            "Évaluation de page",
+            "Des questions ou besoin de renseignements?",
+            ""
+        ],
         "title": "Des questions ou besoin de renseignements?",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -38,7 +56,7 @@
         "url": "https://www.quebec.ca/education/aide-financiere-aux-etudes/remboursement/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

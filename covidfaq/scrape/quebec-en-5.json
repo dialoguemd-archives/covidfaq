@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
     "COVID-19 pandemic – Important information for workers who provide home care support services under the direct allowance / service employment paycheque arrangement": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "COVID-19 pandemic – Important information for workers who provide home care support services under the direct allowance / service employment paycheque arrangement",
+            "",
+            ""
+        ],
         "title": "COVID-19 pandemic – Important information for workers who provide home care support services under the direct allowance / service employment paycheque arrangement",
         "plaintext": [
             "Given the COVID-19 pandemic, the Government of Québec has announced a number of requirements for health care, education and daycare workers.",
@@ -10,26 +16,40 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Responsibilities of workers hired under the direct allowance / service employment paycheque arrangement": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "COVID-19 pandemic – Important information for workers who provide home care support services under the direct allowance / service employment paycheque arrangement",
+            "Responsibilities of workers hired under the direct allowance / service employment paycheque arrangement",
+            ""
+        ],
         "title": "Responsibilities of workers hired under the direct allowance / service employment paycheque arrangement",
         "plaintext": [
             "Workers who have flu-like symptoms must call the Government of Québec’s COVID-19 information line at 1 877 644-4545 to find out what they must do to protect their health and avoid spreading the virus.Workers who have flu-like symptoms or who have had close contact with a probable or confirmed case of COVID-19 must not visit a user.Workers must not visit a user within 14 days of returning from travelling abroad, irrespective of the country. Workers returning from travelling abroad must self-isolate for 14 days.Workers who are affected by these measures must inform their employer (the user) quickly and contact the user’s CLSC to prevent any interruption of services.A number of assistance programs have been put in place for workers who are residents of Québec and who have lost their income due to COVID-19. The workers concerned can apply to one of these programs. A tool to determine the type of assistance a worker may be eligible for depending on their situation is available on the page Government Assistance Programs COVID-19.",
             "Before going to the user’s home",
-            "Workers must contact the user to check if they have returned from travelling within the last 14 days, have flu-like symptoms or have had close contact with a probable or confirmed case of COVID-19.If they have, refer the user to the Government of Québec’s COVID-19 information line at 1 877 644-4545.If it is determined that the user is at high risk of having COVID-19 or if the user tested positive for COVID-19 and must stay at home: \tInform the user that you must temporarily suspend services;Contact the user’s CLSC quickly to prevent any interruption of services.If there are risk factors, workers hired under the direct allowance / service employment paycheque arrangement are not allowed to provide services. This means that they will not be provided with personal protective equipment.",
-            "Priority services that must be maintained ",
-            "If neither the user nor the worker has returned from travelling within the last 14 days, has flu-like symptoms or has had close contact with a probable or confirmed case of COVID-19, the worker must continue to provide the user with home care support services.Should a worker refuse to continue to provide a user with services despite the absence of risk factors, the worker must inform the user and contact the CLSC quickly to prevent any interruption of services.Workers may use the emergency day care services that have been put in place for workers who do essential work. Consult the page Emergency daycare services."
+            "Workers must contact the user to check if they have returned from travelling within the last 14 days, have flu-like symptoms or have had close contact with a probable or confirmed case of COVID-19.If they have, refer the user to the Government of Québec’s COVID-19 information line at 1 877 644-4545.If it is determined that the user is at high risk of having COVID-19 or if the user tested positive for COVID-19 and must stay at home: \tInform the user that you must temporarily suspend services;Contact the user’s CLSC quickly to prevent any interruption of services.Workers must not provide services to a user at high risk of having COVID-19 or to a user who tested positive for COVID-19.",
+            "Priority services that must be maintained",
+            "If neither the user nor the worker has returned from travelling within the last 14 days, has flu-like symptoms or has had close contact with a probable or confirmed case of COVID-19, the worker must continue to provide the user with home care support services.Should a worker refuse to continue to provide a user with services despite the absence of risk factors, the worker must inform the user and contact the CLSC quickly to prevent any interruption of services.Workers may use the emergency day care services that have been put in place for workers who do essential work. Consult the page Emergency daycare services.",
+            "Worker safety",
+            "Since all of Québec is now affected by community transmission of the virus, workers who provide services within 2 metres of a user must wear a procedure mask at all times. They must change the mask if it is wet, soiled or at the end of their shift.The user’s CLSC will distribute procedure masks and also ensure they are used properly.Workers hired under the direct allowance / service employment paycheque arrangement are not allowed to provide services to a user at high risk of having COVID-19 or to a user who tested positive for COVID-19. This means that they will not be provided with personal protective equipment.It is recommended that workers complete a 15-minute training module on hand hygiene ."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Workers who have flu-like symptoms must call the Government of Québec’s COVID-19 information line at\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644-4545\n   </a>\n   to find out what they must do to protect their health and avoid spreading the virus.\n  </li>\n  <li>\n   Workers who have flu-like symptoms or who have had close contact with a probable or confirmed case of COVID-19 must not visit a user.\n  </li>\n  <li>\n   Workers must not visit a user within 14 days of returning from travelling abroad, irrespective of the country. Workers returning from travelling abroad must self-isolate for 14 days.\n  </li>\n  <li>\n   Workers who are affected by these measures must inform their employer (the user) quickly and contact the user’s CLSC to prevent any interruption of services.\n  </li>\n  <li>\n   A number of assistance programs have been put in place for workers who are residents of Québec and who have lost their income due to COVID-19. The workers concerned can apply to one of these programs. A tool to determine the type of assistance a worker may be eligible for depending on their situation is available on the page\n   <a href=\"/en/government-assistance-programs-covid19/\">\n    Government Assistance Programs COVID-19\n   </a>\n   .\n  </li>\n </ul>\n <h3>\n  Before going to the user’s home\n </h3>\n <ul>\n  <li>\n   Workers must contact the user to check if they have returned from travelling within the last 14 days, have flu-like symptoms or have had close contact with a probable or confirmed case of COVID-19.\n  </li>\n  <li>\n   <strong>\n    If they have\n   </strong>\n   , refer the user to the Government of Québec’s COVID-19 information line at\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644-4545\n   </a>\n   .\n  </li>\n  <li>\n   If it is determined that the user is at high risk of having COVID-19 or if the user tested positive for COVID-19 and must stay at home:\n   <ul>\n    <li>\n     Inform the user that you must temporarily suspend services;\n    </li>\n    <li>\n     Contact the user’s CLSC quickly to prevent any interruption of services.\n    </li>\n   </ul>\n  </li>\n  <li>\n   If there are risk factors, workers hired under the direct allowance / service employment paycheque arrangement are not allowed to provide services. This means that they will not be provided with personal protective equipment.\n  </li>\n </ul>\n <h3>\n  Priority services that must be maintained\n </h3>\n <ul>\n  <li>\n   If neither the user nor the worker has returned from travelling within the last 14 days, has flu-like symptoms or has had close contact with a probable or confirmed case of COVID-19, the worker must continue to provide the user with home care support services.\n  </li>\n  <li>\n   Should a worker refuse to continue to provide a user with services despite the absence of risk factors, the worker\n   <strong>\n    must\n   </strong>\n   inform the user and contact the CLSC quickly to prevent any interruption of services.\n  </li>\n  <li>\n   Workers may use the emergency day care services that have been put in place for workers who do essential work. Consult the page\n   <a href=\"/en/family-and-support-for-individuals/emergency-daycare-services/\">\n    Emergency daycare services\n   </a>\n   .\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Workers who have flu-like symptoms must call the Government of Québec’s COVID-19 information line at\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644-4545\n   </a>\n   to find out what they must do to protect their health and avoid spreading the virus.\n  </li>\n  <li>\n   Workers who have flu-like symptoms or who have had close contact with a probable or confirmed case of COVID-19 must not visit a user.\n  </li>\n  <li>\n   Workers must not visit a user within 14 days of returning from travelling abroad, irrespective of the country. Workers returning from travelling abroad must self-isolate for 14 days.\n  </li>\n  <li>\n   Workers who are affected by these measures must inform their employer (the user) quickly and contact the user’s CLSC to prevent any interruption of services.\n  </li>\n  <li>\n   A number of assistance programs have been put in place for workers who are residents of Québec and who have lost their income due to COVID-19. The workers concerned can apply to one of these programs. A tool to determine the type of assistance a worker may be eligible for depending on their situation is available on the page\n   <a href=\"/en/government-assistance-programs-covid19/\">\n    Government Assistance Programs COVID-19\n   </a>\n   .\n  </li>\n </ul>\n <h3>\n  Before going to the user’s home\n </h3>\n <ul>\n  <li>\n   Workers must contact the user to check if they have returned from travelling within the last 14 days, have flu-like symptoms or have had close contact with a probable or confirmed case of COVID-19.\n  </li>\n  <li>\n   <strong>\n    If they have\n   </strong>\n   , refer the user to the Government of Québec’s COVID-19 information line at\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644-4545\n   </a>\n   .\n  </li>\n  <li>\n   If it is determined that the user is at high risk of having COVID-19 or if the user tested positive for COVID-19 and must stay at home:\n   <ul>\n    <li>\n     Inform the user that you must temporarily suspend services;\n    </li>\n    <li>\n     Contact the user’s CLSC quickly to prevent any interruption of services.\n    </li>\n   </ul>\n  </li>\n  <li>\n   Workers must not provide services to a user at high risk of having COVID-19 or to a user who tested positive for COVID-19.\n  </li>\n </ul>\n <h3>\n  Priority services that must be maintained\n </h3>\n <ul>\n  <li>\n   If neither the user nor the worker has returned from travelling within the last 14 days, has flu-like symptoms or has had close contact with a probable or confirmed case of COVID-19, the worker must continue to provide the user with home care support services.\n  </li>\n  <li>\n   Should a worker refuse to continue to provide a user with services despite the absence of risk factors, the worker\n   <strong>\n    must\n   </strong>\n   inform the user and contact the CLSC quickly to prevent any interruption of services.\n  </li>\n  <li>\n   Workers may use the emergency day care services that have been put in place for workers who do essential work. Consult the page\n   <a href=\"/en/family-and-support-for-individuals/emergency-daycare-services/\">\n    Emergency daycare services\n   </a>\n   .\n  </li>\n </ul>\n <h3>\n  Worker safety\n </h3>\n <ul>\n  <li>\n   Since all of Québec is now affected by community transmission of the virus, workers who provide services within 2 metres of a user must wear a procedure mask at all times. They must change the mask if it is wet, soiled or at the end of their shift.\n  </li>\n  <li>\n   The user’s CLSC will distribute procedure masks and also ensure they are used properly.\n  </li>\n  <li>\n   Workers hired under the direct allowance / service employment paycheque arrangement are not allowed to provide services to a user at high risk of having COVID-19 or to a user who tested positive for COVID-19. This means that they will not be provided with personal protective equipment.\n  </li>\n  <li>\n   It is recommended that workers complete a\n   <a href=\"https://fcp.rtss.qc.ca/local/html-courses/hygiene/story.html\" target=\"_blank\">\n    15-minute training module on hand hygiene\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   .\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Home care support services": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "Home care support services",
+            "",
+            ""
+        ],
         "title": "Home care support services",
         "plaintext": [
             "If you live at home and need help with certain activities, you may be eligible for home care support services.",
@@ -43,10 +63,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Direct allowance / service employment paycheque": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "Direct allowance / service employment paycheque",
+            "",
+            ""
+        ],
         "title": "Direct allowance / service employment paycheque",
         "plaintext": [
             "The direct allowance / service employment paycheque is an arrangement for the delivery of home care support services that may be used by the user and the care provider under certain conditions. Under this arrangement, the user can choose and hire the worker who will provide some of their home care support services in accordance with certain guidelines.",
@@ -61,10 +87,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Publications": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "Publications",
+            "",
+            ""
+        ],
         "title": "Publications",
         "plaintext": [
             "For more information about the role and responsibilities of the person who is receiving services (the user) and the person who is providing services (the privately hired worker) under the direct allowance / service employment paycheque arrangement, you can read the information leaflets:",
@@ -74,10 +106,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Comments": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "Comments",
+            "",
+            ""
+        ],
         "title": "Comments",
         "plaintext": [
             "You have questions or require additional information?",
@@ -87,10 +125,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "You have questions or require additional information?": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
         "title": "You have questions or require additional information?",
         "plaintext": [
             "You have questions or require additional information?",
@@ -100,10 +144,16 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Page Alerts": {
+        "nested_title": [
+            "Service employment paycheque: an arrangement for the delivery of home care support services",
+            "",
+            "",
+            ""
+        ],
         "title": "Page Alerts",
         "plaintext": [
             "COVID-19 pandemic – For updates to the directives, which could change at any time, please consult this page regularly."
@@ -112,7 +162,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/aide-et-soutien/allocation-directe-cheque-emploi-service-une-modalite-de-dispensation-des-services-de-soutien-a-domicile/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "alert"
     }
 }

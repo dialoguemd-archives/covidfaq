@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
     "Renseignements pour les entreprises sur les services et activités prioritaires": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Renseignements pour les entreprises sur les services et activités prioritaires",
+            "",
+            ""
+        ],
         "title": "Renseignements pour les entreprises sur les services et activités prioritaires",
         "plaintext": [
             "Si l’activité de votre entreprise n’est pas répertoriée ci-dessous, mais que vous pensez qu’elle est prioritaire, vous pouvez vérifier la désignation comme entreprise prioritaire.",
@@ -11,10 +17,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services de soins de santé et de services sociaux prioritaires": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Services de soins de santé et de services sociaux prioritaires",
+            "",
+            ""
+        ],
         "title": "Services de soins de santé et de services sociaux prioritaires",
         "plaintext": [
             "Les services de soins de santé et de services sociaux prioritaires, incluant :",
@@ -24,10 +36,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services de sécurité publique": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Services de sécurité publique",
+            "",
+            ""
+        ],
         "title": "Services de sécurité publique",
         "plaintext": [
             "Les services de sécurité publique, incluant :",
@@ -37,10 +55,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services gouvernementaux et autres activités prioritaires": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Services gouvernementaux et autres activités prioritaires",
+            "",
+            ""
+        ],
         "title": "Services gouvernementaux et autres activités prioritaires",
         "plaintext": [
             "Les services gouvernementaux et autres activités prioritaires, incluant :",
@@ -50,10 +74,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Maintenance et opérations des infrastructures stratégiques": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Maintenance et opérations des infrastructures stratégiques",
+            "",
+            ""
+        ],
         "title": "Maintenance et opérations des infrastructures stratégiques",
         "plaintext": [
             "La maintenance et les opérations des infrastructures stratégiques, incluant :",
@@ -63,36 +93,54 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Activités manufacturières prioritaires": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Activités manufacturières prioritaires",
+            "",
+            ""
+        ],
         "title": "Activités manufacturières prioritaires",
         "plaintext": [
             "Les activités manufacturières prioritaires, incluant :",
-            "Production de biens alimentaires (exemples : entreprises agricoles, transformation alimentaire, breuvage, abattoirs, production maraîchère et horticole, pêche et aquaculture commerciale)Production des intrants nécessaires aux secteurs prioritairesSecteur pâtes et papier Fabrication des instruments médicauxFabrication de produits chimiquesFabrication de produits sanitairesFabrication de composantes de microélectroniqueComplexes industriels (notamment le secteur de l’aluminium) doivent réduire au minimum leurs activitésFabrication et entretien pour le secteur de la défenseActivités d’exploitation minière – Nouveau – À compter du 15 avril"
+            "Production de biens alimentaires (exemples : entreprises agricoles, transformation alimentaire, breuvage, abattoirs, production maraîchère et horticole, pêche et aquaculture commerciale)Production des intrants nécessaires aux secteurs prioritairesIndustrie des produits du bois et travaux sylvicolesFabrication des instruments médicauxFabrication de produits chimiquesFabrication de produits sanitairesFabrication de composantes de microélectroniqueComplexes industriels (notamment le secteur de l’aluminium) doivent réduire au minimum leurs activitésFabrication et entretien pour le secteur de la défenseActivités d’exploitation minière"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les activités manufacturières prioritaires, incluant :\n </p>\n <ul>\n  <li>\n   Production de biens alimentaires (exemples : entreprises agricoles, transformation alimentaire, breuvage, abattoirs, production maraîchère et horticole, pêche et aquaculture commerciale)\n  </li>\n  <li>\n   Production des intrants nécessaires aux secteurs prioritaires\n  </li>\n  <li>\n   Secteur pâtes et papier\n  </li>\n  <li>\n   Fabrication des instruments médicaux\n  </li>\n  <li>\n   Fabrication de produits chimiques\n  </li>\n  <li>\n   Fabrication de produits sanitaires\n  </li>\n  <li>\n   Fabrication de composantes de microélectronique\n  </li>\n  <li>\n   Complexes industriels (notamment le secteur de l’aluminium) doivent réduire au minimum leurs activités\n  </li>\n  <li>\n   Fabrication et entretien pour le secteur de la défense\n  </li>\n  <li>\n   Activités d’exploitation minière –\n   <strong>\n    Nouveau\n   </strong>\n   –\n   <strong>\n    À compter du 15\n   </strong>\n   <span class=\"nbsp\">\n   </span>\n   <strong>\n    avril\n   </strong>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les activités manufacturières prioritaires, incluant :\n </p>\n <ul>\n  <li>\n   Production de biens alimentaires (exemples : entreprises agricoles, transformation alimentaire, breuvage, abattoirs, production maraîchère et horticole, pêche et aquaculture commerciale)\n  </li>\n  <li>\n   Production des intrants nécessaires aux secteurs prioritaires\n  </li>\n  <li>\n   Industrie des produits du bois et travaux sylvicoles\n  </li>\n  <li>\n   Fabrication des instruments médicaux\n  </li>\n  <li>\n   Fabrication de produits chimiques\n  </li>\n  <li>\n   Fabrication de produits sanitaires\n  </li>\n  <li>\n   Fabrication de composantes de microélectronique\n  </li>\n  <li>\n   Complexes industriels (notamment le secteur de l’aluminium) doivent réduire au minimum leurs activités\n  </li>\n  <li>\n   Fabrication et entretien pour le secteur de la défense\n  </li>\n  <li>\n   Activités d’exploitation minière\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Commerces prioritaires": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Commerces prioritaires",
+            "",
+            ""
+        ],
         "title": "Commerces prioritaires",
         "plaintext": [
             "Les commerces prioritaires, incluant :",
-            "Épiceries et autres commerces d’alimentationPharmaciesDépanneursSurfaces hors centre commercial (offrant des services d’épicerie, pharmacie ou de quincaillerie)Produits pour exploitations agricoles (mécanique, engrais, etc.)Société des alcools du Québec et Société québécoise du cannabisMeubles et électroménagers (uniquement en ligne ou téléphonique)Entreprises de services funéraires et cimetièresRestaurants (commande à l’auto, commande pour emporter et livraison seulement)Hôtels et, pour accommoder les personnes qui reviennent au Québec sans y avoir une résidence fixe, les campings (véhicules de camping récréatifs motorisés ou non motorisés seulement)Nettoyeurs, lavomats et buanderiesCommerces d’articles médicaux et orthopédiquesCommerces d’aliments et de fournitures pour les animauxDéménageursÉquipements de travail (sécurité et protection)Produits, pièces et autre matériel nécessaires aux services de transport et de logistique – Nouveau – À compter du 15 avril"
+            "Épiceries et autres commerces d’alimentationPharmaciesDépanneursSurfaces hors centre commercial (offrant des services d’épicerie, pharmacie ou de quincaillerie)Produits pour exploitations agricoles (mécanique, engrais, etc.)Société des alcools du Québec et Société québécoise du cannabisMeubles et électroménagers (uniquement en ligne ou téléphonique)Entreprises de services funéraires et cimetièresRestaurants (commande à l’auto, commande pour emporter et livraison seulement)Hôtels et, pour accommoder les personnes qui reviennent au Québec sans y avoir une résidence fixe, les campings (véhicules de camping récréatifs motorisés ou non motorisés seulement)Nettoyeurs, lavomats et buanderiesCommerces d’articles médicaux et orthopédiquesCommerces d’aliments et de fournitures pour les animauxDéménageursÉquipements de travail (sécurité et protection)Produits, pièces et autre matériel nécessaires aux services de transport et de logistique"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les commerces prioritaires, incluant :\n </p>\n <ul>\n  <li>\n   Épiceries et autres commerces d’alimentation\n  </li>\n  <li>\n   Pharmacies\n  </li>\n  <li>\n   Dépanneurs\n  </li>\n  <li>\n   Surfaces hors centre commercial (offrant des services d’épicerie, pharmacie ou de quincaillerie)\n  </li>\n  <li>\n   Produits pour exploitations agricoles (mécanique, engrais, etc.)\n  </li>\n  <li>\n   Société des alcools du Québec et Société québécoise du cannabis\n  </li>\n  <li>\n   Meubles et électroménagers (uniquement en ligne ou téléphonique)\n  </li>\n  <li>\n   Entreprises de services funéraires et cimetières\n  </li>\n  <li>\n   Restaurants (commande à l’auto, commande pour emporter et livraison seulement)\n  </li>\n  <li>\n   Hôtels et, pour accommoder les personnes qui reviennent au Québec sans y avoir une résidence fixe, les campings (véhicules de camping récréatifs motorisés ou non motorisés seulement)\n  </li>\n  <li>\n   Nettoyeurs, lavomats et buanderies\n  </li>\n  <li>\n   Commerces d’articles médicaux et orthopédiques\n  </li>\n  <li>\n   Commerces d’aliments et de fournitures pour les animaux\n  </li>\n  <li>\n   Déménageurs\n  </li>\n  <li>\n   Équipements de travail (sécurité et protection)\n  </li>\n  <li>\n   Produits, pièces et autre matériel nécessaires aux services de transport et de logistique –\n   <strong>\n    Nouveau\n   </strong>\n   –\n   <strong>\n    À compter du 15\n    <span class=\"nbsp\">\n    </span>\n    avril\n   </strong>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les commerces prioritaires, incluant :\n </p>\n <ul>\n  <li>\n   Épiceries et autres commerces d’alimentation\n  </li>\n  <li>\n   Pharmacies\n  </li>\n  <li>\n   Dépanneurs\n  </li>\n  <li>\n   Surfaces hors centre commercial (offrant des services d’épicerie, pharmacie ou de quincaillerie)\n  </li>\n  <li>\n   Produits pour exploitations agricoles (mécanique, engrais, etc.)\n  </li>\n  <li>\n   Société des alcools du Québec et Société québécoise du cannabis\n  </li>\n  <li>\n   Meubles et électroménagers (uniquement en ligne ou téléphonique)\n  </li>\n  <li>\n   Entreprises de services funéraires et cimetières\n  </li>\n  <li>\n   Restaurants (commande à l’auto, commande pour emporter et livraison seulement)\n  </li>\n  <li>\n   Hôtels et, pour accommoder les personnes qui reviennent au Québec sans y avoir une résidence fixe, les campings (véhicules de camping récréatifs motorisés ou non motorisés seulement)\n  </li>\n  <li>\n   Nettoyeurs, lavomats et buanderies\n  </li>\n  <li>\n   Commerces d’articles médicaux et orthopédiques\n  </li>\n  <li>\n   Commerces d’aliments et de fournitures pour les animaux\n  </li>\n  <li>\n   Déménageurs\n  </li>\n  <li>\n   Équipements de travail (sécurité et protection)\n  </li>\n  <li>\n   Produits, pièces et autre matériel nécessaires aux services de transport et de logistique\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Médias et télécommunications": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Médias et télécommunications",
+            "",
+            ""
+        ],
         "title": "Médias et télécommunications",
         "plaintext": [
             "Les médias et télécommunications, incluant :",
@@ -102,10 +150,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services bancaires, financiers et autres": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Services bancaires, financiers et autres",
+            "",
+            ""
+        ],
         "title": "Services bancaires, financiers et autres",
         "plaintext": [
             "Les services bancaires, financiers et autres, incluant :",
@@ -115,23 +169,35 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Secteur de la construction": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Secteur de la construction",
+            "",
+            ""
+        ],
         "title": "Secteur de la construction",
         "plaintext": [
             "Le secteur de la construction, incluant :",
-            "Firmes de construction pour réparations d’urgence ou pour fins de sécuritéÉlectriciens et plombiers et autres corps de métiers pour des services d’urgenceÉquipements de locationAménagement et entretien paysagers (incluant pépinières, centres jardin et commerces de piscines) – Nouveau – À compter du 15 avrilConstruction résidentielle – Nouveau – À compter du 20 avrilSeront autorisés les travaux permettant de compléter les livraisons d'unités résidentielles prévues au plus tard le 31 juillet 2020. Ceci comprend les travaux de construction et de rénovation, incluant ceux liés à l'arpentage et à l'inspection en bâtiments. Cela entraîne du même coup la réouverture de la chaîne d'approvisionnement de ce secteur de l'industrie de la construction, composée de nombreuses PME."
+            "Firmes de construction pour réparations d’urgence ou pour fins de sécuritéÉlectriciens et plombiers et autres corps de métiers pour des services d’urgenceÉquipements de locationAménagement et entretien paysagers (incluant pépinières, centres jardin et commerces de piscines)Construction résidentielle – Nouveau – À compter du 20 avrilSeront autorisés les travaux permettant de compléter les livraisons d'unités résidentielles prévues au plus tard le 31 juillet 2020. Ceci comprend les travaux de construction et de rénovation, incluant ceux liés à l'arpentage et à l'inspection en bâtiments. Cela entraîne du même coup la réouverture de la chaîne d'approvisionnement de ce secteur de l'industrie de la construction, composée de nombreuses PME."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le secteur de la construction, incluant :\n </p>\n <ul>\n  <li>\n   Firmes de construction pour réparations d’urgence ou pour fins de sécurité\n  </li>\n  <li>\n   Électriciens et plombiers et autres corps de métiers pour des services d’urgence\n  </li>\n  <li>\n   Équipements de location\n  </li>\n  <li>\n   Aménagement et entretien paysagers (incluant pépinières, centres jardin et commerces de piscines) –\n   <strong>\n    Nouveau\n   </strong>\n   –\n   <strong>\n    À compter du 15\n    <span class=\"nbsp\">\n    </span>\n    avril\n   </strong>\n  </li>\n  <li>\n   Construction résidentielle –\n   <strong>\n    Nouveau\n   </strong>\n   –\n   <strong>\n    À compter du 20\n   </strong>\n   <span class=\"nbsp\">\n   </span>\n   <strong>\n    avril\n   </strong>\n   <ul>\n    <li>\n     Seront autorisés les travaux permettant de compléter les livraisons d'unités résidentielles prévues au plus tard le 31\n     <span class=\"nbsp\">\n     </span>\n     juillet\n     <span class=\"nbsp\">\n     </span>\n     2020. Ceci comprend les travaux de construction et de rénovation, incluant ceux liés à l'arpentage et à l'inspection en bâtiments. Cela entraîne du même coup la réouverture de la chaîne d'approvisionnement de ce secteur de l'industrie de la construction, composée de nombreuses PME.\n    </li>\n   </ul>\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Le secteur de la construction, incluant :\n </p>\n <ul>\n  <li>\n   Firmes de construction pour réparations d’urgence ou pour fins de sécurité\n  </li>\n  <li>\n   Électriciens et plombiers et autres corps de métiers pour des services d’urgence\n  </li>\n  <li>\n   Équipements de location\n  </li>\n  <li>\n   Aménagement et entretien paysagers (incluant pépinières, centres jardin et commerces de piscines)\n  </li>\n  <li>\n   Construction résidentielle –\n   <strong>\n    Nouveau\n   </strong>\n   –\n   <strong>\n    À compter du 20\n   </strong>\n   <span class=\"nbsp\">\n   </span>\n   <strong>\n    avril\n   </strong>\n   <ul>\n    <li>\n     Seront autorisés les travaux permettant de compléter les livraisons d'unités résidentielles prévues au plus tard le 31\n     <span class=\"nbsp\">\n     </span>\n     juillet\n     <span class=\"nbsp\">\n     </span>\n     2020. Ceci comprend les travaux de construction et de rénovation, incluant ceux liés à l'arpentage et à l'inspection en bâtiments. Cela entraîne du même coup la réouverture de la chaîne d'approvisionnement de ce secteur de l'industrie de la construction, composée de nombreuses PME.\n    </li>\n   </ul>\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services de maintenance et d’entretien des édifices et autres bâtiments": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Services de maintenance et d’entretien des édifices et autres bâtiments",
+            "",
+            ""
+        ],
         "title": "Services de maintenance et d’entretien des édifices et autres bâtiments",
         "plaintext": [
             "Les services de maintenance et d’entretien des édifices et autres bâtiments, incluant :",
@@ -141,23 +207,35 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services prioritaires de transport et logistique": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Services prioritaires de transport et logistique",
+            "",
+            ""
+        ],
         "title": "Services prioritaires de transport et logistique",
         "plaintext": [
             "Les services prioritaires de transport et logistique, incluant :",
-            "Transports collectifs et transport des personnesPorts et aéroportsServices d’entretien de locomotives, d’aéronefs et maritime et opérations aéronautiques essentielles (transport aérien)Approvisionnement et distribution des biens alimentaires, épiceries et dépanneursTransport, entreposage et distribution de marchandisesDéneigement et maintien des liens routiers fonctionnelsStations-service, entretien et réparations de véhicules, firmes de dépanneuses, camions et équipements spécialisés et assistance routière – Nouveau – À compter du 15 avril pour l’entretien et les réparations de véhiculesTransport rémunéré des personnes, transport adapté et firmes de location de véhiculesServices postaux, messageries, livraison de colisAteliers de réparation de vélos"
+            "Transports collectifs et transport des personnesPorts et aéroportsServices d’entretien de locomotives, d’aéronefs et maritime et opérations aéronautiques essentielles (transport aérien)Approvisionnement et distribution des biens alimentaires, épiceries et dépanneursTransport, entreposage et distribution de marchandisesDéneigement et maintien des liens routiers fonctionnelsStations-service, entretien et réparations de véhicules, firmes de dépanneuses, camions et équipements spécialisés et assistance routièreTransport rémunéré des personnes, transport adapté et firmes de location de véhiculesServices postaux, messageries, livraison de colisAteliers de réparation de vélos"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les services prioritaires de transport et logistique, incluant :\n </p>\n <ul>\n  <li>\n   Transports collectifs et transport des personnes\n  </li>\n  <li>\n   Ports et aéroports\n  </li>\n  <li>\n   Services d’entretien de locomotives, d’aéronefs et maritime et opérations aéronautiques essentielles (transport aérien)\n  </li>\n  <li>\n   Approvisionnement et distribution des biens alimentaires, épiceries et dépanneurs\n  </li>\n  <li>\n   Transport, entreposage et distribution de marchandises\n  </li>\n  <li>\n   Déneigement et maintien des liens routiers fonctionnels\n  </li>\n  <li>\n   Stations-service, entretien et réparations de véhicules, firmes de dépanneuses, camions et équipements spécialisés et assistance routière –\n   <strong>\n    Nouveau\n   </strong>\n   –\n   <strong>\n    À compter du 15\n   </strong>\n   <span class=\"nbsp\">\n   </span>\n   <strong>\n    avril pour l’entretien et les réparations de véhicules\n   </strong>\n  </li>\n  <li>\n   Transport rémunéré des personnes, transport adapté et firmes de location de véhicules\n  </li>\n  <li>\n   Services postaux, messageries, livraison de colis\n  </li>\n  <li>\n   Ateliers de réparation de vélos\n  </li>\n </ul>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Les services prioritaires de transport et logistique, incluant :\n </p>\n <ul>\n  <li>\n   Transports collectifs et transport des personnes\n  </li>\n  <li>\n   Ports et aéroports\n  </li>\n  <li>\n   Services d’entretien de locomotives, d’aéronefs et maritime et opérations aéronautiques essentielles (transport aérien)\n  </li>\n  <li>\n   Approvisionnement et distribution des biens alimentaires, épiceries et dépanneurs\n  </li>\n  <li>\n   Transport, entreposage et distribution de marchandises\n  </li>\n  <li>\n   Déneigement et maintien des liens routiers fonctionnels\n  </li>\n  <li>\n   Stations-service, entretien et réparations de véhicules, firmes de dépanneuses, camions et équipements spécialisés et assistance routière\n  </li>\n  <li>\n   Transport rémunéré des personnes, transport adapté et firmes de location de véhicules\n  </li>\n  <li>\n   Services postaux, messageries, livraison de colis\n  </li>\n  <li>\n   Ateliers de réparation de vélos\n  </li>\n </ul>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Horaires de travail et absences": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Horaires de travail et absences",
+            "",
+            ""
+        ],
         "title": "Horaires de travail et absences",
         "plaintext": [
             "Les employeurs sont invités à faire preuve de souplesse dans les horaires de travail de leur personnel, de façon, par exemple, à limiter les foules présentes dans le transport en commun aux heures de pointe.",
@@ -168,10 +246,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Recommandations pour les établissements alimentaires": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Recommandations pour les établissements alimentaires",
+            "",
+            ""
+        ],
         "title": "Recommandations pour les établissements alimentaires",
         "plaintext": [
             "Pour savoir quoi faire lorsqu’un manipulateur d’aliments est diagnostiqué positif à la COVID-19, prenez connaissance du Guide en cas de déclaration d’un cas positif à la COVID-19 dans un établissement alimentaire (PDF 241 Ko).",
@@ -182,10 +266,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Évaluation de page": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Évaluation de page",
+            "",
+            ""
+        ],
         "title": "Évaluation de page",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -195,10 +285,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
+        "nested_title": [
+            "Réduction au minimum des services et activités non prioritaires",
+            "Évaluation de page",
+            "Des questions ou besoin de renseignements?",
+            ""
+        ],
         "title": "Des questions ou besoin de renseignements?",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -208,7 +304,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

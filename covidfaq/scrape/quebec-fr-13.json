@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
     "Important": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Important",
+            "",
+            ""
+        ],
         "title": "Important",
         "plaintext": [
             "",
@@ -14,10 +20,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Dans cette page": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Important",
+            "Dans cette page",
+            ""
+        ],
         "title": "Dans cette page",
         "plaintext": [
             "Directives à observer si vous travaillez dans un ministère ou un organismeMesures de préventionDes réponses à vos questions"
@@ -26,10 +38,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Télétravail": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Télétravail"
+        ],
         "title": "Télétravail",
         "plaintext": [
             "Le télétravail doit être une mesure privilégiée pour le plus grand nombre d’employées et d’employés possible, et doit être autorisé par le supérieur immédiat.Il est très important que les personnes en télétravail respectent les règles de confidentialité et de sécurité de l’information.Chaque ministère et organisme est imputable de sa gestion administrative et du maintien de la prestation de service si une majorité des employés sont en télétravail.Plusieurs employées et employés disposent déjà des infrastructures technologiques nécessaires pour faire du télétravail."
@@ -38,10 +56,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Réunions": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Réunions"
+        ],
         "title": "Réunions",
         "plaintext": [
             "Nous demandons au personnel de reporter les réunions non essentielles et d’utiliser les moyens technologiques appropriés afin de limiter les contacts physiques."
@@ -50,10 +74,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Isolement": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Isolement"
+        ],
         "title": "Isolement",
         "plaintext": [
             "En respect de l’orientation gouvernementale, les personnes âgées de 70 ans et plus ainsi que celles atteintes de maladies chroniques ou immunosupprimées ne doivent pas se présenter dans les milieux de travail et doivent demeurer en isolement. Le traitement de l’employée ou de l’employé est maintenu, que cette personne soit ou non en télétravail.Toute employée ou tout employé de retour d’un déplacement de tout pays, que ce déplacement ait été fait dans le cadre de ses fonctions ou à titre personnel, ne peut se présenter au travail dans les 14 jours consécutifs suivants son retour au Canada. Au cours de cette période, le traitement de l’employée ou de l’employé sera maintenu, qu’il soit ou non en télétravail.Le télétravail est la mesure à privilégier et doit être exigé à l’employée ou à l’employé en isolement dès que cet aménagement est possible."
@@ -62,10 +92,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Visites dans les établissements de santé": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Visites dans les établissements de santé"
+        ],
         "title": "Visites dans les établissements de santé",
         "plaintext": [
             "L’employée ou l’employé doit éviter de visiter les établissements de santé et les centres pour personnes âgées dans l’exercice de ses fonctions à moins que ce soit pour rendre des services liés à la santé des personnes."
@@ -74,10 +110,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Déplacements personnels": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Déplacements personnels"
+        ],
         "title": "Déplacements personnels",
         "plaintext": [
             "L’employée ou l’employée doit éviter de se déplacer à l’étranger à titre personnel.L’employée ou l’employé doit informer son supérieur immédiat de tout déplacement hors Canada.Bien qu’il ne soit pas interdit d’effectuer un déplacement personnel à l’étranger, l’employée ou l’employé doit être sensibilisé aux risques et aux mesures qui pourraient être mises en place à son retour.La demande de congé d’une employée ou d’un employé peut être refusée si ce congé nuit à l’efficacité du service."
@@ -86,10 +128,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Déplacements professionnels": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Déplacements professionnels"
+        ],
         "title": "Déplacements professionnels",
         "plaintext": [
             "Les déplacements hors Canada, qui devaient être effectués dans l’exercice des fonctions, ne sont plus autorisés, et ce, jusqu’à nouvel ordre.Si un déplacement professionnel devait être jugé essentiel et incontournable, celui-ci devra être autorisé préalablement par le secrétaire du Conseil du trésor."
@@ -98,10 +146,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Fermeture des écoles et des services de garde": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Fermeture des écoles et des services de garde"
+        ],
         "title": "Fermeture des écoles et des services de garde",
         "plaintext": [
             "Considérant la fermeture des écoles, des cégeps, des universités et des services de garde pour une durée de deux semaines, voici les directives à considérer pour le personnel de la fonction publique : \tLe parent d’un enfant requérant la présence d’une personne responsable pour assurer la sécurité de son enfant doit prendre les moyens raisonnables pour éviter de s’absenter.Un seul parent peut s’absenter pour assurer la sécurité de son enfant.Si le parent doit s’absenter : \t\tSon traitement est maintenu;Le télétravail doit être favorisé;S’il est impossible d’effectuer ses tâches habituelles, l’employeur évalue la possibilité de lui confier en télétravail toutes autres tâches pour lesquelles il est qualifié.Par ailleurs, des services de garde seront disponibles pour le personnel faisant partie des services essentiels (réseau de la santé, policiers, pompiers, ambulanciers, agents des services correctionnels, constables spéciaux)."
@@ -110,10 +164,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Services essentiels": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Directives à observer si vous travaillez dans un ministère ou un organisme",
+            "",
+            "Services essentiels"
+        ],
         "title": "Services essentiels",
         "plaintext": [
             "Chaque ministère et organisme de la fonction publique est responsable d’avoir un plan de maintien des services essentiels en cas de pandémie.En cas de sinistre majeur réel ou imminent, le SCT est responsable de la mission de redéploiement des ressources pour le maintien des services essentiels à la population."
@@ -122,10 +182,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Mesures de prévention": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Mesures de prévention",
+            "",
+            ""
+        ],
         "title": "Mesures de prévention",
         "plaintext": [
             "Lavez-vous souvent les mains, à l’eau tiède courante et au savon, pendant au moins 20 secondes.Utilisez un désinfectant à base d’alcool si vous n’avez pas accès à l’eau et au savon.Observez les règles d’hygiène lorsque vous toussez ou éternuez et couvrez-vous la bouche et le nez avec votre bras afin de réduire la propagation des germes.Si vous utilisez un mouchoir en papier, jetez-le dès que possible et lavez-vous les mains par la suite."
@@ -134,10 +200,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Santé et sécurité": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "Santé et sécurité",
+            "",
+            ""
+        ],
         "title": "Santé et sécurité",
         "plaintext": [
             "Notre priorité est de prendre l’ensemble des actions nécessaires pour assurer la santé et la sécurité des employées et des employés de l’État et pour limiter la propagation du coronavirus au sein de la population.",
@@ -147,10 +219,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "1. Vous avez reçu un diagnostic positif à la COVID-19. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "1. Vous avez reçu un diagnostic positif à la COVID-19. Que faire?",
         "plaintext": [
             "Vous devez rester chez vous et vous n’avez plus accès aux locaux. Vous êtes admissible au régime d’assurance traitement, et les dispositions prévues à votre convention s’appliqueront.Si vous êtes apte au travail, vous recevez votre traitement.Si vous êtes inapte au travail, votre traitement est couvert par votre régime d’assurance traitement.Si vous présentez des symptômes, mais demeurez apte au travail, nous vous demandons de faire du télétravail dès que cet aménagement est possible. Cela doit se faire préférablement dans vos fonctions, sinon dans d’autres fonctions. Votre salaire sera maintenu.Avant de réintégrer votre travail, vous devez présenter un billet médical confirmant que tout risque de contagion est éliminé. Selon les données connues actuellement, une personne infectée resterait contagieuse encore de 4 à 5 jours après la fin des symptômes."
@@ -159,10 +237,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "2. Vous avez des symptômes de la COVID-19 et une autorité compétente vous a confirmé que vous devez vous placer en isolement (14 jours). Toutefois, vous n’avez pas de diagnostic confirmé. Que faire ?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "2. Vous avez des symptômes de la COVID-19 et une autorité compétente vous a confirmé que vous devez vous placer en isolement (14 jours). Toutefois, vous n’avez pas de diagnostic confirmé. Que faire ?",
         "plaintext": [
             "Vous devez rester à la maison et vous n’avez plus accès aux locaux. Vous êtes admissible au régime d’assurance traitement, et les dispositions prévues à votre convention collective s’appliqueront.Avant de réintégrer le travail, vous devez vous assurer de respecter les consignes de la santé publique, qui détermine la nécessité d’un test de dépistage de la COVID-19 ou qui énonce la durée de la contagion possible. Selon les données connues actuellement, une personne infectée reste contagieuse encore de 4 à 5 jours après la fin des symptômes."
@@ -171,10 +255,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "3. Vous ne présentez pas d’incapacité à exercer votre travail, mais vous devez vous placer en isolement. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "3. Vous ne présentez pas d’incapacité à exercer votre travail, mais vous devez vous placer en isolement. Que faire?",
         "plaintext": [
             "Si le télétravail est possible, vous pourrez y recourir pour la durée prévue de l’isolement, soit 14 jours consécutifs. S’il est impossible d’effectuer vos tâches de cette façon, votre gestionnaire évaluera la pertinence de vous confier, en télétravail, d’autres tâches pour lesquelles vous avez les compétences. Discutez-en avec votre gestionnaire.Si le maintien de vos tâches en mode télétravail est impossible, votre salaire sera tout de même maintenu. \tL’accès aux locaux est interdit.Si le maintien de toute prestation de service en mode télétravail est impossible, le traitement sera maintenu."
@@ -183,10 +273,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "4. Vous informez votre gestionnaire que vous devez vous isoler volontairement. À quoi devez-vous vous attendre?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "4. Vous informez votre gestionnaire que vous devez vous isoler volontairement. À quoi devez-vous vous attendre?",
         "plaintext": [
             "Votre gestionnaire vous questionnera sur les facteurs de risque à l’origine de ce besoin et vous demandera si cet isolement volontaire vous a été signifié par une autorité compétente.S’il s’agit d’une décision personnelle de votre part, non soutenue par une recommandation d’une autorité compétente, mais que les facteurs de risque apparaissent sérieux, votre gestionnaire vous demandera de communiquer avec une autorité compétente pour confirmer la situation. Si la situation d’isolement volontaire n’est pas reconnue par cette autorité compétente, vous devrez vous présenter au travail.Si vous refusez de vous conformer, vous vous exposerez à des mesures administratives ou disciplinaires."
@@ -195,10 +291,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "5. Vous habitez avec une personne symptomatique et à risque d’avoir contracté la COVID-19. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "5. Vous habitez avec une personne symptomatique et à risque d’avoir contracté la COVID-19. Que faire?",
         "plaintext": [
             "Vous ne devez pas vous présenter au travail.Avisez votre gestionnaire, qui pourrait vous demander de faire du télétravail, si cet aménagement est possible.Si le maintien de toute prestation de service en mode télétravail est impossible, le traitement sera maintenu.L’accès aux locaux est interdit.Avant de réintégrer le travail, vous devez vous assurer de respecter les consignes de la santé publique, qui détermine la nécessité d’un test de dépistage de la COVID-19 ou qui énonce la durée de la contagion possible. Selon les données connues actuellement, une personne infectée reste contagieuse encore de 4 à 5 jours après la fin des symptômes."
@@ -207,10 +309,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "6. Votre collègue a contracté la COVID-19, et vous avez été en contact avec cette personne dans les derniers jours. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "6. Votre collègue a contracté la COVID-19, et vous avez été en contact avec cette personne dans les derniers jours. Que faire?",
         "plaintext": [
             "Informez votre gestionnaire de votre état de santé et déclarez-lui immédiatement toute apparition de symptômes grippaux, même légers.Respectez les mesures d’hygiène : se laver les mains, etc.Appliquez les mesures d’isolement volontaire dans ces situations : \tSi vous avez été en contact étroit avec le cas déclaré, que celui-ci soit ou non symptomatique. Avisez votre gestionnaire.Si, dans les jours suivants, vous devenez symptomatique, avisez votre gestionnaire."
@@ -219,10 +327,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "7. Vous présentez des symptômes, mais ceux-ci sont non invalidants, et vous êtes en attente d’un diagnostic relatif à la COVID-19 à la suite d’une consultation médicale. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "7. Vous présentez des symptômes, mais ceux-ci sont non invalidants, et vous êtes en attente d’un diagnostic relatif à la COVID-19 à la suite d’une consultation médicale. Que faire?",
         "plaintext": [
             "Appliquer les règles d’isolement volontaire décrites à la question 2 jusqu’à la réception des résultats.Si vous recevez un diagnostic positif de COVID-19, traitez l’absence en assurance traitement et appliquez les mesures décrites à la question 1."
@@ -231,10 +345,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "8. Vous devez vous absenter parce que l’école ou le milieu de garde de votre enfant est fermé préventivement. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "8. Vous devez vous absenter parce que l’école ou le milieu de garde de votre enfant est fermé préventivement. Que faire?",
         "plaintext": [
             "Le parent d’un enfant requérant la présence d’une personne responsable pour assurer la sécurité de son enfant doit prendre les moyens raisonnables pour éviter de s’absenter.Si le parent doit s’absenter : \tSon traitement est maintenu;Favoriser le télétravail;S’il est impossible d’effectuer ses tâches, évaluer la possibilité de lui confier en télétravail toutes autres tâches pour lesquelles il est qualifié.Un seul parent peut s’absenter pour assurer la sécurité de son enfant.Si le maintien de toute prestation de service en mode télétravail s’avère impossible, le traitement est maintenu."
@@ -243,10 +363,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "9. Pour assurer votre prestation de services, vous envisagez d’amener votre enfant au travail. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "9. Pour assurer votre prestation de services, vous envisagez d’amener votre enfant au travail. Que faire?",
         "plaintext": [
             "La présence des enfants n’est pas permise sur les lieux du travail."
@@ -255,10 +381,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "10. Vous êtes en isolement volontaire, à la suite d’un retour de voyage récent, et vous souhaitez récupérer vos outils nécessaires au télétravail, ou tout autre effet personnel. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "10. Vous êtes en isolement volontaire, à la suite d’un retour de voyage récent, et vous souhaitez récupérer vos outils nécessaires au télétravail, ou tout autre effet personnel. Que faire?",
         "plaintext": [
             "L’employée ou l’employé est invité à communiquer avec son gestionnaire afin de récupérer ses outils de travail sans devoir se présenter sur les lieux du travail."
@@ -267,10 +399,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "11. Vous revenez d’un voyage hors Canada (le 12 mars 2020 ou après). Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "11. Vous revenez d’un voyage hors Canada (le 12 mars 2020 ou après). Que faire?",
         "plaintext": [
             "Si vous présentez des symptômes de la COVID-19, voir la question 2.Si vous ne présentez aucun symptôme, voir la question 3."
@@ -279,10 +417,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "12. Vous avez prévu partir en voyage hors Canada, au cours des prochaines semaines, et votre congé est déjà autorisé. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "12. Vous avez prévu partir en voyage hors Canada, au cours des prochaines semaines, et votre congé est déjà autorisé. Que faire?",
         "plaintext": [
             "À votre retour, vous devrez respecter les règles décrites à la question 3 en matière d’isolement volontaire."
@@ -291,10 +435,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "13. Vous demandez un congé à votre gestionnaire. Est-ce que ce dernier a le droit de poser des questions sur vos déplacements et de refuser d’autoriser votre congé?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "13. Vous demandez un congé à votre gestionnaire. Est-ce que ce dernier a le droit de poser des questions sur vos déplacements et de refuser d’autoriser votre congé?",
         "plaintext": [
             "Avant d’autoriser votre congé, votre gestionnaire vous posera des questions sur vos déplacements et vous rappellera les règles d’isolement pour votre retour.Si vous prévoyez séjourner à l’extérieur du Canada, votre gestionnaire vous informera de la période d’isolement volontaire de 14 jours, qui sera applicable à votre retour.Avant d’autoriser votre absence hors Canada, votre gestionnaire doit évaluer les répercussions qu’aura votre isolement lors de votre retour. Il est en droit de refuser votre demande s’il juge que les conséquences peuvent affecter l’offre de service de votre équipe."
@@ -303,10 +453,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "14. Vous habitez avec une personne asymptomatique qui revient de voyage et qui est mise en isolement conformément aux directives du gouvernement. Que faire?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "14. Vous habitez avec une personne asymptomatique qui revient de voyage et qui est mise en isolement conformément aux directives du gouvernement. Que faire?",
         "plaintext": [
             "Votre gestionnaire évaluera la possibilité de permettre le télétravail ou de vous accorder un congé.Dans le cas contraire, vous devez vous présenter au travail.Si vous refusez de vous conformer aux règles, vous vous exposez à des mesures administratives ou disciplinaires."
@@ -315,10 +471,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "15. Vous avez des symptômes de rhume ou de grippe, mais n’êtes pas à risque, selon l’Agence de santé publique du Canada. À quoi pouvez-vous vous attendre?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "15. Vous avez des symptômes de rhume ou de grippe, mais n’êtes pas à risque, selon l’Agence de santé publique du Canada. À quoi pouvez-vous vous attendre?",
         "plaintext": [
             "Votre gestionnaire pourrait vous questionner, à savoir si vos symptômes sont invalidants.Si tel est le cas, vous serez admissible au régime d’assurance traitement, et les dispositions prévues à votre convention s’appliqueront, et ce, jusqu’à la fin de vos symptômes.Vous devrez faire un suivi médical approprié pour vous assurer que vos symptômes ne sont pas liés à la COVID-19 et vous référer aux questions 2 et 3, si nécessaire.Si les symptômes ne sont pas invalidants :Votre gestionnaire évaluera la possibilité de permettre le télétravail ou de vous accorder un congé.",
@@ -329,10 +491,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "16. Pouvez-vous refuser de servir un client qui semble avoir des symptômes s’apparentant à la COVID-19?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "16. Pouvez-vous refuser de servir un client qui semble avoir des symptômes s’apparentant à la COVID-19?",
         "plaintext": [
             "Il vous est plutôt demandé de suivre les recommandations de l’Agence de santé publique du Canada , par exemple de maintenir une distance appropriée entre vous et le client (distance idéale de deux mètres) et d’appliquer les mesures d’hygiène suggérées."
@@ -341,10 +509,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "17. Vous êtes une personne considérée vulnérable, c’est-à-dire âgée de 70 ans ou plus, immunosupprimée ou atteinte d’une maladie chronique ? Que faire ?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "17. Vous êtes une personne considérée vulnérable, c’est-à-dire âgée de 70 ans ou plus, immunosupprimée ou atteinte d’une maladie chronique ? Que faire ?",
         "plaintext": [
             "Vous devez rester chez vous.Favorisez le télétravail.S’il est impossible d’effectuer vos tâches de cette façon, évaluez la possibilité de réaliser, en télétravail, toutes autres tâches pour lesquelles vous avez les qualifications.Si le maintien de toute prestation de service en mode télétravail est impossible, votre traitement est maintenu."
@@ -353,10 +527,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "18. Votre conjoint, l’enfant ou un membre de la famille habitant sous votre toit est considéré vulnérable (70 ans ou plus, immunosupprimée ou ayant une maladie chronique). Que faire ?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "18. Votre conjoint, l’enfant ou un membre de la famille habitant sous votre toit est considéré vulnérable (70 ans ou plus, immunosupprimée ou ayant une maladie chronique). Que faire ?",
         "plaintext": [
             "Vous devez rester chez vous.Favorisez le télétravail.S’il est impossible d’effectuer vos tâches de cette façon, évaluez la possibilité de réaliser, en télétravail, toutes autres tâches pour lesquelles vous avez les qualifications.Si le maintien de toute prestation de service en mode télétravail est impossible, votre traitement est maintenu."
@@ -365,10 +545,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "19. Est-ce qu’il existe une liste des maladies chroniques ou immunosuppressives considérées dans cette directive?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "19. Est-ce qu’il existe une liste des maladies chroniques ou immunosuppressives considérées dans cette directive?",
         "plaintext": [
             "Pour l’instant, aucune liste n’a été établie.Discutez de votre situation avec votre gestionnaire qui, après l’analyse de votre situation particulière, pourrait considérer la personne concernée comme ayant une situation semblable à celle évoquée à la question 18. "
@@ -377,10 +563,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "20.Vous voulez vous absenter pour prendre soin de votre enfant, de celui de votre conjoint ou de toute autre personne pour laquelle vous devez assumer une responsabilité familiale qui, dans le contexte, a besoin de la présence d’une personne responsable?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "20.Vous voulez vous absenter pour prendre soin de votre enfant, de celui de votre conjoint ou de toute autre personne pour laquelle vous devez assumer une responsabilité familiale qui, dans le contexte, a besoin de la présence d’une personne responsable?",
         "plaintext": [
             "Vous devez prendre les moyens raisonnables pour éviter de vous absenter. Il est cependant interdit, dans le contexte, d’accepter la présence des enfants dans le milieu de travail.Si vous devez vous absenter :Votre traitement est maintenu ;Favoriser le télétravail ;S’il est impossible d’effectuer vos tâches de cette façon, évaluez la possibilité de réaliser, en télétravail, toutes autres tâches pour lesquelles vous avez les qualifications.Un seul parent peut s’absenter pour assurer la sécurité de la personne.Si le maintien de toute prestation de service en mode télétravail s’avère impossible, le traitement est maintenu.Concernant les ressources externes (consultants), s’ils doivent s’absenter pour assurer la sécurité de leur enfant, c’est à la charge de leur employeur."
@@ -389,10 +581,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "21. En isolement ou en télétravail, pouvez-vous utiliser vos équipements technologiques personnels ?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "21. En isolement ou en télétravail, pouvez-vous utiliser vos équipements technologiques personnels ?",
         "plaintext": [
             "Pour toute question, le gestionnaire doit se référer au dirigeant de l’information de son organisation."
@@ -401,10 +599,16 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     },
     "22.Comment effectuer un suivi des absences dans SAGIR?": {
+        "nested_title": [
+            "Coronavirus (COVID-19) – Information pour le personnel de la fonction publique",
+            "",
+            "",
+            ""
+        ],
         "title": "22.Comment effectuer un suivi des absences dans SAGIR?",
         "plaintext": [
             "Un nouveau code d’absence sera accessible pour tous les employés qui reçoivent leur rémunération par le système de paie SAGIR (aucune exception/condition particulière n’est requise)."
@@ -413,7 +617,7 @@
         "url": "https://www.quebec.ca/gouv/covid19-fonction-publique/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "faq"
     }
 }

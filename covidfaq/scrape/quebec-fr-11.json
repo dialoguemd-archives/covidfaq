@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
     "Accouchements": {
+        "nested_title": [
+            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
+            "Accouchements",
+            "",
+            ""
+        ],
         "title": "Accouchements",
         "plaintext": [
             "À l’heure actuelle, les femmes enceintes peuvent être accompagnées par une personne qui leur est chère pour leur accouchement dans les hôpitaux du Québec. Certaines mesures particulières peuvent toutefois être prises par les centres hospitaliers, comme c’est le cas présentement à l’Hôpital général juif de Montréal. Pour obtenir plus d’information à cet effet, les femmes enceintes peuvent contacter leur centre hospitalier."
@@ -9,10 +15,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Recommandations": {
+        "nested_title": [
+            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
+            "Recommandations",
+            "",
+            ""
+        ],
         "title": "Recommandations",
         "plaintext": [
             "Pour les femmes enceintes, les mesures de prévention s’appliquent comme pour la population générale.",
@@ -23,10 +35,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Programme Pour une maternité sans danger": {
+        "nested_title": [
+            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
+            "Programme Pour une maternité sans danger",
+            "",
+            ""
+        ],
         "title": "Programme Pour une maternité sans danger",
         "plaintext": [
             "Au Québec, la travailleuse enceinte ou qui allaite peut se prévaloir d’une affectation préventive dans le cadre programme Pour une maternité sans danger . Des recommandations spécifiques ont été émises pour les femmes enceintes travaillant dans les milieux de soins incluant les cliniques médicales. Ce ne sont pas toutes les travailleuses enceintes qui ont besoin d’être en affectation préventive."
@@ -35,10 +53,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "À consulter aussi": {
+        "nested_title": [
+            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
+            "À consulter aussi",
+            "",
+            ""
+        ],
         "title": "À consulter aussi",
         "plaintext": [
             "La maladie à coronavirus (COVID-19) au Québec",
@@ -51,10 +75,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Évaluation de page": {
+        "nested_title": [
+            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
+            "Évaluation de page",
+            "",
+            ""
+        ],
         "title": "Évaluation de page",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -64,10 +94,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
+        "nested_title": [
+            "Informations pour les femmes enceintes – coronavirus (COVID-19)",
+            "Évaluation de page",
+            "Des questions ou besoin de renseignements?",
+            ""
+        ],
         "title": "Des questions ou besoin de renseignements?",
         "plaintext": [
             "Des questions ou besoin de renseignements?",
@@ -77,7 +113,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-femmes-enceintes-coronavirus-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }

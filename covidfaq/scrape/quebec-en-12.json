@@ -1,6 +1,12 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
     "Recommendations": {
+        "nested_title": [
+            "Information for parents of children age 0 to 17 – coronavirus (COVID-19)",
+            "Recommendations",
+            "",
+            ""
+        ],
         "title": "Recommendations",
         "plaintext": [
             "Preventive measures that apply to the general public also apply to children.",
@@ -14,10 +20,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Related": {
+        "nested_title": [
+            "Information for parents of children age 0 to 17 – coronavirus (COVID-19)",
+            "Related",
+            "",
+            ""
+        ],
         "title": "Related",
         "plaintext": [
             "Coronavirus disease (COVID-19) in Québec",
@@ -31,10 +43,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "Comments": {
+        "nested_title": [
+            "Information for parents of children age 0 to 17 – coronavirus (COVID-19)",
+            "Comments",
+            "",
+            ""
+        ],
         "title": "Comments",
         "plaintext": [
             "You have questions or require additional information?",
@@ -44,10 +62,16 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     },
     "You have questions or require additional information?": {
+        "nested_title": [
+            "Information for parents of children age 0 to 17 – coronavirus (COVID-19)",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
         "title": "You have questions or require additional information?",
         "plaintext": [
             "You have questions or require additional information?",
@@ -57,7 +81,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-14 17:02:02.375887",
+        "time": "2020-04-16 09:21:52.764027",
         "type": "section"
     }
 }
