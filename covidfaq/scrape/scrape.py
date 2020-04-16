@@ -178,9 +178,11 @@ def extract_sections(url, info, cfg, translated=False):
 
 
 
-def run(sites, outdir, formatting='old', site=None):
+def run(yaml_filename, outdir, formatting='old', site=None):
     """Scrape websites for information."""
 
+    with open(yaml_filename, 'r') as stream:
+        sites = load(stream, Loader=yaml.FullLoader)
     now = str(datetime.now())
 
     results = []
@@ -233,7 +235,5 @@ if __name__ == "__main__":
     parser.add_argument("--sites", help="list of sites to scrape", required=True)
     parser.add_argument("--outdir", help="where to save scrapes", default='covidfaq/scrape')
     args = parser.parse_args()
-    with open(args.sites, 'r') as stream:
-        sites = load(stream, Loader=yaml.FullLoader)
 
-    run(sites, args.outdir)
+    run(args.sites, args.outdir)
