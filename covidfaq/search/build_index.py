@@ -22,76 +22,51 @@ assert scrape_path[-1] == "/"
 
 doc_url_key = "document_URL"
 
-en_doc_index = "en-covid-document-index"
 en_sec_index = "en-covid-section-index"
-fr_doc_index = "fr-covid-document-index"
 fr_sec_index = "fr-covid-section-index"
 
 ################################
 
 
 def create_index(es):
-    es.indices.create(index=en_doc_index, ignore=400)
     es.indices.create(index=en_sec_index, ignore=400)
-    es.indices.create(index=fr_doc_index, ignore=400)
     es.indices.create(index=fr_sec_index, ignore=400)
 
 
 def delete_index(es):
-    es.indices.delete(index=en_doc_index, ignore=[400, 404])
     es.indices.delete(index=en_sec_index, ignore=[400, 404])
-    es.indices.delete(index=fr_doc_index, ignore=[400, 404])
     es.indices.delete(index=fr_sec_index, ignore=[400, 404])
 
 
-def fill_index(es, files, docindex, secindex):
+def fill_index(es, files, secindex):
 
-    c_d = 0
     c_s = 0
     for file_ in tqdm(files):
         with open(file_, "r", encoding="utf-8") as f:
             json_file = json.load(f)
-            content = {
-                j: {k: json_file[j][k] for k in json_file[j] if k in ["plaintext"]}
-                for j in json_file
-                if j != doc_url_key
-            }
-            doc = {
-                "content": json.dumps(content),
-                "file_name": file_,
-                "url": json_file[doc_url_key],
-            }
-            tmp = es.index(docindex, doc, id=file_)
-            c_d += tmp["_shards"]["successful"]
-            c = 1
-            for sec in json_file:
+            for idx, sec in enumerate(json_file):
                 if sec == doc_url_key:
                     continue
                 rec = {
-                    "section": sec,
+                    "section": json_files[sec]["title"],
                     "content": json_file[sec]["plaintext"],
+                    "headers": json_file[sec]["nested_title"],
                     "file_name": file_,
                     "url": json_file[sec]["url"],
                 }
-                tmp = es.index(secindex, rec, id=file_ + "_section_" + str(c))
+                tmp = es.index(secindex, rec, id=file_ + "_section_" + str(idx))
                 c_s += tmp["_shards"]["successful"]
-                c += 1
     log.info(
-        "Inserted/Updated documents and sections",
-        docindex=docindex,
+        "Inserted/Updated sections",
         secindex=secindex,
-        c_d=c_d,
         c_s=c_s,
     )
 
-    es.indices.refresh(index=docindex)
     es.indices.refresh(index=secindex)
 
     log.info(
-        "Total documents and sections",
-        docindex=docindex,
+        "Total sections",
         secindex=secindex,
-        c_d=es.cat.count(docindex, params={"format": "json"})[0]["count"],
         c_s=es.cat.count(secindex, params={"format": "json"})[0]["count"],
     )
 
@@ -123,8 +98,8 @@ def run():
     enfiles = [scrape_path + f for f in jsonfiles if re.search(r"-en-.*\.json$", f)]
     frfiles = [scrape_path + f for f in jsonfiles if re.search(r"-fr-.*\.json$", f)]
 
-    fill_index(es, enfiles, en_doc_index, en_sec_index)
-    fill_index(es, frfiles, fr_doc_index, fr_sec_index)
+    fill_index(es, enfiles, en_sec_index)
+    fill_index(es, frfiles, fr_sec_index)
 
 
 if __name__ == "__main__":

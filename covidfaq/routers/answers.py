@@ -45,7 +45,7 @@ def answers(request: Request, question: str, topk_es: int = None):
         topk_es = 5
 
     elastic_results = query_question(
-        es, question, topk_sec=topk_es, topk_doc=topk_es, lan=formatted_language
+        es, question, topk_sec=topk_es, lan=formatted_language
     )
 
     log.info(
