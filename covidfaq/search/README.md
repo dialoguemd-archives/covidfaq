@@ -10,7 +10,7 @@ Next, set your environment variables so ES runs locally (it will ping the dev se
 
 Next, scrape websites and build the index using:
 
-`poetry run scripts/scraper.py`
+`poetry run python scripts/scraper.py`
 
 You should now be able to ping ES locally. 
 You can use `covidfaq/search/search_index.py` as a reference to ping ES for some sample answers to questions.
