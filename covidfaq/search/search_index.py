@@ -38,7 +38,10 @@ def search_section_index(es, index, query, topk):
     res = es.search(
         {
             "query": {
-                "multi_match": {"query": query, "fields": ["section", "content"]}
+                "multi_match": {
+                    "query": query,
+                    "fields": ["title", "plaintext", "nested_title"],
+                }
             },
             "size": topk,
         },
@@ -73,14 +76,10 @@ def query_question(es, q, topk_sec=1, lan=None):
         lan = detect_language(q)
 
     if lan == "en":
-        res_sec_txt = helper(
-            es, q, topk_sec, en_sec_index
-        )
+        res_sec_txt = helper(es, q, topk_sec, en_sec_index)
         return formatter(res_sec_txt)
     else:
-        res_sec_txt = helper(
-            es, q, topk_sec, fr_sec_index
-        )
+        res_sec_txt = helper(es, q, topk_sec, fr_sec_index)
         return formatter(res_sec_txt)
 
 
