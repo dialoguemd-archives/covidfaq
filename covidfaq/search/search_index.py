@@ -10,7 +10,14 @@ from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
-from .build_index import en_doc_index, en_sec_index, fr_doc_index, fr_sec_index
+from covidfaq.search.build_index import (
+    en_doc_index,
+    en_sec_index,
+    fr_doc_index,
+    fr_sec_index,
+    get_es_hostname,
+    get_es_port,
+)
 
 log = structlog.get_logger(__name__)
 
@@ -103,11 +110,19 @@ def query_question(es, q, topk_sec=1, topk_doc=1, lan=None):
 
 if __name__ == "__main__":
 
-    es = Elasticsearch(
-        [{"host": "es-covidfaq.dev.dialoguecorp.com", "port": 443}],
-        use_ssl=True,
-        verify_certs=True,
-    )
+    from covidfaq.routers.answers import SecResults, ElasticResults
+
+    host = get_es_hostname()
+    port = get_es_port()
+
+    log.info("ElasticSearch server details: ", port=port, host=host)
+
+    if host == "localhost":
+        es = Elasticsearch([{"host": host, "port": port}],)
+    else:
+        es = Elasticsearch(
+            [{"host": host, "port": port}], use_ssl=True, verify_certs=True,
+        )
     if not es.ping():
         raise ValueError(
             "Connection failed, please start server at localhost:9200 (default)"
@@ -121,11 +136,16 @@ if __name__ == "__main__":
         if not isinstance(q, str):
             continue
 
-        record = {}
+        elastic_results = query_question(es, q)
+        if elastic_results:
+            elastic_results_formatted = ElasticResults.parse_obj(elastic_results)
+            if elastic_results_formatted.sec_results:
 
-        answer = query_question(es, q)
-
-        res_doc = answer.get("doc_url")
-        res_sec = answer.get("sec_url")
-
-        log.info("question_parsed", question=q, res_doc=res_doc, res_sec=res_sec)
+                # List of all top answers, note that it can be less than topk_sec, but no more than topk_sec
+                top_answers = [
+                    SecResults.parse_obj(
+                        elastic_results_formatted.sec_results[ii]
+                    ).sec_text
+                    for ii in range(len(elastic_results_formatted.sec_results))
+                ]
+                top_answer = top_answers[0]
