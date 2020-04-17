@@ -25,6 +25,8 @@ rasax:
       operator: "Exists"
 
 nginx:
+  service:
+    type: NodePort
   nodeSelector:
     "dialoguecorp.com/covidbot": "true"
   tolerations:
