@@ -48,9 +48,9 @@ def fill_index(es, files, secindex):
                 if sec == doc_url_key:
                     continue
                 rec = {
-                    "section": json_files[sec]["title"],
-                    "content": json_file[sec]["plaintext"],
-                    "headers": json_file[sec]["nested_title"],
+                    "section": json_file[sec].get("title", sec),
+                    "content": json_file[sec].get("plaintext"),
+                    "headers": json_file[sec].get("nested_title"),
                     "file_name": file_,
                     "url": json_file[sec]["url"],
                 }
