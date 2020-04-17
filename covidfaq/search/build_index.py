@@ -57,9 +57,7 @@ def fill_index(es, files, secindex):
                 tmp = es.index(secindex, rec, id=file_ + "_section_" + str(idx))
                 c_s += tmp["_shards"]["successful"]
     log.info(
-        "Inserted/Updated sections",
-        secindex=secindex,
-        c_s=c_s,
+        "Inserted/Updated sections", secindex=secindex, c_s=c_s,
     )
 
     es.indices.refresh(index=secindex)
