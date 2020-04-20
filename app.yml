@@ -10,9 +10,6 @@ healthcheck:
 public:
   ingress: true
 
-addons:
-  monitoring: true
-
 scale:
   vertical: x-large.mem
   horizontal: 2-4

@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import json
-
 import pandas as pd
 import spacy
 import structlog
@@ -11,9 +9,7 @@ from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
 from covidfaq.search.build_index import (
-    en_doc_index,
     en_sec_index,
-    fr_doc_index,
     fr_sec_index,
     get_es_hostname,
     get_es_port,
@@ -36,16 +32,14 @@ def detect_language(text):
     return nlp(text)._.language["language"]
 
 
-def search_document_index(es, index, query, topk):
-    res = es.search({"query": {"match": {"content": query}}, "size": topk}, index=index)
-    return res
-
-
 def search_section_index(es, index, query, topk):
     res = es.search(
         {
             "query": {
-                "multi_match": {"query": query, "fields": ["section", "content"]}
+                "multi_match": {
+                    "query": query,
+                    "fields": ["title", "plaintext", "nested_title"],
+                }
             },
             "size": topk,
         },
@@ -54,19 +48,15 @@ def search_section_index(es, index, query, topk):
     return res
 
 
-def helper(es, q, topk_doc, topk_sec, docindex, secindex):
-    res_doc_txt = None
+def helper(es, q, topk_sec, secindex):
     res_sec_txt = None
-    res_doc = search_document_index(es, docindex, q, topk_doc)["hits"]["hits"]
-    if len(res_doc):
-        res_doc_txt = [doc["_source"] for doc in res_doc]
     res_sec = search_section_index(es, secindex, q, topk_sec)["hits"]["hits"]
     if len(res_sec):
         res_sec_txt = [sec["_source"] for sec in res_sec]
-    return res_doc_txt, res_sec_txt
+    return res_sec_txt
 
 
-def formatter(res_doc_txt, res_sec_txt):
+def formatter(res_sec_txt):
     formatted_data = {}
     if res_sec_txt:
         res_sec_list = []
@@ -76,36 +66,19 @@ def formatter(res_doc_txt, res_sec_txt):
             formatted_sec["sec_url"] = sec.get("url")
             res_sec_list.append(formatted_sec)
         formatted_data["sec_results"] = res_sec_list
-    if res_doc_txt:
-        res_doc_list = []
-        for doc in res_doc_txt:
-            doc_text = []
-            formatted_doc = {}
-            for topic in json.loads(doc.get("content")).keys():
-                doc_text.extend(
-                    json.loads(doc.get("content")).get(topic).get("plaintext")
-                )
-            formatted_doc["doc_url"] = doc.get("url")
-            formatted_doc["doc_text"] = doc_text
-            res_doc_list.append(formatted_doc)
-        formatted_data["doc_results"] = res_doc_list
     return formatted_data
 
 
-def query_question(es, q, topk_sec=1, topk_doc=1, lan=None):
+def query_question(es, q, topk_sec=1, lan=None):
     if not lan:
         lan = detect_language(q)
 
     if lan == "en":
-        res_doc_txt, res_sec_txt = helper(
-            es, q, topk_doc, topk_sec, en_doc_index, en_sec_index
-        )
-        return formatter(res_doc_txt, res_sec_txt)
+        res_sec_txt = helper(es, q, topk_sec, en_sec_index)
+        return formatter(res_sec_txt)
     else:
-        res_doc_txt, res_sec_txt = helper(
-            es, q, topk_doc, topk_sec, fr_doc_index, fr_sec_index
-        )
-        return formatter(res_doc_txt, res_sec_txt)
+        res_sec_txt = helper(es, q, topk_sec, fr_sec_index)
+        return formatter(res_sec_txt)
 
 
 if __name__ == "__main__":
