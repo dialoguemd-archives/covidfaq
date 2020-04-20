@@ -1,3 +1,0 @@
-[submodule "experiments"]
-	path = experiments
-	url = git@192.168.1.146:sunanda/covid19.git
