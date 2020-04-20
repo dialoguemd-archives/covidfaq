@@ -17,7 +17,7 @@ The way I analyse clusters -
     50%       8.000000
     75%      14.500000
     ```
-The reason for this is to get closely knit clusters to see which questions are clustered together and probably why. "Why" can help determine the rules for the next step.  
+    The reason for this is to get closely knit clusters to see which questions are clustered together and probably why. "Why" can help determine the rules for the next step.  
 2. Create rules that can separate out the major clusters from the step #1. Check the rules.  
 3. Repeat the step #1 and #2 on the unclustered to observe the patterns, while lowering the distance threshold.
 
