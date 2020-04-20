@@ -1,0 +1,687 @@
+,timestamp_est,anonymous_id,language,question,detected_lang,symptom,about,cases,incubation,infection,nextsteps,test,total,cluster,can,hospital,isolation
+1,2020-03-21 22:41:05.702,7a8ef480-4e63-429e-b7ff-4763ad47cfe2,pt,When should I go to the hospital,en,0,0,0,0,0,0,0,1,hospital,0,1,0
+2,2020-03-22 20:44:40.577,b3923f7c-ea90-4af2-94c5-5ee8736975fd,ko,I think I have a fever What do I do,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+4,2020-03-22 11:24:07.614,7977f4b9-e495-45f7-a5ca-841359f618ac,es,What s covid19,en,0,1,0,0,0,0,0,1,about,0,0,0
+5,2020-03-22 16:34:39.551,4b388591-5ea5-401f-b387-9a4e6be70a91,pt,Does the virus spread by rain,en,0,0,0,0,0,0,0,0,,0,0,0
+7,2020-03-22 18:37:45.23,f2db6c52-2c2a-4b9d-bc14-c5e71263788d,es,What are the synthoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+8,2020-03-21 23:43:37.95,ad758027-60ef-4316-974a-6856cdf18b7b,zh,what is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+10,2020-03-23 08:35:41.274,fb8c308a-e920-42c9-86e1-4549263409fd,es,What mesures needs to take a pregnant women to reduce the risk,en,0,0,0,0,0,0,0,0,,0,0,0
+11,2020-03-23 03:26:43.086,d1c57c03-08b8-48d1-ac72-767b54ab1797,zh,Do you think Taiwan is good,en,0,0,0,0,0,0,0,0,,0,0,0
+12,2020-03-22 09:18:50.348,bcd29986-5e46-441c-921c-061ee2623526,es,How s the shortness of breath,en,0,0,0,0,0,0,0,0,,0,0,0
+13,2020-03-21 22:41:05.632,7a8ef480-4e63-429e-b7ff-4763ad47cfe2,pt,How do I know if I haver coronavirus,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+14,2020-03-22 01:00:35.045,b8ba88da-151b-4d8a-a573-738feccd7008,es,covid19 symptons,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+15,2020-03-21 16:38:20.457,d2bf053f-2512-4f30-aab6-cf74894dc3c2,it,Is the Asymptomatic Carrier a temporary status,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+18,2020-03-22 23:25:50.815,838b0278-0b8e-4e9c-919d-500676aa9362,ru,What is it,en,0,0,0,0,0,0,0,0,,0,0,0
+19,2020-03-22 18:12:15.255,95a344d0-0b90-4d40-bcec-ff414c0011bb,pl,How to avoid exposure,en,0,0,0,0,0,0,0,0,,0,0,0
+23,2020-03-22 00:20:18.787,91c3514c-e3f6-43cd-beae-fb8cdcde4365,vi,What is Covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+25,2020-03-22 11:34:31.975,616e3fe0-cace-40fc-b66d-be3d4e3e8f69,es,What is the covid,en,0,1,0,0,0,0,0,1,about,0,0,0
+26,2020-03-22 14:31:25.652,0b6c858e-1625-474b-991c-b4d20f11cec1,pt,What is the impact that covid 19 has in the economy,en,0,1,0,0,0,0,0,1,about,0,0,0
+27,2020-03-22 06:05:35.159,f82b7385-b640-4e24-ad47-47188da99a82,vi,Which country infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+29,2020-03-22 04:09:06.973,9dd21188-850f-4556-a89e-a11d4f6563b6,es,What is covid,en,0,1,0,0,0,0,0,1,about,0,0,0
+45,2020-03-23 05:23:45.594,ff36e21c-f99a-4015-8fa0-bf1e7cceb028,es,What is the COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+48,2020-03-22 13:11:45.491,58b49517-abdc-4c17-9398-0359753a23ec,ko,South korea,en,0,0,0,0,0,0,0,0,,0,0,0
+61,2020-03-22 15:15:16.422,e90e8f0c-f73b-4fe1-9fcb-bed2f01dacb1,ro,How many people have dies,en,0,0,0,0,0,0,0,0,,0,0,0
+83,2020-03-22 12:52:26.493,e84cb4b5-9e76-41f5-8c2a-04c6413dd1fd,fr,What is coronavirus,en,0,1,0,0,0,0,0,1,about,0,0,0
+111,2020-03-21 23:21:56.733,8e750805-9fc2-4702-a244-0b7e67cf29ad,vi,What is,en,0,0,0,0,0,0,0,0,,0,0,0
+118,2020-03-23 13:10:54.162,c25acb81-1f1a-4f2e-ae29-9216bbd03c22,fr,Will the heat of the summer help fighting the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+123,2020-03-22 09:45:57.944,90055b1e-cd4c-43aa-8914-1b8b2a531841,fr,Do we see a future where this virus won t be such a threat anymore,en,0,0,0,0,0,0,0,0,,0,0,0
+129,2020-03-23 17:27:35.466,9d9a6c0f-5138-4d85-8b41-7f9239c14bb4,es,Do the virus stay in air,en,0,0,0,0,0,0,0,0,,0,0,0
+136,2020-03-21 23:34:33.27,a26511f8-07a7-4e76-a246-c4c22f5f7f04,fr,Non,en,0,0,0,0,0,0,0,0,,0,0,0
+143,2020-03-23 05:30:04.724,d46d22ae-35bb-42f7-a712-ec587b1ef363,fi,what are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+149,2020-03-23 05:28:46.341,d01635c9-e732-4ea4-a721-a4e4dd447617,en,what are the syptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+154,2020-03-22 13:11:45.572,58b49517-abdc-4c17-9398-0359753a23ec,ko,How many infected person in south korea,en,0,0,0,0,1,0,0,1,infection,0,0,0
+155,2020-03-22 18:12:15.188,95a344d0-0b90-4d40-bcec-ff414c0011bb,pl,What is the incubation time of the virus,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+156,2020-03-22 13:41:43.827,283caf34-28a4-40d1-8e39-344b1843cd33,en,Why Germany has a low death rate,en,0,0,1,0,0,0,0,1,cases,0,0,0
+159,2020-03-22 10:48:17.478,369aaaf4-82db-4e01-85dd-da912c45fa1f,en,I have cough Does that mean I might be infected,en,0,0,0,0,1,1,0,2,nextsteps,0,0,0
+160,2020-03-21 20:56:54.137,a0147f27-050a-456f-9d52-8f4b317ba678,zh,how is going,en,0,0,0,0,0,0,0,0,,0,0,0
+161,2020-03-22 11:54:26.169,6173618c-7291-45d0-8b5c-ca71a8e2e4ff,en,Can the Covid survive in the air,en,0,0,0,0,0,0,0,0,,0,0,0
+162,2020-03-24 00:16:32.216,04d8887f-99ab-4148-a615-cfc89f9917e0,en,Does covid 19 test anonymous,en,0,0,0,0,0,0,1,1,test,0,0,0
+163,2020-03-22 13:33:58.806,1fc3566f-0b50-4b55-a2a6-8448e5fb5d15,en,What kind of medication can I take if I have the virus,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+164,2020-03-21 17:41:30.343,a450d496-8c9b-497f-b19e-b5371abac3f6,en,Will Covid19 go away like the 1918 influenza and SARS did,en,0,0,0,0,0,0,0,0,,0,0,0
+165,2020-03-23 15:07:45.759,253f115d-8fe4-4782-aae2-c247d6da2032,en,Are there still flights within Canada,en,0,0,0,0,0,0,0,0,,0,0,0
+167,2020-03-22 13:27:59.007,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,Is there a vaccine for corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+176,2020-03-23 04:52:23.213,40af037e-f13f-4db3-85cc-3985a144d597,en,I have fever what I should do,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+177,2020-03-21 21:37:13.343,3b9bc929-27fa-40df-ae67-e24ad9a547b6,en,Does a throat feel itchy or really sore and a symptom,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+179,2020-03-23 09:19:32.029,5e6eb356-0de6-4e9b-888c-978692b94fb0,en,Precautions to measure,en,0,0,0,0,0,0,0,0,,0,0,0
+186,2020-03-23 17:00:34.706,eb2e1204-e195-4149-acd8-f717654e9c22,en,How many confirmed cases in Ontario now,en,0,0,1,0,0,0,0,1,cases,0,0,0
+187,2020-03-22 09:50:59.627,4508c214-cc94-4d85-9e93-ac1c77bac593,en,If I m sneezing should I get tested for corona virus,en,0,0,0,0,0,0,1,1,test,0,0,0
+188,2020-03-22 14:51:49.224,9943a63e-5fbb-4bfb-bcbf-a1ea626cddde,en,Are we going to have trouble buying milk,en,0,0,0,0,0,0,0,0,,0,0,0
+189,2020-03-23 08:28:28.928,9db5e060-f3c1-418c-a30f-e67f18eb2ed9,en,What is Covid19,en,0,1,0,0,0,0,0,1,about,0,0,0
+190,2020-03-22 14:26:11.921,5676ef6b-e1c8-4abd-b50e-55644265685f,en,Is headache a symptom of this pandemic,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+194,2020-03-22 12:07:12.342,59a2603a-03eb-4f8f-8422-6fc6eaedbce0,en,How much longer will society need to socially isolate,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+199,2020-03-22 15:40:23.555,dcc33a42-d9fc-4e7b-832e-406610f147a5,en,Is itchy throat sign of covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+201,2020-03-22 05:35:12.909,0767dfda-13f9-4f5b-a57d-7284913a7fb4,en,Where are the testing centers located in Mtl,en,0,0,0,0,0,0,1,1,test,0,0,0
+202,2020-03-19 17:59:25.201,ce80a1dc-7cbd-4922-8b00-b491a17da62e,en,mental health,en,0,0,0,0,0,0,0,0,,0,0,0
+206,2020-03-22 19:53:39.8,9410efa1-ed15-44ed-a9c9-314a8eaf641e,en,When will the treatment be available for this pandemic,en,0,0,0,0,0,0,0,0,,0,0,0
+207,2020-03-22 13:27:59.058,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,which hospital takes the test for covid 19,en,0,0,0,0,0,0,1,1,test,0,0,0
+211,2020-03-22 12:32:08.073,0f13b85e-8a94-43be-90df-10d7cee538d6,en,What is the current situation of COVID 19 infections,en,0,1,0,0,1,0,0,2,infection,0,0,0
+213,2020-03-22 00:10:19.935,165dfaa6-84a9-4f0b-85ed-a217530bd003,en,How does it spread,en,0,0,0,0,0,0,0,0,,0,0,0
+218,2020-03-22 09:35:47.321,13b14987-413a-4d47-8e56-3af43f79db8a,en,How many cases in Quebec,en,0,0,1,0,0,0,0,1,cases,0,0,0
+220,2020-03-22 14:51:49.196,9943a63e-5fbb-4bfb-bcbf-a1ea626cddde,en,What are the symptoms of vivid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+223,2020-03-23 20:23:47.75,5af1b8a0-ab45-4500-98be-16267b9dd9cd,en,How long are you contagious if you have Coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+229,2020-03-22 13:27:59.069,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,when covid 19 is going to stop,en,0,0,0,0,0,0,0,0,,0,0,0
+230,2020-03-23 21:28:34.604,af5a57b6-4ee8-4ef3-a8cb-5c50fc5dcf1d,en,Chlono,en,0,0,0,0,0,0,0,0,,0,0,0
+232,2020-03-22 22:30:37.567,fa54dca2-0441-4927-959c-22aa2935c999,fr,if my tempreture is over 39 can i assume that i have covid 19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+233,2020-03-22 09:19:12.019,9652758a-fdec-4d0e-9df3-7afb387acfda,en,Is the virus infectious during incubation period,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+236,2020-03-23 15:07:45.741,253f115d-8fe4-4782-aae2-c247d6da2032,en,Am I allowed to go for a walk,en,0,0,0,0,0,0,0,0,,0,0,0
+240,2020-03-22 22:41:07.611,cc8d9a63-3ef9-468b-a011-d14d5d227676,en,Where can we find ventilator,en,0,0,0,0,0,0,0,0,,0,0,0
+241,2020-03-22 13:00:55.382,162ca7e2-dcfc-4f8b-9144-a2e80699e6b4,fr,what is the death rate of the new corona virus,en,0,1,1,0,0,0,0,2,cases,0,0,0
+246,2020-03-22 12:24:22.35,88eb9c72-80fe-4a99-9c0b-4902cfb33220,en,As of today can we gather only 2,en,0,0,0,0,0,0,0,0,,0,0,0
+249,2020-03-21 22:14:57.789,4fc18b76-78d2-4527-9e1b-f9681a3c4fe3,en,what are the conditions under which people are most likely to develop complications versus those who won t,en,0,0,0,0,0,0,0,0,,0,0,0
+252,2020-03-23 10:00:42.225,36859b58-afd1-4d34-a5ee-98c2852b30d0,en,may I know what is corona,en,0,1,0,0,0,0,0,1,about,0,0,0
+253,2020-03-23 04:24:57.465,ebbb6325-119b-4b45-9068-d429be20b63d,en,What is a vaccin becoming available,en,0,1,0,0,0,0,0,1,about,0,0,0
+254,2020-03-22 13:38:45.008,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,Will the largest commercial suppliers in the country be urged to provide necessities for each household for delivery We have Sobey s Loblaw Amazon Walmart and Intelcom who do this today but in an unconcerted way,en,0,0,0,0,0,0,0,0,,0,0,0
+256,2020-03-22 13:08:22.331,dc44373e-a58b-452c-a0af-5a6cd4d18442,en,Can I get the virus from a stray cat,en,0,0,0,0,0,0,0,0,,0,0,0
+258,2020-03-22 00:06:37.353,39934ada-d827-4868-8aff-58dcaaf317e7,en,Impact of covid,en,0,0,0,0,0,0,0,0,,0,0,0
+262,2020-03-22 13:38:44.851,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,Will herd immunity be the only means of eradicating COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+276,2020-03-22 16:55:09.281,9ab06c55-9cde-4653-ac4b-923f425adaf0,en,what are the symptoms of COVID 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+280,2020-03-22 13:27:58.893,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,how is covid 19 spread,en,0,0,0,0,0,0,0,0,,0,0,0
+281,2020-03-22 09:45:32.887,93e77e53-231e-452a-888f-19fe67b711a8,en,How can I make the difference between a cold and covid19,en,0,0,0,0,0,0,0,0,,0,0,0
+282,2020-03-22 20:22:37.549,4bacba8b-2680-4b67-bc92-c7034ff4c482,en,Should I star home and even avoid going to the supermarket and drugstore,en,0,0,0,0,0,0,0,0,,0,0,0
+284,2020-03-22 13:09:02.01,efadf5dd-c279-4ad3-9522-7e7fa841941f,en,How does COVID 19 spread,en,0,0,0,0,0,0,0,0,,0,0,0
+289,2020-03-21 15:36:44.629,65485caa-ddf9-4d7e-9988-479f9331cc49,en,How many cases in Montreal,en,0,0,1,0,0,0,0,1,cases,0,0,0
+293,2020-03-23 05:40:53.059,8b377bca-d8b9-4717-832f-9422b632b727,en,What are the symptoms of the covid19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+295,2020-03-21 09:58:36.661,cd7d48a5-e664-4b53-bfc4-0135570a8865,en,How do I treat coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+297,2020-03-21 16:03:27.625,1ec981b1-26fc-4ae7-a416-a8c4bc026179,en,How do people get infected with Coronavirus,en,0,0,0,0,1,0,0,1,infection,0,0,0
+298,2020-03-22 18:00:54.387,06ec8efe-4ca7-4e4a-b37e-032e253d97fc,en,In the U S why has the Defense Production Act not been invoked to allow weekly testing of every single person present in The United States Yes this is on the scale of industrialization of the WW2 era and yes that is exactly what the Defense Production Act is for,en,0,0,0,0,0,0,1,1,test,0,0,0
+299,2020-03-22 19:06:03.095,a245370e-481d-439b-ad2b-d5d10262c63e,en,who is at risk of dying after contracting the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+300,2020-03-23 18:41:12.826,a0abd62a-d530-4d21-bed6-281fc8c1710b,en,Is the test covered in in CIHIP,en,0,0,0,0,0,0,1,1,test,0,0,0
+301,2020-03-22 18:22:29.936,bc8b4606-4450-46f3-b321-f3343666c5e5,en,Will social distancing slow the spread of covid 19,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+303,2020-03-21 19:14:49.917,9973a414-c87b-4aca-ae1a-2b4ea5290674,en,What s the point of asking you questions if you don t have answers,en,0,0,0,0,0,0,0,0,,0,0,0
+306,2020-03-22 20:59:02.646,ed3bf719-672b-4763-9c85-766920a9ae68,en,why is my dick so big,en,0,0,0,0,0,0,0,0,,0,0,0
+308,2020-03-22 11:12:29.231,0ad487b2-a4ae-4137-a487-831f7af8827b,en,Is it true that warm kills Coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+310,2020-03-22 06:57:31.927,61c83b3d-a930-47dc-ab83-5118cee03b84,en,Why are death rates so different across countries,en,0,0,1,0,0,0,0,1,cases,0,0,0
+311,2020-03-22 23:14:24.727,96874ddc-b0a3-4b88-81da-660395818439,en,How does COVID 19 kill its victims,en,0,0,0,0,0,0,0,0,,0,0,0
+316,2020-03-21 17:20:59.195,1c991aeb-b4df-4d84-9595-367d7385e3b6,en,I am 43 What s the chance of my survival if I get covid,en,0,1,0,0,0,0,0,1,about,0,0,0
+321,2020-03-22 10:02:12.715,daaba43f-5775-4b04-a4c5-d63eb2006767,en,Where should I go,en,0,0,0,0,0,0,0,0,,0,0,0
+323,2020-03-22 11:24:07.581,7977f4b9-e495-45f7-a5ca-841359f618ac,es,What s covid19,en,0,1,0,0,0,0,0,1,about,0,0,0
+325,2020-03-22 16:15:14.315,ff98d901-ca76-477f-9b6f-fccacd3ed7d9,zh,Should I wear mask,en,0,0,0,0,0,0,0,0,,0,0,0
+326,2020-03-21 20:27:40.438,9b75dedf-19e7-4eb4-9ffd-5cec8f5752d3,en,What are the most common symptoms of COVID 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+330,2020-03-23 04:40:13.18,da9b2add-7382-4893-bf9d-4ceeb5b899fe,en,Symptoms of corona,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+331,2020-03-22 12:10:58.39,590dfeb1-319c-4489-b97e-f4ab3c88a171,en,I have cold for couple of weeks Have cough over night and regular mucous during day and night Feel a bit hot but not fever that can be feel Sometimes ear pain for infection Some times get stressed on having corona Does any of these symptoms suggest that I have quarantined myself for over 10 days,en,1,0,0,0,1,1,0,3,nextsteps,0,0,0
+336,2020-03-23 19:58:42.776,ea3de551-6dff-488c-83b8-3d096d85f95e,en,where can I help,en,0,0,0,0,0,0,0,0,,0,0,0
+338,2020-03-22 20:23:26.285,7671d78f-dd94-43b2-adc1-7cc74066da67,en,how many people positive result with COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+339,2020-03-21 11:32:09.906,470bcaef-ae5a-45ad-a380-b79ad65d42b8,en,How often should i take my temperature,en,0,0,0,0,0,0,0,0,,0,0,0
+340,2020-03-22 18:38:09.464,352ad638-846c-430b-97b8-83a92a3264dd,en,how many cases are there in Washington state,en,0,0,1,0,0,0,0,1,cases,0,0,0
+342,2020-03-22 11:56:15.742,02909506-2fad-4062-bce6-cb73b87115a9,en,What is the advice surrounding outdoor exercise sport,en,0,0,0,0,0,0,0,0,,0,0,0
+348,2020-03-22 11:56:15.757,02909506-2fad-4062-bce6-cb73b87115a9,en,Will NHS workers be even more isolated because they are exposed to the virus on a daily basis,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+349,2020-03-21 20:56:54.136,a0147f27-050a-456f-9d52-8f4b317ba678,zh,is the grocery open,en,0,0,0,0,0,0,0,0,,0,0,0
+350,2020-03-21 17:39:34.389,83f51718-d521-4b00-9f0e-01e5b2f5d68f,en,Who is at risk,en,0,0,0,0,0,0,0,0,,0,0,0
+351,2020-03-22 14:09:57.984,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,How to protect my family from COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+353,2020-03-21 15:44:24.109,0ad487b2-a4ae-4137-a487-831f7af8827b,en,Is it true that warm kills Coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+354,2020-03-22 11:33:58.608,e0521f0d-4e1b-493b-afdb-b9da4f1b57b1,en,is coughing phlem a symptom,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+356,2020-03-22 10:26:03.022,63e434b5-3732-4fe0-86d4-27c80650676d,zh,what s is COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+357,2020-03-23 10:50:43.007,e48f28d5-ea78-4046-ba58-6eac5127b7a0,en,How many people are infected in Lithuania,en,0,0,0,0,1,0,0,1,infection,0,0,0
+358,2020-03-23 12:15:21.32,8cc248fb-d15f-4ad3-afca-749df995bfd3,en,What are the best food to get good immune,en,0,0,0,0,0,0,0,0,,0,0,0
+359,2020-03-22 19:53:39.741,9410efa1-ed15-44ed-a9c9-314a8eaf641e,en,when is this pandemic going to end,en,0,0,0,0,0,0,0,0,,0,0,0
+360,2020-03-23 13:13:43.585,b649bfc4-8d01-48c2-9722-8cfeb94e6dd3,en,How can I make sure I am buying from grocery is safe from COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+366,2020-03-22 13:59:40.349,44e53980-fe10-4d87-98ae-a7c7873e1edf,en,How long could the virus stay alive on doorknobs traffic signal buttons stair rails,en,0,0,0,0,0,0,0,0,,0,0,0
+372,2020-03-21 14:45:18.753,22acb4b7-fe15-46a8-bff8-109707707762,en,I would like clarifications about the fact that test results don t work if you don t have symptoms That does not seem like a commonality we usually see with tests like this,en,1,0,0,0,0,0,1,2,test,0,0,0
+375,2020-03-21 23:14:22.428,e03f3e0a-a889-43d4-a506-4af32cbee107,en,What are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+377,2020-03-22 19:25:08.124,684292a0-0d18-4d7b-9c5e-3de13b0dd11a,ko,good morning,en,0,0,0,0,0,0,0,0,,0,0,0
+380,2020-03-21 18:43:42.284,138f474a-fffc-4d8a-a448-d2b712ecb499,en,what are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+381,2020-03-22 11:14:44.09,db73fd7b-ca2f-4183-956f-b949e5ba4266,en,I think I have coronavirus should I go to the emergency,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+383,2020-03-22 16:18:27.883,1714860b-df06-4c07-aa5c-031b08b4f70d,en,Is fever the main symptom for vivid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+384,2020-03-21 23:40:51.402,c9fc19e3-b94d-4fc0-be54-2449f256a04d,en,What are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+385,2020-03-21 11:41:51.96,abaf5c73-4246-463f-acdb-8acc5b349dee,en,Where should I be tested,en,0,0,0,0,0,0,1,1,test,0,0,0
+389,2020-03-21 22:41:05.66,7a8ef480-4e63-429e-b7ff-4763ad47cfe2,pt,What are the main synptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+390,2020-03-22 12:48:15.756,0ba1e485-4ea9-47d8-9f76-ee9ed31e920d,en,what is canada s situation right now,en,0,0,0,0,0,0,0,0,,0,0,0
+393,2020-03-23 08:28:21.557,7ed7d294-a7b7-4274-894f-66d929d56bb8,en,How about covid situations,en,0,0,0,0,0,0,0,0,,0,0,0
+394,2020-03-22 04:32:39.853,fbaf1b75-31c8-4652-b6c5-1cd56c78c9eb,en,how to interact with people,en,0,0,0,0,0,0,0,0,,0,0,0
+396,2020-03-22 17:14:34.37,81462647-ac3c-4d40-8efa-e58aaeea78f5,en,Am I infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+413,2020-03-22 11:38:18.234,f909e2a0-26a0-43af-8fa3-ab3a1b32cd00,en,What are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+417,2020-03-21 14:35:52.181,d50f1adb-49c7-42f9-a178-393f2ef34076,en,When should I visit a doctor,en,0,0,0,0,0,0,0,0,,0,0,0
+419,2020-03-22 20:35:22.02,10bd6bb9-f50f-4d65-943a-5b1de75be3df,en,Would it help eradicate viruses immediately if we put in place proper healthcare systems throughout every country rich or poor and to also have enough health professionals worldwide in place who will immediately recognize if there is a contagious virus in their city to eradicate it before it spreads,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+420,2020-03-22 08:21:30.319,bf09701a-4cc6-4649-a947-03a18aaed80d,en,Is it true that COVID 19 can survive up to a few days on hard surfaces,en,0,0,0,0,0,0,0,0,,0,0,0
+422,2020-03-23 09:23:14.826,8b406219-107c-4ebf-a9dd-e924d185ab80,en,Is it safe for seniors to go out for a walk or inside shopping malls which are quite isolated these days,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+428,2020-03-23 14:45:00.241,53da0935-849b-4cb3-b747-3343279d2f80,en,Can COVID 19 stay alive on fresh fruit and vegetables,en,0,0,0,0,0,0,0,0,,0,0,0
+429,2020-03-22 12:49:37.292,0ed83b36-309e-4cb3-9e4f-1c31ce359e61,pt,Hello what happens after corona,en,0,0,0,0,0,0,0,0,,0,0,0
+430,2020-03-22 17:08:08.29,c1e65a8a-7f3c-4c5e-98c3-5507d05f2cdd,en,I have throat,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+432,2020-03-23 22:31:49.042,543dc964-0ddd-4ff9-94bf-423b077981e0,en,I worry for my mental health during quarantine,en,0,0,0,0,0,0,0,0,,0,0,0
+440,2020-03-23 04:57:51.627,3232dfc2-c4a3-4d82-ac94-ea336828aab9,en,I cough is it Covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+447,2020-03-23 22:14:02.984,c11e50a8-99fa-4087-8865-d99594594b0d,en,Symptoms of Covid,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+449,2020-03-23 13:30:08.903,aa8545e8-b6fd-4204-8a1e-4cabf773e094,en,When will the schools reopen,en,0,0,0,0,0,0,0,0,,0,0,0
+451,2020-03-21 16:15:49.274,3eb07cc6-e9a7-40d0-9609-553a07823637,en,What do I do if I suspect I m infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+456,2020-03-21 14:43:01.383,968f3919-1f56-4eca-a8b2-ed64cdffdf79,en,Is it true that you can get the virus again even after you ve recovered,en,0,0,0,0,0,0,0,0,,0,0,0
+461,2020-03-22 01:12:16.1,dab8ab73-7e69-407c-8262-b5a22da25a04,en,I think I m sick,en,0,0,0,0,0,0,0,0,,0,0,0
+464,2020-03-22 11:13:38.184,353f4f5e-d358-4aad-a256-5a93400045ec,en,Will high temperature kill coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+469,2020-03-22 11:59:24.532,3ed2effb-1953-428a-adde-fe0dae015914,en,What if I have cough,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+470,2020-03-23 12:01:37.693,ed1ed805-f0b2-4c92-bbf0-440a3d58e4bc,en,Covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+471,2020-03-22 15:51:20.08,75667228-564b-46ff-86f7-82ba4efd6a0c,en,My father is 80 years and food is delivered to him daily Can food containers and food itself be contaminated by COVID,en,0,0,0,0,0,0,0,0,,0,0,0
+476,2020-03-22 14:26:11.944,5676ef6b-e1c8-4abd-b50e-55644265685f,en,When do I expect to hear back from you,en,0,0,0,0,0,0,0,0,,0,0,0
+478,2020-03-21 16:15:49.313,3eb07cc6-e9a7-40d0-9609-553a07823637,en,Do I need a mask,en,0,0,0,0,0,0,0,0,,0,0,0
+479,2020-03-22 12:53:15.715,e84cb4b5-9e76-41f5-8c2a-04c6413dd1fd,fr,Does Quebec Health Public System have the capacity to fight this COVID 19 outbreak,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+481,2020-03-22 12:35:43.792,95b4de1f-3df5-4e20-a0da-1e1993a7bb77,en,how many people died,en,0,0,1,0,0,0,0,1,cases,0,0,0
+489,2020-03-23 13:55:22.816,4ed719e2-60c9-4498-88d7-aa0bf481ae8e,en,How severe is the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+491,2020-03-22 13:27:58.964,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,how can I prevent to get infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+494,2020-03-22 16:26:19.007,3935f50d-604f-45b2-a14b-23eda2c556a6,en,When will be done,en,0,0,0,0,0,0,0,0,,0,0,0
+495,2020-03-21 02:07:43.819,db5a20f9-6ce4-4c89-9833-f4fa5bb70b98,en,Does temperature has any effect on the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+501,2020-03-22 14:01:47.534,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,what do you know about COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+503,2020-03-22 10:24:27.442,35a8785b-58b8-4043-b31b-60afd2faeb32,en,What is the incubation time of covid 19 by age,en,0,1,0,1,0,0,0,2,incubation,0,0,0
+505,2020-03-21 21:26:33.673,3b58140a-f53e-491f-a3dd-79f0416bab56,en,what are the main symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+512,2020-03-22 14:59:26.286,4f0491c9-bcc3-4ac2-ab92-fff2349511ed,en,Why is Trudeau asleep,en,0,0,0,0,0,0,0,0,,0,0,0
+516,2020-03-23 22:52:35.33,ea0c35cd-949f-4cd9-a1bf-6db97c776cc0,en,Will the groceries shut down,en,0,0,0,0,0,0,0,0,,0,0,0
+520,2020-03-23 17:00:06.41,f6641a31-4118-4710-aad7-7c0f8071c367,en,How is covid transmitted,en,0,0,0,0,0,0,0,0,,0,0,0
+522,2020-03-22 06:46:58.641,9f5a3b2d-e64c-48a0-bcbb-973251c8ad14,en,What is covid,en,0,1,0,0,0,0,0,1,about,0,0,0
+525,2020-03-22 12:37:53.136,823b1c91-8d2a-44a2-9b40-2e904ecdc542,en,Is ACE Inhibitor harmful,en,0,0,0,0,0,0,0,0,,0,0,0
+530,2020-03-21 20:43:52.514,ba043e5a-e24c-49bc-a618-4ad18524d032,fr,Can I go outside,en,0,0,0,0,0,0,0,1,can,1,0,0
+531,2020-03-23 11:40:28.924,f2c35a0b-1566-401d-9186-8a5fa1e7e2b5,en,I heard hydroxychloroquine is a good treatment for COVID 19 Where can I get it,en,0,0,0,0,0,0,0,0,,0,0,0
+534,2020-03-23 10:49:12.312,8a734a0c-55ca-404a-b9c4-c31c95ba78c4,en,Do I need to disinfect things I buy like groceries and supplies,en,0,0,0,0,0,0,0,0,,0,0,0
+536,2020-03-23 12:12:13.436,db468922-6c47-498f-b498-ebc957ae7092,en,should I go to the hospital,en,0,0,0,0,0,0,0,1,hospital,0,1,0
+537,2020-03-21 12:03:39.463,0d1368ad-6269-497a-92be-bef48c314dcd,en,Are research fundings going to be cut as a result of the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+538,2020-03-23 05:00:56.002,e1ca6693-5cd5-4a07-8869-bffa04b32e07,en,What is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+542,2020-03-23 11:58:03.019,3f0ba3be-0884-4acc-a501-59ae99120336,en,Does a mask actually help if I m not sick,en,0,0,0,0,0,0,0,0,,0,0,0
+544,2020-03-23 08:28:21.54,7ed7d294-a7b7-4274-894f-66d929d56bb8,en,What is covid,en,0,1,0,0,0,0,0,1,about,0,0,0
+546,2020-03-21 09:22:36.563,507092f6-fee4-47e3-89a1-39c932ac23ae,en,age wise statistics for covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+547,2020-03-23 02:09:17.809,edca87c0-f788-4e40-a74c-b78860bc95f3,en,Will 1 meter distancing safe,en,0,0,0,0,0,0,0,0,,0,0,0
+550,2020-03-21 12:40:08.923,17a0efa7-9250-48eb-8b2e-32ea3f85abaf,en,Must the fever symptom related to COVID 19 be a continuous fever or is it possible that the fever is short lived,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+553,2020-03-22 14:47:26.536,615a052a-e878-419f-86a8-8a2d0e1c233f,en,How does COVID 19 affect lungs And how do you see this pandemic will impact the world s economy,en,0,0,0,0,0,0,0,0,,0,0,0
+555,2020-03-22 02:08:31.294,7a39c38d-c315-4a22-9563-c4e98a653ac9,fr,Does taking high doses of vitamin C and D help fighting the disease As an immune system booster Is there any study on that,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+556,2020-03-21 21:03:00.692,a57f2090-8fc3-441f-a292-0297d3919fd1,en,How to protect myself on a plane,en,0,0,0,0,0,0,0,0,,0,0,0
+557,2020-03-22 06:54:02.826,7cf63134-49e1-4473-8b14-09502b95d7ea,vi,Is covid very dangerous,en,0,0,0,0,0,0,0,0,,0,0,0
+563,2020-03-23 07:01:03.674,36572d47-44d6-45c6-99a6-b446bdd271a7,en,How can I differ between covid and normal flu,en,0,0,0,0,0,0,0,0,,0,0,0
+564,2020-03-22 13:10:45.373,b35c0693-be4e-4f13-ad1b-d714c6994918,en,Will there be any changes in PGWP,en,0,0,0,0,0,0,0,0,,0,0,0
+567,2020-03-21 19:14:49.91,9973a414-c87b-4aca-ae1a-2b4ea5290674,en,What are the symptoms of SARS COV 2,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+570,2020-03-22 19:39:22.856,b0be5180-0e5f-473f-86f5-d8144876b1ae,en,Do I have to ask a sclerotic question about traveling or something to get an answer,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+572,2020-03-19 14:16:05.351,f264fd4b-de03-4dc0-8531-fa9d0a1b0633,en,I d love to know how long I can be contagious,en,0,0,0,0,0,0,0,0,,0,0,0
+573,2020-03-21 13:39:10.948,d90b7754-a540-47f2-a90c-7cbc35def960,en,what are cov19 symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+576,2020-03-23 06:06:24.495,f1f3e9ed-c400-4bd7-9fb2-83d415e3ec13,en,how to protect myself from it,en,0,0,0,0,0,0,0,0,,0,0,0
+578,2020-03-22 13:27:59.034,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what is canada quarantine policy,en,0,0,0,0,0,0,0,0,,0,0,0
+579,2020-03-21 21:35:22.318,9edf7174-72b7-4dc7-8132-9db0ddf80b5d,en,Covid,en,0,0,0,0,0,0,0,0,,0,0,0
+583,2020-03-22 15:51:20.155,75667228-564b-46ff-86f7-82ba4efd6a0c,en,My sister in law is pregnant and lives in a house with extended family where one member is isolated due to possible contact with someone with COVID 19 Are the risks for pregnant woman Higher How can she protect,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+586,2020-03-23 12:32:11.232,d2f4cdac-66d9-4677-ab98-4063315c9ca8,en,Will the virus affect my sexual ability,en,0,0,0,0,0,0,0,0,,0,0,0
+589,2020-03-22 10:57:07.618,237153d0-5b82-48de-a333-2a20dd5cedd0,en,What have you implemented to help older people who do not know how to use the internet phone to obtain their groceries and medicine,en,0,0,0,0,0,0,0,0,,0,0,0
+590,2020-03-23 08:28:59.961,2d64239a-f451-4838-86fb-35823642e700,en,When will the cure be available,en,0,0,0,0,0,0,0,0,,0,0,0
+592,2020-03-21 16:15:49.283,3eb07cc6-e9a7-40d0-9609-553a07823637,en,Should I go to the ER or my physician directly if I m infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+593,2020-03-22 06:09:09.79,cdd8ce59-c8fd-46f5-96bb-ead47dce4abc,vi,Which country infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+594,2020-03-21 18:19:33.609,a228afbc-c07b-4266-884a-a49171468666,en,what are the main symptoms of coronavirus,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+595,2020-03-21 12:53:58.397,66c7bd79-e62c-428a-adac-f69fb087691c,en,when will the pandemic end,en,0,0,0,0,0,0,0,0,,0,0,0
+599,2020-03-22 12:22:18.089,1bb436b8-0a1f-47fa-8f22-61b727444e2e,en,How deadly is the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+600,2020-03-21 09:45:35.457,fdb9ea21-a2c4-4562-b182-b28ff01f256b,en,How do I know if I have the corona virus,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+603,2020-03-23 17:02:17.333,82161cb9-4de6-4fee-a707-da959233f06e,en,What is COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+607,2020-03-23 20:22:49.151,7dec897c-85c1-48c7-8b6d-1cc9512fe9e2,en,How long before symptoms start to show,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+608,2020-03-22 16:23:01.035,69b5daca-3217-47bf-9eac-efc910db0d77,en,what is this site,en,0,0,0,0,0,0,0,0,,0,0,0
+609,2020-03-22 13:33:13.737,a7fd890a-ead1-4e61-9f43-a1dfedc5e767,en,What is covid,en,0,1,0,0,0,0,0,1,about,0,0,0
+615,2020-03-21 19:33:18.95,d1cd6b3b-f233-4177-b1e0-90381ca24617,en,Is it useful to wear a mask if we are not sick,en,0,0,0,0,0,0,0,0,,0,0,0
+616,2020-03-22 13:27:58.907,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what is social distancing,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+617,2020-03-21 18:17:44.631,ab8bd375-aec4-4fc1-9e01-2b0b2e7d758e,en,How many cases in Montreal,en,0,0,1,0,0,0,0,1,cases,0,0,0
+619,2020-03-22 21:46:40.909,80599841-9130-444d-9128-453781e0d680,es,What is the incubation period for COVID 19,en,0,1,0,1,0,0,0,2,incubation,0,0,0
+621,2020-03-23 11:58:03.025,3f0ba3be-0884-4acc-a501-59ae99120336,en,If I m below the age of 30 will I notice symptoms if I m sick,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+623,2020-03-22 16:49:03.76,d31625ef-010c-4926-b525-2e5ac23e63ec,en,When will this end,en,0,0,0,0,0,0,0,0,,0,0,0
+625,2020-03-23 09:23:14.822,8b406219-107c-4ebf-a9dd-e924d185ab80,en,Are there any federal or provincial services to help senior citizens get grocery safely,en,0,0,0,0,0,0,0,0,,0,0,0
+627,2020-03-22 09:45:57.928,90055b1e-cd4c-43aa-8914-1b8b2a531841,fr,How long do we need social distanciation for the virus to be less of a threat,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+628,2020-03-22 13:44:03.936,3269129f-c2bc-4dfb-a541-27c55450044e,en,how many deaths are in Italy as of March 21,en,0,0,1,0,0,0,0,1,cases,0,0,0
+629,2020-03-23 18:41:12.821,a0abd62a-d530-4d21-bed6-281fc8c1710b,en,I am having sore throat cold cough temperature is not stable continuously increases and decreases So Do I need to go for a test,en,0,0,0,0,0,0,1,1,test,0,0,0
+630,2020-03-22 10:38:20.947,130cb7de-7199-4f4e-8c62-801d11f3f37e,es,Whatbare the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+631,2020-03-21 11:51:21.207,5b925b2f-4861-464c-837c-d8656bedfdcc,en,How long does it last,en,0,0,0,0,0,0,0,0,,0,0,0
+632,2020-03-22 16:13:17.333,39732da4-4dbc-4f38-9fa9-bfb374fb963f,en,How do I know if my chest is hurt because lung damage or another cause,en,0,0,0,0,0,0,0,0,,0,0,0
+633,2020-03-21 11:42:59.473,5fb9b2b2-2fd7-4f6a-811f-b96aaf99b279,en,Is it safe to order food during the COVID 19 pandemic,en,0,0,0,0,0,0,0,0,,0,0,0
+635,2020-03-22 12:44:15.333,1afd94e2-4f37-41d4-9bbb-8b06a9a051e4,en,What should I do,en,0,0,0,0,0,0,0,0,,0,0,0
+639,2020-03-22 01:12:16.112,dab8ab73-7e69-407c-8262-b5a22da25a04,en,How do I know if I have the flu or coronavirus,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+642,2020-03-23 17:03:28.595,db4f4e0b-18a8-4b7a-8d3b-17207bd6da51,en,I feel heaviness in my chest nothing else from last 2 week,en,0,0,0,0,0,0,0,0,,0,0,0
+643,2020-03-22 15:56:03.731,1cbbe05b-737e-4eba-ba3b-b11e565a27cb,en,How many days can you be contagious without showing symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+646,2020-03-22 18:22:29.996,bc8b4606-4450-46f3-b321-f3343666c5e5,en,Can anti viral drugs be used to treat the coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+649,2020-03-23 18:27:39.386,1d8da525-46d8-4536-9c64-e31dda99df00,en,Where is the closest testing facility to me,en,0,0,0,0,0,0,1,1,test,0,0,0
+650,2020-03-19 14:40:42.773,4c2c5c1b-2327-45d5-8c63-901cac28ea30,en,Can I go for a run Does running exercise compromise my immune system,en,1,0,0,0,0,0,0,2,can,1,0,0
+653,2020-03-22 11:53:13.652,f66463e5-5496-4320-97b3-2cffd609a270,en,where did it start,en,0,0,0,0,0,0,0,0,,0,0,0
+654,2020-03-21 23:14:22.422,e03f3e0a-a889-43d4-a506-4af32cbee107,en,How many case in montreal,en,0,0,0,0,0,0,0,0,,0,0,0
+659,2020-03-24 00:24:36.463,88c77c4a-9baa-466b-bc57-34b0f0a6c83f,en,What s the incubation period,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+663,2020-03-22 09:44:37.243,9e54b55c-c933-407a-9b9c-4012632ca387,en,how are you,en,0,0,0,0,0,0,0,0,,0,0,0
+664,2020-03-21 09:58:36.66,cd7d48a5-e664-4b53-bfc4-0135570a8865,en,When will it be ok to go outside,en,0,0,0,0,0,0,0,0,,0,0,0
+666,2020-03-22 12:49:37.435,0ed83b36-309e-4cb3-9e4f-1c31ce359e61,pt,What is the probability of dying,en,0,0,0,0,0,0,0,0,,0,0,0
+669,2020-03-23 05:40:53.009,8b377bca-d8b9-4717-832f-9422b632b727,en,Can you explain to me what is the covid19,en,0,1,0,0,0,0,0,1,about,0,0,0
+674,2020-03-22 11:51:57.551,6f7c9aaf-45e7-4349-bd12-0af2c4e58f9a,vi,how many people in America,en,0,0,0,0,0,0,0,0,,0,0,0
+678,2020-03-22 15:32:22.805,cdb73897-3211-4fca-9946-91ba51af1738,en,How long does it last once infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+679,2020-03-22 13:39:44.267,bf50ad57-d102-4cfc-9249-af751cd960eb,en,Whats corona,en,0,1,0,0,0,0,0,1,about,0,0,0
+680,2020-03-23 09:35:01.785,38d47da7-99a9-46a9-8d52-7fe967121edb,vi,What is the number of Covid19 cases in the wold,en,0,1,1,0,0,0,0,2,cases,0,0,0
+681,2020-03-21 23:29:02.407,ec41dbc0-8a1c-436a-855c-53583f9b34bf,en,How Covid 19 started,en,0,0,0,0,0,0,0,0,,0,0,0
+683,2020-03-22 13:41:43.877,283caf34-28a4-40d1-8e39-344b1843cd33,en,I need to take a blood test Is there a large risk for infection,en,0,0,0,0,1,0,1,2,infection,0,0,0
+687,2020-03-23 15:07:45.746,253f115d-8fe4-4782-aae2-c247d6da2032,en,Are vet clinics still open,en,0,0,0,0,0,0,0,0,,0,0,0
+694,2020-03-22 15:56:03.709,1cbbe05b-737e-4eba-ba3b-b11e565a27cb,en,How many people have it in my town,en,0,0,0,0,0,0,0,0,,0,0,0
+695,2020-03-22 21:05:06.957,6a5ce2c7-e4cb-462a-b0b3-26173e7e22cf,en,How long does the virus live on clothes,en,0,0,0,0,0,0,0,0,,0,0,0
+696,2020-03-21 17:39:34.393,83f51718-d521-4b00-9f0e-01e5b2f5d68f,en,What is the mortality rate,en,0,0,0,0,0,0,0,0,,0,0,0
+700,2020-03-22 09:11:51.104,57ee50ff-753d-4130-868c-032e16fa526d,en,Does COVID 19 cause stomach issues,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+702,2020-03-23 16:19:09.977,89379363-f6e0-48cd-b7e3-d95c974a009b,en,Will it get better in summer with higher temperatures,en,0,0,0,0,0,0,0,0,,0,0,0
+706,2020-03-22 14:22:27.327,295c6bb4-9ed3-47d6-b405-5013ae0bae97,en,What should I do if i think that i m infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+709,2020-03-22 23:14:24.714,96874ddc-b0a3-4b88-81da-660395818439,en,What are the early symptoms of COVID 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+710,2020-03-22 07:54:48.107,57b33f9c-7b7c-4c6d-9722-2698f9e5ec17,en,When should I consult after the vomitting symptoms for a 4 y o child,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+711,2020-03-22 13:09:02.01,efadf5dd-c279-4ad3-9522-7e7fa841941f,en,How does it die in asymptomatic people,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+712,2020-03-23 05:23:45.623,ff36e21c-f99a-4015-8fa0-bf1e7cceb028,es,What is the period of incubation,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+713,2020-03-23 19:31:01.431,cb5dabf4-8e13-41b1-b08d-0581796807f5,en,How do I know if I have the covid 19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+714,2020-03-22 09:55:27.409,ae2c7a92-e8ec-48d4-afce-ecd02536f702,en,What is the incubation period,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+716,2020-03-22 17:47:29.055,092c1833-7388-4ea6-ab81-1ab90d3c337d,fr,Hypertension,en,0,0,0,0,0,0,0,0,,0,0,0
+720,2020-03-24 01:11:14.865,293ecd38-ee35-49c4-aace-267971b6b14e,en,how much does corona virus stay on each kind of surfaces,en,0,0,0,0,0,0,0,0,,0,0,0
+722,2020-03-22 21:56:33.502,f753f60e-53cf-4e33-8acb-f024257b093f,en,Could stores open a few hours a week for the elderly,en,0,0,0,0,0,0,0,0,,0,0,0
+723,2020-03-22 01:27:35.296,a3032e99-ff0f-4481-897e-9d6f66fb784f,en,if i have symptoms should i go to the ER or should I call a doctor,en,1,0,0,0,0,1,0,2,nextsteps,0,0,0
+727,2020-03-22 13:59:40.335,44e53980-fe10-4d87-98ae-a7c7873e1edf,en,How long does the virus stay in paper money and coins,en,0,0,0,0,0,0,0,0,,0,0,0
+728,2020-03-22 12:30:23.268,584b2f48-550f-4537-a49a-874eb246809f,en,How effective is the new drug manufactured by Fujifilm Toyama Chemicals in treating COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+733,2020-03-23 08:43:50.612,be2a9080-aa95-4db5-a92e-d0b5985d86f5,en,Is a cough but no fever a symptom,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+734,2020-03-22 13:38:44.849,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,If I fully recover from COVID 19 would I still be considered a carrier and transmit the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+735,2020-03-22 09:20:34.281,5c7817ec-a9dc-4bf4-af68-c88c3ab4cf67,en,What are the symptoms of Covid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+736,2020-03-22 07:13:26.019,304f700e-8ffc-4274-8439-61d6d34322b9,en,What are the real symptoms of covid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+740,2020-03-22 09:11:51.126,57ee50ff-753d-4130-868c-032e16fa526d,en,How long am I infectious for,en,0,0,0,0,0,0,0,0,,0,0,0
+742,2020-03-22 08:12:33.657,79180b89-beb6-4db6-b8ec-cab972c58bb1,en,Should I take the metro,en,0,0,0,0,0,0,0,0,,0,0,0
+743,2020-03-22 02:08:31.402,7a39c38d-c315-4a22-9563-c4e98a653ac9,fr,Is the virus vulnerable to high temperature Does steam cleaning the surfaces and cloths kills the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+744,2020-03-21 22:20:23.412,26cfe891-6fb7-4104-9560-51b684ad79e8,en,Is it safe to get a new job that deals with the public,en,0,0,0,0,0,0,0,0,,0,0,0
+753,2020-03-22 01:27:35.248,a3032e99-ff0f-4481-897e-9d6f66fb784f,en,is fever a symptom of coronavirus,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+754,2020-03-22 11:52:38.758,14b82f93-ec9b-4064-bf60-19a38c452a05,en,Symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+755,2020-03-22 13:20:11.78,f7d3845d-078d-4e97-928c-fbd7a3b508c8,en,How long until an infected person shows symptoms,en,1,0,0,0,1,0,0,2,infection,0,0,0
+756,2020-03-21 22:55:38.102,71b819ce-1f25-4416-b19c-5878ebf16455,en,I am coughing but I don t have fever Could I have covid 19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+757,2020-03-21 16:35:48.448,461b0490-15e2-4780-a3cf-cc24c5029b2b,en,Can you catch covid 19 after having had it before,en,0,0,0,0,0,0,0,0,,0,0,0
+760,2020-03-22 18:22:30.033,bc8b4606-4450-46f3-b321-f3343666c5e5,en,What are the symptoms of Corona,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+765,2020-03-22 10:51:16.186,9b5ae332-0fdb-4def-a7b9-bfa2a2bf2364,es,How can I protect myself from the covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+767,2020-03-22 13:56:42.626,b4f456a3-243b-4ba6-b09b-ba1f0a7599f3,en,What are the symptoms of covid19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+772,2020-03-22 21:28:20.486,0cfafa09-b4e2-465b-adc2-897b23630b9a,en,who can you do,en,0,0,0,0,0,0,0,0,,0,0,0
+773,2020-03-22 09:45:32.884,93e77e53-231e-452a-888f-19fe67b711a8,en,What are the symptoms of covid19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+775,2020-03-22 09:45:57.914,90055b1e-cd4c-43aa-8914-1b8b2a531841,fr,Can I be contagious even if I don t have symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+776,2020-03-22 03:37:37.562,0d90e6a2-f7f5-4317-afc9-b8a87d4df68d,en,Why is it called Corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+780,2020-03-24 00:16:32.22,04d8887f-99ab-4148-a615-cfc89f9917e0,en,Does my neighbour have covid 19 symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+781,2020-03-23 16:48:53.549,f579a48c-4b42-41a9-b4e3-1fbc08c93c1f,en,How long can the covid 19 survive outside the body,en,0,0,0,0,0,0,0,0,,0,0,0
+789,2020-03-22 09:55:27.585,ae2c7a92-e8ec-48d4-afce-ecd02536f702,en,Has the virus evolved,en,0,0,0,0,0,0,0,0,,0,0,0
+790,2020-03-22 15:54:40.636,040d1404-0a1f-45e0-b4b7-0bc213f66341,en,what is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+797,2020-03-22 11:46:17.208,5101f879-aa2c-4bca-a1d4-7158924a3215,en,How do we best organize people so that duplicate work is not being done,en,0,0,0,0,0,0,0,0,,0,0,0
+798,2020-03-23 11:40:28.912,f2c35a0b-1566-401d-9186-8a5fa1e7e2b5,en,Can this virus infect me in an airborne fashion,en,0,0,0,0,0,0,0,0,,0,0,0
+800,2020-03-22 13:40:18.826,7214a2c5-724d-4dcd-ac85-a78cd2d2fd46,en,Where can I get tested,en,0,0,0,0,0,0,1,1,test,0,0,0
+802,2020-03-22 16:50:40.789,9552da69-8edc-4a5c-b643-c03b5b8c26fe,en,How dangerous it is for pregnant womens,en,0,0,0,0,0,0,0,0,,0,0,0
+809,2020-03-23 20:21:23.836,8367cf83-39f0-4e75-be06-c50ae0a04f82,en,How am I supposed to work while I have two young children at home,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+812,2020-03-23 10:49:12.317,8a734a0c-55ca-404a-b9c4-c31c95ba78c4,en,Where do I go if I have mild symptoms,en,1,0,0,0,0,1,0,2,nextsteps,0,0,0
+813,2020-03-21 23:21:56.634,8e750805-9fc2-4702-a244-0b7e67cf29ad,vi,How many thing you do not understand,en,0,0,0,0,0,0,0,0,,0,0,0
+814,2020-03-22 20:35:21.991,10bd6bb9-f50f-4d65-943a-5b1de75be3df,en,Do we have this epidemic and many more to come because we re not taking care of the earth we re destroying more and more trees and humans are eating more wild animals that have viruses per a talk from Alanna Shaikh,en,0,0,0,0,0,0,0,0,,0,0,0
+815,2020-03-22 21:15:02.568,9a4d12a5-a1f1-410a-8870-a875a5e0b251,en,What shall I do if I have to go out to buy things to protect myself from corona virus,en,0,1,0,0,0,1,0,2,nextsteps,0,0,0
+817,2020-03-23 04:07:59.588,0e63225e-5304-42ba-a67f-9d72e363f156,en,When this will ever end,en,0,0,0,0,0,0,0,0,,0,0,0
+820,2020-03-21 21:28:01.186,f613f0e1-117b-4343-9e77-4fb4b9b168a4,en,waht are thenoptiin to disinfect hands and surfaces other than soap and alcohol,en,0,0,0,0,0,0,0,0,,0,0,0
+821,2020-03-23 11:40:28.886,f2c35a0b-1566-401d-9186-8a5fa1e7e2b5,en,what kind of protective gear do i need to wear,en,0,0,0,0,0,0,0,0,,0,0,0
+822,2020-03-22 20:03:53.169,28914ffd-2639-472a-828a-6352da947b8f,fr,My head hurts my body aches a little and I feel a cold coming How do I know if this is Covid 19 or just an ordinary cold,en,0,0,0,0,0,0,0,0,,0,0,0
+824,2020-03-21 19:10:45.242,76dcbfcb-fbd4-4b7d-a0ad-bfb5c27087f2,en,Where did COVID 19 come from,en,0,0,0,0,0,0,0,0,,0,0,0
+825,2020-03-22 09:35:47.335,13b14987-413a-4d47-8e56-3af43f79db8a,en,Who is most at risk,en,0,0,0,0,0,0,0,0,,0,0,0
+829,2020-03-22 00:57:11.402,e1ea90be-e552-4d26-a067-376d0de0ed20,en,how many people have died in the US,en,0,0,1,0,0,0,0,1,cases,0,0,0
+830,2020-03-22 22:35:25.258,c6c8c28a-b213-4e28-941a-b57f1e4a7db8,es,Symptom,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+835,2020-03-21 21:38:31.936,ed48fde9-b52a-450a-873c-af9d36b3a5dc,en,If I am starting to breath heavily should I get it checked out,en,0,0,0,0,0,0,0,0,,0,0,0
+842,2020-03-21 20:27:40.432,9b75dedf-19e7-4eb4-9ffd-5cec8f5752d3,en,What is COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+844,2020-03-21 21:48:07.401,289f44ad-e5dc-4dcc-8aab-d597c46631c9,en,What is the covid 19 symptoms,en,1,1,0,0,0,0,0,2,symptom,0,0,0
+846,2020-03-22 13:56:42.612,b4f456a3-243b-4ba6-b09b-ba1f0a7599f3,en,What s covid19,en,0,1,0,0,0,0,0,1,about,0,0,0
+849,2020-03-22 15:03:24.233,2e1e637d-fdaa-49be-84df-9bee02ba6abb,en,what are the risks for someone aged 65,en,0,0,0,0,0,0,0,0,,0,0,0
+851,2020-03-22 14:09:57.753,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,What is the origin of COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+854,2020-03-23 16:19:09.957,89379363-f6e0-48cd-b7e3-d95c974a009b,en,What precautions should I take with things delivered at home,en,0,0,0,0,0,0,0,0,,0,0,0
+857,2020-03-23 06:31:54.724,9e72e312-8716-49c2-a5e1-382832278734,en,Option to run the questions for children,en,0,0,0,0,0,0,0,0,,0,0,0
+863,2020-03-22 08:21:05.544,dd5f4300-766c-404b-97bd-80b1b0afb126,en,How long is the treatment,en,0,0,0,0,0,0,0,0,,0,0,0
+865,2020-03-22 13:27:58.95,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,who needs to be isolated,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+868,2020-03-22 14:51:49.214,9943a63e-5fbb-4bfb-bcbf-a1ea626cddde,en,Should I not touch my mail,en,0,0,0,0,0,0,0,0,,0,0,0
+869,2020-03-22 09:55:27.584,ae2c7a92-e8ec-48d4-afce-ecd02536f702,en,Is there a different varient of virus which is spreading across the world,en,0,0,0,0,0,0,0,0,,0,0,0
+871,2020-03-23 09:19:32.001,5e6eb356-0de6-4e9b-888c-978692b94fb0,en,How many patients are across the globe,en,0,0,0,0,0,0,0,0,,0,0,0
+872,2020-03-22 11:45:44.22,a3d22572-8617-4045-916e-0982a9528807,fr,How i know that i m ill,en,0,0,0,0,0,0,0,0,,0,0,0
+876,2020-03-23 22:31:21.903,74791eb5-0f37-46f7-80a4-82f686c14c7c,en,How long does it take to recover,en,0,0,0,0,0,0,0,0,,0,0,0
+880,2020-03-22 20:36:01.535,36d0a626-9e6a-448d-ab35-3997a6393094,en,what is covid 2019,en,0,1,0,0,0,0,0,1,about,0,0,0
+882,2020-03-22 11:50:42.455,6f7c9aaf-45e7-4349-bd12-0af2c4e58f9a,vi,how old are you,en,0,0,0,0,0,0,0,0,,0,0,0
+883,2020-03-22 21:15:02.549,9a4d12a5-a1f1-410a-8870-a875a5e0b251,en,If there are kids around me do I have to worry if they are infected and I do not know,en,0,0,0,0,1,1,0,2,nextsteps,0,0,0
+888,2020-03-23 16:55:40.392,85e7cc80-701e-46e3-9193-c3d74c1987eb,en,Isn t the economy impact and the panic reaction going to kill more than the virus It seems the virus only kills 1 while over 30 of the population might lose their jobs,en,0,0,0,0,0,0,0,0,,0,0,0
+890,2020-03-22 03:12:45.282,c5a8ec79-cd48-4ca2-8854-66347187d566,en,What is the estimated population that will be infected by the covid 19 virus,en,0,1,0,0,1,0,0,2,infection,0,0,0
+892,2020-03-23 12:09:12.409,23c56e61-ac8f-4498-90b9-8c44d93eb624,en,Does the virus stay on clothing,en,0,0,0,0,0,0,0,0,,0,0,0
+895,2020-03-23 14:45:00.237,53da0935-849b-4cb3-b747-3343279d2f80,en,Do I need to stay away from my family members if we re all social distancing together in the house,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+901,2020-03-22 23:40:40.007,f23b8417-8435-4e7f-a675-af511d9fd996,en,Hello I am social distancing and taking precautions however I have to share a communal sink I try to stay as safe as possible by cleaning it but I have touched the knobs with my bare hands without thinking can germs spread this way Should I avoid the sink in general Thank you,en,0,0,0,0,0,1,0,2,nextsteps,0,0,1
+905,2020-03-21 14:17:50.653,a3b6c189-79f6-4af2-af92-db67168e987b,en,I have Hashimoto s hypothyroiditis Am I more at risk I also had a PE due to Fv leiden and oral contraceptives in 2001 what do you recommend I do,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+907,2020-03-22 13:41:43.852,283caf34-28a4-40d1-8e39-344b1843cd33,en,What are effective immunity boosters,en,0,0,0,0,0,0,0,0,,0,0,0
+908,2020-03-23 16:55:40.386,85e7cc80-701e-46e3-9193-c3d74c1987eb,en,What was the total number of deaths before and after the virus,en,0,0,1,0,0,0,0,1,cases,0,0,0
+909,2020-03-23 14:18:41.949,f0cb81fe-90ad-48a7-8e44-04dc1fc523fe,en,What is the current COVID 19 confirmed cases trend for Canada,en,0,1,1,0,0,0,0,2,cases,0,0,0
+912,2020-03-23 11:41:15.672,2f0cdc34-7ec7-4823-9d04-c130a95c460d,en,When should I contact a doctor,en,0,0,0,0,0,0,0,0,,0,0,0
+913,2020-03-22 14:09:57.951,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,What is the nearest hospital to go to if I have a COVID 19,en,0,1,0,0,0,1,0,3,nextsteps,0,1,0
+917,2020-03-22 13:38:44.858,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,Were there documented cases before January 2020,en,0,0,1,0,0,0,0,1,cases,0,0,0
+922,2020-03-22 01:16:41.455,9d8e530d-9af3-4a71-8cf0-87a798fbec78,en,How long does the virus remain active and alive after attacking a human body,en,0,0,0,0,0,0,0,0,,0,0,0
+925,2020-03-22 21:27:43.286,72c24ab5-97c7-4287-be75-2aa71cbdf788,en,Is staying at home mandatory,en,0,0,0,0,0,0,0,0,,0,0,0
+926,2020-03-22 16:12:16.882,e121f604-2c4f-4ebd-be26-914a7b2d2a1a,en,How should I keep my family safe during covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+928,2020-03-23 14:18:41.942,f0cb81fe-90ad-48a7-8e44-04dc1fc523fe,en,How many COVID 19 related deaths have there been in Montreal,en,0,0,1,0,0,0,0,1,cases,0,0,0
+929,2020-03-22 15:33:57.14,093574a7-46d8-4320-9e30-38ba5b008459,en,Can you get be infected more than once,en,0,0,0,0,1,0,0,1,infection,0,0,0
+931,2020-03-23 17:30:17.623,42d34ce8-637f-4d73-94b5-88574e910b39,en,Do i have a covid or is it just a cold,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+941,2020-03-22 10:59:00.515,dea201d2-23b5-46b6-af60-8dd3a419c809,en,What should I do if I start feeling sick with similar symptoms as in covid19,en,1,1,0,0,0,0,0,2,symptom,0,0,0
+946,2020-03-22 14:29:25.022,fad9475f-2db6-4cf2-a318-72f9b99c690a,en,Does everyone infected need a respirator,en,0,0,0,0,1,0,0,1,infection,0,0,0
+950,2020-03-22 09:48:49.897,55d71c8a-35fb-4568-8215-151fc7702c0f,en,What should I do if I have fever,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+951,2020-03-23 17:19:33.455,95b3bca1-4e02-49bf-8eda-e7e65c6282e3,fr,Is it safe to give blood,en,0,0,0,0,0,0,0,0,,0,0,0
+952,2020-03-20 17:02:53.112,a061e1ea-7076-45c7-b063-fe37c9207e8f,en,is covid 19 dangerous,en,0,0,0,0,0,0,0,0,,0,0,0
+953,2020-03-22 18:29:19.484,72a4386d-442e-4d58-b2aa-87a8728c8d04,en,How to differentiate between coronavirus and simple flu,en,0,0,0,0,0,0,0,0,,0,0,0
+954,2020-03-22 20:44:40.582,b3923f7c-ea90-4af2-94c5-5ee8736975fd,ko,I have a sore throat What do I do,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+955,2020-03-23 08:35:41.214,fb8c308a-e920-42c9-86e1-4549263409fd,es,What is the risk for a pregnant women,en,0,0,0,0,0,0,0,0,,0,0,0
+958,2020-03-22 13:08:22.321,dc44373e-a58b-452c-a0af-5a6cd4d18442,en,Can my cat get the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+981,2020-03-22 14:59:26.02,4f0491c9-bcc3-4ac2-ab92-fff2349511ed,en,When should I go to the ER,en,0,0,0,0,0,0,0,0,,0,0,0
+982,2020-03-21 16:52:42.209,3d8b0fe1-ac29-4c02-acab-a4834608a0a4,en,What is the risk for an asthmatic,en,0,0,0,0,0,0,0,0,,0,0,0
+986,2020-03-21 23:29:02.411,ec41dbc0-8a1c-436a-855c-53583f9b34bf,en,What s the difference between COVID 19 and CoronaVirus,en,0,1,0,0,0,0,0,1,about,0,0,0
+989,2020-03-23 19:56:48.2,a6aea3ee-fdf1-45cb-9aa5-ecbb6f91bd42,en,Can I die from Covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+993,2020-03-23 11:03:16.628,217ee8ff-3e18-4214-8714-2dea0348bfaa,en,What is covid19,en,0,1,0,0,0,0,0,1,about,0,0,0
+994,2020-03-22 19:02:57.04,810aa05f-3958-4dd8-82d1-2c2ad87c2114,en,how long would it take for the virus to disappear,en,0,0,0,0,0,0,0,0,,0,0,0
+995,2020-03-22 00:20:18.842,91c3514c-e3f6-43cd-beae-fb8cdcde4365,vi,What is Covid 19 virus,en,0,1,0,0,0,0,0,1,about,0,0,0
+996,2020-03-21 18:56:44.254,1dfa96ae-da69-4e13-a82f-065e558c1b55,en,How many cases in Montreal,en,0,0,1,0,0,0,0,1,cases,0,0,0
+999,2020-03-21 15:48:30.032,291fcd60-0f53-4d6a-bff3-086b6f753267,en,Should I be worried about getting sick if the government does not lock down everything,en,0,0,0,0,0,0,0,0,,0,0,0
+1000,2020-03-23 11:41:17.596,752aa61d-fbee-4f8f-b2fe-b49bde0df694,en,How fast will the pandemic spread in Canada,en,0,0,0,0,0,0,0,0,,0,0,0
+1002,2020-03-23 20:23:47.855,5af1b8a0-ab45-4500-98be-16267b9dd9cd,en,What are the risks for people with diabetes,en,0,0,0,0,0,0,0,0,,0,0,0
+1007,2020-03-21 16:35:40.321,13b9248d-7ba2-4a4c-9fd7-f1c59dcce95f,en,is china responsible for the spreading of COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1008,2020-03-21 17:38:37.026,28e7f04a-9d6f-48c1-9b13-fb499fe0ef8a,en,How many cases in Quebec,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1009,2020-03-23 18:27:39.363,1d8da525-46d8-4536-9c64-e31dda99df00,en,What do I do if I have symptoms,en,1,0,0,0,0,1,0,2,nextsteps,0,0,0
+1014,2020-03-22 22:41:21.623,0a6a5e0d-173b-4e6d-af43-63ffae0ae849,en,What are symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1015,2020-03-21 14:02:57.06,ba8ef58c-ddcc-4dbb-bf57-ea2dd5a341e6,en,If I experience symptoms but they are manageable should I still go to the hospital for testing,en,1,0,0,0,0,0,1,3,hospital,0,1,0
+1018,2020-03-21 23:07:59.694,5a340f67-5e5a-42e8-b25c-3594949f3f49,en,how to prevent,en,0,0,0,0,0,0,0,0,,0,0,0
+1023,2020-03-22 12:25:12.833,56d0db1e-e0bd-431f-bef5-42cd82d1fe2a,es,What is covid 29,en,0,1,0,0,0,0,0,1,about,0,0,0
+1025,2020-03-22 03:37:37.571,0d90e6a2-f7f5-4317-afc9-b8a87d4df68d,en,Why Covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1026,2020-03-22 03:11:51.474,d7e1a94f-6987-4ffe-b905-b20f3c63260e,en,How many days should I isolate for,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1030,2020-03-22 13:27:58.974,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what is self monitoring,en,0,0,0,0,0,0,0,0,,0,0,0
+1031,2020-03-22 05:08:35.531,b5d3ec22-db30-4c68-ac38-c0e9f1d11eae,en,what is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1032,2020-03-23 09:02:52.245,86ea2ae7-e917-4800-8b10-5221ebb98058,en,How many cases of covid in laval,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1034,2020-03-23 08:20:53.994,9f80c211-53e4-4f63-9780-6c5242cc0ed7,en,My brother has COVID 19 What to do,en,0,0,0,0,0,0,0,0,,0,0,0
+1036,2020-03-22 13:33:58.8,1fc3566f-0b50-4b55-a2a6-8448e5fb5d15,en,How long will I be sick if I get the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1038,2020-03-22 12:30:23.324,584b2f48-550f-4537-a49a-874eb246809f,en,What is the half life of coronavirus,en,0,1,0,0,0,0,0,1,about,0,0,0
+1043,2020-03-22 10:47:15.527,a63f43c0-b672-4292-ade8-89fa4494a91e,en,I think I have COVID,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1045,2020-03-22 21:15:02.508,9a4d12a5-a1f1-410a-8870-a875a5e0b251,en,Do I have to wear a mask all the time if I am not infected,en,0,0,0,0,1,1,0,2,nextsteps,0,0,0
+1046,2020-03-22 09:53:10.147,4508c214-cc94-4d85-9e93-ac1c77bac593,en,What should I use to disinfect grocery bags and grocery items,en,0,0,0,0,0,0,0,0,,0,0,0
+1048,2020-03-23 11:17:27.66,a35d5250-0fc5-4077-a361-86fc5ebf8578,en,How much it s prevelent in Pakistan,en,0,0,0,0,0,0,0,0,,0,0,0
+1049,2020-03-22 09:20:34.267,5c7817ec-a9dc-4bf4-af68-c88c3ab4cf67,en,How long will it last,en,0,0,0,0,0,0,0,0,,0,0,0
+1050,2020-03-21 20:57:24.544,a0147f27-050a-456f-9d52-8f4b317ba678,zh,what is pandemic,en,0,0,0,0,0,0,0,0,,0,0,0
+1051,2020-03-22 17:42:01.896,c3299fdb-9b86-4066-9308-e3cc414fd1ca,en,how to know if i have corona,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1054,2020-03-23 09:37:25.63,9595fbf3-2ec3-4779-8926-6053c930263c,en,Is COVID 19 air borne,en,0,0,0,0,0,0,0,0,,0,0,0
+1055,2020-03-22 09:04:04.803,7ef7e361-c61a-410f-bd5a-83e59077a8ab,en,How does Covid 19 spread,en,0,0,0,0,0,0,0,0,,0,0,0
+1057,2020-03-21 21:28:01.171,f613f0e1-117b-4343-9e77-4fb4b9b168a4,en,where can I test for covid,en,0,0,0,0,0,0,1,1,test,0,0,0
+1058,2020-03-21 14:43:01.365,968f3919-1f56-4eca-a8b2-ed64cdffdf79,en,If you recover from the virus can you still be a carrier,en,0,0,0,0,0,0,0,0,,0,0,0
+1059,2020-03-22 13:30:51.926,e2d240a6-18c7-4cf1-98b1-e9345426b593,en,What are the symptoms of corona virus,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1063,2020-03-23 16:05:45.916,04777135-a7c5-4f2c-91da-5c1cd954ff9d,en,In how many days can covid be cured,en,0,0,0,0,0,0,0,0,,0,0,0
+1064,2020-03-22 15:03:24.212,2e1e637d-fdaa-49be-84df-9bee02ba6abb,en,if someone had pneumonia before are they more at risk,en,0,0,0,0,0,0,0,0,,0,0,0
+1066,2020-03-22 14:59:26.062,4f0491c9-bcc3-4ac2-ab92-fff2349511ed,en,Can I get infected after I healed from it,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1069,2020-03-22 08:31:07.499,3103c5f4-aecc-4d3d-8f52-ecb8d84afca7,en,I am in self isolation Is it ok to let in family members who must continue to go to work,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1072,2020-03-22 16:26:57.209,f3d5f561-cf45-4a01-8aa7-aa77bf1f4619,en,How long does the virus survive on a surface like a doorknob,en,0,0,0,0,0,0,0,0,,0,0,0
+1073,2020-03-23 11:24:35.586,13920756-b979-4526-b6ec-9bcde875a04a,fr,what is the risk for a pregnent woman,en,0,0,0,0,0,0,0,0,,0,0,0
+1075,2020-03-22 08:24:51.473,e1467c89-10ef-4ce1-9351-378287cf2c89,en,treatment for covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1079,2020-03-22 10:48:17.475,369aaaf4-82db-4e01-85dd-da912c45fa1f,en,When will life get back to normal,en,0,0,0,0,0,0,0,0,,0,0,0
+1084,2020-03-21 16:41:57.517,8c2be3c5-7e39-4cb6-ae74-5c0aff539ab4,de,What are the Symptome,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1085,2020-03-22 13:08:22.369,dc44373e-a58b-452c-a0af-5a6cd4d18442,en,Will the pandemic affect university research,en,0,0,0,0,0,0,0,0,,0,0,0
+1088,2020-03-22 19:29:26.702,e479e81f-506d-488f-bbfa-c1e7ce998ac5,en,If I have symptoms and I am told to stay home can I take Tylenol,en,1,0,0,0,0,1,0,2,nextsteps,0,0,0
+1090,2020-03-23 22:31:49.057,543dc964-0ddd-4ff9-94bf-423b077981e0,en,Can you get the virus twice,en,0,0,0,0,0,0,0,0,,0,0,0
+1093,2020-03-22 09:20:34.283,5c7817ec-a9dc-4bf4-af68-c88c3ab4cf67,en,Can you smoke cannabis during Covid,en,0,0,0,0,0,0,0,0,,0,0,0
+1102,2020-03-22 13:38:45.084,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,Will people on LTD Long Term Disability drill receive their payments,en,0,0,0,0,0,0,0,0,,0,0,0
+1112,2020-03-24 00:58:07.307,71e58510-1f0d-40a9-8d57-be1084cf398f,es,What are the covid simptons,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1114,2020-03-22 11:50:40.132,710e23d7-7a6a-42ed-bd1b-526db8c8c2f8,en,I would like to get COVID19 test where can I get it,en,0,0,0,0,0,0,1,1,test,0,0,0
+1118,2020-03-23 08:35:41.25,fb8c308a-e920-42c9-86e1-4549263409fd,es,Are there any risk for the foetus,en,0,0,0,0,0,0,0,0,,0,0,0
+1119,2020-03-22 19:40:29.864,25747ad4-80d0-4f9d-9e34-f40f8a0f0417,en,How many people are infected in toronto,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1121,2020-03-22 09:45:32.888,93e77e53-231e-452a-888f-19fe67b711a8,en,Who can I make the difference between a cold and covid19,en,0,0,0,0,0,0,0,0,,0,0,0
+1122,2020-03-22 20:35:22.054,10bd6bb9-f50f-4d65-943a-5b1de75be3df,en,Would it help to ensure there is a warehouse already filled with protective gear for health professionals worldwide instead of scrambling or ordering these last minute and also have enough hospitals built because if we don t do that we ll have to do what China did and build a hospital at the last minute,en,0,0,0,0,0,0,0,0,,0,0,0
+1130,2020-03-22 14:09:57.743,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,What do I do if someone with COVID 19 spotted,en,0,0,0,0,0,0,0,0,,0,0,0
+1131,2020-03-22 17:15:05.887,81462647-ac3c-4d40-8efa-e58aaeea78f5,en,What is Covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1134,2020-03-23 07:37:56.308,a0020410-f041-443c-891e-4a313289aab4,en,Does the fever persists in corona,en,0,0,0,0,0,0,0,0,,0,0,0
+1136,2020-03-23 03:41:32.753,33aa1314-2aee-49d7-976c-ed060e472ddc,en,How long can the virus stay in the air,en,0,0,0,0,0,0,0,0,,0,0,0
+1139,2020-03-22 16:26:57.21,f3d5f561-cf45-4a01-8aa7-aa77bf1f4619,en,Can we be contagious when we don t show symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1143,2020-03-23 20:51:30.167,b8b47cef-6d66-4f35-839d-db418d477e49,en,When will we be back to work,en,0,0,0,0,0,0,0,0,,0,0,0
+1144,2020-03-22 20:48:42.624,b66ae773-a18d-4129-ab8c-6e90e00f4a65,en,How long the sickens last m,en,0,0,0,0,0,0,0,0,,0,0,0
+1146,2020-03-22 11:33:45.54,ff357aeb-b1c5-4de8-b2a9-ee9b8fb7fd6c,en,What is self isolation,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1147,2020-03-22 23:04:43.41,a9d6676a-7c95-480f-993a-b69152436c48,en,I recently relocated to Quebec Can I request RAMQ card with visiting the RAMQ office,en,0,0,0,0,0,0,0,0,,0,0,0
+1148,2020-03-22 06:27:08.067,6a11a88c-f506-4824-89e5-a49aaeb434d7,en,What are differences in term of symptoms between the new coronavirus and normal flu cod,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1155,2020-03-21 16:37:30.743,ff2949a6-4d58-4305-8456-459400fe7cf1,en,In this time of crisis is it okay to feed the raccoons,en,0,0,0,0,0,0,0,0,,0,0,0
+1156,2020-03-21 18:48:44.969,7f0bd659-d209-4d2b-bd3a-f0fe73cb085b,en,How long is incubation period,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+1161,2020-03-23 23:20:15.424,498605fa-f769-4d72-b6ef-2025c2db00f0,en,i am coughing what should i do,en,0,0,0,0,0,0,0,0,,0,0,0
+1163,2020-03-22 19:06:03.097,a245370e-481d-439b-ad2b-d5d10262c63e,en,What is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1165,2020-03-22 12:30:23.283,584b2f48-550f-4537-a49a-874eb246809f,en,Does COVID 19 spread by means of gametes,en,0,0,0,0,0,0,0,0,,0,0,0
+1166,2020-03-23 20:21:23.826,8367cf83-39f0-4e75-be06-c50ae0a04f82,en,Do I need to wash my vegetables and fruits,en,0,0,0,0,0,0,0,0,,0,0,0
+1173,2020-03-23 06:15:17.156,2335204f-3f70-4cd7-8d3d-9de8ba2b5af5,en,How long does it take an average person to recover,en,0,0,0,0,0,0,0,0,,0,0,0
+1174,2020-03-23 18:58:36.963,34d8d079-e65a-423a-b652-e77b6f8df739,en,What are the symptoms of COVID 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1175,2020-03-22 04:32:39.827,fbaf1b75-31c8-4652-b6c5-1cd56c78c9eb,en,how to know that somebody have a corona,en,0,0,0,0,0,0,0,0,,0,0,0
+1178,2020-03-23 20:42:30.551,0847cc98-9090-43f9-a4d5-ffcb3b5ba240,en,How can i cure covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1180,2020-03-21 08:52:33.554,04227e51-dd74-4104-9b40-f1be16f97eea,en,How long will it take to develop a vaccine,en,0,0,0,0,0,0,0,0,,0,0,0
+1181,2020-03-22 14:09:57.768,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,What COVID 19 stands for,en,0,0,0,0,0,0,0,0,,0,0,0
+1182,2020-03-23 12:12:13.447,db468922-6c47-498f-b498-ebc957ae7092,en,what are the symptoms of covid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1184,2020-03-22 07:16:09.175,f903961b-07f4-43cb-ba48-394227a97314,en,Doeas the software is automatic in English because I use an English device If I ask in French the answer will be in French,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1185,2020-03-22 14:47:52.19,abcb3774-e347-4f81-a202-cf4775a80c0f,en,I have fever 38 C Is that corona virus symptoms,en,1,0,0,0,0,1,0,2,nextsteps,0,0,0
+1186,2020-03-22 10:18:28.906,5115cb5e-6605-49b8-ab0b-76bd2a238c85,en,What is corona virus and COVID19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1191,2020-03-22 15:15:16.401,e90e8f0c-f73b-4fe1-9fcb-bed2f01dacb1,ro,WHat is your name,en,0,0,0,0,0,0,0,0,,0,0,0
+1195,2020-03-22 09:35:47.331,13b14987-413a-4d47-8e56-3af43f79db8a,en,How many death in Quebec,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1197,2020-03-22 13:30:48.1,93f115a2-f4eb-4faa-8f26-f56266065753,en,What are the demographics of people infected hospitalized and deceased in Quebec,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1198,2020-03-21 09:10:27.241,7b743f72-9dea-4951-908a-24e873d76a34,en,What are the symptoms of COVID 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1199,2020-03-22 00:10:16.692,a766799a-10d9-423f-bae2-f305cfea635e,en,When will the pandemic end,en,0,0,0,0,0,0,0,0,,0,0,0
+1200,2020-03-22 06:54:58.146,8228b488-6ce7-4bcc-935f-e1a8f3ca480b,en,What to do when i gave cough,en,0,0,0,0,0,0,0,0,,0,0,0
+1202,2020-03-22 18:46:09.761,78f60672-d37b-4259-9082-168abb98a851,en,How are you,en,0,0,0,0,0,0,0,0,,0,0,0
+1203,2020-03-21 14:32:43.5,b95e3026-d4c2-4c4a-b45f-6cd16c5be92c,en,Should I use asprin with I have the coronavirus,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1205,2020-03-22 18:41:36.362,cee73333-a003-47bb-8007-e29c33445947,en,What the different between corona and COVID_19,en,0,0,0,0,0,0,0,0,,0,0,0
+1206,2020-03-23 13:26:42.08,14acd691-c5c6-49c7-b37b-8995b7a207cd,en,Number of cases in Inida,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1207,2020-03-22 16:49:42.339,d31625ef-010c-4926-b525-2e5ac23e63ec,en,How did this virus transmit,en,0,0,0,0,0,0,0,0,,0,0,0
+1208,2020-03-21 23:07:39.93,710e23d7-7a6a-42ed-bd1b-526db8c8c2f8,en,Where do we get the test for COVID 19,en,0,0,0,0,0,0,1,1,test,0,0,0
+1209,2020-03-24 00:08:23.391,6f1c48ac-9b78-48c2-a5ec-0726be130d85,en,how long does COVID 19 virus lasts in the body,en,0,0,0,0,0,0,0,0,,0,0,0
+1211,2020-03-22 16:50:40.807,9552da69-8edc-4a5c-b643-c03b5b8c26fe,en,Is it ok to go outside to get fresh air,en,0,0,0,0,0,0,0,0,,0,0,0
+1215,2020-03-23 20:22:49.162,7dec897c-85c1-48c7-8b6d-1cc9512fe9e2,en,If you contract COVID 19 how do you treat yourself at home,en,0,0,0,0,0,0,0,0,,0,0,0
+1217,2020-03-21 19:50:48.602,ceae6bf7-a5ec-4832-934d-211ebc182948,es,What s happen for country near the Ecuador with a lot of hot,en,0,0,0,0,0,0,0,0,,0,0,0
+1219,2020-03-22 09:05:28.723,ae5ee9d3-6830-4a23-9b6f-da44fcfcafd9,en,List of Canadian hospitals treating not testing patients with COVID 19,en,0,0,0,0,0,0,1,1,test,0,0,0
+1220,2020-03-23 10:53:21.891,bb66c25f-bf85-4641-b3cd-b745e442a36c,en,How many cases are in spain,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1221,2020-03-22 14:09:57.944,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,What is the meaning of COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1223,2020-03-22 12:35:43.784,95b4de1f-3df5-4e20-a0da-1e1993a7bb77,en,how many people die for cover,en,0,0,0,0,0,0,0,0,,0,0,0
+1226,2020-03-21 17:39:34.381,83f51718-d521-4b00-9f0e-01e5b2f5d68f,en,What are the symptoms of Covid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1228,2020-03-21 23:08:51.623,96e5bf45-a3e2-479b-af53-202773ea1b81,en,How long will it take for a vaccine to be produced,en,0,0,0,0,0,0,0,0,,0,0,0
+1240,2020-03-22 22:01:33.044,27981bf8-e098-4bc3-b2a5-d1aa2fd1a2c4,es,What is COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1242,2020-03-22 13:27:59.042,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,how to prepare for spread of covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1244,2020-03-23 02:23:00.027,8b187e4c-65ce-4b2f-9a45-856456bea2f3,ar,On a recent study published in Nature it says that the severity of symptoms of COVID 19 infection depends on how much is your Angiotensin converting enzyme 2 gene is expressed my question is on what factors does the rate of ACE2 gene expression depends I,en,1,0,0,0,1,0,0,2,infection,0,0,0
+1247,2020-03-22 23:54:26.249,7ab089e2-6a92-4f52-ae59-8a9760d3f6a1,en,how many death now,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1248,2020-03-21 18:19:33.609,a228afbc-c07b-4266-884a-a49171468666,en,im sneezing should i be worried,en,0,0,0,0,0,0,0,0,,0,0,0
+1251,2020-03-23 02:42:35.294,99a6d735-29e1-44e0-8867-93735549fd54,en,Symptom,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1254,2020-03-21 14:02:25.519,0f20ee6c-0cac-4d0d-880d-1a2a6c87d96d,en,Do the symptoms start suddenly or they progress slowly from one day to another,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1258,2020-03-22 13:27:58.967,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what is self isolation,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1260,2020-03-22 15:26:31.691,aa35e684-97f8-4569-bfe9-e87ee2e051e3,en,Do I need to be seen by a doctor,en,0,0,0,0,0,0,0,0,,0,0,0
+1261,2020-03-22 19:19:51.753,75500523-383e-4558-8680-6efc7d915f91,en,About COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1262,2020-03-22 13:38:44.933,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,If I inhale a high concentration of soap bubbles would that kill the virus on contact in my lungs,en,0,0,0,0,0,0,0,0,,0,0,0
+1263,2020-03-22 22:17:02.571,66303059-b2da-434c-8cdc-b1880a4e1f57,en,Can I fo,en,0,0,0,0,0,0,0,0,,0,0,0
+1264,2020-03-23 17:10:13.088,5c01f579-fa60-459f-8f7e-2ea8f0aa2833,en,What measures can I take if someone I know is effected with the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1265,2020-03-22 10:20:13.844,24bd2a20-fa56-4420-949c-25a83c5a52f1,en,I was in contact with a person who had coronavirus what should I do,en,0,1,0,0,0,0,0,1,about,0,0,0
+1266,2020-03-23 11:02:49.031,52de19b4-f8c6-4eaf-8d85-f2651537c16e,en,What is your name,en,0,0,0,0,0,0,0,0,,0,0,0
+1267,2020-03-21 16:36:06.691,107eeb57-8b1f-481e-aff5-8ce87b1cea8a,en,How long will social distancing measures last,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1268,2020-03-22 21:56:33.472,f753f60e-53cf-4e33-8acb-f024257b093f,en,If I catch the virus will I be immune from getting it again,en,0,0,0,0,0,0,0,0,,0,0,0
+1272,2020-03-22 15:29:50.712,3ef439a6-e430-4034-9aae-e2f33edd633d,nl,What are you symtoms of covid,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1273,2020-03-22 19:32:47.185,98c7dd99-ea3b-44e5-8804-3dda91c53982,en,What is COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1274,2020-03-21 15:36:20.298,bb22c696-3a40-4f57-8175-4b31cec184e5,en,How long can the virus live,en,0,0,0,0,0,0,0,0,,0,0,0
+1277,2020-03-23 11:40:28.89,f2c35a0b-1566-401d-9186-8a5fa1e7e2b5,en,what is my level of risk,en,0,0,0,0,0,0,0,0,,0,0,0
+1281,2020-03-22 09:43:17.825,81755909-a6cf-42b4-801b-2abda6514af0,en,What will be th impact on international students,en,0,0,0,0,0,0,0,0,,0,0,0
+1284,2020-03-23 22:31:21.91,74791eb5-0f37-46f7-80a4-82f686c14c7c,en,Can I go out after recovery even if I am still in quarantine time,en,0,0,0,0,0,0,0,1,can,1,0,0
+1287,2020-03-22 18:45:54.43,9ab6251c-e335-4d14-b37e-f5fe6d3a1776,en,What is corona virus,en,0,1,0,0,0,0,0,1,about,0,0,0
+1290,2020-03-21 21:33:41.729,4b862889-8632-4a58-9b9e-66fa17c8fcdb,es,what is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1293,2020-03-23 10:36:55.499,95af0e48-f1f2-4b1e-b51d-e4e384a9cbdc,en,how long people live after being infected by coronavirus,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1294,2020-03-19 13:40:44.882,f75ca552-9cf8-4f52-8151-25c0cea0a8b0,en,Get I get infected from a dog,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1299,2020-03-22 01:50:08.684,f93adb39-74a7-4893-932a-4d6471a4b37a,en,Corona virus characteristics,en,0,0,0,0,0,0,0,0,,0,0,0
+1300,2020-03-22 13:27:59.026,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what treatments are available for covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1301,2020-03-22 06:09:09.819,cdd8ce59-c8fd-46f5-96bb-ead47dce4abc,vi,How many cases in Canada now,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1303,2020-03-22 04:22:42.359,06f1b603-754b-45e6-9d8d-8b2db599327b,en,Should he self isolate when he gets here even if he feels well,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1305,2020-03-21 17:39:34.389,83f51718-d521-4b00-9f0e-01e5b2f5d68f,en,Is there more than one strain of COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1306,2020-03-22 21:56:33.467,f753f60e-53cf-4e33-8acb-f024257b093f,en,Were can I get tested,en,0,0,0,0,0,0,1,1,test,0,0,0
+1307,2020-03-22 22:16:18.126,8b535249-f2c1-487c-912f-23689aa7ad64,en,is there a new form of corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1309,2020-03-22 14:59:26.173,4f0491c9-bcc3-4ac2-ab92-fff2349511ed,en,How long has the virus been spreading in Canada,en,0,0,0,0,0,0,0,0,,0,0,0
+1312,2020-03-22 18:10:12.34,a776300f-f7f3-4b48-80b2-0a11129795a3,en,Would using heated vapor humidifier help with sanitizing the sinuses of the covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1319,2020-03-22 19:53:39.805,9410efa1-ed15-44ed-a9c9-314a8eaf641e,en,Shall we stay where we are or travel to our home country,en,0,0,0,0,0,0,0,0,,0,0,0
+1321,2020-03-23 21:19:06.318,04206a01-8adc-4a93-97b6-5a0571249c90,en,What colour is covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1322,2020-03-23 18:28:09.18,001b7e0a-87c0-4f07-a51e-974ab0fc8757,en,Why does the government think that we don t need to wear face masks when clearly citizens from countries that are able to contain the virus are all wearing face masks regardless if they are sick or not,en,0,0,0,0,0,0,0,0,,0,0,0
+1323,2020-03-23 14:45:00.249,53da0935-849b-4cb3-b747-3343279d2f80,en,How long does COVID 19 live on glass surfaces,en,0,0,0,0,0,0,0,0,,0,0,0
+1326,2020-03-23 04:57:03.45,da6b72f7-8df4-4f40-8c47-238abd9fa61f,es,I have shortness of breath but no fever,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1327,2020-03-22 12:47:01.597,a3b42d06-4177-42db-922c-4c7c3b8b12a9,en,What is the situation right now in the world,en,0,0,0,0,0,0,0,0,,0,0,0
+1330,2020-03-22 15:58:31.863,2ecc0783-d1bf-44bd-a4ac-21821480e9b5,en,Define covid 18,en,0,0,0,0,0,0,0,0,,0,0,0
+1331,2020-03-22 16:09:27.229,7b3dc9a1-a6aa-468a-bd30-c392438e0c17,en,How long does it takes to get first symptom of Covid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1333,2020-03-22 10:38:28.294,2336203e-d920-4be7-ada2-2140cb941be3,en,What s the current count in India,en,0,0,0,0,0,0,0,0,,0,0,0
+1334,2020-03-21 17:52:17.785,94154cbd-75f5-409f-8338-05018c12a9b9,en,Why didn t you answer my first question,en,0,0,0,0,0,0,0,0,,0,0,0
+1336,2020-03-19 14:20:00.831,8939cba6-f923-44fe-9cf4-8a56e198778b,en,What is the difference between a pandemic epidemic Why did WHO declare this a pandemic What is the difference between social distancing self isolating and quarantine To what extent is social distancing helpful Why should I do this When should you self isolate Will the virus be less effective when we get warmer weather When should I go to the hospital Should I get tested if I was in contact with someone who has or is suspected of having covid19 but do not have any symptoms Should I stop taking medications that suppress my immune system When someone in the household is coming and going for work how can we keep the home a safe place Can the virus be transmitted through Air Conditioning from outside or from within the home How long does the virus last on inanimate objects plastic glass cardboard metal What have we learned from countries like China South Korea and Singapore that have been dealing with this for a longer period of time and have slowed the spread,en,1,1,0,0,0,0,1,6,hospital,1,1,1
+1339,2020-03-23 03:18:49.731,2aa90d75-26c2-451d-9980-4843b4dce97c,en,How do i knew if i got covid,en,0,0,0,0,0,0,0,0,,0,0,0
+1341,2020-03-21 20:17:00.403,994acdd5-3b24-4dee-b574-c10e0990e9b8,en,What should I do if I start coughing,en,0,0,0,0,0,0,0,0,,0,0,0
+1343,2020-03-23 16:08:59.295,9a964fc6-d7aa-42b0-a2d7-6a036f09c6d1,en,I ve have mild cough and not the continuous one And symptoms of fever like burning eyes but not the temperature What do I do,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1345,2020-03-22 18:25:31.096,36ba28c8-f161-4fa5-91a3-73cd25e7e219,en,what is the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1346,2020-03-22 08:24:01.735,e1467c89-10ef-4ce1-9351-378287cf2c89,en,symptoms of covid 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1349,2020-03-23 12:00:58.675,ed1ed805-f0b2-4c92-bbf0-440a3d58e4bc,en,Infomation about covid,en,0,0,0,0,0,0,0,0,,0,0,0
+1351,2020-03-23 08:29:31.475,f4edeb32-2c89-4618-96bf-6cb899679883,en,How long will the pandemic last,en,0,0,0,0,0,0,0,0,,0,0,0
+1353,2020-03-22 18:17:03.578,69fce199-cc33-43ab-ae18-363671aec6df,en,Do I have covid,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1357,2020-03-22 08:12:33.647,79180b89-beb6-4db6-b8ec-cab972c58bb1,en,Does soap really kill the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1363,2020-03-23 04:15:33.681,815c4207-ead9-4851-b509-931a51243aff,en,Can antibiotics deal with viral infection,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1366,2020-03-22 04:22:42.325,06f1b603-754b-45e6-9d8d-8b2db599327b,en,My son is flying from Kansas to England on the 30th April He is flying into Heathrow and then travelling home to Manchester by train,en,0,0,0,0,0,0,0,0,,0,0,0
+1368,2020-03-22 13:27:58.929,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what are covid 19 symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1374,2020-03-22 08:21:05.616,dd5f4300-766c-404b-97bd-80b1b0afb126,en,What do I have to expect after the disease,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1377,2020-03-21 16:38:20.454,d2bf053f-2512-4f30-aab6-cf74894dc3c2,it,What is an Asymptomatic Carrier,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1378,2020-03-22 12:10:11.219,52b38c2c-aded-40d7-bbe0-e0fe883000b2,en,what are covid symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1380,2020-03-22 11:12:23.92,db73fd7b-ca2f-4183-956f-b949e5ba4266,en,I have a fever what should I do now,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1385,2020-03-23 03:37:35.156,b5c488b8-de40-4589-9b7a-ac777b14b44c,en,What are the daily death rates in Italy that are Not from COVID19,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1387,2020-03-22 11:52:38.877,14b82f93-ec9b-4064-bf60-19a38c452a05,en,What are the Symptom for covid19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1391,2020-03-22 08:12:33.663,79180b89-beb6-4db6-b8ec-cab972c58bb1,en,When should I go to the hospital,en,0,0,0,0,0,0,0,1,hospital,0,1,0
+1392,2020-03-23 10:49:12.332,8a734a0c-55ca-404a-b9c4-c31c95ba78c4,en,Is there any medication to take to help,en,0,0,0,0,0,0,0,0,,0,0,0
+1394,2020-03-24 00:22:18.955,32c77c9b-529f-44cd-93ff-0d459526059e,en,I have a headache for the past 3 days should I be tested,en,0,0,0,0,0,1,1,2,nextsteps,0,0,0
+1395,2020-03-23 11:40:28.903,f2c35a0b-1566-401d-9186-8a5fa1e7e2b5,en,hat should I do if my 2 year old child starts having a runny nose,en,0,0,0,0,0,0,0,0,,0,0,0
+1397,2020-03-21 11:32:09.913,470bcaef-ae5a-45ad-a380-b79ad65d42b8,en,Is it safe to go outside for a walk social distancing from others,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1400,2020-03-23 22:31:21.905,74791eb5-0f37-46f7-80a4-82f686c14c7c,en,Is it possible to be infected again,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1401,2020-03-23 02:20:22.461,2a3b9c7e-c8ea-47cc-a296-4280b12464f8,en,Which are its first symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1402,2020-03-22 09:41:14.833,a6b15f80-e21f-4c35-8743-deb4d193deb7,fr,Can I get infected from food or grocery delivery,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1404,2020-03-22 11:59:24.529,3ed2effb-1953-428a-adde-fe0dae015914,en,How many people died in NYC,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1407,2020-03-22 17:28:49.195,d3fd3fbb-c366-40da-b6fd-46370f929019,en,I was very sick with covid symptoms in late February and still coughing Should I go get tested,en,1,0,0,0,0,0,1,2,test,0,0,0
+1408,2020-03-21 13:34:43.669,16c1484f-fcfa-4d3f-979a-d4b728b69bd0,en,What should i do if i am short of breath,en,0,0,0,0,0,0,0,0,,0,0,0
+1417,2020-03-22 06:27:08.013,6a11a88c-f506-4824-89e5-a49aaeb434d7,en,What is the main symptoms of the disease related to new coronavirus,en,1,1,0,0,0,0,0,2,symptom,0,0,0
+1419,2020-03-21 14:52:39.608,e56d5bdd-fa1a-48c7-b116-92433e45b833,en,what are the symptoms of coronavirus,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1421,2020-03-22 13:24:48.173,f1bef181-40fb-46f7-97dd-1ccb61052e16,en,If my son if suppose to get tested tomorrow but just starting to feel better Can I cancel or should we still go,en,0,0,0,0,0,0,1,1,test,0,0,0
+1423,2020-03-23 03:25:29.377,41f17058-e8e6-48c5-a490-6074dca9159b,en,How do I know I have covid,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1424,2020-03-23 01:30:59.768,82162acd-f586-4398-92a7-94577659ca2d,en,can you please tell me symptoms of corona virus,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1434,2020-03-22 13:38:45.083,d8884f31-8b7d-43c8-b44e-c5f3ede233b9,en,When will the municipalities post heat maps to identify hot spots for Covid positive residents,en,0,0,0,0,0,0,0,0,,0,0,0
+1436,2020-03-21 23:14:22.429,e03f3e0a-a889-43d4-a506-4af32cbee107,en,Is sore throats a symptom,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1438,2020-03-22 11:54:26.137,6173618c-7291-45d0-8b5c-ca71a8e2e4ff,en,How many people died in Belgium,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1444,2020-03-21 17:46:41.069,53894a08-21b2-49cb-832d-cfa6c0683d4f,en,What are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1445,2020-03-21 21:38:31.935,ed48fde9-b52a-450a-873c-af9d36b3a5dc,en,Is it possible to have Covid 19 if you only have one of the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1449,2020-03-22 20:03:53.192,28914ffd-2639-472a-828a-6352da947b8f,fr,Have there been any deceased children so far,en,0,0,0,0,0,0,0,0,,0,0,0
+1450,2020-03-21 16:15:49.262,3eb07cc6-e9a7-40d0-9609-553a07823637,en,How do I know if I have been infected,en,0,0,0,0,1,1,0,2,nextsteps,0,0,0
+1451,2020-03-22 12:29:14.593,b28c8be4-2a5b-40b6-99e8-02253413b0de,en,Should I use Sudafed,en,0,0,0,0,0,0,0,0,,0,0,0
+1452,2020-03-22 03:12:45.323,c5a8ec79-cd48-4ca2-8854-66347187d566,en,From the infected worldwide population what is the ratio that will need medical attention eg ICU or ventilators,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1468,2020-03-23 04:15:46.398,ca9a77c7-fb23-4200-8ee7-5e1ee1385652,en,When this virus terminated,en,0,0,0,0,0,0,0,0,,0,0,0
+1473,2020-03-21 17:20:59.193,1c991aeb-b4df-4d84-9595-367d7385e3b6,en,When will covid end,en,0,0,0,0,0,0,0,0,,0,0,0
+1478,2020-03-21 13:34:43.676,16c1484f-fcfa-4d3f-979a-d4b728b69bd0,en,How do I distinguish between the flu and coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+1483,2020-03-23 08:27:51.844,9db5e060-f3c1-418c-a30f-e67f18eb2ed9,en,Suffering from trout echiting,en,0,0,0,0,0,0,0,0,,0,0,0
+1487,2020-03-23 09:02:52.239,86ea2ae7-e917-4800-8b10-5221ebb98058,en,What places of laval has covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1489,2020-03-21 18:22:01.291,49a00803-1814-427a-b79a-58284de2e968,en,how many new cases,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1493,2020-03-22 18:25:40.178,0de5bb28-0dea-48ea-9179-4f6f724d6525,en,i have some headeche,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1495,2020-03-22 14:10:00.963,cb1fe817-b86b-4456-a3c5-2b517d983a67,es,It would possible to predict the time of this pandemic,en,0,0,0,0,0,0,0,0,,0,0,0
+1496,2020-03-22 13:30:51.603,e2d240a6-18c7-4cf1-98b1-e9345426b593,en,How many Canadians currently have corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1497,2020-03-23 12:16:22.639,fb46a970-2081-4e75-84ae-b03e09012880,en,What is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1498,2020-03-21 16:38:04.707,9a87c6dd-9939-4070-a0d9-da7f66683eb6,en,Is there an estimate as to how long the crisis will last,en,0,0,0,0,0,0,0,0,,0,0,0
+1500,2020-03-23 11:56:12.268,df7e357f-ccd8-4017-9381-3b80ea0b76cd,fr,What the size,en,0,0,0,0,0,0,0,0,,0,0,0
+1504,2020-03-21 17:33:19.756,a0403994-425b-4498-8080-0ea926c5f8eb,en,how many people have died,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1506,2020-03-22 18:26:50.639,2a82f766-4d64-49dc-bcf4-0e61c23838ea,en,Is the virus deadly,en,0,0,0,0,0,0,0,0,,0,0,0
+1507,2020-03-22 09:58:47.633,af684ff8-b8d1-467b-a434-1bce1ca2b463,en,I have a lot of stress regarding COVID 19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1508,2020-03-23 14:45:00.23,53da0935-849b-4cb3-b747-3343279d2f80,en,If I m in self quarantine with mild symptoms of some sort of respiratory thing when can I stop self quarantining,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1510,2020-03-22 05:21:43.544,81d81a03-ec7a-4f12-98b6-a1d0bbb179e5,es,What is COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1511,2020-03-22 18:09:54.78,a90a0084-4927-469c-9a5b-e5cba9854a04,en,I had a bronchitis last month and I m still having trouble with my breathing a month later but I don t have a fever Could it be corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1514,2020-03-21 20:56:54.131,a0147f27-050a-456f-9d52-8f4b317ba678,zh,what are the symtoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1520,2020-03-21 23:07:39.918,710e23d7-7a6a-42ed-bd1b-526db8c8c2f8,en,What are the symptoms of COVID 19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1526,2020-03-23 05:35:32.294,99ffc449-3ddb-4e1b-a21d-851882bee1af,en,Is Covid19 an airborne,en,0,0,0,0,0,0,0,0,,0,0,0
+1528,2020-03-20 10:06:50.556,267d9215-d7a2-49c7-b778-f9a0a0cbbdb2,en,if i think i have it should i got get tested,en,0,0,0,0,0,1,1,2,nextsteps,0,0,0
+1529,2020-03-22 17:14:34.394,81462647-ac3c-4d40-8efa-e58aaeea78f5,en,What are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1530,2020-03-22 09:55:27.447,ae2c7a92-e8ec-48d4-afce-ecd02536f702,en,How long do you think we will have to be in a lockdown,en,0,0,0,0,0,0,0,0,,0,0,0
+1534,2020-03-21 13:39:26.503,9c1b4039-c331-43fb-b7da-5f77f3403575,en,what is covid 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1539,2020-03-22 10:25:49.108,73986699-d214-46ff-8dd4-fb08a4e4c7a2,en,Is it dangerous to go for a walk,en,0,0,0,0,0,0,0,0,,0,0,0
+1540,2020-03-23 23:20:15.43,498605fa-f769-4d72-b6ef-2025c2db00f0,en,is the liquor store open,en,0,0,0,0,0,0,0,0,,0,0,0
+1541,2020-03-24 00:16:32.226,04d8887f-99ab-4148-a615-cfc89f9917e0,en,What s a waiting time to get covid 19 results,en,0,1,0,0,0,0,0,1,about,0,0,0
+1542,2020-03-22 13:27:58.998,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,Is there a treatment for corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1544,2020-03-22 12:01:43.881,773b04db-1e43-4898-8d9b-1948c7dc629b,fr,Mortality rate today,en,0,0,0,0,0,0,0,0,,0,0,0
+1546,2020-03-23 12:09:12.515,23c56e61-ac8f-4498-90b9-8c44d93eb624,en,Does washing clothes in the washing machine prevent transmission,en,0,0,0,0,0,0,0,0,,0,0,0
+1548,2020-03-22 09:43:17.825,81755909-a6cf-42b4-801b-2abda6514af0,en,What are the confirmed symptoms of COVID19,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1553,2020-03-23 09:42:07.547,4c4328cc-3edf-4e99-bce9-b7970fe98a87,en,When will it stop spreading Is 2 weeks enough,en,0,0,0,0,0,0,0,0,,0,0,0
+1555,2020-03-22 12:47:52.233,56955b01-fa5c-47b1-b1a9-96ee1692abd8,en,How are you,en,0,0,0,0,0,0,0,0,,0,0,0
+1556,2020-03-22 11:58:27.828,7db9c038-4c49-43c7-a8d1-435820e231d9,en,How to take care of infected people,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1558,2020-03-22 09:27:27.109,ab15cd38-711a-47f4-910f-cc6e0a99850e,fr,I have a bit of nausea and headache Do i have covid 19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1564,2020-03-21 21:20:25.389,401332f7-58f8-4616-bb8d-59972ff0ee9c,en,If someone was infected once can they be reinfected Can they still carry the virus and infect others,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1565,2020-03-23 12:56:56.43,1ea8bbf3-091f-42fa-b2e9-998c22c5ec4a,en,Sorry I het enter before I was done am I just being paranoid and giving myself an ulcer my husband has pulmonary fibrosis so I m really worried about him,en,0,0,0,0,0,0,0,0,,0,0,0
+1566,2020-03-23 20:23:47.853,5af1b8a0-ab45-4500-98be-16267b9dd9cd,en,What should I do if I have Coronavirus symptoms,en,1,1,0,0,0,1,0,3,nextsteps,0,0,0
+1572,2020-03-22 11:00:44.526,69117396-cbe3-4744-ac56-14564fd84194,en,How long does it take to recover,en,0,0,0,0,0,0,0,0,,0,0,0
+1574,2020-03-22 01:12:16.107,dab8ab73-7e69-407c-8262-b5a22da25a04,en,Is the virus airborne,en,0,0,0,0,0,0,0,0,,0,0,0
+1577,2020-03-22 14:26:12.006,5676ef6b-e1c8-4abd-b50e-55644265685f,en,If this is really deep learning how deep is your model,en,0,0,0,0,0,0,0,0,,0,0,0
+1579,2020-03-22 13:27:58.988,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,what should I do if I think I infected by corona virus,en,0,1,0,0,1,0,0,2,infection,0,0,0
+1586,2020-03-21 23:20:09.86,7d02e9dc-a465-44f5-8e99-bc90eb50628c,en,How long before we have a vaccine for corona,en,0,0,0,0,0,0,0,0,,0,0,0
+1587,2020-03-22 09:45:57.907,90055b1e-cd4c-43aa-8914-1b8b2a531841,fr,How long does this virus incubate,en,0,0,0,1,0,0,0,1,incubation,0,0,0
+1591,2020-03-22 03:37:37.562,0d90e6a2-f7f5-4317-afc9-b8a87d4df68d,en,Why is called COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1592,2020-03-21 19:00:02.064,f52c4d03-3e67-4764-adf0-4710084ef0b0,en,Can I still see my friends,en,0,0,0,0,0,0,0,0,,0,0,0
+1594,2020-03-22 06:57:31.885,61c83b3d-a930-47dc-ab83-5118cee03b84,en,Does the amount of virus one is exposed to change the severity of the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1597,2020-03-22 02:08:31.045,7a39c38d-c315-4a22-9563-c4e98a653ac9,fr,Does Pneumonia vaccine which is for a bacterial infections helps the immune system to deal with the viral infection of Covid 19 more easily By removing the possibility of bacterial infection and just focusing on viral infection,en,1,0,0,0,1,0,0,2,infection,0,0,0
+1607,2020-03-22 00:24:32.459,24e49f6c-1df9-42f5-8f21-ecaa594ed836,en,what has caused it,en,0,0,0,0,0,0,0,0,,0,0,0
+1608,2020-03-22 16:51:20.344,154e1ba8-189a-4c64-adc3-cf76794d72fd,en,Covid19,en,0,0,0,0,0,0,0,0,,0,0,0
+1609,2020-03-23 09:40:09.533,f3199be3-ea8c-428b-a29e-5edae59e02aa,fr,Covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1613,2020-03-22 15:32:22.818,cdb73897-3211-4fca-9946-91ba51af1738,en,Is it transmissible through anal sex,en,0,0,0,0,0,0,0,0,,0,0,0
+1614,2020-03-22 13:08:22.345,dc44373e-a58b-452c-a0af-5a6cd4d18442,en,Should I be moving house during a pandemic,en,0,0,0,0,0,0,0,0,,0,0,0
+1615,2020-03-22 07:51:35.53,bc3185f1-77e3-4f23-8925-9bdaef6f3f38,en,when will germany reach the peak,en,0,0,0,0,0,0,0,0,,0,0,0
+1620,2020-03-23 15:07:45.761,253f115d-8fe4-4782-aae2-c247d6da2032,en,Should I visit my parents in a seniors home,en,0,0,0,0,0,0,0,0,,0,0,0
+1623,2020-03-22 16:09:27.152,7b3dc9a1-a6aa-468a-bd30-c392438e0c17,en,What is most usual symptom of Covid 19,en,1,1,0,0,0,0,0,2,symptom,0,0,0
+1624,2020-03-22 11:55:42.612,ec8bee28-f4bc-41b9-9979-ae91895c5b4b,en,Impacts of it,en,0,0,0,0,0,0,0,0,,0,0,0
+1626,2020-03-22 00:24:32.466,24e49f6c-1df9-42f5-8f21-ecaa594ed836,en,how can one fight the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1637,2020-03-21 16:24:13.235,95b95e68-cea1-456f-9120-aefd7834c5e1,en,What about the researches with respect to treatment of COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1639,2020-03-21 21:26:33.687,3b58140a-f53e-491f-a3dd-79f0416bab56,en,where can I get tested,en,0,0,0,0,0,0,1,1,test,0,0,0
+1641,2020-03-23 10:42:18.32,3a35c2d1-2fa2-4052-b470-c4768f3176b3,nb,How many will lose their jobs due to the chinese virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1642,2020-03-22 12:30:23.301,584b2f48-550f-4537-a49a-874eb246809f,en,What are the side effects of hydroxychloroquine for treating COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1644,2020-03-23 22:47:17.257,b51b969a-3042-4be2-8925-48044f20cf1b,en,Is ordering food from a restaurant discouraged,en,0,0,0,0,0,0,0,0,,0,0,0
+1645,2020-03-22 21:49:35.662,5b7f41a7-86f8-4a2e-a404-c8fe3e111f6e,en,Can I still go out for grocery shopping even if I m just getting back from vacations,en,0,0,0,0,0,0,0,1,can,1,0,0
+1646,2020-03-22 10:20:13.812,24bd2a20-fa56-4420-949c-25a83c5a52f1,en,I m feeling dizzy with fever do I have corona,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1648,2020-03-22 14:09:57.937,22e81fdf-1dd6-4f10-8072-281d0ca95d9b,en,COVID 19 stands for what,en,0,0,0,0,0,0,0,0,,0,0,0
+1649,2020-03-23 16:59:04.751,c8019428-f696-4ed5-91e4-5d89e6f5b3e2,en,What s the capital of Palestine,en,0,0,0,0,0,0,0,0,,0,0,0
+1650,2020-03-22 12:17:29.972,8c996f47-0a26-4c87-a1d0-7591b30d016f,en,What is the total number of deaths,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1652,2020-03-21 20:46:51.89,fa1e419d-5cef-41e6-bb17-f8bd28411028,en,Can I get the virus from breathing infected airborn particules,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1653,2020-03-22 11:33:45.497,ff357aeb-b1c5-4de8-b2a9-ee9b8fb7fd6c,en,What are the symptoms of corona virus,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1654,2020-03-23 07:41:46.451,4b1d4d97-fc9a-4963-a13b-0c661939e4c6,id,How covid 19 virus infected,en,0,0,0,0,1,0,0,1,infection,0,0,0
+1655,2020-03-21 16:25:16.658,52ea60bd-df60-4c3b-a5f7-e63292fe95b7,en,How to know if I get COVID 19 or not,en,0,0,0,0,0,0,0,0,,0,0,0
+1657,2020-03-21 09:45:35.478,fdb9ea21-a2c4-4562-b182-b28ff01f256b,en,How do I know when to get tested,en,0,0,0,0,0,0,1,1,test,0,0,0
+1661,2020-03-22 20:25:07.233,7671d78f-dd94-43b2-adc1-7cc74066da67,en,how many case positive with COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1662,2020-03-22 21:05:06.944,6a5ce2c7-e4cb-462a-b0b3-26173e7e22cf,en,Once you are cured from Covid 19 can you catch it again,en,0,0,0,0,0,0,0,0,,0,0,0
+1667,2020-03-22 10:24:27.453,35a8785b-58b8-4043-b31b-60afd2faeb32,en,If I have covid 19 how long will I be contagious,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1668,2020-03-22 01:31:56.094,11553517-7859-43dc-bfcd-354131f01e27,en,How to prevent the spread of COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1670,2020-03-22 10:20:13.855,24bd2a20-fa56-4420-949c-25a83c5a52f1,en,What should I buy from the stores now that I feel sick,en,0,0,0,0,0,0,0,0,,0,0,0
+1673,2020-03-22 14:22:10.804,41193338-3d30-48c7-8559-7f0d9a51a63e,vi,how many people positive with Covid 19 in the world,en,0,0,0,0,0,0,0,0,,0,0,0
+1674,2020-03-23 09:48:03.232,4908294c-4ead-43d9-a5de-b8b6e2625338,en,When is the vaccine available,en,0,0,0,0,0,0,0,0,,0,0,0
+1676,2020-03-23 10:42:18.309,3a35c2d1-2fa2-4052-b470-c4768f3176b3,nb,When can I go to my cabin,en,0,0,0,0,0,0,0,1,can,1,0,0
+1681,2020-03-23 04:15:33.623,815c4207-ead9-4851-b509-931a51243aff,en,What is the difference between a bacteria and a virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1686,2020-03-22 01:27:35.259,a3032e99-ff0f-4481-897e-9d6f66fb784f,en,how much fever should i tolerate before going to the doctor,en,0,0,0,0,0,0,0,0,,0,0,0
+1688,2020-03-23 10:17:05.599,47afe213-b056-442e-b1af-2b4cd62fdf7e,fr,what is coronavirus,en,0,1,0,0,0,0,0,1,about,0,0,0
+1691,2020-03-22 22:43:53.677,5a090f7b-fb98-4cb2-a66b-cb0df1da8377,en,is it made by human or by nature,en,0,0,0,0,0,0,0,0,,0,0,0
+1693,2020-03-22 13:20:11.808,f7d3845d-078d-4e97-928c-fbd7a3b508c8,en,How does it take to recover from the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1696,2020-03-23 00:39:44.015,83b1549c-a83e-42a9-945a-9372ecc521de,en,If I was traveling abroad recently what should I do when coming back home,en,0,1,0,0,0,0,0,1,about,0,0,0
+1702,2020-03-22 11:44:02.868,f20aad66-6a33-4b9e-a153-a3e7dc6c3e26,en,How many cases of coronavirus in Madagascar,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1703,2020-03-22 11:12:37.412,61c83b3d-a930-47dc-ab83-5118cee03b84,en,To get an idea of how widespread the virus is why don t we simply test a random sample of people,en,0,0,0,0,0,0,1,1,test,0,0,0
+1704,2020-03-21 19:13:41.038,6bcfe004-73de-4f56-8ff0-dd66640fd022,en,What to do if I think I have covid 19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1706,2020-03-22 18:12:15.224,95a344d0-0b90-4d40-bcec-ff414c0011bb,pl,How deadly is the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1707,2020-03-22 15:11:55.129,240da2c0-b4a2-462d-af36-25e114d89d45,en,How is it transmitted,en,0,0,0,0,0,0,0,0,,0,0,0
+1708,2020-03-22 21:15:02.531,9a4d12a5-a1f1-410a-8870-a875a5e0b251,en,What are the symptoms I should feel if I am infected with Corona virus,en,1,0,0,0,1,0,0,2,infection,0,0,0
+1711,2020-03-22 11:14:44.094,db73fd7b-ca2f-4183-956f-b949e5ba4266,en,How many days does it take to see the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1716,2020-03-21 12:20:20.176,99e39e32-3b85-42c0-808d-98ca52701aa9,en,How long is this expected to last,en,0,0,0,0,0,0,0,0,,0,0,0
+1717,2020-03-22 11:50:40.141,710e23d7-7a6a-42ed-bd1b-526db8c8c2f8,en,What is the situation now in my country,en,0,0,0,0,0,0,0,0,,0,0,0
+1718,2020-03-22 20:44:40.589,b3923f7c-ea90-4af2-94c5-5ee8736975fd,ko,My COVID 19 test results are pending and my temperature reached 40C What should I do,en,0,1,0,0,0,0,1,2,test,0,0,0
+1722,2020-03-21 16:39:35.601,5bbdba4b-0188-4e6b-bc7b-4ffcacdc0732,en,I have asthma How at risk am I about the possibility of complications,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1725,2020-03-22 12:04:09.963,bbca283a-dbd7-462e-894f-ccc311231e12,en,My employer is not implementing social distancing or safety measures in my workplace What recourse do I have,en,0,0,0,0,0,1,0,2,nextsteps,0,0,1
+1729,2020-03-22 11:56:15.755,02909506-2fad-4062-bce6-cb73b87115a9,en,Can you see friends if you stick to the social distancing guidelines,en,0,0,0,0,0,0,0,1,isolation,0,0,1
+1735,2020-03-22 02:20:59.698,9159ddd8-f891-418b-8739-547e2433adce,en,How is the corona virus being spread,en,0,0,0,0,0,0,0,0,,0,0,0
+1736,2020-03-24 00:16:32.236,04d8887f-99ab-4148-a615-cfc89f9917e0,en,What are covid 19 test centres location in Montreal,en,0,0,0,0,0,0,1,1,test,0,0,0
+1739,2020-03-23 13:24:15.796,e04fe1c8-6500-4e8b-b387-3977dc24ffa7,en,How much the quarantine process has a positive impact on reducing contamination spread,en,0,0,0,0,0,0,0,0,,0,0,0
+1741,2020-03-22 11:33:45.522,ff357aeb-b1c5-4de8-b2a9-ee9b8fb7fd6c,en,What should you do if you dont have water and soap and sanitizer,en,0,0,0,0,0,0,0,0,,0,0,0
+1743,2020-03-22 12:18:33.806,af8daa2f-2609-4f7a-b0e4-0ea610116216,en,Why corona is so dangerous,en,0,0,0,0,0,0,0,0,,0,0,0
+1746,2020-03-21 13:39:10.941,d90b7754-a540-47f2-a90c-7cbc35def960,en,how many people died so far,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1747,2020-03-21 23:55:48.624,9db55dca-d1da-4831-bc81-f3f6c5766cee,en,Does covid transfer through air,en,0,0,0,0,0,0,0,0,,0,0,0
+1748,2020-03-21 20:51:11.012,d58351d3-4ab8-413e-a625-088df1cb2db5,en,how i can test if i have the diease,en,0,0,0,0,0,1,1,2,nextsteps,0,0,0
+1753,2020-03-22 13:52:52.016,85dc72f9-855b-4401-9f4f-5e95795c2d01,en,What is corona,en,0,1,0,0,0,0,0,1,about,0,0,0
+1756,2020-03-22 07:54:48.086,57b33f9c-7b7c-4c6d-9722-2698f9e5ec17,en,When having covid 19 What are the next possible symptoms for a 4 years old child,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1760,2020-03-23 17:19:33.459,95b3bca1-4e02-49bf-8eda-e7e65c6282e3,fr,Does Wearing gloves help,en,0,0,0,0,0,0,0,0,,0,0,0
+1765,2020-03-23 05:33:57.491,242209da-c598-4927-ba26-054e78df2b68,en,I am feeling itchy around my body Is it a symptom of covid,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1768,2020-03-23 20:22:49.156,7dec897c-85c1-48c7-8b6d-1cc9512fe9e2,en,How long after testing do you receive your COVID 19 results,en,0,0,0,0,0,0,1,1,test,0,0,0
+1772,2020-03-21 09:23:35.694,dfe10a97-9bf9-422f-8251-9e5149904d94,en,If I have diabetes am I at a higher risk,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1773,2020-03-21 21:39:35.52,0e6422b9-aaf8-46ec-8d2c-106fa7ec81af,en,is it dangerous to travel,en,0,0,0,0,0,0,0,0,,0,0,0
+1775,2020-03-22 19:29:26.696,e479e81f-506d-488f-bbfa-c1e7ce998ac5,en,Can I move in with family if we have all been symptom free for 14 days,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1779,2020-03-24 00:26:25.046,68213a11-eb9d-4bec-b4c3-73152f63d652,en,should I call to find out more it s the coughing and difficulty breathing and fatigue that worries me,en,0,0,0,0,0,0,0,0,,0,0,0
+1780,2020-03-21 17:06:43.62,1a9f855a-287d-4ef2-a398-3621bfab57b5,en,How contagious is the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1787,2020-03-23 19:58:42.785,ea3de551-6dff-488c-83b8-3d096d85f95e,en,what is this rainbow thing that people are talking about,en,0,0,0,0,0,0,0,0,,0,0,0
+1788,2020-03-21 12:53:58.425,66c7bd79-e62c-428a-adac-f69fb087691c,en,could we have done better,en,0,0,0,0,0,0,0,0,,0,0,0
+1794,2020-03-22 16:25:20.139,2423d5fd-2167-49da-8720-84f643754148,en,What is the death rate in South Carolina,en,0,0,1,0,0,0,0,1,cases,0,0,0
+1796,2020-03-23 19:50:42.505,b85d6888-d584-466b-b574-663aa411d2c2,en,I have a sore throat Is that a sign of Covid19,en,0,0,0,0,0,1,0,1,nextsteps,0,0,0
+1798,2020-03-22 20:03:53.185,28914ffd-2639-472a-828a-6352da947b8f,fr,Is it safe to take a walk outside with my child,en,0,0,0,0,0,0,0,0,,0,0,0
+1800,2020-03-22 23:46:13.483,8d6b6d24-dc70-40a3-bdcb-66af83cd8916,en,What is the likelihood of having covid if only showing one symptoms for example dry cough,en,1,1,0,0,0,0,0,2,symptom,0,0,0
+1801,2020-03-21 20:27:40.444,9b75dedf-19e7-4eb4-9ffd-5cec8f5752d3,en,What can we do to protect ourselves from COVID 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1802,2020-03-22 09:20:34.275,5c7817ec-a9dc-4bf4-af68-c88c3ab4cf67,en,Can you die from contracting covid,en,0,0,0,0,0,0,0,0,,0,0,0
+1803,2020-03-22 13:41:43.861,283caf34-28a4-40d1-8e39-344b1843cd33,en,Is it safe to jog run outside,en,0,0,0,0,0,0,0,0,,0,0,0
+1812,2020-03-23 03:20:47.588,86f5717c-8a5b-4216-bc67-583774f27a2e,en,How to stay safe,en,0,0,0,0,0,0,0,0,,0,0,0
+1813,2020-03-23 23:39:02.025,9fc506e4-92d2-47a6-947c-d705a8b2607b,en,How dangerous is the COV 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1814,2020-03-23 17:08:10.032,fcd76fea-c587-4a27-acc0-d319cc56c02c,en,How does covid 19 feel,en,0,0,0,0,0,0,0,0,,0,0,0
+1815,2020-03-22 03:12:45.292,c5a8ec79-cd48-4ca2-8854-66347187d566,en,From the infected worldwide population what will be the ratio of asymptomatic people,en,1,0,0,0,1,0,0,2,infection,0,0,0
+1817,2020-03-21 23:08:51.603,96e5bf45-a3e2-479b-af53-202773ea1b81,en,how painful will it be if I got the virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1819,2020-03-22 21:56:33.462,f753f60e-53cf-4e33-8acb-f024257b093f,en,Should I stay home,en,0,0,0,0,0,0,0,0,,0,0,0
+1821,2020-03-22 11:47:52.41,4857048b-dcf7-4ebc-84bb-ac60bdb3bd40,en,How can I protect myself,en,0,0,0,0,0,0,0,0,,0,0,0
+1822,2020-03-21 02:07:43.764,db5a20f9-6ce4-4c89-9833-f4fa5bb70b98,en,Does eating Oranges daily help to fight this virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1823,2020-03-19 14:08:51.894,04fd4b84-3015-492f-aa37-eacf6e432a70,en,If you start showing flu symptoms should you consult a doctor or stay home,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1825,2020-03-22 15:45:28.887,8f58eee6-91a0-4456-bf3e-e7bc55e70281,en,What s COVID 19,en,0,1,0,0,0,0,0,1,about,0,0,0
+1831,2020-03-22 13:27:59.037,c5de5397-fae3-40ce-9ef8-ff4051bb7aa3,en,should I worry about covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1832,2020-03-23 11:24:52.091,23a365e1-681f-420c-8255-fb64439014bb,en,What are the symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1834,2020-03-22 21:52:20.448,f7858d92-5f8a-408c-ba10-d99c25dd39bc,en,What is corona,en,0,1,0,0,0,0,0,1,about,0,0,0
+1838,2020-03-23 00:36:47.769,dc2db1f5-b33d-452f-b567-58d12d00c152,en,What are the top symptoms,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1845,2020-03-23 08:29:31.476,f4edeb32-2c89-4618-96bf-6cb899679883,en,How long do the symptoms of COVID 19 last for,en,1,0,0,0,0,0,0,1,symptom,0,0,0
+1846,2020-03-21 16:15:49.242,3eb07cc6-e9a7-40d0-9609-553a07823637,en,Is there a vaccine for corona virus,en,0,0,0,0,0,0,0,0,,0,0,0
+1847,2020-03-21 21:20:25.392,401332f7-58f8-4616-bb8d-59972ff0ee9c,en,Is the phlegm color suggestive of coronavirus,en,0,0,0,0,0,0,0,0,,0,0,0
+1848,2020-03-22 21:53:15.171,62c6892d-53f0-4aef-9239-401d321b7fd0,en,how many people related covid 19,en,0,0,0,0,0,0,0,0,,0,0,0
+1849,2020-03-23 16:00:05.992,7d1ff331-bc6d-4439-8447-723fdcde0709,en,How COVID 19 is infecting,en,0,0,0,0,0,0,0,0,,0,0,0
+1852,2020-03-22 13:33:58.827,1fc3566f-0b50-4b55-a2a6-8448e5fb5d15,en,If I cross someone on the street how are the chance to catch the virus,en,0,0,0,0,0,0,0,0,,0,0,0
