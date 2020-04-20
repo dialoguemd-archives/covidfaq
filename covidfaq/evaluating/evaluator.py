@@ -5,6 +5,8 @@ import json
 import logging
 import timeit
 
+import tqdm
+
 from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
@@ -22,7 +24,7 @@ def evaluate(model_to_evaluate, test_data):
     total = 0
 
     q_start = timeit.timeit()
-    for question, target in test_data['questions'].items():
+    for question, target in tqdm.tqdm(test_data['questions'].items()):
         prediction = model_to_evaluate.answer_question(question)
         if target == prediction:
             correct += 1
