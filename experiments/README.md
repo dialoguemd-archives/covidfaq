@@ -26,3 +26,6 @@ The purpose of different python notebooks is -
 1. `Topic Modelling` notebook contains experiments using topic distribution representation with different clustering methods. LSI and LDA are tried for generating topic distributions, and KMeans and Agglomerative clustering are tried on top of topic distribution representation.
 1. `LSA and AHC` notebook contains experiments using specifically LSA and AHC tried on 2 levels, one after another.
 1. `Pipeline` notebooks contain the experiments in a pipeline of rules followed by LSA and AHC for the data points that did not fall under the rules to look for clusters.
+
+
+(License : CC BY-NC)
