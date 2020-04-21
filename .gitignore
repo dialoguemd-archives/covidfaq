@@ -11,3 +11,4 @@
 .coverage
 **/rerank/model.zip
 *.ipynb_checkpoints
+*.~lock*
