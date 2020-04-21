@@ -36,4 +36,5 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
     def answer_question(self, question):
         q_emb = self.model.embed_question(question)
         logits = torch.mm(q_emb, self.p_embs.transpose(1, 0)).squeeze(0)
-        return self.indices[torch.argmax(logits)]
+        index_of_highest = torch.argmax(logits)
+        return self.indices[index_of_highest]
