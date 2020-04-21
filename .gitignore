@@ -10,3 +10,4 @@
 !**/covidfaq/scrape/PDF*
 .coverage
 **/rerank/model.zip
+*.ipynb_checkpoints
