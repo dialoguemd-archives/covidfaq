@@ -12,4 +12,4 @@
 **/rerank/model.zip
 *.ipynb_checkpoints
 *.~lock*
-*output*
+*/output/*
