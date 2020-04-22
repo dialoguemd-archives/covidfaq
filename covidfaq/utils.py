@@ -63,7 +63,9 @@ def get_es_client():
     conf = config.get()
 
     return Elasticsearch(
-        [{"host": conf.elastic_search_host, "port": conf.elastic_search_port}],
+        [{"host": conf.elastic_search_host, "port": conf.elastic_search_port,}],
+        use_ssl=conf.elastic_search_use_ssl,
+        verify_certs=conf.elastic_search_verify_certs,
     )
 
 
