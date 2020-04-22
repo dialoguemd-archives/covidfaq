@@ -7,7 +7,7 @@ class Config(BaseSettings):
     elastic_search_host: str = "faq-master"
     elastic_search_port: int = 9200
     elastic_search_use_ssl: bool = False
-    elastic_search_verify_certs: bool = True
+#     elastic_search_verify_certs: bool = True
 
     class Config:
         env_prefix = ""
