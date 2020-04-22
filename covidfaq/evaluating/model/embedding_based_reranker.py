@@ -5,7 +5,6 @@ from bert_reranker.models.load_model import load_model
 from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
 from yaml import load
-import pytorch_lightning as pl
 
 from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluationInterface
 
@@ -44,7 +43,10 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
 
     def answer_question(self, question):
         q_emb = self.model.embed_question(question)
-        logits = torch.mm(q_emb, self.p_embs.transpose(1, 0)).squeeze(0)
-        scores = torch.sigmoid(logits)
-        index_of_highest = torch.argmax(scores)
+
+        relevance_scores = torch.matmul(q_emb, self.p_embs.squeeze(0).T).squeeze(0)
+
+        rerank_index = torch.argsort(-relevance_scores)
+        index_of_highest = rerank_index[0].detach().cpu()
+
         return self.indices[index_of_highest]
