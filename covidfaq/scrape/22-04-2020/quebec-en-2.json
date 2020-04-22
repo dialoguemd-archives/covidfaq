@@ -1,0 +1,160 @@
+{
+    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+    "Symptoms and treatment": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Symptoms and treatment",
+            "",
+            ""
+        ],
+        "title": "Symptoms and treatment",
+        "plaintext": [
+            "The main symptoms of COVID‑19 are as follows:",
+            "fever: \tin children: 38°C (100.4°F) and above (rectal temperature),in adults: 38°C (100.4°F) and above (oral temperature),in older adults: 37.8°C (100°F) and above (oral temperature),or 1.1°C above the person's usual value;a new cough or a cough that gets worse;difficulty breathing;",
+            "or",
+            "sudden loss of sense of smell without nasal congestion, with or without loss of taste.",
+            "The symptoms can be mild and similar to cold symptoms. They can also be more severe, like those associated with pneumonia and respiratory failure.",
+            "People most at risk of dying from complications are those:",
+            "with a weak immune system;with a chronic disease such as diabetes or heart, lung and kidney disease;age 70 and older.",
+            "However, the risk of death is highest for people aged 70 and older.",
+            "Development of symptoms",
+            "Québec residents who develop symptoms (fever, a new cough or a cough that gets worse, respiratory difficulties or sudden loss of sense of smell without nasal congestion, with or without loss of taste) when they return from a trip outside of Canada must contact 1 877 644‑4545. As needed, the caseworker will tell them what institution to visit for a check-up. If a consultation is required, it is important for residents to inform the health care facility about their travel history before they go to the facility so that the necessary preventive measures can be taken. Resident can also assess their symptoms using the COVID-19 Symptom Self-Assessment Tool  on the Government of Canada website.",
+            "Stress, anxiety and depression",
+            "In the context of a pandemic, many people will experience stress, anxiety and depression reactions. To help you minimize the repercussions of these kinds of reactions on your life, see the Stress, Anxiety and Depression Associated With the Coronavirus COVID‑19 Diseasev.",
+            "Treatment",
+            "There is no specific treatment or vaccine for COVID-19. Supportive treatment may, however, be provided.",
+            "Most people with COVID-19 will recover on their own."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The main symptoms of COVID‑19 are as follows:\n </p>\n <ul>\n  <li>\n   fever:\n   <ul>\n    <li>\n     in children: 38°C (100.4°F) and above (rectal temperature),\n    </li>\n    <li>\n     in adults: 38°C (100.4°F) and above (oral temperature),\n    </li>\n    <li>\n     in older adults: 37.8°C (100°F) and above (oral temperature),\n    </li>\n    <li>\n     or 1.1°C above the person's usual value;\n    </li>\n   </ul>\n  </li>\n  <li>\n   a new cough or a cough that gets worse;\n  </li>\n  <li>\n   difficulty breathing;\n  </li>\n </ul>\n <p>\n  or\n </p>\n <ul>\n  <li>\n   <p>\n    sudden loss of sense of smell without nasal congestion, with or without loss of taste.\n   </p>\n  </li>\n </ul>\n <p>\n  The symptoms can be mild and similar to cold symptoms. They can also be more severe, like those associated with pneumonia and respiratory failure.\n </p>\n <p>\n  People most at risk of dying from complications are those:\n </p>\n <ul>\n  <li>\n   with a weak immune system;\n  </li>\n  <li>\n   with a chronic disease such as diabetes or heart, lung and kidney disease;\n  </li>\n  <li>\n   age 70 and older.\n  </li>\n </ul>\n <p>\n  However, the risk of death is highest for people aged 70 and older.\n </p>\n <h3>\n  Development of symptoms\n </h3>\n <p>\n  Québec residents who develop symptoms (\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n   fever\n  </a>\n  , a new cough or a cough that gets worse, respiratory difficulties or sudden loss of sense of smell without nasal congestion, with or without loss of taste) when they return from a trip outside of Canada must contact\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644‑4545\n  </a>\n  . As needed, the caseworker will tell them what institution to visit for a check-up. If a consultation is required, it is important for residents to inform the health care facility about their travel history before they go to the facility so that the necessary preventive measures can be taken. Resident can also assess their symptoms using the\n  <a href=\"https://ca.thrive.health/covid19/en\" target=\"_blank\">\n   COVID-19 Symptom Self-Assessment Tool\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  on the Government of Canada website.\n </p>\n <h3>\n  Stress, anxiety and depression\n </h3>\n <p>\n  In the context of a pandemic, many people will experience stress, anxiety and depression reactions. To help you minimize the repercussions of these kinds of reactions on your life, see the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/\">\n   Stress, Anxiety and Depression Associated With the Coronavirus COVID‑19 Diseasev\n  </a>\n  .\n </p>\n <h3>\n  Treatment\n </h3>\n <p>\n  There is no specific treatment or vaccine for COVID-19. Supportive treatment may, however, be provided.\n </p>\n <p>\n  Most people with COVID-19 will recover on their own.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Modes of transmission": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Modes of transmission",
+            "",
+            ""
+        ],
+        "title": "Modes of transmission",
+        "plaintext": [
+            "COVID‑19 is spread from person to person by contact with droplets projected into the air when a person who is sick talks, coughs or sneezes. It can also be spread by infected hands. This means that you can contract a coronavirus by touching your mouth, nose or eyes after contact with an infected person or surface. While it can be spread by contaminated objects or surfaces, this is not the main mode of transmission. The virus can also be spread through an infected person’s stool.",
+            "The exact mode of transmission of COVID‑19 is unknown at this time. However, a person with COVID‑19 is thought to be contagious from 48 hours before their symptoms appear. Studies are ongoing.",
+            "In general, coronaviruses do not survive for long on objects. They can survive for around 3 hours on inert objects with dry surfaces and for around 6 days on inert objects with wet surfaces.",
+            "In Québec, there is no evidence to suggest that people are at risk of contracting COVID‑19 from animals or animal products."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  COVID‑19 is spread from person to person by contact with droplets projected into the air when a person who is sick talks, coughs or sneezes. It can also be spread by infected hands. This means that you can contract a coronavirus by touching your mouth, nose or eyes after contact with an infected person or surface. While it can be spread by contaminated objects or surfaces, this is not the main mode of transmission. The virus can also be spread through an infected person’s stool.\n </p>\n <p>\n  The exact mode of transmission of COVID‑19 is unknown at this time. However, a person with COVID‑19 is thought to be contagious from 48 hours before their symptoms appear. Studies are ongoing.\n </p>\n <p>\n  In general, coronaviruses do not survive for long on objects. They can survive for\n  <strong>\n   around 3 hours\n  </strong>\n  on inert objects with dry surfaces and for\n  <strong>\n   around 6 days\n  </strong>\n  on inert objects with wet surfaces.\n </p>\n <p>\n  In Québec, there is no evidence to suggest that people are at risk of contracting COVID‑19 from animals or animal products.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Health recommendations for everyone": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Health recommendations for everyone",
+            "",
+            ""
+        ],
+        "title": "Health recommendations for everyone",
+        "plaintext": [
+            "Anyone who has visited any public must monitor themselves for symptoms and follow health recommendations :",
+            "Wash your hands often with soap under warm running water for at least 20 seconds.Use an alcohol-based hand rub if soap and water are not available.Practice proper cough and sneeze etiquette: \tCover your mouth and nose with your arm to reduce the spread of germs.If you use a tissue, dispose of it as soon as possible and wash your hands afterwards.If you are sick, avoid contact with more vulnerable people, including older adults and people with a weak immune system or a chronic disease.Avoid direct contact when you greet someone, such as shaking hands, and use alternative ways to greet people.If you must go out, stay at least 2 metres (around 6 feet) away from people who do not live in your household.",
+            "Every individual has their part to play to reduce the risk of spreading viruses. See the Preventing transmission of viruses and bacteria.",
+            "Masks are not an effective means of protection for the general public. Their use is indicated more for patients who are suspected of being infected and for the health professionals who are providing care for them. You can watch the message from Dr. Horacio Arruda  (French only), Québec Director of Public Health, on the topic.",
+            "If you are worried or anxious about the coronavirus, you can contact the toll-free line 1 877 644-4545. To help you minimize the repercussions of these kinds of reactions on your life, see the Stress, Anxiety and Depression Associated With the Coronavirus COVID-19 Disease."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Anyone who has visited any public must monitor themselves for symptoms and follow health recommendations :\n </p>\n <ul>\n  <li>\n   <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/washing-hands/#c771\">\n    Wash your hands\n   </a>\n   often with soap under warm running water for at least 20 seconds.\n  </li>\n  <li>\n   Use an alcohol-based hand rub if soap and water are not available.\n  </li>\n  <li>\n   Practice proper cough and sneeze etiquette:\n   <ul>\n    <li>\n     Cover your mouth and nose with your arm to reduce the spread of germs.\n    </li>\n    <li>\n     If you use a tissue, dispose of it as soon as possible and wash your hands afterwards.\n    </li>\n   </ul>\n  </li>\n  <li>\n   If you are sick, avoid contact with more vulnerable people, including older adults and people with a weak immune system or a chronic disease.\n  </li>\n  <li>\n   Avoid direct contact when you greet someone, such as shaking hands, and use alternative ways to greet people.\n  </li>\n  <li>\n   If you must go out, stay at least 2 metres (around 6 feet) away from people who do not live in your household.\n  </li>\n </ul>\n <p>\n  Every individual has their part to play to reduce the risk of spreading viruses. See the\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/preventing-transmission-of-viruses-and-bacteria/#c845\">\n   Preventing transmission of viruses and bacteria\n  </a>\n  .\n </p>\n <p>\n  Masks are not an effective means of protection for the general public. Their use is indicated more for patients who are suspected of being infected and for the health professionals who are providing care for them. You can\n  <a href=\"https://www.youtube.com/watch?v=cBeBM-4toJE&amp;feature=youtu.be\" target=\"_blank\">\n   watch the message from Dr. Horacio Arruda\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  (French only), Québec Director of Public Health, on the topic.\n </p>\n <p>\n  If you are worried or anxious about the coronavirus, you can contact the toll-free line\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  . To help you minimize the repercussions of these kinds of reactions on your life, see the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/\">\n   Stress, Anxiety and Depression Associated With the Coronavirus COVID-19 Disease\n  </a>\n  .\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Self-isolating instructions": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Self-isolating instructions",
+            "",
+            ""
+        ],
+        "title": "Self-isolating instructions",
+        "plaintext": [
+            "Please note that these confinement instructions may apply, depending on the situation. It is essential to abide at all times by the instructions.",
+            "Procedure to Follow for People Waiting For A COVID-19 Test or Test Result (PDF 366 Kb)",
+            "Procedure to Follow for People Who Have Been In Contact with a Case of COVID-19 (PDF 367 Kb)",
+            "Procedure to Follow for People with COVID-19 in Isolation at Home (PDF 370 Kb)",
+            "Procedure to Follow on Return Home from Abroad (PDF 395 Kb)",
+            "Procedure to Follow for People With COVID-19 Symptoms (PDF 370 Kb)"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Please note that these confinement instructions may apply, depending on the situation. It is essential to abide at all times by the instructions.\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-20WA_consignes-malade-attente-test_anglais.pdf?1586885717\" target=\"_blank\">\n   Procedure to Follow for People Waiting For A COVID-19 Test or Test Result\n   <span class=\"infoFichier\">\n    (PDF 366 Kb)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-18WA_consignes-personne-identifiee-contact_anglais.pdf?1586885717\" target=\"_blank\">\n   Procedure to Follow for People Who Have Been In Contact with a Case of COVID-19\n   <span class=\"infoFichier\">\n    (PDF 367 Kb)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-17WA_consignes-personne-atteinte-isolement-maison_anglais.pdf?1586885716\" target=\"_blank\">\n   Procedure to Follow for People with COVID-19 in Isolation at Home\n   <span class=\"infoFichier\">\n    (PDF 370 Kb)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-19WA_consignes-retour-pays-etranger_anglais.pdf?1586885718\" target=\"_blank\">\n   Procedure to Follow on Return Home from Abroad\n   <span class=\"infoFichier\">\n    (PDF 395 Kb)\n   </span>\n  </a>\n </p>\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-53WA-consignes-personne-symptomes-anglais.pdf?1587167680\">\n   Procedure to Follow for People With COVID-19 Symptoms\n   <span class=\"infoFichier\">\n    (PDF 370 Kb)\n   </span>\n  </a>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Related": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Related",
+            "",
+            ""
+        ],
+        "title": "Related",
+        "plaintext": [
+            "Coronavirus disease (COVID-19) in Québec",
+            "Answers to questions about Coronavirus (COVID-19)",
+            "How to recognize a reliable source of information on health",
+            "Self-Care Guide - COVID-19 - Revised edition March 30, 2020"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n   Coronavirus disease (COVID-19) in Québec\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/\">\n   Answers to questions about Coronavirus (COVID-19)\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/how-to-recognize-a-reliable-source-of-information-on-health/\">\n   How to recognize a reliable source of information on health\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n   Self-Care Guide - COVID-19 - Revised edition March 30, 2020\n  </a>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Comments": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Comments",
+            "",
+            ""
+        ],
+        "title": "Comments",
+        "plaintext": [
+            "You have questions or require additional information?",
+            "Please contact Services Québec"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  You have questions or require additional information?\n </h3>\n <p>\n  <a href=\"/en/how-to-reach-us/\">\n   Please contact Services Québec\n  </a>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "You have questions or require additional information?": {
+        "nested_title": [
+            "\n                                            General information about coronavirus disease (COVID-19)\n                                        ",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
+        "title": "You have questions or require additional information?",
+        "plaintext": [
+            "You have questions or require additional information?",
+            "Please contact Services Québec"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  You have questions or require additional information?\n </h3>\n <p>\n  <a href=\"/en/how-to-reach-us/\">\n   Please contact Services Québec\n  </a>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/informations-generales-sur-le-coronavirus/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    }
+}

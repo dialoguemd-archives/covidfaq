@@ -1,0 +1,212 @@
+{
+    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+    "Number of confirmed cases by region": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Number of confirmed cases by region",
+            ""
+        ],
+        "title": "Number of confirmed cases by region",
+        "plaintext": [
+            "RegionsNumber of confirmed cases, on April 21, 1:15 p.m.Source: Québec's public health departments, compilation by INSPQ, April 20, 2020, 6 p.m.01 - Bas-Saint-Laurent3402 - Saguenay – Lac-Saint-Jean24403 - Capitale-Nationale63004 - Mauricie-et-Centre-du-Québec1 01505 - Estrie79406 - Montréal9 34807 - Outaouais21908 - Abitibi-Témiscamingue14809 - Côte-Nord11110 - Nord-du-Québec711 - Gaspésie-Îles-de-la-Madeleine13812 - Chaudière-Appalaches34113 - Laval2 19914 - Lanaudière1 46215 - Laurentides90616 - Montérégie2 51117 - Nunavik1418 - Terres-Cries-de-la-Baie-James5Outside Quebec0Region to be determined0Total20 126"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <div class=\"tableauOverflow\">\n  <table class=\"contenttable\">\n   <thead>\n    <tr>\n     <th class=\"align-top\">\n      <p>\n       Regions\n      </p>\n     </th>\n     <th>\n      <p class=\"texteCentre\">\n       Number of confirmed cases, on April 21, 1:15 p.m.\n      </p>\n     </th>\n    </tr>\n   </thead>\n   <tfoot>\n    <tr>\n     <td colspan=\"2\">\n      <p>\n       Source: Québec's public health departments, compilation by INSPQ, April 20, 2020, 6 p.m.\n      </p>\n     </td>\n    </tr>\n   </tfoot>\n   <tbody>\n    <tr>\n     <td>\n      <p>\n       01 - Bas-Saint-Laurent\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       34\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       02 - Saguenay – Lac-Saint-Jean\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       244\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       03 - Capitale-Nationale\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       630\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       04 - Mauricie-et-Centre-du-Québec\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       1 015\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       05 - Estrie\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       794\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       06 - Montréal\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       9 348\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       07 - Outaouais\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       219\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       08 - Abitibi-Témiscamingue\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       148\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       09 - Côte-Nord\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       111\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       10 - Nord-du-Québec\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       7\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       11 - Gaspésie-Îles-de-la-Madeleine\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       138\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       12 - Chaudière-Appalaches\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       341\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       13 - Laval\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       2 199\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       14 - Lanaudière\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       1 462\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       15 - Laurentides\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       906\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       16 - Montérégie\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       2 511\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       17 - Nunavik\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       14\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       18 - Terres-Cries-de-la-Baie-James\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       5\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Outside Quebec\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Region to be determined\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Total\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       20 126\n      </p>\n     </td>\n    </tr>\n   </tbody>\n  </table>\n </div>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Percentage of confirmed cases by age group": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Percentage of confirmed cases by age group",
+            ""
+        ],
+        "title": "Percentage of confirmed cases by age group",
+        "plaintext": [
+            "Age group% of confirmed casesSource: Infocentre of Institut national de santé publique du Québec, laboratories data (April 20, 2020).0-9 years0.910-19 years2.420-29 years11.130-39 years13.040-49 years16.450-59 years15.460-69 years10.270-79 years9.080-89 years12.890 years or more9.0Age to be determined0.0"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <div class=\"tableauOverflow\">\n  <table class=\"contenttable\">\n   <thead>\n    <tr>\n     <th>\n      <p>\n       Age group\n      </p>\n     </th>\n     <th>\n      <p>\n       % of confirmed cases\n      </p>\n     </th>\n    </tr>\n   </thead>\n   <tfoot>\n    <tr>\n     <td colspan=\"2\">\n      <p>\n       Source: Infocentre of Institut national de santé publique du Québec, laboratories data (April 20, 2020).\n      </p>\n     </td>\n    </tr>\n   </tfoot>\n   <tbody>\n    <tr>\n     <td>\n      <p>\n       0-9 years\n      </p>\n     </td>\n     <td>\n      <p>\n       0.9\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       10-19 years\n      </p>\n     </td>\n     <td>\n      <p>\n       2.4\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       20-29 years\n      </p>\n     </td>\n     <td>\n      <p>\n       11.1\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       30-39 years\n      </p>\n     </td>\n     <td>\n      <p>\n       13.0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       40-49 years\n      </p>\n     </td>\n     <td>\n      <p>\n       16.4\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       50-59 years\n      </p>\n     </td>\n     <td>\n      <p>\n       15.4\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       60-69 years\n      </p>\n     </td>\n     <td>\n      <p>\n       10.2\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       70-79 years\n      </p>\n     </td>\n     <td>\n      <p>\n       9.0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       80-89 years\n      </p>\n     </td>\n     <td>\n      <p>\n       12.8\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       90 years or more\n      </p>\n     </td>\n     <td>\n      <p>\n       9.0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Age to be determined\n      </p>\n     </td>\n     <td>\n      <p>\n       0.0\n      </p>\n     </td>\n    </tr>\n   </tbody>\n  </table>\n </div>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Number of people under investigation, negative and confirmed cases": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Number of people under investigation, negative and confirmed cases",
+            ""
+        ],
+        "title": "Number of people under investigation, negative and confirmed cases",
+        "plaintext": [
+            "People under investigation1: 2 970Negative cases2: 151 394Confirmed cases2: 20 126",
+            "1: Daily data. Source: Infocentre de santé publique, April 20, 2020, 6 p.m.",
+            "2: Cumulative data. Source: Infocentre de santé publique (LSPQ and supraregional laboratories), April 20, 2020, 6 p.m."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   People under investigation\n   <sup>\n    1\n   </sup>\n   : 2 970\n  </li>\n  <li>\n   Negative cases\n   <sup>\n    2\n   </sup>\n   : 151 394\n  </li>\n  <li>\n   Confirmed cases\n   <sup>\n    2\n   </sup>\n   : 20 126\n  </li>\n </ul>\n <p>\n  1: Daily data. Source: Infocentre de santé publique, April 20, 2020, 6 p.m.\n </p>\n <p>\n  2: Cumulative data. Source: Infocentre de santé publique (LSPQ and supraregional laboratories), April 20, 2020, 6 p.m.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Number of hospitalizations": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Number of hospitalizations",
+            ""
+        ],
+        "title": "Number of hospitalizations",
+        "plaintext": [
+            "Number of regular hospitalizations: 1 023Number in intensive care: 201Total number of hospitalizations1: 1 224",
+            "1: Daily data. Source: Preliminary transmissions by MED-ÉCHO, data reported by hospitals on April 20, 2020, 5 p.m.",
+            "Note: A patient who has been in regular care and in intensive care on the same day is counted as being in intensive care."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   Number of regular hospitalizations: 1 023\n  </li>\n  <li>\n   Number in intensive care: 201\n  </li>\n  <li>\n   Total number of hospitalizations\n   <sup>\n    1\n   </sup>\n   : 1 224\n  </li>\n </ul>\n <p>\n  1: Daily data. Source: Preliminary transmissions by MED-ÉCHO, data reported by hospitals on April 20, 2020, 5 p.m.\n </p>\n <p>\n  Note: A patient who has been in regular care and in intensive care on the same day is counted as being in intensive care.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Number of deaths by region": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Number of deaths by region",
+            ""
+        ],
+        "title": "Number of deaths by region",
+        "plaintext": [
+            "RegionsNumber of deaths, on April 21, 1:15 p.m.(Source: Public health departments of Québec, compilation by INSPQ, April 20, 2020, 6 p.m.)01 - Bas-Saint-Laurent102 - Saguenay – Lac-Saint-Jean1203 - Capitale-Nationale3204 - Mauricie-et-Centre-du-Québec6905 - Estrie2206 - Montréal58307 - Outaouais108 - Abitibi-Témiscamingue209 - Côte-Nord010 - Nord-du-Québec011 - Gaspésie-Îles-de-la-Madeleine612 - Chaudière-Appalaches713 - Laval18614 - Lanaudière4615 - Laurentides1016 - Montérégie5917 - Nunavik018 - Terres-Cries-de-la-Baie-James0Outside Quebec0Region to be determined5Total1 041"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <div class=\"tableauOverflow\">\n  <table class=\"contenttable\">\n   <thead>\n    <tr>\n     <th class=\"align-top\">\n      <p>\n       Regions\n      </p>\n     </th>\n     <th>\n      <p class=\"texteCentre\">\n       Number of deaths, on April 21, 1:15 p.m.\n      </p>\n     </th>\n    </tr>\n   </thead>\n   <tfoot>\n    <tr>\n     <td colspan=\"2\">\n      <p>\n       (Source: Public health departments of Québec, compilation by INSPQ, April 20, 2020, 6 p.m.)\n      </p>\n     </td>\n    </tr>\n   </tfoot>\n   <tbody>\n    <tr>\n     <td>\n      <p>\n       01 - Bas-Saint-Laurent\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       1\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       02 - Saguenay – Lac-Saint-Jean\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       12\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       03 - Capitale-Nationale\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       32\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       04 - Mauricie-et-Centre-du-Québec\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       69\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       05 - Estrie\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       22\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       06 - Montréal\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       583\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       07 - Outaouais\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       1\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       08 - Abitibi-Témiscamingue\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       2\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       09 - Côte-Nord\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       10 - Nord-du-Québec\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       11 - Gaspésie-Îles-de-la-Madeleine\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       6\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       12 - Chaudière-Appalaches\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       7\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       13 - Laval\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       186\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       14 - Lanaudière\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       46\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       15 - Laurentides\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       10\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       16 - Montérégie\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       59\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       17 - Nunavik\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       18 - Terres-Cries-de-la-Baie-James\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Outside Quebec\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Region to be determined\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       5\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Total\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       1 041\n      </p>\n     </td>\n    </tr>\n   </tbody>\n  </table>\n </div>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Distribution of deaths by age group": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Distribution of deaths by age group",
+            ""
+        ],
+        "title": "Distribution of deaths by age group",
+        "plaintext": [
+            "Age group% of deaths(Source : V10, MSSS, April 20, 2020, 6 p.m.)Under 30 years030-39 years0.340-49 years0.550-59 years1.760-69 years7.270-79 years18.380-89 years42.190 years and more29.5Age to be determined0.5"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <div class=\"tableauOverflow\">\n  <table class=\"contenttable\">\n   <thead>\n    <tr>\n     <th class=\"align-top\">\n      <p>\n       Age group\n      </p>\n     </th>\n     <th>\n      <p class=\"texteCentre\">\n       % of deaths\n      </p>\n     </th>\n    </tr>\n   </thead>\n   <tfoot>\n    <tr>\n     <td colspan=\"2\">\n      <p>\n       (Source : V10, MSSS, April 20, 2020, 6 p.m.)\n      </p>\n     </td>\n    </tr>\n   </tfoot>\n   <tbody>\n    <tr>\n     <td>\n      <p>\n       Under 30 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       30-39 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0.3\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       40-49 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0.5\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       50-59 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       1.7\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       60-69 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       7.2\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       70-79 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       18.3\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       80-89 years\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       42.1\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       90 years and more\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       29.5\n      </p>\n     </td>\n    </tr>\n    <tr>\n     <td>\n      <p>\n       Age to be determined\n      </p>\n     </td>\n     <td>\n      <p class=\"texteCentre\">\n       0.5\n      </p>\n     </td>\n    </tr>\n   </tbody>\n  </table>\n </div>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Situation in living environments for the elderly and vulnerable": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Situation in Québec",
+            "Situation in living environments for the elderly and vulnerable",
+            ""
+        ],
+        "title": "Situation in living environments for the elderly and vulnerable",
+        "plaintext": [
+            "Consult the document (PDF 146 Kb) (in French only)."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/Tableau-milieux-de-vie-COVID-19.pdf?1587405603\">\n   Consult the document\n   <span class=\"infoFichier\">\n    (PDF 146 Kb)\n   </span>\n  </a>\n  (in French only).\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Scenarios for the evolution of COVID-19": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Scenarios for the evolution of COVID-19",
+            "",
+            ""
+        ],
+        "title": "Scenarios for the evolution of COVID-19",
+        "plaintext": [
+            "On April 13, 2020, the Gouvernement du Québec has updated scenarios of the evolution of COVID-19 (PDF 824 Kb), which present projections of the number of possible cases, active hospitalizations and hospitalizations in intensive care.",
+            "The information presented in the document seeks to highlight the potential impact of COVID-19’s spread and the importance of abiding by the recommended confinement and physical distancing instructions."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  On April 13, 2020, the Gouvernement du Québec has updated\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/COVID_potential_scenarios.pdf?1586293655\">\n   scenarios of the evolution of COVID-19\n   <span class=\"infoFichier\">\n    (PDF 824 Kb)\n   </span>\n  </a>\n  , which present projections of the number of possible cases, active hospitalizations and hospitalizations in intensive care.\n </p>\n <p>\n  The information presented in the document seeks to highlight the potential impact of COVID-19’s spread and the importance of abiding by the recommended confinement and physical distancing instructions.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Measures adopted by Orders in Council and Ministerial Orders": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Measures adopted by Orders in Council and Ministerial Orders",
+            "",
+            ""
+        ],
+        "title": "Measures adopted by Orders in Council and Ministerial Orders",
+        "plaintext": [
+            "The Gouvernement du Québec has signed Orders in Council and Ministerial Orders related to COVID-19.",
+            "The adoption, on March 13, 2020, of an Order in Council declaring a health emergency throughout Québec territory (PDF 19.36 Kb) (in French only), on March 20, 2020, of an Order in Council declaring renewal of the public health emergency throughout Québec territory (PDF 52 Kb), on March 29, 2020, of an Order in Council declaring renewal of the public health emergency throughout Québec territory (PDF 24 Kb), on April 7, 2020, of an Order in Council declaring renewal of the public health emergency throughout Québec territory (PDF 21 Kb) and, on April 15, 2020, of an Order in Council declaring renewal of the public health emergency throughout Québec territory (PDF 26 Kb).",
+            "This exceptional measure will, by way of an example, enable the Ministère de la Santé et des Services sociaux and establishments to prompotly purchase equipment or conclude the necessary contracts to protect the health of the population:",
+            "Order No. 2020-003 of the Minister of Health and Social Services issued on March 14, 2020 (byelection) (PDF 13.67 Kb);Order No. 2020-004 of the Minister of Health and Social Services issued on March 15, 2020 (PDF 82 Kb);Order No. 2020-005 of the Minister of Health and Social Services issued on March 17, 2020 (PDF 72 Kb);Order No. 2020-006 of the Minister of Health and Social Services issued on March 19, 2020 (PDF 30 Kb);Order No. 2020-007 of the Minister of Health and Social Services issued on March 21, 2020 (PDF 24 Kb);Order No. 2020-008 of the Minister of Health and Social Services issued on March 22, 2020 (PDF 39 Kb);Order No. 2020-009 of the Minister of Health and Social Services issued on March 23, 2020 (PDF 73 Kb);Order No. 2020-010 of the Minister of Health and Social Services issued on March 27, 2020 (PDF 160 Kb);Order No. 2020-011 of the Minister of Health and Social Services issued on March 28, 2020 (PDF 26 Kb);Order No. 2020-012 of the Minister of Health and Social Services issued on March 30, 2020 (PDF 119 Kb);Order No. 2020-013 of the Minister of Health and Social Services issued on April 1, 2020 (PDF 136 Kb);Order No. 2020-014 of the Minister of Health and Social Services issued on April 2, 2020 (PDF 125 Kb);Order No. 2020-015 of the Minister of Health and Social Services issued on April 4, 2020 (PDF 43 Kb);Order No. 2020-016 of the Minister of Health and Social Services issued on April 7, 2020 (PDF 21 Kb);Order No. 2020-017 of the Minister of Health and Social Services issued on April 8, 2020 (PDF 131 Kb);Order No. 2020-018 of the Minister of Health and Social Services issued on April 9, 2020 (PDF 73 Kb);Order No. 2020-019 of the Minister of Health and Social Services issued on April 10, 2020 (PDF 19.38 Kb);Order No. 2020-020 of the Minister of Health and Social Services issued on April 10, 2020 (PDF 20 Kb);Order No. 2020-021 of the Minister of Health and Social Services issued on April 14, 2020 (PDF 135 Kb);Order No. 2020-022 of the Minister of Health and Social Services issued on April 15, 2020 (PDF 156 Kb);Order No. 2020-023 of the Minister of Health and Social Services issued on April 17, 2020 (PDF 22 Kb);Order No. 2020-025 of the Minister of Health and Social Services issued on April 19, 2020 (PDF 22 Kb);Order No. 2020-026 of the Minister of Health and Social Services issued on April 20, 2020 (PDF 126 Kb).",
+            "The minimization of non-priority services and activities by the adoption of and Order in Concil 223-2020 (PDF 37 Kb)."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec has signed Orders in Council and Ministerial Orders related to COVID-19.\n </p>\n <p>\n  The adoption, on March 13, 2020, of an\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/decret-177-2020.pdf?1584224223\" target=\"_blank\">\n   Order in Council declaring a health emergency throughout Québec territory\n   <span class=\"infoFichier\">\n    (PDF 19.36 Kb)\n   </span>\n  </a>\n  (in French only), on March 20, 2020, of an\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/decret-222-2020-anglais.pdf?1584827459\" target=\"_blank\">\n   Order in Council declaring renewal of the public health emergency throughout Québec territory\n   <span class=\"infoFichier\">\n    (PDF 52 Kb)\n   </span>\n  </a>\n  , on March 29, 2020, of an\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/decret-388-2020-anglais.pdf?1585512705\" target=\"_blank\">\n   Order in Council declaring renewal of the public health emergency throughout Québec territory\n   <span class=\"infoFichier\">\n    (PDF 24 Kb)\n   </span>\n  </a>\n  , on April 7, 2020, of an\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/decret-418-2020-anglais.pdf?1586293884\">\n   Order in Council declaring renewal of the public health emergency throughout Québec territory\n   <span class=\"infoFichier\">\n    (PDF 21 Kb)\n   </span>\n  </a>\n  and, on April 15, 2020, of an\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/decret-460-2020-anglais.pdf?1586988086\">\n   Order in Council declaring renewal of the public health emergency throughout Québec territory\n   <span class=\"infoFichier\">\n    (PDF 26 Kb)\n   </span>\n  </a>\n  .\n </p>\n <p>\n  This exceptional measure will, by way of an example, enable the Ministère de la Santé et des Services sociaux and establishments to prompotly purchase equipment or conclude the necessary contracts to protect the health of the population:\n </p>\n <ul>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-003-anglais.pdf?1584475655\">\n    Order No. 2020-003 of the Minister of Health and Social Services issued on March 14, 2020 (byelection)\n    <span class=\"infoFichier\">\n     (PDF 13.67 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-004-anglais.pdf?1584475223\">\n    Order No. 2020-004 of the Minister of Health and Social Services issued on March 15, 2020\n    <span class=\"infoFichier\">\n     (PDF 82 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_2020-005-anglais.pdf?1584712047\">\n    Order No. 2020-005 of the Minister of Health and Social Services issued on March 17, 2020\n    <span class=\"infoFichier\">\n     (PDF 72 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-006-anglais.pdf?1584827459\">\n    Order No. 2020-006 of the Minister of Health and Social Services issued on March 19, 2020\n    <span class=\"infoFichier\">\n     (PDF 30 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-007-anglais.pdf?1585006721\" target=\"_blank\">\n    Order No. 2020-007 of the Minister of Health and Social Services issued on March 21, 2020\n    <span class=\"infoFichier\">\n     (PDF 24 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-008-anglais.pdf?1585010339\" target=\"_blank\">\n    Order No. 2020-008 of the Minister of Health and Social Services issued on March 22, 2020\n    <span class=\"infoFichier\">\n     (PDF 39 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-009-anglais.pdf?1585156281\" target=\"_blank\">\n    Order No. 2020-009 of the Minister of Health and Social Services issued on March 23, 2020\n    <span class=\"infoFichier\">\n     (PDF 73 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-010-anglais.pdf?1585487531\">\n    Order No. 2020-010 of the Minister of Health and Social Services issued on March 27, 2020\n    <span class=\"infoFichier\">\n     (PDF 160 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-011_anglais.pdf?1585448894\">\n    Order No. 2020-011 of the Minister of Health and Social Services issued on March 28, 2020\n    <span class=\"infoFichier\">\n     (PDF 26 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-012_anglais.pdf?1585617584\">\n    Order No. 2020-012 of the Minister of Health and Social Services issued on March 30, 2020\n    <span class=\"infoFichier\">\n     (PDF 119 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-013-anglais.pdf?1585753157\">\n    Order No. 2020-013 of the Minister of Health and Social Services issued on April 1, 2020\n    <span class=\"infoFichier\">\n     (PDF 136 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-014-anglais.pdf?1585915529\">\n    Order No. 2020-014 of the Minister of Health and Social Services issued on April 2, 2020\n    <span class=\"infoFichier\">\n     (PDF 125 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-015-anglais.pdf?1586042123\" target=\"_blank\">\n    Order No. 2020-015 of the Minister of Health and Social Services issued on April 4, 2020\n    <span class=\"infoFichier\">\n     (PDF 43 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero2020-016-anglais.pdf?1586302147\" target=\"_blank\">\n    Order No. 2020-016 of the Minister of Health and Social Services issued on April 7, 2020\n    <span class=\"infoFichier\">\n     (PDF 21 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-017-anglais.pdf?1586435994\" target=\"_blank\">\n    Order No. 2020-017 of the Minister of Health and Social Services issued on April 8, 2020\n    <span class=\"infoFichier\">\n     (PDF 131 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_2020-018_ang.pdf?1586521101\" target=\"_blank\">\n    Order No. 2020-018 of the Minister of Health and Social Services issued on April 9, 2020\n    <span class=\"infoFichier\">\n     (PDF 73 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_2020-019-anglais.pdf?1586606750\" target=\"_blank\">\n    Order No. 2020-019 of the Minister of Health and Social Services issued on April 10, 2020\n    <span class=\"infoFichier\">\n     (PDF 19.38 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_2020-020-anglais.pdf?1586613277\" target=\"_blank\">\n    Order No. 2020-020 of the Minister of Health and Social Services issued on April 10, 2020\n    <span class=\"infoFichier\">\n     (PDF 20 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-021-anglais.pdf?1586952805\" target=\"_blank\">\n    Order No. 2020-021 of the Minister of Health and Social Services issued on April 14, 2020\n    <span class=\"infoFichier\">\n     (PDF 135 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-022-anglais.pdf?1587039154\" target=\"_blank\">\n    Order No. 2020-022 of the Minister of Health and Social Services issued on April 15, 2020\n    <span class=\"infoFichier\">\n     (PDF 156 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-023_anglais.pdf?1587168754\" target=\"_blank\">\n    Order No. 2020-023 of the Minister of Health and Social Services issued on April 17, 2020\n    <span class=\"infoFichier\">\n     (PDF 22 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_2020-025-anglais.pdf?1587337326\" target=\"_blank\">\n    Order No. 2020-025 of the Minister of Health and Social Services issued on April 19, 2020\n    <span class=\"infoFichier\">\n     (PDF 22 Kb)\n    </span>\n   </a>\n   ;\n  </li>\n  <li>\n   <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/AM_numero_2020-026-anglais.pdf?1587471025\" target=\"_blank\">\n    Order No. 2020-026 of the Minister of Health and Social Services issued on April 20, 2020\n    <span class=\"infoFichier\">\n     (PDF 126 Kb)\n    </span>\n   </a>\n   .\n  </li>\n </ul>\n <p>\n  The\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/essential-services-commercial-activities-covid19/\">\n   minimization of non-priority services and activities\n  </a>\n  by the adoption of and\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/sante-services-sociaux/publications-adm/lois-reglements/Decret-223-2020-anglais.pdf?1585098577\" target=\"_blank\">\n   Order in Concil 223-2020\n   <span class=\"infoFichier\">\n    (PDF 37 Kb)\n   </span>\n  </a>\n  .\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "Comments": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Comments",
+            "",
+            ""
+        ],
+        "title": "Comments",
+        "plaintext": [
+            "You have questions or require additional information?",
+            "Please contact Services Québec"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  You have questions or require additional information?\n </h3>\n <p>\n  <a href=\"/en/how-to-reach-us/\">\n   Please contact Services Québec\n  </a>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    },
+    "You have questions or require additional information?": {
+        "nested_title": [
+            "\n                                            Situation of the coronavirus (COVID-19) in Québec",
+            "Comments",
+            "You have questions or require additional information?",
+            ""
+        ],
+        "title": "You have questions or require additional information?",
+        "plaintext": [
+            "You have questions or require additional information?",
+            "Please contact Services Québec"
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  You have questions or require additional information?\n </h3>\n <p>\n  <a href=\"/en/how-to-reach-us/\">\n   Please contact Services Québec\n  </a>\n </p>\n</div>",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+        "source": "quebec",
+        "language": "en",
+        "time": "2020-04-22 07:08:25.480614",
+        "type": "section"
+    }
+}
