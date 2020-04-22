@@ -62,7 +62,7 @@ def formatter(res_sec_txt):
         res_sec_list = []
         for sec in res_sec_txt:
             formatted_sec = {}
-            formatted_sec["sec_text"] = sec.get("content")
+            formatted_sec["sec_text"] = sec.get("plaintext")
             formatted_sec["sec_url"] = sec.get("url")
             res_sec_list.append(formatted_sec)
         formatted_data["sec_results"] = res_sec_list
