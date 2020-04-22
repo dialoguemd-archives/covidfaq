@@ -164,7 +164,7 @@ def extract_sections(url, info, cfg, translated=False):
         if not new_url:
             return [], []
         new_url = urljoin(url, new_url["href"])
-        info['url'] = new_url
+        info["url"] = new_url
         return extract_sections(new_url, info, cfg, True)
 
     log.info("scraping", urlkey=info["urlkey"], url=url)
