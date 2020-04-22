@@ -1,5 +1,5 @@
 {
-    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
+    "document_URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/",
     "Recommendations": {
         "nested_title": [
             "\n                                            Information for parents of children age 0 to 17 – coronavirus (COVID-19)\n                                        ",
@@ -17,10 +17,10 @@
             "To find out what to do when your child has a fever, go to the Fever section in the guide From Tiny Tot to Toddler: from pregnancy to age two ."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   Preventive measures\n  </a>\n  that apply to the general public also apply to children.\n </p>\n <p>\n  Even if their\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n   symptoms\n  </a>\n  are mild, children may be contagious.\n </p>\n <p>\n  <strong>\n   Call\n   <a href=\"tel:+1-877-644‑4545\">\n    1 877 644‑4545\n   </a>\n  </strong>\n  if your child has fever, new cough or cough that gets worse, difficulty breathing or sudden loss of sense of smell without nasal congestion, with or without loss of taste, and if any of the following situations apply:\n </p>\n <ul>\n  <li>\n   they returned from travelling less than 14 days ago;\n  </li>\n  <li>\n   they had contact with a person infected with the COVID‑19 virus.\n  </li>\n </ul>\n <p>\n  <strong>\n   See your doctor quickly or take your child to the emergency room\n  </strong>\n  if they are under 3 months of age and have a fever.\n </p>\n <p>\n  To find out what to do when your child has a fever, go to the\n  <a href=\"https://www.inspq.qc.ca/en/tiny-tot/health/common-health-problems/fever\" target=\"_blank\">\n   Fever section in the guide From Tiny Tot to Toddler: from pregnancy to age two\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Related": {
@@ -40,10 +40,10 @@
             "Les échanges de garde "
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n   Coronavirus disease (COVID-19) in Québec\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/\">\n   General information about coronavirus disease (COVID-19)\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/\">\n   Answers to questions about Coronavirus (COVID-19)\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-pregnant-women-coronavirus-covid-19/\">\n   Information for pregnant women – coronavirus (COVID-19)\n  </a>\n </p>\n <p>\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n   Self-Care Guide - COVID-19\n  </a>\n </p>\n <p>\n  <a href=\"https://www.justice.gouv.qc.ca/en/coronavirus/questions-reponses-garde-enfants/?fbclid=IwAR3KnyJXr6jaZbxG-254UjuCAdNQ5e2uFIzsFzVKFZsPVF6dDx_muSUlaOk\" target=\"_blank\">\n   Les échanges de garde\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Comments": {
@@ -59,10 +59,10 @@
             "Please contact Services Québec"
         ],
         "html": "<div class=\"ce-bodytext\">\n <h3>\n  You have questions or require additional information?\n </h3>\n <p>\n  <a href=\"/en/how-to-reach-us/\">\n   Please contact Services Québec\n  </a>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "You have questions or require additional information?": {
@@ -78,10 +78,10 @@
             "Please contact Services Québec"
         ],
         "html": "<div class=\"ce-bodytext\">\n <h3>\n  You have questions or require additional information?\n </h3>\n <p>\n  <a href=\"/en/how-to-reach-us/\">\n   Please contact Services Québec\n  </a>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/informations-pour-les-parents-d-enfants-de-0-a-17-ans-coronavirus-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/",
         "source": "quebec",
         "language": "en",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     }
 }

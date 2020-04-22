@@ -15,7 +15,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "À propos de la COVID-19": {
@@ -33,7 +33,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Consignes et directives": {
@@ -51,7 +51,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Écoles et services de garde": {
@@ -69,7 +69,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Soutien aux personnes": {
@@ -87,7 +87,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Entreprises et main-d’œuvre": {
@@ -99,14 +99,14 @@
         ],
         "title": "Entreprises et main-d’œuvre",
         "plaintext": [
-            "NouveauBesoins urgents de main-d’œuvreServices et activités prioritairesChangements aux heures et aux jours d’ouverture des services prioritaires  Favoriser l’achat local avec LePanierBleu.ca Recommandations pour les établissements alimentaires",
+            "NouveauBesoins urgents de main-d’œuvreServices et activités prioritairesChangements aux heures et aux jours d’ouverture des services prioritaires  Favoriser l’achat local avec LePanierBleu.ca Recommandations pour les établissements",
             "Voir la section"
         ],
-        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <span class=\"nouveau\">\n    Nouveau\n   </span>\n   <a href=\"/emploi/offres-d-emploi/besoins-urgents-covid-19/\">\n    Besoins urgents de main-d’œuvre\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/\">\n    Services et activités prioritaires\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.economie.gouv.qc.ca/bibliotheques/conformite/loi-sur-les-heures-et-les-jours-dadmission-dans-les-etablissements-commerciaux/\" target=\"_blank\">\n    Changements aux heures et aux jours d’ouverture des services prioritaires\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"https://lepanierbleu.ca/\" target=\"_blank\">\n    Favoriser l’achat local avec LePanierBleu.ca\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/#c53180\">\n    Recommandations pour les établissements alimentaires\n   </a>\n  </li>\n </ul>\n <p>\n  <a class=\"flecheDroiteRTE\" href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/entreprises-maindoeuvre-covid19/\">\n   Voir la section\n  </a>\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   <span class=\"nouveau\">\n    Nouveau\n   </span>\n   <a href=\"/emploi/offres-d-emploi/besoins-urgents-covid-19/\">\n    Besoins urgents de main-d’œuvre\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/\">\n    Services et activités prioritaires\n   </a>\n  </li>\n  <li>\n   <a href=\"https://www.economie.gouv.qc.ca/bibliotheques/conformite/loi-sur-les-heures-et-les-jours-dadmission-dans-les-etablissements-commerciaux/\" target=\"_blank\">\n    Changements aux heures et aux jours d’ouverture des services prioritaires\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"https://lepanierbleu.ca/\" target=\"_blank\">\n    Favoriser l’achat local avec LePanierBleu.ca\n    <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/fermeture-endroits-publics-commerces-services-covid19/#c53180\">\n    Recommandations pour les établissements\n   </a>\n  </li>\n </ul>\n <p>\n  <a class=\"flecheDroiteRTE\" href=\"/sante/problemes-de-sante/a-z/coronavirus-2019/entreprises-maindoeuvre-covid19/\">\n   Voir la section\n  </a>\n </p>\n</div>",
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Aide financière": {
@@ -125,7 +125,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Offrir son aide": {
@@ -144,7 +144,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Foire aux questions": {
@@ -162,7 +162,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Évaluation de page": {
@@ -181,7 +181,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
@@ -200,7 +200,7 @@
         "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/consignes-directives-contexte-covid-19/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     }
 }

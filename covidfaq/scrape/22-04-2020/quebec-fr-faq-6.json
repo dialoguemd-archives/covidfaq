@@ -1,13 +1,13 @@
 {
     "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/questions-et-reponses-rassemblements-activites-covid-19/",
-    "Est-il permis de recevoir chez soi des proches ou des membres de la famille qui résident dans un autre logis ou d’aller prendre une marche avec ces derniers?": {
+    "Est-il permis de recevoir chez soi des proches ou des membres de la famille qui résident dans un autre logis ou d’aller marcher avec ces derniers?": {
         "nested_title": [
             "\n                                            Questions et réponses sur les rassemblements et les activités dans le contexte de la COVID-19\n                                        ",
             "",
             "",
             ""
         ],
-        "title": "Est-il permis de recevoir chez soi des proches ou des membres de la famille qui résident dans un autre logis ou d’aller prendre une marche avec ces derniers?",
+        "title": "Est-il permis de recevoir chez soi des proches ou des membres de la famille qui résident dans un autre logis ou d’aller marcher avec ces derniers?",
         "plaintext": [
             "Il est interdit de tenir tout rassemblement intérieur ou extérieur avec des personnes qui ne vivent pas dans la même demeure, ceci inclut des membres de famille immédiate qui habiteraient dans un autre logement. Pour ce qui est des marches, il faut respecter une distance minimale de deux mètres entre l’ensemble des personnes, sauf s’il s’agit de personnes qui habitent la même résidence privée."
         ],
@@ -16,7 +16,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Est-ce que les propriétaires d’établissement d’hébergement touristique (résidences de tourisme, gîtes, auberges de jeunesse, etc.) auront droit à une aide financière pour compenser les pertes de location?": {
         "nested_title": [
@@ -36,7 +36,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Est-ce que les propriétaires d’établissement d’hébergement touristique (résidences de tourisme, gîtes, etc.) autres que les hôtels et certains campings peuvent louer leur établissement aux voyageurs qui doivent se mettre en quarantaine?": {
         "nested_title": [
@@ -54,7 +54,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Quelle instance est responsable d’intervenir en cas de non-respect des différentes mesures sanitaires imposées par le gouvernement du Québec?": {
         "nested_title": [
@@ -72,7 +72,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Est-ce que les campeurs saisonniers peuvent se rendre sur leur terrain de camping sans y séjourner pour effectuer certains travaux qui leur éviteraient des dommages lors du dégel (ex. : retrait des toiles de protection hivernale pour empêcher l’humidité)?": {
         "nested_title": [
@@ -91,7 +91,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Que peuvent faire les snowbirds qui reviennent de voyage et qui n’ont pas d’autre résidence que leur roulotte ou leur motorisé en été?": {
         "nested_title": [
@@ -113,7 +113,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "À qui doivent s’adresser les propriétaires hôteliers qui souhaitent offrir leurs services pour accueillir des personnes dans le besoin?": {
         "nested_title": [
@@ -132,7 +132,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Le 23 mars dernier, le gouvernement du Québec a ordonné la fermeture des commerces et des services non essentiels jusqu’au 4 mai. Pourquoi la fermeture des établissements d’hébergement touristique non essentiels est-elle exigée jusqu’à nouvel ordre?": {
         "nested_title": [
@@ -150,7 +150,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Quels sont les établissements d’hébergement touristique considérés comme essentiels?": {
         "nested_title": [
@@ -169,7 +169,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Est-ce que les locataires qui occupent déjà un chalet loué avant le 29 mars doivent écourter leur séjour et le quitter dès maintenant?": {
         "nested_title": [
@@ -189,7 +189,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Les locataires qui ont loué un chalet il y a plusieurs semaines pour y séjourner entre le 29 mars et le 4 mai 2020 peuvent-ils s’y rendre?": {
         "nested_title": [
@@ -207,7 +207,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "La réservation d’une résidence touristique pour un séjour prévu en juillet doit-elle être annulée?": {
         "nested_title": [
@@ -225,7 +225,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "J’avais loué ma résidence de tourisme par l’entremise d’une plateforme d’hébergement collaboratif (de type Airbnb); la réservation a toutefois été annulée par les locataires. Quelles sont mes obligations envers ces derniers?": {
         "nested_title": [
@@ -243,7 +243,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Des occupants viennent de quitter ma résidence de tourisme. Quelles sont les mesures préventives à prendre afin de nous protéger, ma famille et moi, de la COVID-19?": {
         "nested_title": [
@@ -265,7 +265,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Quelles sont les mesures d’assouplissement accordées dans le cadre du programme Aide financière aux festivals et aux événements touristiques?": {
         "nested_title": [
@@ -284,7 +284,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "À quel moment le premier versement de l’aide financière sera-t-il effectué?": {
         "nested_title": [
@@ -302,7 +302,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Quels sont les festivals et les événements admissibles aux mesures d’assouplissement?": {
         "nested_title": [
@@ -321,7 +321,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Quelles sont les modalités de versement du solde de l’aide financière?": {
         "nested_title": [
@@ -339,7 +339,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Les demandes d’aide financière déposées auprès du Ministère seront-elles traitées selon les délais habituels?": {
         "nested_title": [
@@ -357,7 +357,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "L’annulation des événements prévus entre le 1er mai et le 31 octobre 2020 et bénéficiant d’une aide financière aura-t-elle des répercussions sur le dépôt des demandes pour l’année 2021-2022 (ex. : présentation d’une nouvelle étude de provenance)?": {
         "nested_title": [
@@ -375,7 +375,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "L’entente de visibilité prévue dans le cadre d’une aide financière accordée par le biais du programme Aide financière aux festivals et aux événements touristiques doit-elle être renégociée?": {
         "nested_title": [
@@ -393,7 +393,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "L’aide financière accordée aux festivals et aux événements reportés ou annulés pourrait-elle s’appliquer à l’édition de 2021?": {
         "nested_title": [
@@ -412,7 +412,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Est-ce que je dois annuler mon événement culturel ou artistique?": {
         "nested_title": [
@@ -432,7 +432,7 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Le gouvernement a décrété la fermeture, jusqu’à nouvel ordre, des centres de plein air et des attraits touristiques, incluant les parcs de la Sépaq. Est-ce que je peux quand même fréquenter ces endroits en visite libre?": {
         "nested_title": [
@@ -450,6 +450,6 @@
         "source": "quebec-faq",
         "language": "fr",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     }
 }

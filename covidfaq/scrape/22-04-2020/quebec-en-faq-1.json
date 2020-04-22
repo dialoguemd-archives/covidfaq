@@ -1,5 +1,5 @@
 {
-    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+    "document_URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
     "Police are limiting travel in and out of which health regions and territories in Québec?": {
         "nested_title": [
             "\n                                            Questions and answers on transportation and travel during the COVID-19 pandemic\n                                        ",
@@ -13,11 +13,11 @@
             "Bas-Saint-LaurentAbitibi-TémiscamingueCôte-NordNord-du-QuébecSaguenay-Lac-Saint-JeanGaspésie-Îles-de-la-MadeleineNunavikTerres-Cries-de-la-Baie-JamesOutaouais;Regional County Municipalities of Autray, Joliette, Matawinie and Montcalm in the Lanaudière region;Regional County Municipalities of Antoine-Labelle, Argenteuil, Les-Pays-d’en-Haut and Les Laurentides in the Laurentides region;agglomeration of La Tuque in the Mauricie et Centre-du-Québec region."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Essential travel is being allowed.\n </p>\n <ul>\n  <li>\n   Bas-Saint-Laurent\n  </li>\n  <li>\n   Abitibi-Témiscamingue\n  </li>\n  <li>\n   Côte-Nord\n  </li>\n  <li>\n   Nord-du-Québec\n  </li>\n  <li>\n   Saguenay-Lac-Saint-Jean\n  </li>\n  <li>\n   Gaspésie-Îles-de-la-Madeleine\n  </li>\n  <li>\n   Nunavik\n  </li>\n  <li>\n   Terres-Cries-de-la-Baie-James\n  </li>\n  <li>\n   Outaouais;\n  </li>\n  <li>\n   Regional County Municipalities of Autray, Joliette, Matawinie and Montcalm in the Lanaudière region;\n  </li>\n  <li>\n   Regional County Municipalities of Antoine-Labelle, Argenteuil, Les-Pays-d’en-Haut and Les Laurentides in the Laurentides region;\n  </li>\n  <li>\n   agglomeration of La Tuque in the Mauricie et Centre-du-Québec region.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Who can access these regions?": {
         "nested_title": [
@@ -31,11 +31,11 @@
             "A person whose presence is required under an order issued in a court judgment.A person who is travelling for humanitarian reasons.A person who is travelling to receive health care.A person authorized by a public health director; a  person authorized to act on behalf of a public health director;  physicians.A person who resides in the region.A person transporting goods that are needed for priority services."
         ],
         "html": "<div class=\"ce-bodytext\">\n <ul>\n  <li>\n   A person whose presence is required under an order issued in a court judgment.\n  </li>\n  <li>\n   A person who is travelling for humanitarian reasons.\n  </li>\n  <li>\n   A person who is travelling to receive health care.\n  </li>\n  <li>\n   A person authorized by a public health director; a  person authorized to act on behalf of a public health director;  physicians.\n  </li>\n  <li>\n   A person who resides in the region.\n  </li>\n  <li>\n   A person transporting goods that are needed for priority services.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "If a person has shared custody of their child, can the person go to one of these regions to get their child?": {
         "nested_title": [
@@ -52,11 +52,11 @@
             "In case of doubt, contact the Clinique d’assistance juridique COVID-19 set up by the Québec Ministère de la Justice and the Barreau du Québec, at 1-866-699-9729."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Strictly forbidden in all cases if the person has symptoms of COVID-19.\n </p>\n <p>\n  Yes, a parent can go to one of these regions to respect the conditions of shared custody, as indicated for example in a judgment rendered by the court or an access agreement.\n </p>\n <p>\n  In the case of an out-of-court agreement between the parents, the police at the checkpoint will evaluate the situation and authorize access on a case-by-case basis.\n </p>\n <p>\n  In case of doubt, contact the Clinique d’assistance juridique COVID-19 set up by the Québec Ministère de la Justice and the Barreau du Québec, at\n  <a href=\"+tel:1-866-699-9729\">\n   1-866-699-9729\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it possible to go home to one of these regions following a trip abroad?": {
         "nested_title": [
@@ -70,11 +70,11 @@
             "Yes, with proof of residence. However, if the person has symptoms of COVID-19, they will have to self-isolate for 14 days in a place indicated by the quarantine officer or another authority."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, with proof of residence. However, if the person has symptoms of COVID-19, they will have to self-isolate for 14 days in a place indicated by the quarantine officer or another authority.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can a person enter one of these regions to visit a family member in hospital in an end-of-life situation?": {
         "nested_title": [
@@ -89,11 +89,11 @@
             "Before travelling, make sure the hospital will authorize the visit."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, visiting a family member in hospital at end-of-life is considered a humanitarian situation. However, the trip will not be allowed if the person displays COVID-19 symptoms.\n </p>\n <p>\n  Before travelling, make sure the hospital will authorize the visit.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it possible to deliver parcels to these regions?": {
         "nested_title": [
@@ -108,11 +108,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, parcel delivery is considered a priority service. However, delivery persons must not have symptoms of COVID-19.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I have symptoms of COVID-19. Can I use public transit or taxis?": {
         "nested_title": [
@@ -128,11 +128,11 @@
             "If possible, take taxis with interior surfaces that can be cleaned and disinfected easily (for example, vinyl instead of fabric) and where passengers can sit at least 2 metres away from the driver (for example, a van).Before getting into the taxi, they must wash their hands with an alcohol-based hand rub, such as Purell® or Bacti Control®.Sit as far as possible from the driver.Wear a mask at all times while in the taxi. If the person does not have a mask, they should cover their mouth and nose with a paper tissue or handkerchief.Open the vehicle’s windows, weather permitting.Use an alcohol-based hand rub to clean their hands after blowing their nose.Limit contact with the interior surfaces of the taxi."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  People who have symptoms of COVID-19 are advised not to use public transit, the subway or taxis to get around, including to or from a medical appointment.\n </p>\n <p>\n  They should use a private car. If this is not possible, they may take a taxi to avoid using public transit. The following preventive measures must be rigorously applied:\n </p>\n <ul>\n  <li>\n   If possible, take taxis with interior surfaces that can be cleaned and disinfected easily (for example, vinyl instead of fabric) and where passengers can sit at least 2 metres away from the driver (for example, a van).\n  </li>\n  <li>\n   Before getting into the taxi, they must wash their hands with an alcohol-based hand rub, such as Purell\n   <sup>\n    ®\n   </sup>\n   or Bacti Control\n   <sup>\n    ®\n   </sup>\n   .\n  </li>\n  <li>\n   Sit as far as possible from the driver.\n  </li>\n  <li>\n   Wear a mask at all times while in the taxi. If the person does not have a mask, they should cover their mouth and nose with a paper tissue or handkerchief.\n  </li>\n  <li>\n   <p>\n    Open the vehicle’s windows, weather permitting.\n   </p>\n  </li>\n  <li>\n   Use an alcohol-based hand rub to clean their hands after blowing their nose.\n  </li>\n  <li>\n   Limit contact with the interior surfaces of the taxi.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I am a taxi driver. What can I do to protect myself and my customers?": {
         "nested_title": [
@@ -149,11 +149,11 @@
             "Have alcohol-based hand rub or antiseptic wipes on hand at all times.Avoid touching their eyes, nose and mouth.Keep cleaning products in taxis and wash the cleaning product containers every day.Have paper tissues available in the taxi for customers.Clean and disinfect the most frequently used equipment, such as the steering wheel and door handles, several times every day.Disinfect surfaces the person who is sick or who has symptoms of COVID-19 touched or might have touched.Drivers who have symptoms of COVID-19 should not work."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Taxi drivers should wash their hands regularly with soap under warm running water for at least 20 seconds:\n </p>\n <ul>\n  <li>\n   before eating;\n  </li>\n  <li>\n   before smoking;\n  </li>\n  <li>\n   after going to the toilet;\n  </li>\n  <li>\n   after blowing their nose;\n  </li>\n  <li>\n   wash their hands or use an alcohol-based hand rub, such as Purell® or Bacti Control®, after dropping off someone who is sick or has\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    symptoms\n   </a>\n   of COVID-19.\n  </li>\n </ul>\n <p>\n  Drivers should also follow these recommendations:\n </p>\n <ul>\n  <li>\n   Have alcohol-based hand rub or antiseptic wipes on hand at all times.\n  </li>\n  <li>\n   Avoid touching their eyes, nose and mouth.\n  </li>\n  <li>\n   Keep cleaning products in taxis and wash the cleaning product containers every day.\n  </li>\n  <li>\n   Have paper tissues available in the taxi for customers.\n  </li>\n  <li>\n   Clean and disinfect the most frequently used equipment, such as the steering wheel and door handles, several times every day.\n  </li>\n  <li>\n   Disinfect surfaces the person who is sick or who has\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    symptoms\n   </a>\n   of COVID-19 touched or might have touched.\n  </li>\n  <li>\n   Drivers who have\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    symptoms\n   </a>\n   of COVID-19 should not work.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can children accompany their parents in grocery stores, drugstores and other public spaces?": {
         "nested_title": [
@@ -168,11 +168,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, in case of need. However, as much as possible it is preferable to avoiding taking them inside stores.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can I keep using public transit? How can I protect myself?": {
         "nested_title": [
@@ -190,11 +190,11 @@
             "It is also important to wash your hands thoroughly for at least 20 seconds before and after using public transit."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Public transit services continue to operate and are an essential service to enable staff in the health and social services network to travel.\n </p>\n <p>\n  Québec transit authorities have increased the frequency of maintenance of their vehicles and facilities.\n </p>\n <p>\n  Users are still advised to follow the usual health advice and to maintain as far as possible a distance of 2 metres from the other people present.\n </p>\n <p>\n  Moreover, they are asked, as far as possible, to modify their usual schedules to limit rush-hour crowds in mass transit systems.\n </p>\n <p>\n  It is also important to wash your hands thoroughly for at least 20 seconds before and after using public transit.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is motorcycling allowed?": {
         "nested_title": [
@@ -209,11 +209,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, but alone. However, the same instructions pertaining to travel apply, that is, such travel must be confined to medical reasons and to go to work when teleworking is impossible.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Leases will be up soon and, despite the situation, owners still want to show apartments. Do we have to limit viewings?": {
         "nested_title": [
@@ -231,11 +231,11 @@
             "After each viewing, it is important to disinfect all the doorknobs in the apartments."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Given the current situation, public health authorities recommend suspending apartment viewings for now. If, despite this, you want to show an apartment, you must take precautions. First, it is important to postpone all viewings of apartments where the tenants have COVID-19 or are self-isolating because they have flu-like symptoms or have returned from travelling. You must take the following measures before the viewing:\n </p>\n <ul>\n  <li>\n   provide any relevant information about the apartments to the viewers to make sure of their interest;\n  </li>\n  <li>\n   make sure that viewers have not been travelling in the last 14 days and do not have any flu-like symptoms;\n  </li>\n  <li>\n   ask viewers to wash their hands before they enter apartments;\n  </li>\n </ul>\n <p>\n  You must take the following measures during the viewing:\n </p>\n <ul>\n  <li>\n   limit the number of people, preferably to one viewer at a time;\n  </li>\n  <li>\n   keep the viewing as short as possible;\n  </li>\n  <li>\n   ask everyone who is there to keep at least one to two metres apart;\n  </li>\n  <li>\n   ask viewers not to touch anything in the apartments;\n  </li>\n </ul>\n <p>\n  After each viewing, it is important to disinfect all the doorknobs in the apartments.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can loved ones be asked to help with moving?": {
         "nested_title": [
@@ -253,11 +253,11 @@
             "Frequently wash your hands for at least 20 seconds with warm water and soap. Abide by the other basic health recommendations: avoid direct contact when greeting other people, such as shaking hands; cough into the crook of your elbow; avoid touching your face; and so on."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Moving companies are included on the list of priority services and activities. Moreover, the Institut national de santé publique du Québec has issued\n  <a href=\"https://www.inspq.qc.ca/sites/default/files/covid/2923-demenageurs-covid19.pdf\" target=\"_blank\">\n   temporary recommendations for movers\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  to prevent the risk of spreading COVID-19.\n </p>\n <p>\n  If you cannot rely on movers and must obtain help for your move, it is possible to call on your loved ones while abiding by certain criteria.\n </p>\n <p>\n  First, make sure that no one displays COVID-19 symptoms, has returned from a trip within the past 14 days or has been in contact with infected individuals.\n </p>\n <p>\n  You must also limit as much as possible the number of people present and the duration of their presence. As far as possible, always remain 2 metres from each other.\n </p>\n <p>\n  Frequently wash your hands for at least 20 seconds with warm water and soap. Abide by the other basic health recommendations: avoid direct contact when greeting other people, such as shaking hands; cough into the crook of your elbow; avoid touching your face; and so on.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it possible for a person who is moving to one of these regions to do so?": {
         "nested_title": [
@@ -272,10 +272,10 @@
             "Moving companies are considered priority services. However, moving employees cannot carry out their work if they have symptoms of COVID-19."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, if the person who is moving is settling in his principal residence and does not display any COVID-19 symptoms.\n </p>\n <p>\n  Moving companies are considered priority services. However, moving employees cannot carry out their work if they have symptoms of COVID-19.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/transport-deplacements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/transportation-travel-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     }
 }

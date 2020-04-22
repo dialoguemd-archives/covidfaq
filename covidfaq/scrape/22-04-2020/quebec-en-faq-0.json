@@ -1,5 +1,5 @@
 {
-    "document_URL": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+    "document_URL": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
     "What is a health emergency?": {
         "nested_title": [
             "\n                                            Questions and answers on confinement instructions, symptoms and treatments during the COVID-19 pandemic\n                                        ",
@@ -14,11 +14,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  A health emergency can be declared when a threat to the health of the population demands the immediate application of certain measures. It empowers the Québec government and the Ministère de la Santé et des Services sociaux to implement an array of measures to protect the health of the population.\n </p>\n <p>\n  The Ministère de la Santé et des Services sociaux could, for example, promptly purchase equipment or conclude the necessary contracts to protect the health of the population.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is this the first time that Québec has declared a health emergency?": {
         "nested_title": [
@@ -33,11 +33,29 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes. This exceptional measure demonstrates the Gouvernement du Québec’s determination to adopt the necessary measures to protect Quebecers.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
+    },
+    "What is community (or local) contamination?": {
+        "nested_title": [
+            "\n                                            Questions and answers on confinement instructions, symptoms and treatments during the COVID-19 pandemic\n                                        ",
+            "",
+            "",
+            ""
+        ],
+        "title": "What is community (or local) contamination?",
+        "plaintext": [
+            "There is community or local transmission of a virus when there is ongoing person-to-person transmission (that affects many people) in a community, with no history of travel."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  There is community or local transmission of a virus when there is ongoing person-to-person transmission (that affects many people) in a community, with no history of travel.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
+        "source": "quebec-faq",
+        "language": "en",
+        "type": "faq",
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How will we know when the pandemic has peaked?": {
         "nested_title": [
@@ -51,11 +69,11 @@
             "A pandemic peaks when, after a significant rise in cases, the number of new cases stops growing and starts to decrease."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  A pandemic peaks when, after a significant rise in cases, the number of new cases stops growing and starts to decrease.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What does “flatten the curve” mean?": {
         "nested_title": [
@@ -69,11 +87,11 @@
             "If nothing is done, the COVID-19 pandemic could spread very quickly with a very high number of people requiring admission to hospital over a very short period of time. Preventive measures “flatten the curve”, which means slowing and stretching out the spread of the virus over a longer period of time. As a result, the healthcare system will not be overwhelmed by the number of hospital admissions and COVID-19 patients will receive appropriate care."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  If nothing is done, the COVID-19 pandemic could spread very quickly with a very high number of people requiring admission to hospital over a very short period of time. Preventive measures “flatten the curve”, which means slowing and stretching out the spread of the virus over a longer period of time. As a result, the healthcare system will not be overwhelmed by the number of hospital admissions and COVID-19 patients will receive appropriate care.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Where can I get information about the situation?": {
         "nested_title": [
@@ -90,11 +108,33 @@
             "To learn how to recognize a credible source of information, go to the page How to recognize a reliable source of information on health."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  For up-to-date information, consult the Government of Quebec’s official website often\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n   Québec.ca/coronavirus\n  </a>\n  .\n </p>\n <p>\n  Listen to the radio or watch television and read newspapers. The Ministère de la Santé et des Services sociaux will be providing health guidelines for the public to follow and information about where to get treatment.\n </p>\n <p>\n  Always follow government advisories and instructions. Advisories and instructions may change as the situation unfolds.\n </p>\n <p>\n  To learn how to recognize a credible source of information, go to the page\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/how-to-recognize-a-reliable-source-of-information-on-health/\">\n   How to recognize a reliable source of information on health\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
+    },
+    "The public is being asked to give blood. Do I have to get tested for COVID-19 before giving blood?": {
+        "nested_title": [
+            "\n                                            Questions and answers on confinement instructions, symptoms and treatments during the COVID-19 pandemic\n                                        ",
+            "",
+            "",
+            ""
+        ],
+        "title": "The public is being asked to give blood. Do I have to get tested for COVID-19 before giving blood?",
+        "plaintext": [
+            "No. There is no evidence that the virus spreads through blood.",
+            "However, people who have flu-like symptoms (cough, sneezing, fever), who have COVID-19 or who are waiting for a COVID‑19 test result must stay home. This means they cannot give blood.",
+            "People who work or live with a person who has COVID‑19 or who is waiting for a result may only give blood 14 days after the date the person recovered. If the test shows that the person does not have COVID‑19, anyone who has had contact with the person may give blood.",
+            "Anyone who has recovered from COVID‑19 must wait 28 days from the date they recovered before giving blood.",
+            "For more information about the criteria for donating blood, go to the page Who Can Donate?  on Héma‑Québec’s website."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  No. There is no evidence that the virus spreads through blood.\n </p>\n <p>\n  However, people who have flu-like symptoms (cough, sneezing, fever), who have COVID-19 or who are waiting for a COVID‑19 test result must stay home. This means they cannot give blood.\n </p>\n <p>\n  People who work or live with a person who has COVID‑19 or who is waiting for a result may only give blood 14 days after the date the person recovered. If the test shows that the person does not have COVID‑19, anyone who has had contact with the person may give blood.\n </p>\n <p>\n  Anyone who has recovered from COVID‑19 must wait 28 days from the date they recovered before giving blood.\n </p>\n <p>\n  For more information about the criteria for donating blood, go to the page\n  <a href=\"https://www.hema-quebec.qc.ca/sang/donneur-sang/puis-je-donner/index.en.html;jsessionid=327D8E6F3C17F274154C749DE8D0784A\" target=\"_blank\">\n   Who Can Donate?\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  on Héma‑Québec’s website.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
+        "source": "quebec-faq",
+        "language": "en",
+        "type": "faq",
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I am returning from a trip. What do I have to do?": {
         "nested_title": [
@@ -106,14 +146,16 @@
         "title": "I am returning from a trip. What do I have to do?",
         "plaintext": [
             "Anyone returning from a stay outside Canada must self-isolate for 14 days. Such isolation covers both travellers who are sick or display symptoms and those who do not have symptoms and are in perfect health.",
-            "Individuals in self-isolation must stay at home, monitor their symptoms and call 1 877 644-4545 if they have a cough, fever, difficulty breathing or sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste. These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the Health Recommendations section."
+            "Individuals in self-isolation must stay at home, monitor their symptoms and call 1 877 644-4545 if they develop any of the following symptoms:",
+            "new or worse cough;fever;difficulty breathing;sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste.",
+            "These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the Health Recommendations section."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Anyone returning from a stay outside Canada must self-isolate for 14 days. Such isolation covers both travellers who are sick or display symptoms and those who do not have symptoms and are in perfect health.\n </p>\n <p>\n  Individuals in self-isolation must stay at home, monitor their symptoms and call\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  if they have a cough,\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n   fever\n  </a>\n  , difficulty breathing or sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste. These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   refer to the Health Recommendations section\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Anyone returning from a stay outside Canada must self-isolate for 14 days. Such isolation covers both travellers who are sick or display symptoms and those who do not have symptoms and are in perfect health.\n </p>\n <p>\n  Individuals in self-isolation must stay at home, monitor their symptoms and call\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  if they develop any of the following symptoms:\n </p>\n <ul>\n  <li>\n   new or worse cough;\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    fever\n   </a>\n   ;\n  </li>\n  <li>\n   difficulty breathing;\n  </li>\n  <li>\n   sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste.\n  </li>\n </ul>\n <p>\n  These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   refer to the Health Recommendations section\n  </a>\n  .\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I work in the private sector and I have to self-isolate. Can my employer fire me?": {
         "nested_title": [
@@ -128,11 +170,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec is asking employers to be understanding and flexible toward employees who are returning from travelling or who have symptoms.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "If I must go into self-isolation, what instructions must I follow?": {
         "nested_title": [
@@ -143,14 +185,16 @@
         ],
         "title": "If I must go into self-isolation, what instructions must I follow?",
         "plaintext": [
-            "Individuals in voluntary self-isolation must stay at home, monitor their symptoms and call 1 877 644-4545 if they have a cough, fever, difficulty breathing or sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste. These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the Health Recommendations section."
+            "Individuals in voluntary self-isolation must stay at home, monitor their symptoms and call 1 877 644-4545 if they develop any of the following symptoms:",
+            "new or worse cough;fever;difficulty breathing;sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste.",
+            "These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the Health Recommendations section."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Individuals in voluntary self-isolation must stay at home, monitor their symptoms and call\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  if they have a cough,\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n   fever\n  </a>\n  , difficulty breathing or sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste. These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   Health Recommendations\n  </a>\n  section.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Individuals in voluntary self-isolation must stay at home, monitor their symptoms and call\n  <a href=\"tel:+1-877-644-4545\">\n   1 877 644-4545\n  </a>\n  if they develop any of the following symptoms:\n </p>\n <ul>\n  <li>\n   new or worse cough;\n  </li>\n  <li>\n   <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c46539\">\n    fever\n   </a>\n   ;\n  </li>\n  <li>\n   difficulty breathing;\n  </li>\n  <li>\n   sudden loss of sense of smell without a stuffy nose, with or without loss of sense of taste.\n  </li>\n </ul>\n <p>\n  These people must not go outside at all, even to go for a walk. Certain practices are also recommended if they live with other people who have not travelled. To obtain additional information on the procedures to follow, please refer to the\n  <a href=\"/en/health/health-issues/a-z/general-information-about-coronavirus/#c53183\">\n   Health Recommendations\n  </a>\n  section.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I am staying at home and self-isolating. Given my situation, why is it important to wash my hands so often?": {
         "nested_title": [
@@ -164,11 +208,11 @@
             "If you stay home and do not have any contact with other people, you cannot spread or catch COVID-19. Washing your hands often and properly is still a good habit at any time, not just during a pandemic. In addition, if you have to go out or if you have contact with a person or an object that might be contaminated, you will already be practicing good hand hygiene."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  If you stay home and do not have any contact with other people, you cannot spread or catch COVID-19. Washing your hands often and properly is still a good habit at any time, not just during a pandemic. In addition, if you have to go out or if you have contact with a person or an object that might be contaminated, you will already be practicing good hand hygiene.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Do I have to take precautions regarding indoor air quality if I am self-isolating?": {
         "nested_title": [
@@ -182,11 +226,11 @@
             "You do not have to take any special precautions. Simply follow the usual recommendations, that is, open windows regularly, clean the floor and high-touch surfaces, etc."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  You do not have to take any special precautions. Simply follow the usual recommendations, that is, open windows regularly, clean the floor and high-touch surfaces, etc.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "If I am abroad, do I have to immediately come home?": {
         "nested_title": [
@@ -201,11 +245,11 @@
             "The Government of Canada in its Travel Advice and Advisories  section recommends that individuals who are abroad find out about the commercial options avilable to them to return to Canada and to return sooner than planned if such options become more limited."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec suggests that individuals who are abroad come home if possible.\n </p>\n <p>\n  The Government of Canada in its\n  <a href=\"https://travel.gc.ca/travelling/advisories?_ga=2.155976444.612942516.1584366966-332147478.1583942171\" target=\"_blank\">\n   Travel Advice and Advisories\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  section recommends that individuals who are abroad find out about the commercial options avilable to them to return to Canada and to return sooner than planned if such options become more limited.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Which countries are most at risk?": {
         "nested_title": [
@@ -219,11 +263,11 @@
             "For this information, you are advised to consult the Travel Advice and Advisories  section on the Government of Canada site."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  For this information, you are advised to consult the\n  <a href=\"https://travel.gc.ca/travelling/advisories?_ga=2.105850506.886082967.1584121752-1553186751.1579968697\" target=\"_blank\">\n   Travel Advice and Advisories\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  section on the Government of Canada site.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I have travel plans. Should I cancel them?": {
         "nested_title": [
@@ -238,11 +282,11 @@
             "If you decide to travel anyway, you are advised to consult the Travel Advice and Advisories  section on the Government of Canada site. You must also self-isolate for 14 days when you return."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The Gouvernement du Québec is asking Quebecers to cancel non-essential trips.\n </p>\n <p>\n  If you decide to travel anyway, you are advised to consult the\n  <a href=\"https://travel.gc.ca/travelling/advisories?_ga=2.105850506.886082967.1584121752-1553186751.1579968697\" target=\"_blank\">\n   Travel Advice and Advisories\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  section on the Government of Canada site. You must also self-isolate for 14\n  <span class=\"nbsp\">\n  </span>\n  days when you return.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What happens to truck drivers from outside our borders?": {
         "nested_title": [
@@ -257,11 +301,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Truck drivers and air crews and seagoing personnel do not have to self-isolate given the important role that they play in the transportation of critical goods such as food.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "If I have to cancel a trip abroad, will I be reimbursed for what I have already paid?": {
         "nested_title": [
@@ -276,11 +320,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  There is currently no program to refund the cost of trips abroad. Travellers should contact their travel agent or travel insurer.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I have symptoms of coronavirus disease (COVID-19) or I have COVID-19. What can I do to take care of myself?": {
         "nested_title": [
@@ -299,11 +343,11 @@
             "body temperature over 38°C (100.4°F);persistent or increasing difficulty breathing;drowsiness, confusion, disorientation or difficulty staying awake;no urine for 12 hours;fever in a baby under 3 months of age."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  If you have symptoms of coronavirus disease, you will feel tired and weak. Rest will help you fight the disease. Limit your contact with other people until the symptoms have resolved. You can resume your activities when your condition allows.\n </p>\n <p>\n  It is important to drink often because fever makes you sweat and lose a lot of fluids. At least 1.5 litres of fluids per day is recommended. Have hot or cold or drinks, whichever you prefer. Avoid alcoholic beverages or beverages that contain caffeine, such as coffee, tea and soft drinks. Alcohol and caffeine will make you urinate and increase fluid loss (dehydration).\n </p>\n <p>\n  Watch for the following signs of dehydration:\n </p>\n <ul>\n  <li>\n   sensation of extreme thirst;\n  </li>\n  <li>\n   dry mouth and tongue;\n  </li>\n  <li>\n   infrequent or dark urine;\n  </li>\n  <li>\n   dizziness, confusion and headaches.\n  </li>\n </ul>\n <p>\n  Complications of COVID-19 can develop a few days after symptoms first appear. If symptoms become more acute, you must go to the emergency room immediately or, if you need help, call 911. Watch for the following signs of a deterioration:\n </p>\n <ul>\n  <li>\n   body temperature over 38°C (100.4°F);\n  </li>\n  <li>\n   persistent or increasing difficulty breathing;\n  </li>\n  <li>\n   drowsiness, confusion, disorientation or difficulty staying awake;\n  </li>\n  <li>\n   no urine for 12 hours;\n  </li>\n  <li>\n   fever in a baby under 3 months of age.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I have symptoms of coronavirus disease (COVID-19) or I have COVID-19. What can I do to protect people around me?": {
         "nested_title": [
@@ -320,11 +364,11 @@
             "In addition, please consult the document Procedure to Follow for People with COVID-19 in Isolation at Home ."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  To protect people around you, this is what you must do until your symptoms (fever, cough, fatigue, etc.) have resolved:\n </p>\n <ul>\n  <li>\n   Stay in a separate room to avoid contaminating your family;\n  </li>\n  <li>\n   Sleep and eat alone in your room;\n  </li>\n  <li>\n   Use a separate bathroom;\n  </li>\n  <li>\n   Cover your mouth and nose when you cough or sneeze, ideally with a tissue. Spit into a tissue. Wash your hands afterwards;\n  </li>\n  <li>\n   If you do not have a tissue, cough or sneeze into the crease of your elbow or upper arm;\n  </li>\n  <li>\n   Put used tissues into a garbage bag in a trash can with a lid. Keep used tissues out of reach of children;\n  </li>\n  <li>\n   Do not have visitors to your home.\n  </li>\n </ul>\n <p>\n  Good hygiene and prevention practices are explained and illustrated in the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n   Self-care Guide\n  </a>\n  .\n </p>\n <p>\n  In addition, please consult the document\n  <a href=\"https://publications.msss.gouv.qc.ca/msss/en/document-002497/\" target=\"_blank\">\n   Procedure to Follow for People with COVID-19 in Isolation at Home\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How can I make sure I don’t contaminate my environment when I cough or sneeze?": {
         "nested_title": [
@@ -338,11 +382,11 @@
             "The page Coughing and sneezing without contaminating illustrates the precautions to take to avoid contaminating your environment or your family."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The page\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/coughing-and-sneezing-without-contaminating/\">\n   Coughing and sneezing without contaminating\n  </a>\n  illustrates the precautions to take to avoid contaminating your environment or your family.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How should I clean my environment?": {
         "nested_title": [
@@ -360,11 +404,11 @@
             "If you are sick, your bed linen, towels, clothes and dishes can be washed with those of other household members using regular detergent."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The virus that causes coronavirus disease (COVID-19) can live on objects and surfaces. It can survive for:\n </p>\n <ul>\n  <li>\n   3 hours on objects with dry surfaces;\n  </li>\n  <li>\n   6 days on objects with wet surfaces.\n  </li>\n </ul>\n <p>\n  It is important to clean countertops, washbasins, door handles and any surfaces that are frequently touched by hands. Cleaning and disinfecting are very effective at eliminating the virus.\n </p>\n <ul>\n  <li>\n   For cleaning, use soap and water or household cleaning products.\n  </li>\n  <li>\n   For disinfecting, use a bleach solution or a disinfectant. A solution of 1 part bleach to 9 parts water is recommended, that is, 10 mL of bleach in 90 mL of water.\n  </li>\n </ul>\n <p>\n  If you are sick, your bed linen, towels, clothes and dishes can be washed with those of other household members using regular detergent.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can you get infected with COVID-19 a second time?": {
         "nested_title": [
@@ -378,11 +422,11 @@
             "It can happen. There are reported cases of people getting infected with COVID-19 a second time, but it is rare and they are often patients with weakened immune systems. At the moment, most people who get COVID-19 recover and appear to be protected against reinfection with the virus."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  It can happen. There are reported cases of people getting infected with COVID-19 a second time, but it is rare and they are often patients with weakened immune systems. At the moment, most people who get COVID-19 recover and appear to be protected against reinfection with the virus.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How should I care for a child or an older adult who is sick?": {
         "nested_title": [
@@ -396,11 +440,11 @@
             "To find out how to care for a child or an older adult who is sick, refer to the Caring for sick children and Eldercare sections in the Self-care Guide."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  To find out how to care for a child or an older adult who is sick, refer to the\n  <em>\n   Caring for sick children\n  </em>\n  and\n  <em>\n   Eldercare sections\n  </em>\n  in the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n   Self-care Guide\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What medications should I take to relieve my symptoms?": {
         "nested_title": [
@@ -415,11 +459,11 @@
             "Taking anti-inflammatories may make coronavirus disease (COVID-19) worse, but this information is based on clinical observations and has not been confirmed or disproven. According to some recommendations, ibuprofen should not be taken by people who have COVID-19 to relieve fever. Advil® and Motrin® belong to this drug class. If you are already taking anti-inflammatories and you test positive for COVID-19, speak to your pharmacist, doctor or specialized nurse practitioner."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Over-the-counter medications can be used to relieve the symptoms of coronavirus disease (COVID-19). Before using, read the labels carefully and do not take more than the recommended dose.\n  <strong>\n   You are strongly advised to ask your pharmacist for advice\n  </strong>\n  before using over-the-counter medications if you have symptoms. Do not take products that contain the same ingredients at the same time, such as Tylenol\n  <sup>\n   ®\n  </sup>\n  and Tylenol\n  <sup>\n   ®\n  </sup>\n  Sinus. If you have health problems, ask your pharmacist for advice or call Info-Santé 811 before taking over-the-counter medications.\n </p>\n <p>\n  Taking anti-inflammatories may make coronavirus disease (COVID-19) worse, but this information is based on clinical observations and has not been confirmed or disproven. According to some recommendations, ibuprofen should not be taken by people who have COVID-19 to relieve fever. Advil\n  <sup>\n   ®\n  </sup>\n  and Motrin\n  <sup>\n   ®\n  </sup>\n  belong to this drug class. If you are already taking anti-inflammatories and you test positive for COVID-19,\n  <strong>\n   speak to your pharmacist\n  </strong>\n  , doctor or specialized nurse practitioner.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What can I do to relieve a fever?": {
         "nested_title": [
@@ -437,11 +481,11 @@
             "an increase of 1.1°C above a person’s usual value."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Fever is a defence mechanisms that helps fight infection. Acetaminophen is recommended for the relief of fever and discomfort, unless you are advised otherwise by a health professional or are allergic to this medication.\n </p>\n <p>\n  Fever is defined as follows:\n </p>\n <ul>\n  <li>\n   In children: 38°C (100.4°F) or higher (rectal T°);\n  </li>\n  <li>\n   In adults: 38°C (100.4°F) or higher (oral T°);\n  </li>\n  <li>\n   elderly person 37.8°C (98.6°F) or higher (oral T°);\n  </li>\n </ul>\n <p>\n  or\n </p>\n <ul>\n  <li>\n   an increase of 1.1°C above a person’s usual value.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What can I do to relieve a sore throat?": {
         "nested_title": [
@@ -455,11 +499,11 @@
             "Gargle with a glass of salt water: 2.5 mL (1/2 tsp.) of salt in 250 mL (1 cup) of lukewarm water (do not swallow the solution). Hard candy or lozenges, preferably sugar free, can also relieve your sore throat."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Gargle with a glass of salt water: 2.5 mL (1/2 tsp.) of salt in 250 mL (1 cup) of lukewarm water (do not swallow the solution). Hard candy or lozenges, preferably sugar free, can also relieve your sore throat.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How can I ask for help?": {
         "nested_title": [
@@ -477,11 +521,29 @@
             "For information about other support measures, go to the Québec.ca/coronavirus page."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  If you are worried, do not hesitate to ask for or accept help. It is important to talk about it with your family and friends.\n </p>\n <p>\n  For home care, you can also call 211 or ask your CLSC to connect you with home care services.\n </p>\n <p>\n  For\n  <strong>\n   food assistance\n  </strong>\n  , visit the\n  <a href=\"https://www.banquesalimentaires.org/en/\" target=\"_blank\">\n   Food Banks of Quebec\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  website.\n </p>\n <p>\n  For information about\n  <strong>\n   financial support\n  </strong>\n  for individuals, visit the\n  <a href=\"https://www.canada.ca/en/department-finance/economic-response-plan.html\" target=\"_blank\">\n   Government of Canada’s website\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  .\n </p>\n <p>\n  For information about other support measures, go to the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/\">\n   Québec.ca/coronavirus\n  </a>\n  page.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
+    },
+    "Will I have long-term effects from COVID-19?": {
+        "nested_title": [
+            "\n                                            Questions and answers on confinement instructions, symptoms and treatments during the COVID-19 pandemic\n                                        ",
+            "",
+            "",
+            ""
+        ],
+        "title": "Will I have long-term effects from COVID-19?",
+        "plaintext": [
+            "At this time, the long-term consequences of COVID‑19 are unknown. However, people who have COVID‑19 and develop pneumonia may take a few weeks or a few months to recover. People who have severe symptoms and who are treated in intensive care may experience health effects in the longer term, such as shortness of breath when they walk quickly. Studies are underway to find out more about the possible consequences of COVID‑19."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  At this time, the long-term consequences of COVID‑19 are unknown. However, people who have COVID‑19 and develop pneumonia may take a few weeks or a few months to recover. People who have severe symptoms and who are treated in intensive care may experience health effects in the longer term, such as shortness of breath when they walk quickly. Studies are underway to find out more about the possible consequences of COVID‑19.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
+        "source": "quebec-faq",
+        "language": "en",
+        "type": "faq",
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Who is at risk of complications after contracting COVID-19?": {
         "nested_title": [
@@ -493,14 +555,14 @@
         "title": "Who is at risk of complications after contracting COVID-19?",
         "plaintext": [
             "The risk of serious complications for people with COVID-19 increases with age, but even young adults are at risk. The risk of dying from serious respiratory complications (pneumonia or acute respiratory distress syndrome) due to COVID-19 is especially high in:",
-            "people age 70 and older;people who have a weakened immune system;people who have a chronic disease; such as: \theart disease;lung disease;kidney disease."
+            "people age 70 and older;people who have a weakened immune system;people who have a chronic disease; such as: \tdiabetes;heart disease;lung disease;kidney disease."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  The risk of serious complications for people with COVID-19 increases with age, but even young adults are at risk. The risk of dying from serious respiratory complications (pneumonia or acute respiratory distress syndrome) due to COVID-19 is especially high in:\n </p>\n <ul>\n  <li>\n   people age 70 and older;\n  </li>\n  <li>\n   people who have a weakened immune system;\n  </li>\n  <li>\n   people who have a chronic disease; such as:\n   <ul>\n    <li>\n     heart disease;\n    </li>\n    <li>\n     lung disease;\n    </li>\n    <li>\n     kidney disease.\n    </li>\n   </ul>\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The risk of serious complications for people with COVID-19 increases with age, but even young adults are at risk. The risk of dying from serious respiratory complications (pneumonia or acute respiratory distress syndrome) due to COVID-19 is especially high in:\n </p>\n <ul>\n  <li>\n   people age 70 and older;\n  </li>\n  <li>\n   people who have a weakened immune system;\n  </li>\n  <li>\n   people who have a chronic disease; such as:\n   <ul>\n    <li>\n     diabetes;\n    </li>\n    <li>\n     heart disease;\n    </li>\n    <li>\n     lung disease;\n    </li>\n    <li>\n     kidney disease.\n    </li>\n   </ul>\n  </li>\n </ul>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can an individual go to a hospital to visit a loved one who is dying?": {
         "nested_title": [
@@ -516,11 +578,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes. Health care establishments tolerate visits under exceptional or humanitarian circumstances.\n </p>\n <p>\n  The Gouvernement du Québec is prohibiting non-essential visits.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it possible to deliver food or essential items to elderly people living at home?": {
         "nested_title": [
@@ -536,11 +598,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  It is possible to deliver groceries to elderly people or people with a weak immune system solely if you do not display any symptoms and have not returned from a trip within less than 14\n  <span class=\"nbsp\">\n  </span>\n  days.\n </p>\n <p>\n  It is important at all times to maintain distance between individuals, avoid direct contacts and abide by the usual rules of hygiene when you cough or sneeze.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Are pregnant women at risk?": {
         "nested_title": [
@@ -555,11 +617,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  According to the World Health Organization, pregnant women are at no greater risk than adults in general of complications related to COVID-19. Scientists note that there is no known risk of malformation or mother-to-foetus transmission. The usual preventive rules apply to pregnant women. For more information, see the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-pregnant-women-coronavirus-covid-19/\">\n   Information for pregnant women\n  </a>\n  page.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Are children less at risk?": {
         "nested_title": [
@@ -574,11 +636,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, children are less at risk. However, they can still transmit the virus. Consequently, directives aimed at containing the virus’ spread also apply to children. For more information, see the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/information-for-parents-of-children-age-0-to-17-coronavirus-covid-19/\">\n   Information for parents of children age 0 to 17\n  </a>\n  page.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How can I stay in touch with family and friends, wherever they are, during physical distancing and the fight against the pandemic?": {
         "nested_title": [
@@ -596,11 +658,11 @@
             "To get the most out of your experience, find out which means of communication you and your family and friends like best and decide how often you will use them."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Distance socializing strategies, such as using alternative ways of communicating, can help you stay connected and even become closer to family and friends.\n </p>\n <p>\n  Don’t minimize the positive effects of distance socializing, since continuing to socialize has a positive impact on your physical and psychological health at every stage of life.\n </p>\n <p>\n  For example, you can use direct or indirect means of communication or even get creative:\n </p>\n <ul>\n  <li>\n   Direct: phone calls, video chats, text messages, social networks, digital apps (WhatsApp, Skype, etc.) or other technologies.\n  </li>\n  <li>\n   Indirect: prerecorded voice messages or videos, letters, postcards, digital photos.\n  </li>\n  <li>\n   Creative: drawings, crafts, photo collages, a recording of yourself reading a children’s story, arrange a time to say hello from your balcony or the street, dinner for two by Skype.\n  </li>\n </ul>\n <p>\n  To get the most out of your experience, find out which means of communication you and your family and friends like best and decide how often you will use them.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it permissible to live during confinement with an elderly loved one residing in the same region in order to offer the person assistance?": {
         "nested_title": [
@@ -615,11 +677,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes. However, all the individuals concerned should self-isolate voluntarily for 14 days before moving in to ensure that they are not suffering from COVID-19.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What are the main symptoms associated with COVID-19?": {
         "nested_title": [
@@ -631,17 +693,17 @@
         "title": "What are the main symptoms associated with COVID-19?",
         "plaintext": [
             "The main symptoms of COVID-19 are as follows:",
-            "Fever \tin children: 38°C (100.4°F) and above (rectal temperature),in adults: 38°C (100.4°F) and above (oral temperature),in older adults: 37.8°C (100°F) and above (oral temperature),or 1.1°C above the person's usual value;CoughDifficulty breathing",
+            "Fever \tin children: 38°C (100.4°F) and above (rectal temperature),in adults: 38°C (100.4°F) and above (oral temperature),in older adults: 37.8°C (100°F) and above (oral temperature),or 1.1°C above the person's usual value;New or worse coughDifficulty breathing",
             "or",
             "Sudden loss of smell without a stuffy nose, with or without loss of taste",
             "The symptoms can be mild (similar to a cold) or more severe (such as those associated with pneumonia and respiratory or kidney failure)."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  The main symptoms of COVID-19 are as follows:\n </p>\n <ul>\n  <li>\n   Fever\n   <ul>\n    <li>\n     in children: 38°C (100.4°F) and above (rectal temperature),\n    </li>\n    <li>\n     in adults: 38°C (100.4°F) and above (oral temperature),\n    </li>\n    <li>\n     in older adults: 37.8°C (100°F) and above (oral temperature),\n    </li>\n    <li>\n     or 1.1°C above the person's usual value;\n    </li>\n   </ul>\n  </li>\n  <li>\n   Cough\n  </li>\n  <li>\n   Difficulty breathing\n  </li>\n </ul>\n <p>\n  or\n </p>\n <ul>\n  <li>\n   Sudden loss of smell without a stuffy nose, with or without loss of taste\n  </li>\n </ul>\n <p>\n  The symptoms can be mild (similar to a cold) or more severe (such as those associated with pneumonia and respiratory or kidney failure).\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  The main symptoms of COVID-19 are as follows:\n </p>\n <ul>\n  <li>\n   Fever\n   <ul>\n    <li>\n     in children: 38°C (100.4°F) and above (rectal temperature),\n    </li>\n    <li>\n     in adults: 38°C (100.4°F) and above (oral temperature),\n    </li>\n    <li>\n     in older adults: 37.8°C (100°F) and above (oral temperature),\n    </li>\n    <li>\n     or 1.1°C above the person's usual value;\n    </li>\n   </ul>\n  </li>\n  <li>\n   New or worse cough\n  </li>\n  <li>\n   Difficulty breathing\n  </li>\n </ul>\n <p>\n  or\n </p>\n <ul>\n  <li>\n   Sudden loss of smell without a stuffy nose, with or without loss of taste\n  </li>\n </ul>\n <p>\n  The symptoms can be mild (similar to a cold) or more severe (such as those associated with pneumonia and respiratory or kidney failure).\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How long do the symptoms of COVID-19 last?": {
         "nested_title": [
@@ -655,11 +717,11 @@
             "How long the symptoms last depends on the severity of the disease. Symptoms generally last less than 14 days. In severe cases, symptoms can last longer than a month."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  How long the symptoms last depends on the severity of the disease. Symptoms generally last less than 14 days. In severe cases, symptoms can last longer than a month.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How can I tell the difference between the symptoms of COVID-19 and flu symptoms?": {
         "nested_title": [
@@ -674,11 +736,11 @@
             "However, if you develop symptoms of a respiratory tract infection and you live with someone who has tested positive for COVID-19, it is almost certain that you have it too."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  You cannot tell the difference between COVID-19 and the flu based on the symptoms alone because they are too alike. The only way to be sure is to get tested. Testing is now reserved for certain groups of people.\n </p>\n <p>\n  However, if you develop symptoms of a respiratory tract infection and you live with someone who has tested positive for COVID-19, it is almost certain that you have it too.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How is COVID-19 spread?": {
         "nested_title": [
@@ -694,11 +756,11 @@
             "maintain a distance of at least 2 metres (around 6 feet) from other people;avoid all contact with a person who is infected;wash your hands often with soap and warm water for at least 20 seconds."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  COVID-19 is most commonly spread by droplets expelled when a person who is sick coughes or sneezes. These droplets are projected a maximum distance of 2 metres and fall quickly.\n </p>\n <p>\n  Therefore, it is recommended that you follow these instructions:\n </p>\n <ul>\n  <li>\n   maintain a distance of at least 2 metres (around 6 feet) from other people;\n  </li>\n  <li>\n   avoid all contact with a person who is infected;\n  </li>\n  <li>\n   wash your hands often with soap and warm water for at least 20 seconds.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can the virus that causes COVID-19 be contracted by airborne transmission, i.e., from the air?": {
         "nested_title": [
@@ -715,11 +777,11 @@
             "It is also unlikely that the virus spreads through ventilation systems."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The disease is mainly contracted by close contact with an infected person. It is spread by respiratory droplets expelled from the nose or mouth of a person who is sick when they cough or sneeze. Droplets can be projected a maximum distance of 2 metres (around 6 feet) and fall quickly. This is why keeping a distance of 2 metres away from other people is recommended.\n </p>\n <p>\n  Droplets can land on objects and surfaces near the person who just coughed or sneezed and survive for a short time. You must avoid touching these objects and surfaces with your hands and then touching your eyes, nose or mouth.\n </p>\n <p>\n  So far, there is no evidence that people contract the disease from the air, by airborne transmission far from an infected person.\n </p>\n <p>\n  It is also unlikely that the virus spreads through ventilation systems.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How can I protect myself when I touch something that might be contaminated by the virus (for example, food packaging, fruits and vegetables, packages, letters, plastic or reusable bags, money)?": {
         "nested_title": [
@@ -732,14 +794,14 @@
         "plaintext": [
             "There is a risk of getting infected by the virus when you touch surfaces and objects, but it is low.",
             "To protect yourself, wash your hands with soap and warm water after touching objects that might be contaminated. Avoid touching your eyes, nose or mouth until you have washed your hands properly.",
-            "If possible, wash the object that might be contaminated with the cleaning products and disinfectants that you usually use at home. For example, wash your fruits and vegetables well before eating them and wash your reusable bags in hot water with your usual detergent. These are good habits at any time, not just during a pandemic."
+            "If possible, wash the object that might be contaminated with the cleaning products and disinfectants that you usually use at home. For example, wash your fruits and vegetables well before eating them and wash your reusable bags with your usual detergent. These are good habits at any time, not just during a pandemic."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  There is a risk of getting infected by the virus when you touch surfaces and objects, but it is low.\n </p>\n <p>\n  To protect yourself, wash your hands with soap and warm water after touching objects that might be contaminated. Avoid touching your eyes, nose or mouth until you have washed your hands properly.\n </p>\n <p>\n  If possible, wash the object that might be contaminated with the cleaning products and disinfectants that you usually use at home. For example, wash your fruits and vegetables well before eating them and wash your reusable bags in hot water with your usual detergent. These are good habits at any time, not just during a pandemic.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  There is a risk of getting infected by the virus when you touch surfaces and objects, but it is low.\n </p>\n <p>\n  To protect yourself, wash your hands with soap and warm water after touching objects that might be contaminated. Avoid touching your eyes, nose or mouth until you have washed your hands properly.\n </p>\n <p>\n  If possible, wash the object that might be contaminated with the cleaning products and disinfectants that you usually use at home. For example, wash your fruits and vegetables well before eating them and wash your reusable bags with your usual detergent. These are good habits at any time, not just during a pandemic.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can COVID-19 be spread through bodily fluids such as blood, sweat or semen?": {
         "nested_title": [
@@ -754,11 +816,11 @@
             "close contact with an infected person when they cough or sneeze;touching infected surfaces with your hands and then touching your mouth, nose or eyes."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Current evidence suggests that there is no risk of contracting COVID-19 from bodily fluids (blood, sweat, semen). The virus is spread by respiratory droplets when a person who is infected coughs or sneezes. COVID-19 is most commonly spread by:\n </p>\n <ul>\n  <li>\n   close contact with an infected person when they cough or sneeze;\n  </li>\n  <li>\n   touching infected surfaces with your hands and then touching your mouth, nose or eyes.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can COVID-19 be spread by contact with the feces of a person who is sick?": {
         "nested_title": [
@@ -772,11 +834,11 @@
             "The risk of contracting COVID-19 by contact with an infected person’s feces is low, but possible. This is why you must wash your hands regularly, especially after going to the bathroom and before eating."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The risk of contracting COVID-19 by contact with an infected person’s feces is low, but possible. This is why you must wash your hands regularly, especially after going to the bathroom and before eating.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can a person who does not have symptoms spread COVID-19?": {
         "nested_title": [
@@ -792,11 +854,11 @@
             "That’s why you are advised to keep at least 2 metres away from other people even if no one has symptoms."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The risk of getting COVID-19 if you have contact with someone who does not have any symptoms is low.\n </p>\n <p>\n  However, many people who are infected have only mild symptoms. This is especially true in the early stages of the disease. For example, you can get COVID-19 if you have contact with someone who has only a mild cough but does not feel sick.\n </p>\n <p>\n  That’s why you are advised to keep at least 2 metres away from other people even if no one has symptoms.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Could the arrival of spring and the warmer weather affect the spread of COVID-19?": {
         "nested_title": [
@@ -810,11 +872,11 @@
             "It might, but so far COVID-19 has been found in many countries, whatever their climate. At this time, it is not known whether the spread of COVID-19 will decrease when the weather becomes warmer."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  It might, but so far COVID-19 has been found in many countries, whatever their climate. At this time, it is not known whether the spread of COVID-19 will decrease when the weather becomes warmer.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How long can COVID-19 survive on objects?": {
         "nested_title": [
@@ -831,11 +893,11 @@
             "4 hours on copper;24 hours on cardboard;more than 48 hours (2 days) on stainless steel;72 hours (3 days) on plastic."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  In general, the coronavirus (COVID-19) does not survive for long on objects:\n </p>\n <ul>\n  <li>\n   3 hours on objects with dry surfaces;\n  </li>\n  <li>\n   6 days on objects with wet surfaces.\n  </li>\n </ul>\n <p>\n  More specifically, according to findings from a recent experiment, how long the virus survives might depend on the type of surface. The virus might be able to survive up to:\n </p>\n <ul>\n  <li>\n   4 hours on copper;\n  </li>\n  <li>\n   24 hours on cardboard;\n  </li>\n  <li>\n   more than 48 hours (2 days) on stainless steel;\n  </li>\n  <li>\n   72 hours (3 days) on plastic.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What is physical distancing? Is it really effective in slowing the spread of COVID-19?": {
         "nested_title": [
@@ -850,11 +912,11 @@
             "Stay at home as much as possible;Avoid non-essential gatherings with people who do not live in your household (for example, dinner with friends);Avoid physical contact with people who are most at risk of complications (older adults, people with chronic diseases or a weakened immune system);If you must go out, stay at least 2 metres (around 6 feet) away from other people as much as possible."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Physical distancing means keeping a certain distance from other people. Since COVID-19 is mainly spread by close contact with infected people, it is one of the most effective ways to reduce the spread of the disease. To minimize close contact with other people who are infected, you must:\n </p>\n <ul>\n  <li>\n   Stay at home as much as possible;\n  </li>\n  <li>\n   Avoid non-essential gatherings with people who do not live in your household (for example, dinner with friends);\n  </li>\n  <li>\n   Avoid physical contact with people who are most at risk of complications (older adults, people with chronic diseases or a weakened immune system);\n  </li>\n  <li>\n   If you must go out, stay at least 2 metres (around 6 feet) away from other people as much as possible.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "When should I wash my hands?": {
         "nested_title": [
@@ -869,11 +931,11 @@
             "Before touching your face (eyes, mouth, nose);After coughing, sneezing or blowing your nose;After going to the bathroom;When your hands are visibly dirty or after touching something dirty;Before and after providing care to a family member or friend;Before and after preparing meals;Before and after eating;Before and after going to a public place (for example, the grocery store or pharmacy)."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  As often as possible, but especially:\n </p>\n <ul>\n  <li>\n   Before touching your face (eyes, mouth, nose);\n  </li>\n  <li>\n   After coughing, sneezing or blowing your nose;\n  </li>\n  <li>\n   After going to the bathroom;\n  </li>\n  <li>\n   When your hands are visibly dirty or after touching something dirty;\n  </li>\n  <li>\n   Before and after providing care to a family member or friend;\n  </li>\n  <li>\n   Before and after preparing meals;\n  </li>\n  <li>\n   Before and after eating;\n  </li>\n  <li>\n   Before and after going to a public place (for example, the grocery store or pharmacy).\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What should I wash my hands with?": {
         "nested_title": [
@@ -884,15 +946,15 @@
         ],
         "title": "What should I wash my hands with?",
         "plaintext": [
-            "Washing your hands with regular soap and warm water is more effective at getting rid of dirt and most viruses than gels, foams or liquid disinfectants. These products are recommended only when soap and running water are not available. Note also that to be effective, gels must contain 60% to 80% alcohol.",
+            "Washing your hands with regular soap and warm water is more effective at getting rid of dirt and most viruses than gels, foams or liquid disinfectants. These products are recommended only when soap and running water are not available. Note also that to be effective, gels must contain at least 60% alcohol.",
             "Techniques for washing your hands with soap and water or with an antiseptic product are described and illustrated on the Washing hands page."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <p>\n  Washing your hands with regular soap and warm water is more effective at getting rid of dirt and most viruses than gels, foams or liquid disinfectants. These products are recommended only when soap and running water are not available. Note also that to be effective, gels must contain 60% to 80% alcohol.\n </p>\n <p>\n  Techniques for washing your hands with soap and water or with an antiseptic product are described and illustrated on the\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/washing-hands/\">\n   Washing hands\n  </a>\n  page.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  Washing your hands with regular soap and warm water is more effective at getting rid of dirt and most viruses than gels, foams or liquid disinfectants. These products are recommended only when soap and running water are not available. Note also that to be effective, gels must contain at least 60% alcohol.\n </p>\n <p>\n  Techniques for washing your hands with soap and water or with an antiseptic product are described and illustrated on the\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/washing-hands/\">\n   Washing hands\n  </a>\n  page.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Do I have to use hot water to wash my hands or clothes? What temperature kills the virus?": {
         "nested_title": [
@@ -907,11 +969,11 @@
             "To wash your hands properly, you should rub your hands together with soap for at least 20 seconds. Techniques for washing your hands with soap and water or with an antiseptic product are described and illustrated on the Washing hands page."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The temperature of the water is not important when you wash your hands or clothes. The soap kills the virus, not the heat of the water used.\n </p>\n <p>\n  To wash your hands properly, you should rub your hands together with soap for at least 20 seconds. Techniques for washing your hands with soap and water or with an antiseptic product are described and illustrated on the\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/washing-hands/\">\n   Washing hands\n  </a>\n  page.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is wearing a mask protect me effectively against COVID-19?": {
         "nested_title": [
@@ -927,11 +989,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Masks are not the best protective measure against infections such as COVID-19 for the general population in Québec. Their use is recommended for patients with a suspected infection. In this situation, when it is necessary to wear a mask, a procedure mask is used. It must be worn solely in the presence of other people or in a health-care setting. The mask enables infected individuals to protect the people around them by retaining potentially contaminated fine droplets that are discharged when they breathe or sneeze.\n </p>\n <p>\n  Because of the nature of their work, health professionals use the N95 mask, which protects them from viruses by filtering the air that they breathe.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can I replace antiseptic gel with other products found in the home?": {
         "nested_title": [
@@ -946,11 +1008,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Washing your hands with warm water and soap for at least 20\n  <span class=\"nbsp\">\n  </span>\n  seconds is the best method. Antiseptic gel should be used when soap and water are unavailable. Acetone-based products such as nail polish remover or hydrogen peroxide, mainly sold in drugstores,\n  <strong>\n   are not\n  </strong>\n  designed to disinfect the hands and pose a health hazard\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Should I wear gloves to protect myself?": {
         "nested_title": [
@@ -964,11 +1026,11 @@
             "There is a shortage of medical gloves right now. They should be reserved for use by health professionals. Wearing gloves can give you a false sense of security. The best way to protect yourself is to wash your hands frequently and properly. Go to the page Washing your hands to find out how."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  There is a shortage of medical gloves right now. They should be reserved for use by health professionals. Wearing gloves can give you a false sense of security. The best way to protect yourself is to wash your hands frequently and properly. Go to the page\n  <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/washing-hands/\">\n   Washing your hands\n  </a>\n  to find out how.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "How can I teach my children about hygiene and prevention measures?": {
         "nested_title": [
@@ -986,11 +1048,11 @@
             "Keep the Decision Fact Sheet in the Self-care Guide on hand or where you can see it. You can use it to decide what to do if you or a family member have symptoms, depending on the situation."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Show them:\n </p>\n <ul>\n  <li>\n   the right way to wash their hands with soap and water;\n  </li>\n  <li>\n   how to blow their nose and sneeze with disposable tissues;\n  </li>\n  <li>\n   how to cough or sneeze into the crease of their elbow or upper arm.\n  </li>\n </ul>\n <p>\n  Good hygiene and prevention practices are explained and illustrated in the\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/self-care-guide-covid-19/\">\n   Self-care Guide\n  </a>\n  .\n </p>\n <p>\n  Remind them often to keep away from other people who are sick.\n </p>\n <p>\n  Keep the Decision Fact Sheet in the Self-care Guide on hand or where you can see it. You can use it to decide what to do if you or a family member have symptoms, depending on the situation.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can my child play outside with other children? Is it safe to let my child see just one friend (always the same one)?": {
         "nested_title": [
@@ -1005,11 +1067,11 @@
             "Your child should not play with anyone who does not live in your household, but they can stay in touch virtually."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Since there is a risk of community transmission of the virus, close contact with children from other households must be avoided, even when playing outdoors. Even though the risk of complications is lower in children who have COVID-19, they can spread the disease to family and friends, in particular to people who are more at risk.\n </p>\n <p>\n  Your child should not play with anyone who does not live in your household, but they can stay in touch virtually.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it safe to breastfeed my child during the pandemic? And, if I have symptoms of COVID-19, should I stop breastfeeding?": {
         "nested_title": [
@@ -1025,11 +1087,11 @@
             "Wash your hands thoroughly before you breastfeed.Wear a mask.Change your clothes before you breastfeed so that your baby will not come in contact with infected secretions.Wash your breasts with soap and water if you think that they might have come in contact with secretions.Between feeds, keep a distance of 2 metres (around 6 feet) from your baby. Ask a healthy family member to take care of your baby.If you have any particular concerns about your baby’s health, talk to your doctor or the nurse who was assigned to you at your CLSC, if you have one, or call 1 877 644‑4545 (toll free)."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Continued breastfeeding during the pandemic is recommended because breast milk contains multiple immune factors that fight infection. In addition, the virus that causes COVID‑19 is not spread through breast milk.\n </p>\n <p>\n  Even if you have COVID‑19 and have symptoms, you can breastfeed if you feel well enough. However, you will have to take the following precautions.\n </p>\n <ul>\n  <li>\n   Wash your hands thoroughly before you breastfeed.\n  </li>\n  <li>\n   Wear a mask.\n  </li>\n  <li>\n   Change your clothes before you breastfeed so that your baby will not come in contact with infected secretions.\n  </li>\n  <li>\n   Wash your breasts with soap and water if you think that they might have come in contact with secretions.\n  </li>\n  <li>\n   Between feeds, keep a distance of 2 metres (around 6 feet) from your baby. Ask a healthy family member to take care of your baby.\n  </li>\n  <li>\n   If you have any particular concerns about your baby’s health, talk to your doctor or the nurse who was assigned to you at your CLSC, if you have one, or call\n   <a href=\"tel:+1-877-644-4545\">\n    1 877 644‑4545\n   </a>\n   (toll free).\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I am 70 years old. I would like to babysit my grandchildren. Their parents work in the health and social services network or for an essential service. What should I do?": {
         "nested_title": [
@@ -1043,11 +1105,11 @@
             "If you are 70 years old or older, you should not offer to babysit your grandchildren because it will increase your risk of exposure to the virus. You should also avoid contact with anyone who does not live in your household. That’s why you are being asked to stay at home as much as possible and only go out if necessary."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  If you are 70 years old or older, you should not offer to babysit your grandchildren because it will increase your risk of exposure to the virus. You should also avoid contact with anyone who does not live in your household. That’s why you are being asked to stay at home as much as possible and only go out if necessary.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "I have to take care of someone who has COVID-19. How can I protect myself and my family?": {
         "nested_title": [
@@ -1061,11 +1123,11 @@
             "If you are caring for someone who has been diagnosed with COVID‑19, you must take steps to protect yourself against the disease. To learn more, go to the page How to care for a person with COVID‑19 at home – Advice for caregivers  on the Government of Canada’s website."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  If you are caring for someone who has been diagnosed with COVID‑19, you must take steps to protect yourself against the disease. To learn more, go to the page\n  <a href=\"https://www.canada.ca/en/public-health/services/publications/diseases-conditions/how-to-care-for-person-with-covid-19-at-home-advice-for-caregivers.html\" target=\"_blank\">\n   How to care for a person with COVID‑19 at home – Advice for caregivers\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  on the Government of Canada’s website.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Would it be a good idea to catch the virus so that I would be immunized afterwards, i.e., to develop resistance to the virus?": {
         "nested_title": [
@@ -1080,11 +1142,11 @@
             "In addition, even if infected people develop antibodies against the virus, at this time it is impossible to know if this would provide a natural defence or effective, lasting immunity."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  No, it would be risky and the benefits are uncertain. There is a real risk, even for young people, of catching COVID-19 and being hospitalized or admitted to intensive care.\n </p>\n <p>\n  In addition, even if infected people develop antibodies against the virus, at this time it is impossible to know if this would provide a natural defence or effective, lasting immunity.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Are detection tests effective if you don’t have symptoms?": {
         "nested_title": [
@@ -1098,11 +1160,11 @@
             "At this time, it cannot be confirmed that tests done on people who are asymptomatic are conclusive, However, if a person has symptoms consistent with COVID‑19 and had close contact with a confirmed case, they can be considered to have COVID‑19 without doing a test."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  At this time, it cannot be confirmed that tests done on people who are asymptomatic are conclusive, However, if a person has symptoms consistent with COVID‑19 and had close contact with a confirmed case, they can be considered to have COVID‑19 without doing a test.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Why isn’t everyone being tested?": {
         "nested_title": [
@@ -1118,11 +1180,11 @@
             "This prioritization of testing will help maintain health services, first responder services and essential services by identifying symptomatic people who might be involved in outbreaks in their workplace and among people who are at risk."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  The coronavirus disease (COVID‑19) pandemic is evolving very rapidly. Whereas in January and February, COVID‑19 was spread by returning travellers, most cases are now caused by community transmission.\n </p>\n <p>\n  This means that testing priorities need to be revised. From now on, testing will focus on people who are most at risk of being hospitalized or developing complications due to the infection and on people who play a critical role in the fight against the infection in Québec.\n </p>\n <p>\n  This prioritization of testing will help maintain health services, first responder services and essential services by identifying symptomatic people who might be involved in outbreaks in their workplace and among people who are at risk.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is there any treatment for COVID-19?": {
         "nested_title": [
@@ -1139,11 +1201,29 @@
             "Lastly, many studies are being conducted to assess the efficacy of medications or treatments that are already being used for other diseases in patients diagnosed with COVID-19, in particular chloroquine. In addition, many research teams are trying to develop new medications, but none are available at the moment."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  There is no specific treatment or vaccine for COVID-19 for the moment. Most people with the virus will recover on their own by remaining at home without needing to go to the hospital.\n </p>\n <p>\n  However, people who are infected with the virus, especially people who are seriously ill, must receive special care to relieve and treat the symptoms. For example, they may need to be given acetaminophen if they have a fever, oxygen if they have difficulty breathing or an infusion if they are dehydrated.\n </p>\n <p>\n  Some people who have severe difficulty breathing will need additional supportive treatment to help them breathe (for example, a tube in the airway, a mechanical ventilator).\n </p>\n <p>\n  Lastly, many studies are being conducted to assess the efficacy of medications or treatments that are already being used for other diseases in patients diagnosed with COVID-19, in particular chloroquine. In addition, many research teams are trying to develop new medications, but none are available at the moment.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
+    },
+    "Are there any advances in research into a possible vaccine against COVID-19?": {
+        "nested_title": [
+            "\n                                            Questions and answers on confinement instructions, symptoms and treatments during the COVID-19 pandemic\n                                        ",
+            "",
+            "",
+            ""
+        ],
+        "title": "Are there any advances in research into a possible vaccine against COVID-19?",
+        "plaintext": [
+            "At this time, dozens of research teams are working on developing a vaccine against COVID‑19. Some teams have developed a vaccine prototype, but additional studies must be done to determine if the vaccine is able to provide enough immunity to prevent or reduce infection. The studies will also identify the side effects of the vaccine and whether it is safe. To do this, tests must be done on animals before human testing can begin. Then, there must be enough production capacity to immunize the entire population. While the usual process may be fast tracked, it will take still take many months to complete. A vaccine is unlikely to be available before 2021."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  At this time, dozens of research teams are working on developing a vaccine against COVID‑19. Some teams have developed a vaccine prototype, but additional studies must be done to determine if the vaccine is able to provide enough immunity to prevent or reduce infection. The studies will also identify the side effects of the vaccine and whether it is safe. To do this, tests must be done on animals before human testing can begin. Then, there must be enough production capacity to immunize the entire population. While the usual process may be fast tracked, it will take still take many months to complete. A vaccine is unlikely to be available before 2021.\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
+        "source": "quebec-faq",
+        "language": "en",
+        "type": "faq",
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Are there any foods, supplements, vitamins or natural health products that can be used to prevent or treat COVID-19?": {
         "nested_title": [
@@ -1159,11 +1239,11 @@
             "However, for the immune system to function effectively, it is important to eat a variety of healthy foods every day, as recommended in Canada’s Food Guide. To find out more, go to the page Healthy eating."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  There are no foods, supplements, vitamins or natural health products that can be used to protect you against or treat COVID-19.\n </p>\n <p>\n  You cannot strengthen your immune system through diet.\n </p>\n <p>\n  However, for the immune system to function effectively, it is important to eat a variety of healthy foods every day, as recommended in\n  <em>\n   Canada’s Food Guide\n  </em>\n  . To find out more, go to the page\n  <a href=\"/en/health/advice-and-prevention/nutrition/healthy-eating/\">\n   Healthy eating\n  </a>\n  .\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Is it preferable to self-isolate and stay home in the coming weeks even if individuals are not returning from a trip?": {
         "nested_title": [
@@ -1179,11 +1259,11 @@
             "Healthy individuals are urged to avoid gatherings as much as possible, especially in enclosed spaces, and to follow basic health advice."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Confinement is one of the measures that will reduce the spread of COVID-19. Elderly people 70 years of age and over and those with a weak immune system or suffering from chronic diseases are asked to stay home,except in the case of necessity or exceptional circumstances, for example for a medical appointment.\n </p>\n <p>\n  Visits to hospitals, residential and long-term care centres, intermediate resources, family-type resources and private seniors' homes are prohibited until further notice.\n </p>\n <p>\n  Healthy individuals are urged to avoid gatherings as much as possible, especially in enclosed spaces, and to follow basic health advice.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Should I be worried about the COVID-19 situation?": {
         "nested_title": [
@@ -1198,11 +1278,11 @@
             ""
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  For now, the spread of COVID-19 is under control in Québec, but the situation must be monitored closely. The Government is taking all the necessary measures to contain the contagion as much as possible.\n </p>\n <p>\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can I have contact with my pet if I have COVID-19 or if I am waiting for my test result?": {
         "nested_title": [
@@ -1221,11 +1301,11 @@
             "To learn more go to the page COVID-19 – Questions et réponses pour les clientèles du MAPAQ , [COVID-19 – Questions and answers for MAPAQ clients; French only] on the website of the Ministère de l’Agriculture, des Pêcheries et de l’Alimentation du Québec (MAPAQ)."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Avoid contact with pets or animals. If you are unable to avoid contact with an animal, wear a mask if you have one. If not, use a tissue or another piece of fabric to cover your nose and mouth.\n </p>\n <p>\n  If you must look after a pet, follow these hygiene measures:\n </p>\n <ul>\n  <li>\n   Make sure you\n   <a href=\"/en/health/advice-and-prevention/accidents-injuries-and-diseases-prevention/washing-hands/\">\n    wash your hands\n   </a>\n   before looking after the pet.\n  </li>\n  <li>\n   Follow the usual hygiene measures for contact with animals. To find out more, go to the page\n   <a href=\"http://www.mapaq.gouv.qc.ca/zoonoses\" target=\"_blank\">\n    Maladies animales transmissibles à l’humain\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   (Diseases that can be spread from animals to humans – in French only).\n  </li>\n  <li>\n   Ideally, keep pets in a room or a cage that is reserved for their use in order to limit contact and contamination of the environment.\n  </li>\n  <li>\n   For pets that go outside, always use a leash or a fenced area.\n  </li>\n </ul>\n <p>\n  If someone else has to look after your pet, choose a member of your household if possible. Tell them about the hygiene measures to follow, in particular limit contact with the pet, wash their hands before and after looking after the pet and disinfect any items the sick person touched and that the pet might have had contact with, such as toys, the leash or the poop bag holder.\n </p>\n <p>\n  These measures must be followed for 14 days after symptoms appear.\n </p>\n <p>\n  To learn more go to the page\n  <a href=\"http://www.mapaq.gouv.qc.ca/fr/Avis_Publicite/Pages/COVID-19_QuestionsReponses.aspx\" target=\"_blank\">\n   COVID-19 – Questions et réponses pour les clientèles du MAPAQ\n   <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , [COVID-19 – Questions and answers for MAPAQ clients; French only] on the website of the Ministère de l’Agriculture, des Pêcheries et de l’Alimentation du Québec (MAPAQ).\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can my pet catch COVID-19? Can I catch the disease from my pet?": {
         "nested_title": [
@@ -1239,11 +1319,11 @@
             "No cases of infected pets have been reported in Canada. At this time, there is no evidence that pets, such as cats and dogs, can spread COVID-19."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  No cases of infected pets have been reported in Canada. At this time, there is no evidence that pets, such as cats and dogs, can spread COVID-19.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can mosquitos transmit the coronavirus?": {
         "nested_title": [
@@ -1257,11 +1337,11 @@
             "No. The World Health Organization has confirmed that, to date, there is no information or proof to the effect that mosquitos can transmit the coronavirus."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  No. The World Health Organization has confirmed that, to date, there is no information or proof to the effect that mosquitos can transmit the coronavirus.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can I go out for a walk?": {
         "nested_title": [
@@ -1277,11 +1357,11 @@
             "People who live in a residential and long-term care centre (CHSLD), a private seniors’ residence or in intermediate resources and family-type resources (IR-FTR) are allowed to go outside but they must be supervised.Anyone else can go outside to get some fresh air and take a walk. It is important to keep at least 2 metres (around 6 feet) away from people who do not live in your household."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Yes, unless you have been told to self-isolate for 14 days. If so, you must stay at home. This means that you cannot go out for a walk until the 14 days are up.\n </p>\n <p>\n  If you have not been told to self-isolate:\n </p>\n <ul>\n  <li>\n   People who live in a residential and long-term care centre (CHSLD), a private seniors’ residence or in intermediate resources and family-type resources (IR-FTR) are allowed to go outside but they must be supervised.\n  </li>\n  <li>\n   Anyone else can go outside to get some fresh air and take a walk. It is important to keep at least 2 metres (around 6 feet) away from people who do not live in your household.\n  </li>\n </ul>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can COVID-19 spread in drinking water?": {
         "nested_title": [
@@ -1295,11 +1375,11 @@
             "No. Water treatment methods used in drinking water systems neutralize the virus that causes COVID-19."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  No. Water treatment methods used in drinking water systems neutralize the virus that causes COVID-19.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can the COVID-19 virus be transmitted through food?": {
         "nested_title": [
@@ -1315,11 +1395,11 @@
             "It is important to always follow the basic rules of hygiene, which include washing your hands thoroughly before eating and cooking, washing food thoroughly before eating, as well as coughing or sneezing into your elbow."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Transmission of the virus by ingesting food has been ruled out. In addition, the coronavirus cannot grow on food.\n </p>\n <p>\n  It is possible to contract COVID-19 by touching a surface or object where the virus is found and then bringing your hand to your mouth, nose or eyes, but this is not the primary means of transmission.\n </p>\n <p>\n  It is important to always follow the basic rules of hygiene, which include washing your hands thoroughly before eating and cooking, washing food thoroughly before eating, as well as coughing or sneezing into your elbow.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can an animal get the coronavirus and transmit it to me?": {
         "nested_title": [
@@ -1337,11 +1417,11 @@
             "Given the limited amount of scientific knowledge available, precautionary principles apply to those infected or suspected of being infected."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  All indications are that the virus is transmitted from person to person as a result of close contact, and there is no evidence that it circulates in the animal population.\n </p>\n <p>\n  In fact, no case of transmission from a human (or other animal) to a domestic animal has been identified. In Québec, there is no evidence to suggest a risk of infection of humans by animals or animal products.\n </p>\n <p>\n  Animals exposed to the virus can be similar to a contaminated surface that is difficult to disinfect and is generally mobile. The risks of contamination are limited by the following measures:\n </p>\n <ul>\n  <li>\n   <a href=\"https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/?utm_source=print&amp;utm_medium=print&amp;utm_campaign=coronavirus_2020\" target=\"_blank\">\n    Recommendations of the Ministère de la Santé et des Services sociaux\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"http://www.mapaq.gouv.qc.ca/fr/Productions/santeanimale/maladies/soussurveillance/\" target=\"Pages/Biosecuriteferme.aspx.\">\n    Biosecurity measures\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n  <li>\n   <a href=\"http://www.mapaq.gouv.qc.ca/zoonoses\" target=\"_blank\">\n    Hygiene measures relating to contact with animals\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n  </li>\n </ul>\n <p>\n  Given the limited amount of scientific knowledge available, precautionary principles apply to those infected or suspected of being infected.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "Can I get my animal tested for COVID-19?": {
         "nested_title": [
@@ -1358,11 +1438,11 @@
             "Veterinarians with specific questions about animal health or public health can obtain information by calling 1-844- ANIMAUX."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  Because COVID-19 is spread from person to person, it is not currently recommended to have animals tested, except in the context of laboratory research.\n </p>\n <p>\n  As of now, there is no valid commercial test available for animals. Understanding is limited as far as determining whether animals can be infected by SARS-CoV-2 or if they can develop symptoms or show signs of the disease.\n </p>\n <p>\n  If you are concerned about your animal’s health, call your veterinarian. Discuss your concerns with him, but also illnesses known to affect animals.\n </p>\n <p>\n  Veterinarians with specific questions about animal health or public health can obtain information by calling 1-844- ANIMAUX.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
     },
     "What must do an animals’ owner or caretaker if he is infected by COVID-19 or think he is?": {
         "nested_title": [
@@ -1378,10 +1458,28 @@
             "Animal breeders already use good biosecurity and hygiene. They are urged to enhance it if needed."
         ],
         "html": "<div class=\"ce-bodytext\">\n <p>\n  During the period of isolation prescribed by public health authorities:\n </p>\n <ul>\n  <li>\n   If possible, avoid contact with animals.\n  </li>\n  <li>\n   If he nevertheless has to take care of an animal, respect the hygiene measures recommended by the Ministère de la Santé et des Services sociaux. This includes wearing a mask and paying special attention to hand washing before providing care. Comply with the usual hygiene measures for contact with animals. These measures are found in the\n   <a href=\"https://www.mapaq.gouv.qc.ca/fr/Productions/santeanimale/maladies/transmissibleshumain/Pages/transmissibles.aspx\" target=\"_blank\">\n    Maladies animales transmissibles à l'humain\n    <img alt=\"This hyperlink will open in a new window.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n   </a>\n   section (french only).\n  </li>\n  <li>\n   Avoid contact between your animal and other animals or with people.\n  </li>\n  <li>\n   If someone else must take care of the animal, choose a household member if possible. Brief this person on the measures to apply, especially those concerning limited contact with the animal, hand washing before and after care is provided, and disinfecting the environment that must be shared with the animal, where applicable (e.g. for walks, etc.). Also remind the person about the hygiene measures to follow.\n  </li>\n </ul>\n <p>\n  Animal breeders already use good biosecurity and hygiene. They are urged to enhance it if needed.\n </p>\n</div>",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reponses-questions-coronavirus-covid19/isolement-symptomes-traitements-covid-19/",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
         "source": "quebec-faq",
         "language": "en",
         "type": "faq",
-        "time": "2020-04-22 07:08:25.480614"
+        "time": "2020-04-22 09:56:53.340239"
+    },
+    "I feel stressed, anxious or depressed because of COVID-19. How can I improve my situation?": {
+        "nested_title": [
+            "\n                                            Questions and answers on confinement instructions, symptoms and treatments during the COVID-19 pandemic\n                                        ",
+            "",
+            "",
+            ""
+        ],
+        "title": "I feel stressed, anxious or depressed because of COVID-19. How can I improve my situation?",
+        "plaintext": [
+            "It is normal to have signs and symptoms of stress, anxiety and depression during a pandemic. Most people have the resources and mental strength to adapt to this type of situation. To find out more for yourself and your family, go to the page Stress, Anxiety and Depression Associated With the Coronavirus COVID‑19 Disease."
+        ],
+        "html": "<div class=\"ce-bodytext\">\n <p>\n  It is normal to have signs and symptoms of stress, anxiety and depression during a pandemic. Most people have the resources and mental strength to adapt to this type of situation. To find out more for yourself and your family, go to the page\n  <a href=\"/en/health/health-issues/a-z/2019-coronavirus/stress-anxiety-and-depression-associated-with-the-coronavirus-covid-19-disease/\">\n   Stress, Anxiety and Depression Associated With the Coronavirus COVID‑19 Disease\n  </a>\n  .\n </p>\n</div>",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/answers-questions-coronavirus-covid19/confinement-instructions-symptoms-treatments-covid-19/",
+        "source": "quebec-faq",
+        "language": "en",
+        "type": "faq",
+        "time": "2020-04-22 09:56:53.340239"
     }
 }

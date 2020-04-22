@@ -15,7 +15,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Milieu de la petite enfance": {
@@ -37,7 +37,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Milieu scolaire": {
@@ -54,11 +54,11 @@
             "Information et inscription aux services de garde d’urgence en milieu scolaire.  ",
             "Consultez la liste des établissements scolaires ouverts (PDF 493 Ko) ou la carte des services de garde d’urgence en milieu scolaire , pour faciliter la sélection de votre service de garde d’urgence."
         ],
-        "html": "<div class=\"ce-bodytext\">\n <h3>\n  Milieu scolaire\n </h3>\n <p>\n  Si votre enfant fréquente la maternelle ou le primaire (4 à 13 ans), notez que des services de garde d’urgence seront ouverts dans certaines écoles.\n </p>\n <p>\n  Information et inscription aux\n  <a href=\"/famille-et-soutien-aux-personnes/services-de-garde-durgence/services-garde-urgence-milieu-scolaire/\">\n   services de garde d’urgence en milieu scolaire\n  </a>\n  .\n </p>\n <p>\n  Consultez la\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/education/Liste_ServGardUrgence.pdf?1586896304\" target=\"_blank\">\n   liste des établissements scolaires ouverts\n   <span class=\"infoFichier\">\n    (PDF 493 Ko)\n   </span>\n  </a>\n  ou la\n  <a href=\"https://infogeo.education.gouv.qc.ca/public/services_garde_temporaires/\" target=\"_blank\">\n   carte des services de garde d’urgence en milieu scolaire\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , pour faciliter la sélection de votre service de garde d’urgence.\n </p>\n</div>",
+        "html": "<div class=\"ce-bodytext\">\n <h3>\n  Milieu scolaire\n </h3>\n <p>\n  Si votre enfant fréquente la maternelle ou le primaire (4 à 13 ans), notez que des services de garde d’urgence seront ouverts dans certaines écoles.\n </p>\n <p>\n  Information et inscription aux\n  <a href=\"/famille-et-soutien-aux-personnes/services-de-garde-durgence/services-garde-urgence-milieu-scolaire/\">\n   services de garde d’urgence en milieu scolaire\n  </a>\n  .\n </p>\n <p>\n  Consultez la\n  <a href=\"https://cdn-contenu.quebec.ca/cdn-contenu/education/Liste_ServGardUrgence.pdf?1586984438\" target=\"_blank\">\n   liste des établissements scolaires ouverts\n   <span class=\"infoFichier\">\n    (PDF 493 Ko)\n   </span>\n  </a>\n  ou la\n  <a href=\"https://infogeo.education.gouv.qc.ca/public/services_garde_temporaires/\" target=\"_blank\">\n   carte des services de garde d’urgence en milieu scolaire\n   <img alt=\"Cet hyperlien s'ouvrira dans une nouvelle fenêtre.\" class=\"linkExtImg\" src=\"/typo3conf/ext/gabarit_pgu/Resources/Public/Images/Templates/lien-externe.svg\"/>\n  </a>\n  , pour faciliter la sélection de votre service de garde d’urgence.\n </p>\n</div>",
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "À consulter aussi": {
@@ -76,7 +76,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Évaluation de page": {
@@ -95,7 +95,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     },
     "Des questions ou besoin de renseignements?": {
@@ -114,7 +114,7 @@
         "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/services-de-garde-durgence/",
         "source": "quebec",
         "language": "fr",
-        "time": "2020-04-22 07:08:25.480614",
+        "time": "2020-04-22 09:56:53.340239",
         "type": "section"
     }
 }
