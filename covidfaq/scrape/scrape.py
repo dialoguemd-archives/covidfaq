@@ -12,7 +12,7 @@ import bs4
 import requests
 import structlog
 import yaml
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, NavigableString
 from selenium import webdriver
 from yaml import load
 
