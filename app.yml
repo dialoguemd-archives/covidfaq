@@ -33,3 +33,6 @@ dependencies:
       tolerations:
         - key: "dialoguecorp.com/covidbot"
           operator: "Exists"
+
+addons:
+  iamRole: true
