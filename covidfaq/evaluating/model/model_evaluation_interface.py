@@ -5,7 +5,7 @@ class ModelEvaluationInterface:
 
         Parameters
         ----------
-        answers: list[answer_index (type), answer (str)].
+        answers: list[answer_index (int), answer (str)].
 
         This is where the pre-processing (like caching) can happen.
         If your model does not cache, you can just save the answers (self.answers = answers)
