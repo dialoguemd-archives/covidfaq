@@ -24,9 +24,12 @@ class ModelEvaluationInterface:
         ----------
         question: str
 
+        This method is called for every question. You will need to return the correct answer.
+        The answers are provided to you by calling the method `collect_answers` above.
+
         Returns
         -------
-        int: the correct answer_index (see collect_answers method) for this question.
+        int: the correct answer_index (see collect_answers method's doc) for this question.
 
         """
         raise ValueError('implement')
