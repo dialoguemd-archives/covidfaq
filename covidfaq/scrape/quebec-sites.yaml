@@ -24,6 +24,8 @@ quebec-fr: &qfr
     source: quebec
     language: fr
 
+  scraper: requests
+
   selectors:
 
     - method: nesting
@@ -31,7 +33,9 @@ quebec-fr: &qfr
       title: "h1, h2, h3, h4"
       body: ".ce-bodytext"
       exclude:
-        title: "^(Avis|Notice)$"
+        titles: 
+          - "^(Avis|Notice)$"
+
         body: null
         selector: null
       info:
@@ -42,7 +46,7 @@ quebec-fr: &qfr
       title: null
       body: ".ce-bodytext"
       exclude:
-        title: null
+        titles: null
         body: null
         selector: null
       info:
@@ -54,7 +58,7 @@ quebec-fr: &qfr
       title: ".accordion-toggle"
       body: ".ce-bodytext"
       exclude:
-        title: null
+        titles: null
         body: null
         selector: null
       info:
@@ -63,7 +67,7 @@ quebec-fr: &qfr
 quebec-en:
   <<: *qfr
 
-  translate: "ul.listePiv a[lang=\"en\"]"
+  translate: "ul.listePiv a"
 
   info:
     source: quebec
@@ -86,13 +90,15 @@ quebec-fr-faq: &qfrfaq
     language: fr
     type: faq
 
+  scraper: requests
+
   selectors:
     - method: nesting
       parent: ".panel, .panel-default"
       title: ".accordion-toggle"
       body: ".ce-bodytext"
       exclude:
-        title: null
+        titles: null
         body: null
         selector: null
       info:
