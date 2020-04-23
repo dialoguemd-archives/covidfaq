@@ -1,5 +1,3 @@
-import random
-
 from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluationInterface
 
 
