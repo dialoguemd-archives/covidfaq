@@ -4,7 +4,11 @@ FROM base as builder
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends gcc g++ \
-    && apt-get install -y --no-install-recommends chromium-browser chromium-chromedriver
+
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+RUN dpkg -i google-chrome-stable_current_amd64.deb --fix-missing; apt-get -fy install`
+RUN apt-get install -y --no-install-recommends chromium-chromedriver
+
 
 # permit installing private packages
 
