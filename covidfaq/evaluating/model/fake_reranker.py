@@ -4,6 +4,10 @@ from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluation
 
 
 class FakeReRanker(ModelEvaluationInterface):
+    """
+    Returns always the same answer.
+    (use for debug)
+    """
 
     def collect_answers(self, answers):
         pass

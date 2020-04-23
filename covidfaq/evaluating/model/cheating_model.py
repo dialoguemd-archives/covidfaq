@@ -4,6 +4,10 @@ from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluation
 
 
 class CheatingModel(ModelEvaluationInterface):
+    """
+    model that knows the golden truth and will always return the best result.
+    (useful for debugging)
+    """
 
     def __init__(self, gold_data):
         self.gold_data = gold_data

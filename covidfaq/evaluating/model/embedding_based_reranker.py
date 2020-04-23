@@ -10,6 +10,11 @@ from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluation
 
 
 class EmbeddingBasedReRanker(ModelEvaluationInterface):
+    """
+    Model based on the BERT embedding approach.
+    It will compute the embeddings for the various answers (and cache them).
+    When a question is provided, it only needs to compute the embedding for that question.
+    """
 
     def __init__(self, config):
         with open(config, 'r') as stream:
@@ -34,10 +39,10 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
     def collect_answers(self, answers):
         cached_answers = []
         indices = []
-        for index, answer in tqdm.tqdm(answers.items()):
+        for index, answer in tqdm.tqdm(answers):
             cached = self.model.embed_paragraph(answer)
             cached_answers.append(cached.squeeze(0))
-            indices.append(int(index))
+            indices.append(index)
         self.p_embs = torch.stack(cached_answers)
         self.indices = indices
 
