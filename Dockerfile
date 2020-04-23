@@ -6,7 +6,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends gcc g++ \
 
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-RUN dpkg -i google-chrome-stable_current_amd64.deb --fix-missing; apt-get -fy install`
+RUN dpkg -i google-chrome-stable_current_amd64.deb --fix-missing; apt-get -fy install
 RUN apt-get install -y --no-install-recommends chromium-chromedriver
 
 
