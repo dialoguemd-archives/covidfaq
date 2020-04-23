@@ -18,9 +18,10 @@ The main script is `evaluator.py`. It needs to be pointed to a json file
 containing the evaluation data and to know which model should be evaluated.
 Optionally, it accept a config file to initialize the model. E.g.,
 
-    python evaluator.py ----test-data=faq_eval_data.json 
+    poetry python covidfaq/evaluation/evaluator.py
+      --test-data=covidfaq/evaluation/faq_eval_data.json 
       --model-type=embedding_based_reranker
-      --config=..../config.yaml
+      --config=[...]/config.yaml
 
 ### How to evaluate a new model
 
