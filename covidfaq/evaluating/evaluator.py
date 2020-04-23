@@ -3,7 +3,7 @@
 import argparse
 import json
 import logging
-import timeit
+import time
 
 import tqdm
 
@@ -17,26 +17,33 @@ logger = logging.getLogger(__name__)
 def evaluate(model_to_evaluate, test_data):
     logger.info('data is composed by {} questions and {} answers'.format(
         len(test_data['questions']), len(test_data['answers'])))
-    a_start = timeit.timeit()
+    a_start = time.time()
     model_to_evaluate.collect_answers(test_data['answers'])
-    a_end = timeit.timeit()
+    a_end = time.time()
+    answer_time = a_end - a_start
+    logger.info(
+        'preparing {} answers: total time {:.2f} sec./ per-answer time {:.2f} sec.'.format(
+            len(test_data['answers']), answer_time, answer_time / len(test_data['answers'])))
+
     correct = 0
     total = 0
-
-    q_start = timeit.timeit()
+    q_start = time.time()
     for question, target in tqdm.tqdm(test_data['questions'].items()):
         prediction = model_to_evaluate.answer_question(question)
         if target == prediction:
             correct += 1
         total += 1
-    q_end = timeit.timeit()
+    q_end = time.time()
 
-    logger.info('correct {} over {} / accuracy: {}'.format(
-        correct, total, correct / total))
-    answer_time = a_end - a_start
     question_time = q_end - q_start
-    logger.info('preparing answer time: {} / replying question time: {} / total time: {}'.format(
-        answer_time, question_time, answer_time + question_time))
+    logger.info(
+        'producing the answers for {} questions: total time {:.2f} sec. / '
+        'per-question time {:.2f} sec.'.format(
+            len(test_data['questions']), question_time,
+            question_time / len(test_data['questions'])))
+
+    logger.info('correct {} over {} / accuracy: {:.2f}%'.format(
+        correct, total, (correct / total) * 100))
 
 
 def main():
