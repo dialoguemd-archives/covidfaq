@@ -95,7 +95,7 @@ def rule_nesting(soup, info, url, rule):
 
         if exclude["titles"]:
             skip_entry = False
-            for title in exclude['titles']:
+            for title in exclude["titles"]:
                 if re.search(title, raw_title):
                     skip_entry = True
             if skip_entry:
@@ -134,25 +134,25 @@ def rule_ontario(soup, info, url, rule):
     results = []
     exclude = rule["exclude"]
 
-    headers = soup.find_all(rule['headers'])
+    headers = soup.find_all(rule["headers"])
     for header in headers:
         nextNode = header
         header_str = str(nextNode.text)
         if exclude["titles"]:
             skip_header = False
-            for title in exclude['titles']:
+            for title in exclude["titles"]:
                 if re.search(title, header_str):
                     skip_header = True
             if skip_header:
                 continue
         entry = {
-            'nested_title': [], # TODO: implement
-            'title': header_str,
-            'plaintext': [],
-            'url': url,
-            'html': "",
-            'time': info['time'],
-            'language': info['language'],
+            "nested_title": [],  # TODO: implement
+            "title": header_str,
+            "plaintext": [],
+            "url": url,
+            "html": "",
+            "time": info["time"],
+            "language": info["language"],
         }
         entry.update(info)
         entry.update(rule["info"])
@@ -160,14 +160,14 @@ def rule_ontario(soup, info, url, rule):
             nextNode = nextNode.nextSibling
             if nextNode is None:
                 break
-            elif nextNode.name in rule['headers']:
+            elif nextNode.name in rule["headers"]:
                 break
             elif isinstance(nextNode, NavigableString):
                 continue
             if nextNode.text:
-                if nextNode.text != '': # add and isinstance(nextNode, Tag)?
-                    entry['plaintext'].append(str(nextNode.text))
-                    entry['html'] += str(nextNode)
+                if nextNode.text != "":  # add and isinstance(nextNode, Tag)?
+                    entry["plaintext"].append(str(nextNode.text))
+                    entry["html"] += str(nextNode)
 
         results.append(entry)
 
@@ -209,25 +209,24 @@ def rule_sibling(soup, info, url, rule):
 
 def get_soup(url, cfg, browser):
 
-    if cfg['scraper'] == 'selenium':
-        wait_time = 4 # Kind of arbitrary, but if internet is slow page doesnt render on time because of js
+    if cfg["scraper"] == "selenium":
+        wait_time = 4  # Kind of arbitrary, but if internet is slow page doesnt render on time because of js
 
         browser.get(url)
         # Make sure the page loads, might want to fix this for something more robust
         time.sleep(wait_time)
         html = browser.page_source
         if html:
-            soup = BeautifulSoup(html, 'lxml')
+            soup = BeautifulSoup(html, "lxml")
         else:
             log.info("scraping didn't work for ", url=url)
             return None
 
-
-
-    elif cfg['scraper'] == 'requests':
+    elif cfg["scraper"] == "requests":
         page = requests.get(url)
         soup = BeautifulSoup(page.content, "html.parser")
     return soup
+
 
 def extract_sections(url, info, cfg, browser, translated=False):
     #  page = requests.get(url)
