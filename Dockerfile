@@ -4,7 +4,7 @@ FROM base as builder
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends gcc g++ \
-    && apt-get install -y --no-install-recommends chromium-chromedriver
+    && apt-get install -y --no-install-recommends chromium-browser chromium-chromedriver
 
 # permit installing private packages
 
