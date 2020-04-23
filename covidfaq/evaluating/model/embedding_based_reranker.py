@@ -6,7 +6,9 @@ from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
 from yaml import load
 
-from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluationInterface
+from covidfaq.evaluating.model.model_evaluation_interface import (
+    ModelEvaluationInterface,
+)
 
 
 class EmbeddingBasedReRanker(ModelEvaluationInterface):
@@ -17,19 +19,17 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
     """
 
     def __init__(self, config):
-        with open(config, 'r') as stream:
+        with open(config, "r") as stream:
             hyper_params = load(stream, Loader=yaml.FullLoader)
 
-        ckpt_to_resume = hyper_params['ckpt_to_resume']
-        tokenizer_name = hyper_params['tokenizer_name']
+        ckpt_to_resume = hyper_params["ckpt_to_resume"]
+        tokenizer_name = hyper_params["tokenizer_name"]
         tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         model = load_model(hyper_params, tokenizer, False)
 
         ret_trainee = RetrieverTrainer(model, None, None, None, None, None)
 
-        model_ckpt = torch.load(
-            ckpt_to_resume, map_location=torch.device("cpu")
-        )
+        model_ckpt = torch.load(ckpt_to_resume, map_location=torch.device("cpu"))
         ret_trainee.load_state_dict(model_ckpt["state_dict"])
         self.model = ret_trainee.retriever
 

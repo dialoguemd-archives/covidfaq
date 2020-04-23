@@ -1,4 +1,6 @@
-from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluationInterface
+from covidfaq.evaluating.model.model_evaluation_interface import (
+    ModelEvaluationInterface,
+)
 
 
 class CheatingModel(ModelEvaluationInterface):
@@ -14,4 +16,4 @@ class CheatingModel(ModelEvaluationInterface):
         pass
 
     def answer_question(self, question):
-        return self.gold_data['questions'][question]
+        return self.gold_data["questions"][question]

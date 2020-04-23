@@ -1,4 +1,6 @@
-from covidfaq.evaluating.model.model_evaluation_interface import ModelEvaluationInterface
+from covidfaq.evaluating.model.model_evaluation_interface import (
+    ModelEvaluationInterface,
+)
 
 
 class FakeReRanker(ModelEvaluationInterface):

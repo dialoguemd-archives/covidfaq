@@ -1,5 +1,4 @@
 class ModelEvaluationInterface:
-
     def collect_answers(self, answers):
         """
 
@@ -15,7 +14,7 @@ class ModelEvaluationInterface:
         -------
 
         """
-        raise ValueError('implement')
+        raise ValueError("implement")
 
     def answer_question(self, question):
         """
@@ -32,4 +31,4 @@ class ModelEvaluationInterface:
         int: the correct answer_index (see collect_answers method's doc) for this question.
 
         """
-        raise ValueError('implement')
+        raise ValueError("implement")
