@@ -23,6 +23,7 @@ tensorflow = "^2.0.0"
 tensorflow-estimator = "==2.1.0"
 boto3 = "^1.12.29"
 sklearn = "^0.0"
+bert-reranker = {git = "https://github.com/mirkobronzi/bert_reranker.git", rev = "v0.1.0"}
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
