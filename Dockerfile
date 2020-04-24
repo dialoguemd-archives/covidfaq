@@ -3,7 +3,7 @@ FROM python:3.7.6-slim-buster as base
 FROM base as builder
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends gcc g++ wget gnugpg2
+    && apt-get install -y --no-install-recommends gcc g++ wget gnupg2
 
 # install google chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
