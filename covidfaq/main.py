@@ -1,9 +1,8 @@
+from covidfaq import config, routers
+from covidfaq.utils import BertModels, ElasticSearchClient
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from structlog import get_logger
-
-from covidfaq import config, routers
-from covidfaq.utils import BertModels, ElasticSearchClient
 
 app = FastAPI()
 app.include_router(routers.health.router)

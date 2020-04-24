@@ -1,8 +1,7 @@
 from unittest.mock import patch
 
-from fastapi.testclient import TestClient
-
 from covidfaq.main import app
+from fastapi.testclient import TestClient
 
 client = TestClient(app)
 

@@ -1,11 +1,10 @@
 import logging
 
 import structlog
-from elasticsearch import Elasticsearch
-
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
 )
+from elasticsearch import Elasticsearch
 
 INDEX_NAME = "es_index"
 logger = logging.getLogger(__name__)

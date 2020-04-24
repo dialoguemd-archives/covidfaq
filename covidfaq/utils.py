@@ -3,17 +3,17 @@ import pickle
 from functools import lru_cache
 
 import numpy as np
+from tokenizers import BertWordPieceTokenizer
+from transformers import TFAutoModel, TFElectraModel
+
 import spacy
 import tensorflow as tf
 import tensorflow.keras.layers as L
+from covidfaq import config
 from elasticsearch import Elasticsearch
 from spacy_langdetect import LanguageDetector
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
-from tokenizers import BertWordPieceTokenizer
-from transformers import TFAutoModel, TFElectraModel
-
-from covidfaq import config
 
 nlp = spacy.load("en")
 nlp.add_pipe(LanguageDetector(), name="language_detector", last=True)

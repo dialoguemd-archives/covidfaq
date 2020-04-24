@@ -2,18 +2,18 @@
 # coding: utf-8
 
 import pandas as pd
-import spacy
-import structlog
-from elasticsearch import Elasticsearch
-from spacy_langdetect import LanguageDetector
 from tqdm.auto import tqdm
 
+import spacy
+import structlog
 from covidfaq.search.build_index import (
     en_sec_index,
     fr_sec_index,
     get_es_hostname,
     get_es_port,
 )
+from elasticsearch import Elasticsearch
+from spacy_langdetect import LanguageDetector
 
 log = structlog.get_logger(__name__)
 
