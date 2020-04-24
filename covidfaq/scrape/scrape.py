@@ -13,9 +13,8 @@ import requests
 import structlog
 import yaml
 from bs4 import BeautifulSoup, NavigableString
-from yaml import load
-
 from selenium import webdriver
+from yaml import load
 
 log = structlog.get_logger(__name__)
 
