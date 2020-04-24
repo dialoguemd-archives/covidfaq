@@ -85,8 +85,10 @@ def get_answer_from_cluster(cluster, lang="en"):
 
     answer_file = labels_file[labels_file.Label == cluster].Answer.values
 
-    if answer_file and ".md" in answer_file:
+    if answer_file and ".md" in answer_file[0]:
         # answer_file = "03_test-referral.md"  # FOR TEST, TO REMOVE
+
+        answer_file = answer_file[0]
 
         if lang != "en":
             answer_file = answer_file.split(".md")[0] + ".fr.md"
