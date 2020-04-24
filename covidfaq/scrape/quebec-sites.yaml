@@ -16,6 +16,7 @@ quebec-fr: &qfr
     - "https://www.quebec.ca/gouv/covid19-fonction-publique/"
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programme-actions-concertees-pour-le-maintien-en-emploi-pacme-covid-19/"
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programmes-gouvernementaux-soutien-entreprises-covid19/"
+    - "https://www.quebec.ca/emploi/offres-d-emploi/besoins-urgents-covid-19/"
     - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"
       info:
         urlkey: mainpage
