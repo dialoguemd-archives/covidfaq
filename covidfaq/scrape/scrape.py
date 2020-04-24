@@ -233,8 +233,6 @@ def get_soup(url, cfg, browser):
 
 
 def extract_sections(url, info, cfg, browser, translated=False):
-    #  page = requests.get(url)
-    #  soup = BeautifulSoup(page.content, "html.parser")
     soup = get_soup(url, cfg, browser)
 
     if not translated and "translate" in cfg:
