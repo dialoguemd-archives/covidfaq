@@ -6,6 +6,9 @@ import numpy as np
 import pandas as pd
 import tensorflow_hub as hub
 import tensorflow_text  # noqa
+from structlog import get_logger
+
+log = get_logger()
 
 
 class Clusterer:
@@ -83,17 +86,26 @@ def get_answer_from_cluster(cluster, lang="en"):
     answer_file = labels_file[labels_file.Label == cluster].Answer.values
 
     if answer_file and ".md" in answer_file:
-        answer_file = "03_test-referral.md"  # FOR TEST, TO REMOVE
+        # answer_file = "03_test-referral.md"  # FOR TEST, TO REMOVE
 
         if lang != "en":
             answer_file = answer_file.split(".md")[0] + ".fr.md"
 
-        f = urllib.request.urlopen(
-            "https://raw.githubusercontent.com/dialoguemd/covid-19/master/src/regions/ca/info/faq/"
-            + answer_file
-        )
+        try:
+            f = urllib.request.urlopen(
+                "https://raw.githubusercontent.com/dialoguemd/covid-19/master/src/regions/ca/info/faq/"
+                + answer_file
+            )
 
-        return f.read().decode("utf-8")
+            return f.read().decode("utf-8")
+
+        except:
+            log.debug(
+                "error_getting_answer_file",
+                cluster=cluster,
+                lang=lang,
+                answer_file=answer_file,
+            )
 
 
 if __name__ == "__main__":
