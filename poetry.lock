@@ -69,7 +69,7 @@ description = ""
 name = "bert-reranker"
 optional = false
 python-versions = ">=3.7"
-version = "0.1.0"
+version = "0.1.1"
 
 [package.dependencies]
 flake8 = "*"
@@ -1459,7 +1459,7 @@ test = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 
 [metadata]
-content-hash = "b33f6782fa3c8eabe93d3273cc7cd5d90dbd56022227c25a6332a218fb5418c0"
+content-hash = "a4ad6b3df972e74acba28b2c3723208d9d11255d7eee38fc20f6f30d7f2e3546"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1488,7 +1488,7 @@ beautifulsoup4 = [
     {file = "beautifulsoup4-4.9.0.tar.gz", hash = "sha256:594ca51a10d2b3443cbac41214e12dbb2a1cd57e1a7344659849e2e20ba6a8d8"},
 ]
 bert-reranker = [
-    {file = "bert_reranker-0.1.0.tar.gz", hash = "sha256:2287af3c0c2f59d00171b14862b4acd69e76b23f7fce3be620c3bd8f0561b335"},
+    {file = "bert_reranker-0.1.1.tar.gz", hash = "sha256:1d24f93a4787741c55425bfe9de4c7e1576b6950111ce8b2b4aa83a81ff9e4a2"},
 ]
 black = [
     {file = "black-19.10b0-py36-none-any.whl", hash = "sha256:1b30e59be925fafc1ee4565e5e08abef6b03fe455102883820fe5ee2e4734e0b"},
