@@ -17,7 +17,8 @@ ontario-fr: &onfr
 
   selectors:
 
-    - method: ontario
+    - method: headers
+      header_type: 'markdown'
       headers: 
       - h1
       - h2
@@ -43,5 +44,5 @@ ontario-en:
   translate: "link.hreflang-alt"
 
   info:
-    source: ontario
+    source: headers
     language: en

@@ -13,9 +13,8 @@ alberta-en: &aben
     - "https://www.alberta.ca/prevent-the-spread.aspx"
     - "https://www.alberta.ca/covid-19-testing-in-alberta.aspx"
     - "https://www.alberta.ca/covid-19-alberta-data.aspx"
-    - "https://www.alberta.ca/coronavirus-info-for-albertans.aspx"
     - "https://www.alberta.ca/prevent-the-spread.aspx"
-      
+
   info:
     source: alberta
     language: fr
@@ -24,15 +23,16 @@ alberta-en: &aben
 
   selectors:
 
-    - method: ontario
-      headers: 
+    - method: headers
+      header_type: 'markdown'
+      headers:
       - h1
       - h2
       - h3
       - h4
       body: ".ce-bodytext"
       exclude:
-        titles: 
+        titles:
           - "(Resources)"
           - "(Related)"
           - "(Quick links)"
@@ -41,3 +41,31 @@ alberta-en: &aben
         selector: null
       info:
         type: "section"
+
+
+alberta-en-faq: &abenfaq
+  urls:
+    - "https://www.alberta.ca/coronavirus-info-for-albertans.aspx"
+
+  info:
+    source: alberta-faq
+    language: en
+    type: faq
+
+  scraper: requests
+
+  selectors:
+    - method: headers
+      header_type: 'goa'
+      headers:
+        - .goa-title
+      exclude:
+        titles:
+          - "(Resources)"
+          - "(Related)"
+          - "(Quick links)"
+          - "(About this Site)"
+        body: null
+        selector: null
+      info:
+        type: "faq"

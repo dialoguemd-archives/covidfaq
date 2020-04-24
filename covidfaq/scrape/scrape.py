@@ -129,12 +129,16 @@ def rule_nesting(soup, info, url, rule):
     return results
 
 
-def rule_ontario(soup, info, url, rule):
+def rule_headers(soup, info, url, rule):
 
     results = []
     exclude = rule["exclude"]
 
-    headers = soup.find_all(rule["headers"])
+    if rule["header_type"] == "goa":
+        headers = soup.select(rule["headers"][0])
+    elif rule["header_type"] == 'markdown':
+        headers = soup.find_all(rule["headers"])
+
     for header in headers:
         nextNode = header
         header_str = str(nextNode.text)
