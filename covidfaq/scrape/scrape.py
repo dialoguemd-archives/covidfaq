@@ -136,7 +136,7 @@ def rule_headers(soup, info, url, rule):
 
     if rule["header_type"] == "goa":
         headers = soup.select(rule["headers"][0])
-    elif rule["header_type"] == 'markdown':
+    elif rule["header_type"] == "markdown":
         headers = soup.find_all(rule["headers"])
 
     for header in headers:
