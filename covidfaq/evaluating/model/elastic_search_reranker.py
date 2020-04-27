@@ -12,10 +12,11 @@ log = structlog.get_logger(__name__)
 
 
 class ElasticSearchReRanker(ModelEvaluationInterface):
+
     def __init__(self):
-        # shut up annoying logging from elasti search
-        logger = logging.getLogger("elasticsearch")
-        logger.setLevel(logging.ERROR)
+        # shut up annoying logging from elastic search
+        es_logger = logging.getLogger("elasticsearch")
+        es_logger.setLevel(logging.ERROR)
 
         es = Elasticsearch([{"host": "localhost", "port": "9200"}])
         if not es.ping():
