@@ -7,10 +7,9 @@ import re
 from os import listdir
 from os.path import isfile, join
 
-from tqdm.auto import tqdm
-
 import structlog
 from elasticsearch import Elasticsearch
+from tqdm.auto import tqdm
 
 log = structlog.get_logger(__name__)
 

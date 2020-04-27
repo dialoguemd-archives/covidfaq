@@ -1,7 +1,6 @@
 from typing import List, Optional
 
 import numpy as np
-
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger

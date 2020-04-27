@@ -2,7 +2,6 @@ import os
 from zipfile import ZipFile
 
 import boto3
-
 import structlog
 
 log = structlog.get_logger()
