@@ -7,13 +7,12 @@ from collections import defaultdict
 from datetime import datetime
 from urllib.parse import urljoin
 
-import requests
-import yaml
-from yaml import load
-
 import bs4
+import requests
 import structlog
+import yaml
 from bs4 import BeautifulSoup
+from yaml import load
 
 log = structlog.get_logger(__name__)
 
