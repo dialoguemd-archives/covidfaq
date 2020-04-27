@@ -13,7 +13,6 @@ log = structlog.get_logger(__name__)
 
 
 class ElasticSearchReRanker(ModelEvaluationInterface):
-
     def __init__(self):
         # shut up annoying logging from elastic search
         es_logger = logging.getLogger("elasticsearch")
