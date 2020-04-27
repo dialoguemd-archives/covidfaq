@@ -81,6 +81,9 @@ def get_labels_file():
 
 def get_answer_from_cluster(cluster, lang="en"):
 
+    if cluster == "unclassified":
+        return
+
     labels_file = get_labels_file()
 
     answer_file = labels_file[labels_file.Label == cluster].Answer.values
@@ -116,9 +119,9 @@ if __name__ == "__main__":
 
     my_clusterer = Clusterer()
 
-    cluster = my_clusterer.get_cluster("what are the symptoms?", lang="en")
-
-    answer = get_answer_from_cluster(cluster, "en")
-
+    cluster = my_clusterer.get_cluster("est-ce que je vais mourrir?", lang="fr")
     print(cluster)
+
+    answer = get_answer_from_cluster(cluster, "fr")
+
     print(answer)
