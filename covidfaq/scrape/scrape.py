@@ -261,7 +261,16 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
         sites = load(stream, Loader=yaml.FullLoader)
     now = str(datetime.now())
 
-    browser = webdriver.Chrome()  # you might need to apt install chromium-chromedriver
+    # Initialize broswer for selenium
+    options = webdriver.ChromeOptions()
+    options.add_argument("headless")
+    options.add_argument("--disable-infobars")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--remote-debugging-port=9222")
+    browser = webdriver.Chrome(options=options)
+
+    # Scrape sites
     results = []
     soups = []
     for sitename, sitecfg in sites.items():
@@ -282,6 +291,8 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
                 soups.append(soup)
 
     browser.quit()
+
+    # Save scraping results
     if formatting == "old":
         files = defaultdict(dict)
         # change key names
