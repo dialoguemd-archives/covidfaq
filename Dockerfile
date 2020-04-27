@@ -13,7 +13,7 @@ RUN apt-get install -y libglib2.0 \
 
 # install google chrome
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-RUN dpkg -i google-chrome-stable_current_amd64.deb
+RUN dpkg -i google-chrome-stable_current_amd64.deb; exit 0
 RUN apt-get -fy install
 
 # install chromedriver
