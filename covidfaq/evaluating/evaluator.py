@@ -8,6 +8,7 @@ import time
 import tqdm
 
 from covidfaq.evaluating.model.cheating_model import CheatingModel
+from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
 
@@ -83,6 +84,8 @@ def main():
         model_to_evaluate = EmbeddingBasedReRanker(args.config)
     elif args.model_type == "cheating_model":
         model_to_evaluate = CheatingModel(test_data)
+    elif args.model_type == "elastic_search":
+        model_to_evaluate = ElasticSearchReRanker()
     else:
         raise ValueError("--model_type={} not supported".format(args.model_type))
 

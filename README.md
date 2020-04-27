@@ -27,6 +27,21 @@ Optionally, it accept a config file to initialize the model. E.g.,
       --test-data=covidfaq/evaluating/faq_eval_data.json 
       --model-type=cheating_model
 
+### Run evaluation for Elastic Search
+
+In order to run the evaluation for Elastic Search (ES), you will need to start
+the ES server before running the evaluator.
+See https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html.
+You will NOT need to index anything on the server (this is done automatically
+inside the evaluator).
+
+After the server started, just run the evaluator as:
+
+    poetry run python covidfaq/evaluating/evaluator.py
+      --test-data=covidfaq/evaluating/faq_eval_data.json 
+      --model-type=elastic_search
+
+
 ### How to evaluate a new model
 
 To use the evaluator with a new model, two modifications must be done:
