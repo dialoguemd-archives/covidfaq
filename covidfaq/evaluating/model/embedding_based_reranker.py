@@ -1,11 +1,11 @@
 import torch
 import tqdm
 import yaml
-from bert_reranker.models.load_model import load_model
-from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
 from yaml import load
 
+from bert_reranker.models.load_model import load_model
+from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
 )
