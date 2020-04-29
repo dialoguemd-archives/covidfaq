@@ -11,6 +11,7 @@ from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
+from covidfaq.evaluating.model.google_model import GoogleModel
 
 logger = logging.getLogger(__name__)
 
@@ -86,6 +87,8 @@ def main():
         model_to_evaluate = CheatingModel(test_data)
     elif args.model_type == "elastic_search":
         model_to_evaluate = ElasticSearchReRanker()
+    elif args.model_type == "google_model":
+        model_to_evaluate = GoogleModel()
     else:
         raise ValueError("--model_type={} not supported".format(args.model_type))
 
