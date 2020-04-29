@@ -22,9 +22,9 @@ workflows:
       - python/black:
           name: black
           context: org-global-v2
-      - python/isort:
-          name: isort
-          context: org-global-v2
+      # - python/isort:
+      #     name: isort
+      #     context: org-global-v2
       - python/test:
           name: test
           before_tests_steps:
@@ -40,7 +40,7 @@ workflows:
           requires:
             - pylama
             - black
-            - isort
+            # - isort
             - test
           context: org-global-v2
       - app/build:
