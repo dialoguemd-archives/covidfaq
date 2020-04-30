@@ -41,6 +41,15 @@ After the server started, just run the evaluator as:
       --test-data=covidfaq/evaluating/faq_eval_data.json 
       --model-type=elastic_search
 
+### Evaluating google's model
+To evaluate google's model, export your authentication key as an environment variable:
+`export GCLOUD_AUTH_TOKEN=$(gcloud auth application-default print-access-token)`
+
+then run:
+
+    poetry run python covidfaq/evaluating/evaluator.py
+      --test-data=covidfaq/evaluating/faq_eval_data.json 
+      --model-type=google_model
 
 ### How to evaluate a new model
 
@@ -53,3 +62,4 @@ To use the evaluator with a new model, two modifications must be done:
  evaluator. For example, the saved model weight location can be specified here.
  - Add an if in the `evaluator.py` to accept your model (and to load the
  proper class that you implemented in the point above).
+
