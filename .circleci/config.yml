@@ -22,9 +22,9 @@ workflows:
       - python/black:
           name: black
           context: org-global-v2
-      - python/isort:
-          name: isort
-          context: org-global-v2
+      # - python/isort:
+      #     name: isort
+      #     context: org-global-v2
       - python/test:
           name: test
           before_tests_steps:
@@ -40,7 +40,7 @@ workflows:
           requires:
             - pylama
             - black
-            - isort
+            # - isort
             - test
           context: org-global-v2
       - app/build:
@@ -64,17 +64,17 @@ workflows:
             branches:
               ignore: master
           context: org-global-v2
-      - job/deploy:
-          name: deploy-scraper-dev-ca2
-          stage: dev
-          place: ca2
-          wait: false
-          requires:
-            - deploy-dev-ca2
-          filters:
-            branches:
-              ignore: master
-          context: org-global-v2
+      # - job/deploy:
+      #     name: deploy-scraper-dev-ca2
+      #     stage: dev
+      #     place: ca2
+      #     wait: false
+      #     requires:
+      #       - deploy-dev-ca2
+      #     filters:
+      #       branches:
+      #         ignore: master
+      #     context: org-global-v2
 
   release:
     jobs:
@@ -101,16 +101,16 @@ workflows:
             branches:
               ignore: /.*/
           context: org-global-v2
-      - job/deploy:
-          name: deploy-scraper-prod-ca
-          stage: prod
-          place: ca
-          wait: false
-          requires:
-            - deploy-prod-ca
-          filters:
-            tags:
-              only: /^v.*/
-            branches:
-              ignore: /.*/
-          context: org-global-v2
+      # - job/deploy:
+      #     name: deploy-scraper-prod-ca
+      #     stage: prod
+      #     place: ca
+      #     wait: false
+      #     requires:
+      #       - deploy-prod-ca
+      #     filters:
+      #       tags:
+      #         only: /^v.*/
+      #       branches:
+      #         ignore: /.*/
+      #     context: org-global-v2

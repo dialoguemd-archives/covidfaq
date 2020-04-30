@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from structlog import get_logger
 
-from . import config, routers
-from .utils import BertModels, ElasticSearchClient
+from covidfaq import config, routers
+from covidfaq.clustering.cluster import Clusterer
 
 app = FastAPI()
 app.include_router(routers.health.router)
@@ -20,6 +20,4 @@ def on_startup():
     log = get_logger()
     log.info("launching", **conf.dict())
 
-    ElasticSearchClient()
-
-    BertModels()
+    Clusterer()
