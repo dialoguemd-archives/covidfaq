@@ -17,6 +17,12 @@ quebec-fr: &qfr
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programme-actions-concertees-pour-le-maintien-en-emploi-pacme-covid-19/"
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programmes-gouvernementaux-soutien-entreprises-covid19/"
     - "https://www.quebec.ca/emploi/offres-d-emploi/besoins-urgents-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/deplacements-regions-villes-covid19/"
+    - "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/etablissements-scolaires-prescolaires-primaires-secondaires-covid19/"
+    - "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/etablissements-scolaires-prescolaires-primaires-secondaires-covid19/sequence-douverture-des-etablissements-scolaires-dans-le-contexte-de-la-covid-19/"
+    - "https://www.quebec.ca/famille-et-soutien-aux-personnes/servicesgardeeducatifsenfance-covid19/"
+    - "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/etablissements-scolaires-prescolaires-primaires-secondaires-covid19/mesures-de-securite-pour-les-travailleurs-et-les-enfants-dans-les-ecoles-primaires-et-les-services-de-garde-en-contexte-de-covid-19/"
+    - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/reprise-graduelle-activites-mesures-ralentissement-covid19/#c57355"
     - url: "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/"
       info:
         urlkey: mainpage
