@@ -167,6 +167,8 @@ def rule_headers(soup, info, url, rule):
             elif nextNode.name in rule["headers"]:
                 break
             elif isinstance(nextNode, NavigableString):
+                entry["plaintext"].append(str(nextNode))
+                entry["html"] += str(nextNode)
                 continue
             if nextNode.text:
                 if nextNode.text != "":  # add and isinstance(nextNode, Tag)?
