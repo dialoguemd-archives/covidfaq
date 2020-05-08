@@ -1,0 +1,78 @@
+bc-en: &bcen
+  urls:
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19/translated-content'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19/symptoms'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19/how-it-spreads'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19/treatments'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19/if-you-are-sick'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/about-covid-19/mental-well-being-during-covid-19'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/hand-washing'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/physical-distancing'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/masks'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/pets'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/travel'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/food-safety'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/cleaning-and-disinfecting'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/covid-19-and-sex'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/vaping-smoking-and-covid-19'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/prevention-risks/wildfires'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/self-isolation'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/testing'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/testing/test-results'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/priority-populations'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/priority-populations/children-with-immune-suppression'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/priority-populations/people-who-are-unsheltered'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/priority-populations/people-who-may-be-or-are-experiencing-violence'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/priority-populations/people-who-use-substances'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/priority-populations/people-with-chronic-conditions'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/common-questions'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/modelling-projections'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/childcare-schools'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/colleges-universities'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/indigenous-communities-and-local-governments'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/community-settings'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/community-settings/malls-stores'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/community-settings/faith-based-organizations'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/community-settings/recreation-facilities'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/community-settings/food-banks-food-distribution'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/community-settings/farmers-markets'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/employers-businesses'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/employers-businesses/industrial-camps'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/employers-businesses/food-businesses'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/event-planning'
+     - 'http://www.bccdc.ca/health-info/diseases-conditions/covid-19/resources-at-a-glance'
+
+  info:
+    source: bccdc
+    language: en
+
+  scraper: requests
+
+  selectors:
+
+    - method: headers
+      header_type: 'markdown'
+      headers:
+      - h1
+      - h2
+      - h3
+      - h4
+      exclude:
+        titles:
+          - "(Provincial Health Services Authority)"
+          - "(Additional links and resources)"
+          - "(\r\n                    About COVID-19\r\n)"
+          - "(Health Info)"
+          - "(In this section)"
+          - "(Content Editor)"
+          - "(Related links)"
+          - "(About this Site)"
+          - "(\n\n\n\n)"
+        body: null
+        selector: null
+      info:
+        type: "section"

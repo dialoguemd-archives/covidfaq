@@ -1,0 +1,48 @@
+ontario-fr: &onfr
+  urls:
+    - "https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19"
+    - "https://www.ontario.ca/fr/page/liste-des-lieux-de-travail-essentiels"
+    - "https://www.ontario.ca/fr/page/covid-19-soutien-aux-personnes"
+    - "https://www.ontario.ca/fr/page/covid-19-soutien-aux-eleves-et-aux-parents"
+    - "https://www.ontario.ca/fr/page/covid-19-soutien-aux-travailleurs"
+    - "https://www.ontario.ca/fr/page/covid-19-soutien-aux-entreprises"
+    - "https://www.ontario.ca/fr/page/covid-19-changements-aux-services"
+      
+
+  info:
+    source: ontario
+    language: fr
+
+  scraper: selenium
+
+  selectors:
+
+    - method: headers
+      header_type: 'markdown'
+      headers: 
+      - h1
+      - h2
+      - h3
+      - h4
+      body: ".ce-bodytext"
+      exclude:
+        titles: 
+          - "(Avis|Notice)"
+          - "(JavaScript)"
+          - "(Contact Us|Contactez-nous)"
+          - "(Government of Ontario|Gouvernement de l'Ontario)"
+          - "(Bas de page|Footnotes)"
+        body: null
+        selector: null
+      info:
+        type: "section"
+
+
+ontario-en:
+  <<: *onfr
+
+  translate: "link.hreflang-alt"
+
+  info:
+    source: headers
+    language: en
