@@ -13,12 +13,10 @@ import time
 
 import tqdm
 
-from covidfaq.evaluating.model.cheating_model import CheatingModel
-from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
-from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
-from covidfaq.evaluating.model.fake_reranker import FakeReRanker
-from covidfaq.evaluating.model.google_model import GoogleModel
 from covidfaq.evaluating.model.es_enhanced_reranker import ESEnhancedReRanker
+from covidfaq.evaluating.model.lsa import LSA
+from covidfaq.evaluating.model.lda import LDAReranker
+from covidfaq.evaluating.model.tfidf import TFIDF
 
 logger = logging.getLogger(__name__)
 
@@ -86,6 +84,12 @@ def main():
 
     if args.model_type == "es_enhanced":
         model_to_evaluate = ESEnhancedReRanker()
+    elif args.model_type == "lsa":
+        model_to_evaluate = LSA()
+    elif args.model_type == "lda":
+        model_to_evaluate = LDAReranker()
+    elif args.model_type == "tfidf":
+        model_to_evaluate = TFIDF()
     else:
         raise ValueError(
             "--model_type={} not supported. Please make sure that it supports `model.topk` method calls".format(args.model_type)
