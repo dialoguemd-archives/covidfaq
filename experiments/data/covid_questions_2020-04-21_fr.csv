@@ -2,7 +2,7 @@
 3,LP TEST question,LP TEST question
 6,"Je fais une sarcoidose pulmonaire, je suis tu plus a risque si jamais j attrape le covid 19","I have pulmonary sarcoidosis, I'm more at risk if I ever catch covid 19"
 11,Est ce que la toux est sèche ou grasse?,Is the cough dry or oily?
-12,Je ne me sens pas bien ,I do not feel good
+17,"Bonjour,","Hello,"
 20,Est-ce que je devrais travailler de la maison?,Should I work from home?
 21,"Si j'ai des symptômes faible (toux seulement) et que je suis en isolement à la maison. Je ne suis pas sortis du pays, je n'ai pas cotoyés de gens qui reviennent de l'extérieur et je n'ai pas utilisé de transport en commun. Est-ce que je peut quand même sortir dehors en évitant de passer à moins de 2m d'une autre personne ?","If I have weak symptoms (cough only) and I am in isolation at home. I did not leave the country, I did not mix with people returning from outside and I did not use public transport. Can I still go outside avoiding going less than 2m from another person?"
 22,J’ai une fièvre est ce que je dois rester chez moi ou aller au travail sans aucun souci? ,I have a fever should I stay at home or go to work without any worries? 
@@ -153,6 +153,7 @@
 266,Devrait-on cesser la garde partagée?,Should we cease joint custody?
 269,Combien de temps le Coronavirus reste il sur les habits ? ,How long does Coronavirus stay on clothes? 
 276,Est ce que la température chaud ou froid peut tuer le virus?,Can hot or cold temperatures kill the virus?
+278,Test ,Test
 280,"J’ai été en contact avec un membre de ma famille qui est revenu de voyage il y a 5 jours, il est asymptomatique, je fais de la fièvre et je tousse depuis hier, dois-je me faire tester?","I was in contact with a family member who came back from a trip 5 days ago, he is asymptomatic, I have a fever and I have been coughing since yesterday, should I get tested?"
 282,Combien de gens sont mort du covid-19 au canada?,How many people have died of covid-19 in canada?
 284,"Bonjour, voici ma situation : je suis maman monoparentale aux études à temps plein ( technique collégiale/dernière session) ma seule source de revenu étant mes prêt et bourses le dernier dépôt de l'AFE sera le 1er mai","Hello, here is my situation: I am a single mom studying full time (college technique / last session) my only source of income being my loans and grants the last deposit of the AFE will be May 1"
@@ -160,6 +161,7 @@
 287,Est-ce que je peux continuer à prendre des marches avec des amis ?,Can I continue to take walks with friends?
 290,Doit on lavé les emballages fruits et légumes ramené de l'épicerie avant des les ranger dans nos placards? ,Should we wash the fruit and vegetable packaging brought back from the grocery store before putting them in our cupboards? 
 291,Combien de gens sont infectés dans ma région / dans la région X ?,How many people are infected in my region / in region X?
+296,Bonjour,Hello
 297,"Pourquoi les statistiques du Québec contiennent toujours 22 personnes dans une région ""Indéterminée"" et ce jour après jour?","Why do Quebec statistics always contain 22 people in an ""Indeterminate"" region and this day after day?"
 298,Combien de temps le virus survit sur une surface sèche ? ,How long does the virus survive on a dry surface? 
 299,Quel est le danger pour un nouveau né?,What is the danger for a newborn baby?
@@ -194,7 +196,6 @@
 355,Comment peut-on contracter le covid19?,How can you get covid19?
 356,Quels sont les types de traitement en expérimentation qui pourraient permettre de réduire l’inflammation causée par la COVID-19?,What are the types of experimental treatment that could help reduce the inflammation caused by COVID-19?
 357,Origine du virus,Origin of the virus
-358,Il y a combien de cas dans la région de la Mauricie,There are how many cases in the Mauricie region
 359,Quelles personnes sont plus à risque contre le covid-19?,Who is more at risk for covid-19?
 360,"Mon chat reste libre de ces mouvements, peut-il ramener le virus à la maison ? ","My cat remains free from these movements, can it bring the virus home? "
 361,Quel est le % de la population touchée par chaque province au Québec?,What is the% of the population affected by each province in Quebec?
@@ -219,7 +220,6 @@
 388,Est ce que l’assurance maladie sera valide à l’extérieur de la province?,Will health insurance be valid outside the province?
 389,Puis-aller souper chez des amis?,Can I go to dinner with friends?
 392,Combien de temps doit rester une personne en quarantaine après être guérie du covid-19?,How long should a person in quarantine stay after being cured of covid-19?
-396,Symptômes ,Symptoms 
 399,La Chloroquine soigne la COVID19 ?,Chloroquine treats COVID19?
 401,"J’ai des symptômes, mais je n’ai pas voyagé. Devrais-je me faire tester? ","I have symptoms, but I have not traveled. Should I get tested?"
 403," Combien de temps une personne infectée peut-elle rester contagieuse?  (Nous savons que le virus prend 2 à 14 jours pour se developper. Mais lorsqu'il se manifeste, combien de temps demeurons nous contagieux?)"," How long can an infected person remain contagious? (We know that the virus takes 2 to 14 days to develop. But when it manifests, how long do we stay contagious?)"
@@ -426,6 +426,7 @@
 741,"Devrais-je dénoncer les rassemblements dont je suis témoin dans mon voisinage? Si oui, comment?","Should I report the gatherings I witness in my neighborhood? If yes, how?"
 742,Est-ce qu’un vaccin contre le covid-19 sera obligatoire? ,Is a vaccine against Covid-19 will be compulsory?
 743,Est-ce que les frais de garde nous seront repris plus tard comme nous nenvoyons plus nos enfants à la garderie,Will child care costs be taken back later as we no longer send our children to daycare
+745,Are you sick?,Are you sick?
 746,faut-il éviter de prendre de l’ibuprofène?,should i avoid taking ibuprofen?
 747,Le COVID-19 est-il transmissible sexuellement?,Is COVID-19 sexually transmitted?
 751,Je dois travailler à la maison avec mes enfants pourquoi je ne peux pas avoir de service de garde? ,"I have to work at home with my children, why can't I have daycare? "
@@ -754,7 +755,6 @@
 1412,Est-ce que ma chirurgie va être annulée?,Will my surgery be canceled?
 1413,Pourquoi ne pas diriger obligatoirement tous  les voyageurs de l'extérieur du Québec vers des centre de tri sanitaire avant de les lâcher lose dans la nature? ,Why not necessarily direct all travelers from outside Quebec to sanitary sorting centers before letting them loose in the wild? 
 1414,Puis-je inviter des amis à souper chez moi?,Can I invite friends over for dinner?
-1416,Mon chat peut-il attraper la Covid?,Can my cat catch Covid?
 1417,Peut-on faire une quarantaine plutôt qu'un dépistage ?,Can we do a quarantine rather than a screening?
 1418,Ou me faire tester,Or get tested
 1420,"Lors d'un déménagement, quelles précautions devrait-on prendre ?",What precautions should you take when moving?
@@ -781,9 +781,7 @@
 1448,Devrait-on porter un masque?,Should we wear a mask?
 1449,Est-ce vous avez mal a la gorge?,Do you have a bad throat?
 1450,Quelles sont les symptômes de la covid-19,What are the symptoms of covid-19
-1451,Bonjour,Hello
 1452,De quelle maladie connue se rapproche le coronavirus ?,What known disease is coronavirus related to?
-1455,"Si je suis mise a pied, suis je payer?","If I am layoff, I'm paying?"
 1456,"Si une personne vient nous visiter et qu'elle se déplace dans une maison, que faut-il surveiller ou vérifier pour limiter les risques de contagion ?","If someone comes to visit us and they move around in a house, what should be monitored or checked to limit the risk of contagion?"
 1457,Comment savoir si ma situation s'aggrave?,How do I know if my condition worsens?
 1459,Pensez vous faire comme en Corée du Sud et faire passer beaucoup de tests pour identifier les porteurs du virus?,Do you think you will do like in South Korea and have lots of tests to identify carriers of the virus?
@@ -833,7 +831,6 @@
 1543,Faire confinement en famille?,Family confinement?
 1548,Quelles son les mécanismes réels de transmission du virus?,What are the real mechanisms of virus transmission?
 1549,On entend que la propagation diminuera à l’été mais qu’elle reprendrait et qu’il y aurait un deuxième pic à l’automne. Qu’en est-il? ,It is understood that the spread will decrease in the summer but that it will resume and that there will be a second peak in the fall. What about
-1550,Bonjour,Hello
 1551,A partir de quelle température ont doit se rendre aux urgences?,At what temperature should we go to the emergency room?
 1553,Comment distinguer le virus de la grippe au Covid-19,How to tell apart the Covid-19 flu virus
 1554,Est-ce que c’est vrai que les problèmes gastro-intestinaux sont aussi un symptôme à considéré?,Is it true that gastrointestinal problems are also a symptom to be considered?
@@ -885,6 +882,7 @@
 1640,"Bonjour, le virus reste combien de temps sur une surface comme un emballage de plastique, une poignée de porte, un volant d'auto, dans les airs?","Hello, how long does the virus stay on a surface like a plastic wrap, a door handle, a car steering wheel, in the air?"
 1642,Est ce qu'un mal de ventre est un symptome,Is a stomach ache a symptom
 1643,Quelles sont les prestations?,What are the benefits?
+1644,Combien d'heures je me dois isoler?,How many hours I have to isolate myself?
 1647,De plus mon conjoint est pilote d’avion et continue à effectuer des vols de rapatriement sur Londres en Angleterre.... Dois-je également être en isolement prolongé lorsqu’il revient! ,"In addition, my spouse is an airplane pilot and continues to carry out repatriation flights to London in England .... Should I also be in prolonged isolation when he returns! "
 1648,Nous sommes une famille de quatre dont les membres sont revenus de l’étranger à des jours différents soit lundi le 16 mars et vendredi le 20 mars! Si je comprends bien comme je vis avec eux et même si nous mettons en pratique toutes les méthodes de distanciations sociales et d’hygiène jusqu’à quand moi qui n’ai pas quitté la maison depuis le 15 mars ,"We are a family of four whose members returned from abroad on different days, Monday March 16 and Friday March 20! If I understand correctly how I live with them and even if we practice all methods of social distancing and hygiene until when I who have not left home since March 15"
 1649,puis-je aller magasiner à la SAQ?,can i go shopping at the SAQ?
@@ -899,7 +897,6 @@
 1664,Puis-je être porteur du virus sans le savoir ?,Can I carry the virus without knowing it?
 1665,Que faire en cas de test negatif,What to do in case of negative test
 1666,Où est mon centre de dépistage le plus proche? ,Where is my nearest screening center? 
-1668,Comment me soigner?,How to cure me?
 1669,Quels médicaments puis-je prendre pour soigner mes douleurs du au virus?,What medications can I take to treat my virus pains?
 1670,Je tousse et j’ai de la fièvre. Est-ce que je peux me rendre à l’urgence?,I cough and have a fever. Can I go to the emergency room?
 1671,Pourquoi fermer les parcs nationaux si on doit marcher dehors? ,Why close national parks if you have to walk outside? 
@@ -990,6 +987,7 @@
 1821,Est ce que je suis affectée si je tousse? ,Am I affected if I cough? 
 1823,Et comment je vais aller au travail -educatrice en CPE-si on nous déconseille les transports en commun? ,And how am I going to go to work - educator in CPE-if we are advised against public transport? 
 1826,Comment le vérus se propage-t-il?,How is the verus propagated?
+1828,Est-ce que boire de la corona augmente nos chances de contracter le coronavirus?,Does drinking corona increases our chances of getting coronavirus?
 1832,"Si j’habite avec mes parents âgés et je teste positif au Covid 19, comment faire le confinement et stériliser la maison si je dois retourner chez moi avec symptômes?","If I live with my elderly parents and I test positive for Covid 19, how can I confine and sterilize the house if I have to return home with symptoms?"
 1833,Est-ce possible entre voisins de prendre un café à l’extérieur si nous maintenons une distance de 2 mètres entre nous?,Is it possible between neighbors to have a coffee outside if we maintain a distance of 2 meters between us?
 1836,Est-ce que le virus peut être transmis via l'eau?,Can the virus be transmitted via water?
@@ -1110,6 +1108,7 @@
 2045,C'est quoi ton nom?,What's your name?
 2046,En tant qu'éducatrice en CPE -ouvert pour le personnel d'urgence- comment je vais garder la distance d'un mètre avec un enfant pour ma sécurité et celle de ma famille?  ,As an early childhood educator - open for emergency personnel - how will I keep the distance of one meter with a child for my safety and that of my family?  
 2049,Est ce que les étourdissements font partie des symptômes ?,Are dizziness part of the symptoms?
+2050,Quels symptômes de la maladie?,What symptoms?
 2051,Est-ce que caresser le chien de nos amis peut mener à une contamination?,Can petting our friends' dogs lead to contamination?
 2052,Quel est la durée de confinement,What is the duration of confinement
 2054,Je ne fais pas de fièvre mais j’ai un léger mal de gorge et je ne reviens pas de voyage?,I don't have a fever but I have a slight sore throat and I haven't come back from a trip?
@@ -1283,6 +1282,7 @@
 2375,Ou est-ce que vous résidez?,Where do you live?
 2376,Est-ce qu’un vaccin est disponible?,Is a vaccine available?
 2378,Quels sont les risques pour les femmes enceintes? ,What are the risks for pregnant women? 
+2379,À quand la Heineken virus? ,When will the Heineken virus?
 2381,Est-ce qu'il pourrait y avoir une pénurie de nourriture?,Could there be a food shortage?
 2382,Est-ce que je dois laver mon manteau d’hiver et mes mitaines ?,Do I have to wash my winter coat and mittens?
 2383,Combien d'heures ou de jour(s) le virus peut se faire sentir sur un individu? ,How many hours or days can the virus be felt on an individual? 
@@ -1636,6 +1636,7 @@
 2909,"Si une personne est atteinte du coronavirus une fois, est-ce qu'elle est immunisé à vie?","If someone has coronavirus once, is he or she immunized for life?"
 2910,Comment protéger mes proches si je suis infectée?,How can I protect my loved ones if I am infected?
 2911,Est ce que la chaleur affecte le virus ? ,Does heat affect the virus? 
+2913,Est-ce qu'il y aura bientôt un vaccin ,Are there will soon be a vaccine
 2915,J'ai un toux est ce que j'ai le COVID-19?,I have a cough do I have COVID-19?
 2916,Est-ce que le coronavirus survie au froid?,Does coronavirus survive cold?
 2918,Est-ce que les symptômes sont différents pour les enfants?,Are the symptoms different for children?
@@ -1654,6 +1655,7 @@
 2947,Est-ce que mon chien peut attraper le covid,Can my dog ​​catch the covid
 2948,"Si quelqu’un éternue, combien de temps l’air entourant cette personne reste contagieuse?","If someone sneezes, how long does the air around them stay contagious?"
 2952,Est ce que la chaleur tué le virus?,Has the heat killed the virus?
+2953,Symptômes?,Symptoms?
 2954,Est ce que je suis contagieux longtemps après avoir contracté le virus?,Am I contagious long after I have contracted the virus?
 2956,Est-ce que mon employeur peut me mettre à la porte?,Can my employer fire me?
 2957,Je suis en arrêt de travail depuis le 11 mars et je travail dans une banque à la caisse je pense que je ne devrais pas y retourner qu en penser  je suis inquiète ,I have been off work since March 11 and I work in a bank at the cash register I think I should not go back there than I think I am worried 
@@ -1898,6 +1900,7 @@
 3402,Quand je suis guérie est-ce que je peux attraper à nouveau ,When I am healed can I catch it again 
 3405,Pendant combien de jours doit-on être confiné pour savoir si on est atteint de ce virus?,How many days do you have to be confined to find out if you have this virus?
 3406,Est-ce que c'est correct de laver mes vêtements à l'eau froide? ,Is it okay to wash my clothes in cold water? 
+3407,Dans combien de temps y aura-t-il un vaccin?,How long will there be a vaccine?
 3409,COmbien de temps dure une pandémie?,How long does a pandemic last?
 3410,Est-ce que je peux avoir des séquelles des complications du virus ,Can I have sequelae of complications from the virus 
 3411,Quels sont les symptomes de la covid-19?,What are the symptoms of covid-19?
@@ -1958,6 +1961,7 @@
 3517,A quel jour est on au pic de la maladie?,What day is it at the peak of the disease?
 3518,Quelle est la meilleure protection contre la maladie?,What is the best protection against disease?
 3519,À quel degrés de température dois-je m'inquiéter ?,What temperature should I worry about?
+3520,Est-ce mortel,Is mortal
 3521,Quelle est la liste des services essentiels?,What is the list of essential services?
 3522,Est-ce qu’on peut vraiment s’attendre à un vaccin? ,Can we really expect a vaccine? 
 3523,Est-ce qu'il y a des aliments qui peuvent aider à lutter contre le coronavirus?,Are there any foods that can help fight coronavirus?
@@ -2224,6 +2228,7 @@
 4021,Où puis je me faire tester ?,Where can I get tested?
 4022,Pourquoi si sérieux?,Why so serious?
 4023,Comment puis-je savoir si j’ai contracté le covid19?,How do I know if I have covid19?
+4025,Est-ce que la covid 19 donne mal a la gorge?,Does the Covid 19 gives a bad throat?
 4027,Quand appeler les secours en cas d'insuffisance respiratoire ?,When to call for help in case of respiratory failure?
 4033,J'ai juste un rhume. Pourrait il s'agir du coronavirus ?,I just have a cold. Could it be coronavirus?
 4036,comment je peux faire un test covid-19,how i can do a covid-19 test
@@ -2234,8 +2239,8 @@
 4047,"Si un membre de la famille l’attrape, est-ce que tous les autres auront le virus aussi?","If one family member catches it, will everyone else get the virus too?"
 4048,Les animaux domestiques peuvent-ils être un vecteur de la maladie?,Can pets be a vector of the disease?
 4049,Est-ce que je vais perdre mon emploi?,Will I lose my job?
+4053,Bonjour!,Hello!
 4054,"J'ai le nez bouché et mal à la tête, est-ce le coronavirus&","I have a stuffy nose and a headache, is it coronavirus &"
-4055,Est-ce que la C,Is the C
 4058,est-ce que les douleurs abdominales font partie des symptômes du covid?,are abdominal pain one of the symptoms of covid?
 4059,Dois je continuer à allaiter ?,Should I continue to breastfeed?
 4060,est-ce qu'on reste immunisé si on guérit du virus?,do we stay immune if we recover from the virus?
@@ -2342,7 +2347,6 @@
 4252,Quels sont les symptômes,What are the symptoms
 4257,est ce que les vertiges font partie des symptômes du covid-19?,are dizziness part of the symptoms of covid-19?
 4258,Comment surmonter le stress et la pression ambiante durant cette periode de confinement?,How to overcome stress and ambient pressure during this period of confinement?
-4261,Combien de temps dure la phase active de la maladie,How long is the active phase of the disease
 4265,Comment sensibiliser les gens qui ne respectent pas la quarantaine ,How to educate people who don't respect quarantine 
 4266,À quel moment une personne infectée par le COVID19 n’est elle plus contagieuse ?,When is a person infected with COVID19 no longer contagious?
 4268,quel est mon risque,what is my risk
@@ -2369,7 +2373,6 @@
 4301,Quels sont les symptômes du Covid-19 ?,What are the symptoms of Covid-19?
 4304,Est-ce qu’un animal tel un chien ou un chat pourrait transmettre le virus à un humain?,Could an animal like a dog or a cat transmit the virus to a human?
 4305,Est-ce que je peux l’attraper en croisant quelqu’un dans la rue,Can i catch it by crossing someone on the street
-4307,"Bonjour,","Hello,"
 4308,"Je voulais savoir, si je n’ai qu’un mal de gorge, est-ce que ça peut être la Covid-19?","I wanted to know, if I only have a sore throat, can it be the Covid-19?"
 4311,A qui je dois m'adresser si j'ai doute sur mes symptômes ?,Who should I talk to if I have doubts about my symptoms?
 4313,À quelle grosseur correspond le corona virus ?,How big is corona virus?
@@ -2664,6 +2667,7 @@
 4921,Quels sont les symptômes du covid?,What are the symptoms of covid?
 4924,Comment différencier le covid d'une grippe?,How to differentiate the covid from a flu?
 4925,Je suis asthmatique est ce que je peux prendre mon symbicore ou dois-je m’abstenir?,I am asthmatic can I take my symbicore or should I abstain?
+4927,Is corona virus airborne?,Is corona virus airborne?
 4931,suite: le différencier de l'influenza? ,more: differentiate it from influenza? 
 4934,Dois-je porter un masque? ,Do I have to wear a mask? 
 4935,est-ce que je peux aller prendre une marche? ,can i go for a walk? 
@@ -2676,6 +2680,7 @@
 4949,Est-ce que je dois m'isoler si un membre de ma famille est atteint?,Do I have to isolate myself if a member of my family is affected?
 4950,"Quand on parle de toux comme symptômes, est ce qu’elle peut se manifester de plusieurs façons? Par exemple, je tousse occasionnellement le soir ou la nuit car jai un petit point qui pique dans la gorge. Je ne sais pas si ca pourrait etre la covid 19 ou pas","When we talk about cough as symptoms, can it manifest itself in several ways? For example, I occasionally cough in the evening or at night because I have a small point that stings in the throat. I don't know if it could be covid 19 or not"
 4952,Y'a t-il un lien entre la gravité des symptômes et le groupe sanguin?,Is there a link between the severity of the symptoms and the blood group?
+4953,Y'a t-il un médicament disponible?,Is there a drug available?
 4955,Est ce que des sensations de pincements aux côtés peuvent être un symptôme du Covid?,Can pinching sensations at the sides be a symptom of Covid?
 4956,Est-ce que je pourrai être testé même si je n'ai pas de symptômes ?,Can I be tested even if I have no symptoms?
 4957,Je fais de l'hasme je fais de la haute pression et je reste avec une préposé aux bénéficiaires qui a des contacts avec les patients atteints dencovid 19. Cella fais tu de moi une personne plus à risque? Mon employeur me demande de retourner aux travail avec le public?,I have asthma I do high pressure and I stay with a beneficiary attendant who has contacts with patients with dencovid 19. Do you make me a person at higher risk? My employer asks me to return to work with the public?
