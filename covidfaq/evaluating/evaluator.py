@@ -12,6 +12,10 @@ from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRan
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
 from covidfaq.evaluating.model.google_model import GoogleModel
+from covidfaq.evaluating.model.lsa import LSA
+from covidfaq.evaluating.model.lda import LDAReranker
+from covidfaq.evaluating.model.es_topk import ElasticSearchTopK
+from covidfaq.evaluating.model.tfidf import TFIDF
 
 logger = logging.getLogger(__name__)
 
@@ -61,12 +65,42 @@ def evaluate(model_to_evaluate, test_data):
     )
 
 
+def topk_eval(model_to_evaluate, test_data, k=5):
+    a_start = time.time()
+    model_to_evaluate.collect_answers(test_data["answers"])
+    a_end = time.time()
+    answer_time = a_end - a_start
+
+    correct = 0
+    total = 0
+    q_start = time.time()
+    for question, target in tqdm.tqdm(test_data["questions"].items(), leave=False):
+        prediction = model_to_evaluate.topk(question, k=k)
+        if target in prediction:
+            correct += 1
+        total += 1
+    q_end = time.time()
+
+    question_time = q_end - q_start
+
+    logger.info(
+        "top-{} evaluation: correct {} over {} / accuracy: {:.2f}%".format(
+            k, correct, total, (correct / total) * 100
+        )
+    )
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--test-data", help="file containing the data for evaluation", required=True
     )
     parser.add_argument("--model-type", help="model to evaluate", required=True)
+    parser.add_argument(
+        "--eval-method", 
+        default='standard', 
+        help='Whether to evaluate the model using the "standard" accuracy, or with the "topk" method. By default, uses "standard".'
+    )
     parser.add_argument(
         "--config", help="(optional) config file to initialize the model"
     )
@@ -89,10 +123,33 @@ def main():
         model_to_evaluate = ElasticSearchReRanker()
     elif args.model_type == "google_model":
         model_to_evaluate = GoogleModel()
+    elif args.model_type == "lsa":
+        model_to_evaluate = LSA()
+    elif args.model_type == "lda":
+        model_to_evaluate = LDAReranker()
+    elif args.model_type == "es_topk":
+        model_to_evaluate = ElasticSearchTopK()
+    elif args.model_type == "tfidf":
+        model_to_evaluate = TFIDF()
     else:
         raise ValueError("--model_type={} not supported".format(args.model_type))
 
-    evaluate(model_to_evaluate, test_data)
+
+    if args.eval_method == 'standard':
+        evaluate(model_to_evaluate, test_data)
+    elif args.eval_method == 'topk':
+        if not hasattr(model_to_evaluate, "topk"):
+            raise AttributeError(
+                "{} does not have the method 'topk'. Please use a different evaluation method.".format(args.model_type)
+            )
+        
+        topk_eval(model_to_evaluate, test_data, k=1)
+        topk_eval(model_to_evaluate, test_data, k=5)
+        topk_eval(model_to_evaluate, test_data, k=10)
+        topk_eval(model_to_evaluate, test_data, k=20)
+        topk_eval(model_to_evaluate, test_data, k=50)
+    else:
+        raise ValueError("--eval-method={} not supported".format(args.eval_method))
 
 
 if __name__ == "__main__":
