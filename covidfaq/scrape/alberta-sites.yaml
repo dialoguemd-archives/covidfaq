@@ -1,0 +1,71 @@
+alberta-en: &aben
+  urls:
+    - "https://www.alberta.ca/protecting-residents-at-congregate-care-facilities.aspx"
+    - "https://www.alberta.ca/covid-19-supports-for-albertans.aspx"
+    - "https://www.alberta.ca/covid-19-financial-support-for-businesses-and-organizations.aspx"
+    - "https://www.alberta.ca/guidance-for-workplaces.aspx"
+    - "https://www.alberta.ca/essential-services.aspx"
+    - "https://www.alberta.ca/restrictions-on-businesses.aspx"
+    - "https://www.alberta.ca/restrictions-on-gatherings.aspx"
+    - "https://www.alberta.ca/guidance-on-outdoor-activities.aspx"
+    - "https://www.alberta.ca/covid-19-travel-advice.aspx"
+    - "https://www.alberta.ca/isolation.aspx"
+    - "https://www.alberta.ca/prevent-the-spread.aspx"
+    - "https://www.alberta.ca/covid-19-testing-in-alberta.aspx"
+    - "https://www.alberta.ca/covid-19-alberta-data.aspx"
+    - "https://www.alberta.ca/prevent-the-spread.aspx"
+
+  info:
+    source: alberta
+    language: fr
+
+  scraper: requests
+
+  selectors:
+
+    - method: headers
+      header_type: 'markdown'
+      headers:
+      - h1
+      - h2
+      - h3
+      - h4
+      body: ".ce-bodytext"
+      exclude:
+        titles:
+          - "(Resources)"
+          - "(Related)"
+          - "(Quick links)"
+          - "(About this Site)"
+        body: null
+        selector: null
+      info:
+        type: "section"
+
+
+alberta-en-faq: &abenfaq
+  urls:
+    - "https://www.alberta.ca/coronavirus-info-for-albertans.aspx"
+
+  info:
+    source: alberta-faq
+    language: en
+    type: faq
+
+  scraper: requests
+
+  selectors:
+    - method: headers
+      header_type: 'goa'
+      headers:
+        - .goa-title
+      exclude:
+        titles:
+          - "(Resources)"
+          - "(Related)"
+          - "(Quick links)"
+          - "(About this Site)"
+        body: null
+        selector: null
+      info:
+        type: "faq"
