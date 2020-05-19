@@ -1,17 +1,16 @@
 import logging
 
 import structlog
-from elasticsearch import Elasticsearch
 
-from model import build_isolator
 from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
+from model import build_isolator
 
 INDEX_NAME = "es_index"
 logger = logging.getLogger(__name__)
 log = structlog.get_logger(__name__)
 
 # Currently unused, but might be useful
-isolate_punc = build_isolator('~!@#$%^&*()_+`-={}|:<>?[]/;\',."')
+isolate_punc = build_isolator("~!@#$%^&*()_+`-={}|:<>?[]/;',.\"")
 
 
 class ElasticSearchTopK(ElasticSearchReRanker):
@@ -19,7 +18,7 @@ class ElasticSearchTopK(ElasticSearchReRanker):
         super().__init__()
 
     def topk(self, question, k=10):
-        
+
         res = self.es.search(
             {
                 "query": {"multi_match": {"query": question, "fields": ["plaintext"],}},

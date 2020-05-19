@@ -3,4 +3,5 @@ def build_isolator(chars):
         for c in chars:
             text = text.replace(c, f" {c} ")
         return text
+
     return isolate

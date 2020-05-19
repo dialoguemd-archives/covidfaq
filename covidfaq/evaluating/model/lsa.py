@@ -1,6 +1,6 @@
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import TruncatedSVD
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from covidfaq.evaluating.model.model_evaluation_interface import (
@@ -24,9 +24,7 @@ class LSA(ModelEvaluationInterface):
         -------
 
         """
-        self.vectorizer = TfidfVectorizer(
-            max_df=0.9, min_df=1
-        )
+        self.vectorizer = TfidfVectorizer(max_df=0.9, min_df=1)
 
         self.svd = TruncatedSVD(300)
 
@@ -35,7 +33,6 @@ class LSA(ModelEvaluationInterface):
         self.answer_idx = np.array(answers[:, 0])
         answer_tfidf = self.vectorizer.fit_transform(answers[:, 1])
         self.answer_ls = self.svd.fit_transform(answer_tfidf)
-
 
     def answer_question(self, question):
         """

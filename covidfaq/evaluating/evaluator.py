@@ -10,11 +10,11 @@ import tqdm
 from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
+from covidfaq.evaluating.model.es_topk import ElasticSearchTopK
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
 from covidfaq.evaluating.model.google_model import GoogleModel
-from covidfaq.evaluating.model.lsa import LSA
 from covidfaq.evaluating.model.lda import LDAReranker
-from covidfaq.evaluating.model.es_topk import ElasticSearchTopK
+from covidfaq.evaluating.model.lsa import LSA
 from covidfaq.evaluating.model.tfidf import TFIDF
 
 logger = logging.getLogger(__name__)
@@ -66,22 +66,15 @@ def evaluate(model_to_evaluate, test_data):
 
 
 def topk_eval(model_to_evaluate, test_data, k=5):
-    a_start = time.time()
     model_to_evaluate.collect_answers(test_data["answers"])
-    a_end = time.time()
-    answer_time = a_end - a_start
 
     correct = 0
     total = 0
-    q_start = time.time()
     for question, target in tqdm.tqdm(test_data["questions"].items(), leave=False):
         prediction = model_to_evaluate.topk(question, k=k)
         if target in prediction:
             correct += 1
         total += 1
-    q_end = time.time()
-
-    question_time = q_end - q_start
 
     logger.info(
         "top-{} evaluation: correct {} over {} / accuracy: {:.2f}%".format(
@@ -97,9 +90,9 @@ def main():
     )
     parser.add_argument("--model-type", help="model to evaluate", required=True)
     parser.add_argument(
-        "--eval-method", 
-        default='standard', 
-        help='Whether to evaluate the model using the "standard" accuracy, or with the "topk" method. By default, uses "standard".'
+        "--eval-method",
+        default="standard",
+        help='Whether to evaluate the model using the "standard" accuracy, or with the "topk" method. By default, uses "standard".',
     )
     parser.add_argument(
         "--config", help="(optional) config file to initialize the model"
@@ -134,15 +127,16 @@ def main():
     else:
         raise ValueError("--model_type={} not supported".format(args.model_type))
 
-
-    if args.eval_method == 'standard':
+    if args.eval_method == "standard":
         evaluate(model_to_evaluate, test_data)
-    elif args.eval_method == 'topk':
+    elif args.eval_method == "topk":
         if not hasattr(model_to_evaluate, "topk"):
             raise AttributeError(
-                "{} does not have the method 'topk'. Please use a different evaluation method.".format(args.model_type)
+                "{} does not have the method 'topk'. Please use a different evaluation method.".format(
+                    args.model_type
+                )
             )
-        
+
         topk_eval(model_to_evaluate, test_data, k=1)
         topk_eval(model_to_evaluate, test_data, k=5)
         topk_eval(model_to_evaluate, test_data, k=10)
