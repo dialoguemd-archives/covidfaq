@@ -6,6 +6,7 @@ import sys
 import time
 from collections import defaultdict
 from datetime import datetime
+from unicodedata import normalize
 from urllib.parse import urljoin
 
 import bs4
@@ -29,7 +30,20 @@ def soup_to_html(filename, soup):
         f.write(str(soup))
 
 
+def clean_page_contents(page_contents):
+    '''Remove weird formatting from html like nbsp'''
+    for k, v in page_contents.items():
+        if k == 'document_URL':
+            continue
+        k = normalize('NFKD', k)
+        v['plaintext'] = [normalize('NFKD', s) for s in v['plaintext']]
+        v['nested_title'] = [normalize('NFKD', s) for s in v['nested_title']]
+        v['title'] = normalize('NFKD', v['title'])
+    return page_contents
+
+
 def page_to_json(page_contents, fname):
+    page_contents = clean_page_contents(page_contents)
     with open(fname, "w", encoding="utf-8") as fp:
         json.dump(page_contents, fp, indent=4, ensure_ascii=False)
 
