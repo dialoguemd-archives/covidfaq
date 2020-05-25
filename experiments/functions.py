@@ -134,6 +134,43 @@ def generate_dep_vectors(dataset):
 
     return dataset
 
+def val_isin(search_in, search, verbose=False):
+    if type(search) != list:
+        search = [search]
+    # If tuple to match against
+    boolean_list =[]
+    for search_item in search:
+        if type(search_item) == tuple:
+            for item in search_in:
+                match = True
+                if verbose: print(list(zip(search_item, item)))
+                for pattern, piece in zip(search_item, item):                    
+                    if type(pattern) == list:
+                        if piece not in pattern:
+                            match = False
+                            if verbose: print(pattern, piece, match, sep="\t")
+                            break
+                        else:                            
+                            if verbose: print(pattern, piece, match, sep="\t")
+                    elif pattern in ["*","",None]:
+                        if verbose: print(pattern, piece, match, sep="\t")
+                        continue
+                    elif pattern is not piece:
+                        match = False
+                        if verbose: print(pattern, piece, match, sep="\t")
+                        break
+                    else:                        
+                        if verbose: print(pattern, piece, match, sep="\t")
+                boolean_list.append(match) 
+                if verbose: print()         
+        else:
+            boolean_list = [search_item in search_in]
+
+    if verbose: print(boolean_list.count(True))
+    # return any(item in search_in for item in search)
+    return any(boolean_list)
+
+
 def sort_into_clusters(dataset, text_col="text", cluster_col="cluster"):
     # Set default value
     dataset[cluster_col] = "unclassified"
@@ -144,9 +181,23 @@ def sort_into_clusters(dataset, text_col="text", cluster_col="cluster"):
     #                     (dataset.len > 15)
     #                 , cluster_col ] = "too-much-information"
 
-    # Statistics
+    # Questions with first and second person pronoun dependent in nominal subject relation
+    dataset.loc[
+                    (dataset[cluster_col]=="unclassified") & 
+                    (dataset.nsubj_dep_token.apply(val_isin, search=["i","we","you"]))
+                , cluster_col ] = "personal"
+
+
+    # Questions WITHOUT first and second person pronoun dependent in nominal subject relation
+    dataset.loc[
+                    (dataset[cluster_col]=="unclassified") & 
+                    (~dataset.nsubj_dep_token.apply(val_isin, search=["i","we","you"]))
+                , cluster_col ] = "covid"
+
+    #1 Situation statistics - Token rules were already sufficient
     dataset.loc[
                         (dataset[cluster_col]=="unclassified") & 
+                        (~dataset.nsubj_dep_token.apply(val_isin, search=["i","we","you"])) 
                         (
                             dataset[text_col].str.contains("cases",case=False)|
                             dataset[text_col].str.contains("dea(?:th|d)(?:ly)?",case=False)|
@@ -161,19 +212,24 @@ def sort_into_clusters(dataset, text_col="text", cluster_col="cluster"):
                         )
                     , cluster_col ] = "situation-stats"
 
+    #2 Transmission - Animals - Token rules were already sufficient
     dataset.loc[
                         (dataset[cluster_col]=="unclassified") & 
+                        (~dataset.nsubj_dep_token.apply(val_isin, search=["i","we","you"])) 
                         (dataset[text_col].str.contains(r"\b(?:animal|bird|cat|dog|pet)s?\b",case=False))
                     , cluster_col ] = "covid-transmission-animals"
 
+    #3 Precaution - Gear - Token rules were already sufficient (for now), better without dependency based filtering
     dataset.loc[
                         (dataset[cluster_col]=="unclassified") & 
+                        # (dataset.nsubj_dep_token.apply(val_isin, search=["i","we","you"])) 
                         (
                             dataset[text_col].str.contains("mask",case=False)|
                             dataset[text_col].str.contains("glove",case=False)
                         )
                     , cluster_col ] = "covid-precaution-gear"
 
+    #3 Precaution - Disinfection - Token rules were already sufficient (for now), better without dependency based filtering
     dataset.loc[
                         (dataset[cluster_col]=="unclassified") & 
                         (
@@ -214,6 +270,11 @@ def sort_into_clusters(dataset, text_col="text", cluster_col="cluster"):
                         )
                     , cluster_col ] = "situation-lockdown"
 
+    # Questions with first and second person pronoun dependent in nominal subject relation
+    dataset.loc[
+                    (dataset[cluster_col]=="unclassified") & 
+                    (dataset.tuples.apply(val_isin, search=(["i","we","you"],"do","what","-pron-",None,None,None)))
+                , cluster_col ] = "personal-situation"
 
 
     dataset.loc[
