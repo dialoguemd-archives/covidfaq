@@ -116,6 +116,7 @@ def main():
 
     if args.model_type == "fake":
         model_to_evaluate = FakeReRanker()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "embedding_based_reranker":
         if args.config is None:
             raise ValueError("model embedding_based_reranker requires --config")
@@ -125,16 +126,22 @@ def main():
         model_to_evaluate = CheatingModel(test_data, passage_id2index)
     elif args.model_type == "elastic_search":
         model_to_evaluate = ElasticSearchReRanker()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "google_model":
         model_to_evaluate = GoogleModel()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "lsa":
         model_to_evaluate = LSA()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "lda":
         model_to_evaluate = LDAReranker()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "es_topk":
         model_to_evaluate = ElasticSearchTopK()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "tfidf":
         model_to_evaluate = TFIDF()
+        raise NotImplementedError("Model needs to be updated to new evaluator format")
     else:
         raise ValueError("--model_type={} not supported".format(args.model_type))
 
