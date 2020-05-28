@@ -10,6 +10,8 @@ from tqdm import tqdm
 from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
+from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import \
+    EmbeddingBasedReRankerPlusOODDetector
 from covidfaq.evaluating.model.es_topk import ElasticSearchTopK
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
 from covidfaq.evaluating.model.google_model import GoogleModel
@@ -121,6 +123,10 @@ def main():
         if args.config is None:
             raise ValueError("model embedding_based_reranker requires --config")
         model_to_evaluate = EmbeddingBasedReRanker(args.config)
+    elif args.model_type == "embedding_based_reranker_plus_ood":
+        if args.config is None:
+            raise ValueError("model embedding_based_reranker requires --config")
+        model_to_evaluate = EmbeddingBasedReRankerPlusOODDetector(args.config)
     elif args.model_type == "cheating_model":
         _, _, passage_id2index = get_passages_by_source(test_data)
         model_to_evaluate = CheatingModel(test_data, passage_id2index)
