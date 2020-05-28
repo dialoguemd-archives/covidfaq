@@ -33,9 +33,7 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         self.ret_trainee.load_state_dict(model_ckpt["state_dict"])
         self.model = self.ret_trainee.retriever
 
-
     def collect_answers(self, source2passages):
-
         self.source2passages = source2passages
         self.source2encoded_passages, _, _ = _encode_passages(
             source2passages, self.ret_trainee.retriever.max_question_len, self.ret_trainee.retriever.tokenizer)
