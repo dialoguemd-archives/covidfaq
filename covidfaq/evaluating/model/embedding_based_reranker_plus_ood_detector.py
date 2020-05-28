@@ -33,4 +33,4 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
                 question, source)
         else:
             # for OOD, we return the index -1, and se set the score to 1.0
-            return -1, 1.0
+            return -1
