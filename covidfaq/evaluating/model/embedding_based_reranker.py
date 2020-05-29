@@ -1,5 +1,9 @@
+import logging
+
 import torch
 import yaml
+from tqdm import tqdm
+
 from bert_reranker.data.data_loader import _encode_passages, get_passage_last_header
 from bert_reranker.models.load_model import load_model
 from bert_reranker.models.retriever_trainer import RetrieverTrainer
@@ -9,6 +13,9 @@ from yaml import load
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
 )
+
+
+logger = logging.getLogger(__name__)
 
 
 class EmbeddingBasedReRanker(ModelEvaluationInterface):
@@ -43,8 +50,9 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         )
         self.source2embedded_passages = {}
         for source, passages in source2passages.items():
+            logger.info('caching {} entries for source {}'.format(len(passages), source))
             embedded_passages = []
-            for passage in passages:
+            for passage in tqdm(passages):
                 passage_question = get_passage_last_header(passage)
                 embedded_passage = self.model.embed_paragraph([passage_question])
                 embedded_passages.append(embedded_passage.squeeze(0))
