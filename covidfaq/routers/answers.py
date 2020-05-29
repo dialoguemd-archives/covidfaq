@@ -27,10 +27,10 @@ def answers(request: Request, question: str, topk_es: int = None):
 
     formatted_language = format_language(language, question)
 
-    if format_language == "en":
-        answer = ood_reranker.get_answer(question)
+    if formatted_language == "en":
+        answers = ood_reranker.get_answer(question)
         log.info(
-            "bert_rerank_result", answer=answer, question=question, language=language,
+            "bert_rerank_result", answers=answers, question=question, language=language,
         )
 
     else:

@@ -49,16 +49,6 @@ class Clusterer:
     def __init__(self):
         if not Clusterer.instance:
             Clusterer.instance = Clusterer.__Clusterer()
-        else:
-            Clusterer.instance.embed = Clusterer.instance.load_embed()
-            Clusterer.instance.model = (
-                "https://tfhub.dev/google/universal-sentence-encoder/3"
-            )
-            Clusterer.instance.data_file = "covidfaq/clustering/clusters_all_in_en.csv"
-            (
-                Clusterer.instance.data,
-                Clusterer.instance.data_matrix,
-            ) = Clusterer.instance.create_embed_matrix()
 
     def __getattr__(self, name):
         return getattr(self.instance, name)

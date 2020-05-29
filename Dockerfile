@@ -3,7 +3,7 @@ FROM python:3.7.6-slim-buster as base
 FROM base as builder
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends gcc g++ wget gnupg2 curl
+    && apt-get install -y --no-install-recommends gcc g++ wget gnupg2 curl git
 
 # chromedriver dependencies
 RUN apt-get install -y libglib2.0 \
