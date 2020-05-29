@@ -14,7 +14,7 @@ log = get_logger()
 class Clusterer:
     class __Clusterer:
         def __init__(self):
-            self.model = "https://tfhub.dev/google/universal-sentence-encoder/4"
+            self.model = "https://tfhub.dev/google/universal-sentence-encoder/3"
             self.data_file = "covidfaq/clustering/clusters_all_in_en.csv"
             self.embed = self.load_embed()
             self.data, self.data_matrix = self.create_embed_matrix()
@@ -36,7 +36,9 @@ class Clusterer:
 
             q_embed = self.embed([question])
 
-            sim_matrix = np.inner(q_embed, self.data_matrix)
+            sim_matrix = np.inner(
+                q_embed.get("outputs"), self.data_matrix.get("outputs")
+            )
 
             cluster = self.data.cluster.values[np.argmax(sim_matrix[0])]
 
@@ -50,7 +52,7 @@ class Clusterer:
         else:
             Clusterer.instance.embed = Clusterer.instance.load_embed()
             Clusterer.instance.model = (
-                "https://tfhub.dev/google/universal-sentence-encoder/4"
+                "https://tfhub.dev/google/universal-sentence-encoder/3"
             )
             Clusterer.instance.data_file = "covidfaq/clustering/clusters_all_in_en.csv"
             (
