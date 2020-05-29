@@ -4,6 +4,7 @@ from structlog import get_logger
 
 from covidfaq import config, routers
 from covidfaq.clustering.cluster import Clusterer
+from covidfaq.evaluating.model.bert_plus_ood import BertPlusOOD
 
 app = FastAPI()
 app.include_router(routers.health.router)
@@ -21,3 +22,5 @@ def on_startup():
     log.info("launching", **conf.dict())
 
     Clusterer()
+
+    BertPlusOOD()
