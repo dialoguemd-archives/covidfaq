@@ -24,6 +24,8 @@ class BertPlusOOD:
             ) = get_passages_by_source(test_data)
             self.model.collect_answers(self.source2passages)
 
+            self.get_answer("what are the symptoms of covid")
+
         def get_answer(self, question):
             idx_tensor = self.model.answer_question(
                 question, "20200522_quebec_faq_en_cleaned_collection4"
@@ -46,22 +48,6 @@ class BertPlusOOD:
     def __init__(self):
         if not BertPlusOOD.instance:
             BertPlusOOD.instance = BertPlusOOD.__BertPlusOOD()
-        else:
-            BertPlusOOD.instance.model = EmbeddingBasedReRankerPlusOODDetector(
-                "covidfaq/bert_en_model/config.yaml"
-            )
-            with open(
-                "covidfaq/bert_en_model/quebec_faq_en_cleaned_20200522.json", "r"
-            ) as in_stream:
-                test_data = json.load(in_stream)
-            (
-                BertPlusOOD.instance.source2passages,
-                BertPlusOOD.instance.passage_id2source,
-                BertPlusOOD.instance.passage_id2index,
-            ) = get_passages_by_source(test_data)
-            BertPlusOOD.instance.model.collect_answers(
-                BertPlusOOD.instance.source2passages
-            )
 
     def __getattr__(self, name):
         return getattr(self.instance, name)
