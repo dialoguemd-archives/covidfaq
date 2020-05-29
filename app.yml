@@ -1,4 +1,4 @@
-engine: ~1
+engine: ~2
 name: covidfaq
 
 healthcheck:
