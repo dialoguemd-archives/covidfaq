@@ -1,11 +1,11 @@
 version: 2.1
 
 orbs:
-  app: dialogue/helm-app@1.0.4
-  job: dialogue/helm-job@1.2.1
-  python: dialogue/python@2.7.0
-  release: dialogue/release@2.1.4
-  utils: dialogue/utils@3.2.0
+  app: dialogue/helm-app@2
+  job: dialogue/helm-job@2
+  python: dialogue/python@2
+  release: dialogue/release@2
+  utils: dialogue/utils@3
 
 aliases:
   - &executor
@@ -55,7 +55,7 @@ workflows:
           name: deploy-dev-ca2
           stage: dev
           place: ca2
-          deploy_timeout: 600
+          deploy_timeout: 600s
           requires:
             - pylama
             - test
@@ -92,7 +92,7 @@ workflows:
           name: deploy-prod-ca
           stage: prod
           place: ca
-          deploy_timeout: 600
+          deploy_timeout: 600s
           requires:
             - build
           filters:
