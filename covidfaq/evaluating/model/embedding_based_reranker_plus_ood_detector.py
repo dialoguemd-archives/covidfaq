@@ -25,13 +25,12 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
         )
 
     def answer_question(self, question, source):
-
         emb_question = self.ret_trainee.retriever.embed_question(question)
         in_domain = self.outlier_detector_model.predict(emb_question)
         in_domain = np.squeeze(in_domain)
         if in_domain == 1:
             return super(EmbeddingBasedReRankerPlusOODDetector, self).answer_question(
-                question, source
+                emb_question, source, already_embedded=True
             )
         else:
             # for OOD, we return the index -1, and se set the score to 1.0

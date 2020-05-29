@@ -1,6 +1,6 @@
 import torch
 import yaml
-from bert_reranker.data.data_loader import _encode_passages
+from bert_reranker.data.data_loader import _encode_passages, get_passage_last_header
 from bert_reranker.models.load_model import load_model
 from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
@@ -32,18 +32,29 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         model_ckpt = torch.load(ckpt_to_resume, map_location=torch.device("cpu"))
         self.ret_trainee.load_state_dict(model_ckpt["state_dict"])
         self.model = self.ret_trainee.retriever
+        self.source2embedded_passages = {}
 
     def collect_answers(self, source2passages):
         self.source2passages = source2passages
-        self.source2encoded_passages, _, _ = _encode_passages(
+        source2encoded_passages, _, _ = _encode_passages(
             source2passages,
             self.ret_trainee.retriever.max_question_len,
             self.ret_trainee.retriever.tokenizer,
         )
+        self.source2embedded_passages = {}
+        for source, passages in source2passages.items():
+            embedded_passages = []
+            for passage in passages:
+                passage_question = get_passage_last_header(passage)
+                embedded_passage = self.model.embed_paragraph([passage_question])
+                embedded_passages.append(embedded_passage.squeeze(0))
+            self.source2embedded_passages[source] = torch.stack(embedded_passages).T
 
-    def answer_question(self, question, source):
-        prediction, norm_score = self.ret_trainee.retriever.predict(
-            question, self.source2encoded_passages[source]
-        )
-
-        return prediction
+    def answer_question(self, question, source, already_embedded=False):
+        if already_embedded:
+            enc_question = question
+        else:
+            enc_question = self.model.embed_question(question)
+        scores = torch.mm(enc_question, self.source2embedded_passages[source])
+        result = torch.argmax(scores)
+        return int(result)
