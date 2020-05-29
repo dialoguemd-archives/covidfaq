@@ -18,7 +18,7 @@ class CheatingModel(ModelEvaluationInterface):
 
     def answer_question(self, question, source):
 
-        for example in self.test_data['examples']:
-            if question == example['question']:
-                passage_id = example['passage_id']
+        for example in self.test_data["examples"]:
+            if question == example["question"]:
+                passage_id = example["passage_id"]
                 return self.passage_id2index[passage_id]

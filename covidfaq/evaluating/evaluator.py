@@ -5,21 +5,21 @@ import json
 import logging
 import time
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from tqdm import tqdm
 
 from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
-from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import \
-    EmbeddingBasedReRankerPlusOODDetector
+from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
+    EmbeddingBasedReRankerPlusOODDetector,
+)
 from covidfaq.evaluating.model.es_topk import ElasticSearchTopK
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
 from covidfaq.evaluating.model.google_model import GoogleModel
 from covidfaq.evaluating.model.lda import LDAReranker
 from covidfaq.evaluating.model.lsa import LSA
 from covidfaq.evaluating.model.tfidf import TFIDF
-
-from bert_reranker.data.data_loader import get_passages_by_source
 
 logger = logging.getLogger(__name__)
 

@@ -25,6 +25,7 @@ boto3 = "^1.12.29"
 sklearn = "^0.0"
 tensorflow-hub = "^0.8.0"
 tensorflow_text = "^2.1.1"
+bert-reranker = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"

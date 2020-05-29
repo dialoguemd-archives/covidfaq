@@ -1,0 +1,38 @@
+train_file: '/home/mirko/workspace/20200408_chatbot/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/train_overlapping.json'
+dev_files:
+  dev_file_1: '/home/mirko/workspace/20200408_chatbot/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/val_overlapping.json'
+test_file: '/home/mirko/workspace/20200408_chatbot/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/test.json'
+
+accumulate_grad_batches: 1
+batch_size: 64
+gradient_clipping: 0
+
+logging:
+  logger: 'tensorboard'
+
+loss_type: 'classification_with_uniform_ood'
+max_epochs: 9999
+max_paragraph_len: 100
+max_question_len: 100
+model:
+  bert_base: bert-base-uncased
+  dropout: 0.0
+  dropout_bert: 0.0
+  freeze_bert: true
+  layers_post_pooling: []
+  layers_pre_pooling: []
+  name: bert_encoder
+  normalize_model_result: false
+  pooling_type: avg
+  single_encoder: true
+  cache_size: 999
+optimizer:
+  lr: 1.417e-05
+  name: adamw
+patience: 35
+precision: 16
+seed: null
+tokenizer_name: bert-base-uncased
+
+ckpt_to_resume: 'covidfaq/bert_en_model/output/epoch=5-val_acc_0=0.84-val_loss_0=0.86.ckpt'
+outlier_model_pickle: 'covidfaq/bert_en_model/output/sklearn_outlier_model.pkl'

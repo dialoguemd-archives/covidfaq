@@ -1,11 +1,11 @@
+import torch
 import yaml
+from bert_reranker.data.data_loader import _encode_passages
+from bert_reranker.models.load_model import load_model
+from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
 from yaml import load
 
-import torch
-from bert_reranker.models.load_model import load_model
-from bert_reranker.models.retriever_trainer import RetrieverTrainer
-from bert_reranker.data.data_loader import _encode_passages
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
 )
@@ -36,10 +36,14 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
     def collect_answers(self, source2passages):
         self.source2passages = source2passages
         self.source2encoded_passages, _, _ = _encode_passages(
-            source2passages, self.ret_trainee.retriever.max_question_len, self.ret_trainee.retriever.tokenizer)
+            source2passages,
+            self.ret_trainee.retriever.max_question_len,
+            self.ret_trainee.retriever.tokenizer,
+        )
 
     def answer_question(self, question, source):
         prediction, norm_score = self.ret_trainee.retriever.predict(
-            question, self.source2encoded_passages[source])
+            question, self.source2encoded_passages[source]
+        )
 
         return prediction
