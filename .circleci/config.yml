@@ -7,11 +7,6 @@ orbs:
   release: dialogue/release@2
   utils: dialogue/utils@3
 
-aliases:
-  - &executor
-    executor:
-      name: python/python
-      version: "3.8"
 
 workflows:
   ci:
