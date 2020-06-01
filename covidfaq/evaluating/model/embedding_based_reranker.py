@@ -50,7 +50,9 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         )
         self.source2embedded_passages = {}
         for source, passages in source2passages.items():
-            logger.info('caching {} entries for source {}'.format(len(passages), source))
+            logger.info(
+                "caching {} entries for source {}".format(len(passages), source)
+            )
             embedded_passages = []
             for passage in tqdm(passages):
                 passage_question = get_passage_last_header(passage)
