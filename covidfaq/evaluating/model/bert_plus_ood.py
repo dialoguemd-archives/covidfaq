@@ -1,10 +1,13 @@
 import json
 
 from bert_reranker.data.data_loader import get_passages_by_source
+from structlog import get_logger
 
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
     EmbeddingBasedReRankerPlusOODDetector,
 )
+
+log = get_logger()
 
 
 class BertPlusOOD:
@@ -27,19 +30,20 @@ class BertPlusOOD:
             self.get_answer("what are the symptoms of covid")
 
         def get_answer(self, question):
-            idx_tensor = self.model.answer_question(
+            idx = self.model.answer_question(
                 question, "20200522_quebec_faq_en_cleaned_collection4"
             )
-            if idx_tensor == -1:
+            if idx == -1:
                 # we are out of distribution
                 answer = []
             else:
-                idx = idx_tensor.item()
                 answer_dict = self.source2passages[
                     "20200522_quebec_faq_en_cleaned_collection4"
                 ][idx]
                 answer = answer_dict.get("reference").get("section_content")
                 answer = [answer]
+
+            log.info("bert_get_answer", idx=idx, answer=answer)
 
             return answer
 
