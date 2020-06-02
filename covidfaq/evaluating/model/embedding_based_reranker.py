@@ -42,29 +42,24 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         self.source2embedded_passages = {}
 
     def collect_answers(self, source2passages):
-        self.source2passages = source2passages
-        source2encoded_passages, _, _ = _encode_passages(
-            source2passages,
-            self.ret_trainee.retriever.max_question_len,
-            self.ret_trainee.retriever.tokenizer,
-        )
         self.source2embedded_passages = {}
         for source, passages in source2passages.items():
-            logger.info(
-                "caching {} entries for source {}".format(len(passages), source)
-            )
-            embedded_passages = []
-            for passage in tqdm(passages):
-                passage_question = get_passage_last_header(passage)
-                embedded_passage = self.model.embed_paragraph([passage_question])
-                embedded_passages.append(embedded_passage.squeeze(0))
-            self.source2embedded_passages[source] = torch.stack(embedded_passages).T
+            logger.info('encoding source {}'.format(source))
+            if passages:
+                passages_content = [get_passage_last_header(p) for p in passages]
+                embedded_passages = self.model.embed_paragrphs(passages_content,
+                                                               progressbar=True)
+                self.source2embedded_passages[source] = embedded_passages
+            else:
+                self.source2embedded_passages[source] = None
 
     def answer_question(self, question, source, already_embedded=False):
         if already_embedded:
             enc_question = question
         else:
             enc_question = self.model.embed_question(question)
-        scores = torch.mm(enc_question, self.source2embedded_passages[source])
-        result = torch.argmax(scores)
+        embedded_candidates = self.source2embedded_passages[source]
+        result, _ = self.model.predict(enc_question, embedded_candidates,
+                                       passages_already_embedded=True,
+                                       question_already_embedded=True)
         return int(result)
