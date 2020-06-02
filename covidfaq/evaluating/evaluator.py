@@ -34,7 +34,8 @@ def evaluate(model_to_evaluate, test_data):
     source2passages, passage_id2source, passage_id2index = get_passages_by_source(
         test_data
     )
-    model_to_evaluate.collect_answers(source2passages)
+    no_ood_source2passages, _, _ = get_passages_by_source(test_data, keep_ood=False)
+    model_to_evaluate.collect_answers(no_ood_source2passages)
 
     a_end = time.time()
     answer_time = a_end - a_start
