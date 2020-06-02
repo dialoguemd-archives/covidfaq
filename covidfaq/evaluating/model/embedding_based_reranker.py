@@ -2,9 +2,8 @@ import logging
 
 import torch
 import yaml
-from tqdm import tqdm
 
-from bert_reranker.data.data_loader import _encode_passages, get_passage_last_header
+from bert_reranker.data.data_loader import get_passage_last_header
 from bert_reranker.models.load_model import load_model
 from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
@@ -44,11 +43,12 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
     def collect_answers(self, source2passages):
         self.source2embedded_passages = {}
         for source, passages in source2passages.items():
-            logger.info('encoding source {}'.format(source))
+            logger.info("encoding source {}".format(source))
             if passages:
                 passages_content = [get_passage_last_header(p) for p in passages]
-                embedded_passages = self.model.embed_paragrphs(passages_content,
-                                                               progressbar=True)
+                embedded_passages = self.model.embed_paragrphs(
+                    passages_content, progressbar=True
+                )
                 self.source2embedded_passages[source] = embedded_passages
             else:
                 self.source2embedded_passages[source] = None
@@ -59,7 +59,10 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         else:
             enc_question = self.model.embed_question(question)
         embedded_candidates = self.source2embedded_passages[source]
-        result, _ = self.model.predict(enc_question, embedded_candidates,
-                                       passages_already_embedded=True,
-                                       question_already_embedded=True)
+        result, _ = self.model.predict(
+            enc_question,
+            embedded_candidates,
+            passages_already_embedded=True,
+            question_already_embedded=True,
+        )
         return int(result)

@@ -32,16 +32,12 @@ class BertPlusOOD:
             self.get_answer("what are the symptoms of covid")
 
         def get_answer(self, question):
-            idx = self.model.answer_question(
-                question, SOURCE
-            )
+            idx = self.model.answer_question(question, SOURCE)
             if idx == -1:
                 # we are out of distribution
                 answer = []
             else:
-                answer_dict = self.source2passages[
-                    SOURCE
-                ][idx]
+                answer_dict = self.source2passages[SOURCE][idx]
                 answer = answer_dict.get("reference").get("section_content")
                 answer = [answer]
 
