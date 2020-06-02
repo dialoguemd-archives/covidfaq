@@ -9,6 +9,8 @@ from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import
 
 log = get_logger()
 
+SOURCE = "20200522_quebec_faq_en_cleaned_collection4"
+
 
 class BertPlusOOD:
     class __BertPlusOOD:
@@ -24,21 +26,21 @@ class BertPlusOOD:
                 self.source2passages,
                 self.passage_id2source,
                 self.passage_id2index,
-            ) = get_passages_by_source(test_data)
+            ) = get_passages_by_source(test_data, keep_ood=False)
             self.model.collect_answers(self.source2passages)
 
             self.get_answer("what are the symptoms of covid")
 
         def get_answer(self, question):
             idx = self.model.answer_question(
-                question, "20200522_quebec_faq_en_cleaned_collection4"
+                question, SOURCE
             )
             if idx == -1:
                 # we are out of distribution
                 answer = []
             else:
                 answer_dict = self.source2passages[
-                    "20200522_quebec_faq_en_cleaned_collection4"
+                    SOURCE
                 ][idx]
                 answer = answer_dict.get("reference").get("section_content")
                 answer = [answer]
