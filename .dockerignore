@@ -3,4 +3,3 @@
 **/*.zip
 *.egg-info
 __pycache__
-covidfaq/rerank/*
