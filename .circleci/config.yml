@@ -50,7 +50,8 @@ workflows:
           name: deploy-dev-ca2
           stage: dev
           place: ca2
-          deploy_timeout: 600s
+          deploy_timeout: 900s
+          cci_wait_timeout: 900s
           requires:
             - pylama
             - test
@@ -87,7 +88,8 @@ workflows:
           name: deploy-prod-ca
           stage: prod
           place: ca
-          deploy_timeout: 600s
+          deploy_timeout: 900s
+          cci_wait_timeout: 900s
           requires:
             - build
           filters:
