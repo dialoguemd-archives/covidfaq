@@ -17,6 +17,8 @@ from bs4 import BeautifulSoup, NavigableString
 from selenium import webdriver
 from yaml import load
 
+from covidfaq.scrape.convert_scrape import scrapes_to_passages, dump_passages
+
 log = structlog.get_logger(__name__)
 
 
@@ -308,7 +310,7 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
 
     browser.quit()
 
-    # Save scraping results
+    # Save scraping results to json files
     if formatting == "old":
         files = defaultdict(dict)
         # change key names
@@ -323,10 +325,20 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
             page_to_json(data, filename_json)
             filename_html = os.path.join(outdir, filename + ".html")
             soup_to_html(filename_html, soup)
-
     else:
         print(f"Unknown format: {format}")
         sys.exit(1)
+
+    # Convert scrape results to the bert_reranker format
+    # TODO: when there will be more provinces + languages supported, this will need to be updated
+    PASSAGES_OUTDIR = 'covidfaq/scrape/bert_reranker_format/'
+    SCRAPES_DIR = outdir + '/'
+    source = 'quebec'
+    lang = 'en'
+
+    passages = scrapes_to_passages(SCRAPES_DIR, source, lang, is_faq=True)
+    os.makedirs(PASSAGES_OUTDIR, exist_ok=True)
+    dump_passages(passages, fname=PASSAGES_OUTDIR + 'source_' + lang + '_faq' + '_passages.json')
 
 
 if __name__ == "__main__":
