@@ -41,7 +41,7 @@ class BertPlusOOD:
                 answer = answer_dict.get("reference").get("section_content")
                 answer = [answer]
 
-            log.info("bert_get_answer", idx=idx, answer=answer)
+            log.info("bert_get_answer", question=question, idx=idx, answer=answer)
 
             return answer
 
