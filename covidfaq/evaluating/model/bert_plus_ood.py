@@ -38,12 +38,20 @@ class BertPlusOOD:
                 answer = []
             else:
                 answer_dict = self.source2passages[SOURCE][idx]
+                section_header = answer_dict.get("reference").get("section_headers")
                 answer = answer_dict.get("reference").get("section_content")
-                answer = [answer]
+                answer_complete = ["## " + section_header[0] + "\n\n" + answer]
 
-            log.info("bert_get_answer", question=question, idx=idx, answer=answer)
+            log.info(
+                "bert_get_answer",
+                question=question,
+                idx=idx,
+                section_header=section_header,
+                answer=answer,
+                answer_complete=answer_complete,
+            )
 
-            return answer
+            return answer_complete
 
     instance = None
 
