@@ -4,6 +4,7 @@ from structlog import get_logger
 
 from covidfaq import config, routers
 from covidfaq.clustering.cluster import Clusterer
+from covidfaq.scrape import scrape
 
 app = FastAPI()
 app.include_router(routers.health.router)
@@ -19,5 +20,8 @@ def on_startup():
     conf = config.get()
     log = get_logger()
     log.info("launching", **conf.dict())
+
+    scrape.run("scrape/quebec-sites.yaml")
+    log.info("done scraping")
 
     Clusterer()

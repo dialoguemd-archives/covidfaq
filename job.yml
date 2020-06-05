@@ -1,17 +1,17 @@
-name: covidfaq
-engine: ~1
-type: cron
+# name: covidfaq
+# engine: ~1
+# type: cron
 
-cron:
-  schedule: "*/30 * * * *"
-  concurrencyPolicy: Forbid
+# cron:
+#   schedule: "*/30 * * * *"
+#   concurrencyPolicy: Forbid
 
-command:
-  - "python"
-  - "-m"
-  - "scripts.scraper"
+# command:
+#   - "python"
+#   - "-m"
+#   - "scripts.scraper"
 
-tolerations:
-  "dialoguecorp.com/covidbot": "Exists"
-nodeSelector:
-  "dialoguecorp.com/covidbot": "true"
+# tolerations:
+#   "dialoguecorp.com/covidbot": "Exists"
+# nodeSelector:
+#   "dialoguecorp.com/covidbot": "true"
