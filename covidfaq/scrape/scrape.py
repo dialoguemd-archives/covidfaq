@@ -13,7 +13,6 @@ import requests
 import structlog
 import yaml
 from bs4 import BeautifulSoup, NavigableString
-from selenium import webdriver
 from yaml import load
 
 from covidfaq.scrape.convert_scrape import dump_passages, scrapes_to_passages
@@ -271,6 +270,20 @@ def extract_sections(url, info, cfg, browser, translated=False):
     return results, soup
 
 
+def initialize_selenium_browser():
+    # Initialize broswer for selenium
+    from selenium import webdriver
+
+    options = webdriver.ChromeOptions()
+    options.add_argument("headless")
+    options.add_argument("--disable-infobars")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--remote-debugging-port=9222")
+    browser = webdriver.Chrome(options=options)
+    return browser
+
+
 def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
     """Scrape websites for information."""
 
@@ -279,19 +292,17 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
     now = datetime.now()
     outdir = os.path.join(outdir, now.strftime("%Y%m%d%I%M"))
 
-    # Initialize broswer for selenium
-    options = webdriver.ChromeOptions()
-    options.add_argument("headless")
-    options.add_argument("--disable-infobars")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--remote-debugging-port=9222")
-    browser = webdriver.Chrome(options=options)
-
     # Scrape sites
     results = []
     soups = []
     for sitename, sitecfg in sites.items():
+
+        if sitecfg["scraper"] == "selenium":
+            # initialize selenium broswer only if we use it
+            browser = initialize_selenium_browser()
+        else:
+            browser = None
+
         if site and site != sitename:
             continue
         for i, url in enumerate(sitecfg["urls"]):
@@ -308,7 +319,9 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
                 results += result
                 soups.append(soup)
 
-    browser.quit()
+        if browser:
+            # Quit the selenium broswer when done
+            browser.quit()
 
     # Save scraping results to json files
     files = defaultdict(dict)
