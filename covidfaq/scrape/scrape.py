@@ -277,7 +277,7 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
     with open(yaml_filename, "r") as stream:
         sites = load(stream, Loader=yaml.FullLoader)
     now = datetime.now()
-    outdir = os.path.join(outdir, now.strftime("%Y%m%d_%I%M"))
+    outdir = os.path.join(outdir, now.strftime("%Y%m%d%I%M"))
 
     # Initialize broswer for selenium
     options = webdriver.ChromeOptions()
