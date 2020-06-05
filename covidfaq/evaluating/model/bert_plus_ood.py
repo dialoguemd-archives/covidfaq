@@ -1,15 +1,16 @@
 import json
+import os
 
-from bert_reranker.data.data_loader import get_passages_by_source
 from structlog import get_logger
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
     EmbeddingBasedReRankerPlusOODDetector,
 )
 
 log = get_logger()
 
-SOURCE = "20200522_quebec_faq_en_cleaned_collection4"
+SOURCE = "quebec-faq"
 
 
 class BertPlusOOD:
@@ -18,10 +19,9 @@ class BertPlusOOD:
             self.model = EmbeddingBasedReRankerPlusOODDetector(
                 "covidfaq/bert_en_model/config.yaml"
             )
-            with open(
-                "covidfaq/bert_en_model/quebec_faq_en_cleaned_20200522.json", "r"
-            ) as in_stream:
-                test_data = json.load(in_stream)
+
+            test_data = get_latest_scrape()
+
             (
                 self.source2passages,
                 self.passage_id2source,
@@ -61,3 +61,23 @@ class BertPlusOOD:
 
     def __getattr__(self, name):
         return getattr(self.instance, name)
+
+
+def get_latest_scrape():
+
+    # HACK
+    # TODO: rework this
+    l = [x for x in os.listdir("covidfaq/scrape") if "2020" in x]
+    l.sort(reverse=True)
+    latest_folder = l[0]
+
+    latest_scrape = (
+        "covidfaq/scrape/"
+        + latest_folder
+        + "/bert_reranker_format/source_en_faq_passages.json"
+    )
+
+    with open(latest_scrape) as in_stream:
+        test_data = json.load(in_stream)
+
+    return test_data

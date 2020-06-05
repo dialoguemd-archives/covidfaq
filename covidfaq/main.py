@@ -4,7 +4,6 @@ from structlog import get_logger
 
 from covidfaq import config, routers
 from covidfaq.clustering.cluster import Clusterer
-
 from covidfaq.evaluating.model.bert_plus_ood import BertPlusOOD
 from covidfaq.scrape import scrape
 
