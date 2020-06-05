@@ -21,7 +21,7 @@ def on_startup():
     log = get_logger()
     log.info("launching", **conf.dict())
 
-    scrape.run("scrape/quebec-sites.yaml", "scrape/")
+    scrape.run("covidfaq/scrape/quebec-sites.yaml", "covidfaq/scrape/")
     log.info("done scraping")
 
     Clusterer()
