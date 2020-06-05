@@ -8,6 +8,7 @@ import pandas as pd
 import requests
 import urllib3
 from IPython.utils import io
+from bert_reranker.data.data_loader import get_passage_last_header
 
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
@@ -29,37 +30,22 @@ class GoogleModel(ModelEvaluationInterface):
         self.url = "https://ml.googleapis.com/v1/projects/descartes-covid/models/hotline:predict?alt=json"
 
         self.failed_attempts = 0
+        self.source2answer2index = None
 
-    def collect_answers(self, answers):
+    def collect_answers(self, source2answers):
 
-        answers_list = []
-        for ans in answers:
-            answers_list.append(ans[1])
+        self.source2answer2index = {}
+        for source, answers in source2answers.items():
+            self.source2answer2index[source] = {}
+            for i, answer in enumerate(answers):
+                answer_content = get_passage_last_header(answer)
+                self.source2answer2index[source][answer_content] = i
 
-        self.data = {"instances": [{"candidates": answers_list}]}
+    def answer_question(self, question, source):
+        ganswer = FindBestQA(question, [])
+        best_question, best_score = ganswer[0]
+        return self.source2answer2index[source][best_question]
 
-    def answer_question(self, question):
-
-        self.data["instances"][0]["input"] = question
-        post_data = json.dumps(self.data)
-        response = requests.post(self.url, data=post_data, headers=self.headers)
-        if response.status_code == 200:
-            predictions = response.json()
-
-            scores_list = [
-                pred["similarity_score"] for pred in predictions["predictions"]
-            ]
-            index, value = max(enumerate(scores_list), key=operator.itemgetter(1))
-
-            return index
-        else:
-            self.failed_attempts += 1
-            logger.info(
-                "Something went wrong when making the request. Total wrong requests:  {}".format(
-                    self.failed_attempts
-                )
-            )
-            return -1
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.expand_frame_repr', False)

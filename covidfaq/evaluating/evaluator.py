@@ -136,7 +136,6 @@ def main():
         raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "google_model":
         model_to_evaluate = GoogleModel()
-        raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "lsa":
         model_to_evaluate = LSA()
         raise NotImplementedError("Model needs to be updated to new evaluator format")
