@@ -55,6 +55,4 @@ RUN python -m spacy download en_core_web_md && \
 
 COPY . .
 
-RUN python scripts/scraper.py
-
 ENTRYPOINT exec hypercorn covidfaq.main:app --bind 0.0.0.0:${PORT}
