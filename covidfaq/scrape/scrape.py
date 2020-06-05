@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup, NavigableString
 from selenium import webdriver
 from yaml import load
 
-from covidfaq.scrape.convert_scrape import scrapes_to_passages, dump_passages
+from covidfaq.scrape.convert_scrape import dump_passages, scrapes_to_passages
 
 log = structlog.get_logger(__name__)
 
