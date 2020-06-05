@@ -26,11 +26,13 @@ def json_to_passages(collapsed_json, passage_id_start_idx=0):
             "passage_id": passage_id,
             "source": entry['source'],
             "uri": entry['url'],
+            "time_of_scrape": entry['time'],
             "reference_type": entry['type'],
             "reference": {
                 "page_title": "".join(entry['nested_title']).strip(),
                 "section_headers": [entry['title']],
                 "section_content": "".join(entry['plaintext']).strip(),
+                "section_raw_html": entry['html'],
                 "selected_span": None,
             }
         }
@@ -51,9 +53,9 @@ def get_scraped_json_filenames(scrapes_path, source, lang, is_faq=True):
     matches = [source, lang, '.json']
     if is_faq:
         matches += ['faq']
-        return [scrapes_path + f for f in os.listdir(scrapes_path) if all(match in f for match in matches)]
+        return [os.path.join(scrapes_path, f) for f in os.listdir(scrapes_path) if all(match in f for match in matches)]
     else:
-        return [scrapes_path + f for f in os.listdir(scrapes_path) if all(match in f for match in matches) and 'faq' not in f]
+        return [os.path.join(scrapes_path, f) for f in os.listdir(scrapes_path) if all(match in f for match in matches) and 'faq' not in f]
 
 
 def scrapes_to_passages(scrapes_path, source, lang, is_faq):
