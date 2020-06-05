@@ -1,5 +1,5 @@
 name: covidfaq
-engine: ~0.6
+engine: ~1
 type: cron
 
 cron:
@@ -10,10 +10,6 @@ command:
   - "python"
   - "-m"
   - "scripts.scraper"
-
-environment:
-  elastic_search_host: faq-master.covidfaq
-  elastic_search_port: 9200
 
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
