@@ -1,11 +1,11 @@
-engine: ~1
+engine: ~2
 name: covidfaq
 
 healthcheck:
   liveness:
-    initialDelaySeconds: 60
+    initialDelaySeconds: 180
   readiness:
-    initialDelaySeconds: 60
+    initialDelaySeconds: 180
 
 public:
   ingress: true

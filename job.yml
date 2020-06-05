@@ -1,21 +1,17 @@
-name: covidfaq
-engine: ~0.6
-type: cron
+# name: covidfaq
+# engine: ~1
+# type: cron
 
-cron:
-  schedule: "*/30 * * * *"
-  concurrencyPolicy: Forbid
+# cron:
+#   schedule: "*/30 * * * *"
+#   concurrencyPolicy: Forbid
 
-command:
-  - "python"
-  - "-m"
-  - "scripts.scraper"
+# command:
+#   - "python"
+#   - "-m"
+#   - "scripts.scraper"
 
-environment:
-  elastic_search_host: faq-master.covidfaq
-  elastic_search_port: 9200
-
-tolerations:
-  "dialoguecorp.com/covidbot": "Exists"
-nodeSelector:
-  "dialoguecorp.com/covidbot": "true"
+# tolerations:
+#   "dialoguecorp.com/covidbot": "Exists"
+# nodeSelector:
+#   "dialoguecorp.com/covidbot": "true"
