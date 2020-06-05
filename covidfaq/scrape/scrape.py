@@ -2,10 +2,10 @@ import argparse
 import json
 import os
 import re
-import sys
 import time
 from collections import defaultdict
 from datetime import datetime
+from unicodedata import normalize
 from urllib.parse import urljoin
 
 import bs4
@@ -15,7 +15,7 @@ import yaml
 from bs4 import BeautifulSoup, NavigableString
 from yaml import load
 
-from selenium import webdriver
+from covidfaq.scrape.convert_scrape import dump_passages, scrapes_to_passages
 
 log = structlog.get_logger(__name__)
 
@@ -30,7 +30,20 @@ def soup_to_html(filename, soup):
         f.write(str(soup))
 
 
+def clean_page_contents(page_contents):
+    """Remove weird formatting from html like nbsp"""
+    for k, v in page_contents.items():
+        if k == "document_URL":
+            continue
+        k = normalize("NFKD", k)
+        v["plaintext"] = [normalize("NFKD", s) for s in v["plaintext"]]
+        v["nested_title"] = [normalize("NFKD", s) for s in v["nested_title"]]
+        v["title"] = normalize("NFKD", v["title"])
+    return page_contents
+
+
 def page_to_json(page_contents, fname):
+    page_contents = clean_page_contents(page_contents)
     with open(fname, "w", encoding="utf-8") as fp:
         json.dump(page_contents, fp, indent=4, ensure_ascii=False)
 
@@ -257,14 +270,10 @@ def extract_sections(url, info, cfg, browser, translated=False):
     return results, soup
 
 
-def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
-    """Scrape websites for information."""
-
-    with open(yaml_filename, "r") as stream:
-        sites = load(stream, Loader=yaml.FullLoader)
-    now = str(datetime.now())
-
+def initialize_selenium_browser():
     # Initialize broswer for selenium
+    from selenium import webdriver
+
     options = webdriver.ChromeOptions()
     options.add_argument("headless")
     options.add_argument("--disable-infobars")
@@ -272,11 +281,28 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
     options.add_argument("--no-sandbox")
     options.add_argument("--remote-debugging-port=9222")
     browser = webdriver.Chrome(options=options)
+    return browser
+
+
+def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
+    """Scrape websites for information."""
+
+    with open(yaml_filename, "r") as stream:
+        sites = load(stream, Loader=yaml.FullLoader)
+    now = datetime.now()
+    outdir = os.path.join(outdir, now.strftime("%Y%m%d%I%M"))
 
     # Scrape sites
     results = []
     soups = []
     for sitename, sitecfg in sites.items():
+
+        if sitecfg["scraper"] == "selenium":
+            # initialize selenium broswer only if we use it
+            browser = initialize_selenium_browser()
+        else:
+            browser = None
+
         if site and site != sitename:
             continue
         for i, url in enumerate(sitecfg["urls"]):
@@ -287,33 +313,45 @@ def run(yaml_filename, outdir="covidfaq/scrape", formatting="old", site=None):
                 urlinfo = {}
             urlinfo.setdefault("urlkey", str(i))
             urlinfo["urlkey"] = f"{sitename}-{urlinfo['urlkey']}"
-            info = {**sitecfg["info"], **urlinfo, "time": now, "url": url}
+            info = {**sitecfg["info"], **urlinfo, "time": str(now), "url": url}
             result, soup = extract_sections(url, info, sitecfg, browser)
             if result:
                 results += result
                 soups.append(soup)
 
-    browser.quit()
+        if browser:
+            # Quit the selenium broswer when done
+            browser.quit()
 
-    # Save scraping results
-    if formatting == "old":
-        files = defaultdict(dict)
-        # change key names
-        for entry in results:
-            d = files[entry["urlkey"]]
-            d["document_URL"] = entry["url"]
-            del entry["urlkey"]
-            d[entry["title"]] = entry
-        os.makedirs(outdir, exist_ok=True)
-        for (filename, data), soup in zip(files.items(), soups):
-            filename_json = os.path.join(outdir, filename + ".json")
-            page_to_json(data, filename_json)
-            filename_html = os.path.join(outdir, filename + ".html")
-            soup_to_html(filename_html, soup)
+    # Save scraping results to json files
+    files = defaultdict(dict)
+    # remap dict key names, for legacy
+    for entry in results:
+        d = files[entry["urlkey"]]
+        d["document_URL"] = entry["url"]
+        del entry["urlkey"]
+        d[entry["title"]] = entry
+    os.makedirs(outdir, exist_ok=True)
+    for (filename, data), soup in zip(files.items(), soups):
+        filename_json = os.path.join(outdir, filename + ".json")
+        page_to_json(data, filename_json)
+        filename_html = os.path.join(outdir, filename + ".html")
+        soup_to_html(filename_html, soup)
 
-    else:
-        print(f"Unknown format: {format}")
-        sys.exit(1)
+    # Convert scrape results to the bert_reranker format
+    # TODO: when there will be more provinces + languages supported, this will need to be updated
+    PASSAGES_OUTDIR = os.path.join(outdir, "bert_reranker_format/")
+    source = "quebec"
+    lang = "en"
+
+    passages = scrapes_to_passages(outdir, source, lang, is_faq=True)
+    os.makedirs(PASSAGES_OUTDIR, exist_ok=True)
+    dump_passages(
+        passages,
+        fname=os.path.join(
+            PASSAGES_OUTDIR, "source_" + lang + "_faq" + "_passages.json"
+        ),
+    )
 
 
 if __name__ == "__main__":
@@ -321,7 +359,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--sites", help="list of sites to scrape", required=True)
     parser.add_argument(
-        "--outdir", help="where to save scrapes", default="covidfaq/scrape"
+        "--outdir", help="where to save scrapes", default="covidfaq/scrape/"
     )
     args = parser.parse_args()
 
