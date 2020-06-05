@@ -33,14 +33,14 @@ def soup_to_html(filename, soup):
 
 
 def clean_page_contents(page_contents):
-    '''Remove weird formatting from html like nbsp'''
+    """Remove weird formatting from html like nbsp"""
     for k, v in page_contents.items():
-        if k == 'document_URL':
+        if k == "document_URL":
             continue
-        k = normalize('NFKD', k)
-        v['plaintext'] = [normalize('NFKD', s) for s in v['plaintext']]
-        v['nested_title'] = [normalize('NFKD', s) for s in v['nested_title']]
-        v['title'] = normalize('NFKD', v['title'])
+        k = normalize("NFKD", k)
+        v["plaintext"] = [normalize("NFKD", s) for s in v["plaintext"]]
+        v["nested_title"] = [normalize("NFKD", s) for s in v["nested_title"]]
+        v["title"] = normalize("NFKD", v["title"])
     return page_contents
 
 
@@ -313,7 +313,7 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
 
     # Save scraping results to json files
     files = defaultdict(dict)
-    # rename key names, for legacy
+    # remap dict key names, for legacy
     for entry in results:
         d = files[entry["urlkey"]]
         d["document_URL"] = entry["url"]
@@ -328,14 +328,18 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
 
     # Convert scrape results to the bert_reranker format
     # TODO: when there will be more provinces + languages supported, this will need to be updated
-    PASSAGES_OUTDIR = os.path.join(outdir, 'bert_reranker_format/')
-    source = 'quebec'
-    lang = 'en'
+    PASSAGES_OUTDIR = os.path.join(outdir, "bert_reranker_format/")
+    source = "quebec"
+    lang = "en"
 
     passages = scrapes_to_passages(outdir, source, lang, is_faq=True)
     os.makedirs(PASSAGES_OUTDIR, exist_ok=True)
-    dump_passages(passages,
-                  fname=os.path.join(PASSAGES_OUTDIR, 'source_' + lang + '_faq' + '_passages.json'))
+    dump_passages(
+        passages,
+        fname=os.path.join(
+            PASSAGES_OUTDIR, "source_" + lang + "_faq" + "_passages.json"
+        ),
+    )
 
 
 if __name__ == "__main__":
