@@ -33,6 +33,7 @@ def json_to_passages(collapsed_json, passage_id_start_idx=0):
                 "section_headers": [entry["title"]],
                 "section_content": "".join(entry["plaintext"]).strip(),
                 "section_raw_html": entry["html"],
+                "section_converted_html": entry["converted_html"],
                 "selected_span": None,
             },
         }

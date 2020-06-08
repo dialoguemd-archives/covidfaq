@@ -9,6 +9,7 @@ from unicodedata import normalize
 from urllib.parse import urljoin
 
 import bs4
+import html2text
 import requests
 import structlog
 import yaml
@@ -31,7 +32,13 @@ def soup_to_html(filename, soup):
 
 
 def clean_page_contents(page_contents):
-    """Remove weird formatting from html like nbsp"""
+    """
+    Remove weird formatting from html like nbsp for the plaintext fields.
+    Convert raw html for proper display.
+    """
+    text_maker = html2text.HTML2Text()
+    text_maker.skip_internal_links = True
+    text_maker.ignore_images = True
     for k, v in page_contents.items():
         if k == "document_URL":
             continue
@@ -39,6 +46,7 @@ def clean_page_contents(page_contents):
         v["plaintext"] = [normalize("NFKD", s) for s in v["plaintext"]]
         v["nested_title"] = [normalize("NFKD", s) for s in v["nested_title"]]
         v["title"] = normalize("NFKD", v["title"])
+        v["converted_html"] = text_maker.handle(v["html"])
     return page_contents
 
 
