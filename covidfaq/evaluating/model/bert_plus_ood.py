@@ -39,8 +39,8 @@ class BertPlusOOD:
             else:
                 answer_dict = self.source2passages[SOURCE][idx]
                 section_header = answer_dict.get("reference").get("section_headers")
-                answer = answer_dict.get("reference").get("section_content")
-                answer_complete = ["## " + section_header[0] + "\n\n" + answer]
+                answer = answer_dict.get("reference").get("section_converted_html")
+                answer_complete = ["## " + section_header[0] + " " + answer]
 
             log.info(
                 "bert_get_answer",
