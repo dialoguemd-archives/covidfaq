@@ -36,20 +36,23 @@ class BertPlusOOD:
             if idx == -1:
                 # we are out of distribution
                 answer = []
+                log.info(
+                    "bert_get_answer_ood", question=question, idx=idx,
+                )
             else:
                 answer_dict = self.source2passages[SOURCE][idx]
                 section_header = answer_dict.get("reference").get("section_headers")
                 answer = answer_dict.get("reference").get("section_converted_html")
                 answer_complete = ["## " + section_header[0] + " " + answer]
 
-            log.info(
-                "bert_get_answer",
-                question=question,
-                idx=idx,
-                section_header=section_header,
-                answer=answer,
-                answer_complete=answer_complete,
-            )
+                log.info(
+                    "bert_get_answer",
+                    question=question,
+                    idx=idx,
+                    section_header=section_header,
+                    answer=answer,
+                    answer_complete=answer_complete,
+                )
 
             return answer_complete
 
