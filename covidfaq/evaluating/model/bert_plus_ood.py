@@ -35,7 +35,7 @@ class BertPlusOOD:
             idx = self.model.answer_question(question, SOURCE)
             if idx == -1:
                 # we are out of distribution
-                answer = []
+                answer_complete = []
                 log.info(
                     "bert_get_answer_ood", question=question, idx=idx,
                 )
