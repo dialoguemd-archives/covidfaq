@@ -1,5 +1,4 @@
 import json
-import os
 
 from structlog import get_logger
 
@@ -68,17 +67,7 @@ class BertPlusOOD:
 
 def get_latest_scrape():
 
-    # HACK
-    # TODO: rework this
-    l = [x for x in os.listdir("covidfaq/scrape") if "2020" in x]
-    l.sort(reverse=True)
-    latest_folder = l[0]
-
-    latest_scrape = (
-        "covidfaq/scrape/"
-        + latest_folder
-        + "/bert_reranker_format/source_en_faq_passages.json"
-    )
+    latest_scrape = "covidfaq/scrape/source_en_faq_passages.json"
 
     with open(latest_scrape) as in_stream:
         test_data = json.load(in_stream)

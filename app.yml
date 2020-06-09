@@ -10,6 +10,14 @@ healthcheck:
 public:
   ingress: true
 
+environments:
+  dev-ca2:
+    environment:
+      BUCKET_NAME: dialoguecorp.covidfaq.dev.ca-central-1
+  prod-ca:
+    environment:
+      BUCKET_NAME: dialoguecorp.covidfaq.prod.ca-central-1
+
 scale:
   vertical: large.mem4x
   horizontal: 2

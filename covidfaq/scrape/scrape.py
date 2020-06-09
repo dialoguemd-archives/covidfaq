@@ -8,6 +8,8 @@ from datetime import datetime
 from unicodedata import normalize
 from urllib.parse import urljoin
 
+import boto3
+
 import bs4
 import html2text
 import requests
@@ -19,6 +21,34 @@ from yaml import load
 from covidfaq.scrape.convert_scrape import dump_passages, scrapes_to_passages
 
 log = structlog.get_logger(__name__)
+
+
+def upload_to_s3(outdir, timestamp):
+
+    client = boto3.client("s3")
+
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
+
+    file_to_upload = os.path.join(outdir, "source_en_faq_passages.json")
+
+    client.upload_file(
+        file_to_upload, BUCKET_NAME, "source_en_faq_passages_" + timestamp + ".json"
+    )
+
+
+def load_latest_source_data():
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
+
+    get_last_modified = lambda obj: int(obj["LastModified"].strftime("%s"))
+
+    client = boto3.client("s3")
+    objs = client.list_objects_v2(Bucket=BUCKET_NAME)["Contents"]
+    last_added = [obj["Key"] for obj in sorted(objs, key=get_last_modified)][0]
+
+    s3 = boto3.resource("s3")
+    s3.Bucket(BUCKET_NAME).download_file(
+        last_added, "covidfaq/scrape/source_en_faq_passages.json"
+    )
 
 
 def remove_html_tags(data):
@@ -348,18 +378,18 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
 
     # Convert scrape results to the bert_reranker format
     # TODO: when there will be more provinces + languages supported, this will need to be updated
-    PASSAGES_OUTDIR = os.path.join(outdir, "bert_reranker_format/")
     source = "quebec"
     lang = "en"
 
     passages = scrapes_to_passages(outdir, source, lang, is_faq=True)
-    os.makedirs(PASSAGES_OUTDIR, exist_ok=True)
+    os.makedirs(outdir, exist_ok=True)
     dump_passages(
         passages,
-        fname=os.path.join(
-            PASSAGES_OUTDIR, "source_" + lang + "_faq" + "_passages.json"
-        ),
+        fname=os.path.join(outdir, "source_" + lang + "_faq" + "_passages.json"),
     )
+
+    # # upload stuff to s3
+    upload_to_s3(outdir, now.strftime("%Y%m%d%I%M"))
 
 
 if __name__ == "__main__":
