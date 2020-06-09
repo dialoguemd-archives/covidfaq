@@ -1,8 +1,8 @@
 import json
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from structlog import get_logger
 
-from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
     EmbeddingBasedReRankerPlusOODDetector,
 )

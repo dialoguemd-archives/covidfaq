@@ -9,7 +9,6 @@ from unicodedata import normalize
 from urllib.parse import urljoin
 
 import boto3
-
 import bs4
 import html2text
 import requests
