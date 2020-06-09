@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from structlog import get_logger
 
 from ..clustering.cluster import Clusterer, get_answer_from_cluster
+from ..evaluating.model.bert_plus_ood import BertPlusOOD
 from ..utils import detect_language
 
 router = APIRouter()
@@ -20,24 +21,33 @@ def answers(request: Request, question: str, topk_es: int = None):
 
     clusterer = Clusterer()
 
+    ood_reranker = BertPlusOOD()
+
     language = request.headers.get("Accept-Language")
 
     formatted_language = format_language(language, question)
 
-    cluster = clusterer.get_cluster(question, lang=formatted_language)
-    answer = get_answer_from_cluster(cluster, formatted_language)
+    if formatted_language == "en":
+        answers = ood_reranker.get_answer(question)
+        log.info(
+            "bert_rerank_result", answers=answers, question=question, language=language,
+        )
 
-    log.info(
-        "clustering_results",
-        cluster=cluster,
-        answer=answer,
-        question=question,
-        language=language,
-    )
+    else:
+        cluster = clusterer.get_cluster(question, lang=formatted_language)
+        answer = get_answer_from_cluster(cluster, formatted_language)
 
-    answers = []
-    if answer:
-        answers = [answer]
+        log.info(
+            "clustering_results",
+            cluster=cluster,
+            answer=answer,
+            question=question,
+            language=language,
+        )
+
+        answers = []
+        if answer:
+            answers = [answer]
 
     return {"answers": answers}
 

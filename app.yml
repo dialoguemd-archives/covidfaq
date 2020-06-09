@@ -11,28 +11,30 @@ public:
   ingress: true
 
 scale:
-  vertical: x-large.mem
-  horizontal: 2-4
+  vertical: large.mem4x
+  horizontal: 2
+  cpuNoLimits: true
   memThreshold: false
+  qos: guaranteed
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
 nodeSelector:
   "dialoguecorp.com/covidbot": "true"
 
-dependencies:
-  elasticsearch:
-    version: 7.6.1
-    repo: "@elastic"
-    settings:
-      clusterName: faq
-      replicas: 2
-      minimumMasterNodes: 1
+# dependencies:
+#   elasticsearch:
+#     version: 7.6.1
+#     repo: "@elastic"
+#     settings:
+#       clusterName: faq
+#       replicas: 2
+#       minimumMasterNodes: 1
 
-      nodeSelector:
-        "dialoguecorp.com/covidbot": "true"
-      tolerations:
-        - key: "dialoguecorp.com/covidbot"
-          operator: "Exists"
+#       nodeSelector:
+#         "dialoguecorp.com/covidbot": "true"
+#       tolerations:
+#         - key: "dialoguecorp.com/covidbot"
+#           operator: "Exists"
 
 addons:
   iamRole: true

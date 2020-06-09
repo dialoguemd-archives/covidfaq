@@ -1,14 +1,20 @@
-import tqdm
+import logging
+
+import torch
 import yaml
+
+from bert_reranker.data.data_loader import get_passage_last_header
+from bert_reranker.models.load_model import load_model
+from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from transformers import AutoTokenizer
 from yaml import load
 
-import torch
-from bert_reranker.models.load_model import load_model
-from bert_reranker.models.retriever_trainer import RetrieverTrainer
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
 )
+
+
+logger = logging.getLogger(__name__)
 
 
 class EmbeddingBasedReRanker(ModelEvaluationInterface):
@@ -27,31 +33,36 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         model = load_model(hyper_params, tokenizer, False)
 
-        ret_trainee = RetrieverTrainer(model, None, None, None, None, None)
+        self.ret_trainee = RetrieverTrainer(model, None, None, None, None, None)
 
         model_ckpt = torch.load(ckpt_to_resume, map_location=torch.device("cpu"))
-        ret_trainee.load_state_dict(model_ckpt["state_dict"])
-        self.model = ret_trainee.retriever
+        self.ret_trainee.load_state_dict(model_ckpt["state_dict"])
+        self.model = self.ret_trainee.retriever
+        self.source2embedded_passages = {}
 
-        self.p_embs = None  # to be set with collect_answers
-        self.indices = None  # to be set with collect_answers
+    def collect_answers(self, source2passages):
+        self.source2embedded_passages = {}
+        for source, passages in source2passages.items():
+            logger.info("encoding source {}".format(source))
+            if passages:
+                passages_content = [get_passage_last_header(p) for p in passages]
+                embedded_passages = self.model.embed_paragrphs(
+                    passages_content, progressbar=True
+                )
+                self.source2embedded_passages[source] = embedded_passages
+            else:
+                self.source2embedded_passages[source] = None
 
-    def collect_answers(self, answers):
-        cached_answers = []
-        indices = []
-        for index, answer in tqdm.tqdm(answers):
-            cached = self.model.embed_paragraph(answer)
-            cached_answers.append(cached.squeeze(0))
-            indices.append(index)
-        self.p_embs = torch.stack(cached_answers)
-        self.indices = indices
-
-    def answer_question(self, question):
-        q_emb = self.model.embed_question(question)
-
-        relevance_scores = torch.matmul(q_emb, self.p_embs.squeeze(0).T).squeeze(0)
-
-        rerank_index = torch.argsort(-relevance_scores)
-        index_of_highest = rerank_index[0].detach().cpu()
-
-        return self.indices[index_of_highest]
+    def answer_question(self, question, source, already_embedded=False):
+        if already_embedded:
+            enc_question = question
+        else:
+            enc_question = self.model.embed_question(question)
+        embedded_candidates = self.source2embedded_passages[source]
+        result, _ = self.model.predict(
+            enc_question,
+            embedded_candidates,
+            passages_already_embedded=True,
+            question_already_embedded=True,
+        )
+        return int(result)
