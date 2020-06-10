@@ -14,6 +14,10 @@ environments:
     environment:
       BUCKET_NAME: dialoguecorp.covidfaq.prod.ca-central-1
 
+addons:
+  iamRole:
+    name: covidfaq
+
 command:
   - "python"
   - "-m"

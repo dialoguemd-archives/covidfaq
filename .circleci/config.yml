@@ -98,16 +98,16 @@ workflows:
             branches:
               ignore: /.*/
           context: org-global-v2
-      # - job/deploy:
-      #     name: deploy-scraper-prod-ca
-      #     stage: prod
-      #     place: ca
-      #     wait: false
-      #     requires:
-      #       - deploy-prod-ca
-      #     filters:
-      #       tags:
-      #         only: /^v.*/
-      #       branches:
-      #         ignore: /.*/
-      #     context: org-global-v2
+      - job/deploy:
+          name: deploy-scraper-prod-ca
+          stage: prod
+          place: ca
+          wait: false
+          requires:
+            - deploy-prod-ca
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
+          context: org-global-v2

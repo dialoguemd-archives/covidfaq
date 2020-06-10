@@ -29,20 +29,5 @@ tolerations:
 nodeSelector:
   "dialoguecorp.com/covidbot": "true"
 
-# dependencies:
-#   elasticsearch:
-#     version: 7.6.1
-#     repo: "@elastic"
-#     settings:
-#       clusterName: faq
-#       replicas: 2
-#       minimumMasterNodes: 1
-
-#       nodeSelector:
-#         "dialoguecorp.com/covidbot": "true"
-#       tolerations:
-#         - key: "dialoguecorp.com/covidbot"
-#           operator: "Exists"
-
 addons:
   iamRole: true
