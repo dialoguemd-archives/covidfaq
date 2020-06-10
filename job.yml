@@ -32,8 +32,9 @@ rbac:
         - deployments
       verbs:
         - "patch"
+        - "get"
       apiGroups:
-        - ""
+        - "apps"
 
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
