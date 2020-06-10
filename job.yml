@@ -1,5 +1,5 @@
 name: covidfaq
-engine: 0.0.0-pr137+645e23c
+engine: |1
 type: cron
 
 cron:

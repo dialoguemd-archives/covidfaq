@@ -36,7 +36,7 @@ workflows:
             - pylama
             - black
             # - isort
-            - test
+            # - test
           context: org-global-v2
       - app/build:
           name: build
@@ -54,7 +54,7 @@ workflows:
           cci_wait_timeout: 1000s
           requires:
             - pylama
-            - test
+            # - test
             - build
           filters:
             branches:
