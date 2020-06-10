@@ -1,5 +1,5 @@
 name: covidfaq
-engine: ~1
+engine: 0.0.0-pr137+645e23c
 type: cron
 
 cron:
@@ -19,7 +19,17 @@ command:
   - "-m"
   - "scripts.scraper"
 
-# TODO: Add command to restart
+rbac:
+  roleType: ClusterRole
+  bindingType: RoleBinding
+  namespace: covidfaq
+  rules:
+    - resources:
+        - deployments
+      verbs:
+        - "patch"
+      apiGroups:
+        - ""
 
 tolerations:
   "dialoguecorp.com/covidbot": "Exists"
