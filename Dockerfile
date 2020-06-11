@@ -3,18 +3,25 @@ FROM python:3.7.6-slim-buster as base
 FROM base as builder
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends gcc g++ wget gnupg2 curl git unzip libglib2.0 libnss3 libgconf-2-4 libfontconfig1
+    && apt-get install -y --no-install-recommends gcc g++ wget gnupg2 curl git
+
+# chromedriver dependencies
+RUN apt-get install -y libglib2.0 \
+    libnss3 \
+    libgconf-2-4 \
+    libfontconfig1
 
 # install google chrome
-RUN wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome-stable_current_amd64.deb; exit 0
 RUN apt-get -fy install
 
 # install chromedriver
-RUN wget -q -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
+RUN apt-get install -yqq unzip
+RUN wget -O /tmp/chromedriver.zip http://chromedriver.storage.googleapis.com/`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`/chromedriver_linux64.zip
 RUN unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 
-# install
+# install kubectl
 RUN \
   curl --silent --location --remote-name https://storage.googleapis.com/kubernetes-release/release/v1.16.10/bin/linux/amd64/kubectl \
   && chmod +x kubectl \
@@ -36,7 +43,6 @@ RUN \
   poetry config virtualenvs.create false
 
 # standard python project
-
 COPY pyproject.toml poetry.lock ./
 RUN poetry install -vvv --no-dev
 
@@ -52,4 +58,4 @@ RUN python -m spacy download en_core_web_md && \
 
 COPY . .
 
-ENTRYPOINT exec hypercorn covidfaq.main:app --bind 0.0.0.0:${PORT}
+ENTRYPOINT exec hypercorn covidfaq.main:app --graceful-timeout 30 --bind 0.0.0.0:${PORT}
