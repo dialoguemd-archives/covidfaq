@@ -1,5 +1,6 @@
 .venv/
 .vscode/
+.git/
 **/*.zip
 *.egg-info
-__pycache__
+**/__pycache__/

@@ -36,7 +36,7 @@ workflows:
             - pylama
             - black
             # - isort
-            - test
+            # - test
           context: org-global-v2
       - app/build:
           name: build
@@ -54,23 +54,23 @@ workflows:
           cci_wait_timeout: 1000s
           requires:
             - pylama
-            - test
+            # - test
             - build
           filters:
             branches:
               ignore: master
           context: org-global-v2
-      # - job/deploy:
-      #     name: deploy-scraper-dev-ca2
-      #     stage: dev
-      #     place: ca2
-      #     wait: false
-      #     requires:
-      #       - deploy-dev-ca2
-      #     filters:
-      #       branches:
-      #         ignore: master
-      #     context: org-global-v2
+      - job/deploy:
+          name: deploy-scraper-dev-ca2
+          stage: dev
+          place: ca2
+          wait: false
+          requires:
+            - deploy-dev-ca2
+          filters:
+            branches:
+              ignore: master
+          context: org-global-v2
 
   release:
     jobs:
@@ -98,16 +98,16 @@ workflows:
             branches:
               ignore: /.*/
           context: org-global-v2
-      # - job/deploy:
-      #     name: deploy-scraper-prod-ca
-      #     stage: prod
-      #     place: ca
-      #     wait: false
-      #     requires:
-      #       - deploy-prod-ca
-      #     filters:
-      #       tags:
-      #         only: /^v.*/
-      #       branches:
-      #         ignore: /.*/
-      #     context: org-global-v2
+      - job/deploy:
+          name: deploy-scraper-prod-ca
+          stage: prod
+          place: ca
+          wait: false
+          requires:
+            - deploy-prod-ca
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
+          context: org-global-v2

@@ -1,17 +1,42 @@
-# name: covidfaq
-# engine: ~1
-# type: cron
+name: covidfaq
+engine: ~1
+type: cron
 
-# cron:
-#   schedule: "*/30 * * * *"
-#   concurrencyPolicy: Forbid
+cron:
+  schedule: "0 */4 * * *"
+  concurrencyPolicy: Forbid
 
-# command:
-#   - "python"
-#   - "-m"
-#   - "scripts.scraper"
+environments:
+  dev-ca2:
+    environment:
+      BUCKET_NAME: dialoguecorp.covidfaq.dev.ca-central-1
+  prod-ca:
+    environment:
+      BUCKET_NAME: dialoguecorp.covidfaq.prod.ca-central-1
 
-# tolerations:
-#   "dialoguecorp.com/covidbot": "Exists"
-# nodeSelector:
-#   "dialoguecorp.com/covidbot": "true"
+addons:
+  iamRole:
+    name: covidfaq
+
+command:
+  - "python"
+  - "-m"
+  - "scripts.scraper"
+
+rbac:
+  roleType: ClusterRole
+  bindingType: RoleBinding
+  namespace: covidfaq
+  rules:
+    - resources:
+        - deployments
+      verbs:
+        - "patch"
+        - "get"
+      apiGroups:
+        - "apps"
+
+tolerations:
+  "dialoguecorp.com/covidbot": "Exists"
+nodeSelector:
+  "dialoguecorp.com/covidbot": "true"

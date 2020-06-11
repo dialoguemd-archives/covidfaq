@@ -10,8 +10,16 @@ healthcheck:
 public:
   ingress: true
 
+environments:
+  dev-ca2:
+    environment:
+      BUCKET_NAME: dialoguecorp.covidfaq.dev.ca-central-1
+  prod-ca:
+    environment:
+      BUCKET_NAME: dialoguecorp.covidfaq.prod.ca-central-1
+
 scale:
-  vertical: large.mem4x
+  vertical: large.mem3x
   horizontal: 2
   cpuNoLimits: true
   memThreshold: false
@@ -20,21 +28,6 @@ tolerations:
   "dialoguecorp.com/covidbot": "Exists"
 nodeSelector:
   "dialoguecorp.com/covidbot": "true"
-
-# dependencies:
-#   elasticsearch:
-#     version: 7.6.1
-#     repo: "@elastic"
-#     settings:
-#       clusterName: faq
-#       replicas: 2
-#       minimumMasterNodes: 1
-
-#       nodeSelector:
-#         "dialoguecorp.com/covidbot": "true"
-#       tolerations:
-#         - key: "dialoguecorp.com/covidbot"
-#           operator: "Exists"
 
 addons:
   iamRole: true
