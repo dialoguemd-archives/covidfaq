@@ -1,5 +1,5 @@
 name: covidfaq
-engine: |1
+engine: ~1
 type: cron
 
 cron:
