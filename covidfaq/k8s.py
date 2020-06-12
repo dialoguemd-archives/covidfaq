@@ -12,7 +12,7 @@ class ShellError(Exception):
 
 def rollout_restart():
     log.info("restarting app")
-    shell("kubectl --namespace covidfaq rollout restart deployment app")
+    shell("kubectl --namespace covidfaq rollout restart deployment.apps app")
     log.info("restart app in progress")
 
 
