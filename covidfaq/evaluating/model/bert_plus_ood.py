@@ -1,8 +1,8 @@
 import json
 
-from bert_reranker.data.data_loader import get_passages_by_source
 from structlog import get_logger
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
     EmbeddingBasedReRankerPlusOODDetector,
 )
@@ -19,7 +19,7 @@ class BertPlusOOD:
                 "covidfaq/bert_en_model/config.yaml"
             )
 
-            test_data = get_latest_scrape()
+            test_data, _ = get_latest_scrape()
 
             (
                 self.source2passages,
@@ -67,9 +67,9 @@ class BertPlusOOD:
 
 def get_latest_scrape():
 
-    latest_scrape = "covidfaq/scrape/source_en_faq_passages.json"
+    latest_scrape_fname = "covidfaq/scrape/source_en_faq_passages.json"
 
-    with open(latest_scrape) as in_stream:
+    with open(latest_scrape_fname) as in_stream:
         test_data = json.load(in_stream)
 
-    return test_data
+    return test_data, latest_scrape_fname

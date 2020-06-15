@@ -5,9 +5,9 @@ import json
 import logging
 import time
 
-from bert_reranker.data.data_loader import get_passages_by_source
 from tqdm import tqdm
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
