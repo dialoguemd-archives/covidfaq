@@ -1,11 +1,11 @@
 Label,Description,Sample question EN,Sample question FR,Answer,Answer link,LP
 covid-animals,Inquiries regarding transmission and contraction by animals,Get I get infected from a dog?,Les animaux peuvent-ils transmettre le COVID-19?,31_animals.md,,ok
-covid-contagious,Inquiries about risk and dangers of COVID-19,Someone from quarantaine came to my office and stayed 20min. Is it a risk,Durant combien de temps sommes nous contagieux quand on a la COVID-19?,55_contagious-time.md,,ok
+covid-contagious,Inquiries about risk and dangers of COVID-19,Someone from quarantaine came to my office and stayed 20min. Is it a risk,Durant combien de temps sommes nous contagieux quand on a la COVID-19?,49_recovery-time.md,,ok
 covid-fight,Inquiries about what can help fight the virus,Does eating Oranges daily help to fight this virus,NA,70_protect-myself.md,,ok
 covid-incubation,Inquiries regarding incubation of COVID-19,Is the severity of disease dependent on incubation period?,Le temps d'incubation est 14 ou 20 jours?,32_transmission-symptoms.md,,ok
 covid-infection,Inquiries related to infection,From the infected worldwide population what will be the ratio of asymptomatic people,NA,72_asymptomatic.md,,*
 covid-kill,Inquiries about what kills the virus,Is it true that warm kills Coronavirus?,NA,58_warm-weather.md,,ok
-covid-life,Inquiries about life of vrus on various surfaces,How long does the virus stay airborne?,Combien de temps le virus survie t'il hors du corps?,36_length-on-surface.md,,ok
+covid-life,Inquiries about life of vrus on various surfaces,How long does the virus stay airborne?,Combien de temps le virus survie t'il hors du corps?,71_spread.md,,ok
 covid-med,"Inquiries about treatments, vaccines, cures for COVID-19",How long will it take to develop a vaccine ?,Est t il safe de prendre des médicaments t elle que mezavant ou salofak,73_treatment.md,,ok
 covid-recovery,Inquiries regarding recovery from COVID-19,Is it true that you can get the virus again even after you've recovered,NA,Question waiting for review.,https://www.healthline.com/health-news/why-are-some-people-testing-positive-for-covid-19-again,
 covid-symptoms,Inquiries about symptoms of COVID-19,What are the symptoms? Is vomiting one of them ?,L’écoulement nasal est-il un symptôme ?,63_COVID19-symptoms.md,,ok
