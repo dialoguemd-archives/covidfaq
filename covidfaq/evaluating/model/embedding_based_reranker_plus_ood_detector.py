@@ -32,7 +32,7 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
     faq_questions_set = set([passage['reference']['section_headers'][0] for passage in faq_data['passages']])
 
     # get the crowdsourced questions that align with the new scrape
-    for user_question_file in hyper_params['outlier']['en_training_data_files']:
+    for user_question_file in hyper_params['outlier']['training_data_files']:
         user_json_data = filter_user_questions(
             user_question_file,
             faq_questions_set

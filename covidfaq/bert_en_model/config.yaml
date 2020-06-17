@@ -9,7 +9,7 @@ ckpt_to_resume: covidfaq/bert_en_model/output/bert_model.ckpt
 
 outlier:
     model_name: 'local_outlier_factor'
-    en_training_data_files:
+    training_data_files:
         - covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/train_overlapping.json
         - covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/val_overlapping.json
         - covidfaq_data/crowdsource/20200522_quebec_faq_en_cleaned_collection4/test.json
