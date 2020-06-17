@@ -7,7 +7,7 @@ import structlog
 log = structlog.get_logger()
 
 
-def fetch():
+def fetch_model():
     rerank_dir = "covidfaq/rerank"
     model_name = f"{rerank_dir}/model.zip"
 
@@ -30,5 +30,29 @@ def fetch():
     log.info("cleanup done")
 
 
+def fetch_data():
+    rerank_dir = "covidfaq/rerank"
+    file_name = f"{rerank_dir}/covidfaq_data.zip"
+
+    log.info("downloading covidfaq_data from s3")
+    s3 = boto3.client("s3")
+    s3.download_file(
+        "coviddata.dialoguecorp.com",
+        "mirko/bert_rerank_model__for_testing.zip",
+        file_name,
+    )
+    log.info("model downloaded")
+
+    log.info("extracting model")
+    with ZipFile(file_name, "r") as zip:
+        zip.extractall(path=rerank_dir)
+    log.info("model extracted")
+
+    log.info("cleanup")
+    os.remove(file_name)
+    log.info("cleanup done")
+
+
 if __name__ == "__main__":
-    fetch()
+    fetch_model()
+    fetch_data()
