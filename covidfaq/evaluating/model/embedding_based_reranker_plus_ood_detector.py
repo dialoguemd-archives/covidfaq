@@ -11,7 +11,7 @@ log = get_logger()
 
 
 def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
-    '''
+    """
     Prepare the best possible dataset for fitting the OOD model
     and fit on that dataset.
     The dataset consists of all crowdsourced questions that still
@@ -19,7 +19,7 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
     Here, we extract all the crowdsourced questions that align with the
     latest scrape, compute their embeddings using BERT
     and then fit the OOD model on the result.
-    '''
+    """
     from covidfaq.evaluating.model.bert_plus_ood import get_latest_scrape
     from bert_reranker.data.predict import generate_embeddings
     from bert_reranker.models.sklearn_outliers_model import fit_sklearn_model
@@ -29,27 +29,32 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
         faq_data, faq_json_file = get_latest_scrape()
 
     all_question_embs = []
-    faq_questions_set = set([passage['reference']['section_headers'][0] for passage in faq_data['passages']])
+    faq_questions_set = set(
+        [passage["reference"]["section_headers"][0] for passage in faq_data["passages"]]
+    )
 
     # get the crowdsourced questions that align with the new scrape
-    for user_question_file in hyper_params['outlier']['training_data_files']:
-        user_json_data = filter_user_questions(
-            user_question_file,
-            faq_questions_set
-        )
+    for user_question_file in hyper_params["outlier"]["training_data_files"]:
+        user_json_data = filter_user_questions(user_question_file, faq_questions_set)
 
-        embeddings_dict = generate_embeddings(ret_trainee, json_data=user_json_data, embed_passages=False)
-        all_question_embs.extend(embeddings_dict['question_embs'])
+        embeddings_dict = generate_embeddings(
+            ret_trainee, json_data=user_json_data, embed_passages=False
+        )
+        all_question_embs.extend(embeddings_dict["question_embs"])
 
     # get the questions directly from the scrape
-    embeddings_dict = generate_embeddings(ret_trainee, json_data=faq_data, embed_passages=True)
-    all_question_embs.extend(embeddings_dict['passage_header_embs'])
+    embeddings_dict = generate_embeddings(
+        ret_trainee, json_data=faq_data, embed_passages=True
+    )
+    all_question_embs.extend(embeddings_dict["passage_header_embs"])
 
     # Fit the new OOD model on all the questions
-    clf = fit_sklearn_model(all_question_embs,
-                            model_name=hyper_params['outlier']['model_name'],
-                            output_filename='sklearn_model.pkl',
-                            n_neighbors=4)
+    clf = fit_sklearn_model(
+        all_question_embs,
+        model_name=hyper_params["outlier"]["model_name"],
+        output_filename="sklearn_model.pkl",
+        n_neighbors=4,
+    )
     return clf
 
 
@@ -68,7 +73,9 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
             self.outlier_detector_model = outlier_detector_model
         else:
             log.info("Fitting the sklearn OOD model on the latest data...")
-            self.outlier_detector_model = fit_OOD_detector(self.ret_trainee, hyper_params)
+            self.outlier_detector_model = fit_OOD_detector(
+                self.ret_trainee, hyper_params
+            )
 
     def collect_answers(self, source2passages):
         super(EmbeddingBasedReRankerPlusOODDetector, self).collect_answers(
