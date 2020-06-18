@@ -56,7 +56,7 @@ def load_latest_source_data():
     log.info("Downloading crowdsourced questions from s3")
     data_dir = "covidfaq/data"
     file_name = f"{data_dir}/covidfaq_data.zip"
-    s3.download_file(
+    s3.Bucket("coviddata.dialoguecorp.com").download_file(
         "covidfaq_data.zip", file_name,
     )
     log.info("extracting data")
