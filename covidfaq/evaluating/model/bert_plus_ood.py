@@ -67,7 +67,8 @@ class BertPlusOOD:
 
 def get_latest_scrape():
 
-    latest_scrape_fname = "covidfaq/scrape/source_en_faq_passages.json"
+    #  latest_scrape_fname = "covidfaq/scrape/source_en_faq_passages.json"
+    latest_scrape_fname = "/home/jerpint/covidfaq/covidfaq/scrape/202006181208/source_en_faq_passages.json"
 
     with open(latest_scrape_fname) as in_stream:
         test_data = json.load(in_stream)

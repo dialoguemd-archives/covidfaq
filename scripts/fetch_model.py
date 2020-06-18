@@ -47,10 +47,10 @@ def fetch_data():
     log.info("data extracted")
 
     log.info("cleanup")
-    #  os.remove(file_name)
+    os.remove(file_name)
     log.info("cleanup done")
 
 
 if __name__ == "__main__":
-    #  fetch_model()
+    fetch_model()
     fetch_data()

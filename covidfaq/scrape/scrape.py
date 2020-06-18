@@ -64,6 +64,14 @@ def load_latest_source_data():
         zip.extractall(path=data_dir)
     log.info("data extracted")
 
+    # Download the OOD model
+    log.info("Downloading OOD model from s3")
+
+    file_name = "covidfaq/bert_en_model/ood_model.pkl",
+    s3.download_file(
+        "ood_model.pkl", file_name,
+    )
+
 
 def remove_html_tags(data):
     p = re.compile(r"<.*?>")

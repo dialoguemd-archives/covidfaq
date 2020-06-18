@@ -1,3 +1,4 @@
+import os
 import pickle
 
 import numpy as np
@@ -52,7 +53,7 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
     clf = fit_sklearn_model(
         all_question_embs,
         model_name=hyper_params["outlier"]["model_name"],
-        output_filename="sklearn_model.pkl",
+        output_filename="covidfaq/bert_en_model/ood_model.pkl",
         n_neighbors=4,
     )
     return clf
@@ -64,11 +65,11 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
         with open(config, "r") as stream:
             hyper_params = load(stream, Loader=yaml.FullLoader)
 
-        # If a model is specified, load it, otherwise fit it on the new scrape
-        if hyper_params.get("outlier_model_pickle"):
-            outlier_model_pickle = hyper_params["outlier_model_pickle"]
+        # If a model exists, load it, otherwise fit it on the new scrape
+        ood_filename = hyper_params["outlier"]["ood_filename"]
+        if os.path.isfile(ood_filename):
             log.info("Loading pretrained sklearn OOD model, not fitting on newest data")
-            with open(outlier_model_pickle, "rb") as file:
+            with open(ood_filename, "rb") as file:
                 outlier_detector_model = pickle.load(file)
             self.outlier_detector_model = outlier_detector_model
         else:
