@@ -37,9 +37,7 @@ def fetch_data():
     log.info("downloading covidfaq_data from s3")
     s3 = boto3.client("s3")
     s3.download_file(
-        "coviddata.dialoguecorp.com",
-        "covidfaq_data.zip",
-        file_name,
+        "coviddata.dialoguecorp.com", "covidfaq_data.zip", file_name,
     )
     log.info("data downloaded")
 
