@@ -31,28 +31,28 @@ def fetch_model():
 
 
 def fetch_data():
-    rerank_dir = "covidfaq/rerank"
-    file_name = f"{rerank_dir}/covidfaq_data.zip"
+    data_dir = "covidfaq/data"
+    file_name = f"{data_dir}/covidfaq_data.zip"
 
     log.info("downloading covidfaq_data from s3")
     s3 = boto3.client("s3")
     s3.download_file(
         "coviddata.dialoguecorp.com",
-        "mirko/bert_rerank_model__for_testing.zip",
+        "covidfaq_data.zip",
         file_name,
     )
-    log.info("model downloaded")
+    log.info("data downloaded")
 
-    log.info("extracting model")
+    log.info("extracting data")
     with ZipFile(file_name, "r") as zip:
-        zip.extractall(path=rerank_dir)
-    log.info("model extracted")
+        zip.extractall(path=data_dir)
+    log.info("data extracted")
 
     log.info("cleanup")
-    os.remove(file_name)
+    #  os.remove(file_name)
     log.info("cleanup done")
 
 
 if __name__ == "__main__":
-    fetch_model()
+    #  fetch_model()
     fetch_data()
