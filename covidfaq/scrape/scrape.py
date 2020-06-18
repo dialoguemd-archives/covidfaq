@@ -7,6 +7,7 @@ from collections import defaultdict
 from datetime import datetime
 from unicodedata import normalize
 from urllib.parse import urljoin
+from zipfile import ZipFile
 
 import boto3
 import bs4
@@ -44,10 +45,24 @@ def load_latest_source_data():
     objs = client.list_objects_v2(Bucket=BUCKET_NAME)["Contents"]
     last_added = [obj["Key"] for obj in sorted(objs, key=get_last_modified)][0]
 
+    log.info("Downloading latest scrape")
     s3 = boto3.resource("s3")
     s3.Bucket(BUCKET_NAME).download_file(
         last_added, "covidfaq/scrape/source_en_faq_passages.json"
     )
+    log.info("data downloaded")
+
+    # Download the covidfaq_data folder
+    log.info("Downloading crowdsourced questions from s3")
+    data_dir = "covidfaq/data"
+    file_name = f"{data_dir}/covidfaq_data.zip"
+    s3.download_file(
+        "covidfaq_data.zip", file_name,
+    )
+    log.info("extracting data")
+    with ZipFile(file_name, "r") as zip:
+        zip.extractall(path=data_dir)
+    log.info("data extracted")
 
 
 def remove_html_tags(data):
