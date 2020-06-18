@@ -25,7 +25,7 @@ boto3 = "1.13.21"
 sklearn = "^0.0"
 tensorflow-hub = "^0.8.0"
 tensorflow_text = "^2.1.1"
-bert-reranker = "^0.2.0"
+bert-reranker = { git = "https://github.com/mirkobronzi/bert_reranker.git", branch = "master" }
 html2text = "^2020.1.16"
 
 [tool.poetry.dev-dependencies]

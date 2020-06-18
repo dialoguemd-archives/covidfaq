@@ -87,6 +87,10 @@ tqdm = "*"
 transformers = "2.8.0"
 wandb = "*"
 
+[package.source]
+reference = "3de92691edee8264efb5d1027759a3573c5f2673"
+type = "git"
+url = "https://github.com/mirkobronzi/bert_reranker.git"
 [[package]]
 category = "dev"
 description = "The uncompromising code formatter."
@@ -1767,7 +1771,7 @@ test = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 
 [metadata]
-content-hash = "50de6e3417b8615b13aeef29f303c9fbdb0ae40ede317f4ac256fbc3a1f62d41"
+content-hash = "11b1f97b26d6fa8fed80019a5552576961f78a2a964ce8d88d509db97302cb49"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1795,9 +1799,7 @@ beautifulsoup4 = [
     {file = "beautifulsoup4-4.9.1-py3-none-any.whl", hash = "sha256:a6237df3c32ccfaee4fd201c8f5f9d9df619b93121d01353a64a73ce8c6ef9a8"},
     {file = "beautifulsoup4-4.9.1.tar.gz", hash = "sha256:73cc4d115b96f79c7d77c1c7f7a0a8d4c57860d1041df407dd1aae7f07a77fd7"},
 ]
-bert-reranker = [
-    {file = "bert_reranker-0.2.1.tar.gz", hash = "sha256:d1d892d414c05145ce8ba3f5ca893b34de5639bb25d8c6f5120061904efcee08"},
-]
+bert-reranker = []
 black = [
     {file = "black-19.10b0-py36-none-any.whl", hash = "sha256:1b30e59be925fafc1ee4565e5e08abef6b03fe455102883820fe5ee2e4734e0b"},
     {file = "black-19.10b0.tar.gz", hash = "sha256:c2edb73a08e9e0e6f65a0e6af18b059b8b1cdd5bef997d7a0b181df93dc81539"},
@@ -2601,6 +2603,7 @@ structlog = [
 ]
 subprocess32 = [
     {file = "subprocess32-3.5.4-cp27-cp27m-macosx_10_6_intel.whl", hash = "sha256:88e37c1aac5388df41cc8a8456bb49ebffd321a3ad4d70358e3518176de3a56b"},
+    {file = "subprocess32-3.5.4-cp27-cp27mu-manylinux2014_x86_64.whl", hash = "sha256:e45d985aef903c5b7444d34350b05da91a9e0ea015415ab45a21212786c649d0"},
     {file = "subprocess32-3.5.4.tar.gz", hash = "sha256:eb2937c80497978d181efa1b839ec2d9622cf9600a039a79d0e108d1f9aec79d"},
 ]
 tabulate = [
