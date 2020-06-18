@@ -7,7 +7,7 @@ quebec-fr: &qfr
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/aide-urgence-pme-covid-19/"
     - "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/programmes-gouvernementaux-soutien-entreprises-covid19/"
     - "https://www.quebec.ca/famille-et-soutien-aux-personnes/servicesgardeeducatifsenfance-covid19/"
-    - "https://www.quebec.ca/programmes-aide-gouvernementaux-covid19/"
+    # - "https://www.quebec.ca/programmes-aide-gouvernementaux-covid19/"
     - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/aide-financiere-covid19/"
     - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/aller-mieux-en-contexte-de-pandemie-covid-19/"
     - "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/besoin-de-consulter-en-contexte-de-pandemie-covid-19/"
