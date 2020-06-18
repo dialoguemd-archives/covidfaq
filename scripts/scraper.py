@@ -1,3 +1,7 @@
+import os
+
+import boto3
+
 from covidfaq.scrape import scrape
 from covidfaq.k8s import rollout_restart
 from covidfaq.evaluating.model.bert_plus_ood import BertPlusOOD
