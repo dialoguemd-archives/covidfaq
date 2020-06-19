@@ -1,6 +1,5 @@
 import logging
 
-import torch
 import yaml
 
 from bert_reranker.data.data_loader import get_passage_last_header
@@ -12,6 +11,8 @@ from yaml import load
 from covidfaq.evaluating.model.model_evaluation_interface import (
     ModelEvaluationInterface,
 )
+
+import torch
 
 
 logger = logging.getLogger(__name__)
