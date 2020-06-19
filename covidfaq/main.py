@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from structlog import get_logger
 
 from covidfaq import config, routers
-from covidfaq.evaluating.model.bert_plus_ood import BertPlusOOD
+from covidfaq.evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
 from covidfaq.scrape.scrape import load_latest_source_data
 
 app = FastAPI()
@@ -23,4 +23,5 @@ def on_startup():
 
     load_latest_source_data()
 
-    BertPlusOOD()
+    BertPlusOODEn()
+    BertPlusOODFr()

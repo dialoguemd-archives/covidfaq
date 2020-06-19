@@ -28,10 +28,15 @@ def upload_to_s3(outdir, timestamp):
 
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
 
-    file_to_upload = os.path.join(outdir, "source_en_faq_passages.json")
+    file_to_upload_en = os.path.join(outdir, "source_en_faq_passages.json")
+    file_to_upload_fr = os.path.join(outdir, "source_fr_faq_passages.json")
 
     client.upload_file(
-        file_to_upload, BUCKET_NAME, "source_en_faq_passages_" + timestamp + ".json"
+        file_to_upload_en, BUCKET_NAME, "source_en_faq_passages_" + timestamp + ".json"
+    )
+
+    client.upload_file(
+        file_to_upload_fr, BUCKET_NAME, "source_fr_faq_passages_" + timestamp + ".json"
     )
 
 
@@ -42,11 +47,20 @@ def load_latest_source_data():
 
     client = boto3.client("s3")
     objs = client.list_objects_v2(Bucket=BUCKET_NAME)["Contents"]
-    last_added = [obj["Key"] for obj in sorted(objs, key=get_last_modified)][0]
+    last_added_en = [
+        obj["Key"] for obj in sorted(objs, key=get_last_modified) if "en" in obj["Key"]
+    ][0]
+    last_added_fr = [
+        obj["Key"] for obj in sorted(objs, key=get_last_modified) if "fr" in obj["Key"]
+    ][0]
 
     s3 = boto3.resource("s3")
     s3.Bucket(BUCKET_NAME).download_file(
-        last_added, "covidfaq/scrape/source_en_faq_passages.json"
+        last_added_en, "covidfaq/scrape/source_en_faq_passages.json"
+    )
+
+    s3.Bucket(BUCKET_NAME).download_file(
+        last_added_fr, "covidfaq/scrape/source_fr_faq_passages.json"
     )
 
 
@@ -376,16 +390,15 @@ def run(yaml_filename, outdir="covidfaq/scrape/", site=None):
         soup_to_html(filename_html, soup)
 
     # Convert scrape results to the bert_reranker format
-    # TODO: when there will be more provinces + languages supported, this will need to be updated
     source = "quebec"
-    lang = "en"
 
-    passages = scrapes_to_passages(outdir, source, lang, is_faq=True)
-    os.makedirs(outdir, exist_ok=True)
-    dump_passages(
-        passages,
-        fname=os.path.join(outdir, "source_" + lang + "_faq" + "_passages.json"),
-    )
+    for lang in ["en", "fr"]:
+        passages = scrapes_to_passages(outdir, source, lang, is_faq=True)
+        os.makedirs(outdir, exist_ok=True)
+        dump_passages(
+            passages,
+            fname=os.path.join(outdir, "source_" + lang + "_faq" + "_passages.json"),
+        )
 
     # # upload stuff to s3
     upload_to_s3(outdir, now.strftime("%Y%m%d%I%M"))

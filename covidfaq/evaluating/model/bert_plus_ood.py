@@ -12,14 +12,14 @@ log = get_logger()
 SOURCE = "quebec-faq"
 
 
-class BertPlusOOD:
-    class __BertPlusOOD:
+class BertPlusOODEn:
+    class __BertPlusOODEn:
         def __init__(self):
             self.model = EmbeddingBasedReRankerPlusOODDetector(
                 "covidfaq/bert_en_model/config.yaml"
             )
 
-            test_data = get_latest_scrape()
+            test_data = get_latest_scrape(lang="en")
 
             (
                 self.source2passages,
@@ -58,16 +58,16 @@ class BertPlusOOD:
     instance = None
 
     def __init__(self):
-        if not BertPlusOOD.instance:
-            BertPlusOOD.instance = BertPlusOOD.__BertPlusOOD()
+        if not BertPlusOODEn.instance:
+            BertPlusOODEn.instance = BertPlusOODEn.__BertPlusOODEn()
 
     def __getattr__(self, name):
         return getattr(self.instance, name)
 
 
-def get_latest_scrape():
+def get_latest_scrape(lang="en"):
 
-    latest_scrape = "covidfaq/scrape/source_en_faq_passages.json"
+    latest_scrape = "covidfaq/scrape/source_" + lang + "_faq_passages.json"
 
     with open(latest_scrape) as in_stream:
         test_data = json.load(in_stream)
