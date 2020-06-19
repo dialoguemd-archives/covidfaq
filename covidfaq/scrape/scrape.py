@@ -30,6 +30,7 @@ def upload_to_s3(outdir, timestamp):
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
 
     file_to_upload = os.path.join(outdir, "source_en_faq_passages.json")
+    # TODO: save the entire scrape on s3
 
     client.upload_file(
         file_to_upload, BUCKET_NAME, "source_en_faq_passages_" + timestamp + ".json"
@@ -43,7 +44,8 @@ def load_latest_source_data():
 
     client = boto3.client("s3")
     objs = client.list_objects_v2(Bucket=BUCKET_NAME)["Contents"]
-    last_added = [obj["Key"] for obj in sorted(objs, key=get_last_modified)][0]
+    scrape_objs = [obj for obj in objs if "source_en_faq_passages" in obj["Key"]]
+    last_added = [obj["Key"] for obj in sorted(scrape_objs, key=get_last_modified)][-1]
 
     log.info("Downloading latest scrape")
     s3 = boto3.resource("s3")
@@ -52,10 +54,14 @@ def load_latest_source_data():
     )
     log.info("data downloaded")
 
+
+def download_crowdsourced_data():
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
     # Download the covidfaq_data folder
     log.info("Downloading crowdsourced questions from s3")
     data_dir = "covidfaq/data"
     file_name = f"{data_dir}/covidfaq_data.zip"
+    s3 = boto3.resource("s3")
     s3.Bucket("coviddata.dialoguecorp.com").download_file(
         "covidfaq_data.zip", file_name,
     )
@@ -64,13 +70,16 @@ def load_latest_source_data():
         zip.extractall(path=data_dir)
     log.info("data extracted")
 
+
+def download_OOD_model():
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
     # Download the OOD model
     log.info("Downloading OOD model from s3")
-
     file_name = "covidfaq/bert_en_model/ood_model.pkl"
-    s3.download_file(
+    s3.Bucket(BUCKET_NAME).download_file(
         "ood_model.pkl", file_name,
     )
+    log.info("OOD model retrieved from s3")
 
 
 def remove_html_tags(data):
