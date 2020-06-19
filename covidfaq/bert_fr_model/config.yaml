@@ -36,6 +36,6 @@ optimizer:
   lr: 1.417e-05
   name: adamw
 patience: 35
-precision: 16
+precision: 32
 seed: null
 tokenizer_name: camembert-base
