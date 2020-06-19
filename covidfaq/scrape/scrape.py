@@ -62,7 +62,7 @@ def download_crowdsourced_data():
     data_dir = "covidfaq/data"
     file_name = f"{data_dir}/covidfaq_data.zip"
     s3 = boto3.resource("s3")
-    s3.Bucket("coviddata.dialoguecorp.com").download_file(
+    s3.Bucket(BUCKET_NAME).download_file(
         "covidfaq_data.zip", file_name,
     )
     log.info("extracting data")
@@ -76,6 +76,7 @@ def download_OOD_model():
     # Download the OOD model
     log.info("Downloading OOD model from s3")
     file_name = "covidfaq/bert_en_model/ood_model.pkl"
+    s3 = boto3.resource("s3")
     s3.Bucket(BUCKET_NAME).download_file(
         "ood_model.pkl", file_name,
     )
