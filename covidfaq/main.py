@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from structlog import get_logger
 
 from covidfaq import config, routers
-from covidfaq.clustering.cluster import Clusterer
 from covidfaq.evaluating.model.bert_plus_ood import BertPlusOOD
 from covidfaq.scrape.scrape import load_latest_source_data
 
@@ -23,7 +22,5 @@ def on_startup():
     log.info("launching", **conf.dict())
 
     load_latest_source_data()
-
-    Clusterer()
 
     BertPlusOOD()
