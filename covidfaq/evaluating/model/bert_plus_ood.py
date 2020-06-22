@@ -120,8 +120,8 @@ class BertPlusOODFr:
 
 def get_latest_scrape(lang="en"):
 
-    latest_scrape = "covidfaq/scrape/source_" + lang + "_faq_passages.json"
-    
+    latest_scrape_fname = "covidfaq/scrape/source_" + lang + "_faq_passages.json"
+
     with open(latest_scrape_fname) as in_stream:
         test_data = json.load(in_stream)
 

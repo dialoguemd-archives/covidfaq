@@ -50,10 +50,14 @@ def load_latest_source_data():
     objs = client.list_objects_v2(Bucket=BUCKET_NAME)["Contents"]
 
     last_added_en = [
-        obj["Key"] for obj in sorted(objs, key=get_last_modified) if "source_en_faq_passages" in obj["Key"]
+        obj["Key"]
+        for obj in sorted(objs, key=get_last_modified)
+        if "source_en_faq_passages" in obj["Key"]
     ][-1]
     last_added_fr = [
-        obj["Key"] for obj in sorted(objs, key=get_last_modified) if "source_fr_faq_passages" in obj["Key"]
+        obj["Key"]
+        for obj in sorted(objs, key=get_last_modified)
+        if "source_fr_faq_passages" in obj["Key"]
     ][-1]
 
     log.info("Downloading latest scrape")
