@@ -80,7 +80,7 @@ transformers = "2.8.0"
 wandb = "*"
 
 [package.source]
-reference = "aa5f624bb7c98d1a19a5341be981d3f90f11559d"
+reference = "58ab37a4e844a7d3a22f7bb3f71c46642d4f71a9"
 type = "git"
 url = "https://github.com/mirkobronzi/bert_reranker.git"
 [[package]]
@@ -1562,7 +1562,7 @@ test = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 
 [metadata]
-content-hash = "d06a4b48df984f2f8e1bec9162d5ec6bae54eb4ee713f2ea6c1addd2764fd94f"
+content-hash = "0a7ebd760f7f375f20888f9058cdc950516b695850ac2a411a39aed29feb3db4"
 python-versions = "^3.8"
 
 [metadata.files]

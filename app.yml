@@ -19,7 +19,7 @@ environments:
       BUCKET_NAME: dialoguecorp.covidfaq.prod.ca-central-1
 
 scale:
-  vertical: large.mem3x
+  vertical: large.mem2x
   horizontal: 2
   cpuNoLimits: true
   memThreshold: false
