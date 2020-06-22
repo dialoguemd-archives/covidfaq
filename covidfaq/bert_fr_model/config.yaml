@@ -1,0 +1,41 @@
+train_file: '../../covidfaq_data/crowdsource/20200416_quebec_faq_fr_cleaned_collection1_2_3_newformat/train.json'
+dev_files:
+  dev_file_1: '../../covidfaq_data/crowdsource/20200416_quebec_faq_fr_cleaned_collection1_2_3_newformat/validation.json'
+test_file: '../../covidfaq_data/crowdsource/20200416_quebec_faq_fr_cleaned_collection1_2_3_newformat/validation.json'
+keep_ood: false
+
+ckpt_to_resume: covidfaq/bert_fr_model/output/bert_model.ckpt 
+outlier_model_pickle: covidfaq/bert_fr_model/output/sklearn_outlier_model.pkl
+
+accumulate_grad_batches: 1
+batch_size: 64
+gradient_clipping: 0
+
+logging:
+  logger: 'tensorboard'
+  project: 'bert_reranker'
+  group: '20200608_fr'
+  name: 'camembert_1st'
+
+loss_type: classification
+max_epochs: 9999
+max_paragraph_len: 100
+max_question_len: 100
+model:
+  bert_base: camembert-base
+  dropout: 0.1
+  dropout_bert: 0.1
+  freeze_bert: false
+  layers_post_pooling: []
+  layers_pre_pooling: []
+  name: bert_encoder
+  normalize_model_result: false
+  pooling_type: avg
+  single_encoder: true
+optimizer:
+  lr: 1.417e-05
+  name: adamw
+patience: 35
+precision: 32
+seed: null
+tokenizer_name: camembert-base

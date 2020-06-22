@@ -8,20 +8,30 @@ orbs:
   utils: dialogue/utils@3
 
 
+aliases:
+  - &executor
+    executor:
+      name: python/python
+      version: "3.8"
+
 workflows:
   ci:
     jobs:
       - python/pylama:
           name: pylama
+          <<: *executor
           context: org-global-v2
       - python/black:
           name: black
+          <<: *executor
           context: org-global-v2
       # - python/isort:
       #     name: isort
+      #     <<: *executor
       #     context: org-global-v2
       - python/test:
           name: test
+          <<: *executor
           before_tests_steps:
             - run:
                 name: Download spacy model
@@ -36,7 +46,7 @@ workflows:
             - pylama
             - black
             # - isort
-            # - test
+            - test
           context: org-global-v2
       - app/build:
           name: build
@@ -50,8 +60,8 @@ workflows:
           name: deploy-dev-ca2
           stage: dev
           place: ca2
-          deploy_timeout: 1000s
-          cci_wait_timeout: 1000s
+          deploy_timeout: 1200s
+          cci_wait_timeout: 1200s
           requires:
             - pylama
             # - test

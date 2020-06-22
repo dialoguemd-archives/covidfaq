@@ -12,14 +12,14 @@ log = get_logger()
 SOURCE = "quebec-faq"
 
 
-class BertPlusOOD:
-    class __BertPlusOOD:
+class BertPlusOODEn:
+    class __BertPlusOODEn:
         def __init__(self):
             self.model = EmbeddingBasedReRankerPlusOODDetector(
                 "covidfaq/bert_en_model/config.yaml"
             )
 
-            test_data = get_latest_scrape()
+            test_data = get_latest_scrape(lang="en")
 
             (
                 self.source2passages,
@@ -58,16 +58,69 @@ class BertPlusOOD:
     instance = None
 
     def __init__(self):
-        if not BertPlusOOD.instance:
-            BertPlusOOD.instance = BertPlusOOD.__BertPlusOOD()
+        if not BertPlusOODEn.instance:
+            BertPlusOODEn.instance = BertPlusOODEn.__BertPlusOODEn()
 
     def __getattr__(self, name):
         return getattr(self.instance, name)
 
 
-def get_latest_scrape():
+class BertPlusOODFr:
+    class __BertPlusOODFr:
+        def __init__(self):
+            self.model = EmbeddingBasedReRankerPlusOODDetector(
+                "covidfaq/bert_fr_model/config.yaml"
+            )
 
-    latest_scrape = "covidfaq/scrape/source_en_faq_passages.json"
+            test_data = get_latest_scrape(lang="fr")
+
+            (
+                self.source2passages,
+                self.passage_id2source,
+                self.passage_id2index,
+            ) = get_passages_by_source(test_data, keep_ood=False)
+            self.model.collect_answers(self.source2passages)
+
+            self.get_answer("quels sont les symptomes de la covid")
+
+        def get_answer(self, question):
+            idx = self.model.answer_question(question, SOURCE)
+            if idx == -1:
+                # we are out of distribution
+                answer_complete = []
+                log.info(
+                    "bert_get_answer_ood", question=question, idx=idx,
+                )
+            else:
+                answer_dict = self.source2passages[SOURCE][idx]
+                section_header = answer_dict.get("reference").get("section_headers")
+                answer = answer_dict.get("reference").get("section_converted_html")
+                answer_complete = ["## " + section_header[0] + " \n\n " + answer]
+
+                log.info(
+                    "bert_get_answer",
+                    question=question,
+                    idx=idx,
+                    section_header=section_header,
+                    answer=answer,
+                    answer_complete=answer_complete,
+                )
+
+            return answer_complete
+
+    instance = None
+
+    def __init__(self):
+        if not BertPlusOODFr.instance:
+            BertPlusOODFr.instance = BertPlusOODFr.__BertPlusOODFr()
+
+    def __getattr__(self, name):
+        return getattr(self.instance, name)
+
+
+def get_latest_scrape(lang="en"):
+
+    latest_scrape = "covidfaq/scrape/source_" + lang + "_faq_passages.json"
 
     with open(latest_scrape) as in_stream:
         test_data = json.load(in_stream)
