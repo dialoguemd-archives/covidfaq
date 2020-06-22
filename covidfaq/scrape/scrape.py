@@ -91,13 +91,21 @@ def download_crowdsourced_data():
 def download_OOD_model():
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
     # Download the OOD model
-    log.info("Downloading OOD model from s3")
-    file_name = "covidfaq/bert_en_model/en_ood_model.pkl"
+    log.info("Downloading OOD models from s3")
     s3 = boto3.resource("s3")
+
+    file_name_en = "covidfaq/bert_en_model/en_ood_model.pkl"
+    file_name_fr = "covidfaq/bert_fr_model/fr_ood_model.pkl"
+
     s3.Bucket(BUCKET_NAME).download_file(
-        "en_ood_model.pkl", file_name,
+        "en_ood_model.pkl", file_name_en,
     )
-    log.info("OOD model retrieved from s3")
+
+    s3.Bucket(BUCKET_NAME).download_file(
+        "fr_ood_model.pkl", file_name_fr,
+    )
+
+    log.info("OOD models retrieved from s3")
 
 
 def remove_html_tags(data):

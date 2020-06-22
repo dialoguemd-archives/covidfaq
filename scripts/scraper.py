@@ -5,7 +5,7 @@ import structlog
 
 from covidfaq.scrape import scrape
 from covidfaq.k8s import rollout_restart
-from covidfaq.evaluating.model.bert_plus_ood import BertPlusOOD
+from covidfaq.evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
 
 log = structlog.get_logger()
 
@@ -13,8 +13,10 @@ log = structlog.get_logger()
 def upload_OOD_to_s3():
     client = boto3.client("s3")
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
-    file_to_upload = "covidfaq/bert_en_model/en_ood_model.pkl"
-    client.upload_file(file_to_upload, BUCKET_NAME, "en_ood_model.pkl")
+    file_to_upload_en = "covidfaq/bert_en_model/en_ood_model.pkl"
+    file_to_upload_fr = "covidfaq/bert_fr_model/fr_ood_model.pkl"
+    client.upload_file(file_to_upload_en, BUCKET_NAME, "en_ood_model.pkl")
+    client.upload_file(file_to_upload_fr, BUCKET_NAME, "fr_ood_model.pkl")
     log.info("OOD model uploaded to s3 bucket")
 
 
@@ -22,7 +24,8 @@ def instantiate_OOD():
     # instantiating the model will train and save the OOD detector
     scrape.load_latest_source_data()
     scrape.download_crowdsourced_data()
-    BertPlusOOD()
+    BertPlusOODEn()
+    BertPlusOODFr()
     upload_OOD_to_s3()
 
 

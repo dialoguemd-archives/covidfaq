@@ -16,7 +16,7 @@ class BertPlusOODEn:
     class __BertPlusOODEn:
         def __init__(self):
             self.model = EmbeddingBasedReRankerPlusOODDetector(
-                "covidfaq/bert_en_model/config.yaml"
+                "covidfaq/bert_en_model/config.yaml", lang="en"
             )
 
             test_data = get_latest_scrape(lang="en")
@@ -69,7 +69,7 @@ class BertPlusOODFr:
     class __BertPlusOODFr:
         def __init__(self):
             self.model = EmbeddingBasedReRankerPlusOODDetector(
-                "covidfaq/bert_fr_model/config.yaml"
+                "covidfaq/bert_fr_model/config.yaml", lang="fr"
             )
 
             test_data = get_latest_scrape(lang="fr")

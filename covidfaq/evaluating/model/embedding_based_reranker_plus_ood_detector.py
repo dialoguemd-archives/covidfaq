@@ -11,7 +11,7 @@ from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReR
 log = get_logger()
 
 
-def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
+def fit_OOD_detector(ret_trainee, hyper_params, lang="en", faq_json_file=None):
     """
     Prepare the best possible dataset for fitting the OOD model
     and fit on that dataset.
@@ -27,7 +27,7 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
     from bert_reranker.scripts.filter_user_questions import filter_user_questions
 
     if not faq_json_file:
-        faq_data, faq_json_file = get_latest_scrape()
+        faq_data, faq_json_file = get_latest_scrape(lang=lang)
 
     all_question_embs = []
     faq_questions_set = set(
@@ -53,17 +53,19 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
     clf = fit_sklearn_model(
         all_question_embs,
         model_name=hyper_params["outlier"]["model_name"],
-        output_filename="covidfaq/bert_en_model/en_ood_model.pkl",
+        output_filename="covidfaq/bert_" + lang + "_model/" + lang + "_ood_model.pkl",
         n_neighbors=4,
     )
     return clf
 
 
 class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
-    def __init__(self, config):
-        super(EmbeddingBasedReRankerPlusOODDetector, self).__init__(config)
+    def __init__(self, config, lang):
+        super(EmbeddingBasedReRankerPlusOODDetector, self).__init__(config, lang)
         with open(config, "r") as stream:
             hyper_params = load(stream, Loader=yaml.FullLoader)
+
+        self.lang = lang
 
         # If a model exists, load it, otherwise fit it on the new scrape
         ood_filename = hyper_params["outlier"]["ood_filename"]
@@ -75,7 +77,7 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
         else:
             log.info("Fitting the sklearn OOD model on the latest data...")
             self.outlier_detector_model = fit_OOD_detector(
-                self.ret_trainee, hyper_params
+                self.ret_trainee, hyper_params, self.lang
             )
 
     def collect_answers(self, source2passages):
