@@ -1,4 +1,4 @@
-FROM python:3.7.6-slim-buster as base
+FROM python:3.8.2-slim-buster as base
 
 FROM base as builder
 
@@ -36,7 +36,7 @@ ARG GEMFURY_TOKEN
 ENV PIP_EXTRA_INDEX_URL https://pypi.fury.io/${GEMFURY_TOKEN}/dialogue/
 
 # install poetry
-ARG POETRY_VERSION="1.0.5"
+ARG POETRY_VERSION="1.0.9"
 RUN \
   pip install --upgrade pip && \
   pip install "poetry==${POETRY_VERSION}" && \

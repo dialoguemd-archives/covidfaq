@@ -8,20 +8,30 @@ orbs:
   utils: dialogue/utils@3
 
 
+aliases:
+  - &executor
+    executor:
+      name: python/python
+      version: "3.8"
+
 workflows:
   ci:
     jobs:
       - python/pylama:
           name: pylama
+          <<: *executor
           context: org-global-v2
       - python/black:
           name: black
+          <<: *executor
           context: org-global-v2
       # - python/isort:
       #     name: isort
+      #     <<: *executor
       #     context: org-global-v2
       - python/test:
           name: test
+          <<: *executor
           before_tests_steps:
             - run:
                 name: Download spacy model
