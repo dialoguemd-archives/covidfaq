@@ -1,7 +1,7 @@
 import subprocess
-import structlog
-
 from typing import Any, Optional
+
+import structlog
 
 log = structlog.get_logger(__name__)
 

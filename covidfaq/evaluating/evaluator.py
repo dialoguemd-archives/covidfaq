@@ -9,12 +9,10 @@ from tqdm import tqdm
 
 from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.cheating_model import CheatingModel
-from covidfaq.evaluating.model.elastic_search_reranker import ElasticSearchReRanker
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
     EmbeddingBasedReRankerPlusOODDetector,
 )
-from covidfaq.evaluating.model.es_topk import ElasticSearchTopK
 from covidfaq.evaluating.model.fake_reranker import FakeReRanker
 from covidfaq.evaluating.model.google_model import GoogleModel
 from covidfaq.evaluating.model.lda import LDAReranker
@@ -131,8 +129,6 @@ def main():
     elif args.model_type == "cheating_model":
         _, _, passage_id2index = get_passages_by_source(test_data)
         model_to_evaluate = CheatingModel(test_data, passage_id2index)
-    elif args.model_type == "elastic_search":
-        model_to_evaluate = ElasticSearchReRanker()
         raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "google_model":
         model_to_evaluate = GoogleModel()
@@ -142,9 +138,6 @@ def main():
         raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "lda":
         model_to_evaluate = LDAReranker()
-        raise NotImplementedError("Model needs to be updated to new evaluator format")
-    elif args.model_type == "es_topk":
-        model_to_evaluate = ElasticSearchTopK()
         raise NotImplementedError("Model needs to be updated to new evaluator format")
     elif args.model_type == "tfidf":
         model_to_evaluate = TFIDF()
