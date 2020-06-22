@@ -53,7 +53,7 @@ def fit_OOD_detector(ret_trainee, hyper_params, faq_json_file=None):
     clf = fit_sklearn_model(
         all_question_embs,
         model_name=hyper_params["outlier"]["model_name"],
-        output_filename="covidfaq/bert_en_model/ood_model.pkl",
+        output_filename="covidfaq/bert_en_model/en_ood_model.pkl",
         n_neighbors=4,
     )
     return clf

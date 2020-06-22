@@ -4,8 +4,7 @@ dev_files:
 test_file: '../../covidfaq_data/crowdsource/20200416_quebec_faq_fr_cleaned_collection1_2_3_newformat/validation.json'
 keep_ood: false
 
-ckpt_to_resume: covidfaq/bert_fr_model/output/bert_model.ckpt 
-outlier_model_pickle: covidfaq/bert_fr_model/output/sklearn_outlier_model.pkl
+ckpt_to_resume: covidfaq/bert_fr_model/output/bert_model.ckpt
 
 accumulate_grad_batches: 1
 batch_size: 64

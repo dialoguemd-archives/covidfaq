@@ -13,8 +13,8 @@ log = structlog.get_logger()
 def upload_OOD_to_s3():
     client = boto3.client("s3")
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
-    file_to_upload = "covidfaq/bert_en_model/ood_model.pkl"
-    client.upload_file(file_to_upload, BUCKET_NAME, "ood_model.pkl")
+    file_to_upload = "covidfaq/bert_en_model/en_ood_model.pkl"
+    client.upload_file(file_to_upload, BUCKET_NAME, "en_ood_model.pkl")
     log.info("OOD model uploaded to s3 bucket")
 
 
