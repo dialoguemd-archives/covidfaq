@@ -46,7 +46,7 @@ workflows:
             - pylama
             - black
             # - isort
-            # - test
+            - test
           context: org-global-v2
       - app/build:
           name: build

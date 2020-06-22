@@ -64,6 +64,7 @@ class BertPlusOODEn:
     def __getattr__(self, name):
         return getattr(self.instance, name)
 
+
 class BertPlusOODFr:
     class __BertPlusOODFr:
         def __init__(self):
@@ -115,6 +116,7 @@ class BertPlusOODFr:
 
     def __getattr__(self, name):
         return getattr(self.instance, name)
+
 
 def get_latest_scrape(lang="en"):
 
