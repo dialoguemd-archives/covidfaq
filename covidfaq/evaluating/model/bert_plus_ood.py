@@ -19,7 +19,7 @@ class BertPlusOODEn:
                 "covidfaq/bert_en_model/config.yaml", lang="en"
             )
 
-            test_data = get_latest_scrape(lang="en")
+            test_data, _ = get_latest_scrape(lang="en")
 
             (
                 self.source2passages,
@@ -72,7 +72,7 @@ class BertPlusOODFr:
                 "covidfaq/bert_fr_model/config.yaml", lang="fr"
             )
 
-            test_data = get_latest_scrape(lang="fr")
+            test_data, _ = get_latest_scrape(lang="fr")
 
             (
                 self.source2passages,
