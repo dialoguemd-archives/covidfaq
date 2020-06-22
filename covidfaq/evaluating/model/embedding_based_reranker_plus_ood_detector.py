@@ -61,7 +61,7 @@ def fit_OOD_detector(ret_trainee, hyper_params, lang="en", faq_json_file=None):
 
 class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
     def __init__(self, config, lang):
-        super(EmbeddingBasedReRankerPlusOODDetector, self).__init__(config, lang)
+        super(EmbeddingBasedReRankerPlusOODDetector, self).__init__(config)
         with open(config, "r") as stream:
             hyper_params = load(stream, Loader=yaml.FullLoader)
 
