@@ -5,6 +5,7 @@
 # keep_ood: false
 
 ckpt_to_resume: covidfaq/bert_en_model/output/bert_model.ckpt 
+source2embedded_passages: covidfaq/bert_en_model/en_source2embedded_passages.tar
 
 outlier:
     ood_filename: 'covidfaq/bert_en_model/en_ood_model.pkl'

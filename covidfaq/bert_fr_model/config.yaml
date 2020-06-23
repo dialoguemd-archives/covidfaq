@@ -5,6 +5,7 @@ test_file: '../../covidfaq_data/crowdsource/20200416_quebec_faq_fr_cleaned_colle
 keep_ood: false
 
 ckpt_to_resume: covidfaq/bert_fr_model/output/bert_model.ckpt
+source2embedded_passages: covidfaq/bert_fr_model/fr_source2embedded_passages.tar
 
 outlier:
     ood_filename: 'covidfaq/bert_fr_model/fr_ood_model.pkl'

@@ -2,6 +2,7 @@ import os
 import pickle
 
 import numpy as np
+import torch
 import yaml
 from structlog import get_logger
 from yaml import load
@@ -66,6 +67,7 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
             hyper_params = load(stream, Loader=yaml.FullLoader)
 
         self.lang = lang
+        self.hyper_params = hyper_params
 
         # If a model exists, load it, otherwise fit it on the new scrape
         ood_filename = hyper_params["outlier"]["ood_filename"]
@@ -81,9 +83,15 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
             )
 
     def collect_answers(self, source2passages):
-        super(EmbeddingBasedReRankerPlusOODDetector, self).collect_answers(
-            source2passages
-        )
+        if os.path.isfile(self.hyper_params.get("source2embedded_passages")):
+            log.info("Loading precomputed passage embeddings")
+            self.source2embedded_passages = torch.load(self.hyper_params["source2embedded_passages"])
+        else:
+            log.info("Computing passage embeddings")
+            out_file = "covidfaq/bert_" + self.lang + "_model/" + self.lang + "_source2embedded_passages.tar"
+            super(EmbeddingBasedReRankerPlusOODDetector, self).collect_answers(
+                source2passages, out_file=out_file
+            )
 
     def answer_question(self, question, source):
         emb_question = self.ret_trainee.retriever.embed_question(question)

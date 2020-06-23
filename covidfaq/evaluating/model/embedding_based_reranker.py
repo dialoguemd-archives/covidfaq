@@ -38,7 +38,7 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
         self.model = self.ret_trainee.retriever
         self.source2embedded_passages = {}
 
-    def collect_answers(self, source2passages):
+    def collect_answers(self, source2passages, out_file=None):
         self.source2embedded_passages = {}
         for source, passages in source2passages.items():
             logger.info("encoding source {}".format(source))
@@ -48,6 +48,9 @@ class EmbeddingBasedReRanker(ModelEvaluationInterface):
                     passages_content, progressbar=True
                 )
                 self.source2embedded_passages[source] = embedded_passages
+                if out_file:
+                    torch.save(self.source2embedded_passages, out_file)
+
             else:
                 self.source2embedded_passages[source] = None
 
