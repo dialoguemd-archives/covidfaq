@@ -25,8 +25,12 @@ def upload_embeddings_to_s3():
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
     file_to_upload_en = "covidfaq/bert_en_model/en_source2embedded_passages.tar"
     file_to_upload_fr = "covidfaq/bert_fr_model/fr_source2embedded_passages.tar"
-    client.upload_file(file_to_upload_en, BUCKET_NAME, "en_source2embedded_passages.tar")
-    client.upload_file(file_to_upload_fr, BUCKET_NAME, "fr_source2embedded_passages.tar")
+    client.upload_file(
+        file_to_upload_en, BUCKET_NAME, "en_source2embedded_passages.tar"
+    )
+    client.upload_file(
+        file_to_upload_fr, BUCKET_NAME, "fr_source2embedded_passages.tar"
+    )
 
 
 def instantiate_OOD():

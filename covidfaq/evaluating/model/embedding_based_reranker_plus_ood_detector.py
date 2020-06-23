@@ -85,10 +85,18 @@ class EmbeddingBasedReRankerPlusOODDetector(EmbeddingBasedReRanker):
     def collect_answers(self, source2passages):
         if os.path.isfile(self.hyper_params.get("source2embedded_passages")):
             log.info("Loading precomputed passage embeddings")
-            self.source2embedded_passages = torch.load(self.hyper_params["source2embedded_passages"])
+            self.source2embedded_passages = torch.load(
+                self.hyper_params["source2embedded_passages"]
+            )
         else:
             log.info("Computing passage embeddings")
-            out_file = "covidfaq/bert_" + self.lang + "_model/" + self.lang + "_source2embedded_passages.tar"
+            out_file = (
+                "covidfaq/bert_"
+                + self.lang
+                + "_model/"
+                + self.lang
+                + "_source2embedded_passages.tar"
+            )
             super(EmbeddingBasedReRankerPlusOODDetector, self).collect_answers(
                 source2passages, out_file=out_file
             )
