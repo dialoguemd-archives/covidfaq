@@ -31,6 +31,7 @@ def upload_embeddings_to_s3():
     client.upload_file(
         file_to_upload_fr, BUCKET_NAME, "fr_source2embedded_passages.tar"
     )
+    log.info("Passages embeddings uploaded to s3 bucket")
 
 
 def instantiate_OOD():
