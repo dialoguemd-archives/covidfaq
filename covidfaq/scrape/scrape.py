@@ -7,6 +7,7 @@ from collections import defaultdict
 from datetime import datetime
 from unicodedata import normalize
 from urllib.parse import urljoin
+from zipfile import ZipFile
 
 import boto3
 import bs4
@@ -47,13 +48,19 @@ def load_latest_source_data():
 
     client = boto3.client("s3")
     objs = client.list_objects_v2(Bucket=BUCKET_NAME)["Contents"]
-    last_added_en = [
-        obj["Key"] for obj in sorted(objs, key=get_last_modified) if "en" in obj["Key"]
-    ][0]
-    last_added_fr = [
-        obj["Key"] for obj in sorted(objs, key=get_last_modified) if "fr" in obj["Key"]
-    ][0]
 
+    last_added_en = [
+        obj["Key"]
+        for obj in sorted(objs, key=get_last_modified)
+        if "source_en_faq_passages" in obj["Key"]
+    ][-1]
+    last_added_fr = [
+        obj["Key"]
+        for obj in sorted(objs, key=get_last_modified)
+        if "source_fr_faq_passages" in obj["Key"]
+    ][-1]
+
+    log.info("Downloading latest scrape")
     s3 = boto3.resource("s3")
     s3.Bucket(BUCKET_NAME).download_file(
         last_added_en, "covidfaq/scrape/source_en_faq_passages.json"
@@ -62,6 +69,43 @@ def load_latest_source_data():
     s3.Bucket(BUCKET_NAME).download_file(
         last_added_fr, "covidfaq/scrape/source_fr_faq_passages.json"
     )
+    log.info("data downloaded")
+
+
+def download_crowdsourced_data():
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
+    # Download the covidfaq_data folder
+    log.info("Downloading crowdsourced questions from s3")
+    data_dir = "covidfaq/data"
+    file_name = f"{data_dir}/covidfaq_data.zip"
+    s3 = boto3.resource("s3")
+    s3.Bucket(BUCKET_NAME).download_file(
+        "covidfaq_data.zip", file_name,
+    )
+    log.info("extracting data")
+    with ZipFile(file_name, "r") as zip:
+        zip.extractall(path=data_dir)
+    log.info("data extracted")
+
+
+def download_OOD_model():
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
+    # Download the OOD model
+    log.info("Downloading OOD models from s3")
+    s3 = boto3.resource("s3")
+
+    file_name_en = "covidfaq/bert_en_model/en_ood_model.pkl"
+    file_name_fr = "covidfaq/bert_fr_model/fr_ood_model.pkl"
+
+    s3.Bucket(BUCKET_NAME).download_file(
+        "en_ood_model.pkl", file_name_en,
+    )
+
+    s3.Bucket(BUCKET_NAME).download_file(
+        "fr_ood_model.pkl", file_name_fr,
+    )
+
+    log.info("OOD models retrieved from s3")
 
 
 def remove_html_tags(data):

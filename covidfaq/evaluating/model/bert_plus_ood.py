@@ -1,8 +1,8 @@
 import json
 
-from bert_reranker.data.data_loader import get_passages_by_source
 from structlog import get_logger
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
     EmbeddingBasedReRankerPlusOODDetector,
 )
@@ -16,10 +16,10 @@ class BertPlusOODEn:
     class __BertPlusOODEn:
         def __init__(self):
             self.model = EmbeddingBasedReRankerPlusOODDetector(
-                "covidfaq/bert_en_model/config.yaml"
+                "covidfaq/bert_en_model/config.yaml", lang="en"
             )
 
-            test_data = get_latest_scrape(lang="en")
+            test_data, _ = get_latest_scrape(lang="en")
 
             (
                 self.source2passages,
@@ -28,7 +28,7 @@ class BertPlusOODEn:
             ) = get_passages_by_source(test_data, keep_ood=False)
             self.model.collect_answers(self.source2passages)
 
-            self.get_answer("what are the symptoms of covid")
+            self.get_answer("what are the symptoms of covid-19")
 
         def get_answer(self, question):
             idx = self.model.answer_question(question, SOURCE)
@@ -69,10 +69,10 @@ class BertPlusOODFr:
     class __BertPlusOODFr:
         def __init__(self):
             self.model = EmbeddingBasedReRankerPlusOODDetector(
-                "covidfaq/bert_fr_model/config.yaml"
+                "covidfaq/bert_fr_model/config.yaml", lang="fr"
             )
 
-            test_data = get_latest_scrape(lang="fr")
+            test_data, _ = get_latest_scrape(lang="fr")
 
             (
                 self.source2passages,
@@ -120,9 +120,9 @@ class BertPlusOODFr:
 
 def get_latest_scrape(lang="en"):
 
-    latest_scrape = "covidfaq/scrape/source_" + lang + "_faq_passages.json"
+    latest_scrape_fname = "covidfaq/scrape/source_" + lang + "_faq_passages.json"
 
-    with open(latest_scrape) as in_stream:
+    with open(latest_scrape_fname) as in_stream:
         test_data = json.load(in_stream)
 
-    return test_data
+    return test_data, latest_scrape_fname

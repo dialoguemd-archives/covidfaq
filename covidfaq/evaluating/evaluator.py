@@ -5,9 +5,9 @@ import json
 import logging
 import time
 
-from bert_reranker.data.data_loader import get_passages_by_source
 from tqdm import tqdm
 
+from bert_reranker.data.data_loader import get_passages_by_source
 from covidfaq.evaluating.model.cheating_model import CheatingModel
 from covidfaq.evaluating.model.embedding_based_reranker import EmbeddingBasedReRanker
 from covidfaq.evaluating.model.embedding_based_reranker_plus_ood_detector import (
@@ -125,7 +125,9 @@ def main():
     elif args.model_type == "embedding_based_reranker_plus_ood":
         if args.config is None:
             raise ValueError("model embedding_based_reranker requires --config")
-        model_to_evaluate = EmbeddingBasedReRankerPlusOODDetector(args.config)
+        model_to_evaluate = EmbeddingBasedReRankerPlusOODDetector(
+            args.config, lang="en"
+        )
     elif args.model_type == "cheating_model":
         _, _, passage_id2index = get_passages_by_source(test_data)
         model_to_evaluate = CheatingModel(test_data, passage_id2index)

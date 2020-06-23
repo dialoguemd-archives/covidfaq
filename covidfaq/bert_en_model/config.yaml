@@ -1,11 +1,18 @@
-# train_file: '/home/jeremy/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/train_overlapping.json'
+# train_file: 'covidfaq/data/covidfaq_data/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/train_overlapping.json'
 # dev_files:
-  # dev_file_1: '/home/jeremy/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/val_overlapping.json'
-# test_file: '/home/jeremy/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/test.json'
+  # dev_file_1: 'covidfaq/data/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/val_overlapping.json'
+# test_file: 'covidfaq/data/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3_newformat/test.json'
 # keep_ood: false
 
 ckpt_to_resume: covidfaq/bert_en_model/output/bert_model.ckpt 
-outlier_model_pickle: covidfaq/bert_en_model/output/sklearn_outlier_model.pkl
+
+outlier:
+    ood_filename: 'covidfaq/bert_en_model/en_ood_model.pkl'
+    model_name: 'local_outlier_factor'
+    training_data_files:
+        - covidfaq/data/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3/train.json
+        - covidfaq/data/covidfaq_data/crowdsource/20200416_quebec_faq_en_cleaned_collection1_2_3/validation.json
+        - covidfaq/data/covidfaq_data/crowdsource/20200522_quebec_faq_en_cleaned_collection4/test.json
 
 accumulate_grad_batches: 1
 batch_size: 64
