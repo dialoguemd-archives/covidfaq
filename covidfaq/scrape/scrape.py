@@ -71,7 +71,11 @@ def load_latest_source_data():
     )
     log.info("data downloaded")
 
+
+def download_cached_embeddings():
     log.info("Downloading cached embeddings")
+    client = boto3.client("s3")
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
     s3.Bucket(BUCKET_NAME).download_file(
         "en_source2embedded_passages.tar",
         "covidfaq/bert_en_model/en_source2embedded_passages.tar",
