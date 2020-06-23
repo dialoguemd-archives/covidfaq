@@ -28,7 +28,7 @@ class BertPlusOODEn:
             ) = get_passages_by_source(test_data, keep_ood=False)
             self.model.collect_answers(self.source2passages)
 
-            self.get_answer("what are the symptoms of covid")
+            self.get_answer("what are the symptoms of covid-19")
 
         def get_answer(self, question):
             idx = self.model.answer_question(question, SOURCE)
