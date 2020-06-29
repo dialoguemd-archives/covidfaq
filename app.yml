@@ -1,5 +1,6 @@
 engine: ~2
 name: covidfaq
+scope: ops
 
 healthcheck:
   liveness:
