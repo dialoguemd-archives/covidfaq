@@ -17,7 +17,21 @@ def upload_OOD_to_s3():
     file_to_upload_fr = "covidfaq/bert_fr_model/fr_ood_model.pkl"
     client.upload_file(file_to_upload_en, BUCKET_NAME, "en_ood_model.pkl")
     client.upload_file(file_to_upload_fr, BUCKET_NAME, "fr_ood_model.pkl")
-    log.info("OOD model uploaded to s3 bucket")
+    log.info("OOD models uploaded to s3 bucket")
+
+
+def upload_embeddings_to_s3():
+    client = boto3.client("s3")
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
+    file_to_upload_en = "covidfaq/bert_en_model/en_source2embedded_passages.tar"
+    file_to_upload_fr = "covidfaq/bert_fr_model/fr_source2embedded_passages.tar"
+    client.upload_file(
+        file_to_upload_en, BUCKET_NAME, "en_source2embedded_passages.tar"
+    )
+    client.upload_file(
+        file_to_upload_fr, BUCKET_NAME, "fr_source2embedded_passages.tar"
+    )
+    log.info("Passages embeddings uploaded to s3 bucket")
 
 
 def instantiate_OOD():
@@ -27,6 +41,7 @@ def instantiate_OOD():
     BertPlusOODEn()
     BertPlusOODFr()
     upload_OOD_to_s3()
+    upload_embeddings_to_s3()
 
 
 if __name__ == "__main__":

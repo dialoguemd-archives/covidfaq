@@ -72,6 +72,21 @@ def load_latest_source_data():
     log.info("data downloaded")
 
 
+def download_cached_embeddings():
+    log.info("Downloading cached embeddings")
+    BUCKET_NAME = os.environ.get("BUCKET_NAME")
+    s3 = boto3.resource("s3")
+    s3.Bucket(BUCKET_NAME).download_file(
+        "en_source2embedded_passages.tar",
+        "covidfaq/bert_en_model/en_source2embedded_passages.tar",
+    )
+    s3.Bucket(BUCKET_NAME).download_file(
+        "fr_source2embedded_passages.tar",
+        "covidfaq/bert_fr_model/fr_source2embedded_passages.tar",
+    )
+    log.info("data downloaded")
+
+
 def download_crowdsourced_data():
     BUCKET_NAME = os.environ.get("BUCKET_NAME")
     # Download the covidfaq_data folder

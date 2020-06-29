@@ -3,9 +3,9 @@ name: covidfaq
 
 healthcheck:
   liveness:
-    initialDelaySeconds: 360
+    initialDelaySeconds: 30
   readiness:
-    initialDelaySeconds: 360
+    initialDelaySeconds: 30
 
 public:
   ingress: true
