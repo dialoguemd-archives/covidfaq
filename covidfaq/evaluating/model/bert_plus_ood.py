@@ -42,6 +42,10 @@ class BertPlusOODEn:
                 answer_dict = self.source2passages[SOURCE][idx]
                 section_header = answer_dict.get("reference").get("section_headers")
                 answer = answer_dict.get("reference").get("section_converted_html")
+
+                # HOTFIX: relative links in answers from qc website
+                answer = fix_broken_links(answer)
+
                 answer_complete = ["## " + section_header[0] + " \n\n " + answer]
 
                 log.info(
@@ -126,3 +130,28 @@ def get_latest_scrape(lang="en"):
         test_data = json.load(in_stream)
 
     return test_data, latest_scrape_fname
+
+
+def fix_broken_links(answer):
+    while answer is not None:
+        to_be_returned = answer
+        answer = fix_broken_link(answer)
+
+    return to_be_returned
+
+
+def fix_broken_link(answer):
+    start = answer.find("](/")
+    if start != -1:
+        end = answer.find(")", answer.find("](/"))
+        answer = answer.replace(
+            answer[start + 2 : end], "quebec.ca" + answer[start + 2 : end]
+        )
+        link = answer[start + 2 : end + 9]
+        new_link = remove_new_line_in_link(link)
+        answer = answer.replace(link, new_link)
+        return answer
+
+
+def remove_new_line_in_link(link):
+    return link.replace("\n", "")
