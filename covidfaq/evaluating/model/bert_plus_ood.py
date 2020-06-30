@@ -145,9 +145,9 @@ def fix_broken_link(answer):
     if start != -1:
         end = answer.find(")", answer.find("](/"))
         answer = answer.replace(
-            answer[start + 2 : end], "quebec.ca" + answer[start + 2 : end]
+            answer[start + 2 : end], "https://www.quebec.ca" + answer[start + 2 : end]
         )
-        link = answer[start + 2 : end + 9]
+        link = answer[start + 2 : end + 21]
         new_link = remove_new_line_in_link(link)
         answer = answer.replace(link, new_link)
         return answer
