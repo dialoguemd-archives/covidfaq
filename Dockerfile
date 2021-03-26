@@ -23,7 +23,7 @@ RUN unzip /tmp/chromedriver.zip chromedriver -d /usr/local/bin/
 
 # install kubectl
 RUN \
-  curl --silent --location --remote-name https://storage.googleapis.com/kubernetes-release/release/v1.16.10/bin/linux/amd64/kubectl \
+  curl --silent --location --remote-name https://storage.googleapis.com/kubernetes-release/release/v1.19.9/bin/linux/amd64/kubectl \
   && chmod +x kubectl \
   && mv kubectl /usr/local/bin/kubectl
 
@@ -36,7 +36,7 @@ ARG GEMFURY_TOKEN
 ENV PIP_EXTRA_INDEX_URL https://pypi.fury.io/${GEMFURY_TOKEN}/dialogue/
 
 # install poetry
-ARG POETRY_VERSION="1.0.9"
+ARG POETRY_VERSION="1.1.5"
 RUN \
   pip install --upgrade pip && \
   pip install "poetry==${POETRY_VERSION}" && \
