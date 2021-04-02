@@ -18,7 +18,7 @@ class Answers(BaseModel):
 @router.get("/answers", response_model=Answers)
 def answers(request: Request, question: str, topk_es: int = None):
 
-    return {"answers": None}
+    return {"answers": []}
 
     # language = request.headers.get("Accept-Language")
 
