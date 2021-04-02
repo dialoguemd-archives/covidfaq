@@ -4,7 +4,7 @@ from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
 
-from ..evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
+# from ..evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
 from ..utils import detect_language
 
 router = APIRouter()
@@ -18,31 +18,33 @@ class Answers(BaseModel):
 @router.get("/answers", response_model=Answers)
 def answers(request: Request, question: str, topk_es: int = None):
 
-    language = request.headers.get("Accept-Language")
+    return {"answers": []}
 
-    formatted_language = format_language(language, question)
+    # language = request.headers.get("Accept-Language")
 
-    if formatted_language == "en":
-        ood_reranker = BertPlusOODEn()
-        answers = ood_reranker.get_answer(question)
-        log.info(
-            "bert_rerank_result_en",
-            answers=answers,
-            question=question,
-            language=language,
-        )
+    # formatted_language = format_language(language, question)
 
-    else:
-        ood_reranker = BertPlusOODFr()
-        answers = ood_reranker.get_answer(question)
-        log.info(
-            "bert_rerank_result_fr",
-            answers=answers,
-            question=question,
-            language=language,
-        )
+    # if formatted_language == "en":
+    #     ood_reranker = BertPlusOODEn()
+    #     answers = ood_reranker.get_answer(question)
+    #     log.info(
+    #         "bert_rerank_result_en",
+    #         answers=answers,
+    #         question=question,
+    #         language=language,
+    #     )
 
-    return {"answers": answers}
+    # else:
+    #     ood_reranker = BertPlusOODFr()
+    #     answers = ood_reranker.get_answer(question)
+    #     log.info(
+    #         "bert_rerank_result_fr",
+    #         answers=answers,
+    #         question=question,
+    #         language=language,
+    #     )
+
+    # return {"answers": answers}
 
 
 def format_language(language, question):
