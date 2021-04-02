@@ -3,12 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from structlog import get_logger
 
 from covidfaq import config, routers
-from covidfaq.evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
-from covidfaq.scrape.scrape import (
-    load_latest_source_data,
-    download_OOD_model,
-    download_cached_embeddings,
-)
+
+# from covidfaq.evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
+# from covidfaq.scrape.scrape import (
+#     load_latest_source_data,
+#     download_OOD_model,
+#     download_cached_embeddings,
+# )
 
 
 app = FastAPI()

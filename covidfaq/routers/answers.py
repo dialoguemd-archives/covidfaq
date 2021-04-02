@@ -4,7 +4,7 @@ from fastapi import APIRouter, Request
 from pydantic import BaseModel
 from structlog import get_logger
 
-from ..evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
+# from ..evaluating.model.bert_plus_ood import BertPlusOODEn, BertPlusOODFr
 from ..utils import detect_language
 
 router = APIRouter()
