@@ -26,8 +26,8 @@ def on_startup():
     log = get_logger()
     log.info("launching", **conf.dict())
 
-    load_latest_source_data()
-    download_OOD_model()
-    download_cached_embeddings()
-    BertPlusOODEn()
-    BertPlusOODFr()
+    # load_latest_source_data()
+    # download_OOD_model()
+    # download_cached_embeddings()
+    # BertPlusOODEn()
+    # BertPlusOODFr()
